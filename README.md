@@ -37,11 +37,12 @@ README.md, LICENSE, CITATION.cff, DATA_AVAILABILITY.md, reproduce.sh
 
 ## Reproduce (offline, no keys)
 ```bash
-pip install numpy pandas pyarrow matplotlib pyyaml
+pip install -r requirements.txt   # numpy, pandas, pyarrow, statsmodels (pinned; Python 3.10)
 bash reproduce.sh
 ```
 All `results/results_*.json`, `results/H1_results.json`, and `results/exhibits/*` regenerate
-byte-for-byte from the frozen data (verified). Confirmatory headline:
+byte-for-byte from the frozen data (verified in a clean virtualenv from the pinned
+`requirements.txt`). No network access is required. Confirmatory headline:
 `primary Δκ(HOM−HET) = 0.336`; real-arm WATCH-stratum flip-share difference `−0.09 (95% CI −0.21, 0.03; not distinguishable from zero)`.
 
 ## Notes

@@ -1,0 +1,17 @@
+# Pinned environment for offline reproduction (bash reproduce.sh).
+# These are the exact versions that produced the committed results/ hashes.
+# Python 3.10.x. No network access is required at run time.
+#
+# Core reproduce path (analysis/*.py read frozen data and write results/*.json):
+numpy==2.2.6
+pandas==2.2.3
+pyarrow==24.0.0          # pandas.read_parquet engine for data/panel/panel.parquet
+statsmodels==0.14.6      # mixed-effects variance decomposition + power validation
+scipy==1.15.3            # statsmodels dependency (pinned for numerical stability)
+patsy==1.0.2             # statsmodels formula parsing
+python-dateutil==2.9.0.post0
+pytz==2026.2
+#
+# Optional — only needed to REGENERATE figures/config, not to reproduce any number:
+# matplotlib==3.10.9
+# pyyaml==6.0.3
