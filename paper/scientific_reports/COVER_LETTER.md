@@ -2,23 +2,26 @@
 
 Dear Editors,
 
-We submit our manuscript, **"Prompt Choice Alone Moves AI Credit Ratings Across the
-Investment-Grade Line,"** for consideration as an Article in *Scientific Reports*.
+We submit our manuscript, **"Sensitivity of AI-Generated Credit Ratings to Elicitation Choices,"**
+for consideration as an Article in *Scientific Reports*.
 
 Large language models are increasingly used as credit, risk, and trading analysts, on the tacit
 assumption that a model holds a stable latent assessment that the prompt merely reads out. We test
 that assumption directly with a **pre-registered specification-curve design**: a fixed 90-item
 firm-profile battery with an objective Altman Z″ benchmark, crossed with a factorial grid of
-defensible prompt-and-model choices, replicated across seeds and three model families
-(12,960 elicitations). We find that the machine credit rating moves on wording and irreducible
-run-to-run noise more than on any tunable design choice; that the fragility survives honored
-determinism and cannot be escaped by switching or pooling vendors; and that the opinion holds no
-stable rating resolution, crossing the investment-grade/high-yield line on 27% of specification
-pairs. We translate this into the units a risk function acts on—portfolio turnover, credit spread,
-and a post-hoc Basel capital recast—and, to answer the "use real data" objection, we first
-**demonstrate that naive real-firm LLM evaluation is contaminated by memorization** and then show,
-under a pre-registered fingerprinting decontamination gate, that the instability **replicates on
-real anonymized issuers** benchmarked to disclosed agency ratings.
+defensible elicitation choices (provider, model version, temperature, prompt paraphrase, output
+format, few-shot exemplars, and answer presentation), replicated across seeds and three model
+families (12,960 elicitations). We find that although firm fundamentals explain most rating
+variation, the machine credit rating retains economically meaningful sensitivity to defensible
+elicitation choices and to residual run-to-run variation, more than to any single tunable design
+choice; that the fragility survives honored determinism and cannot be escaped by switching or
+pooling vendors; and that the opinion holds no stable rating resolution, crossing the
+investment-grade/high-yield line on 27% of matched elicitation pairs. We translate this into the
+units a risk function acts on—portfolio turnover, credit spread, and a post-hoc Basel capital
+recast—and, to answer the "use real data" objection, we first **demonstrate that naive real-firm LLM
+evaluation can be contaminated by memorization** and then show, under a pre-registered fingerprinting
+decontamination gate, that **substantial specification instability is also observed on real
+anonymized issuers** benchmarked to disclosed agency ratings.
 
 We believe the work fits *Scientific Reports* for three reasons. (i) **Broad relevance**: it concerns
 the reliability of AI decision systems in a high-stakes deployment, of interest across machine

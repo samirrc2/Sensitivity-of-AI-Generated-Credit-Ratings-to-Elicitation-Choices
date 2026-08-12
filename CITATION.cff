@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this artifact, please cite it as below."
-title: "Prompt Choice Alone Moves AI Credit Ratings Across the Investment-Grade Line — reproducibility artifact"
+title: "Sensitivity of AI-Generated Credit Ratings to Elicitation Choices — reproducibility artifact"
 abstract: >
   Reproducibility artifact (code, frozen response corpus, analysis outputs) for a
   pre-registered specification-curve study of LLM credit-rating instability. From a frozen

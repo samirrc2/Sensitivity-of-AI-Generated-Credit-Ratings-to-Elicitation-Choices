@@ -7,37 +7,40 @@
 \theoremstyle{thmstyleone}
 \raggedbottom
 \begin{document}
-\title[Prompt Choice Moves AI Credit Ratings]{Prompt Choice Alone Moves AI Credit Ratings Across the Investment-Grade Line}
+\title[Sensitivity of AI Credit Ratings to Elicitation Choices]{Sensitivity of AI-Generated Credit Ratings to Elicitation Choices}
 \author[1]{\fnm{Samir} \sur{Chincholikar}}\email{samir.chincholikar@gmail.com}
 \author*[1]{\fnm{Robin} \sur{Chawla}}\email{robin.chawla.cse14@iitbhu.ac.in}
 \affil[1]{\orgname{Independent researcher}, \orgaddress{\city{New York}, \country{USA}}}
 \abstract{Large language models (LLMs) are increasingly prompted for credit assessments, yet it is
 unknown whether the model holds a stable latent view the prompt reads out, or the elicitation
 manufactures the rating. Using a pre-registered specification-curve design---a fixed 90-item battery
-with an objective Altman Z$''$ benchmark, crossed with a factorial grid of prompt-and-model choices
-across three model families (12{,}960 elicitations, 10{,}793 returning content)---we measure how far a
-credit rating moves on methodology alone. The instability is not a tunable knob: no design axis explains more than
-$\sim$5\% of the rating variance, while
-run-to-run noise explains about a quarter. It is not a
-temperature artifact: fragility survives honored determinism (permutation $p=0.001$). The opinion
-holds no stable resolution---chance-corrected agreement peaks at only $\kappa=0.46$, even at the
-coarse investment-grade/high-yield split, across which 27\% of pairs disagree. Switching
-or pooling vendors neither fixes nor diversifies the failure. Economically, the modal call turns over
-$\sim$57\% of positions on wording alone, and a post-hoc capital recast swings the same \$45bn book's
-Pillar-1 capital \$2.0--4.2bn. The pattern replicates on 31 anonymized, perturbed real issuers
-benchmarked to disclosed agency ratings under a decontamination gate. The prompt specification is
-itself a model-risk parameter.}
+with an objective Altman Z$''$ benchmark, crossed with a factorial grid of elicitation choices
+(provider, model version, temperature, prompt paraphrase, output format, few-shot exemplars, and answer
+presentation) across three model families (12{,}960 elicitations, 10{,}793 returning content)---we
+measure how far a credit rating moves across defensible elicitation choices. The instability is not a
+single tunable knob: no design axis explains more than $\sim$5\% of the rating variance, while
+run-to-run variation explains about a quarter. It is not a temperature artifact: fragility survives
+honored determinism (permutation $p=0.001$). The opinion holds no stable resolution---chance-corrected
+agreement peaks at only $\kappa=0.46$, even at the coarse investment-grade/high-yield split, across
+which 27\% of matched elicitation pairs disagree. Switching or pooling vendors does not eliminate the
+instability. Economically, the modal call turns over $\sim$57\% of positions across elicitation choices,
+and a post-hoc capital recast swings the same \$45bn book's Pillar-1 capital \$2.0--4.2bn. Substantial
+specification instability is also observed in 31 anonymized, perturbed real issuers benchmarked to
+disclosed agency ratings under a decontamination gate. The elicitation specification is itself a
+model-risk parameter.}
 \keywords{large language models, credit ratings, specification-curve analysis, model risk, reproducibility, investment grade}
 \maketitle
 
 \section{Introduction}
-Ask a large language model whether a firm is investment grade; reword the same question over identical
-financials, or query a different vendor's model, and 27\% of the time the verdict crosses the
+Ask a large language model whether a firm is investment grade; then vary a defensible elicitation
+choice over identical financials---reword the prompt, change the output format, switch the temperature,
+or query a different vendor's model---and for 27\% of matched pairs the verdict crosses the
 investment-grade/high-yield boundary---the single most consequential line in credit. That boundary
 gates index inclusion, ratings-based investment mandates, collateral eligibility, covenant triggers,
 and regulatory capital; a name that crosses it is a fallen angel, forced-sold by mandate-constrained
-holders. When the crossing is driven not by the firm's fundamentals but by how an analyst phrased the
-prompt or which vendor answered, the model has stopped measuring credit and started manufacturing it.
+holders. When the crossing is driven not by the firm's fundamentals but by how the rating was
+elicited---which model, which wording, which format---the model has stopped measuring credit and
+started manufacturing it.
 
 A rapidly growing body of practice treats LLMs as credit, risk, and trading analysts
 \cite{hens2025risk}: desks prompt a model for a rating view, a buy/hold/sell call, or a directional
@@ -60,8 +63,8 @@ across the IG/HY line, portfolio turnover, implied credit spread, and regulatory
 show the fragility survives the natural rebuttals: honored determinism, and vendor choice. Fourth, we
 answer the ``use real data'' objection with a decontaminated real-firm arm: we show that naive
 real-issuer evaluation is contaminated by model memorization, build a perturbed, screened, and
-fingerprint-gated sample of real rated issuers, and demonstrate that the instability replicates there
-too. We make no claim that LLMs rate credit \emph{accurately}; our estimand throughout is stability,
+fingerprint-gated sample of real rated issuers, and show that substantial specification instability is
+observed there too. We make no claim that LLMs rate credit \emph{accurately}; our estimand throughout is stability,
 which is what a risk manager needs before any accuracy claim can matter \cite{drinkall2025forecasting}.
 
 \section{Related work}
@@ -116,9 +119,10 @@ design axis, to the provider$\times$item interaction, and to residual seed-level
 (Table~\ref{tab:var}). The firm dominates ($\sim$63\%), as it should. What matters for the practitioner
 is the rest: the researcher-choice axes are strikingly flat---no single axis exceeds five percent,
 answer presentation being largest at $\sim$5.0\%, while the provider a desk would most expect to matter
-contributes only $\sim$1.3\% as a main effect---yet irreducible seed noise, the pure run-to-run draw,
-is the single largest non-item component at $\sim$25\%. The instability is not concentrated in a design
-choice a careful analyst could optimize; it is dominated by irreducible stochasticity. A ``better''
+contributes only $\sim$1.3\% as a main effect---yet residual seed-level run-to-run variation, the pure
+repeated-call draw, is the single largest non-item component at $\sim$25\%. The instability is not
+concentrated in a design choice a careful analyst could optimize; it is dominated by residual
+run-to-run variation. A ``better''
 prompt buys little, because the prompt is not where most of the movement lives: the specification
 curve of the credit rating (Fig.~\ref{fig:speccurve}) fans out across defensible choices while the
 fixed firm fundamentals do not (Table~\ref{tab:var}).
@@ -147,7 +151,7 @@ Model provider ($A_1$, main effect) & $\sim$1.3\% \\\bottomrule
 
 \subsection{Determinism does not save you}
 The natural rebuttal is that the noise floor is an artifact---two of the three providers ignore
-temperature $=0$, so ``irreducible noise'' might vanish under genuine determinism. We pre-registered
+temperature $=0$, so residual run-to-run variation might vanish under genuine determinism. We pre-registered
 the test. Restricting to the one provider$\times$setting whose metadata confirms honored determinism
 (Google at temperature 0), the fragility does not vanish: across deterministic prompt configurations,
 majority-correct credit-band accuracy still ranges 0.36--0.69, and 62.5\% of specifications flip the
@@ -166,7 +170,7 @@ is a negligible \emph{level} effect but enters through a large provider$\times$i
 vendors disagree, but idiosyncratically, name by name, not as a constant shift a desk could calibrate
 out---unlike the persistent, characterizable differences of opinion documented among human rating
 agencies \cite{cantorpacker1997}. Switching vendors does not reliably change the rating on a given
-name, and pooling vendors does not diversify the failure.
+name, and pooling vendors does not eliminate the observed specification instability.
 
 \subsection{A rating that will not hold a notch---or the investment-grade line}
 Because the credit view is elicited at full letter resolution (AAA\ldots C) and coarsened
@@ -183,11 +187,16 @@ information that notch-level distinctions carry \cite{kligersarig2000,tang2009} 
 reliably delivered by a machine rater elicited this way.
 
 \subsection{What it costs: turnover, spreads, and capital}
-The stability question becomes a markets question at the boundary. On the per-comparison rate---the
-share of matched specification pairs whose verdicts fall on opposite sides of the line---26.8\% (95\% CI
-20.9--32.5\%) of paired specifications move a name across the IG/HY boundary on prompt choice alone. A desk
+The stability question becomes a markets question at the boundary. We define the per-comparison flip
+rate as follows: for each firm profile we draw two of its elicitations uniformly at random from the full
+grid---so that the two draws may differ on any elicitation axis (provider, model version, temperature,
+prompt paraphrase, output format, few-shot exemplars, answer presentation) and on the random seed, with
+no axis held fixed---and record whether they fall on opposite sides of the IG/HY line; the reported rate
+is the mean of this per-firm flip probability (one minus the Gini--Simpson concentration of the firm's
+IG/HY labels). On this measure, 26.8\% (95\% CI 20.9--32.5\%) of matched elicitation pairs move a name
+across the IG/HY boundary. A desk
 mechanically following the modal call would incur 56.8\% (95\% CI 50.9--62.7\%) turnover attributable
-purely to methodological noise; the effect remains economically large even at the lower bound of each interval.
+purely to elicitation choices; the effect remains economically large even at the lower bound of each interval.
 Anchored to the Cornaggia et al.\ rating-spread schedule (80--140 bps per 2--3 notches)
 \cite{cornaggia2018}, the within-name spread range has a median near 860 bps, inflated by CCC
 saturation; for non-saturating names the median range is $\sim$261 bps, never below $\sim$106 bps. And
@@ -220,11 +229,12 @@ Pillar-1 capital range, same \$45bn book (post-hoc cut) & \$2.0bn -- \$4.2bn \\\
 A natural objection is that the instability reflects our constructed inputs. But evaluating LLMs on
 real issuers is itself contaminated: asked to name the company behind an anonymized financial profile,
 Gemini-Flash identifies 22\% of mid-cap issuers from the figures alone, with hits clustered and
-reasoning-traced. Naive real-firm evaluation therefore measures recall, not judgment. We nonetheless
-build a decontaminated arm: 31 US mid-cap (\$2--15B) business-to-business issuers whose latest 10-K
-discloses a current agency rating (extracted with a verbatim quotation, permanent SEC URL, and document
-hash). Each dollar figure is scaled by a per-issuer factor drawn log-uniform$[0.6,1.7]$---preserving
-every ratio, hence the rating task, while breaking figure lookup---and consumer-facing firms are
+reasoning-traced. Naive real-firm evaluation can therefore conflate memorized issuer information with
+independent credit judgment. We nonetheless build a decontaminated arm: 31 US mid-cap (\$2--15B)
+business-to-business issuers whose latest 10-K discloses a current agency rating (extracted with a
+verbatim quotation, permanent SEC URL, and document hash). Each dollar figure is scaled by a per-issuer
+factor drawn log-uniform$[0.6,1.7]$---which preserves the financial-ratio structure used by the
+benchmark while disrupting exact-figure lookup---and consumer-facing firms are
 screened out. A pre-registered fingerprinting gate certifies decontamination at 2.9\% identification.
 Rating each firm across a frozen 12-specification grid at three seeds, and re-scoring the constructed
 battery on the identical grid, the real-arm WATCH flip-share is 0.226 (95\% CI 0.147--0.308), compared
@@ -255,9 +265,10 @@ Machine band vs.\ disclosed agency rating (descriptive) & 54\% \\\bottomrule
 
 \begin{figure}[t]\centering
 \includegraphics[width=0.66\textwidth]{figure1_ighy.pdf}
-\caption{Share of matched specification pairs whose credit verdicts differ, by rating granularity. Even
-at the coarse investment-grade/high-yield split---the most consequential line in credit---27\% of pairs
-disagree on prompt choice alone.}\label{fig:ighy}
+\caption{Share of matched elicitation pairs whose credit verdicts differ, by rating granularity, where
+the two elicitations of a firm may differ on any grid axis (provider, model version, temperature,
+paraphrase, format, few-shot, presentation) and seed. Even at the coarse investment-grade/high-yield
+split---the most consequential line in credit---27\% of matched pairs disagree.}\label{fig:ighy}
 \end{figure}
 \begin{figure}[t]\centering
 \includegraphics[width=0.62\textwidth]{figureA_kappa.pdf}
@@ -267,13 +278,14 @@ never reaches the $\kappa=0.6$ substantial-agreement threshold, peaking at 0.46 
 \end{figure}
 
 \section{Discussion}
-The message for AI-assisted credit is blunt: a single-prompt LLM rating is not a measurement, it is one
-draw from a distribution wide enough to reclassify a firm across the investment-grade line, to churn a
-portfolio, and to double a capital charge. The fragility is dominated by irreducible run-to-run noise
-rather than any prompt-design choice a desk could optimize; it survives honored determinism; it cannot
-be escaped by switching or pooling vendors; and the machine credit opinion holds no stable rating
-resolution, not even the coarse IG/HY split. Critically, the pattern is not an artifact of synthetic
-inputs: it replicates on real issuers under a design that first \emph{demonstrates} the contamination
+The message for AI-assisted credit is blunt: a single-prompt LLM rating should not be treated as a
+specification-invariant measurement, it is one draw from a distribution wide enough to reclassify a firm
+across the investment-grade line, to churn a portfolio, and to double a capital charge. The fragility is
+dominated by residual run-to-run variation rather than any single elicitation choice a desk could
+optimize; it survives honored determinism; it cannot be escaped by switching or pooling vendors; and the
+machine credit opinion holds no stable rating resolution, not even the coarse IG/HY split. Critically,
+the pattern is not an artifact of synthetic inputs: the qualitative finding of substantial specification
+instability extends to real issuers under a design that first \emph{demonstrates} the contamination
 of naive real-firm evaluation and then removes it. For a risk function, the practical implication is
 that the prompt specification is itself a model-risk parameter under any serious governance standard
 \cite{srletter2011}: a rating reported without its specification curve overstates what the model
@@ -299,20 +311,25 @@ ratings, and decontamination gates applied to other high-stakes financial LLM ta
 
 \section{Conclusion}
 Reproducibility in AI-assisted credit cannot be assumed from a single prompt. Across a pre-registered
-specification curve, the machine credit rating moves on wording and run-to-run noise more than on
-fundamentals; it crosses the investment-grade line 27\% of the time on methodology alone; it holds no
-stable resolution; and the instability survives determinism, vendor choice, and---under a
-decontamination gate---the move to real issuers. The specification is part of the result. A machine
-rating should be reported, governed, and priced with its specification curve attached.
+specification curve, although firm fundamentals explain most rating variation, substantial
+specification- and run-level instability remains: the machine credit rating crosses the investment-grade
+line for 27\% of matched elicitation pairs; it holds no stable resolution; and the instability survives
+determinism, vendor choice, and---under a decontamination gate---the move to real issuers. The
+specification is part of the result. A machine rating should be reported, governed, and priced with its
+specification curve attached.
 
 \section{Methods}
 \textbf{Battery and benchmark.} The battery is a fixed set of 90 firm-quarter profiles, each carrying a
 compact financial statement (revenue, EBIT, total assets and liabilities, equity, working-capital
-components, retained earnings). For the credit task, each item's benchmark band is the Altman Z$''$
-bond-rating equivalent \cite{altman1968} of its profile (coefficients 6.56/3.26/6.72/1.05; cutoffs 2.60/1.10), with bands
-balanced 15/15/15 across the safe/watch/distress strata. The benchmark was frozen under a
-pre-registration hash before any model query; an independent post-hoc re-execution from the frozen
-facts reproduces 45/45 credit-item bands.
+components, retained earnings). The 90 profiles comprise two equally sized task families: 45
+\emph{credit-health} items, on which the model returns a letter/band credit rating, and 45
+\emph{directional} items, on which it returns a buy/hold/sell call (used for the turnover translation in
+Section~3.5). The credit-rating results and the IG/HY flip rate are computed on the 45 credit-health
+items; the directional items enter only the portfolio-turnover measure. For the credit task, each item's
+benchmark band is the Altman Z$''$ bond-rating equivalent \cite{altman1968} of its profile (coefficients
+6.56/3.26/6.72/1.05; cutoffs 2.60/1.10), with the 45 credit-health items balanced 15/15/15 across the
+safe/watch/distress strata. The benchmark was frozen under a pre-registration hash before any model
+query; an independent post-hoc re-execution from the frozen facts reproduces all 45 credit-item bands.
 
 \textbf{Specification grid.} Seven researcher-choice axes are crossed: provider (OpenAI, Google, xAI),
 model version (a current and a prior snapshot per provider), temperature (0 and 1.0), prompt paraphrase
@@ -348,7 +365,7 @@ These translations are labeled post-hoc extensions of the frozen analysis.
 recent 10-K discloses a current long-term agency rating (S\&P primary, else Moody's/Fitch mapped),
 extracted with a verbatim quotation, permanent SEC URL, and document hash. To preclude memorization,
 every dollar figure is multiplied by a single per-issuer factor drawn log-uniform$[0.6,1.7]$, which
-preserves all financial ratios---and hence the rating task---while breaking exact-figure lookup;
+preserves the financial-ratio structure used by the benchmark while disrupting exact-figure lookup;
 consumer-facing sectors are screened out. A pre-registered fingerprinting gate probes whether either
 model can name the issuer from the anonymized profile; the sample passes at 2.9\% identification
 ($<5\%$ threshold). Each firm is rated across a frozen 12-specification grid (presentation $\times$

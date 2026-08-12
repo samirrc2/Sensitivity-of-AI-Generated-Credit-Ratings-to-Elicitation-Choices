@@ -1,4 +1,4 @@
-# Prompt Choice Alone Moves AI Credit Ratings Across the Investment-Grade Line
+# Sensitivity of AI-Generated Credit Ratings to Elicitation Choices
 
 Reproducibility artifact for the *Scientific Reports* (Springer Nature) submission of the same title.
 
