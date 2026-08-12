@@ -1,10 +1,12 @@
 # Prompt Choice Alone Moves AI Credit Ratings Across the Investment-Grade Line
 
-Reproducibility artifact for the manuscript of the same title (targeting *Scientific Reports*;
-originally drafted for *Finance Research Letters*).
+Reproducibility artifact for the *Scientific Reports* (Springer Nature) submission of the same title.
 
-**Authors:** Samir Chincholikar (Independent researcher) · Robin Chawla (corresponding author,
-affiliation pending)
+**Authors:** Samir Chincholikar (Independent researcher, New York, USA) · Robin Chawla (Independent researcher, New York, USA, corresponding author)
+**ORCID:** [0009-0007-2779-3492](https://orcid.org/0009-0007-2779-3492) · [0009-0007-2807-3948](https://orcid.org/0009-0007-2807-3948)
+**Contact:** robin.chawla.cse14@iitbhu.ac.in · samir.chincholikar@gmail.com
+**Repository:** https://github.com/samirrc2/prompt-choice-credit-ratings
+**Zenodo DOI:** *(minted at deposit — add `https://doi.org/10.5281/zenodo.…`)*
 
 Every number, table, and figure regenerates from a **frozen response corpus** (90-item battery ×
 48 specifications × 3 seeds ≈ 12,960 elicitations across three model families) plus a

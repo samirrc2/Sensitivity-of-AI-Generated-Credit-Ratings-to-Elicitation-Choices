@@ -1,0 +1,28 @@
+{
+  "title": "Prompt Choice Alone Moves AI Credit Ratings Across the Investment-Grade Line — reproducibility artifact",
+  "upload_type": "software",
+  "description": "<p>Reproducibility artifact for the Scientific Reports submission <em>Prompt Choice Alone Moves AI Credit Ratings Across the Investment-Grade Line</em>. A pre-registered specification-curve (multiverse) study of large-language-model credit-rating instability. From a frozen corpus of 12,960 elicitations (90-item firm-profile battery with an objective Altman Z'' benchmark, crossed with a 48-specification factorial grid of prompt-and-model choices, three seeds, three model families) the analysis regenerates the mixed-effects variance decomposition, the honored-determinism permutation test, within/cross-vendor Fleiss-kappa agreement, the granularity-kappa ladder, and the economic translation (portfolio turnover, Cornaggia-anchored spread, a post-hoc Basel CRE20 capital recast, and the RCAP calibration). A decontaminated real-firm arm (31 anonymized, per-issuer-perturbed issuers benchmarked to disclosed agency ratings, under a pre-registered fingerprinting gate) reproduces the WATCH-stratum flip-share equivalence. The reproducible run is offline, deterministic and free; live model capture (vendor API keys) is intentionally excluded.</p>",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "creators": [
+    {
+      "name": "Chincholikar, Samir",
+      "orcid": "0009-0007-2779-3492",
+      "affiliation": "Independent researcher, New York, USA"
+    },
+    {
+      "name": "Chawla, Robin",
+      "orcid": "0009-0007-2807-3948",
+      "affiliation": "Independent researcher, New York, USA"
+    }
+  ],
+  "keywords": [
+    "large language models",
+    "credit ratings",
+    "specification-curve analysis",
+    "model risk",
+    "reproducibility",
+    "investment grade"
+  ],
+  "notes": "Code released under MIT (see LICENSE); data, analysis outputs and text under CC-BY-4.0. Corresponding author: Robin Chawla (robin.chawla.cse14@iitbhu.ac.in). Working copy: https://github.com/samirrc2/prompt-choice-credit-ratings. Insert related-publication DOI at deposit. Live-capture SDKs (openai, google-genai) are not required to reproduce results from the frozen data."
+}
