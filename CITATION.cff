@@ -9,7 +9,9 @@ abstract: >
   within/cross-vendor agreement, granularity-kappa, and the economic translation (turnover,
   Cornaggia-anchored spread, post-hoc Basel capital recast, RCAP calibration). A decontaminated
   real-firm arm (31 anonymized, perturbed issuers benchmarked to disclosed agency ratings; a
-  pre-registered fingerprinting gate) reproduces the WATCH-stratum flip-share equivalence.
+  pre-registered fingerprinting gate) shows the WATCH-stratum flip-share replicates (not
+  distinguishable from the constructed battery; a formal TOST equivalence test is inconclusive
+  at this sample size).
 type: software
 authors:
   - family-names: "Chincholikar"

@@ -133,6 +133,14 @@
  },
  "block_econ": {
   "table4.PRIMARY_percomparison_ighy_flip": 0.2682,
+  "table4.PRIMARY_percomparison_ighy_flip_CI95": [
+   0.2093,
+   0.3248
+  ],
+  "table4.implied_turnover_CI95": [
+   0.5086,
+   0.6265
+  ],
   "table4.draws_per_name": 120,
   "table4.ig_hy_crossing_pct": 97.8,
   "table4.ig_hy_denominator": 45,

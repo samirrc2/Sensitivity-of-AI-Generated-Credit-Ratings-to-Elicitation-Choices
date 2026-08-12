@@ -48,7 +48,7 @@ MIT. No proprietary data and no live model access are needed to reproduce the pa
 **1. Frozen corpus → results (the reproduction of record).**
 `bash reproduce.sh` regenerates every `results/results_*.json`, `H1_results.json`, and exhibit
 **byte-for-byte** from `data/panel/panel.parquet` + `data/frozen/*` — offline, no API calls, no keys.
-Verified: `results.json = 7b86f6a7…`, real-arm `diff = −0.0914 SUPPORTED`.
+Verified: `results.json = 580f1f47…`, real-arm `diff = −0.0914 (95% CI −0.21, 0.03; not distinguishable from zero, TOST inconclusive)`.
 
 **2. Raw responses → panel → results (the full chain, provided for auditors).**
 The complete raw corpus — **12,960 per-call model responses** — is released at

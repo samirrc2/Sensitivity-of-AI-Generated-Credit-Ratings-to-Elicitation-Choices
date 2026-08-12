@@ -171,9 +171,16 @@ def economic():
     # PRIMARY stability measure (per-comparison, does NOT accumulate with #draws):
     #   pick two random (spec,seed) draws for a name -> P(they land on opposite sides of IG/HY).
     draws = d.groupby("item_id").ighy.size()
-    percomp_ighy_flip = float(np.mean([1 - float((g.ighy.value_counts(normalize=True) ** 2).sum())
-                                       for _, g in d.groupby("item_id")]))
+    flip_per_item = np.array([1 - float((g.ighy.value_counts(normalize=True) ** 2).sum())
+                              for _, g in d.groupby("item_id")])
+    percomp_ighy_flip = float(flip_per_item.mean())
+    def _bootci(arr, reps=2000):   # issuer-clustered percentile bootstrap 95% CI
+        bs = np.array([float(np.mean(rng.choice(arr, len(arr), replace=True))) for _ in range(reps)])
+        return [round(float(np.percentile(bs, 2.5)), 4), round(float(np.percentile(bs, 97.5)), 4)]
+    flip_ci = _bootci(flip_per_item); turn_ci = _bootci(turn.values)
     return {"table4.PRIMARY_percomparison_ighy_flip": round(percomp_ighy_flip, 4),
+            "table4.PRIMARY_percomparison_ighy_flip_CI95": flip_ci,
+            "table4.implied_turnover_CI95": turn_ci,
             "table4.draws_per_name": int(round(float(draws.mean()))),
             "table4.ig_hy_crossing_pct": round(float(straddle.mean()) * 100, 1),
             "table4.ig_hy_denominator": int(d.item_id.nunique()),

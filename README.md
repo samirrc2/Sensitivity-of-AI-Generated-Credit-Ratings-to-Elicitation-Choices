@@ -42,7 +42,7 @@ bash reproduce.sh
 ```
 All `results/results_*.json`, `results/H1_results.json`, and `results/exhibits/*` regenerate
 byte-for-byte from the frozen data (verified). Confirmatory headline:
-`primary Δκ(HOM−HET) = 0.336`; real-arm WATCH-stratum flip-share difference `−0.09 (inside ±0.15)`.
+`primary Δκ(HOM−HET) = 0.336`; real-arm WATCH-stratum flip-share difference `−0.09 (95% CI −0.21, 0.03; not distinguishable from zero)`.
 
 ## Notes
 - `capture/` is provided for transparency only; reproduction never calls a model API.

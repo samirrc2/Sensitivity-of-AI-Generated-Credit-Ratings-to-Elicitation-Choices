@@ -1,3 +1,9 @@
-0fc164e97d1e93c478f93fe17fb22929597359f3bb1379313b54e811f3b3e5d3
-# files (in order): results.json, results_addenda.json, results_market.json, results_capital.json, run_analysis.py, addenda.py, market_analysis.py, capital_analysis.py
-# T8 POST-HOC ADDITION extends the manifest with results_capital.json + capital_analysis.py; confirmatory files unchanged.
+8a13ee89111e88d316a6465e536fe9176dce1e835c8fb1d48656dc2c52c33226
+# Combined analysis-stage manifest.
+# Recipe (verifiable): sha256 over the raw bytes of the files below, concatenated in this exact order:
+#   results/results.json, results/results_addenda.json, results/results_market.json, results/results_capital.json,
+#   analysis/run_analysis.py, analysis/addenda.py, analysis/market_analysis.py, analysis/capital_analysis.py
+# The single-file confirmatory manifest results/MANIFEST_ANALYSIS.sha256 (sha256 of results.json + run_analysis.py)
+# is regenerated automatically by run_analysis.py and is the authoritative check for the primary result.
+# T8 POST-HOC ADDITION includes results_capital.json + capital_analysis.py; confirmatory files unchanged.
+# Regenerated after the CI/TOST reporting fix (bootstrap 95% CIs on flip/turnover; TOST equivalence test).

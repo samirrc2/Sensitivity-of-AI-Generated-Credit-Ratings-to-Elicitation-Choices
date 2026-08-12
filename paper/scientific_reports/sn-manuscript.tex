@@ -3,7 +3,7 @@
 \usepackage{multirow}
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{booktabs}
-\usepackage[colorlinks=true,allcolors=blue]{hyperref}
+\hypersetup{colorlinks=true,allcolors=blue}
 \theoremstyle{thmstyleone}
 \raggedbottom
 \begin{document}
@@ -184,9 +184,10 @@ reliably delivered by a machine rater elicited this way.
 
 \subsection{What it costs: turnover, spreads, and capital}
 The stability question becomes a markets question at the boundary. On the per-comparison rate---the
-share of matched specification pairs whose verdicts fall on opposite sides of the line---27\% of paired
-specifications move a name across the IG/HY boundary on prompt choice alone. A desk mechanically
-following the modal call would incur $\sim$57\% turnover attributable purely to methodological noise.
+share of matched specification pairs whose verdicts fall on opposite sides of the line---26.8\% (95\% CI
+20.9--32.5\%) of paired specifications move a name across the IG/HY boundary on prompt choice alone. A desk
+mechanically following the modal call would incur 56.8\% (95\% CI 50.9--62.7\%) turnover attributable
+purely to methodological noise; the effect remains economically large even at the lower bound of each interval.
 Anchored to the Cornaggia et al.\ rating-spread schedule (80--140 bps per 2--3 notches)
 \cite{cornaggia2018}, the within-name spread range has a median near 860 bps, inflated by CCC
 saturation; for non-saturating names the median range is $\sim$261 bps, never below $\sim$106 bps. And
@@ -209,8 +210,8 @@ Credit-band accuracy range, honored-determinism subgrid & 0.36--0.69 \\
 Permutation test, determinism subgrid & $p=0.001$ \\
 Within- vs cross-vendor agreement (band / letter) & 73.7/50.4 $\cdot$ 22.5/5.2 \\
 Max chance-corrected agreement (Fleiss $\kappa$, IG/HY) & 0.46 (no scale $\geq0.6$) \\
-Per-comparison IG/HY boundary flip & 27\% \\
-Implied turnover (modal-call instability) & $\sim$57\% \\
+Per-comparison IG/HY boundary flip & 26.8\% (95\% CI 20.9--32.5\%) \\
+Implied turnover (modal-call instability) & 56.8\% (95\% CI 50.9--62.7\%) \\
 Implied spread range per name (non-saturating / median) & $\sim$261 / $\sim$860 bps \\
 Pillar-1 capital range, same \$45bn book (post-hoc cut) & \$2.0bn -- \$4.2bn \\\bottomrule
 \end{tabular}\end{table}
@@ -226,11 +227,15 @@ hash). Each dollar figure is scaled by a per-issuer factor drawn log-uniform$[0.
 every ratio, hence the rating task, while breaking figure lookup---and consumer-facing firms are
 screened out. A pre-registered fingerprinting gate certifies decontamination at 2.9\% identification.
 Rating each firm across a frozen 12-specification grid at three seeds, and re-scoring the constructed
-battery on the identical grid, the WATCH-stratum band flip-share is 0.23 (95\% CI 0.15--0.31) against
-0.32 (0.22--0.41) for the battery---a difference of $-0.09$ (95\% CI $-0.21$, $0.03$), inside the
-pre-registered $\pm0.15$ equivalence bound (Table~\ref{tab:realarm}). Instability replicates on real,
-decontaminated issuers; the lower point estimate is consistent with real WATCH names sitting farther
-from band thresholds, not with residual memorization. Model bands match the disclosed agency rating
+battery on the identical grid, the real-arm WATCH flip-share is 0.226 (95\% CI 0.147--0.308), compared
+with 0.318 (95\% CI 0.223--0.406) in the matched battery. The estimated difference is $-0.091$
+(95\% CI $-0.213$ to $0.032$) (Table~\ref{tab:realarm}). Although the difference is not statistically
+distinguishable from zero, formal equivalence within the pre-registered $\pm0.15$ margin is not
+established (two-one-sided-tests $p=0.179$), reflecting limited power in the 16-real/15-battery WATCH
+samples. The real-firm arm therefore provides evidence that substantial specification instability
+persists in real issuers, while the data are insufficient to establish quantitative equivalence with
+the constructed battery; the somewhat lower point estimate is consistent with real WATCH names sitting
+farther from band thresholds, not with residual memorization. Model bands match the disclosed agency rating
 only 54\% of the time.
 
 \begin{table}[t]\centering
@@ -240,9 +245,11 @@ only 54\% of the time.
 Quantity & Result \\\midrule
 Fingerprint identification, naive (exact figures) & 22\% \\
 Fingerprint identification, decontaminated (gate) & 2.9\% \\
-WATCH-stratum flip-share, real arm & 0.23 (0.15--0.31) \\
-WATCH-stratum flip-share, battery (same 12 specs) & 0.32 (0.22--0.41) \\
-Difference (real $-$ battery) & $-0.09$ ($-0.21$, $0.03$) \\
+WATCH-stratum flip-share, real arm & 0.226 (0.147--0.308) \\
+WATCH-stratum flip-share, battery (same 12 specs) & 0.318 (0.223--0.406) \\
+Difference (real $-$ battery), 95\% CI & $-0.091$ ($-0.213$, $0.032$) \\
+Equivalence test (TOST, $\pm0.15$ margin) & $p=0.179$ (not established; underpowered) \\
+Interpretation & substantial instability persists; equivalence not established \\
 Machine band vs.\ disclosed agency rating (descriptive) & 54\% \\\bottomrule
 \end{tabular}\end{table}
 
