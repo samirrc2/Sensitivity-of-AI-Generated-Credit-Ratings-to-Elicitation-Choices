@@ -46,7 +46,13 @@ byte-for-byte from the frozen data (verified). Confirmatory headline:
 
 ## Notes
 - `capture/` is provided for transparency only; reproduction never calls a model API.
-- The disposable SEC 10-K / company-facts cache used to *build* the real-firm battery is not shipped;
-  it is re-fetchable at no cost from the accession IDs in `data/frozen/realarm/ratings_provenance.csv`
-  and is not needed to reproduce any result.
+- The disposable SEC 10-K / company-facts cache used to *build* the real-firm battery is not shipped
+  and is **not needed to reproduce any result**. It is re-fetchable for free from the public SEC
+  EDGAR system (keyless; a descriptive `User-Agent` header is the only requirement,
+  <https://www.sec.gov/os/webmaster-faq#developers>):
+  - **10-K filings** — the permanent document URL for every issuer is in the `url` column of
+    `data/frozen/realarm/ratings_provenance.csv` (e.g. `https://www.sec.gov/Archives/edgar/data/<CIK>/<ACCESSION>/<doc>.htm`); the `efts_verify` column gives the matching EDGAR full-text-search link.
+  - **Company facts (XBRL)** — `https://data.sec.gov/api/xbrl/companyfacts/CIK<10-digit-CIK>.json`
+  - **Filing index / submissions** — `https://data.sec.gov/submissions/CIK<10-digit-CIK>.json`
+  The collector that rebuilds the cache from these endpoints is `capture/realarm_collect.py`.
 - Manifest hashes in `manifest/` fix every frozen stage.

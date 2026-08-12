@@ -30,10 +30,19 @@ MIT. No proprietary data and no live model access are needed to reproduce the pa
 
 ## Re-fetchable (not required)
 - The disposable SEC 10-K HTML and company-facts cache used to *build* the real-firm battery is not
-  shipped (it was removed to keep the artifact lean). It is re-fetchable at no cost from the SEC
-  (accession IDs / URLs in `data/frozen/realarm/ratings_provenance.csv`) and is **not needed** to
-  reproduce any result — the anonymized battery and the model-output run panels are frozen in
-  `data/frozen/realarm/` and `data/raw/realarm/`.
+  shipped (removed to keep the artifact lean) and is **not needed** to reproduce any result — the
+  anonymized battery and the model-output run panels are frozen in `data/frozen/realarm/` and
+  `data/raw/realarm/`.
+- It is re-fetchable for free from the public **SEC EDGAR** system (no API key; SEC requires only a
+  descriptive `User-Agent` header — https://www.sec.gov/os/webmaster-faq#developers):
+  - **10-K filings:** permanent document URLs are in the `url` column of
+    `data/frozen/realarm/ratings_provenance.csv`, e.g.
+    `https://www.sec.gov/Archives/edgar/data/<CIK>/<ACCESSION>/<doc>.htm`
+    (the `efts_verify` column holds the matching EDGAR full-text-search URL,
+    `https://efts.sec.gov/LATEST/search-index`).
+  - **Company facts (XBRL):** `https://data.sec.gov/api/xbrl/companyfacts/CIK<10-digit-CIK>.json`
+  - **Filing submissions index:** `https://data.sec.gov/submissions/CIK<10-digit-CIK>.json`
+- The collector `capture/realarm_collect.py` rebuilds the cache from these endpoints.
 
 ## Reproducibility — the two chains (journal-facing)
 **1. Frozen corpus → results (the reproduction of record).**
