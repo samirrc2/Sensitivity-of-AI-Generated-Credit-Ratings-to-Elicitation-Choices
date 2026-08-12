@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows a massive scale of operations with $19.1B in quarterly revenue, strong profitability ($2.4B quarterly net income), and a solid capital structure with $21.3B in shareholders' equity and $65.4B in retained earnings. Its liquidity profile is highly adequate with a current ratio of 1.44 ($52.5B in current assets against $36.6B in current liabilities). Given this enormous scale, consistent profitability, and strong balance sheet, the issuer carries very low credit risk, warranting a high investment-grade rating.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "in_tok": 280,
+ "out_tok": 129,
+ "usd": 0.001581,
+ "utc": "2026-07-10T14:43:02.709190+00:00"
+}

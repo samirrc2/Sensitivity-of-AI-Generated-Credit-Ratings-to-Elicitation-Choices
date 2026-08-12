@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"B+\",\"confidence\":3,\"rationale\":\"Negative equity and liabilities exceed assets; liquidity only slightly above current obligations. Modest operating margin and positive net income mitigate risk.\"}",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 265,
+ "out_tok": 118,
+ "usd": 0.0002,
+ "utc": "2026-07-10T15:04:56.598326+00:00"
+}

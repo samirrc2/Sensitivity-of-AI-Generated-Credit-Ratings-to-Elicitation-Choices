@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R022",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 4, \"rationale\": \"Moderate leverage, positive profitability, and adequate liquidity metrics support a low-investment-grade rating, offset by relatively low net margin.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 275,
+ "out_tok": 50,
+ "usd": 0.000862,
+ "utc": "2026-07-10T14:15:42.899284+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R023",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows strong balance-sheet liquidity (current ratio \u2248 3.8x) and low leverage (total liabilities \u2248 290M vs. total assets 1,349M), supported by positive profitability (net income 337M; EBIT 90M). However, the very large negative retained earnings (-1,564M) signals material historical losses and potential earnings stability risk, limiting the rating ceiling.  \nDECISION: BBB+",
+ "parsed_letter": "C",
+ "parsed_band": "DISTRESS",
+ "in_tok": 231,
+ "out_tok": 350,
+ "usd": 0.000484,
+ "utc": "2026-07-10T14:16:46.677538+00:00"
+}

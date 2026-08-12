@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R016",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong liquidity (current ratio 3.2x) and moderate leverage (41% equity ratio) are offset by significant operating losses and negative net income.\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 265,
+ "out_tok": 63,
+ "usd": 0.000964,
+ "utc": "2026-07-10T14:08:06.804972+00:00"
+}

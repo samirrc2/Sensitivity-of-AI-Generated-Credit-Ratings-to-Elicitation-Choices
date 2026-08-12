@@ -1,0 +1,8 @@
+metric,value,unit,source
+PRIMARY_percomparison_ighy_flip,0.2682,prob two random draws cross IG/HY,"primary, non-accumulating"
+draws_per_name,120,spec x seed draws per name,
+ig_hy_crossing_MAXoverDraws,97.8,pct of names (n=45); union over ~120 draws,Altman Z''->rating->IG/HY
+mean_within_name_spread_range,413.3,bps,rating-spread map + Cornaggia anchor
+max_within_name_spread_range,550.0,bps,
+cornaggia_anchor,0,note,"80-140 bps per 2-3 notches (Cornaggia, Cornaggia & Israelsen)"
+implied_turnover_meanposdev,0.568,position units,directional modal churn

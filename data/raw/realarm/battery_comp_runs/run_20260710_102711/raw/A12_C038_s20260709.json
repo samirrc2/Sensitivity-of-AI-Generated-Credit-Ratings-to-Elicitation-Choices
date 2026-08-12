@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"CCC\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage, negative retained earnings, current ratio under 1, and very low EBIT-to-debt ratio indicate severe distress and high default risk.\"\n}\n```",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 276,
+ "out_tok": 61,
+ "usd": 0.000963,
+ "utc": "2026-07-10T15:11:08.053256+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows weak liquidity (current ratio 0.62) and significant balance sheet stress with negative shareholders\u2019 equity (\u20112,646M) and liabilities exceeding assets (37,604M vs. 35,008M), indicating high leverage and elevated solvency risk. Although profitability appears strong (EBIT of 3,230M on 5,251M revenue), the capital structure remains a credit constraint consistent with a speculative-grade rating.\n\nDECISION: B+",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 240,
+ "out_tok": 228,
+ "usd": 0.000333,
+ "utc": "2026-07-10T14:35:13.185839+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R022",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits solid scale with $9.1B in revenue and a healthy operating margin of 14% ($1.31B operating income), but its net margin is significantly constrained at 2.7% ($242M net income), likely due to high interest expenses or non-operating losses. Balance sheet leverage is moderate (total liabilities/equity of 1.35x), but liquidity is tight with a current ratio of only 1.14x, suggesting some near-term refinancing or liquidity risk. Balancing its strong operating performance and substantial asset base against weak net profitability and tight liquidity, the company positions comfortably in the lower tier of investment grade.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 248,
+ "out_tok": 145,
+ "usd": 0.001677,
+ "utc": "2026-07-10T14:14:44.689567+00:00"
+}

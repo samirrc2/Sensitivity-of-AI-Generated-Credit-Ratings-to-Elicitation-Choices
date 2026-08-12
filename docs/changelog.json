@@ -1,0 +1,63 @@
+{
+ "entries": [
+  {
+   "utc": "2026-07-09T23:03:52.351974+00:00",
+   "change": "Anonymization leak repaired: a ticker for the single DISTRESS-band issuer (opaque ID R038) had been written into preregistration_realarm.json's composition note. Replaced with the opaque ID. All identities/tickers now live ONLY in sealed_crosswalk.json.",
+   "audit": "Grep of all anonymized/published-tier artifacts for standalone tokens of every one of the 45 tickers: after fix, ZERO real hits. One apparent match inside realarm_collect.py was verified in context to be S&P rating-scale notation, not a ticker.",
+   "seal_boundary": {
+    "identified_tier_contains_tickers_by_necessity": [
+     "sealed_crosswalk.json",
+     "raw_pull.json",
+     "primary_set.json",
+     "reserve_set.json",
+     "primary_final45.json",
+     "candidates.json",
+     "discovered.json",
+     "ratings_provenance.csv"
+    ],
+    "anonymized_published_tier_must_be_identity_free": [
+     "battery_real45.json",
+     "spec_grid_12.json",
+     "preregistration_realarm.json"
+    ]
+   },
+   "affected_manifest_prev": "56cd94f24f9e170d"
+  },
+  {
+   "utc": "2026-07-09T23:39:54.889453+00:00",
+   "change": "DECONTAMINATION REDESIGN v2 after Phase-3 NO-GO (22.2% ever-identified; Gemini-only; hits on household consumer brands). Two-part fix, both logged in selection_rule.md Amendment v2: (a) per-issuer LogUniform(0.6,1.7) figure perturbation, seed 20260709 (ratios preserved, exact-figure lookup destroyed); (b) B2B brand-salience GICS screen (drop Consumer Cyclical/Defensive/Comm Services).",
+   "perturbation_drift_found": "Prior battery used EXACT SEC figures; the 0.6-1.7 perturbation was never applied (it appeared only as the H2 re-test action, not a baseline step). Backed up as battery_real45_EXACTFIGS_preNOGO.json.",
+   "build": "battery now built by reproducible build_battery_realarm.py (seeded). 34 B2B names survive from the existing pull; <45, so a discovery-expansion + re-pull is required to reach 45 IF the concept passes the gate.",
+   "known_limitation": "FMP/SIC sector labels mislabel a few consumer brands as B2B (MAT toys, NCLH cruise, SMG lawn -> Industrials/Basic Materials). Not hand-removed; the Phase-3 gate re-run is the objective mechanical filter for residual salience.",
+   "plan": "Run fingerprint gate on the 34 perturbed B2B names. Drop gate-identified firms; expand to 45 via discovery+re-pull only if the concept clears <15%. If it still exceeds 15%, the appendix pivots to an infeasibility finding.",
+   "affected_manifest_prev": "fee8e4e1fb424d10"
+  },
+  {
+   "utc": "2026-07-10T02:59:35.448783+00:00",
+   "change": "Gate GO (2.9%). Tightened consumer-SIC exclusion drops 3 sector-mislabeled brands (toys/cruise/lawn) -> N=31. Those 31 had 0 gate identifications. Pre-registered N amended 45->31; H1 WATCH stratum real n=16 vs battery 15. Proceeding to Phase 4.",
+   "affected_manifest_prev": "d4c1fa6647255883"
+  },
+  {
+   "utc": "2026-07-10T03:01:34.931511+00:00",
+   "change": "Phase 4 main-run script run_arm.py added (12-spec x 3-seed grid over 31 perturbed B2B firms; credit_health 21-grade task; letter->band; resume-safe timestamped runs). Validated offline.",
+   "affected_manifest_prev": "d242cae1102b4f98"
+  },
+  {
+   "utc": "2026-07-10T15:21:23.852743+00:00",
+   "change": "PHASE 5 complete. H1 SUPPORTED: WATCH-stratum flip-share real 0.226 (95%CI .147-.308) vs battery 0.318 (.223-.406), diff -0.091 (CI -.213,.032) within +/-0.15. Band accuracy vs agency 53.7%. Variance(arm) item .607/spec .034/seed .000. Appendix D drafted (<=250w).",
+   "affected_manifest_prev": "1d7bb455b52516fa"
+  },
+  {
+   "utc": "2026-07-10T15:32:16.576354+00:00",
+   "change": "DISTRIBUTION PROPERTY DISCLOSED (not a defect). Freeze-review spot-check noted GPK's scale drew 1.0019, leaving its figures near-raw. This is the pre-registered LogUniform[0.6,1.7] operating as specified (the interval contains 1.0). Decontamination for GPK is certified EMPIRICALLY by the Phase-3 gate (0 identifications for that item), not by perturbation magnitude. A brief dead-band trial rebuild was REVERTED; the as-run battery (GPK=1.0019) is restored as the hashed artifact of record, deterministically reproduced from PERTURB_SEED=20260709.",
+   "dead_band_status": "A +/-10% dead-band is a genuine improvement, PRE-REGISTERED FOR FUTURE ARMS ONLY. Not adopted retroactively here: inventing it after H1 (0.23 vs 0.32, supported) was known would be post-hoc tuning, a worse look than the one-sentence disclosure it would replace.",
+   "appendix_disclosure": "Scale factors drawn log-uniform from [0.6,1.7]; one draw landed at ~1.0, leaving that issuer's figures near-raw; the fingerprinting gate returned zero identifications for it, so decontamination for that item is demonstrated empirically rather than by perturbation.",
+   "affected_manifest_prev": "ef994ef22fc4079e"
+  },
+  {
+   "utc": "2026-07-10T15:32:16.576381+00:00",
+   "incident_collect_once": "An arm main-run panel (arm_runs/run_20260709_230151, 1,116 calls, $0.90) was DELETED by an assistant sandbox cleanup command whose filesystem-mount effect propagated to the working folder mid-operation. Re-collected identically as run_20260710_095040 from the SAME frozen inputs (battery_real45.json as-run, spec_grid_12.json, seeds 20260709/10/11); deterministic pipeline, zero empties, identical grid. Panel of record = run_20260710_095040. Logged per collect-once; no silent replacement.",
+   "battery_comparator_of_record": "battery_comp_runs/run_20260710_102711 (1,620 calls), unaffected by any of the above."
+  }
+ ]
+}

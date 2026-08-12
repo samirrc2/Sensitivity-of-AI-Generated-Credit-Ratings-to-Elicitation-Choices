@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"B-\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage (D/E ~2.7), weak liquidity (current ratio 0.63), and low profitability (EBIT/total assets ~1.2%) indicate elevated default risk.\"\n}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 281,
+ "out_tok": 73,
+ "usd": 0.001079,
+ "utc": "2026-07-10T15:13:49.647627+00:00"
+}

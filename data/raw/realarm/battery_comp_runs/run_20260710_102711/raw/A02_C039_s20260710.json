@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits solid profitability with an operating margin of 19% and net income of 4,617M, but its balance sheet carries massive leverage with total liabilities of 1,684,348M against shareholders' equity of only 124,972M (a debt-to-equity ratio of over 13x). Furthermore, the company faces short-term liquidity pressure, evidenced by a current ratio of 0.83 (current liabilities of 1,226,809M exceeding current assets of 1,018,577M). Given the extremely high leverage profile offset by stable earnings and large-scale operations, the issuer represents a speculative-grade credit risk.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 301,
+ "out_tok": 163,
+ "usd": 0.001919,
+ "utc": "2026-07-10T15:11:21.787827+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "As a credit rating analyst, the company exhibits a solid asset base ($59,991M) and positive profitability (net income of $689M on $25,270M in revenue), but its margins are relatively thin (4% operating margin) and its liquidity profile is tight, evidenced by a current ratio of 0.97 ($20,702M current assets vs. $21,242M current liabilities). Additionally, a moderately high leverage ratio (total liabilities-to-equity of approximately 2.87x) suggests a moderate credit risk profile consistent with investment-grade status but with limited cushion for operational downturns. Therefore, the issuer warrants a stable, lower-tier investment-grade rating. \n\nDECISION: BBB",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "in_tok": 282,
+ "out_tok": 165,
+ "usd": 0.001908,
+ "utc": "2026-07-10T15:17:14.127572+00:00"
+}

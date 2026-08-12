@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R011",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Despite solid liquidity (current ratio \u2248 2.3) and positive equity (shareholders\u2019 equity of 5,711M), the company shows meaningful operating stress with negative EBIT (-287M) and net losses (-892M). This combination suggests elevated credit risk and weaker debt-service capacity, though leverage appears not extreme given total liabilities (13,001M) versus assets (18,687M).  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 239,
+ "out_tok": 211,
+ "usd": 0.000312,
+ "utc": "2026-07-10T14:03:15.137488+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "To evaluate this issuer, we analyze its financial profile as of FY 2025 Q4:\n1. **Size and Profitability**: The company is exceptionally large with $49.69B in revenue, strong margins (60% gross, 25% operating), and $7.53B in net income, demonstrating robust earning power.\n2. **Balance Sheet and Liquidity**: Total assets are massive at $3.41T against $3.11T in liabilities, resulting in equity of $303.2B. However, there is a severe short-term liquidity mismatch with current assets of $1.07T versus current liabilities of $2.56T (a current ratio of 0.42), which is highly characteristic of a major global financial institution (such as a systemically important bank) rather than a non-financial corporate.\n3. **Credit Risk Profile**: Given its systemic importance, massive capital base, and strong profitability offset by the inherently leveraged structure of a global bank, the issuer commands a highly secure, upper-medium-to-high investment-grade profile.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "in_tok": 302,
+ "out_tok": 244,
+ "usd": 0.002649,
+ "utc": "2026-07-10T15:06:46.463196+00:00"
+}

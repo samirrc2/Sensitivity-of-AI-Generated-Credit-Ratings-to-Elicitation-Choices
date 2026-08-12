@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB-\",\"confidence\":3,\"rationale\":\"Strong profitability (32% operating margin) supports earnings, but liquidity is weak (current ratio 0.55) and leverage is moderate (liabilities/assets 68%).\"}",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 265,
+ "out_tok": 224,
+ "usd": 0.000333,
+ "utc": "2026-07-10T15:14:44.932244+00:00"
+}

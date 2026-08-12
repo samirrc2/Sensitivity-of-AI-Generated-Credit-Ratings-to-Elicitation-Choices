@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided Q3 2025 financial data, the company exhibits a very large scale (annualized revenue exceeding $33B and assets of approximately $60B) and remains profitable with positive net income ($689M for the quarter) and positive shareholders' equity ($15.5B). However, its profitability margins are quite thin (operating margin of 4% and gross margin of 28%), and it faces minor short-term liquidity pressure with a current ratio of 0.97 (current liabilities slightly exceeding current assets). These characteristics\u2014solid investment-grade scale and capitalization tempered by low margins and tight liquidity\u2014align with a solid, lower-tier investment-grade profile.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 281,
+ "out_tok": 153,
+ "usd": 0.001798,
+ "utc": "2026-07-10T15:16:29.031137+00:00"
+}

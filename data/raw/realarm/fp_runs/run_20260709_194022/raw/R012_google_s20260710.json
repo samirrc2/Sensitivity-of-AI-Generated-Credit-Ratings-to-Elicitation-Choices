@@ -1,0 +1,12 @@
+{
+ "item_id": "R012",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "ok": true,
+ "raw_response": "To find the correct company, we look for a US public company with the following approximate financial profile from its most recent fiscal year:\n*   **Revenue:** ~$2.1 billion\n*   **Net Income:** ~$403 million\n*   **Total Assets:** ~$21.8 billion\n*   **Total Liabilities:** ~$17.4 billion\n*   **Shareholders' Equity:** ~$3.3 billion\n*   **Retained Earnings:** ~$4.2 billion\n\nThe highly leveraged balance sheet (Total Assets of ~$21.8B vs. Revenue of ~$2.1B) indicates a financial institution, such as a regional bank, insurance company, or investment management firm. \n\nLooking at recent annual filings (FY 2023 or FY 2024):\n**Stifel Financial Corp. (NYSE: SF)** fits this profile extremely closely.\nFor the fiscal year ended December 31, 2023:\n*   Total Assets: ~$21.78 billion ($21,779 million)\n*   Total Liabilities: ~$17.38 billion ($17,381 million)\n*   Total Shareholders' Equity: ~$3.33 billion ($3,328 million)\n*   Retained Earnings: ~$4.18 billion ($4,176 million)\n*   Net Income: ~$403 million \n*   Non-interest income + Interest income (net of interest expense) / Net Revenues: ~$2.1 billion (~$2,106 million)\n\nGUESS: SF",
+ "in_tok": 149,
+ "out_tok": 342,
+ "usd": 0.003302,
+ "utc": "2026-07-09T23:44:20.545355+00:00"
+}

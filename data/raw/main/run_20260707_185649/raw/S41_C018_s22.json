@@ -1,0 +1,45 @@
+{
+ "spec_id": "S41",
+ "item_id": "C018",
+ "seed": 22,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 0.0,
+   "maxOutputTokens": 1024,
+   "seed": 22,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2026-04-22; do not use later information.\nProvided information:\nFiscal period 2026 Q1 (filed 2026-04-22). Revenue 22,217M, gross margin 11%, operating income 446M (operating margin 2%), net income -4M, diluted EPS -0.11. Total assets 164,787M, total liabilities 158,800M, shareholders' equity 5,987M. Current assets 124,141M vs current liabilities 105,547M (current ratio 1.18), retained earnings 17,162M.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"Low operating margin and negative net income indicate weak profitability. High liabilities relative to equity and a current ratio just above 1 suggest some liquidity risk.\"}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 291,
+ "output_tokens": 47,
+ "cost_usd": 0.000205,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:52:57.130685+00:00",
+ "mode": "REAL"
+}

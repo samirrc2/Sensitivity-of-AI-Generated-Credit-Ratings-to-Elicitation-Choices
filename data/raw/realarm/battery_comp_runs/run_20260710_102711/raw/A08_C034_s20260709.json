@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"High leverage and negative retained earnings are balanced by moderate profitability, but low current liquidity indicates significant credit risk.\"}\n```",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 270,
+ "out_tok": 45,
+ "usd": 0.00081,
+ "utc": "2026-07-10T15:06:08.360771+00:00"
+}

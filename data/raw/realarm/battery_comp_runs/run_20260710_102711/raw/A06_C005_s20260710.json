@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "To evaluate the issuer's creditworthiness, we analyze its financial position as of 2025 Q3:\nThe issuer demonstrates exceptionally strong profitability with a gross margin of 83% and an operating margin of 48%, generating $5.58B in quarterly net income. Liquidity is robust with a current ratio of 1.55 ($62.1B in current assets against $40.1B in current liabilities), though the leverage profile is relatively high with total liabilities of $91.1B against shareholders' equity of $23.8B. Given the massive scale of operations, outstanding profitability, and solid short-term liquidity counterbalanced by moderate leverage, the issuer commands a strong investment-grade rating.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "in_tok": 281,
+ "out_tok": 162,
+ "usd": 0.00188,
+ "utc": "2026-07-10T14:31:56.705945+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R016",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows substantial operating and net losses (EBIT and net income are both materially negative), indicating weak profitability and limited earnings capacity. Balance sheet liquidity is strong (current assets materially exceed current liabilities) and equity remains sizeable, but elevated leverage (total liabilities vs. equity) combined with ongoing losses supports a speculative-grade rating rather than investment grade.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 231,
+ "out_tok": 172,
+ "usd": 0.000261,
+ "utc": "2026-07-10T14:08:01.053981+00:00"
+}

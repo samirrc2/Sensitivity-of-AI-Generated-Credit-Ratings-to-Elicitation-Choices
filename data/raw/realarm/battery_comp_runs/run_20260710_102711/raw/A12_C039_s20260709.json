@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"CCC\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage, negative working capital, current ratio below 1, and very low EBIT margin relative to massive debt indicate severe distress and default risk.\"\n}\n```",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 295,
+ "out_tok": 60,
+ "usd": 0.000983,
+ "utc": "2026-07-10T15:12:35.310765+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A01",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"CCC\",\"confidence\":2,\"rationale\":\"Highly leveraged with negative equity (-$1.9B), very weak liquidity (current ratio 0.27), and deeply negative retained earnings; despite strong operating margin.\"}",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 259,
+ "out_tok": 162,
+ "usd": 0.000254,
+ "utc": "2026-07-10T15:17:31.552545+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows strong asset protection with total assets of $48,860M against total liabilities of $23,463M (equity of $23,369M) and positive quarterly net income of $179M. However, there is a substantial accumulated deficit (retained earnings of -$6,947M), a tight liquidity position with a current ratio of 1.00 ($3,857M current assets vs $3,862M current liabilities), and a negative gross margin of -4% despite positive operating income. These factors indicate solid investment-grade characteristics but with notable constraints, justifying a rating in the BBB category.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 271,
+ "out_tok": 149,
+ "usd": 0.001747,
+ "utc": "2026-07-10T15:09:27.237695+00:00"
+}

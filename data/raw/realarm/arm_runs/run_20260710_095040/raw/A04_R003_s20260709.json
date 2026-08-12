@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R003",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage (Total Debt/Equity over 3x) and weak current ratio (0.72) are offset by decent profitability (EBIT margin of 21.8%).\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 265,
+ "out_tok": 70,
+ "usd": 0.001027,
+ "utc": "2026-07-10T13:53:19.574441+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided Q1 2026 financial data, the company shows strong profitability with a 23% operating margin and $874M in net income, alongside a solid equity base of $31.8B. However, there is a significant short-term liquidity headwind, evidenced by a very weak current ratio of 0.53 ($6.6B in current assets versus $12.6B in current liabilities) and a highly leveraged balance sheet with total liabilities representing 72% of total assets. This combination of strong operating performance but highly constrained short-term liquidity and substantial debt leverage is consistent with an investment-grade rating at the lower end of the spectrum.\n\nDECISION: BBB-",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "in_tok": 284,
+ "out_tok": 152,
+ "usd": 0.001794,
+ "utc": "2026-07-10T15:19:43.649994+00:00"
+}

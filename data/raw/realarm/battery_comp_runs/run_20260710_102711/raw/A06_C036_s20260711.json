@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates solid profitability with an operating income of 749M (19% margin) and a healthy equity base of 21,181M, which supports its capacity to service its obligations. However, its massive balance sheet leverage (total liabilities of 57,973M relative to 79,154M in total assets) and a weak current ratio of 0.79 (current assets of 5,681M vs current liabilities of 7,148M) present elevated short-term liquidity risks that constrain the credit profile to the upper-medium investment grade. \n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 271,
+ "out_tok": 139,
+ "usd": 0.001657,
+ "utc": "2026-07-10T15:08:25.344046+00:00"
+}

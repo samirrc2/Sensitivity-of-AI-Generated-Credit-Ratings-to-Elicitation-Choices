@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C030",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid short-term liquidity (current ratio 2.29) and healthy capitalization with substantial equity (shareholders\u2019 equity of 18,899M against total assets of 58,167M). Operating profitability appears reasonable (EBIT of 811M on revenue of 5,633M), though leverage is not minimal (total liabilities of 27,401M vs. total assets), supporting a rating below the strongest tier.  \n\nDECISION: A-",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "in_tok": 238,
+ "out_tok": 182,
+ "usd": 0.000275,
+ "utc": "2026-07-10T15:00:10.037467+00:00"
+}

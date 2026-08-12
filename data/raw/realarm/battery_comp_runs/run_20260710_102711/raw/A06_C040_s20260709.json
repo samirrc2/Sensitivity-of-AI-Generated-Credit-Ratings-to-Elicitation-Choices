@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates a highly robust financial profile with substantial quarterly revenue of $8.67B, a near-perfect gross margin of 99%, and significant profitability. Despite a low current ratio of 0.63, the issuer possesses a massive asset base of $192.3B against $139.7B in liabilities, providing ample financial flexibility, structural support, and strong market positioning. This balance of immense scale, high operating profitability, and moderate leverage aligns with a solid investment-grade profile.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 280,
+ "out_tok": 114,
+ "usd": 0.001446,
+ "utc": "2026-07-10T15:13:11.580052+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R020",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer displays solid profitability with a 18% operating margin and $537M in operating income, alongside a decent capital structure (equity of $4.11B against total assets of $12.69B, resulting in a leverage ratio of about 68%). However, the company faces near-term liquidity pressure, as evidenced by a current ratio of 0.83 ($1,107M in current assets vs. $1,333M in current liabilities). These solid operating fundamentals paired with moderate leverage and tight short-term liquidity characterize an investment-grade credit profile, typically situated in the lower-medium grade.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 240,
+ "out_tok": 142,
+ "usd": 0.001638,
+ "utc": "2026-07-10T14:12:28.031250+00:00"
+}

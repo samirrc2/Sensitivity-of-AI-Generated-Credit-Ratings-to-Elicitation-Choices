@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"High leverage (74% debt-to-assets) and weak current ratio (0.97) are offset by substantial equity and positive operating profitability.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 270,
+ "out_tok": 56,
+ "usd": 0.000909,
+ "utc": "2026-07-10T15:17:04.729978+00:00"
+}

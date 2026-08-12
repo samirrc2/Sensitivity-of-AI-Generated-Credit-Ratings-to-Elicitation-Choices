@@ -1,0 +1,45 @@
+{
+ "spec_id": "S41",
+ "item_id": "D047",
+ "seed": 33,
+ "family": "directional",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 0.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Task: give a 20-trading-day directional recommendation for the stock.\nRespond with exactly one of: BUY, HOLD, SELL. Use only the figures provided and knowledge available on or before 2026-03-19; do not use later information.\nProvided information:\nPrice action as of 2026-03-19: 1w -3.4%, 1m -4.4%, 3m +4.9%. Last close 121.09. 21d annualized realized volatility 24%. Position in trailing 63-day range: 44% (0%=low, 100%=high).\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\"decision\": \"HOLD\", \"confidence\": 3, \"rationale\": \"Recent negative short-term momentum offsets positive 3-month returns. Mid-range position suggests no strong directional bias.\"}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 189,
+ "output_tokens": 42,
+ "cost_usd": 0.000162,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:53:14.751883+00:00",
+ "mode": "REAL"
+}

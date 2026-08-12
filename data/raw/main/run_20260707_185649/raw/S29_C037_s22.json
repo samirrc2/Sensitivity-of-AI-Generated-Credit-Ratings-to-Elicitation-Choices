@@ -1,0 +1,43 @@
+{
+ "spec_id": "S29",
+ "item_id": "C037",
+ "seed": 22,
+ "family": "credit_health",
+ "provider": "openai",
+ "version": "current",
+ "model": "gpt-5.4-nano",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "json",
+  "A6_fewshot": "2",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 0.0,
+ "temperature_applied": false,
+ "effective_temperature": null,
+ "call_meta": {
+  "signature": "mct+seed+eff",
+  "temperature_applied": false,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "seed": 22,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-05-01. Act as a credit rating analyst.\n| Current ratio           | 1.00 |\n| Retained earnings       | -6,947M |\n| Current liabilities     | 3,862M |\n| Current assets          | 3,857M |\n| Shareholders' equity    | 23,369M |\n| Total liabilities       | 23,463M |\n| Total assets            | 48,860M |\n| EBIT / operating income | 283M |\n| Revenue                 | 1,635M |\nHere are two worked examples:\n- Information: Fiscal period 2026 Q1 (filed 2026-05-04). Revenue 83,161M, gross margin 38%, operating income 5,285M (operating margin 6%), net income 4,183M, diluted EPS 1.0. Total assets 464,410M, total liabilities 203,414M, shareholders' equity 254,381M. Current assets 97,787M vs current liabilities 94,378M (current ratio 1.04), retained earnings 482,344M.\n  Answer: AA+\n- Information: Fiscal period 2025 Q3 (filed 2025-10-23). Revenue 21,957M, gross margin 49%, operating income 4,862M (operating margin 22%), net income 2,714M, diluted EPS 2.41. Total assets 217,180M, total liabilities 156,703M, shareholders' equity 60,477M. Current assets 21,703M vs current liabilities 24,301M (current ratio 0.89), retained earnings 20,155M.\n  Answer: B-\n\nBased only on the above and knowledge predating 2026-05-01, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\"decision\":\"BB+\",\"confidence\":3,\"rationale\":\"Borderline liquidity (current ratio ~1.00) and large negative retained earnings, but reasonable leverage and decent operating margin (EBIT/revenue ~17%).\"}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 505,
+ "output_tokens": 198,
+ "cost_usd": 0.000349,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:36:51.961784+00:00",
+ "mode": "REAL"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 4, \"rationale\": \"Strong balance sheet with moderate leverage, positive operating income, and solid equity base, but operating margin is relatively thin.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 273,
+ "out_tok": 47,
+ "usd": 0.000833,
+ "utc": "2026-07-10T14:42:05.678975+00:00"
+}

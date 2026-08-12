@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R007",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits a solid financial profile characterized by strong liquidity (current ratio of 3.37x) and moderate leverage, with total liabilities representing approximately 48% of total assets. Profitability is respectable, as demonstrated by a 14% operating margin and $380M in net income on $5,209M of revenue. These credit metrics, alongside a substantial equity base of over $5B, reflect an investment-grade risk profile typical of a stable, upper-medium-grade borrower.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 239,
+ "out_tok": 114,
+ "usd": 0.001384,
+ "utc": "2026-07-10T13:58:16.515437+00:00"
+}

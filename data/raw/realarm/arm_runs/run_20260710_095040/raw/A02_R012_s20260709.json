@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R012",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates strong financial health with solid profitability (13% operating margin on $3.6 billion in revenue), a robust liquidity position (current ratio of 2.35), and a conservative capital structure where equity ($1.86 billion) nearly equals total liabilities ($1.97 billion). Furthermore, the substantial retained earnings ($3.60 billion) indicate a long history of profitable operations and capital preservation. These credit metrics are highly supportive of a solid investment-grade rating, reflecting very low default risk but not quite matching the elite sovereign-like status of AAA or AA categories.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 243,
+ "out_tok": 128,
+ "usd": 0.001517,
+ "utc": "2026-07-10T14:03:27.585710+00:00"
+}

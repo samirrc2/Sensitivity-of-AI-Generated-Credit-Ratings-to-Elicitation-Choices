@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid profitability with an operating income of 622M (15% margin) and a strong equity base of 10,004M, though liquidity is slightly tight with a current ratio of 0.99 (current assets of 6,043M vs current liabilities of 6,096M). Total liabilities represent 60% of total assets, indicating a moderate leverage profile balanced by consistent earnings (retained earnings of 13,060M). These credit metrics reflect an investment-grade profile with moderate credit risk.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 273,
+ "out_tok": 127,
+ "usd": 0.001553,
+ "utc": "2026-07-10T14:59:15.544983+00:00"
+}

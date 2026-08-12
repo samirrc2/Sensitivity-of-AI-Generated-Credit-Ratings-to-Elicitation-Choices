@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R001",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits solid financial health, characterized by strong profitability (gross margin of 57%, operating margin of 16%, and net income of 350M) and a comfortable liquidity position with a current ratio of 1.87. Additionally, its capital structure is balanced, with shareholders' equity of 1,609M supporting 2,198M in total liabilities, and a robust retained earnings base of 1,539M indicating a consistent track record of profitable operations. While these metrics indicate investment-grade creditworthiness, the moderate absolute scale of its revenue (2.9B) and assets (3.8B) positions the issuer in the mid-investment grade range.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 245,
+ "out_tok": 155,
+ "usd": 0.001762,
+ "utc": "2026-07-10T13:50:50.602823+00:00"
+}

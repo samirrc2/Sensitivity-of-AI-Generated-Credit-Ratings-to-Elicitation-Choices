@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 3,\n  \"rationale\": \"High equity-to-assets ratio supports solvency, but negative retained earnings and weak EBIT interest coverage suggest a non-investment grade profile.\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 267,
+ "out_tok": 58,
+ "usd": 0.000922,
+ "utc": "2026-07-10T15:09:40.440864+00:00"
+}

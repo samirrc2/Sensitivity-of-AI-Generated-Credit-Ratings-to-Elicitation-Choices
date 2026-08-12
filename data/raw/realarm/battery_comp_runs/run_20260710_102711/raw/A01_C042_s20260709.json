@@ -1,0 +1,19 @@
+{
+ "spec_id": "A01",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"B+\",\"confidence\":2,\"rationale\":\"Profitable but weak balance sheet: negative equity/retained earnings, liabilities exceed assets, and current ratio 0.92 indicate elevated default risk.\"}",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 259,
+ "out_tok": 139,
+ "usd": 0.000226,
+ "utc": "2026-07-10T15:15:19.107257+00:00"
+}

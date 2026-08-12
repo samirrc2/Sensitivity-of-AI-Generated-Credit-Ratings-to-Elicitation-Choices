@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R019",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows significant financial stress: profitability is negative (Net income -640M; EBIT/operating income -459M) and equity is very thin relative to total assets (Shareholders\u2019 equity 415M vs. Total assets 12,240M). While liquidity appears moderate (Current ratio \u2248 4,976/2,796 = 1.78), the combination of losses and high leverage points to a lower speculative grade credit quality.  \nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 228,
+ "out_tok": 223,
+ "usd": 0.000324,
+ "utc": "2026-07-10T14:11:47.558926+00:00"
+}

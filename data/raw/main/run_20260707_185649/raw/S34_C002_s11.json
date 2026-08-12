@@ -1,0 +1,45 @@
+{
+ "spec_id": "S34",
+ "item_id": "C002",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 0.0,
+   "maxOutputTokens": 1024,
+   "seed": 11,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-05-08. Act as a credit rating analyst.\n| Current ratio           | 12.41 |\n| Retained earnings       | 45,912M |\n| Current liabilities     | 15,003M |\n| Current assets          | 186,246M |\n| Shareholders' equity    | 49,234M |\n| Total liabilities       | 444,085M |\n| Total assets            | 493,319M |\n| EBIT / operating income | 3,188M |\n| Revenue                 | 7,300M |\nBased only on the above and knowledge predating 2026-05-08, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The company exhibits a very strong current ratio (12.41) and substantial retained earnings, indicating excellent short-term liquidity and profitability. However, the debt-to-equity ratio is extremely high (444,085M / 49,234M = 9.02), and total liabilities are a significant portion of total assets (444,085M / 493,319M = 0.90), suggesting a highly leveraged capital structure and significant long-term solvency concerns despite the strong current position. The EBIT to revenue margin (3,188M / 7,300M = 43.67%) is very strong, but the high leverage is a major red flag.\n\nDECISION: BB-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 287,
+ "output_tokens": 169,
+ "cost_usd": 0.000509,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:44:52.145720+00:00",
+ "mode": "REAL"
+}

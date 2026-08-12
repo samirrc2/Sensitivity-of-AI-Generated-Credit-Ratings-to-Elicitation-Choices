@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows strong short-term liquidity with a current ratio of 2.29 and a sizable equity base (shareholders\u2019 equity of 33,867M vs total liabilities of 23,079M), indicating solid balance-sheet support. Operating performance appears very strong (EBIT/operating income of 3,688M on revenue of 6,571M), suggesting good debt service capacity. Based on the limited provided data, the issuer fits best in the upper-investment-grade range.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 242,
+ "out_tok": 230,
+ "usd": 0.000336,
+ "utc": "2026-07-10T14:37:02.550834+00:00"
+}

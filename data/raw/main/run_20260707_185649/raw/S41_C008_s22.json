@@ -1,0 +1,45 @@
+{
+ "spec_id": "S41",
+ "item_id": "C008",
+ "seed": 22,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 0.0,
+   "maxOutputTokens": 1024,
+   "seed": 22,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2025-10-30; do not use later information.\nProvided information:\nFiscal period 2025 Q3 (filed 2025-10-30). Revenue 5,251M, gross margin 73%, operating income 3,230M (operating margin 62%), net income 2,375M, diluted EPS 1.41. Total assets 35,008M, total liabilities 37,604M, shareholders' equity -2,646M. Current assets 5,119M vs current liabilities 8,286M (current ratio 0.62), retained earnings 36,115M.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "```json\n{\n  \"decision\": \"B-\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong profitability and retained earnings are offset by negative shareholders' equity and a very weak current ratio, indicating significant liquidity and solvency risks.\"\n}\n```",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 291,
+ "output_tokens": 58,
+ "cost_usd": 0.000232,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:52:51.211610+00:00",
+ "mode": "REAL"
+}

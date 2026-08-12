@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C016",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer has weak short-term liquidity (current ratio 0.90) and high leverage (total liabilities of 89,110M vs. shareholders\u2019 equity of 21,383M). However, operating performance appears solid with EBIT/operating income of 3,213M on revenue of 19,443M (~16.5% margin), supporting resilience despite the balance-sheet risk.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 246,
+ "usd": 0.000354,
+ "utc": "2026-07-10T14:44:08.220398+00:00"
+}

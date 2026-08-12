@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R004",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid profitability with revenue of $4,165M, an operating margin of 17% ($727M), and net income of $414M, alongside a strong liquidity profile (current ratio of 2.19). However, its balance sheet leverage is moderately high (total liabilities of $3,366M against equity of $1,634M) and the presence of significant accumulated deficits (retained earnings of -1,086M) indicates historical losses or aggressive capital restructuring, which constrains the rating to the lower end of investment grade.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 238,
+ "out_tok": 133,
+ "usd": 0.001554,
+ "utc": "2026-07-10T13:54:41.680528+00:00"
+}

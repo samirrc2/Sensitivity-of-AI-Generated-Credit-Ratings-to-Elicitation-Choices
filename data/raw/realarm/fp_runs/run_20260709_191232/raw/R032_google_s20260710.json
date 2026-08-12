@@ -1,0 +1,12 @@
+{
+ "item_id": "R032",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "ok": true,
+ "raw_response": "GUESS: NYT",
+ "in_tok": 191,
+ "out_tok": 5,
+ "usd": 0.000332,
+ "utc": "2026-07-09T23:23:20.435393+00:00"
+}

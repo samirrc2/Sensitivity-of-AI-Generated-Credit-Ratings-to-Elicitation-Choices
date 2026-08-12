@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's financial profile reveals significant leverage and structural weaknesses: the debt-to-equity ratio is highly elevated with total liabilities ($8,218M) representing over 82% of total assets ($10,022M) against a thin equity cushion ($1,804M), further highlighted by negative retained earnings of -$748M indicating a history of accumulated losses. While the company is currently profitable (net income of $142M on $3,467M in revenue) and maintains adequate short-term liquidity (current ratio of 1.32), its low operating margin of 8% leaves it highly vulnerable to macroeconomic downturns given its weak balance sheet. Consequently, the issuer exhibits non-investment grade characteristics with elevated credit risk, justifying a high speculative-grade rating.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 238,
+ "out_tok": 181,
+ "usd": 0.001986,
+ "utc": "2026-07-10T14:18:56.879127+00:00"
+}

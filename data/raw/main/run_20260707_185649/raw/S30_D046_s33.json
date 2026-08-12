@@ -1,0 +1,44 @@
+{
+ "spec_id": "S30",
+ "item_id": "D046",
+ "seed": 33,
+ "family": "directional",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 33,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a equity research analyst. Using only the information below and general knowledge predating 2026-03-19, give a 20-trading-day directional recommendation for the stock.\nValid answers (choose exactly one): BUY, HOLD, SELL.\nCompany information (as of 2026-03-19):\nPrice action as of 2026-03-19: 1w -1.5%, 1m -6.1%, 3m +16.2%. Last close 114.20. 21d annualized realized volatility 23%. Position in trailing 63-day range: 61% (0%=low, 100%=high).\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "Recent price action shows a clear short-term pullback (-1.5% 1w, -6.1% 1m) after a solid 3m advance, leaving the stock at a mid-to-upper 61% level within its trailing 63-day range. Realized volatility of 23% is moderate and offers no extreme signal, so the 20-day window lacks a compelling directional catalyst.\nDECISION: HOLD",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 294,
+ "output_tokens": 87,
+ "cost_usd": 0.000585,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:38:03.022486+00:00",
+ "mode": "REAL"
+}

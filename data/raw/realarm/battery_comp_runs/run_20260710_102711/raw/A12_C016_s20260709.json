@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C016",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 4, \"rationale\": \"High leverage (Total Liabilities/Assets at 81%) and low liquidity (Current Ratio 0.90) are offset by solid EBIT margin, justifying a speculative-grade BB rating.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 282,
+ "out_tok": 62,
+ "usd": 0.000981,
+ "utc": "2026-07-10T14:44:33.709638+00:00"
+}

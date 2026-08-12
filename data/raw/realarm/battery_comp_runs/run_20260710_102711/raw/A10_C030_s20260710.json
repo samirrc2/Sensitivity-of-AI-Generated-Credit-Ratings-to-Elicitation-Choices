@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C030",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits a very strong liquidity profile with a current ratio of 2.29 and a robust balance sheet where total assets ($58,167M) comfortably exceed total liabilities ($27,401M), leading to a solid equity base of $18,899M. While profitability is stable with an operating margin of 14% ($811M) and net income of $406M, the relatively low return on assets (ROA of ~0.7%) and modest gross margin of 18% suggest a capital-intensive or high-volume, low-margin business model (such as a financial institution or capital-heavy utility/logistics firm). This combination of excellent solvency and liquidity paired with moderate profitability aligns with a solid investment-grade profile.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 281,
+ "out_tok": 174,
+ "usd": 0.001988,
+ "utc": "2026-07-10T15:00:46.669857+00:00"
+}

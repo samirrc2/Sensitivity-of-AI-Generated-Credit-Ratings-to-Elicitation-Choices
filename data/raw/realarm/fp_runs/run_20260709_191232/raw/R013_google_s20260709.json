@@ -1,0 +1,12 @@
+{
+ "item_id": "R013",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "ok": true,
+ "raw_response": "GUESS: CDW Corporation",
+ "in_tok": 198,
+ "out_tok": 6,
+ "usd": 0.000351,
+ "utc": "2026-07-09T23:16:54.988552+00:00"
+}

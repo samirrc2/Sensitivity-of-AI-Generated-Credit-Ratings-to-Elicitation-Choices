@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R010",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage (Debt/Equity > 5) and low profitability (ROA ~1.8%) indicate speculative-grade creditworthiness, balanced by positive net income and retained earnings.\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 232,
+ "out_tok": 68,
+ "usd": 0.00096,
+ "utc": "2026-07-10T14:02:12.421980+00:00"
+}

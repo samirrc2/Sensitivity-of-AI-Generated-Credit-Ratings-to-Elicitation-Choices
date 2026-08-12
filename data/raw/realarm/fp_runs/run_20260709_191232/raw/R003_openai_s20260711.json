@@ -1,0 +1,12 @@
+{
+ "item_id": "R003",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "ok": true,
+ "raw_response": "GUESS: GEO Group, Inc. (GEO)",
+ "in_tok": 167,
+ "out_tok": 913,
+ "usd": 0.001175,
+ "utc": "2026-07-09T23:13:38.008187+00:00"
+}

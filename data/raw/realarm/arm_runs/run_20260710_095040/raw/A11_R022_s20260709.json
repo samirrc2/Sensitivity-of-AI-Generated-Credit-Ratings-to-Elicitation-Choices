@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R022",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows moderate leverage (total liabilities of 7,336M vs equity of 5,450M) and only modest liquidity (current ratio \u2248 1.14). While operating profitability is decent (EBIT margin \u2248 14%), the net margin is quite low (net income margin \u2248 2.7%), suggesting limited cushion for downside, which constrains the rating.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 241,
+ "out_tok": 308,
+ "usd": 0.000433,
+ "utc": "2026-07-10T14:15:35.325328+00:00"
+}

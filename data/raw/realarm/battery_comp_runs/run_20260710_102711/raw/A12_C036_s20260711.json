@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B\", \"confidence\": 4, \"rationale\": \"High leverage (73% debt-to-assets), weak liquidity (0.79 current ratio), and very low profitability (EBIT/total assets < 1%) justify a highly speculative-grade rating.\"}\n```",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "in_tok": 275,
+ "out_tok": 67,
+ "usd": 0.001015,
+ "utc": "2026-07-10T15:08:58.675525+00:00"
+}

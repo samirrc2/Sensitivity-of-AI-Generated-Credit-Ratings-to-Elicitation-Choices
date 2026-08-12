@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C024",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "To determine the credit rating, we analyze the company's financial profile:\n* **Scale and Franchise:** The company is large with $5,013M in quarterly revenue and a substantial asset base of $86,783M, pointing to a highly capitalized enterprise (likely a financial institution, utility, or highly asset-heavy industrial).\n* **Solvency and Capitalization:** Shareholders' equity is strong at $36,034M (equity-to-assets ratio of 41.5%) and retained earnings of $21,891M demonstrate a long track record of profitable operations. \n* **Liquidity and Profitability:** Profitability for the quarter is modest with an operating margin of 9% and a net margin of 2%, alongside a tight current ratio of 0.94, which reflects short-term liquidity pressures typical of regulated utilities or financial entities but restrains the rating from the highest investment-grade tiers.\n\nThese characteristics\u2014high asset backing, solid equity base, but moderate current profitability and tight short-term liquidity\u2014are consistent with a stable, lower-tier investment-grade profile.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 281,
+ "out_tok": 245,
+ "usd": 0.002626,
+ "utc": "2026-07-10T14:53:01.898754+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "R006",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"B+\",\"confidence\":3,\"rationale\":\"Operating and net losses indicate weak profitability; current ratio is marginal (1.21). Leverage is moderate but cash/coverage not evidenced.\"}",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 231,
+ "out_tok": 146,
+ "usd": 0.000229,
+ "utc": "2026-07-10T13:57:18.464113+00:00"
+}

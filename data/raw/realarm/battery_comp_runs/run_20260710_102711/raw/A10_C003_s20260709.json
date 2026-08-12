@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C003",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "To evaluate the creditworthiness of this issuer based on the provided Q3 2025 financial data, we analyze its balance sheet strength and profitability. The company exhibits a massive asset base of $122.5B supported by a highly conservative capital structure, where shareholders' equity of $64.9B exceeds total liabilities of $57.5B (resulting in a strong equity-to-assets ratio of 53% and low leverage). Profitability is robust with an 18% operating margin yielding $2.7B in operating income for the quarter, while short-term liquidity is adequate with a current ratio of 1.32 ($15.9B in current assets vs. $12.0B in current liabilities) and massive retained earnings of $68.5B. These metrics indicate an exceptionally strong capacity to meet financial commitments, characteristic of a high-quality, low-risk investment-grade issuer.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 289,
+ "out_tok": 203,
+ "usd": 0.00226,
+ "utc": "2026-07-10T14:30:08.988727+00:00"
+}

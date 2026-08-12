@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R016",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits a strong liquidity position with a current ratio of 3.19 and a reasonable capital structure (debt-to-equity ratio under 1.4x, with equity of 838M supporting 1,114M in liabilities). However, it is currently unprofitable, posting an operating loss of -127M (operating margin of -6%) and a net loss of -214M on 2,044M in revenue. These operating losses and negative profitability metrics constrain the credit profile to speculative-grade territory despite the solid short-term liquidity buffers.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 238,
+ "out_tok": 131,
+ "usd": 0.001536,
+ "utc": "2026-07-10T14:07:55.932280+00:00"
+}

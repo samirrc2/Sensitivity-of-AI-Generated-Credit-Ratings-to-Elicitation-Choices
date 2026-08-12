@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows weak liquidity (current ratio 0.62) and stressed leverage/solvency signals, with shareholders\u2019 equity negative (-2,646M) and total liabilities exceeding total assets (37,604M vs. 35,008M). While EBIT is positive (3,230M), the capital structure deterioration suggests elevated credit risk consistent with speculative-grade ratings.  \n\nDECISION: B+",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 195,
+ "usd": 0.000292,
+ "utc": "2026-07-10T14:35:57.851358+00:00"
+}

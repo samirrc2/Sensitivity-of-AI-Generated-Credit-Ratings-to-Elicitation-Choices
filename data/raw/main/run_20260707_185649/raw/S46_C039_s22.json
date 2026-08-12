@@ -1,0 +1,45 @@
+{
+ "spec_id": "S46",
+ "item_id": "C039",
+ "seed": 22,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 0.0,
+   "maxOutputTokens": 1024,
+   "seed": 22,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-02-25. Act as a credit rating analyst.\nFiscal period 2025 Q4 (filed 2026-02-25). Revenue 30,125M, gross margin 52%, operating income 5,855M (operating margin 19%), net income 4,617M, diluted EPS 14.0. Total assets 1,809,320M, total liabilities 1,684,348M, shareholders' equity 124,972M. Current assets 1,018,577M vs current liabilities 1,226,809M (current ratio 0.83), retained earnings 165,288M.\nBased only on the above and knowledge predating 2026-02-25, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "```json\n{\n  \"decision\": \"BB-\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong profitability is offset by a highly leveraged balance sheet, negative working capital (current ratio 0.83), and a very low equity-to-assets ratio.\"\n}\n```",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 323,
+ "output_tokens": 66,
+ "cost_usd": 0.001079,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-08T00:01:02.105937+00:00",
+ "mode": "REAL"
+}

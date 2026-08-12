@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits massive scale with over $3.4 trillion in total assets and strong, highly profitable annual operations (Revenue of $49.7 billion with a 25% operating margin and $7.5 billion in net income). However, the balance sheet presents an extremely low current ratio of 0.42 (current assets of $1.07 trillion versus current liabilities of $2.56 trillion) and highly leveraged capital structure (equity of $303 billion supporting over $3.1 trillion in liabilities), which is characteristic of a major global systemically important financial institution (G-SIBI) or large-scale banking entity with inherent maturity mismatches. Given the immense asset base, strong earnings capacity, and typical regulatory capital support for an institution of this scale, the credit profile is highly robust but constrained by high leverage.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 302,
+ "out_tok": 180,
+ "usd": 0.002073,
+ "utc": "2026-07-10T15:06:48.493729+00:00"
+}

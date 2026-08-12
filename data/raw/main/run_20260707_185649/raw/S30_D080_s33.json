@@ -1,0 +1,44 @@
+{
+ "spec_id": "S30",
+ "item_id": "D080",
+ "seed": 33,
+ "family": "directional",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "SELL",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 33,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a equity research analyst. Using only the information below and general knowledge predating 2026-02-05, give a 20-trading-day directional recommendation for the stock.\nValid answers (choose exactly one): BUY, HOLD, SELL.\nCompany information (as of 2026-02-05):\nPrice action as of 2026-02-05: 1w +3.7%, 1m +10.1%, 3m +29.3%. Last close 186.50. 21d annualized realized volatility 32%. Position in trailing 63-day range: 93% (0%=low, 100%=high).\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock has shown consistent positive momentum across multiple timeframes (notably +10% over the past month and +29% over 3 months) while sitting near the top of its recent 63-day range. For a ~20-trading-day horizon, this supports trend continuation rather than mean reversion, especially with only moderate realized volatility. No offsetting fundamental or macro signals are provided.\nDECISION: BUY",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 294,
+ "output_tokens": 81,
+ "cost_usd": 0.00057,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:38:42.599891+00:00",
+ "mode": "REAL"
+}

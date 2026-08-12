@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R024",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid profitability (EBIT margin ~13.5%, net margin ~9.4%) and positive earnings, but leverage is high (liabilities ~82% of assets; equity ~17.6%). Liquidity is also pressured with a current ratio below 1 (current assets 1,460M vs. current liabilities 1,598M), suggesting credit risk consistent with a lower-investment grade rating.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 226,
+ "out_tok": 239,
+ "usd": 0.000344,
+ "utc": "2026-07-10T14:17:28.224515+00:00"
+}

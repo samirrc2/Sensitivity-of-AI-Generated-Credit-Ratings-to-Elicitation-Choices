@@ -1,0 +1,45 @@
+{
+ "spec_id": "S14",
+ "item_id": "C029",
+ "seed": 22,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 22,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2026-05-07; do not use later information.\nProvided information:\nFiscal period 2026 Q1 (filed 2026-05-07). Revenue 4,066M, gross margin 44%, operating income 622M (operating margin 15%), net income 433M, diluted EPS 1.52. Total assets 25,041M, total liabilities 15,009M, shareholders' equity 10,004M. Current assets 6,043M vs current liabilities 6,096M (current ratio 0.99), retained earnings 13,060M.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The issuer shows stable profitability with a quarterly revenue of $4,066M, a strong 44% gross margin, and an operating margin of 15% ($622M operating income). However, the balance sheet exhibits moderate leverage with total liabilities of $15,009M against shareholders' equity of $10,004M, alongside a tight short-term liquidity position represented by a current ratio of 0.99. These solid operating dynamics paired with moderate financial leverage and tight liquidity align with an investment-grade rating in the BBB category.\n\nDECISION: BBB",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 279,
+ "output_tokens": 127,
+ "cost_usd": 0.001561,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:13:04.075548+00:00",
+ "mode": "REAL"
+}

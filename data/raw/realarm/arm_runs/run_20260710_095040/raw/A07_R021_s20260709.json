@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R021",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "With positive earnings (net income 90M) and solid liquidity (current ratio \u2248 526/351 = 1.50), the company shows adequate short-term coverage. Leverage is moderate (equity/assets \u2248 773/1,923 = 0.40) but profitability is modest (net margin \u2248 4.3%), which suggests credit quality is likely in the investment-grade middle tier rather than the strongest bracket.  \nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 222,
+ "out_tok": 199,
+ "usd": 0.000293,
+ "utc": "2026-07-10T14:13:59.673110+00:00"
+}

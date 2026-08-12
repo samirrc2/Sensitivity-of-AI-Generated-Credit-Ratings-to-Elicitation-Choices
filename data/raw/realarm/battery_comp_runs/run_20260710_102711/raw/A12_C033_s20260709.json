@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"CCC\",\n  \"confidence\": 4,\n  \"rationale\": \"Negative equity of -$9.3B, high leverage, and accumulated losses outweigh positive EBIT, indicating high default risk and distressed credit profile.\"\n}\n```",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 279,
+ "out_tok": 59,
+ "usd": 0.00095,
+ "utc": "2026-07-10T15:05:19.181527+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits extremely weak financial health, characterized by significant operating losses (-$459M) and net losses (-$640M) on revenues of $11.0B, alongside a highly leveraged balance sheet where total liabilities ($11.8B) almost entirely consume total assets ($12.2B), leaving a very thin equity cushion of $415M. While a current ratio of 1.78 and positive retained earnings of $2.0B provide some short-term liquidity, the combination of high leverage, negative profitability, and thin equity capitalization places the firm in the highly speculative, non-investment grade category with elevated default risk. \n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 245,
+ "out_tok": 146,
+ "usd": 0.001682,
+ "utc": "2026-07-10T14:11:18.476931+00:00"
+}

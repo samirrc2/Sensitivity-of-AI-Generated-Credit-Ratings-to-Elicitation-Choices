@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R028",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the issuer demonstrates a stable but moderate credit profile, characterized by a respectable operating margin of 9% and a net income of 500M, alongside a leveraged but manageable balance sheet (Debt/Equity-equivalent of liabilities to equity is 1.63x). However, its liquidity is relatively tight, indicated by a low current ratio of 1.28 (current assets of 1,355M vs. current liabilities of 1,057M), and its retained earnings of 1,163M relative to total assets suggest a moderate historical accumulation of profits. These characteristics align with an investment-grade rating but point to moderate credit risk, placing the issuer in the BBB category.\n\nDECISION: BBB",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "in_tok": 240,
+ "out_tok": 160,
+ "usd": 0.0018,
+ "utc": "2026-07-10T14:22:17.764263+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B-\", \"confidence\": 4, \"rationale\": \"High leverage, negative retained earnings, and weak current ratio are offset by positive operating income, indicating high credit risk but not imminent default.\"}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 278,
+ "out_tok": 51,
+ "usd": 0.000876,
+ "utc": "2026-07-10T15:06:37.797785+00:00"
+}

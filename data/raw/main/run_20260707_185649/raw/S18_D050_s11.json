@@ -1,0 +1,43 @@
+{
+ "spec_id": "S18",
+ "item_id": "D050",
+ "seed": 11,
+ "family": "directional",
+ "provider": "openai",
+ "version": "current",
+ "model": "gpt-5.4-nano",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 0.0,
+ "temperature_applied": false,
+ "effective_temperature": null,
+ "call_meta": {
+  "signature": "mct+seed+eff",
+  "temperature_applied": false,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-02-05. Act as a equity research analyst.\n| Return 3m            | -45.0% |\n| Return 1m            | -29.6% |\n| Return 1w            | -19.2% |\n| Range position (63d) | 0% |\n| 21d realized vol     | 55% |\n| Last close           | 136.48 |\nBased only on the above and knowledge predating 2026-02-05, give a 20-trading-day directional recommendation for the stock. Choose exactly one label from: BUY, HOLD, SELL.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\"decision\":\"BUY\",\"confidence\":3,\"rationale\":\"Sharp recent selloff (down 45% 3m, 30% 1m) with range position at 0% suggests potential oversold mean reversion over next 20 days.\"}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 181,
+ "output_tokens": 151,
+ "cost_usd": 0.000225,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:19:58.009229+00:00",
+ "mode": "REAL"
+}

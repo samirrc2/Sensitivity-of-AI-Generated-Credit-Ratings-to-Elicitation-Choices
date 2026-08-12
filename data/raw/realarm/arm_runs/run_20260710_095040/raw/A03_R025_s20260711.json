@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R025",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows modest profitability (EBIT margin ~7.6% and net margin ~4.1%) and reasonable near-term liquidity (current ratio ~1.32), but it carries relatively high leverage (total liabilities ~82% of total assets) and has negative retained earnings, indicating weaker accumulated credit strength. Overall, credit quality appears below investment grade but not consistent with severe distress.  \n\nDECISION: BB",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 235,
+ "out_tok": 294,
+ "usd": 0.000414,
+ "utc": "2026-07-10T14:18:16.073107+00:00"
+}

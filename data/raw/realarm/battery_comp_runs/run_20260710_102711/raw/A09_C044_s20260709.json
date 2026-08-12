@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"B-\",\"confidence\":2,\"rationale\":\"Negative equity, very weak liquidity (current ratio 0.27), and liabilities exceed assets; despite strong margins, balance-sheet stress supports B-.\"}",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 261,
+ "out_tok": 146,
+ "usd": 0.000235,
+ "utc": "2026-07-10T15:18:13.741591+00:00"
+}

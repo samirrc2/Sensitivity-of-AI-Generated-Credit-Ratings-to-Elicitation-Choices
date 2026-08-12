@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R024",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage (Total Debt/Equity over 4x), weak liquidity (Current Ratio < 1), but offset by solid profitability and interest coverage.\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 267,
+ "out_tok": 61,
+ "usd": 0.00095,
+ "utc": "2026-07-10T14:17:11.853113+00:00"
+}

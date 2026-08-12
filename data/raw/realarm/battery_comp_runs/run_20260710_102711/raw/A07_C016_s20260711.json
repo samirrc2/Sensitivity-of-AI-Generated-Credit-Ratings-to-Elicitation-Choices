@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C016",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Liquidity is slightly stressed (current ratio 0.90) and leverage is high (total liabilities 89,110M vs equity 21,383M), which increases refinancing and downturn risk. Profitability appears solid with EBIT/operating income of 3,213M on revenue of 19,443M, but the balance-sheet leverage tempers the rating toward the lower end of speculative grade.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 207,
+ "usd": 0.000305,
+ "utc": "2026-07-10T14:44:12.339894+00:00"
+}

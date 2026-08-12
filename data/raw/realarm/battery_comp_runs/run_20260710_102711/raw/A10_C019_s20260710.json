@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financials, the issuer exhibits moderate profitability (11% operating margin) and a leveraged balance sheet, evidenced by a high total liabilities-to-equity ratio of 3.5x ($56.8B in liabilities against $16.2B in equity). While liquidity is adequate with a current ratio of 1.22 and positive retained earnings, the significant leverage and moderate asset coverage restrict the company to a mid-to-lower investment-grade profile. This financial risk profile aligns with a solid but not pristine credit quality, warranting a BBB- rating.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 287,
+ "out_tok": 127,
+ "usd": 0.001573,
+ "utc": "2026-07-10T14:47:36.562514+00:00"
+}

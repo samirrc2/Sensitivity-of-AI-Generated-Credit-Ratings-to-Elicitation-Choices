@@ -1,0 +1,44 @@
+{
+ "spec_id": "S08",
+ "item_id": "C035",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-02-25, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-02-25):\n| Current ratio           | 0.42 |\n| Retained earnings       | 261,693M |\n| Current liabilities     | 2,559,605M |\n| Current assets          | 1,067,083M |\n| Shareholders' equity    | 303,243M |\n| Total liabilities       | 3,107,151M |\n| Total assets            | 3,410,394M |\n| EBIT / operating income | 12,435M |\n| Revenue                 | 49,691M |\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"Weak liquidity (CR 0.42) and very high leverage (debt/assets ~0.91) despite EBIT strength; likely non-investment grade around BB-/BB.\"}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 261,
+ "output_tokens": 447,
+ "cost_usd": 0.000611,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:08:17.448883+00:00",
+ "mode": "REAL"
+}

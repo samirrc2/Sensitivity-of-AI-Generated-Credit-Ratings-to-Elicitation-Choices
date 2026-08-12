@@ -1,0 +1,45 @@
+{
+ "spec_id": "S33",
+ "item_id": "C011",
+ "seed": 22,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 22,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2026-04-29; do not use later information.\nProvided information:\n| Current ratio           | 1.39 |\n| Retained earnings       | 49,956M |\n| Current liabilities     | 18,377M |\n| Current assets          | 25,508M |\n| Shareholders' equity    | 52,061M |\n| Total liabilities       | 57,728M |\n| Total assets            | 110,429M |\n| EBIT / operating income | 1,842M |\n| Revenue                 | 11,164M |\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"Solid revenue and retained earnings, but a current ratio under 1.5 and significant leverage (Total Liabilities/Assets > 50%) temper the rating.\"}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 280,
+ "output_tokens": 51,
+ "cost_usd": 0.000211,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:44:03.591639+00:00",
+ "mode": "REAL"
+}

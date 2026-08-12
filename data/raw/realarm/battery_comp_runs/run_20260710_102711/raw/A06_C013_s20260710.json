@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits a very strong credit profile, characterized by high profitability (net income of 1,651M on revenue of 11,005M, operating margin of 17%) and a solid balance sheet with total assets of 113,281M against liabilities of 61,341M. It maintains robust liquidity with a current ratio of 1.53 and a massive retained earnings base of 60,632M, reflecting long-term financial stability and low default risk. These metrics align with a high investment-grade credit profile.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 281,
+ "out_tok": 132,
+ "usd": 0.00161,
+ "utc": "2026-07-10T14:40:47.592425+00:00"
+}

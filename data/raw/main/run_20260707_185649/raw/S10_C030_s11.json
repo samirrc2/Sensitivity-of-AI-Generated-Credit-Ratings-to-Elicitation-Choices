@@ -1,0 +1,45 @@
+{
+ "spec_id": "S10",
+ "item_id": "C030",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "2",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 0.0,
+   "maxOutputTokens": 1024,
+   "seed": 11,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-02-13. Act as a credit rating analyst.\n| Current ratio           | 2.29 |\n| Retained earnings       | 1,385M |\n| Current liabilities     | 6,019M |\n| Current assets          | 13,790M |\n| Shareholders' equity    | 18,899M |\n| Total liabilities       | 27,401M |\n| Total assets            | 58,167M |\n| EBIT / operating income | 811M |\n| Revenue                 | 5,633M |\nHere are two worked examples:\n- Information: Fiscal period 2026 Q1 (filed 2026-05-04). Revenue 83,161M, gross margin 38%, operating income 5,285M (operating margin 6%), net income 4,183M, diluted EPS 1.0. Total assets 464,410M, total liabilities 203,414M, shareholders' equity 254,381M. Current assets 97,787M vs current liabilities 94,378M (current ratio 1.04), retained earnings 482,344M.\n  Answer: AA+\n- Information: Fiscal period 2025 Q3 (filed 2025-10-23). Revenue 21,957M, gross margin 49%, operating income 4,862M (operating margin 22%), net income 2,714M, diluted EPS 2.41. Total assets 217,180M, total liabilities 156,703M, shareholders' equity 60,477M. Current assets 21,703M vs current liabilities 24,301M (current ratio 0.89), retained earnings 20,155M.\n  Answer: B-\n\nBased only on the above and knowledge predating 2026-02-13, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "To evaluate the creditworthiness of the issuer, we analyze key financial metrics and leverage ratios:\n\n1. **Liquidity and Solvency:** The company exhibits a strong short-term liquidity profile with a current ratio of 2.29 ($13,790M in current assets vs. $6,019M in current liabilities).\n2. **Leverage and Capital Structure:** Total debt/liabilities are moderate relative to assets, with a Total Liabilities to Total Assets ratio of 47.1% ($27,401M / $58,167M) and a healthy equity cushion of $18,899M.\n3. **Profitability and Debt Service:** Operating income (EBIT) of $811M on $5,633M in revenue yields an operating margin of 14.4%, which demonstrates solid profitability, though the absolute level of earnings is somewhat modest relative to the total asset base (ROA of ~1.4% based on EBIT).\n\nOverall, the company possesses investment-grade characteristics with strong liquidity and moderate leverage, but its profitability relative to its large asset base limits it to the lower tier of investment grade.\n\nDECISION: BBB",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 606,
+ "output_tokens": 258,
+ "cost_usd": 0.003231,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:09:54.403361+00:00",
+ "mode": "REAL"
+}

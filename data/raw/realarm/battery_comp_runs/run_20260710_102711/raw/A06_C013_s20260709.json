@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates very strong financial health, characterized by robust profitability (17% operating margin, $1.65B net income for the quarter), a highly liquid balance sheet with a current ratio of 1.53, and a substantial capital base with $51.94 billion in shareholders' equity against $113.28 billion in total assets. The low leverage (total liabilities-to-equity ratio of approximately 1.18) and massive retained earnings ($60.63 billion) indicate an extremely low default risk and an investment-grade profile consistent with a high-quality, high-capacity obligor. \n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 281,
+ "out_tok": 140,
+ "usd": 0.001681,
+ "utc": "2026-07-10T14:40:46.210094+00:00"
+}

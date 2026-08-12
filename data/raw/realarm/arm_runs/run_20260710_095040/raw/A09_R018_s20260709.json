@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "R018",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":3,\"rationale\":\"Moderate leverage and thin operating margin (8%), with negative retained earnings despite positive net income; liquidity adequate (current ratio 1.44).\"}",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 181,
+ "usd": 0.000273,
+ "utc": "2026-07-10T14:10:46.044626+00:00"
+}

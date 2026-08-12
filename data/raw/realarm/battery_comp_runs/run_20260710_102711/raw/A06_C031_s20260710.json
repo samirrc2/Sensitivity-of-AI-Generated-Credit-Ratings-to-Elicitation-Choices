@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits extremely large-scale operations with total assets of over $2.2 trillion, reflecting a major global financial institution (likely a systemic bank, given the high leverage and low current ratio typical of banking structures). With very strong profitability ($5.29B quarterly net income), a robust equity base of $178.4B, and a highly stable deposit or funding base implied by its massive balance sheet, the credit profile is exceptionally strong. Taking into account the systemic importance and robust capitalization of such a giant financial institution, it warrants a high investment-grade rating.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 291,
+ "out_tok": 124,
+ "usd": 0.001553,
+ "utc": "2026-07-10T15:02:04.504886+00:00"
+}

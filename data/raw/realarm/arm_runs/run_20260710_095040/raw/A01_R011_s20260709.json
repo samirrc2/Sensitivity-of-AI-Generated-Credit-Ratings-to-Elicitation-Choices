@@ -1,0 +1,19 @@
+{
+ "spec_id": "A01",
+ "item_id": "R011",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":3,\"rationale\":\"Operating and net losses (operating margin -3%, net margin negative) indicate weak profitability, though liquidity is adequate (current ratio 2.31) and equity buffers leverage.\"}",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 234,
+ "out_tok": 229,
+ "usd": 0.000333,
+ "utc": "2026-07-10T14:02:15.691973+00:00"
+}

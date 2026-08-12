@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the company is experiencing severe financial distress: it is highly leveraged with total liabilities making up nearly 97% of its asset base (leaving a thin equity cushion of 415M on 12,240M in assets), and it is highly unprofitable with an operating loss of 459M and a net loss of 640M on 11,006M in revenue. While a current ratio of 1.78 indicates adequate short-term liquidity, the rapid erosion of equity from heavy losses and extreme leverage places the issuer in a highly speculative, high-default-risk category. Therefore, the company exhibits characteristics of a deeply vulnerable credit profile, warranting a rating in the CCC range.\n\nDECISION: CCC+",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "in_tok": 246,
+ "out_tok": 165,
+ "usd": 0.001854,
+ "utc": "2026-07-10T14:12:04.787295+00:00"
+}

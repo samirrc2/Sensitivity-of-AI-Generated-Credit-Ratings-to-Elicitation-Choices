@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C006",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A\", \"confidence\": 4, \"rationale\": \"Strong balance sheet with high equity-to-assets ratio, solid liquidity, and healthy operating income relative to liabilities justify an upper-medium grade rating.\"}\n```",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "in_tok": 277,
+ "out_tok": 53,
+ "usd": 0.000893,
+ "utc": "2026-07-10T14:32:57.312789+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R024",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows moderate profitability (EBIT margin ~13.5%, net margin ~9.4%), but liquidity is weak with a current ratio below 1 (current assets 1,460M vs current liabilities 1,598M). Leverage is high (total liabilities 4,392M vs shareholders\u2019 equity 941M), indicating elevated financial risk despite solid earnings.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 226,
+ "out_tok": 210,
+ "usd": 0.000308,
+ "utc": "2026-07-10T14:17:26.141246+00:00"
+}

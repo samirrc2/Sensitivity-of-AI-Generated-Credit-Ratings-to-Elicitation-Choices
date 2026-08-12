@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R009",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BBB\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong solvency (equity/assets >48%) and solid profitability (ROA ~6.5%) are offset by weak liquidity (current ratio <1.0), justifying a solid investment-grade rating.\"\n}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 275,
+ "out_tok": 73,
+ "usd": 0.00107,
+ "utc": "2026-07-10T14:00:59.152843+00:00"
+}

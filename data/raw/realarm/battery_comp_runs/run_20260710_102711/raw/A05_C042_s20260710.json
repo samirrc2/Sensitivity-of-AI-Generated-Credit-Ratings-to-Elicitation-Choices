@@ -1,0 +1,19 @@
+{
+ "spec_id": "A05",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"CCC-\",\"confidence\":2,\"rationale\":\"Negative equity (-$8.5B), current ratio 0.92, retained earnings -$8.9B; operating margin 8% and net income $511M indicate weak but not bankrupt performance.\"}",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "in_tok": 252,
+ "out_tok": 152,
+ "usd": 0.00024,
+ "utc": "2026-07-10T15:15:41.682377+00:00"
+}

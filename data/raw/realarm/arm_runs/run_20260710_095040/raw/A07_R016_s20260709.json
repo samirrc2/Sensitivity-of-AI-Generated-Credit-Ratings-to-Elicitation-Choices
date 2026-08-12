@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R016",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Despite strong liquidity (current ratio \u2248 3.2) and solid capitalization (shareholders\u2019 equity 838M vs. total assets 2,038M), the issuer is experiencing significant operating and net losses (EBIT -127M; net income -214M). The combination of persistent profitability weakness and moderate leverage (liabilities 1,114M vs. equity 838M) points to a below-investment-grade credit quality.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 224,
+ "out_tok": 226,
+ "usd": 0.000327,
+ "utc": "2026-07-10T14:08:24.610162+00:00"
+}

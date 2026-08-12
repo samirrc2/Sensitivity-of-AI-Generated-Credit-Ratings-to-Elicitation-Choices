@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits exceptionally strong profitability and operating efficiency, with a 62% operating margin and $3,230M in operating income for the quarter. However, the balance sheet presents significant risk, characterized by negative shareholders' equity of -$2,646M and a weak current ratio of 0.62 ($5,119M in current assets against $8,286M in current liabilities). Despite the strong earnings power indicated by $36,115M in cumulative retained earnings, the current capital structure and liquidity profile warrant a speculative-grade rating.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 276,
+ "out_tok": 129,
+ "usd": 0.001575,
+ "utc": "2026-07-10T14:35:29.395613+00:00"
+}

@@ -1,0 +1,45 @@
+{
+ "spec_id": "S33",
+ "item_id": "C010",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2026-02-24; do not use later information.\nProvided information:\n| Current ratio           | 1.92 |\n| Retained earnings       | 29,765M |\n| Current liabilities     | 3,702M |\n| Current assets          | 7,091M |\n| Shareholders' equity    | 29,833M |\n| Total liabilities       | 21,966M |\n| Total assets            | 51,799M |\n| EBIT / operating income | 2,489M |\n| Revenue                 | 5,638M |\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"Strong retained earnings and equity vs. total assets indicate a stable base. However, high total liabilities relative to equity and current assets/liabilities are concerning, suggesting a need for substantial improvement in overall financial health.\"}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 276,
+ "output_tokens": 60,
+ "cost_usd": 0.000233,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:44:02.894646+00:00",
+ "mode": "REAL"
+}

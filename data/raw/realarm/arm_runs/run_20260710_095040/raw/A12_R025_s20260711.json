@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 4, \"rationale\": \"High leverage (Debt/Equity ~4.5) and negative retained earnings indicate speculative-grade risk, balanced by positive EBIT, net income, and adequate short-term liquidity.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 271,
+ "out_tok": 59,
+ "usd": 0.000937,
+ "utc": "2026-07-10T14:19:09.646782+00:00"
+}

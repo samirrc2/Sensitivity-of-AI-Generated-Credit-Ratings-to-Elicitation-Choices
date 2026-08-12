@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R004",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits strong financial performance with substantial revenue ($4,165M), solid profitability (17% operating margin, $414M net income), and a very healthy liquidity profile (current ratio of 2.19). However, its credit profile is constrained by moderate leverage (liabilities-to-assets ratio of 67.4%) and accumulated historical deficits reflected in negative retained earnings (-$1,086M). This combination of strong current earnings and solid liquidity alongside a leveraged balance sheet and historical losses is characteristic of an upper-medium grade investment credit. \n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 238,
+ "out_tok": 128,
+ "usd": 0.001509,
+ "utc": "2026-07-10T13:54:38.616251+00:00"
+}

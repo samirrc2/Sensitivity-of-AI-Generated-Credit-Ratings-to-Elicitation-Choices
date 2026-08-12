@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R022",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows reasonable operating profitability (EBIT margin ~14%) and solid capitalization (equity ~5.45B versus total liabilities ~7.34B), but liquidity is only moderate (current ratio ~1.14) and net profitability is relatively thin (net margin ~2.7%), indicating limited downside buffer. Overall, credit quality appears more consistent with the lower investment-grade range rather than stronger categories.  \n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 232,
+ "out_tok": 187,
+ "usd": 0.00028,
+ "utc": "2026-07-10T14:15:13.695148+00:00"
+}

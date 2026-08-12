@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C016",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Liquidity is weak with a current ratio of 0.90, indicating limited short-term cushion. Leverage is high (total liabilities 89,110M vs equity 21,383M), which increases financial risk, though profitability appears solid with EBIT of 3,213M on revenue of 19,443M. Overall, this points to a speculative but not highly distressed profile.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 205,
+ "usd": 0.000303,
+ "utc": "2026-07-10T14:44:10.498474+00:00"
+}

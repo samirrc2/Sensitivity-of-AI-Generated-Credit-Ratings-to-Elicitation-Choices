@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R024",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows positive profitability (net income margin ~9% and EBIT margin ~14%), but its balance sheet is leveraged (total liabilities of 4,392M vs equity of 941M, ~4.7x debt-to-equity) and liquidity is weak (current ratio ~0.91). With these factors together\u2014strong operating earnings but high leverage and below-1 current coverage\u2014the credit profile is more consistent with the speculative-grade range.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 294,
+ "usd": 0.000414,
+ "utc": "2026-07-10T14:17:10.565039+00:00"
+}

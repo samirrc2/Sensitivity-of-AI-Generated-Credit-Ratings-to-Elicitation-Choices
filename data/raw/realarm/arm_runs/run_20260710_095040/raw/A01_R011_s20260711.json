@@ -1,0 +1,19 @@
+{
+ "spec_id": "A01",
+ "item_id": "R011",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"B+\",\"confidence\":3,\"rationale\":\"Profitable base deteriorating: operating and net losses, while leverage is high (liabilities ~70% of assets); liquidity is adequate (current ratio 2.31).\"}",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 234,
+ "out_tok": 157,
+ "usd": 0.000243,
+ "utc": "2026-07-10T14:02:19.138988+00:00"
+}

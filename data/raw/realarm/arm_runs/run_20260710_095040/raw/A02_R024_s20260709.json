@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R024",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates solid profitability with revenue of $4,076M, an operating margin of 14% ($552M), and positive net income of $384M. However, its balance sheet shows high leverage with a low equity cushion (shareholders' equity of $941M against $4,392M in liabilities) and weak short-term liquidity, as evidenced by a current ratio of 0.91 ($1,460M in current assets vs. $1,598M in current liabilities). This combination of stable operating performance alongside tight liquidity and substantial leverage aligns with a speculative-grade profile.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 241,
+ "out_tok": 144,
+ "usd": 0.001658,
+ "utc": "2026-07-10T14:17:00.682034+00:00"
+}

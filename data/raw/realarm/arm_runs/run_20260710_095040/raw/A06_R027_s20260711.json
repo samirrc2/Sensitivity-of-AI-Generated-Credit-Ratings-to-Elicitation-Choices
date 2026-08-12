@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R027",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates solid liquidity with a strong current ratio of 2.57 and a healthy equity base, with shareholders' equity of 2,858M relative to 4,069M in liabilities (leverage ratio of approximately 1.42x). However, profitability is somewhat modest, with an operating margin of 6% (244M operating income on 3,801M revenue) and a low net profit margin of under 1% due to likely high interest expenses or non-operating charges. These credit metrics represent a stable, investment-grade profile with moderate financial risk, typical of a lower-tier investment-grade rating.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 228,
+ "out_tok": 146,
+ "usd": 0.001656,
+ "utc": "2026-07-10T14:20:48.791426+00:00"
+}

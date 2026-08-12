@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's Q2 2026 financial profile reveals severe balance sheet distress, highlighted by negative shareholders' equity of -$8,465M, accumulated deficits (retained earnings of -$8,881M), and a working capital deficit (current ratio of 0.92). While the company remains operating- and net-income positive in the short term, the deeply insolvent capital structure (total liabilities exceeding total assets by nearly $8.5B) points to a highly leveraged, speculative-grade profile with elevated default risk. Consequently, the issuer exhibits substantial credit risk, placing it deep into the speculative \"junk\" tiers.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 280,
+ "out_tok": 143,
+ "usd": 0.001707,
+ "utc": "2026-07-10T15:16:11.769009+00:00"
+}

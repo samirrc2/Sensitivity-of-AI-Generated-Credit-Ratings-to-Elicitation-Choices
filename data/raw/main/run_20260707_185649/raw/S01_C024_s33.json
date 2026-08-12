@@ -1,0 +1,45 @@
+{
+ "spec_id": "S01",
+ "item_id": "C024",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-02-18. Act as a credit rating analyst.\n| Current ratio           | 0.94 |\n| Retained earnings       | 21,891M |\n| Current liabilities     | 9,428M |\n| Current assets          | 8,827M |\n| Shareholders' equity    | 36,034M |\n| Total liabilities       | 50,185M |\n| Total assets            | 86,783M |\n| EBIT / operating income | 467M |\n| Revenue                 | 5,013M |\nBased only on the above and knowledge predating 2026-02-18, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The current ratio (0.94) is concerning, indicating potential short-term liquidity issues. However, the company has a strong equity base (Shareholders' Equity of 36,034M compared to Total Liabilities of 50,185M and Total Assets of 86,783M), which suggests long-term solvency. The EBIT/Revenue ratio is very low (467M / 5,013M = 9.3%), indicating weak profitability and potentially limited ability to service debt from operations.\n\nDECISION: BB",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 279,
+ "output_tokens": 121,
+ "cost_usd": 0.000386,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T22:57:05.287572+00:00",
+ "mode": "REAL"
+}

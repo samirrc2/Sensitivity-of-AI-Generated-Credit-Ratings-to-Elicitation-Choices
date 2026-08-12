@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This company exhibits an exceptionally strong financial profile, characterized by outstanding profitability (operating margin of 56% and net income of 1,301M) and a very robust, low-leverage balance sheet where shareholders' equity of 33,867M covers total liabilities of 23,079M nearly 1.5 times over. Furthermore, its liquidity is excellent, with a current ratio of 2.29 (current assets of 13,066M versus current liabilities of 5,712M), indicating negligible near-to-medium-term default risk. These stellar metrics justify a high investment-grade rating just below the absolute maximum to account for any potential market volatility or sector-specific concentration.\n\nDECISION: AA+",
+ "parsed_letter": "AA+",
+ "parsed_band": "SAFE",
+ "in_tok": 284,
+ "out_tok": 164,
+ "usd": 0.001902,
+ "utc": "2026-07-10T14:36:14.285001+00:00"
+}

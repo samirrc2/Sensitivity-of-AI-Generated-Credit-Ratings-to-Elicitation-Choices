@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates strong operating performance with quarterly revenue of $23.1B, an 11% operating margin, and positive net income of $1,628M. However, its capital structure is highly leveraged with negative shareholders' equity of -$9,270M and total liabilities ($64.2B) exceeding total assets ($54.9B), though it maintains adequate short-term liquidity with a current ratio of 1.09. Based on the combination of strong profitability and high leverage/negative equity, the issuer warrants a non-investment grade but stable profile.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 277,
+ "out_tok": 130,
+ "usd": 0.001585,
+ "utc": "2026-07-10T15:04:39.316364+00:00"
+}

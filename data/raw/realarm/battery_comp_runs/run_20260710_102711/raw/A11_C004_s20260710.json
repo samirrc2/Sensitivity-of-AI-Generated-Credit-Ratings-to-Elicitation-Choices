@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows solid short-term liquidity (current ratio 2.04) and moderate balance-sheet leverage (total liabilities of 58,979M vs. total assets of 143,724M). However, profitability appears thin with EBIT of 941M on revenue of 22,387M (roughly a ~4% margin), which limits credit resilience. Overall, this supports a lower investment-grade assessment.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 240,
+ "out_tok": 200,
+ "usd": 0.000298,
+ "utc": "2026-07-10T14:31:18.182471+00:00"
+}

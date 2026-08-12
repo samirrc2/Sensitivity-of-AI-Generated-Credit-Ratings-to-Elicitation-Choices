@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided Q1 2026 financial data, the company shows a very large asset base ($74.0B) and solid profitability (10% operating margin, $886M operating income), but exhibits a moderately leveraged capital structure with total liabilities representing 71% of assets ($52.7B) and a modest current ratio of 1.39. Crucially, the retained earnings of $0M suggests either a recent restructuring, spin-off, or a highly aggressive capital distribution policy, which introduces structural uncertainty and warrants a cautious investment-grade rating rather than a prime rating. Consequently, the company's profile align best with a solid, lower-tier investment-grade credit.\n\nDECISION: BBB",
+ "parsed_letter": "C",
+ "parsed_band": "DISTRESS",
+ "in_tok": 278,
+ "out_tok": 155,
+ "usd": 0.001812,
+ "utc": "2026-07-10T14:55:15.403419+00:00"
+}

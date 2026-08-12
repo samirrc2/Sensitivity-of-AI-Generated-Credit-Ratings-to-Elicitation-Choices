@@ -1,0 +1,45 @@
+{
+ "spec_id": "S14",
+ "item_id": "C032",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2026-04-23; do not use later information.\nProvided information:\nFiscal period 2026 Q1 (filed 2026-04-23). Revenue 20,880M, gross margin 85%, operating income 6,598M (operating margin 32%), net income 2,971M, diluted EPS 4.28. Total assets 308,894M, total liabilities 274,899M, shareholders' equity 33,995M. Current assets 56,524M vs current liabilities 159,640M (current ratio 0.35), retained earnings 26,088M.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The issuer shows very strong profitability with a Q1 revenue of $20.88 billion, an outstanding gross margin of 85%, and an operating margin of 32%. However, the balance sheet presents highly leveraged characteristics and significant short-term refinancing risks, as evidenced by a low current ratio of 0.35 (current assets of $56.52 billion against current liabilities of $159.64 billion) and a high total liabilities-to-equity ratio. Balancing its robust operational earnings power against its highly leveraged capital structure and substantial short-term liquidity pressure places the issuer in the lower investment-grade or high speculative-grade boundary.\n\nDECISION: BBB-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 289,
+ "output_tokens": 144,
+ "cost_usd": 0.00173,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:13:06.015469+00:00",
+ "mode": "REAL"
+}

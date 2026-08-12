@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows moderate liquidity (current ratio 1.34) and reasonable leverage (liabilities ~51% of total assets) supported by substantial shareholders\u2019 equity (31,211M) and retained earnings (22,804M). Profitability appears solid (EBIT ~2,494M on 18,044M revenue), but without cash flow/coverage metrics the credit profile is best assessed as investment-grade with some cushion.  \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 242,
+ "out_tok": 209,
+ "usd": 0.00031,
+ "utc": "2026-07-10T14:28:11.956033+00:00"
+}

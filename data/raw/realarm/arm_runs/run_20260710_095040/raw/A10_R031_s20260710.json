@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R031",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits severe liquidity stress and highly leveraged balance sheet characteristics, evidenced by a critically low current ratio of 0.55 (current liabilities of $857M exceed current assets of $475M by a wide margin) and a high total liabilities-to-equity ratio of 2.53x ($7.24B in liabilities against $2.87B in equity). While the business remains operationally profitable with a decent 20% operating margin, the vast gap between operating income ($371M) and net income ($67M) suggests a heavy burden of non-operating expenses, likely driven by high interest expenses on its massive debt load. These factors indicate a highly speculative credit profile with elevated default risk in the near-to-medium term.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 240,
+ "out_tok": 170,
+ "usd": 0.00189,
+ "utc": "2026-07-10T14:26:19.907770+00:00"
+}

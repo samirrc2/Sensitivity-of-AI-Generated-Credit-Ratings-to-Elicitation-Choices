@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R015",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An operating margin of -42% (operating loss of -988M) indicates severe core profitability issues and potential operational distress, though the positive net income of 644M (likely driven by non-operating, one-off events) and a strong current ratio of 2.85 provide a temporary liquidity runway. The company's moderate leverage (total liabilities to equity of 1.42x) and positive retained earnings suggest historical viability, but the massive current-year operating drain places it firmly in speculative-grade territory. Consequently, the company exhibits elevated credit risk with a significant dependency on stabilizing its core operations, justifying a speculative rating in the single-B range.\n\nDECISION: B",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "in_tok": 244,
+ "out_tok": 147,
+ "usd": 0.001689,
+ "utc": "2026-07-10T14:07:33.486009+00:00"
+}

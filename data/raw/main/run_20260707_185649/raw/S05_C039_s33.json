@@ -1,0 +1,45 @@
+{
+ "spec_id": "S05",
+ "item_id": "C039",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-02-25, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-02-25):\nFiscal period 2025 Q4 (filed 2026-02-25). Revenue 30,125M, gross margin 52%, operating income 5,855M (operating margin 19%), net income 4,617M, diluted EPS 14.0. Total assets 1,809,320M, total liabilities 1,684,348M, shareholders' equity 124,972M. Current assets 1,018,577M vs current liabilities 1,226,809M (current ratio 0.83), retained earnings 165,288M.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The issuer exhibits massive scale with over $1.8 trillion in assets and solid profitability, including $30.1 billion in quarterly revenue and a strong 19% operating margin. However, the balance sheet reveals highly leveraged positioning (equity-to-assets ratio of ~6.9%) and a weak liquidity profile with a current ratio of 0.83 (current liabilities exceeding current assets by over $208 billion). This financial profile\u2014characterized by immense size, highly leveraged capital structure, and tight short-term liquidity\u2014is highly consistent with a major Global Systemically Important Bank (G-SIB) or large financial institution, warranting a strong investment-grade rating.\n\nDECISION: A-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 313,
+ "output_tokens": 146,
+ "cost_usd": 0.001784,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:05:02.360970+00:00",
+ "mode": "REAL"
+}

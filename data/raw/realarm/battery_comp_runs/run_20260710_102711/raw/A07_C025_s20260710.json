@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows only moderate short-term liquidity (current ratio 1.39) and very weak accumulated profitability (retained earnings at 0M). Leverage is high with total liabilities (52,676M) exceeding equity (21,312M) and only a modest operating scale (EBIT 886M on revenue 9,143M), indicating meaningful credit risk.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 229,
+ "out_tok": 228,
+ "usd": 0.000331,
+ "utc": "2026-07-10T14:54:55.865147+00:00"
+}

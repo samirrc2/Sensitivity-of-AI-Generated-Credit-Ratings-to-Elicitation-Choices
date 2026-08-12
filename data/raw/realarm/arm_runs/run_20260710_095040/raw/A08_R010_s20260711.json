@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "R010",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 4, \"rationale\": \"High leverage with total debt/liabilities of 17.4B against 3.3B equity, offset by decent profitability with a 19% net margin.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 224,
+ "out_tok": 59,
+ "usd": 0.000867,
+ "utc": "2026-07-10T14:01:48.541623+00:00"
+}

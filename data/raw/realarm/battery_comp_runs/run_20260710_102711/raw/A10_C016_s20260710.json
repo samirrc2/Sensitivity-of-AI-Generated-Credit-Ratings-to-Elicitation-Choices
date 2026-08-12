@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C016",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits a large asset base ($110.6B) and solid profitability, with an operating margin of 17% ($3.2B) and a substantial retained earnings base of $73.2B. However, its leverage is high, with total liabilities representing approximately 81% of total assets, and it faces a short-term liquidity headwind as evidenced by a current ratio of 0.90 (current assets of $30.9B vs. current liabilities of $34.5B). This combination of strong operating earnings and scale, tempered by elevated leverage and a tight liquidity profile, is characteristic of a solid, investment-grade issuer with moderate credit risk.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 288,
+ "out_tok": 152,
+ "usd": 0.0018,
+ "utc": "2026-07-10T14:44:24.772488+00:00"
+}

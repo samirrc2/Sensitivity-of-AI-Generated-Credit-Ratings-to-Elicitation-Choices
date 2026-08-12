@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer displays robust revenue generation and solid profitability, with operating income of 2,554M and net income of 1,628M for the quarter. However, the balance sheet exhibits significant structural risk, characterized by negative shareholders' equity of -9,270M (with accumulated deficits of -9,884M) and liabilities exceeding assets, though short-term liquidity remains manageable with a current ratio of 1.09. Based on strong earnings offsetting highly leveraged and negative equity book-value metrics, the credit risk is categorized as speculative but currently viable.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 277,
+ "out_tok": 128,
+ "usd": 0.001568,
+ "utc": "2026-07-10T15:04:41.175239+00:00"
+}

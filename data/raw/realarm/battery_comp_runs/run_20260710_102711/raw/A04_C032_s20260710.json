@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"B-\",\n  \"confidence\": 4,\n  \"rationale\": \"Very low liquidity (current ratio 0.35) and high leverage (debt-to-equity over 8x) present substantial credit risk, offset slightly by positive operating income.\"\n}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 283,
+ "out_tok": 70,
+ "usd": 0.001054,
+ "utc": "2026-07-10T15:03:09.288292+00:00"
+}

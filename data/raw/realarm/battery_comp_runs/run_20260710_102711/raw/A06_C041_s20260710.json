@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits extremely strong financial performance with an operating margin of 32% and quarterly net income of $2,438 million, supported by a massive asset base of $204,354 million (primarily consisting of long-term assets, given the smaller current asset footprint). While the current ratio is low at 0.55, the immense scale, substantial retained earnings of $34,747 million, and highly profitable operations indicate excellent creditworthiness and extremely low default risk. This profile is consistent with a high-grade investment rating.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 281,
+ "out_tok": 123,
+ "usd": 0.001529,
+ "utc": "2026-07-10T15:14:27.338435+00:00"
+}

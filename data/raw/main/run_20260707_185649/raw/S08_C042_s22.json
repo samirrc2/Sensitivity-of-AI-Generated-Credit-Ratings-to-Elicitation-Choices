@@ -1,0 +1,44 @@
+{
+ "spec_id": "S08",
+ "item_id": "C042",
+ "seed": 22,
+ "family": "credit_health",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 22,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-04-28, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-04-28):\n| Current ratio           | 0.92 |\n| Retained earnings       | -8,881M |\n| Current liabilities     | 11,449M |\n| Current assets          | 10,559M |\n| Shareholders' equity    | -8,465M |\n| Total liabilities       | 39,015M |\n| Total assets            | 30,558M |\n| EBIT / operating income | 777M |\n| Revenue                 | 9,532M |\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Negative equity and asset-liability gap with current ratio <1 indicates high credit risk and potential near-term distress.\"}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 251,
+ "output_tokens": 497,
+ "cost_usd": 0.000671,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:08:20.515710+00:00",
+ "mode": "REAL"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the issuer exhibits severe credit risk, characterized by deeply negative shareholders' equity (-$8,465M), accumulated deficits (retained earnings of -$8,881M), and a weak liquidity profile with a current ratio below parity (0.92). While the company remains currently profitable (net income of $511M), its technical insolvency and highly leveraged balance sheet point to a speculative, high-risk profile. Therefore, the issuer is rated in the highly speculative CCC range, reflecting substantial credit risk but tempered by current operational profitability.\n\nDECISION: CCC+",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "in_tok": 280,
+ "out_tok": 126,
+ "usd": 0.001554,
+ "utc": "2026-07-10T15:16:04.625370+00:00"
+}

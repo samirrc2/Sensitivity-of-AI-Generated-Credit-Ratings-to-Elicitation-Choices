@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Liquidity is modest (current ratio 1.18) and the balance sheet is highly leveraged, with shareholders\u2019 equity small relative to total assets (5,987M equity vs 164,787M assets). Profitability also appears thin (EBIT/operating income 446M on revenue 22,217M), which limits credit resilience despite positive retained earnings.  \n\nDECISION: B+",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 231,
+ "out_tok": 293,
+ "usd": 0.000412,
+ "utc": "2026-07-10T14:46:18.452541+00:00"
+}

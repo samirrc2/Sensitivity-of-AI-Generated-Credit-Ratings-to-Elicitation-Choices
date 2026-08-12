@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R014",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Strong liquidity (current ratio \u2248 2.5) and conservative leverage (liabilities/assets \u2248 38%) support repayment capacity, while profitability is solid (EBIT margin \u2248 15.5%, net margin \u2248 10.8%). With only limited credit indicators provided, this merits a high investment-grade but not the very top tier.  \n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 226,
+ "out_tok": 225,
+ "usd": 0.000326,
+ "utc": "2026-07-10T14:06:12.624401+00:00"
+}

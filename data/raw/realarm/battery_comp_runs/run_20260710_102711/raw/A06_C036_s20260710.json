@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits a solid operating profile with a 19% operating margin and $749M in operating income, alongside a substantial equity base of over $21B. However, the balance sheet shows elevated leverage (total liabilities of $58B representing roughly 73% of total assets) and a weak liquidity profile, as evidenced by a current ratio of 0.79 ($5.68B in current assets versus $7.15B in current liabilities). These solid operating earnings balanced against a leveraged balance sheet and tight near-term liquidity align with a strong investment-grade risk profile.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 271,
+ "out_tok": 133,
+ "usd": 0.001604,
+ "utc": "2026-07-10T15:08:22.064826+00:00"
+}

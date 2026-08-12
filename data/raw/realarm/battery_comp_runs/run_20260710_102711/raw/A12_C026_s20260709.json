@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage (Total Debt/Equity over 4x) and tight liquidity are offset by solid EBIT margins and positive retained earnings, indicating speculative grade.\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 281,
+ "out_tok": 61,
+ "usd": 0.000971,
+ "utc": "2026-07-10T14:56:35.867310+00:00"
+}

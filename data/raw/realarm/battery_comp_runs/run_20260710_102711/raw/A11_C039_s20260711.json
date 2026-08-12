@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows relatively healthy operating profitability (EBIT/Revenue \u2248 19%), but financial structure is weak: liquidity is below 1.0 (current ratio 0.83) and leverage is high (equity of 124,972 against total assets of 1,809,320). This combination suggests a higher risk credit profile than investment grade, but not distressed based on operating earnings alone.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 250,
+ "out_tok": 218,
+ "usd": 0.000323,
+ "utc": "2026-07-10T15:12:33.985828+00:00"
+}

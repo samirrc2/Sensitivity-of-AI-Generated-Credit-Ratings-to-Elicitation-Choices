@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C020",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The firm shows somewhat weak liquidity (current ratio 0.91) and high leverage (total liabilities are ~74% of total assets), increasing refinancing and risk sensitivity. However, profitability is solid for an operating-basis measure (EBIT of 5,004 on revenue of 36,381 implies ~14% margin), and retained earnings are substantial, which provides some cushion. Overall credit quality looks in the speculative lower range.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 224,
+ "usd": 0.000327,
+ "utc": "2026-07-10T14:48:23.459923+00:00"
+}

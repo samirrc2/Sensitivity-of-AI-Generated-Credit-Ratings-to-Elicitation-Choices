@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R001",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Strong balance sheet liquidity and solid profitability metrics (EBIT/TA of 11.9%, low leverage) align with a stable investment-grade rating.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 272,
+ "out_tok": 55,
+ "usd": 0.000903,
+ "utc": "2026-07-10T13:51:47.477178+00:00"
+}

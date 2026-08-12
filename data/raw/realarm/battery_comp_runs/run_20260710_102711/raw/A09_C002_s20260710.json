@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB+\",\"confidence\":2,\"rationale\":\"Very strong profitability and liquidity (current ratio 12.4), but thin equity vs assets (liabilities/assets ~90%) implies higher leverage risk.\"}",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 265,
+ "out_tok": 247,
+ "usd": 0.000362,
+ "utc": "2026-07-10T14:29:01.354389+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R018",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows moderate liquidity (current ratio \u2248 1.44) and positive profitability (EBIT margin \u2248 8.3%, net income of 1.701B), which supports ongoing operations. However, leverage is relatively high (liabilities/assets \u2248 61.6%) and retained earnings are negative (-398M), indicating some accumulated financial stress. Overall, this points to a speculative-grade profile but not severe distress.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 241,
+ "out_tok": 233,
+ "usd": 0.000339,
+ "utc": "2026-07-10T14:11:00.479084+00:00"
+}

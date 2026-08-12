@@ -1,0 +1,44 @@
+{
+ "spec_id": "S30",
+ "item_id": "C020",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-02-17, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-02-17):\nFiscal period 2025 Q4 (filed 2026-02-17). Revenue 36,381M, gross margin 80%, operating income 5,004M (operating margin 14%), net income 2,342M, diluted EPS 0.55. Total assets 404,258M, total liabilities 298,517M, shareholders' equity 104,460M. Current assets 56,922M vs current liabilities 62,370M (current ratio 0.91), retained earnings 94,744M.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The company exhibits substantial scale (quarterly revenue >$36B, total assets >$400B) and robust profitability (80% gross margin, 14% operating margin), which are consistent with a well-established, cash-generative market leader. These strengths are offset by elevated leverage (total liabilities/equity \u2248 2.85\u00d7) and sub-1.0 current ratio, which cap the rating below the AA category but still support a solid investment-grade assessment.\nDECISION: A",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 380,
+ "output_tokens": 100,
+ "cost_usd": 0.000725,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:37:36.319105+00:00",
+ "mode": "REAL"
+}

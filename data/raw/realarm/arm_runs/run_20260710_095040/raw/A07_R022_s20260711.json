@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R022",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows moderate financial strength with shareholders\u2019 equity covering a large portion of assets (equity/assets \u2248 0.43) and solid operating earnings (EBIT margin \u2248 14%). However, liquidity is only slightly above break-even (current ratio \u2248 1.14) and profitability after interest/taxes is relatively thin (net margin \u2248 2.7%), which limits the cushion for a lower rating range.  \n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 232,
+ "out_tok": 244,
+ "usd": 0.000351,
+ "utc": "2026-07-10T14:15:16.327356+00:00"
+}

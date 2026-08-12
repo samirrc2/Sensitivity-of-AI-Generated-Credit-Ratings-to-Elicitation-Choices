@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits a highly leveraged capital structure with a high debt-to-equity ratio (total liabilities of 8,218M against shareholders' equity of 1,804M, resulting in a leverage ratio of approximately 4.56x) and negative retained earnings of -748M, indicating a history of accumulated losses. While the company is currently profitable (operating income of 264M, net income of 142M) and maintains adequate short-term liquidity with a current ratio of 1.32, its weak balance sheet strength and thin operating margin (8%) place it in the speculative-grade category. These credit metrics, balanced by stable positive cash generation from its large asset base, are characteristic of a solid single-B credit profile.\n\nDECISION: B",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "in_tok": 237,
+ "out_tok": 169,
+ "usd": 0.001876,
+ "utc": "2026-07-10T14:18:07.274689+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows a weak liquidity position (current ratio of 0.55), which increases short-term funding risk. However, profitability appears strong (EBIT/operating income of 2,527 on revenue of 7,966) and leverage is not extreme given shareholders\u2019 equity of 54,181 against total assets of 204,354, supporting a mid\u2013investment-grade view.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 233,
+ "out_tok": 209,
+ "usd": 0.000308,
+ "utc": "2026-07-10T15:14:36.303573+00:00"
+}

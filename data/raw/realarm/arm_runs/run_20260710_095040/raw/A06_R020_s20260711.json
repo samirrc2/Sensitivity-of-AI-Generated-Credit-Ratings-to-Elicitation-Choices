@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R020",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates solid profitability with revenue of $2,981M, an operating margin of 18% ($537M), and positive net income of $293M. However, its balance sheet shows moderate leverage with an equity-to-assets ratio of approximately 32.4% ($4,112M equity on $12,689M assets) and a tight liquidity profile characterized by a current ratio of 0.83 ($1,107M current assets vs $1,333M current liabilities). These solid operating dynamics balanced against moderate leverage and short-term liquidity pressures align with an investment-grade rating in the BBB category.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 233,
+ "out_tok": 151,
+ "usd": 0.001709,
+ "utc": "2026-07-10T14:12:51.058134+00:00"
+}

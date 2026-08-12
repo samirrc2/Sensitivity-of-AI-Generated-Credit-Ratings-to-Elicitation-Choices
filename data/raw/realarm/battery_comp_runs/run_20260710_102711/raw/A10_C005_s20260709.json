@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's Q3 2025 financial profile reveals exceptionally strong credit fundamentals, characterized by high-margin profitability (83% gross margin and 48% operating margin), a robust liquidity position (current ratio of 1.55 on $62.1B of current assets), and a solid equity base ($23.8B). While the company exhibits immense scale with $17.6B in quarterly revenue and highly profitable operations, its leverage profile shows a relatively high liabilities-to-assets ratio of approximately 79% ($91.1B in liabilities against $114.9B in assets), which slightly restrains it from the absolute highest AAA rating. Balancing the elite operating efficiency and massive liquid buffer against this leveraged capital structure supports an upper-medium to high investment grade rating.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 289,
+ "out_tok": 180,
+ "usd": 0.002054,
+ "utc": "2026-07-10T14:32:22.576291+00:00"
+}

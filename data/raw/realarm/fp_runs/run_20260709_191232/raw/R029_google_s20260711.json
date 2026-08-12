@@ -1,0 +1,12 @@
+{
+ "item_id": "R029",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "ok": true,
+ "raw_response": "GUESS: AMC Entertainment (AMC)",
+ "in_tok": 190,
+ "out_tok": 8,
+ "usd": 0.000357,
+ "utc": "2026-07-09T23:22:29.173671+00:00"
+}

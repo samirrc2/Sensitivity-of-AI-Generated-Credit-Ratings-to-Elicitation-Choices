@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R031",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "From a credit rating perspective, the issuer exhibits significant structural weaknesses, highlighted by a severely constrained liquidity profile with a current ratio of 0.55 (current assets of $475M vs. current liabilities of $857M) and a heavily leveraged balance sheet (total liabilities of $7,240M against equity of $2,866M). While the company is operationally profitable with a 20% operating margin ($371M), the dramatic drop to a net income of $67M suggests high interest expenses or non-operating losses that constrain debt serviceability. This high-leverage, high-refinancing-risk profile is characteristic of a highly speculative, non-investment grade credit.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 240,
+ "out_tok": 159,
+ "usd": 0.001791,
+ "utc": "2026-07-10T14:26:18.138767+00:00"
+}

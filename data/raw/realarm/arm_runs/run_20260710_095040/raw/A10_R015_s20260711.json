@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R015",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "As a credit rating analyst, the issuer's balance sheet reflects strong liquidity (current ratio of 2.85) and a solid capital structure with positive equity and retained earnings. However, the operating performance is highly concerning, characterized by a severe operating loss of -988M (operating margin of -42%), indicating that the core business is currently unviable or undergoing severe distress, even though net income is positive (likely due to one-off non-operating gains or tax assets). Therefore, despite the current asset cushion, the high operational risk and lack of core profitability place the issuer in the speculative-grade category, but with sufficient short-term runway to avoid immediate default.\n\nDECISION: BB-",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "in_tok": 244,
+ "out_tok": 146,
+ "usd": 0.00168,
+ "utc": "2026-07-10T14:07:37.024822+00:00"
+}

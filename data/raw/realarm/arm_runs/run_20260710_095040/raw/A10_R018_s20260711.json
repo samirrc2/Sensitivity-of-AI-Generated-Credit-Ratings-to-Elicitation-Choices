@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R018",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the company exhibits a solid investment-grade profile characterized by substantial scale (revenue of $18.9B, assets of $23.7B), adequate liquidity (current ratio of 1.44), and moderate leverage (equity-to-assets of 32%). However, profitability is somewhat modest with an 8% operating margin, and the negative retained earnings of -$398M suggest either a history of past accumulated losses, recent restructuring, or heavy distributions relative to historical earnings. Taking into account these strong balance sheet metrics alongside the constrained historical profitability implied by the negative retained earnings, the issuer is assigned a lower-medium investment grade rating.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 244,
+ "out_tok": 148,
+ "usd": 0.001698,
+ "utc": "2026-07-10T14:10:58.174489+00:00"
+}

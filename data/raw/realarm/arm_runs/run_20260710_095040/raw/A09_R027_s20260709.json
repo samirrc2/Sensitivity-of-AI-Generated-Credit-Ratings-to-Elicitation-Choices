@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "R027",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB-\",\"confidence\":3,\"rationale\":\"Adequate liquidity (current ratio 2.57) and solid equity, but very thin net margin (~0.8%) and modest operating margin (6%) constrain credit strength.\"}",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 229,
+ "out_tok": 180,
+ "usd": 0.000271,
+ "utc": "2026-07-10T14:21:02.424473+00:00"
+}

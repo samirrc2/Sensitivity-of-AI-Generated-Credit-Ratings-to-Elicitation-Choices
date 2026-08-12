@@ -1,0 +1,12 @@
+{
+ "item_id": "R008",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "ok": true,
+ "raw_response": "GUESS: INT (World Fuel Services)",
+ "in_tok": 176,
+ "out_tok": 865,
+ "usd": 0.001116,
+ "utc": "2026-07-09T23:42:52.713235+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows extremely low profitability, with a tiny operating margin of 2% ($446M on $22,217M in revenue) and a net loss of $4M for the quarter. Its capital structure is highly leveraged, with total liabilities of $158,800M against equity of only $5,987M (an equity-to-assets ratio of just 3.6%), though it maintains adequate short-term liquidity with a current ratio of 1.18. These credit metrics, characterized by thin margins, net losses, and very high leverage, are consistent with a speculative-grade rating in the BB range.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 276,
+ "out_tok": 146,
+ "usd": 0.001728,
+ "utc": "2026-07-10T14:46:07.529883+00:00"
+}

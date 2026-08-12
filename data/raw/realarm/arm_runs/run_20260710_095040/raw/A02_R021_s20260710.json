@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R021",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits moderate financial strength with substantial revenues ($2,083M) and positive profitability (7% operating margin, $90M net income), supported by adequate short-term liquidity (current ratio of 1.50). However, the leverage profile is moderately high with total liabilities of $1,148M against $773M in equity (debt-to-equity of ~1.49), and profitability metrics are relatively thin for highly-rated investment-grade entities. These metrics are characteristic of a stable, lower-tier investment-grade or strong crossover issuer with moderate credit risk.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 235,
+ "out_tok": 134,
+ "usd": 0.001558,
+ "utc": "2026-07-10T14:13:31.111044+00:00"
+}

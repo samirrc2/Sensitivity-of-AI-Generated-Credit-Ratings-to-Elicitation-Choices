@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C006",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates a highly robust financial profile, characterized by strong profitability (19% operating margin, $908M net income in Q3), a very solid capital structure with low leverage (equity of $51,071M representing 64% of total assets), and comfortable short-term liquidity (current ratio of 1.52). Given its massive asset base of nearly $80B, substantial retained earnings of $45,920M, and strong cash generation capacity, the credit risk is extremely low.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 275,
+ "out_tok": 119,
+ "usd": 0.001484,
+ "utc": "2026-07-10T14:33:09.104517+00:00"
+}

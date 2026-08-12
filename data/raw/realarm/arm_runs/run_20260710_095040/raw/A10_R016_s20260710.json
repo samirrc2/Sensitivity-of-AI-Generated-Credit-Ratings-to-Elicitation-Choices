@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R016",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "As a credit rating analyst, the issuer's credit profile is characterized by strong short-term liquidity, evidenced by a robust current ratio of 3.19 (current assets of $1,131M vs. current liabilities of $354M) and a moderate leverage profile (total liabilities are 54.7% of total assets, with positive shareholders' equity of $838M and positive retained earnings of $223M). However, the company is experiencing significant operational distress, reporting a gross margin of only 19%, an operating loss of -$127M (margin of -6%), and a net loss of -$214M on $2,044M in revenue, which threatens its long-term solvency if unprofitable operations persist. Balancing the solid near-term liquidity and asset cushion against the severe profitability pressures and cash burn indicates a speculative-grade rating in the single-B range.\n\nDECISION: B",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "in_tok": 239,
+ "out_tok": 200,
+ "usd": 0.002159,
+ "utc": "2026-07-10T14:08:41.315109+00:00"
+}

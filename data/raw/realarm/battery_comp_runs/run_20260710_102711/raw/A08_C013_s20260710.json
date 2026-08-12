@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A-\", \"confidence\": 4, \"rationale\": \"Strong balance sheet with high equity and retained earnings, but relatively low EBIT-to-assets profit margin limits rating.\"}\n```",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 274,
+ "out_tok": 47,
+ "usd": 0.000834,
+ "utc": "2026-07-10T14:41:03.539957+00:00"
+}

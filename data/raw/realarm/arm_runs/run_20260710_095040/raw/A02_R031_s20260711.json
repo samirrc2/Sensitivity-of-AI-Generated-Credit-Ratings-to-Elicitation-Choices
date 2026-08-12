@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R031",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's financial profile reveals a highly leveraged and illiquid position, characterized by a low current ratio of 0.55 (current assets of 475M versus current liabilities of 857M) and a high total liabilities-to-equity ratio of approximately 2.5x (liabilities of 7,240M on equity of 2,866M). While the firm is operating profitably with a 20% operating margin (371M operating income on 1,823M revenue), its net income of 67M is heavily depressed relative to operating profits, indicating substantial interest expenses or non-operating charges arising from its large debt load. Consequently, the combination of strong operating profitability but very high leverage and severe short-term refinancing/liquidity risk places the credit profile in the speculative-grade category.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 239,
+ "out_tok": 191,
+ "usd": 0.002077,
+ "utc": "2026-07-10T14:25:37.601665+00:00"
+}

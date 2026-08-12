@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C023",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 4, \"rationale\": \"High leverage (73% debt-to-assets) and low operating margin (18.5%), but supported by positive equity and substantial retained earnings.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 275,
+ "out_tok": 55,
+ "usd": 0.000907,
+ "utc": "2026-07-10T14:52:12.856278+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R026",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid revenue ($13.1B) and positive profitability (net income of $517M), but operates with a relatively thin operating margin of 5.4% and significant leverage, as evidenced by an equity-to-assets ratio of approximately 18.6% ($3.16B equity on $17.0B assets). Furthermore, the company exhibits short-term liquidity pressure with a current ratio below parity (0.89). These financial metrics\u2014moderate profitability paired with high leverage and tight liquidity\u2014are characteristic of a non-investment grade or crossover issuer.\n\nDECISION: BB",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 241,
+ "out_tok": 130,
+ "usd": 0.001531,
+ "utc": "2026-07-10T14:19:16.526176+00:00"
+}

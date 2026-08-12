@@ -1,0 +1,19 @@
+{
+ "spec_id": "A05",
+ "item_id": "R017",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB-\",\"confidence\":3,\"rationale\":\"Operating margin 23% and positive retained earnings support stability; however leverage is high (liabilities/assets ~65%) and liquidity is weak (current ratio 1.35).\"}",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 221,
+ "out_tok": 178,
+ "usd": 0.000267,
+ "utc": "2026-07-10T14:09:20.685898+00:00"
+}

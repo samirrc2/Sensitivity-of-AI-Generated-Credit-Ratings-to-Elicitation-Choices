@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":3,\"rationale\":\"Tight liquidity (current ratio ~1.00) and large negative retained earnings weaken credit quality despite positive operating/net income.\"}",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 261,
+ "out_tok": 166,
+ "usd": 0.00026,
+ "utc": "2026-07-10T15:09:43.585456+00:00"
+}

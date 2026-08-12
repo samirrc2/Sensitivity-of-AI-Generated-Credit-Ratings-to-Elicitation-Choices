@@ -1,0 +1,43 @@
+{
+ "spec_id": "S31",
+ "item_id": "C028",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 0.0,
+ "temperature_applied": false,
+ "effective_temperature": null,
+ "call_meta": {
+  "signature": "mct+seed+eff",
+  "temperature_applied": false,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "seed": 33,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2026-04-30; do not use later information.\nProvided information:\n| Current ratio           | 1.18 |\n| Retained earnings       | 280,791M |\n| Current liabilities     | 216,756M |\n| Current assets          | 255,155M |\n| Shareholders' equity    | 441,914M |\n| Total liabilities       | 474,716M |\n| Total assets            | 916,630M |\n| EBIT / operating income | 23,852M |\n| Revenue                 | 181,519M |\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The company has solid liquidity with a current ratio of 1.18 and a healthy equity base (shareholders\u2019 equity of 441,914M against total assets of 916,630M). Leverage is moderate (total liabilities 474,716M vs. assets 916,630M; debt roughly half of assets) and EBIT margin is respectable (~13%), suggesting stable operating performance, though there is limited information on cash flow and interest coverage. Overall, this points to a mid-investment-grade profile with some downside risk mitigated by solid assets and earnings, justifying a BBB+ rating.\n\nDECISION: BBB+",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 235,
+ "output_tokens": 456,
+ "cost_usd": 0.000617,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:39:08.448310+00:00",
+ "mode": "REAL"
+}

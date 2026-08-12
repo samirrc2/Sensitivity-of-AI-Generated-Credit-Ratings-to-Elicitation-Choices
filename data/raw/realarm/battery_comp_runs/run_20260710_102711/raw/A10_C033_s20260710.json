@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data for 2026 Q1, the company exhibits a highly distressed balance sheet characterized by negative shareholders' equity (-$9,270M) and accumulated deficits (retained earnings of -$9,884M), which indicates severe erosion of capital. Although the company remains operationally profitable in the short term (operating income of $2,554M on a marginal 11% margin) and maintains a barely adequate current ratio of 1.09, the extreme leverage and insolvency on a book-value basis represent a substantial credit risk. Therefore, the issuer is speculative-grade with highly vulnerable solvency metrics, pointing to a high-yield, deeply sub-investment grade profile.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 285,
+ "out_tok": 157,
+ "usd": 0.00184,
+ "utc": "2026-07-10T15:05:03.403406+00:00"
+}

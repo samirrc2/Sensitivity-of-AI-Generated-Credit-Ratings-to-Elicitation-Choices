@@ -1,0 +1,12 @@
+{
+ "item_id": "R012",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "ok": true,
+ "raw_response": "GUESS: NYT (The New York Times Company)",
+ "in_tok": 184,
+ "out_tok": 12,
+ "usd": 0.000384,
+ "utc": "2026-07-09T23:16:39.705069+00:00"
+}

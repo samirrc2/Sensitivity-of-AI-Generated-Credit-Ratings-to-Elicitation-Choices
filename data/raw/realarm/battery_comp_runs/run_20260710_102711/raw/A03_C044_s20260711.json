@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows extreme liquidity stress (current ratio 0.27) and balance sheet weakness (negative shareholders\u2019 equity and deeply negative retained earnings), indicating limited financial flexibility and elevated default risk. While EBIT is positive (465M), the capital structure is highly leveraged with liabilities exceeding assets, consistent with distressed credit conditions.  \n\nDECISION: CCC-",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "in_tok": 238,
+ "out_tok": 243,
+ "usd": 0.000351,
+ "utc": "2026-07-10T15:17:42.737026+00:00"
+}

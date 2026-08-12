@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R022",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates strong financial scale with revenue of $9.1B and solid profitability (operating income of $1.31B and a 14% operating margin), supported by a healthy equity base of $5.45B representing over 42% of total assets. However, its net income ($242M) is significantly lower than operating income, likely due to high interest expenses or one-off charges, and its liquidity is relatively tight with a current ratio of 1.14. These factors point to a solid investment-grade profile with moderate credit risk, typical of the BBB category.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 241,
+ "out_tok": 132,
+ "usd": 0.00155,
+ "utc": "2026-07-10T14:15:04.613749+00:00"
+}

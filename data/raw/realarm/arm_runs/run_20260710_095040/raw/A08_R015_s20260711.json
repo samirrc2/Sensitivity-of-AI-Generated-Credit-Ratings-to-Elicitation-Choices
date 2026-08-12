@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "R015",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"Strong balance sheet liquidity and solid equity ratio are offset by a substantial operating loss despite positive net income.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 262,
+ "out_tok": 43,
+ "usd": 0.00078,
+ "utc": "2026-07-10T14:07:26.291445+00:00"
+}

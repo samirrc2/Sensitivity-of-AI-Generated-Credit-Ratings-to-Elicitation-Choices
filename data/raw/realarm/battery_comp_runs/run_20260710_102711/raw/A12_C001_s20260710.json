@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BBB+\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong balance sheet with low leverage (TD/TA ~51%), solid liquidity, and steady profitability, but EBIT margin (~13.8%) and asset turnover limit a higher rating.\"\n}\n```",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 281,
+ "out_tok": 69,
+ "usd": 0.001043,
+ "utc": "2026-07-10T14:28:14.531017+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R029",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid operational performance with $8.63B in revenue, an operating margin of 9.3% ($806M), and positive net income of $445M. However, there is a major data inconsistency between total liabilities ($11M) and current liabilities ($2,248M), though the equity base of $3.342B relative to $11.8B in assets indicates a leveraged capital structure with moderate liquidity (current ratio of 1.30). Given the scale of operations and moderate profitability balanced by these leverage characteristics, the issuer represents an investment-grade risk.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 235,
+ "out_tok": 137,
+ "usd": 0.001585,
+ "utc": "2026-07-10T14:23:15.667226+00:00"
+}

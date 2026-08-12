@@ -1,0 +1,12 @@
+{
+ "item_id": "R011",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "ok": true,
+ "raw_response": "GUESS: TransDigm Group (TDG)",
+ "in_tok": 192,
+ "out_tok": 11,
+ "usd": 0.000387,
+ "utc": "2026-07-09T23:43:54.200308+00:00"
+}

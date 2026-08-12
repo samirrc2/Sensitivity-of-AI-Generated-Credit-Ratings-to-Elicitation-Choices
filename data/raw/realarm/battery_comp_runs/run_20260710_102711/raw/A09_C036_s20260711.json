@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB+\",\"confidence\":2,\"rationale\":\"Profitable (19% operating margin) but weak liquidity (current ratio 0.79) and high leverage (liabilities/equity ~2.7) increase refinancing risk.\"}",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 261,
+ "out_tok": 189,
+ "usd": 0.000288,
+ "utc": "2026-07-10T15:08:40.996159+00:00"
+}

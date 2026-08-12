@@ -1,0 +1,45 @@
+{
+ "spec_id": "S01",
+ "item_id": "C003",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2025-11-06. Act as a credit rating analyst.\n| Current ratio           | 1.32 |\n| Retained earnings       | 68,459M |\n| Current liabilities     | 12,009M |\n| Current assets          | 15,884M |\n| Shareholders' equity    | 64,923M |\n| Total liabilities       | 57,549M |\n| Total assets            | 122,472M |\n| EBIT / operating income | 2,702M |\n| Revenue                 | 14,969M |\nBased only on the above and knowledge predating 2025-11-06, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The company's current ratio of 1.32 is adequate, and its substantial retained earnings of 68,459M and shareholders' equity of 64,923M indicate strong financial health. The debt-to-asset ratio (Total Liabilities / Total Assets = 57,549M / 122,472M = 0.47) is moderate, suggesting manageable leverage. However, the EBIT of 2,702M relative to revenue of 14,969M implies an operating margin of only 18%, which is decent but not exceptional, and the current ratio, while adequate, could be stronger. Overall, the company shows good financial stability with a reasonable debt burden and profitability, but not to the extent of the highest investment grades.\n\nDECISION: A-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 285,
+ "output_tokens": 179,
+ "cost_usd": 0.000533,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T22:56:52.968952+00:00",
+ "mode": "REAL"
+}

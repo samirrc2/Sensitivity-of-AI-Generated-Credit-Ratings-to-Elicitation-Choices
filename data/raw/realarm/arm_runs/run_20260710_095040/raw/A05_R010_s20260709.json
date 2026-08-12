@@ -1,0 +1,19 @@
+{
+ "spec_id": "A05",
+ "item_id": "R010",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB+\",\"confidence\":2,\"rationale\":\"High leverage (liabilities 17,381M vs equity 3,328M) but strong profitability (net margin ~19%) and healthy retained earnings.\"}",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 188,
+ "out_tok": 183,
+ "usd": 0.000266,
+ "utc": "2026-07-10T14:01:26.272074+00:00"
+}

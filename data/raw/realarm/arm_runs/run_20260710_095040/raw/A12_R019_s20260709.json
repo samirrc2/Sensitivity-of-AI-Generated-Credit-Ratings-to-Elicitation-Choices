@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"CCC\",\n  \"confidence\": 4,\n  \"rationale\": \"Extremely high leverage, negative equity, substantial net losses, and weak interest coverage place this issuer in deep distressed territory.\"\n}\n```",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 273,
+ "out_tok": 55,
+ "usd": 0.000905,
+ "utc": "2026-07-10T14:12:16.278550+00:00"
+}

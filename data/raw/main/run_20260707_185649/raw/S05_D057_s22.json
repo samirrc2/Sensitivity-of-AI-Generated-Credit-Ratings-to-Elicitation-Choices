@@ -1,0 +1,45 @@
+{
+ "spec_id": "S05",
+ "item_id": "D057",
+ "seed": 22,
+ "family": "directional",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 22,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "You are a equity research analyst. Using only the information below and general knowledge predating 2026-05-14, give a 20-trading-day directional recommendation for the stock.\nValid answers (choose exactly one): BUY, HOLD, SELL.\nCompany information (as of 2026-05-14):\nPrice action as of 2026-05-14: 1w +2.2%, 1m +0.9%, 3m -3.3%. Last close 62.97. 21d annualized realized volatility 19%. Position in trailing 63-day range: 50% (0%=low, 100%=high).\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock exhibits low short-term volatility (19%) and has consolidated near the exact midpoint of its 3-month trading range (50th percentile) with flat medium-term momentum (+0.9% over the past month and -3.3% over three months). This lack of a strong directional catalyst or trend indicates that the stock is likely to trade sideways over the next 20 trading days. Therefore, a neutral stance is warranted.\n\nDECISION: HOLD",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 192,
+ "output_tokens": 98,
+ "cost_usd": 0.00117,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:05:12.667842+00:00",
+ "mode": "REAL"
+}

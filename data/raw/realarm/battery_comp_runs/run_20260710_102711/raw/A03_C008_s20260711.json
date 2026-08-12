@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows very weak balance-sheet credit fundamentals: shareholders\u2019 equity is negative (\u22122,646M) with liabilities exceeding assets (total liabilities 37,604M vs. total assets 35,008M), indicating material leverage and balance-sheet stress. Liquidity is also weak (current ratio 0.62). While operating profitability appears positive (EBIT/operating income 3,230M), the negative equity and leverage offset that, leading to a speculative-grade rating.\n\nDECISION: B",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "in_tok": 240,
+ "out_tok": 225,
+ "usd": 0.000329,
+ "utc": "2026-07-10T14:35:15.457021+00:00"
+}

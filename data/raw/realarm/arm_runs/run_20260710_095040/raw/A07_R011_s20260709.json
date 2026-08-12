@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R011",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "With EBIT and net income both negative, the issuer is currently loss-making, indicating weak credit fundamentals. While liquidity appears adequate (current ratio \u2248 2.3) and leverage is not extreme (liabilities/assets \u2248 0.70), the ongoing profitability deterioration supports a speculative-grade rating rather than investment grade.  \n\nDECISION: B+",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 230,
+ "out_tok": 241,
+ "usd": 0.000347,
+ "utc": "2026-07-10T14:02:48.472101+00:00"
+}

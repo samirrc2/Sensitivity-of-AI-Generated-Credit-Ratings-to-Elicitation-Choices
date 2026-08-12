@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R010",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "To assess the creditworthiness of the issuer, we analyze key financial metrics from the provided data:\n* **Leverage and Capital Structure:** The company is highly leveraged, with total liabilities of 17,381M against total assets of 21,779M, resulting in a high Debt-to-Assets ratio of approximately 79.8% and a thin equity cushion (Shareholders' Equity of 3,328M represents only 15.3% of assets).\n* **Profitability:** The company demonstrates solid profitability with a Net Income of 403M on Revenue of 2,106M (a strong net profit margin of 19.1%) and substantial accumulated Retained Earnings of 4,176M, indicating a history of profitable operations. \n* **Rating Justification:** While the company's strong profitability and accumulated earnings support an investment-grade profile, its highly leveraged balance sheet and asset-heavy structure (potentially reflecting a financial institution or capital-intensive utility) elevate default risk, placing it in the lower-tier investment grade category.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 201,
+ "out_tok": 240,
+ "usd": 0.002462,
+ "utc": "2026-07-10T14:01:57.483636+00:00"
+}

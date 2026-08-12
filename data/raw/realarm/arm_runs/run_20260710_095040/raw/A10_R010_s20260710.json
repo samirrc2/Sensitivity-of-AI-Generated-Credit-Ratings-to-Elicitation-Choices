@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R010",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "To determine the credit rating, we evaluate the company's financial risk profile using key credit metrics derived from the provided data:\n1. **Leverage/Capital Structure**: The leverage ratio (Total Liabilities / Total Assets) is very high at 79.8% ($17,381M / $21,779M), and the Debt-to-Equity ratio (using total liabilities as a proxy) is 5.22x ($17,381M / $3,328M), indicating a highly leveraged capital structure.\n2. **Profitability**: While the net profit margin is strong at 19.1% ($403M net income on $2,106M revenue), the Return on Assets (ROA) is low at 1.85% ($403M / $21,779M), showing low asset efficiency typical of highly leveraged financial institutions or capital-intensive utilities.\n3. **Solvency**: Retained earnings of $4,176M exceed total shareholders' equity ($3,328M), suggesting accumulated deficit in other equity components (such as treasury stock or accumulated other comprehensive loss) which adds risk. \n\nGiven the high leverage and modest asset productivity offset by solid net margins, the company represents a moderate credit risk, placing it in the lower investment-grade or upper speculative-grade category.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 201,
+ "out_tok": 304,
+ "usd": 0.003038,
+ "utc": "2026-07-10T14:01:59.889751+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R018",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows moderate liquidity (current ratio \u2248 1.44) and positive profitability (net income and EBIT margins ~9% and ~8%), but it also has meaningful leverage (liabilities/assets \u2248 0.62) and a negative retained earnings balance, indicating weaker cumulative earnings capacity. Overall, this profile aligns better with a speculative-grade rating rather than investment grade.  \n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 232,
+ "out_tok": 216,
+ "usd": 0.000316,
+ "utc": "2026-07-10T14:10:35.521196+00:00"
+}

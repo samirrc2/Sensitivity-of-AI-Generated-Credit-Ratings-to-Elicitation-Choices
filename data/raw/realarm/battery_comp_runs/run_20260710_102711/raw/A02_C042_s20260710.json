@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits severe financial distress, characterized by a deeply negative shareholders' equity of -$8,465M, accumulated deficit (retained earnings of -$8,881M), and total liabilities ($39,015M) far exceeding total assets ($30,558M). Additionally, it suffers from weak liquidity with a current ratio below 1.0 (0.92) and highly leveraged capital structure, which places it at high risk of default despite generating positive operating and net income in the current quarter. Based on these highly speculative credit characteristics and technical insolvency, the issuer warrants a highly speculative grade rating.\n\nDECISION: CCC+",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "in_tok": 279,
+ "out_tok": 138,
+ "usd": 0.001661,
+ "utc": "2026-07-10T15:15:25.132894+00:00"
+}

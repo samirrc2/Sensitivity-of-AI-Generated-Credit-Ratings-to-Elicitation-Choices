@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits a solid financial profile with a strong operating margin of 15%, substantial profitability (433M net income in Q1), and a robust equity base of 10,004M, indicating a stable investment-grade business model. However, its short-term liquidity is slightly constrained, as evidenced by a current ratio of 0.99 (current assets of 6,043M vs. current liabilities of 6,096M), and its total debt-to-equity leverage is moderate (total liabilities of 15,009M against 10,004M equity). These factors align the issuer with a solid, lower-tier investment-grade rating.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 280,
+ "out_tok": 157,
+ "usd": 0.001833,
+ "utc": "2026-07-10T14:58:55.541365+00:00"
+}

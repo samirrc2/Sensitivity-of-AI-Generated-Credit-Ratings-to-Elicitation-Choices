@@ -1,0 +1,9 @@
+metric,value_bps,note
+per_name_spread_range_median,820.0,"median across 45 names, over 782 trading days"
+per_name_spread_range_IQR_low,275.0,
+per_name_spread_range_IQR_high,820.0,
+floor_never_below_any_day,106.0,min across all names & trading days
+median_name_floor,623.0,
+share_verdict_reaches_CCC,0.667,SATURATION: these names pin median at the CCC-AAA ceiling (fragility stat itself)
+nonsaturating_median,261.0,"n=15 names not reaching CCC; IQR [250.5, 275.0]"
+cornaggia_literature_anchor,80-140,per 2-3 notches (retained alongside)

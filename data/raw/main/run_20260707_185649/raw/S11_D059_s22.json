@@ -1,0 +1,45 @@
+{
+ "spec_id": "S11",
+ "item_id": "D059",
+ "seed": 22,
+ "family": "directional",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 22,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "You are a equity research analyst. Using only the information below and general knowledge predating 2026-05-14, give a 20-trading-day directional recommendation for the stock.\nValid answers (choose exactly one): BUY, HOLD, SELL.\nCompany information (as of 2026-05-14):\nPrice action as of 2026-05-14: 1w -1.0%, 1m -0.3%, 3m -3.9%. Last close 574.64. 21d annualized realized volatility 33%. Position in trailing 63-day range: 18% (0%=low, 100%=high).\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "```json\n{\n  \"decision\": \"BUY\",\n  \"confidence\": 3,\n  \"rationale\": \"Stock is near its 63-day low (18th percentile) after recent consolidation, suggesting an attractive short-term entry point for a technical rebound.\"\n}\n```",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 202,
+ "output_tokens": 64,
+ "cost_usd": 0.000879,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:11:05.278828+00:00",
+ "mode": "REAL"
+}

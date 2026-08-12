@@ -1,0 +1,43 @@
+{
+ "spec_id": "S31",
+ "item_id": "C007",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 0.0,
+ "temperature_applied": false,
+ "effective_temperature": null,
+ "call_meta": {
+  "signature": "mct+seed+eff",
+  "temperature_applied": false,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2025-10-22; do not use later information.\nProvided information:\n| Current ratio           | 1.07 |\n| Retained earnings       | 167,281M |\n| Current liabilities     | 50,869M |\n| Current assets          | 54,611M |\n| Shareholders' equity    | 79,277M |\n| Total liabilities       | 113,539M |\n| Total assets            | 192,816M |\n| EBIT / operating income | 7,096M |\n| Revenue                 | 23,993M |\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The company shows solid profitability (EBIT ~29.6% of revenue) and sizable retained earnings, but its leverage is relatively high (debt ~113.5B vs equity ~79.3B) and liquidity is thin (current ratio ~1.07), suggesting moderate credit risk with potential for improvement if leverage is addressed.\n\nDECISION: BBB+",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 235,
+ "output_tokens": 402,
+ "cost_usd": 0.00055,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:38:56.225745+00:00",
+ "mode": "REAL"
+}

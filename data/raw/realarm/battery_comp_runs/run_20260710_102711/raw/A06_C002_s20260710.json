@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits exceptionally strong credit fundamentals, including an outstanding gross margin of 89%, a robust operating margin of 44%, and a massive current ratio of 12.41, indicating extremely high short-term liquidity. However, the overall leverage is high with total liabilities of $444.1B against shareholders' equity of $49.2B (equity-to-assets ratio of approximately 10%), which slightly tempers the profile from the absolute highest tier. Given the vast asset base, immense liquidity cushion, and high profitability, the issuer warrants a highly secure investment-grade rating.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 283,
+ "out_tok": 133,
+ "usd": 0.001622,
+ "utc": "2026-07-10T14:28:45.987494+00:00"
+}

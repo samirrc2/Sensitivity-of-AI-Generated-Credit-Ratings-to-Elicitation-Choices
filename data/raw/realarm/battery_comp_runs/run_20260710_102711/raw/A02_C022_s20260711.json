@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits solid profitability with an operating income of $979M (9% margin) and a robust equity base of $25,838M with high retained earnings. However, the balance sheet reveals a very weak liquidity position, characterized by a current ratio of 0.59 (current liabilities of $21,864M significantly exceeding current assets of $12,951M) and a relatively high leverage ratio (total liabilities-to-equity of 1.76). These mixed factors\u2014strong overall scale and profitability tempered by substantial short-term refinancing risks\u2014align with a mid-investment grade rating.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 282,
+ "out_tok": 140,
+ "usd": 0.001683,
+ "utc": "2026-07-10T14:50:18.914000+00:00"
+}

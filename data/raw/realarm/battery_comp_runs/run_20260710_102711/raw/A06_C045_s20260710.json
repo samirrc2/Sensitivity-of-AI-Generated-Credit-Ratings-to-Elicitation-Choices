@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates robust profitability with a high operating margin of 23% ($1,360M) and a solid net income of $874M for the quarter. However, its balance sheet shows significant leverage with total liabilities of $84.8B against $31.8B in equity, alongside a very weak current ratio of 0.53 ($6.6B current assets vs $12.6B current liabilities) which indicates short-term liquidity pressures despite strong overall asset backing. Based on the strong operating performance tempered by substantial leverage and tight short-term liquidity, the issuer qualifies for an investment-grade rating in the BBB range.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 276,
+ "out_tok": 144,
+ "usd": 0.00171,
+ "utc": "2026-07-10T15:19:22.544702+00:00"
+}

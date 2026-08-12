@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows very weak liquidity (current ratio **0.34**), increasing near-term refinancing/coverage risk. Financial leverage is high with liabilities of **~92% of total assets** and relatively thin equity (**~$178B** vs **~$2,025B** liabilities), though profitability appears supportive (EBIT **$5,851M** on revenue **$31,795M**). Overall this suggests a **below-investment-grade but not deeply distressed** credit profile.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 248,
+ "out_tok": 305,
+ "usd": 0.000431,
+ "utc": "2026-07-10T15:02:39.448072+00:00"
+}

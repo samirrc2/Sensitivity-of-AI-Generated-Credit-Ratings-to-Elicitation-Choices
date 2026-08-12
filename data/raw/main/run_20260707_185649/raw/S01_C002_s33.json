@@ -1,0 +1,45 @@
+{
+ "spec_id": "S01",
+ "item_id": "C002",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-05-08. Act as a credit rating analyst.\n| Current ratio           | 12.41 |\n| Retained earnings       | 45,912M |\n| Current liabilities     | 15,003M |\n| Current assets          | 186,246M |\n| Shareholders' equity    | 49,234M |\n| Total liabilities       | 444,085M |\n| Total assets            | 493,319M |\n| EBIT / operating income | 3,188M |\n| Revenue                 | 7,300M |\nBased only on the above and knowledge predating 2026-05-08, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The company's current ratio is exceptionally strong at 12.41, indicating excellent short-term liquidity. However, the debt-to-equity ratio (Total Liabilities/Shareholders' Equity) is very high at approximately 9.02 (444,085M / 49,234M), and the debt-to-asset ratio is also high at around 0.90 (444,085M / 493,319M), suggesting significant financial leverage. The EBIT/Revenue margin is also quite low (3,188M / 7,300M = ~43.6%), though this alone doesn't dictate a rating given the other factors.\n\nDECISION: BBB-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 287,
+ "output_tokens": 165,
+ "cost_usd": 0.000499,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T22:56:52.292412+00:00",
+ "mode": "REAL"
+}

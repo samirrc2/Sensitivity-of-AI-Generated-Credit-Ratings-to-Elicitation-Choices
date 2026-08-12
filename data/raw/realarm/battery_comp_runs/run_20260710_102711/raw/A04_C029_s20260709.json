@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BBB+\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong balance sheet with high equity-to-assets ratio and solid retained earnings, but moderate profitability ratios point to a solid investment-grade rating.\"\n}\n```",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 275,
+ "out_tok": 60,
+ "usd": 0.000953,
+ "utc": "2026-07-10T14:59:04.604610+00:00"
+}

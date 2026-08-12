@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R018",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates a solid financial profile with substantial revenue of $18.9 billion, positive operating and net income, and a comfortable short-term liquidity position represented by a current ratio of 1.44. However, the capital structure is moderately leveraged (total liabilities to equity of approximately 1.93x) and the presence of negative retained earnings (-$398 million) suggests historical volatility or past restructurings, which constrains the rating from the high investment-grade tiers. Balancing these factors, the company exhibits characteristic traits of a stable, lower-investment-grade credit.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 243,
+ "out_tok": 128,
+ "usd": 0.001517,
+ "utc": "2026-07-10T14:10:09.686518+00:00"
+}

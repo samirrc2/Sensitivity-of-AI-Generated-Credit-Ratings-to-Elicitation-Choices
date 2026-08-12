@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows significant financial distress, characterized by an extremely thin equity cushion (shareholders' equity of $415M against total assets of $12,240M, resulting in a leverage ratio of over 96%) and substantial operating and net losses. Although the current ratio of 1.78 suggests some near-term liquidity, the highly leveraged capital structure and lack of profitability place the issuer deep into speculative-grade territory with high credit risk. \n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 238,
+ "out_tok": 103,
+ "usd": 0.001284,
+ "utc": "2026-07-10T14:11:39.482626+00:00"
+}

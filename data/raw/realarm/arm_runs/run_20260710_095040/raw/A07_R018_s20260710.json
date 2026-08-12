@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R018",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer has moderate leverage (total liabilities of 14,602M versus equity of 7,580M) and negative retained earnings (-398M), indicating some accumulated financial stress, despite current liquidity that is acceptable (current ratio \u2248 1.44) and positive profitability (net income 1,701M; EBIT margin \u2248 8.3%). Overall, credit strength looks closer to the speculative grade boundary than to safer investment-grade profiles.  \n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 232,
+ "out_tok": 312,
+ "usd": 0.000436,
+ "utc": "2026-07-10T14:10:38.515112+00:00"
+}

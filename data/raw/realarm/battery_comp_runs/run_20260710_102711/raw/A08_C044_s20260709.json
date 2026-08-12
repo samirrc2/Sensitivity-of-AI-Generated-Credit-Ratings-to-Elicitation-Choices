@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Negative equity, massive accumulated losses, extremely weak current ratio, and high leverage indicate severe distress and high default risk.\"}\n```",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 267,
+ "out_tok": 46,
+ "usd": 0.000814,
+ "utc": "2026-07-10T15:18:08.100318+00:00"
+}

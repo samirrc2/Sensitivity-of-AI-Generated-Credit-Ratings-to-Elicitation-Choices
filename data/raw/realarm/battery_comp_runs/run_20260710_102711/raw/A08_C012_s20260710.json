@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A+\", \"confidence\": 4, \"rationale\": \"Strong balance sheet with high equity-to-assets ratio (approx. 60%), solid operating profitability, and comfortable current liquidity profile.\"}\n```",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "in_tok": 280,
+ "out_tok": 51,
+ "usd": 0.000879,
+ "utc": "2026-07-10T14:39:55.579878+00:00"
+}

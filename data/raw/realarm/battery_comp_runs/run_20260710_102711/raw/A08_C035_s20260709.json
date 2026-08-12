@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"B-\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage with total liabilities of 3.1T relative to 303B equity, very weak current ratio of 0.42, and extremely low EBIT-to-assets ratio.\"\n}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 288,
+ "out_tok": 73,
+ "usd": 0.001089,
+ "utc": "2026-07-10T15:07:22.518027+00:00"
+}

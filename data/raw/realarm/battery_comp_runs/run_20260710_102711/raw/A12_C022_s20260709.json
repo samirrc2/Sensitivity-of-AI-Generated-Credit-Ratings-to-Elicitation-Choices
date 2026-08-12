@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong balance sheet equity but extremely weak liquidity (0.59 current ratio) and poor profitability metrics (EBIT/Assets of 1.37%) indicate non-investment grade.\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 279,
+ "out_tok": 69,
+ "usd": 0.00104,
+ "utc": "2026-07-10T14:51:25.230370+00:00"
+}

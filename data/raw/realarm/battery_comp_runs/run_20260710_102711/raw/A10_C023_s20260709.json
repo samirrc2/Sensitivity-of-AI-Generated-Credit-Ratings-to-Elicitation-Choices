@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C023",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided fiscal year 2025 financial data, the company exhibits a very large scale (assets of $130.17B and revenue of $12.72B) and solid profitability with an operating margin of 18.5% and net income of $2.54B. However, its capital structure is highly leveraged with total liabilities representing 85.5% of assets (equity of $18.68B vs. liabilities of $111.27B), and its short-term liquidity is relatively tight as evidenced by a current ratio of 1.04. This combination of strong market position and operating cash generation offset by high leverage and tight liquidity is characteristic of an upper-medium grade, solid investment-grade credit profile.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 290,
+ "out_tok": 172,
+ "usd": 0.001983,
+ "utc": "2026-07-10T14:52:20.257457+00:00"
+}

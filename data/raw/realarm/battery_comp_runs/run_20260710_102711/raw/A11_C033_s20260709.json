@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows materially weak balance sheet credit fundamentals: shareholders\u2019 equity is deeply negative and total liabilities exceed total assets, indicating sustained capital impairment. Liquidity is only modest (current ratio ~1.09), and while operating performance appears positive (EBIT ~2.6B on ~23.1B revenue), the overall leverage and negative equity point to a high credit risk profile consistent with a lower speculative-grade rating.  \n\nDECISION: B+",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 250,
+ "usd": 0.000361,
+ "utc": "2026-07-10T15:05:12.665305+00:00"
+}

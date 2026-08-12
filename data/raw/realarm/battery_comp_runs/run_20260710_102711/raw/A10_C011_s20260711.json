@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C011",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided Q1 2026 financial data, the issuer demonstrates a very strong credit profile characterized by a massive balance sheet (total assets of $110.4B), a solid equity base ($52.1B), and highly profitable operations with a 16% operating margin ($1.84B in operating income for a single quarter). Furthermore, the company exhibits strong liquidity with a current ratio of 1.39 ($25.5B in current assets vs. $18.4B in current liabilities) and massive accumulated retained earnings of approximately $50B, indicating a long track record of highly profitable operations. This combination of vast scale, robust profitability, and a conservative capital structure warrants a high investment-grade rating in the AA category.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 289,
+ "out_tok": 169,
+ "usd": 0.001954,
+ "utc": "2026-07-10T14:39:06.503004+00:00"
+}

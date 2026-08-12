@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":2,\"rationale\":\"Negative equity and retained earnings with leverage exceeding assets; current ratio below 1. Despite positive operating profit, balance-sheet risk is high.\"}",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 261,
+ "out_tok": 159,
+ "usd": 0.000251,
+ "utc": "2026-07-10T15:16:00.104065+00:00"
+}

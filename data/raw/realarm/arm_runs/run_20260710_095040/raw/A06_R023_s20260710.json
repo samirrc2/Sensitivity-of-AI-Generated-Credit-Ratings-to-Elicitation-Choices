@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R023",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits an exceptionally strong balance sheet, characterized by a high current ratio of 3.83, a very low leverage profile (total liabilities to assets of 21.5%), and highly profitable operations with a 94% gross margin and 14% operating margin. However, the significantly negative retained earnings (-1,564M) indicate a history of accumulated losses, and the absolute size of the firm (revenue of 626M and assets of 1,349M) limits its rating compared to larger, more established investment-grade peers. Taking into account the strong current profitability and robust capitalization against these historical and scale constraints, a high speculative-grade/low investment-grade rating is appropriate.\n\nDECISION: BBB-",
+ "parsed_letter": "C",
+ "parsed_band": "DISTRESS",
+ "in_tok": 229,
+ "out_tok": 158,
+ "usd": 0.001765,
+ "utc": "2026-07-10T14:16:16.899959+00:00"
+}

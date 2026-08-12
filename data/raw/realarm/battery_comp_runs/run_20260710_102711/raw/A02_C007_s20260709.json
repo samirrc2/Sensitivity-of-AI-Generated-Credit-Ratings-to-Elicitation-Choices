@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C007",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits highly robust financial performance with $24 billion in quarterly revenue, an exceptional 70% gross margin, and strong profitability ($5.15 billion in net income). It maintains a massive balance sheet with over $192 billion in total assets and $79.3 billion in shareholders' equity, although its short-term liquidity is somewhat tight with a current ratio of 1.07. Given the immense scale, strong operating profitability, and deep capital reserve (retained earnings of $167.3 billion), the credit risk is extremely low, justifying a premium investment-grade rating.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 290,
+ "out_tok": 133,
+ "usd": 0.001632,
+ "utc": "2026-07-10T14:33:48.455684+00:00"
+}

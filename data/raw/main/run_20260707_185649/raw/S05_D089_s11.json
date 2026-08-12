@@ -1,0 +1,45 @@
+{
+ "spec_id": "S05",
+ "item_id": "D089",
+ "seed": 11,
+ "family": "directional",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "SELL",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 11,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "You are a equity research analyst. Using only the information below and general knowledge predating 2026-05-21, give a 20-trading-day directional recommendation for the stock.\nValid answers (choose exactly one): BUY, HOLD, SELL.\nCompany information (as of 2026-05-21):\nPrice action as of 2026-05-21: 1w -1.8%, 1m -10.0%, 3m -7.4%. Last close 607.38. 21d annualized realized volatility 36%. Position in trailing 63-day range: 50% (0%=low, 100%=high).\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The company\u2019s stock has experienced a sharp medium-term decline of 10.0% over the last month and currently trades at the exact midpoint of its 63-day range with elevated short-term volatility (36% annualized). This suggests a period of consolidation and heightened uncertainty following a downward trend, without a clear, immediate catalyst for a strong trend reversal or further breakdown. Therefore, a neutral stance is warranted over the next 20 trading days as the market seeks a new equilibrium.\n\nDECISION: HOLD",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 194,
+ "output_tokens": 108,
+ "cost_usd": 0.001263,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:05:31.713256+00:00",
+ "mode": "REAL"
+}

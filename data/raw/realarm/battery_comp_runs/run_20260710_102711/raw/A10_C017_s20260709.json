@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C017",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided fiscal year 2025 Q4 financial data, the issuer exhibits an exceptionally strong credit profile characterized by robust profitability (42% operating margin, 68% gross margin, and $8.5B net income), a solid balance sheet with low leverage ($81.3B in equity supporting $171.1B in assets), and a very healthy liquidity position represented by a 1.71 current ratio ($31.6B in current assets vs. $18.5B in current liabilities). This extremely low default risk, combined with massive scale ($18B in annual revenue and $171B in assets), warrants a high investment-grade rating in the AA category, but just shy of the absolute maximum rating due to the presence of $89.8B in total liabilities.\n\nDECISION: AA",
+ "parsed_letter": "AA",
+ "parsed_band": "SAFE",
+ "in_tok": 288,
+ "out_tok": 180,
+ "usd": 0.002052,
+ "utc": "2026-07-10T14:45:25.183594+00:00"
+}

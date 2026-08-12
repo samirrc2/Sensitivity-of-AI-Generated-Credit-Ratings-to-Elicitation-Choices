@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "**Analysis:**\nThe company possesses a very strong balance sheet with substantial equity of $23.4 billion and total assets of $48.9 billion, supporting low overall leverage (total liabilities-to-equity ratio of approximately 1.0x). However, liquidity is tight with a current ratio of 1.00 (current assets of $3,857M slightly below current liabilities of $3,862M), and a deeply negative retained earnings balance of -$6,947M indicates historical accumulated deficits. While the company is currently profitable (operating margin of 17% and net income of $179M on $1,635M in quarterly revenue), the negative gross margin (-4%) suggests potential accounting anomalies or highly volatile cost structures, which, combined with the tight short-term liquidity, restricts the rating from the highest investment-grade categories.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 279,
+ "out_tok": 191,
+ "usd": 0.002138,
+ "utc": "2026-07-10T15:09:51.530098+00:00"
+}

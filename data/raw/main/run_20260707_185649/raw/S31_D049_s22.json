@@ -1,0 +1,43 @@
+{
+ "spec_id": "S31",
+ "item_id": "D049",
+ "seed": 22,
+ "family": "directional",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 0.0,
+ "temperature_applied": false,
+ "effective_temperature": null,
+ "call_meta": {
+  "signature": "mct+seed+eff",
+  "temperature_applied": false,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "seed": 22,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Task: give a 20-trading-day directional recommendation for the stock.\nRespond with exactly one of: BUY, HOLD, SELL. Use only the figures provided and knowledge available on or before 2026-02-19; do not use later information.\nProvided information:\n| Return 3m            | -16.6% |\n| Return 1m            | -20.3% |\n| Return 1w            | -7.1% |\n| Range position (63d) | 0% |\n| 21d realized vol     | 52% |\n| Last close           | 160.30 |\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "Momentum is negative across 3m, 1m, and 1w with no recent range breakout, and volatility is elevated (21d realized vol ~52%). The stock closed last at 160.30 and faces downward pressure, suggesting further decline over the next 20 trading days.\nDECISION: SELL",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 161,
+ "output_tokens": 328,
+ "cost_usd": 0.000442,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:39:18.448060+00:00",
+ "mode": "REAL"
+}

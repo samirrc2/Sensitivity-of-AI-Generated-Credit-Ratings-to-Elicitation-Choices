@@ -1,0 +1,45 @@
+{
+ "spec_id": "S14",
+ "item_id": "C025",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2026-04-23; do not use later information.\nProvided information:\nFiscal period 2026 Q1 (filed 2026-04-23). Revenue 9,143M, gross margin 39%, operating income 886M (operating margin 10%), net income 821M, diluted EPS 2.58. Total assets 73,988M, total liabilities 52,676M, shareholders' equity 21,312M. Current assets 30,590M vs current liabilities 22,085M (current ratio 1.39), retained earnings 0M.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The issuer shows a massive asset base of $73.99B, solid quarterly revenues of $9.14B, and a profitable bottom line (net income of $821M with a 10% operating margin). While its leverage is moderate (total liabilities to equity ratio of approximately 2.47) and its liquidity is adequate with a current ratio of 1.39, the overall scale, strong operating profitability, and robust capitalization align with a strong investment-grade profile.\n\nDECISION: A-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 276,
+ "output_tokens": 111,
+ "cost_usd": 0.001413,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:13:01.883492+00:00",
+ "mode": "REAL"
+}

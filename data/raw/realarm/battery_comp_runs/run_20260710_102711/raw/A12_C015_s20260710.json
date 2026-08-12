@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 4, \"rationale\": \"High leverage (Total Liabilities/Equity > 3.6x) and negative tangible net worth (suggested by equity vs retained earnings) offset stable liquidity and revenue, indicating speculative-grade.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 281,
+ "out_tok": 62,
+ "usd": 0.000979,
+ "utc": "2026-07-10T14:43:33.078316+00:00"
+}

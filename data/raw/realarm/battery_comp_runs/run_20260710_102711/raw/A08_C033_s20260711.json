@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B-\", \"confidence\": 4, \"rationale\": \"Negative equity (-$9.27B), heavy accumulated deficit, and high leverage point to deep speculative grade despite positive operating income.\"}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 271,
+ "out_tok": 51,
+ "usd": 0.000865,
+ "utc": "2026-07-10T15:04:53.124061+00:00"
+}

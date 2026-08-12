@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C016",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows strong operating profitability with $3.21B in operating income (17% margin) and a massive retained earnings base of over $73B. However, the balance sheet exhibits significant leverage with total liabilities of $89.1B against equity of $21.4B, and a tight liquidity position indicated by a current ratio of 0.90 ($30.9B in current assets vs. $34.5B in current liabilities). This combination of highly profitable and scaled operations, offset by elevated leverage and moderate short-term liquidity pressures, is characteristic of a solid investment-grade profile in the BBB range.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 280,
+ "out_tok": 140,
+ "usd": 0.00168,
+ "utc": "2026-07-10T14:44:03.021726+00:00"
+}

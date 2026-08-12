@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R026",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Moderate profitability and equity cushion are offset by high leverage (Total Debt/Equity around 4.4x) and a weak current ratio under 1.0.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 274,
+ "out_tok": 56,
+ "usd": 0.000915,
+ "utc": "2026-07-10T14:19:30.027639+00:00"
+}

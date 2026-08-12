@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R015",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Negative EBIT (-988M) relative to revenue, high leverage, and a very weak interest coverage profile indicate high default risk.\"}\n```",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 270,
+ "out_tok": 50,
+ "usd": 0.000855,
+ "utc": "2026-07-10T14:07:47.539880+00:00"
+}

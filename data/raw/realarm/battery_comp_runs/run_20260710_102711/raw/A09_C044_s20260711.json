@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"CCC-\",\"confidence\":3,\"rationale\":\"Negative equity and deeply negative retained earnings; very weak liquidity (current ratio 0.27) despite strong operating margin, indicating elevated default risk.\"}",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "in_tok": 261,
+ "out_tok": 177,
+ "usd": 0.000273,
+ "utc": "2026-07-10T15:18:23.949718+00:00"
+}

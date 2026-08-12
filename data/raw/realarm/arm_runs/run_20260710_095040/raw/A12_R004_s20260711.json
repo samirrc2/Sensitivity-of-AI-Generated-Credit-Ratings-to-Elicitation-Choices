@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R004",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 4, \"rationale\": \"Strong liquidity and profitability are offset by negative retained earnings and elevated leverage, indicating a speculative-grade profile.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 272,
+ "out_tok": 44,
+ "usd": 0.000804,
+ "utc": "2026-07-10T13:55:14.417960+00:00"
+}

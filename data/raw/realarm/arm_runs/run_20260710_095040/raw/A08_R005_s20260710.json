@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "R005",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"The company has a solid equity cushion, positive profitability, and a strong current ratio (1.75), indicating moderate investment-grade risk.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 262,
+ "out_tok": 52,
+ "usd": 0.000861,
+ "utc": "2026-07-10T13:56:02.103268+00:00"
+}

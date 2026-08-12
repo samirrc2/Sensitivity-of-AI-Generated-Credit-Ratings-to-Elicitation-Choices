@@ -1,0 +1,44 @@
+{
+ "spec_id": "S36",
+ "item_id": "C004",
+ "seed": 22,
+ "family": "credit_health",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 22,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2026-04-23; do not use later information.\nProvided information:\n| Current ratio           | 2.04 |\n| Retained earnings       | 39,480M |\n| Current liabilities     | 34,138M |\n| Current assets          | 69,748M |\n| Shareholders' equity    | 84,113M |\n| Total liabilities       | 58,979M |\n| Total assets            | 143,724M |\n| EBIT / operating income | 941M |\n| Revenue                 | 22,387M |\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "Strong balance sheet metrics indicate solid credit quality: current ratio of 2.04 and total liabilities/total assets of ~41% reflect ample liquidity and low leverage, while retained earnings of 39.5B and positive EBIT support debt-servicing capacity over a long operating history. Modest EBIT margin (~4%) and lack of cash-flow or interest-coverage detail prevent a higher rating.  \nDECISION: A-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 354,
+ "output_tokens": 82,
+ "cost_usd": 0.000647,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:46:27.648418+00:00",
+ "mode": "REAL"
+}

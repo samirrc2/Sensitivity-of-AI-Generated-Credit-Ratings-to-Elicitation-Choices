@@ -1,0 +1,44 @@
+{
+ "spec_id": "S30",
+ "item_id": "D052",
+ "seed": 33,
+ "family": "directional",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 33,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a equity research analyst. Using only the information below and general knowledge predating 2026-04-02, give a 20-trading-day directional recommendation for the stock.\nValid answers (choose exactly one): BUY, HOLD, SELL.\nCompany information (as of 2026-04-02):\nPrice action as of 2026-04-02: 1w +0.9%, 1m -3.1%, 3m -29.3%. Last close 187.18. 21d annualized realized volatility 38%. Position in trailing 63-day range: 10% (0%=low, 100%=high).\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock has posted a sharp multi-month decline and sits near the bottom of its recent trading range, but the 1-week price action has turned mildly positive while realized vol remains only moderately elevated. This combination points to a short-term mean-reversion setup over the next 20 trading days rather than continuation of the downtrend.\nDECISION: BUY",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 294,
+ "output_tokens": 69,
+ "cost_usd": 0.00054,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:38:11.101904+00:00",
+ "mode": "REAL"
+}

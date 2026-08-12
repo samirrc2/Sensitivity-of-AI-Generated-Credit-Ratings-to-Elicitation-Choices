@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows only modest short-term liquidity (current ratio 1.22), which provides limited cushion in a downturn. Leverage is relatively high (total liabilities 56,835M vs. equity 16,227M), though operating profitability appears decent (EBIT/Revenue \u2248 10.5%). Overall, these factors fit a **BB-** credit profile with some but not excessive default risk.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 206,
+ "usd": 0.000306,
+ "utc": "2026-07-10T14:47:42.528507+00:00"
+}

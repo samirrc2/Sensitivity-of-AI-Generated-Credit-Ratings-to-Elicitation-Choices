@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided Q3 2025 financial data, the issuer demonstrates exceptional financial strength, characterized by highly robust profitability (83% gross margin and 48% operating margin) and a strong liquidity position with a current ratio of 1.55 on $62.1 billion of current assets. However, the capital structure reveals significant leverage, with total liabilities of $91.1 billion representing approximately 79% of the $114.9 billion total asset base, resulting in a relatively modest equity cushion of $23.8 billion. While the company's operating cash generation capability is elite, the substantial absolute debt/liability load prevents a prime AAA rating, instead supporting a highly secure investment-grade rating in the AA category.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 289,
+ "out_tok": 164,
+ "usd": 0.00191,
+ "utc": "2026-07-10T14:32:25.958991+00:00"
+}

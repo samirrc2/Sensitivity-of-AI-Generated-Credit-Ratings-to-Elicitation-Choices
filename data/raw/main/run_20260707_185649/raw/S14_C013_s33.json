@@ -1,0 +1,45 @@
+{
+ "spec_id": "S14",
+ "item_id": "C013",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2026-05-01; do not use later information.\nProvided information:\nFiscal period 2026 Q1 (filed 2026-05-01). Revenue 11,005M, gross margin 41%, operating income 1,863M (operating margin 17%), net income 1,651M, diluted EPS 4.43. Total assets 113,281M, total liabilities 61,341M, shareholders' equity 51,940M. Current assets 22,316M vs current liabilities 14,621M (current ratio 1.53), retained earnings 60,632M.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The issuer displays an exceptionally strong financial profile, characterized by high quarterly revenues ($11,005M), robust profitability with an operating margin of 17% and net income of $1,651M, and a solid capital structure with $51,940M in equity against $61,341M in liabilities. Liquidity is healthy with a current ratio of 1.53, and the massive retained earnings of $60,632M reflect long-term financial stability and cumulative profitability. These premier credit metrics, significant scale, and conservative balance sheet management warrant an investment-grade rating in the AA category.\n\nDECISION: AA",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 287,
+ "output_tokens": 142,
+ "cost_usd": 0.001708,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:12:54.493424+00:00",
+ "mode": "REAL"
+}

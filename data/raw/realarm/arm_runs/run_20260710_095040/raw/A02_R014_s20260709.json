@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R014",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "**Analysis:**\nThe company exhibits a strong financial profile with robust profitability (operating margin of 15% and net income of 334M) and a very healthy balance sheet, characterized by low leverage (total liabilities-to-equity ratio of 0.61) and excellent liquidity (current ratio of 2.48). While these metrics reflect low credit risk and investment-grade characteristics, the moderate absolute size of its revenue (3.1B) and assets (4.9B) places a cap on its rating compared to larger global peers, pointing to a solid upper-medium grade.\n\nDECISION: A-",
+ "parsed_letter": "C",
+ "parsed_band": "DISTRESS",
+ "in_tok": 241,
+ "out_tok": 132,
+ "usd": 0.00155,
+ "utc": "2026-07-10T14:05:39.511597+00:00"
+}

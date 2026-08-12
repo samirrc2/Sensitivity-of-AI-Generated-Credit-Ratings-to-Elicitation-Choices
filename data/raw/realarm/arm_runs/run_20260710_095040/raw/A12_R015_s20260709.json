@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R015",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B-\", \"confidence\": 4, \"rationale\": \"Negative EBIT of -988M against 2,325M revenue indicates severe operating distress, though cushioned by positive equity and retained earnings.\"}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 270,
+ "out_tok": 55,
+ "usd": 0.0009,
+ "utc": "2026-07-10T14:07:46.288901+00:00"
+}

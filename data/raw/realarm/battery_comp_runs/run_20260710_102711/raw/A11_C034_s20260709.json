@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows weak liquidity with a current ratio of 0.53, increasing near-term funding/refinancing risk. While operating profitability appears strong (EBIT/operating income of 1,307M on revenue of 3,198M), the large negative retained earnings signal accumulated losses and ongoing balance-sheet stress, supporting a speculative grade rather than investment grade.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 238,
+ "usd": 0.000346,
+ "utc": "2026-07-10T15:06:28.038447+00:00"
+}

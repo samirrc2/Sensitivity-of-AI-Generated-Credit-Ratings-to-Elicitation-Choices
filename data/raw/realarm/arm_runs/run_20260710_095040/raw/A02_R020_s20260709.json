@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R020",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates solid profitability with an 18% operating margin and $537M in operating income, backed by a substantial asset base of $12.7B and equity of $4.1B. However, its leverage is moderately high (total liabilities-to-equity ratio of approximately 2.1x) and its short-term liquidity is slightly pressured, as indicated by a current ratio of 0.83. This combination of strong operating performance and moderate financial risk profiles the issuer as investment grade, typically aligned with a mid-to-high triple-B rating.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 240,
+ "out_tok": 127,
+ "usd": 0.001503,
+ "utc": "2026-07-10T14:12:26.350750+00:00"
+}

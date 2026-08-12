@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "R016",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"High leverage, negative EBIT, and a significant net loss outweigh strong current assets, indicating substantial credit risk.\"}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 258,
+ "out_tok": 45,
+ "usd": 0.000792,
+ "utc": "2026-07-10T14:08:32.894631+00:00"
+}

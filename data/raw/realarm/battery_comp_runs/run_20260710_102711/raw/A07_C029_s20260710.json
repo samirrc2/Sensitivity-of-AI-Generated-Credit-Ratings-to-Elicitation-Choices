@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Liquidity is weak with a current ratio of 0.99, indicating limited short-term cushion. Leverage is moderate-to-high (total liabilities are ~60% of total assets), though profitability appears solid with an EBIT margin of ~15% (EBIT of 622M on revenue of 4,066M). Overall credit quality seems more consistent with the speculative-grade range rather than investment grade.  \n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 231,
+ "out_tok": 210,
+ "usd": 0.000309,
+ "utc": "2026-07-10T14:59:22.566306+00:00"
+}

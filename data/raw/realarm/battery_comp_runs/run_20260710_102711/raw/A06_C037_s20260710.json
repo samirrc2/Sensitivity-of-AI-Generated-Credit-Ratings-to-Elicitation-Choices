@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates a very large and solid balance sheet with total assets of $48.9 billion and a substantial equity cushion of $23.4 billion (equity-to-assets ratio of nearly 48%), indicating robust capital adequacy. Despite a negative gross margin, it achieved a strong operating margin of 17.3% and net income of $179 million for the quarter, though its accumulated deficit (retained earnings of -$6.9 billion) and tight current ratio of 1.00 reflect historical stresses or a capital-intensive utility/infrastructure structure. Balancing its massive asset base and solid profitability against the tight liquidity and accumulated deficit suggests a high investment-grade profile.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 271,
+ "out_tok": 149,
+ "usd": 0.001747,
+ "utc": "2026-07-10T15:09:28.980712+00:00"
+}

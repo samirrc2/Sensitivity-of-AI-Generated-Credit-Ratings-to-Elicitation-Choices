@@ -1,0 +1,19 @@
+{
+ "spec_id": "A01",
+ "item_id": "C011",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB-\",\"confidence\":3,\"rationale\":\"Moderate leverage (liabilities/equity ~1.1) and positive profitability, but current liquidity is only 1.39 and debt/cashflow details are unavailable.\"}",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 263,
+ "out_tok": 194,
+ "usd": 0.000295,
+ "utc": "2026-07-10T14:38:15.735489+00:00"
+}

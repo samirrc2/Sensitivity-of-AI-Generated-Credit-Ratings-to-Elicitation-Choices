@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates a solid financial profile with an annualized revenue run-rate of over $16B, strong profitability (15% operating margin), and a substantial equity cushion of $10B against $25B in assets. However, liquidity is slightly tight with a current ratio of 0.99 (current assets of $6,043M vs. current liabilities of $6,096M), and the leverage profile (total liabilities/equity of 1.5x) suggests moderate financial risk. Balancing the strong profitability and asset base against the tight short-term liquidity and moderate leverage justifies an upper-medium grade rating in the \"A\" category.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 281,
+ "out_tok": 146,
+ "usd": 0.001736,
+ "utc": "2026-07-10T14:59:34.645190+00:00"
+}

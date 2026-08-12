@@ -1,0 +1,45 @@
+{
+ "spec_id": "S34",
+ "item_id": "D049",
+ "seed": 22,
+ "family": "directional",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 0.0,
+   "maxOutputTokens": 1024,
+   "seed": 22,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-02-19. Act as a equity research analyst.\n| Return 3m            | -16.6% |\n| Return 1m            | -20.3% |\n| Return 1w            | -7.1% |\n| Range position (63d) | 0% |\n| 21d realized vol     | 52% |\n| Last close           | 160.30 |\nBased only on the above and knowledge predating 2026-02-19, give a 20-trading-day directional recommendation for the stock. Choose exactly one label from: BUY, HOLD, SELL.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock has experienced significant negative returns across all observed timeframes (3m, 1m, 1w), indicating strong downward momentum. The range position at 0% suggests the stock is at its 63-day low, further reinforcing the bearish trend. The high 21-day realized volatility (52%) indicates the stock is experiencing large price swings, but given the consistent negative returns, these swings are predominantly to the downside.\n\nDECISION: SELL",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 193,
+ "output_tokens": 97,
+ "cost_usd": 0.0003,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:45:20.205907+00:00",
+ "mode": "REAL"
+}

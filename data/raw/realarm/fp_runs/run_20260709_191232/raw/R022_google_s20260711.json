@@ -1,0 +1,12 @@
+{
+ "item_id": "R022",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "ok": true,
+ "raw_response": "To find the matching company, we can analyze the provided financial metrics:\n* **Revenue:** $11.724 Billion\n* **Operating Income:** -$2.337 Billion (Operating Margin: -20%)\n* **Net Income:** -$2.140 Billion\n* **Total Assets:** $22.738 Billion\n* **Total Liabilities:** $12.196 Billion\n* **Shareholders' Equity:** $10.230 Billion\n* **Current Assets:** $2.936 Billion\n* **Current Liabilities:** $5.311 Billion\n* **Retained Earnings:** $5.724 Billion\n\nThese figures perfectly match the FY 2023 financial statements of **Wayfair Inc.** (NYSE: W). \n\nGUESS: Wayfair (W)",
+ "in_tok": 202,
+ "out_tok": 180,
+ "usd": 0.001923,
+ "utc": "2026-07-09T23:20:11.195819+00:00"
+}

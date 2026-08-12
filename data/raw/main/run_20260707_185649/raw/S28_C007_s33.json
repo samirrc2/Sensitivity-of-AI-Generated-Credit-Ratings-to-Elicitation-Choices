@@ -1,0 +1,43 @@
+{
+ "spec_id": "S28",
+ "item_id": "C007",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "openai",
+ "version": "current",
+ "model": "gpt-5.4-nano",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 0.0,
+ "temperature_applied": false,
+ "effective_temperature": null,
+ "call_meta": {
+  "signature": "mct+seed+eff",
+  "temperature_applied": false,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "seed": 33,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2025-10-22, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2025-10-22):\nFiscal period 2025 Q3 (filed 2025-10-22). Revenue 23,993M, gross margin 70%, operating income 7,096M (operating margin 30%), net income 5,152M, diluted EPS 2.12. Total assets 192,816M, total liabilities 113,539M, shareholders' equity 79,277M. Current assets 54,611M vs current liabilities 50,869M (current ratio 1.07), retained earnings 167,281M.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\"decision\":\"A-\",\"confidence\":3,\"rationale\":\"Strong profitability (70% gross, 30% operating) supports earnings power; leverage is moderate and liquidity is thin (current ratio 1.07).\"}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 267,
+ "output_tokens": 169,
+ "cost_usd": 0.000265,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:36:07.801761+00:00",
+ "mode": "REAL"
+}

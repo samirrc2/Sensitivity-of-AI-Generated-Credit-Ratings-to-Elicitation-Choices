@@ -1,0 +1,45 @@
+{
+ "spec_id": "S05",
+ "item_id": "D047",
+ "seed": 11,
+ "family": "directional",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 11,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "You are a equity research analyst. Using only the information below and general knowledge predating 2026-03-19, give a 20-trading-day directional recommendation for the stock.\nValid answers (choose exactly one): BUY, HOLD, SELL.\nCompany information (as of 2026-03-19):\nPrice action as of 2026-03-19: 1w -3.4%, 1m -4.4%, 3m +4.9%. Last close 121.09. 21d annualized realized volatility 24%. Position in trailing 63-day range: 44% (0%=low, 100%=high).\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock is currently experiencing short-term downward momentum, having declined 3.4% over the last week and 4.4% over the past month, while sitting at a neutral 44% of its 63-day trading range. With moderate 21-day annualized realized volatility of 24%, the stock lacks a strong near-term catalyst or extreme oversold condition to trigger a sharp reversal over the next 20 trading days. Therefore, the stock is expected to consolidate or trade sideways in the near term.\n\nDECISION: HOLD",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 193,
+ "output_tokens": 116,
+ "cost_usd": 0.001334,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:05:06.462810+00:00",
+ "mode": "REAL"
+}

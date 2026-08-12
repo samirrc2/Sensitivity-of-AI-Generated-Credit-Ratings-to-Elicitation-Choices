@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R016",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "**Analysis:**\nThe company has a solid balance sheet with a strong current ratio of 3.19, substantial shareholders' equity ($838M vs. $1,114M in liabilities), and positive retained earnings, indicating a history of profitability. However, the most recent fiscal year shows significant operational stress, with an operating loss of $127M (operating margin of -6%) and a net loss of $214M on $2,044M in revenue. This combination of strong short-term liquidity and asset backing paired with current unprofitability suggests moderate credit risk, placing the issuer in the lower tier of investment grade.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 238,
+ "out_tok": 144,
+ "usd": 0.001653,
+ "utc": "2026-07-10T14:07:59.309546+00:00"
+}

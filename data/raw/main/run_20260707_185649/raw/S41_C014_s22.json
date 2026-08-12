@@ -1,0 +1,45 @@
+{
+ "spec_id": "S41",
+ "item_id": "C014",
+ "seed": 22,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 0.0,
+   "maxOutputTokens": 1024,
+   "seed": 22,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2026-02-20; do not use later information.\nProvided information:\nFiscal period 2025 Q4 (filed 2026-02-20). Revenue 34,015M, gross margin 6%, operating income 1,498M (operating margin 4%), net income 2,906M, diluted EPS 7.17. Total assets 73,680M, total liabilities 43,439M, shareholders' equity 29,093M. Current assets 17,271M vs current liabilities 13,326M (current ratio 1.30), retained earnings 33,239M.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "```json\n{\n  \"decision\": \"BBB\",\n  \"confidence\": 4,\n  \"rationale\": \"Solid profitability and liquidity (current ratio 1.30) with a healthy equity base. Operating margin of 4% is decent.\"\n}\n```",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 293,
+ "output_tokens": 59,
+ "cost_usd": 0.000235,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:52:54.803340+00:00",
+ "mode": "REAL"
+}

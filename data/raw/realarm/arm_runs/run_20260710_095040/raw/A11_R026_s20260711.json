@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R026",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows weak short-term liquidity (current ratio \u2248 0.89) and relatively high leverage (total liabilities 13,829M vs. equity 3,165M; equity ~19% of assets). Profitability is positive but thin (EBIT margin ~5.4%), suggesting limited cushion against operating stress. Overall, this profile aligns best with a **BB-** rating.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 239,
+ "out_tok": 229,
+ "usd": 0.000334,
+ "utc": "2026-07-10T14:20:08.813389+00:00"
+}

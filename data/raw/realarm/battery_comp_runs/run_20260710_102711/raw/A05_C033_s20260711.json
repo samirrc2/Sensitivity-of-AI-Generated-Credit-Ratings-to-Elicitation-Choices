@@ -1,0 +1,19 @@
+{
+ "spec_id": "A05",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"CCC\",\"confidence\":2,\"rationale\":\"Negative shareholders\u2019 equity (-9,270M) and liabilities exceed assets (64,211M>54,941M) indicate material credit stress despite positive operating income.\"}",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 256,
+ "out_tok": 129,
+ "usd": 0.000212,
+ "utc": "2026-07-10T15:04:37.548313+00:00"
+}

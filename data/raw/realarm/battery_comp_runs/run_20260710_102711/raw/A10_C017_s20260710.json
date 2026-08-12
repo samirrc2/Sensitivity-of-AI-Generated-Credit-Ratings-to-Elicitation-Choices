@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C017",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the issuer exhibits an exceptionally strong credit profile characterized by robust profitability (42% operating margin and $8.52B net income), solid liquidity (current ratio of 1.71 with $31.57B in current assets), and a highly conservative capital structure (shareholders' equity of $81.29B against total liabilities of $89.80B, representing a leverage ratio of approximately 1.1x liabilities-to-equity). These metrics reflect extremely low default risk and an outstanding capacity to meet financial commitments, consistent with a high-quality investment-grade rating in the double-A category.\n\nDECISION: AA",
+ "parsed_letter": "AA",
+ "parsed_band": "SAFE",
+ "in_tok": 288,
+ "out_tok": 144,
+ "usd": 0.001728,
+ "utc": "2026-07-10T14:45:26.745356+00:00"
+}

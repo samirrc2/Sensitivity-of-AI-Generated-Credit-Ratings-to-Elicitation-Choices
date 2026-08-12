@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "**Analysis:**\nThe company exhibits exceptionally strong profitability with an operating margin of 62% and a high net income of 2,375M relative to its 5,251M quarterly revenue, alongside massive cumulative profitability indicated by 36,115M in retained earnings. However, the balance sheet presents notable short-term liquidity risk and structural leverage, evidenced by a negative shareholders' equity of -2,646M and a weak current ratio of 0.62 (current assets of 5,119M vs. current liabilities of 8,286M). While the core business is highly lucrative and suggests strong debt-servicing capacity, the negative net worth and working capital deficit constrain the rating to the lower investment-grade tier.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 284,
+ "out_tok": 169,
+ "usd": 0.001947,
+ "utc": "2026-07-10T14:35:50.016552+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's financials reveals a highly leveraged balance sheet with shareholders' equity of $12.8B against total assets of $58.6B, a negative retained earnings balance of -$12.2B, and a weak liquidity position as evidenced by a current ratio of 0.53 ($3.2B in current assets against $6.1B in current liabilities). However, the business remains highly profitable with an exceptionally strong operating margin of 41% ($1.3B operating income on $3.2B revenue) and positive net income of $734M, which mitigates immediate default risk but points to speculative-grade creditworthiness. Consequently, the issuer is assigned a rating in the BB category to reflect these solid operating cash flows juxtaposed against significant balance sheet risk and poor liquidity.\n\nDECISION: BB",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 281,
+ "out_tok": 178,
+ "usd": 0.002024,
+ "utc": "2026-07-10T15:05:28.330232+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage (Total Liabilities/Equity ~3.6x) and low profitability (EBIT margin ~14%) suggest a sub-investment grade rating, mitigated by positive retained earnings.\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 280,
+ "out_tok": 69,
+ "usd": 0.001041,
+ "utc": "2026-07-10T14:42:51.239535+00:00"
+}

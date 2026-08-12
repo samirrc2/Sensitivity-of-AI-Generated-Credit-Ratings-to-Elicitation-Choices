@@ -1,0 +1,92 @@
+{
+ "frozen_seed": 20260707,
+ "note": "A4 paraphrases P1/P2/P3 are semantically equivalent (author-verified). Few-shot exemplars (A6=2) are presented in fixed prose+label form regardless of A5/A7 (documented design choice). Exemplar firms are held out of the battery.",
+ "paraphrases": {
+  "P1": "You are a {role}. Using only the information below and general knowledge predating {asof}, {question}\nValid answers (choose exactly one): {labels}.\n{fewshot_block}Company information (as of {asof}):\n{facts_block}\n{format_block}",
+  "P2": "Task: {question}\nRespond with exactly one of: {labels}. Use only the figures provided and knowledge available on or before {asof}; do not use later information.\n{fewshot_block}Provided information:\n{facts_block}\n{format_block}",
+  "P3": "Consider the following company information, reported as of {asof}. Act as a {role}.\n{facts_block}\n{fewshot_block}Based only on the above and knowledge predating {asof}, {question} Choose exactly one label from: {labels}.\n{format_block}"
+ },
+ "families": {
+  "credit_health": {
+   "role": "credit rating analyst",
+   "question": "assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).",
+   "labels": [
+    "AAA",
+    "AA+",
+    "AA",
+    "AA-",
+    "A+",
+    "A",
+    "A-",
+    "BBB+",
+    "BBB",
+    "BBB-",
+    "BB+",
+    "BB",
+    "BB-",
+    "B+",
+    "B",
+    "B-",
+    "CCC+",
+    "CCC",
+    "CCC-",
+    "CC",
+    "C"
+   ],
+   "abstain": null,
+   "scale_note": "AAA (strongest) \u2026 C (weakest); +/- modifiers are notches."
+  },
+  "directional": {
+   "role": "equity research analyst",
+   "question": "give a 20-trading-day directional recommendation for the stock.",
+   "labels": [
+    "BUY",
+    "HOLD",
+    "SELL"
+   ],
+   "abstain": "HOLD"
+  }
+ },
+ "format_blocks": {
+  "json": "Return ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+  "freetext": "Reason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>"
+ },
+ "fewshot_exemplars": {
+  "credit_health": [
+   {
+    "facts_text": "Fiscal period 2026 Q1 (filed 2026-05-04). Revenue 83,161M, gross margin 38%, operating income 5,285M (operating margin 6%), net income 4,183M, diluted EPS 1.0. Total assets 464,410M, total liabilities 203,414M, shareholders' equity 254,381M. Current assets 97,787M vs current liabilities 94,378M (current ratio 1.04), retained earnings 482,344M.",
+    "label": "AA+",
+    "held_out_firm": "XOM",
+    "zpp": 8.07
+   },
+   {
+    "facts_text": "Fiscal period 2025 Q3 (filed 2025-10-23). Revenue 21,957M, gross margin 49%, operating income 4,862M (operating margin 22%), net income 2,714M, diluted EPS 2.41. Total assets 217,180M, total liabilities 156,703M, shareholders' equity 60,477M. Current assets 21,703M vs current liabilities 24,301M (current ratio 0.89), retained earnings 20,155M.",
+    "label": "B-",
+    "held_out_firm": "TMUS",
+    "zpp": 4.03
+   }
+  ],
+  "directional": [
+   {
+    "facts_text": "Price action as of 2026-03-19: 1w +4.1%, 1m -5.5%, 3m -1.3%. Last close 109.85. 21d annualized realized volatility 35%. Position in trailing 63-day range: 24% (0%=low, 100%=high).",
+    "label": "BUY",
+    "held_out_firm": "C"
+   },
+   {
+    "facts_text": "Price action as of 2026-04-02: 1w -4.8%, 1m -8.3%, 3m -0.8%. Last close 201.40. 21d annualized realized volatility 23%. Position in trailing 63-day range: 46% (0%=low, 100%=high).",
+    "label": "SELL",
+    "held_out_firm": "TMUS"
+   }
+  ]
+ },
+ "presentation_levels": {
+  "L0": {
+   "layout": "prose",
+   "order": "original"
+  },
+  "L1": {
+   "layout": "table",
+   "order": "reversed"
+  }
+ }
+}

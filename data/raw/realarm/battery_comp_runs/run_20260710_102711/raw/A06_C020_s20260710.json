@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C020",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits massive scale with over $404 billion in total assets and $36.38 billion in revenue, alongside strong profitability (80% gross margin, $5.0 billion operating income). However, the capital structure is highly leveraged (total liabilities of $298.5 billion against equity of $104.5 billion, representing a debt-to-equity-like leverage profile) and liquidity is slightly tight with a current ratio of 0.91 ($56.9 billion current assets vs $62.4 billion current liabilities). These solid operating fundamentals combined with high leverage and financial sector-like balance sheet characteristics support a solid investment-grade rating.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 283,
+ "out_tok": 149,
+ "usd": 0.001765,
+ "utc": "2026-07-10T14:48:17.793784+00:00"
+}

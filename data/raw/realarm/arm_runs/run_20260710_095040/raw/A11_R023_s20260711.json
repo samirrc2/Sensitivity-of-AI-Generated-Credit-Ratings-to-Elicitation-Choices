@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R023",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows good near-term liquidity (current assets 916M vs current liabilities 239M) and moderate leverage (total liabilities 290M vs equity 1,058M). However, the very large negative retained earnings (-1,564M) signals accumulated losses and weaker structural earnings quality, despite positive current net income (337M) and EBIT (90M).  \n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 231,
+ "out_tok": 270,
+ "usd": 0.000384,
+ "utc": "2026-07-10T14:16:49.477373+00:00"
+}

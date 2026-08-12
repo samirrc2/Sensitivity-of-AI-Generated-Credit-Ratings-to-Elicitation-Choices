@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C030",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A\", \"confidence\": 4, \"rationale\": \"Strong balance sheet with low leverage (32% equity ratio), robust current ratio of 2.29, and stable operating profitability.\"}\n```",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "in_tok": 268,
+ "out_tok": 51,
+ "usd": 0.000861,
+ "utc": "2026-07-10T15:00:36.734939+00:00"
+}

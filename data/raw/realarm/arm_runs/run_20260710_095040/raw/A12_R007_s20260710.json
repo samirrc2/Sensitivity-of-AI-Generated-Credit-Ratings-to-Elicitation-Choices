@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R007",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 4, \"rationale\": \"Solid liquidity (current ratio 3.37) and moderate leverage (48% debt/assets) support investment grade, but modest profitability (ROA 3.5%) limits a higher rating.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 273,
+ "out_tok": 66,
+ "usd": 0.001004,
+ "utc": "2026-07-10T13:58:48.401832+00:00"
+}

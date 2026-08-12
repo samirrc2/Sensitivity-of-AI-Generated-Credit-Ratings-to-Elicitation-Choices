@@ -1,0 +1,45 @@
+{
+ "spec_id": "S02",
+ "item_id": "D052",
+ "seed": 22,
+ "family": "directional",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "2",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 22,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-04-02. Act as a equity research analyst.\nPrice action as of 2026-04-02: 1w +0.9%, 1m -3.1%, 3m -29.3%. Last close 187.18. 21d annualized realized volatility 38%. Position in trailing 63-day range: 10% (0%=low, 100%=high).\nHere are two worked examples:\n- Information: Price action as of 2026-03-19: 1w +4.1%, 1m -5.5%, 3m -1.3%. Last close 109.85. 21d annualized realized volatility 35%. Position in trailing 63-day range: 24% (0%=low, 100%=high).\n  Answer: BUY\n- Information: Price action as of 2026-04-02: 1w -4.8%, 1m -8.3%, 3m -0.8%. Last close 201.40. 21d annualized realized volatility 23%. Position in trailing 63-day range: 46% (0%=low, 100%=high).\n  Answer: SELL\n\nBased only on the above and knowledge predating 2026-04-02, give a 20-trading-day directional recommendation for the stock. Choose exactly one label from: BUY, HOLD, SELL.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock has experienced a significant downturn over the past three months, dropping nearly 30%, and is currently near the bottom of its recent 63-day trading range. Despite some recent stabilization (1w +0.9%), the overall trend is strongly negative, suggesting potential for further decline or at best a slow recovery. The high volatility further adds to the downside risk.\n\nDECISION: SELL",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 394,
+ "output_tokens": 82,
+ "cost_usd": 0.000323,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T22:58:15.779300+00:00",
+ "mode": "REAL"
+}

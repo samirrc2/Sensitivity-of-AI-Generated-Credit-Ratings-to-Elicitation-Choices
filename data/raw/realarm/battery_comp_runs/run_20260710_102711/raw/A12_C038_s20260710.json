@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B-\", \"confidence\": 4, \"rationale\": \"High leverage (total debt/assets), deeply negative retained earnings, and weak current ratio outweigh decent EBIT, indicating high credit risk.\"}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 276,
+ "out_tok": 50,
+ "usd": 0.000864,
+ "utc": "2026-07-10T15:11:10.247734+00:00"
+}

@@ -1,0 +1,44 @@
+{
+ "spec_id": "S40",
+ "item_id": "D055",
+ "seed": 22,
+ "family": "directional",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 0.0,
+   "seed": 22,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Task: give a 20-trading-day directional recommendation for the stock.\nRespond with exactly one of: BUY, HOLD, SELL. Use only the figures provided and knowledge available on or before 2026-03-19; do not use later information.\nProvided information:\nPrice action as of 2026-03-19: 1w -2.5%, 1m -5.0%, 3m +0.5%. Last close 178.56. 21d annualized realized volatility 34%. Position in trailing 63-day range: 31% (0%=low, 100%=high).\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\"decision\": \"HOLD\", \"confidence\": 3, \"rationale\": \"Negative 1m momentum but near 63d range low suggests consolidation.\"}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 294,
+ "output_tokens": 33,
+ "cost_usd": 0.00045,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:52:18.730756+00:00",
+ "mode": "REAL"
+}

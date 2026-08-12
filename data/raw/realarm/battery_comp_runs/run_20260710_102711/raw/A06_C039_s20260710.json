@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits very large scale with over $30 billion in revenue, strong profitability (operating margin of 19%), and a massive asset base of $1.81 trillion, which is characteristic of a major financial institution. However, the leveraged balance sheet structure (equity-to-assets ratio of approximately 6.9%) and a current ratio below 1.0 indicate typical banking or financial services risk profiles, warranting a solid investment-grade rating but not the highest tier. \n\nDECISION: A-",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "in_tok": 294,
+ "out_tok": 107,
+ "usd": 0.001404,
+ "utc": "2026-07-10T15:12:01.604149+00:00"
+}

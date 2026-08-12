@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BBB-\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage (Total Debt/Equity around 4.2x) is offset by solid EBIT interest coverage potential and substantial retained earnings, indicating investment-grade but near-speculative threshold.\"\n}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 280,
+ "out_tok": 70,
+ "usd": 0.00105,
+ "utc": "2026-07-10T14:55:45.162361+00:00"
+}

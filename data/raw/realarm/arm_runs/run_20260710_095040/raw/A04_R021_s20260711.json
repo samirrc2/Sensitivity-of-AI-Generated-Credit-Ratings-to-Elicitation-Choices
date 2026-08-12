@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R021",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Moderate leverage (equity/assets 40%), solid liquidity (current ratio 1.5x), and healthy profitability (7.3% EBIT margin), indicating a stable investment-grade profile.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 262,
+ "out_tok": 63,
+ "usd": 0.00096,
+ "utc": "2026-07-10T14:13:46.689229+00:00"
+}

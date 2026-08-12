@@ -1,0 +1,43 @@
+{
+ "spec_id": "S28",
+ "item_id": "C027",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "openai",
+ "version": "current",
+ "model": "gpt-5.4-nano",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 0.0,
+ "temperature_applied": false,
+ "effective_temperature": null,
+ "call_meta": {
+  "signature": "mct+seed+eff",
+  "temperature_applied": false,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-04-29, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-04-29):\nFiscal period 2026 Q1 (filed 2026-04-29). Revenue 2,444M, gross margin 51%, operating income 577M (operating margin 24%), net income 415M, diluted EPS 4.2. Total assets 40,898M, total liabilities 26,603M, shareholders' equity 14,298M. Current assets 5,346M vs current liabilities 4,538M (current ratio 1.18), retained earnings 6,514M.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\"decision\":\"BBB-\",\"confidence\":2,\"rationale\":\"Strong operating profitability (24% margin) and solid equity, but leverage is moderately high and liquidity is thin (current ratio 1.18).\"}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 263,
+ "output_tokens": 173,
+ "cost_usd": 0.000269,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:36:15.081404+00:00",
+ "mode": "REAL"
+}

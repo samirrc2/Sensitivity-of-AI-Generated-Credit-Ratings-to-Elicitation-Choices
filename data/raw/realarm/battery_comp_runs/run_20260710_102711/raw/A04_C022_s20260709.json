@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BBB-\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong asset base and equity cushion offset weak liquidity (current ratio 0.59) and modest EBIT-to-assets ratio, justifying a borderline investment-grade rating.\"\n}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 278,
+ "out_tok": 67,
+ "usd": 0.00102,
+ "utc": "2026-07-10T14:50:27.170911+00:00"
+}

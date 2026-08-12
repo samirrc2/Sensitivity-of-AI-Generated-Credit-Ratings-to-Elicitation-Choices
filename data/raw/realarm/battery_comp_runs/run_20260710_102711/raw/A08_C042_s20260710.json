@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B-\", \"confidence\": 4, \"rationale\": \"Negative equity (-$8.5B), deep cumulative losses, and high leverage point to high default risk, but positive EBIT provides short-term servicing capacity.\"}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 268,
+ "out_tok": 56,
+ "usd": 0.000906,
+ "utc": "2026-07-10T15:15:57.235801+00:00"
+}

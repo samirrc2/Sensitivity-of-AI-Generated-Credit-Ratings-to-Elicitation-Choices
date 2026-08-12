@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Severe insolvency (equity $415M vs debt $11.8B), negative EBIT, and high net loss indicate extreme credit risk and imminent default danger.\"}\n```",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 273,
+ "out_tok": 57,
+ "usd": 0.000923,
+ "utc": "2026-07-10T14:12:18.546965+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the company exhibits a very large scale (annualized revenue exceeding $100B and assets near $60B) but operates on thin profitability, with an operating margin of only 4% and a gross margin of 28%. Furthermore, its liquidity profile is slightly pressured, as evidenced by a current ratio of 0.97 (current assets of $20,702M vs. current liabilities of $21,242M) and a moderately high leverage ratio (total liabilities-to-equity of approximately 2.87x). While its massive scale and positive net income ($689M for the quarter) support an investment-grade profile, the tight liquidity and low operating margins constrain the rating to the lower end of the investment-grade spectrum.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 282,
+ "out_tok": 176,
+ "usd": 0.002007,
+ "utc": "2026-07-10T15:17:16.781491+00:00"
+}

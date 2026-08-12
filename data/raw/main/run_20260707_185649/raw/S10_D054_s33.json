@@ -1,0 +1,45 @@
+{
+ "spec_id": "S10",
+ "item_id": "D054",
+ "seed": 33,
+ "family": "directional",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "2",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 0.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-03-05. Act as a equity research analyst.\n| Return 3m            | -9.0% |\n| Return 1m            | -3.4% |\n| Return 1w            | -4.6% |\n| Range position (63d) | 36% |\n| 21d realized vol     | 30% |\n| Last close           | 260.29 |\nHere are two worked examples:\n- Information: Price action as of 2026-03-19: 1w +4.1%, 1m -5.5%, 3m -1.3%. Last close 109.85. 21d annualized realized volatility 35%. Position in trailing 63-day range: 24% (0%=low, 100%=high).\n  Answer: BUY\n- Information: Price action as of 2026-04-02: 1w -4.8%, 1m -8.3%, 3m -0.8%. Last close 201.40. 21d annualized realized volatility 23%. Position in trailing 63-day range: 46% (0%=low, 100%=high).\n  Answer: SELL\n\nBased only on the above and knowledge predating 2026-03-05, give a 20-trading-day directional recommendation for the stock. Choose exactly one label from: BUY, HOLD, SELL.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock is experiencing a consistent downward trend across all short-to-medium-term horizons (1-week, 1-month, and 3-month returns are all negative) and is trading in the lower portion of its 63-day range (36%). With elevated 21-day realized volatility at 30%, the bearish momentum is likely to persist over the next 20 trading days. Therefore, a short-term sell recommendation is warranted.\n\nDECISION: SELL",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 391,
+ "output_tokens": 103,
+ "cost_usd": 0.001514,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:10:08.492381+00:00",
+ "mode": "REAL"
+}

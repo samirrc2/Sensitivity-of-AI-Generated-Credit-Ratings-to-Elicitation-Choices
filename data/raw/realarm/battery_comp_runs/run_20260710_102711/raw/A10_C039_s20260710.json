@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "As a credit rating analyst, the issuer's massive asset footprint of $1.81 trillion and consistent profitability (19% operating margin, $4.62 billion net income) suggest a highly systemic and large-scale institution, likely in the financial services or banking sector. However, the balance sheet exhibits significant leverage (equity-to-assets ratio of only 6.9%) and a highly constrained short-term liquidity profile, evidenced by a current ratio of 0.83 (current liabilities exceeding current assets by over $208 billion). This combination of extreme leverage, structural maturity mismatch typical of financial institutions, and moderate profitability relative to the massive asset base warrants a solid investment-grade rating but constrains it from the highest tiers.\n\nDECISION: A-",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "in_tok": 302,
+ "out_tok": 160,
+ "usd": 0.001893,
+ "utc": "2026-07-10T15:12:25.205735+00:00"
+}

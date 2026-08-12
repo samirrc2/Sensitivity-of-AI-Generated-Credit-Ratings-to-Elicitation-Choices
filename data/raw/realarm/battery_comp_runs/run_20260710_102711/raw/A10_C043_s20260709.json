@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's Q3 2025 financial profile reveals moderate profitability (operating margin of 4%) and a leveraged balance sheet with an equity-to-assets ratio of approximately 25.8%. Notably, the current ratio of 0.97 indicates tight short-term liquidity, as current liabilities slightly exceed current assets, creating refinancing or working capital pressure. While the firm generates substantial revenue and remains profitable (net income of 689M), these liquidity constraints and thin operating margins align with a borderline investment-grade profile. \n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 282,
+ "out_tok": 122,
+ "usd": 0.001521,
+ "utc": "2026-07-10T15:17:12.264501+00:00"
+}

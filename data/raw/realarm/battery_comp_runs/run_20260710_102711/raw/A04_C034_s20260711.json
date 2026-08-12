@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage (Total Debt/Equity ratio is elevated), weak liquidity (Current Ratio of 0.53), but supported by positive EBIT and substantial asset base.\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 277,
+ "out_tok": 64,
+ "usd": 0.000991,
+ "utc": "2026-07-10T15:05:44.866784+00:00"
+}

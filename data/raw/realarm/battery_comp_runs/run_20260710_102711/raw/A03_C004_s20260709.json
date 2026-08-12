@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid liquidity (current ratio of 2.04) and a relatively conservative balance sheet with shareholders\u2019 equity (84,113M) exceeding total liabilities (58,979M), indicating good debt protection. However, operating profitability appears modest (EBIT/operating income of 941M on revenue of 22,387M), which limits cushion against downturns.  \nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 238,
+ "out_tok": 234,
+ "usd": 0.00034,
+ "utc": "2026-07-10T14:30:35.946248+00:00"
+}

@@ -1,0 +1,44 @@
+{
+ "spec_id": "S36",
+ "item_id": "C001",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 33,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2026-03-19; do not use later information.\nProvided information:\n| Current ratio           | 1.34 |\n| Retained earnings       | 22,804M |\n| Current liabilities     | 20,957M |\n| Current assets          | 28,007M |\n| Shareholders' equity    | 31,211M |\n| Total liabilities       | 34,289M |\n| Total assets            | 67,064M |\n| EBIT / operating income | 2,494M |\n| Revenue                 | 18,044M |\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "Current ratio of 1.34 indicates adequate short-term liquidity. Leverage is moderate (total liabilities/equity = 1.10; liabilities/assets = 0.51), supported by substantial retained earnings, positive EBIT margin of ~13.8 %, and large scale, all consistent with solid but not top-tier investment-grade metrics.\nDECISION: BBB+",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 356,
+ "output_tokens": 72,
+ "cost_usd": 0.000625,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:46:26.994194+00:00",
+ "mode": "REAL"
+}

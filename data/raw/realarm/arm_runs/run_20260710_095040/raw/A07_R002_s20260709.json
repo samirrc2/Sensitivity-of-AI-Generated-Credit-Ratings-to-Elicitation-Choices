@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R002",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows relatively modest liquidity (current ratio ~1.21) and moderate leverage (assets 10,039M vs liabilities 7,476M), but profitability is very weak with extremely low operating income (EBIT 7M on revenue 9,292M) and negative net income (-139M). This combination suggests elevated credit risk though not outright distress given positive retained earnings and current asset coverage of current liabilities.  \nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 230,
+ "out_tok": 242,
+ "usd": 0.000348,
+ "utc": "2026-07-10T13:52:26.615380+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R006",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 4, \"rationale\": \"High revenue and solid equity-to-assets ratio are offset by negative profitability (net loss and negative EBIT) and moderate leverage.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 272,
+ "out_tok": 49,
+ "usd": 0.000849,
+ "utc": "2026-07-10T13:56:49.013785+00:00"
+}

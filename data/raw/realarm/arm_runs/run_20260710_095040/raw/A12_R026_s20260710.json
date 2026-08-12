@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R026",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage (Total Debt/Equity over 4x) and tight liquidity (Current Ratio < 1) are balanced by solid revenue and positive EBIT.\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 275,
+ "out_tok": 62,
+ "usd": 0.000971,
+ "utc": "2026-07-10T14:20:11.106358+00:00"
+}

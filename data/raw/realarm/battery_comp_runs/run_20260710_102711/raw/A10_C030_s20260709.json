@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C030",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's fiscal year 2025 Q4 financial profile reveals a very strong balance sheet characterized by substantial liquidity (current ratio of 2.29x) and a solid equity cushion, with total assets of $58.17B comfortably exceeding total liabilities of $27.40B. While the firm exhibits moderate profitability with a 14% operating margin and $406M in net income, its massive asset base relative to its earnings profile suggests a highly capitalized financial institution or capital-intensive enterprise with low default risk. Therefore, the company warrants an upper-medium grade investment rating, reflecting strong capacity to meet financial commitments but with some sensitivity to adverse economic conditions.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 281,
+ "out_tok": 153,
+ "usd": 0.001798,
+ "utc": "2026-07-10T15:00:44.416396+00:00"
+}

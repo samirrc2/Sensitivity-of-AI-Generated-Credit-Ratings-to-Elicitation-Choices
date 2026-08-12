@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C017",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits an exceptionally strong financial profile, characterized by massive revenues of $18.0 billion, a high operating margin of 42%, and a highly liquid balance sheet with $171.1 billion in total assets against $89.8 billion in total liabilities. A robust current ratio of 1.71 and substantial net income of $8.5 billion reflect extremely low credit risk and premier financial flexibility. These metrics are indicative of a highly stable, investment-grade profile consistent with the highest creditworthiness.\n\nDECISION: AAA",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "in_tok": 280,
+ "out_tok": 113,
+ "usd": 0.001437,
+ "utc": "2026-07-10T14:45:04.871606+00:00"
+}

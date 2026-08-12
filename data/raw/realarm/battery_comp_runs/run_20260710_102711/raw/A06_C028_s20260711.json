@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C028",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits an exceptionally strong financial profile, characterized by massive scale (revenue of $181.5B, total assets of $916.6B), excellent profitability with a net income of $30.25B, and a solid capital structure with shareholders' equity of $441.9B against total liabilities of $474.7B. Its short-term liquidity is adequate with a current ratio of 1.18, and the enormous absolute size of its earnings and equity base indicates an extremely low probability of default.\n\nDECISION: AAA",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "in_tok": 289,
+ "out_tok": 121,
+ "usd": 0.001522,
+ "utc": "2026-07-10T14:58:12.177176+00:00"
+}

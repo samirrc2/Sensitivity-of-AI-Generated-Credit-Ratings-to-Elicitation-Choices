@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 4, \"rationale\": \"High leverage (Total Debt/Equity over 1.5x) and weak liquidity (Current Ratio < 1.0) outweigh steady EBIT margins, justifying a BB speculative-grade rating.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 276,
+ "out_tok": 62,
+ "usd": 0.000972,
+ "utc": "2026-07-10T14:59:50.193045+00:00"
+}

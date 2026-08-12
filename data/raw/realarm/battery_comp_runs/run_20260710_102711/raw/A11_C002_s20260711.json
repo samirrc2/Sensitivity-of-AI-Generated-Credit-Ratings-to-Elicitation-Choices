@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows exceptionally strong short-term liquidity (current ratio of 12.41) and very strong operating profitability (EBIT of 3,188 on revenue of 7,300). While the balance sheet has heavy total liabilities relative to assets (equity appears relatively small versus total assets), the combination of strong liquidity and high earnings supports an **upper single\u2011A** type credit profile.\n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "in_tok": 242,
+ "out_tok": 275,
+ "usd": 0.000392,
+ "utc": "2026-07-10T14:29:14.605122+00:00"
+}

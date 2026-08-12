@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R029",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows strong balance sheet strength with very high shareholders\u2019 equity relative to the (reported) total liabilities, indicating minimal leverage risk. Liquidity is adequate but not exceptional (current assets 2,929M vs. current liabilities 2,248M), and profitability is positive but moderate (net income 445M on revenue 8,634M). Overall, this supports a high but not top-tier rating.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "in_tok": 235,
+ "out_tok": 248,
+ "usd": 0.000357,
+ "utc": "2026-07-10T14:22:45.045957+00:00"
+}

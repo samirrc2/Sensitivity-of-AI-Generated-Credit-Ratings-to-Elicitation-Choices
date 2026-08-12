@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C010",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits an exceptionally strong financial profile, characterized by highly robust profitability (44% operating margin on $5.6B in revenue), conservative leverage (equity of $29.8B against total liabilities of $22.0B), and excellent liquidity with a current ratio of 1.92 and deep retained earnings of nearly $29.8B. Its massive asset base of $51.8B relative to its liabilities indicates extremely low default risk and premier creditworthiness.\n\nDECISION: AAA",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "in_tok": 281,
+ "out_tok": 107,
+ "usd": 0.001384,
+ "utc": "2026-07-10T14:37:17.631464+00:00"
+}

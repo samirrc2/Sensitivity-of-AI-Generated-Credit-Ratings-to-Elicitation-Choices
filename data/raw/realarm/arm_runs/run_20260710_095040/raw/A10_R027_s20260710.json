@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R027",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the issuer exhibits a solid balance sheet with low leverage (debt/equity metrics are favorable with equity of $2,858M against liabilities of $4,069M) and strong short-term liquidity, as evidenced by a high current ratio of 2.57 ($2,046M current assets vs. $795M current liabilities) and substantial retained earnings of $2,355M. However, profitability is relatively weak for an investment-grade issuer of this size, with a low operating margin of 6.4% ($244M operating income on $3,801M revenue) and a thin net income margin of 0.8% ($32M), which compresses cash flow coverage and places the credit profile in the lower-medium investment grade category. Therefore, the company's strong asset coverage and liquidity offset its weak profitability, justifying a stable investment-grade rating.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 236,
+ "out_tok": 207,
+ "usd": 0.002217,
+ "utc": "2026-07-10T14:21:10.038164+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This issuer exhibits an exceptionally strong credit profile, characterized by highly robust profitability (46% operating margin and $31.8B net income in a single quarter) and an incredibly strong balance sheet with $414.4B in shareholders' equity and over $302B in retained earnings. While the current ratio of 1.28 is moderate, the absolute scale of assets ($694.2B) and massive earnings power provide an immense cushion against default, aligning with the highest levels of creditworthiness.\n\nDECISION: AAA",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "in_tok": 296,
+ "out_tok": 114,
+ "usd": 0.00147,
+ "utc": "2026-07-10T14:40:06.454311+00:00"
+}

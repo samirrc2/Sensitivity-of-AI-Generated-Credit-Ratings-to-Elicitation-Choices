@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C020",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "With a current ratio of 0.91, liquidity appears somewhat tight (below break-even), which can pressure short-term obligations. However, profitability is moderate (EBIT \u2248 5,004 on revenue 36,381, ~14% margin) and despite high leverage (total liabilities ~74% of total assets), the company doesn\u2019t appear severely distressed based on earnings capacity alone.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 193,
+ "usd": 0.00029,
+ "utc": "2026-07-10T14:48:44.417658+00:00"
+}

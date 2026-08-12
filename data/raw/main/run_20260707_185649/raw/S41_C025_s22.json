@@ -1,0 +1,45 @@
+{
+ "spec_id": "S41",
+ "item_id": "C025",
+ "seed": 22,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 0.0,
+   "maxOutputTokens": 1024,
+   "seed": 22,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2026-04-23; do not use later information.\nProvided information:\nFiscal period 2026 Q1 (filed 2026-04-23). Revenue 9,143M, gross margin 39%, operating income 886M (operating margin 10%), net income 821M, diluted EPS 2.58. Total assets 73,988M, total liabilities 52,676M, shareholders' equity 21,312M. Current assets 30,590M vs current liabilities 22,085M (current ratio 1.39), retained earnings 0M.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Solid profitability and liquidity (current ratio 1.39) are offset by a high debt-to-equity ratio (2.47) and no retained earnings.\"}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 285,
+ "output_tokens": 53,
+ "cost_usd": 0.000218,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:53:01.292838+00:00",
+ "mode": "REAL"
+}

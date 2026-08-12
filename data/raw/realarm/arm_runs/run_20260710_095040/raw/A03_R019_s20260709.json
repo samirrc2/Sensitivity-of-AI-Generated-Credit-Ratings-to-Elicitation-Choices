@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R019",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows significant financial stress: total liabilities are very high relative to assets (11,824M vs. 12,240M) and shareholders\u2019 equity is thin (415M). It is also loss-making with negative operating income (EBIT -459M) and net income (-640M), which weakens credit resilience despite a reasonable current ratio (current assets 4,976M vs. current liabilities 2,796M).  \nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 235,
+ "out_tok": 213,
+ "usd": 0.000313,
+ "utc": "2026-07-10T14:11:22.304296+00:00"
+}

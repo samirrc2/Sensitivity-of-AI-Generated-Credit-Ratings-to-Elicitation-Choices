@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the balance sheet reveals an exceptionally large asset base of over $2.2 trillion, which is characteristic of a major global financial institution or a highly leveraged sovereign-backed entity, typically warranting an investment-grade profile. However, the short-term liquidity position is highly strained, characterized by a critically low current ratio of 0.34 (current assets of $612,094M versus current liabilities of $1,775,239M) and thin capitalization relative to the balance sheet size (equity-to-assets ratio of approximately 8%). While the company demonstrates strong profitability with a 64% gross margin and $5,290M in quarterly net income, the massive near-term refinancing risk and high leverage constrain the rating to the lower end of the investment-grade spectrum.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 299,
+ "out_tok": 179,
+ "usd": 0.002059,
+ "utc": "2026-07-10T15:02:36.726219+00:00"
+}

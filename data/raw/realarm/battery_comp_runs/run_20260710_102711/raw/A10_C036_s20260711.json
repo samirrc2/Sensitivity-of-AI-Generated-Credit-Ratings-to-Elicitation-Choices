@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits moderate profitability with an operating margin of 19% ($749M on $3,915M revenue), but its balance sheet carries significant leverage, with total liabilities of $57,973M against shareholders' equity of $21,181M (a debt-to-equity oriented profile that is highly leveraged). Furthermore, the company faces near-term liquidity pressure, evidenced by a weak current ratio of 0.79 ($5,681M in current assets against $7,148M in current liabilities). This combination of decent operating profitability but highly leveraged capital structure and tight short-term liquidity aligns with a non-investment grade, speculative-class rating.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 279,
+ "out_tok": 157,
+ "usd": 0.001832,
+ "utc": "2026-07-10T15:08:45.983685+00:00"
+}

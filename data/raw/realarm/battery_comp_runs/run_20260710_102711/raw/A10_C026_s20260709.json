@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided Q3 2025 financial data, the company demonstrates strong profitability with a 30% operating margin and a solid gross margin of 72%, alongside a highly supportive liquidity position indicated by a 1.27 current ratio and $35.6 billion in current assets. However, the balance sheet exhibits significant leverage, with total liabilities of $78.3 billion against shareholders' equity of $18.6 billion (a debt-to-equity equivalent ratio of approximately 4.2x), which constrains the rating from the highest investment-grade tiers. Balancing the robust profitability, substantial asset base ($96.9 billion), and moderate leverage, the issuer warrants a solid upper-medium investment grade.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 288,
+ "out_tok": 160,
+ "usd": 0.001872,
+ "utc": "2026-07-10T14:56:23.465930+00:00"
+}

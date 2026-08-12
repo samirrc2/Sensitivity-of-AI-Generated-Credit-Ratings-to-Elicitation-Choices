@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R030",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BBB\",\n  \"confidence\": 4,\n  \"rationale\": \"Moderate leverage (66% Debt/Assets), positive profitability (EBIT margin 20%), but current ratio under 1.0 indicates minor liquidity pressure.\"\n}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 268,
+ "out_tok": 64,
+ "usd": 0.000978,
+ "utc": "2026-07-10T14:24:18.057247+00:00"
+}

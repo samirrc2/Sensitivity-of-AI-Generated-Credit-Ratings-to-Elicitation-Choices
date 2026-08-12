@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows strong balance-sheet liquidity (current ratio 2.29) and moderate leverage (total liabilities ~40% of total assets), indicating good near-term and structural financial resilience. Profitability also appears very strong, with EBIT of 3,688M on revenue of 6,571M, supporting solid earnings capacity. Overall, this aligns best with an **AA-** rating on the provided 21-grade scale.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 233,
+ "out_tok": 183,
+ "usd": 0.000275,
+ "utc": "2026-07-10T14:36:41.102971+00:00"
+}

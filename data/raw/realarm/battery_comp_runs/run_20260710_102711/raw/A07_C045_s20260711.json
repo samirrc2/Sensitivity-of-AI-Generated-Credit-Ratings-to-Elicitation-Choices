@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows weak liquidity (current ratio 0.53), indicating tighter short-term coverage of obligations. However, profitability appears solid with EBIT of 1,360M on 6,020M revenue (~23% margin), and the balance sheet is supported by substantial equity (31,808M) despite meaningful total leverage (total liabilities 84,798M).  \n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 183,
+ "usd": 0.000275,
+ "utc": "2026-07-10T15:19:32.432491+00:00"
+}

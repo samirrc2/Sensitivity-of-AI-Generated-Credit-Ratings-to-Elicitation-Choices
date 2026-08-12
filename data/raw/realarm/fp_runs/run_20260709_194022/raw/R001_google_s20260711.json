@@ -1,0 +1,12 @@
+{
+ "item_id": "R001",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "ok": true,
+ "raw_response": "To find the correct company, we can analyze the provided financial metrics from its most recent fiscal year (likely FY2023 or FY2024):\n- Revenue: $6,855M ($6.86 billion)\n- Gross Margin: 49% (Gross Profit ~ $3,359M)\n- Operating Income: $700M (10.2% margin)\n- Net Income: $510M (7.4% margin)\n- Total Assets: $8,512M\n- Total Liabilities: $5,650M\n- Shareholders' Equity: $2,862M\n- Current Assets: $4,013M\n- Current Liabilities: $1,869M\n- Retained Earnings: $5,129M\n\nThese precise figures correspond to the FY2023 financial results (for the fiscal year ended February 3, 2024) of **Tapestry, Inc.** (parent company of Coach, Kate Spade, and Stuart Weitzman), which reports under NYSE ticker TPR. \n\nGUESS: Tapestry, Inc. (TPR)",
+ "in_tok": 194,
+ "out_tok": 254,
+ "usd": 0.002577,
+ "utc": "2026-07-09T23:40:48.954544+00:00"
+}

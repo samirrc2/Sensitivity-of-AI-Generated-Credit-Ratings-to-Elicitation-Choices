@@ -1,0 +1,19 @@
+{
+ "spec_id": "A01",
+ "item_id": "R010",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB\",\"confidence\":3,\"rationale\":\"Strong profitability (net margin ~19%) and retained earnings, but high leverage (liabilities ~80% of assets) limits credit strength.\"}",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 195,
+ "out_tok": 136,
+ "usd": 0.000209,
+ "utc": "2026-07-10T14:01:03.359704+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C023",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided fiscal year-end 2025 financial data, the company demonstrates high profitability with $12.72B in revenue, an operating margin of 19%, and net income of $2.54B, supported by massive retained earnings of $87.66B. However, the balance sheet presents a highly leveraged capital structure with total liabilities of $111.27B against shareholders' equity of $18.68B (debt-to-equity ratio of approximately 5.96) and a tight liquidity profile represented by a current ratio of 1.04. This combination of strong operating profitability but aggressive leverage and tight short-term liquidity aligns with a solid, investment-grade profile but constrains the rating to the lower end of the high-credit-quality tier.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 290,
+ "out_tok": 180,
+ "usd": 0.002055,
+ "utc": "2026-07-10T14:52:21.865876+00:00"
+}

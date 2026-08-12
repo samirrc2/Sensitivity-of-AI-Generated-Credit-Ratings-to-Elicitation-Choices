@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R010",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BBB\",\n  \"confidence\": 4,\n  \"rationale\": \"Moderate profitability (ROA ~1.9%, ROE ~12%) combined with high leverage (Assets/Equity ~6.5x) justifies a solid investment-grade rating.\"\n}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 231,
+ "out_tok": 69,
+ "usd": 0.000968,
+ "utc": "2026-07-10T14:01:22.964491+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R020",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows moderate leverage (total liabilities of 8,577M against total assets of 12,689M; equity at 4,112M) and weak near-term liquidity (current ratio \u2248 1,107/1,333 = 0.83). While operating profitability appears solid (EBIT of 537M on revenue of 2,981M), the combination of leverage and sub-1 liquidity supports a sub-investment-grade credit profile.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 230,
+ "out_tok": 260,
+ "usd": 0.000371,
+ "utc": "2026-07-10T14:12:53.394277+00:00"
+}

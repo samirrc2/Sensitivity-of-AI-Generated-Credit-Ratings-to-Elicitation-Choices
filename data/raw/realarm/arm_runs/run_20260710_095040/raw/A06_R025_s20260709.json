@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates a solid operating performance with revenues of 3,467M, an operating margin of 8%, and positive net income of 142M. However, its financial profile is constrained by high leverage (total liabilities of 8,218M against shareholders' equity of 1,804M, resulting in a debt-to-equity ratio of approximately 4.5x), negative retained earnings of -748M, and a relatively tight current ratio of 1.32. These leveraged balance sheet characteristics combined with moderate profitability are consistent with a non-investment grade, speculative-grade profile in the BB range.\n\nDECISION: BB",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 230,
+ "out_tok": 142,
+ "usd": 0.001623,
+ "utc": "2026-07-10T14:18:26.423063+00:00"
+}

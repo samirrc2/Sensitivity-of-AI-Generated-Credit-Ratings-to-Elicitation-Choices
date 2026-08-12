@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided Q1 2026 financial data, the company exhibits a solid balance sheet with a substantial equity cushion ($10.0B in equity supporting $25.0B in assets) and highly profitable operations, generating an annualized operating income run-rate of approximately $2.5B on a 15% operating margin. However, the current ratio of 0.99 ($6.04B current assets vs. $6.10B current liabilities) indicates a tight short-term liquidity position, and the debt-to-equity structure, while manageable, prevents a prime AAA/AA rating. Considering the strong profitability, deep retained earnings ($13.1B), and minor short-term working capital pressure, the issuer represents a strong investment-grade credit.\n\nDECISION: A-",
+ "parsed_letter": "C",
+ "parsed_band": "DISTRESS",
+ "in_tok": 281,
+ "out_tok": 172,
+ "usd": 0.001969,
+ "utc": "2026-07-10T14:59:38.050794+00:00"
+}

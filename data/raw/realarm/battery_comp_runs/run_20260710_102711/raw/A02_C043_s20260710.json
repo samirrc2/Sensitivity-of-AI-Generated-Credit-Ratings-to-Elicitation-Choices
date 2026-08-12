@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits a very large scale of operations with over $25 billion in quarterly revenue, but operates with a relatively thin operating margin of approximately 4% and a slightly pressured current ratio of 0.97. The leverage profile is moderate, with total liabilities representing about 74% of total assets ($44.5B of $60.0B) and equity of $15.5B, which is consistent with solid investment-grade creditworthiness. However, the tight liquidity and low-margin profitability model place it in the lower-tier investment-grade category.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 281,
+ "out_tok": 127,
+ "usd": 0.001564,
+ "utc": "2026-07-10T15:16:30.668879+00:00"
+}

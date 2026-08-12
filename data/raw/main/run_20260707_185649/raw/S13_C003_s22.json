@@ -1,0 +1,44 @@
+{
+ "spec_id": "S13",
+ "item_id": "C003",
+ "seed": 22,
+ "family": "credit_health",
+ "provider": "openai",
+ "version": "current",
+ "model": "gpt-5.4-nano",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 22,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2025-11-06. Act as a credit rating analyst.\nFiscal period 2025 Q3 (filed 2025-11-06). Revenue 14,969M, gross margin 23%, operating income 2,702M (operating margin 18%), net income 1,726M, diluted EPS 1.38. Total assets 122,472M, total liabilities 57,549M, shareholders' equity 64,923M. Current assets 15,884M vs current liabilities 12,009M (current ratio 1.32), retained earnings 68,459M.\nBased only on the above and knowledge predating 2025-11-06, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\"decision\":\"A-\",\"confidence\":3,\"rationale\":\"Strong operating margin (18%) and net profitability (11%); moderate leverage (liabilities/assets ~47%); liquidity adequate (current ratio 1.32).\"}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 269,
+ "output_tokens": 166,
+ "cost_usd": 0.000261,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:12:16.622276+00:00",
+ "mode": "REAL"
+}

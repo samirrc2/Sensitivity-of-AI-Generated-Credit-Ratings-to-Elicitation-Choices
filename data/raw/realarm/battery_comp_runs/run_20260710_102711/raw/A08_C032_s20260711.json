@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B\", \"confidence\": 4, \"rationale\": \"High leverage (Total Liabilities/Total Assets of 89%) and very weak liquidity (Current Ratio of 0.35) indicate significant credit risk despite positive EBIT.\"}\n```",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "in_tok": 276,
+ "out_tok": 58,
+ "usd": 0.000936,
+ "utc": "2026-07-10T15:03:32.428552+00:00"
+}

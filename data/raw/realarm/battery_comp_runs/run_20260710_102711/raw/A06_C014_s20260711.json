@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer displays solid financial metrics, including a substantial revenue base of $34.0 billion, profitable operations with an operating income of $1.5 billion, and a strong net income of $2.9 billion. Its balance sheet is robust, featuring a healthy shareholders' equity of $29.1 billion against total assets of $73.7 billion (leverage ratio of approximately 2.5x) and a supportive current ratio of 1.30. These investment-grade characteristics, balanced by relatively thin operating margins (4%), align with a stable and strong upper-medium grade profile.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 278,
+ "out_tok": 131,
+ "usd": 0.001596,
+ "utc": "2026-07-10T14:41:57.967754+00:00"
+}

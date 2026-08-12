@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows significant financial distress indicators: shareholders\u2019 equity and retained earnings are both deeply negative, and total liabilities exceed total assets, implying weak balance-sheet solvency. Liquidity is only marginal (current ratio ~1.09), though operating profitability appears positive (EBIT of 2,554M on revenue of 23,078M), which helps but doesn\u2019t offset the leverage and capital shortfall.\n\nDECISION: CCC+",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "in_tok": 240,
+ "out_tok": 261,
+ "usd": 0.000374,
+ "utc": "2026-07-10T15:04:25.474606+00:00"
+}

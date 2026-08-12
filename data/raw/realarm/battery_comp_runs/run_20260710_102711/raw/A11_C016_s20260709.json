@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C016",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "With a current ratio of 0.90, near-term liquidity appears tight, increasing refinancing/working-capital risk. Leverage is high (total liabilities about 80% of total assets), which limits balance-sheet resilience, though operating profitability is decent (EBIT of 3,213 on revenue of 19,443). Overall, this profiles as below-investment-grade but not severely distressed.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 229,
+ "usd": 0.000335,
+ "utc": "2026-07-10T14:44:28.625977+00:00"
+}

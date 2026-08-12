@@ -1,0 +1,45 @@
+{
+ "spec_id": "S19",
+ "item_id": "C012",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "json",
+  "A6_fewshot": "2",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-04-29. Act as a credit rating analyst.\nFiscal period 2026 Q3 (filed 2026-04-29). Revenue 82,886M, gross margin 68%, operating income 38,398M (operating margin 46%), net income 31,778M, diluted EPS 4.27. Total assets 694,228M, total liabilities 279,861M, shareholders' equity 414,367M. Current assets 175,329M vs current liabilities 136,661M (current ratio 1.28), retained earnings 302,526M.\nHere are two worked examples:\n- Information: Fiscal period 2026 Q1 (filed 2026-05-04). Revenue 83,161M, gross margin 38%, operating income 5,285M (operating margin 6%), net income 4,183M, diluted EPS 1.0. Total assets 464,410M, total liabilities 203,414M, shareholders' equity 254,381M. Current assets 97,787M vs current liabilities 94,378M (current ratio 1.04), retained earnings 482,344M.\n  Answer: AA+\n- Information: Fiscal period 2025 Q3 (filed 2025-10-23). Revenue 21,957M, gross margin 49%, operating income 4,862M (operating margin 22%), net income 2,714M, diluted EPS 2.41. Total assets 217,180M, total liabilities 156,703M, shareholders' equity 60,477M. Current assets 21,703M vs current liabilities 24,301M (current ratio 0.89), retained earnings 20,155M.\n  Answer: B-\n\nBased only on the above and knowledge predating 2026-04-29, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\n\"decision\": \"AAA\",\n\"confidence\": 4,\n\"rationale\": \"Exceptional profitability, very strong liquidity (current ratio 1.28), and a conservative balance sheet with low leverage.\"\n}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 644,
+ "output_tokens": 48,
+ "cost_usd": 0.000313,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:20:17.833770+00:00",
+ "mode": "REAL"
+}

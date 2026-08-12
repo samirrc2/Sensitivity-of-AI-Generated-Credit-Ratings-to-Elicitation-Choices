@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R021",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows solid profitability (net income margin ~4.3% and ROE ~11.6%) and moderate leverage (liabilities ~60% of assets), along with acceptable liquidity (current ratio ~1.5). EBIT/operating income of 152M on 2,083M revenue implies a relatively modest operating margin (~7.3%), tempering the rating.  \nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 222,
+ "out_tok": 194,
+ "usd": 0.000287,
+ "utc": "2026-07-10T14:14:04.332612+00:00"
+}

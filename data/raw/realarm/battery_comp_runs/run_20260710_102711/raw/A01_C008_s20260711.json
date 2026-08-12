@@ -1,0 +1,19 @@
+{
+ "spec_id": "A01",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":3,\"rationale\":\"Profitable (62% operating margin) but weak liquidity (current ratio 0.62) and negative equity (-2,646M) indicate elevated leverage/solvency risk.\"}",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 263,
+ "out_tok": 192,
+ "usd": 0.000293,
+ "utc": "2026-07-10T14:35:03.490732+00:00"
+}

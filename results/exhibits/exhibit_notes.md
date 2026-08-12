@@ -1,0 +1,30 @@
+# Exhibit notes — claim supported + neighbour answered
+
+Each exhibit is deterministic from `03_analysis/results.json` (regenerate: `python3 make_exhibits.py`).
+
+| Exhibit | Claim it supports | Neighbour it answers |
+|---|---|---|
+| **T1 / F1 (spec curve C1) / F2 (C3)** | Conclusions flip across the specification space (C1 credit accuracy flip-share, C3 modal buy/hold/sell flip-share, with bootstrap CIs and a joint permutation test). | Ali et al. (FRL 2025) — prompt-sensitivity of LLM financial outputs; we quantify it as pre-registered conclusion flips at full power. |
+| **T2 / F3 (variance Pareto)** | No design axis clears the run-to-run noise floor; the outcome is dominated by item + irreducible seed noise, with presentation the largest (small) systematic lever. | Camuffo et al. (2601.02370) / Carlson–Burbano (SMJ 2026) — decision-variance ranking of researcher choices vs noise; we rank specification variance against seed noise. |
+| **T3 (vendor agreement)** | Provider is a negligible *level* effect (main-effect variance share) but a large *provider×item interaction*; vendors agree far less across than within. | García-Llorente (FRL 2026) + Paper 1 reconciliation — Paper 1's estimand is error/decision correlation, ours is level variance; both hold and jointly sharpen the monoculture reading. |
+| **T4 (economic translation)** | A large share of names receive both an IG and an HY verdict across specifications; specification choice moves the implied credit spread materially. | FRL markets hook — anchored to Cornaggia, Cornaggia & Israelsen (80–140 bps per 2–3 notches) + an indicative rating-spread map. |
+| **T5 / F6 (granularity stability)** | The machine credit opinion has no specification-stable resolution: cross-spec agreement rises as the scale coarsens but stays below 80% even at the binary IG/HY level; effective resolution is coarser than IG/HY. Reported with scale-usage entropy so compression cannot masquerade as stability. | Kliger & Sarig (JF 2000) / Tang (JFE 2009) — rating *notches* carry priced information; we test whether machine raters *stably* produce notch-level distinctions. Drinkall (FinNLP 2025) — accuracy is ceded to them; stability on a contamination-free constructed battery is ours (different estimand). |
+| **F4 (deterministic subgrid)** | Fragility survives honoured determinism (Google@temp0): band accuracy still ranges widely with a significant permutation test. | AlphaForgeBench (2602.18481) — determinism/robustness of LLM financial pipelines. |
+| **F5 (noise floor by provider)** | Seed-to-seed disagreement by provider × requested/effective temperature; only Google honours temp=0 (deterministic), reasoning models drop it. | Atil et al. (2408.04667) — non-determinism of LLM outputs; we localise it by provider and effective temperature. |
+
+**Guardrail (repeated):** no capability claims anywhere. Letter-scale accuracy statistics feed the stability
+analysis only; whether LLMs *can* rate credit accurately is ceded to Drinkall et al. (FinNLP 2025).
+
+---
+
+## POST-HOC ADDITION — T8 capital recast (labelled; extends, does not revise)
+
+Deterministic from `03_analysis/results_capital.json` (regenerate: `python3 make_exhibits_t8.py`). The letter→risk-weight map is `00_frozen_inputs/capital_map.json`, quote-verified from BIS **CRE20.42** (own hash in `MANIFEST_CAPITAL.sha256`). No model calls; regulatory retrieval only, quote-or-exclude. **Scope on every T8 figure: Pillar 1 minimum only, 8% ratio, ECRA base risk weights, equal-weight $1B/name, no buffers.** Capital = the regulatory *minimum implied by the ratings the model emits*, not an economic loss estimate.
+
+| Exhibit | Claim it supports | Neighbour it answers |
+|---|---|---|
+| **T8a (capital dispersion, csv+png)** | Pushed through the Basel III ECRA table, the SAME $45B equal-weight book requires **$2.02B–$4.22B** of Pillar-1 capital across 118 specifications (range = 69% of median; expected pairwise gap **$0.65B = 20.5% of median**). The dispersion is **design-driven, not sampling noise**: design axes explain 71% of capital variance, seed noise ≈0%. It does **not** collapse when the 30 CCC-reaching (saturating) names are removed (E\|Δ\| rises 20.5%→26.8%), and survives value-weighting (22.3%) and parse-rule changes. | Basel III SA / ECRA (CRE20.42). Quantifies, in regulatory-capital units, the specification fragility that T1–T5 established in rating units. |
+| **T8b (regulatory benchmark, csv)** | Machine specification-induced capital dispersion is placed on the same axis as cross-bank RWA dispersion. BCBS 256 RCAP (2013): outlier banks' capital ratios vary **~20% in relative terms** (2 pp off a 10% benchmark) on the same portfolios. Machine outlier specs deviate **+33%/−36%** from their median; expected pairwise gap 20.5%. Same order of magnitude; on the like-for-like outlier metric the machine spread is somewhat wider. **Units differ → calibration, not identity.** | BCBS 256 (2013); qualitatively corroborated by Behn, Haselmann & Vig (JF 2022) and Mariathasan & Merrouche (JFI 2014). Answers "is this dispersion large by a standard regulators already act on?" |
+| **T8c (vendor correlation, csv)** | Treating each specification as an institution holding the same book, same-vendor capital errors are **positively correlated (ρ_same = 0.068)** while cross-vendor errors are **not (ρ_diff = −0.048)**; gap **+0.116** (xAI highest within-vendor at 0.137). Homogeneous vendor adoption converts idiosyncratic rating noise into a common, non-diversifiable factor — the micro-precondition for a correlated-shock channel. | Llacay & Peffer (Finance Research Letters, 2026) — correlated model errors amplify systemic risk. We establish the precondition (correlated errors); market-impact transmission is cited, not simulated. |
+
+**T8 guardrail:** capital figures are the *implied regulatory minimum* under a stated stripped-down scenario, not a claim that any bank would use an LLM as its rating engine and not an economic loss estimate. Attack items (xii) unit non-comparability and (xiii) no market simulation are conceded in `results_capital.json` and the memo.

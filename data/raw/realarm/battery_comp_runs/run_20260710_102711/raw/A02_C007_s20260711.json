@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C007",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This issuer exhibits an exceptionally strong financial profile, characterized by massive scale (quarterly revenue of nearly $24B, total assets of $192.8B), high profitability (70% gross margin and 30% operating margin), and a very deep cushion of retained earnings ($167.3B) reflecting long-term cumulative profitability. Although the current ratio is relatively tight at 1.07, the overall balance sheet strength, substantial equity base ($79.3B), and highly robust earnings power indicate negligible default risk and an extremely strong capacity to meet financial commitments.\n\nDECISION: AA+",
+ "parsed_letter": "AA+",
+ "parsed_band": "SAFE",
+ "in_tok": 290,
+ "out_tok": 129,
+ "usd": 0.001596,
+ "utc": "2026-07-10T14:33:51.546617+00:00"
+}

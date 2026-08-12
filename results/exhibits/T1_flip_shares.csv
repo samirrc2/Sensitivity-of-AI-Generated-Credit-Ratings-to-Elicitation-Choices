@@ -1,0 +1,4 @@
+conclusion,flip_share,ci_low,ci_high,note
+C1_credit_accuracy_band,0.5,0.099,0.8,"acc range [0.356, 0.689]"
+C2_bias_sign,0.375,,,modal median-notch sign 0.0
+C3_directional_modal,0.55,0.425,0.6,modal HOLD

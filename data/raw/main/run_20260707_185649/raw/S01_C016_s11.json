@@ -1,0 +1,45 @@
+{
+ "spec_id": "S01",
+ "item_id": "C016",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 11,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-04-16. Act as a credit rating analyst.\n| Current ratio           | 0.90 |\n| Retained earnings       | 73,165M |\n| Current liabilities     | 34,477M |\n| Current assets          | 30,916M |\n| Shareholders' equity    | 21,383M |\n| Total liabilities       | 89,110M |\n| Total assets            | 110,646M |\n| EBIT / operating income | 3,213M |\n| Revenue                 | 19,443M |\nBased only on the above and knowledge predating 2026-04-16, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The company's current ratio of 0.90 is concerning, indicating potential short-term liquidity issues as current liabilities exceed current assets. Furthermore, the debt-to-equity ratio is high (Total Liabilities 89,110M / Shareholders' Equity 21,383M \u2248 4.17), suggesting a heavily leveraged capital structure. While profitability (EBIT margin of 3,213M / 19,443M \u2248 16.5%) is decent, the significant leverage and weak liquidity are major credit concerns.\n\nDECISION: BB-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 285,
+ "output_tokens": 127,
+ "cost_usd": 0.000403,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T22:57:00.155347+00:00",
+ "mode": "REAL"
+}

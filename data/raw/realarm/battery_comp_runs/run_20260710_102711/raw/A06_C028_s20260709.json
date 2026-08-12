@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C028",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer displays exceptionally strong financial metrics, including a massive asset base of $916.6 billion, substantial shareholders' equity of $441.9 billion, and robust quarterly profitability with net income of over $30.2 billion. While the current ratio is somewhat tight at 1.18, the overall balance sheet strength, high profitability margins, and significant retained earnings ($280.8 billion) indicate extremely low default risk. This financial profile is consistent with the highest tier of creditworthiness.\n\nDECISION: AAA",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "in_tok": 289,
+ "out_tok": 111,
+ "usd": 0.001433,
+ "utc": "2026-07-10T14:58:09.151619+00:00"
+}

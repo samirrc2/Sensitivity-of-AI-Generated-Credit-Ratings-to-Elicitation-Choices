@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "R028",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Moderate leverage with Total Debt/Equity around 1.63, solid profitability (ROA ~4.2%, ROE ~11.1%), and adequate current liquidity coverage.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 265,
+ "out_tok": 61,
+ "usd": 0.000946,
+ "utc": "2026-07-10T14:22:06.977453+00:00"
+}

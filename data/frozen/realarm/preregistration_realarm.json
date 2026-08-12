@@ -1,0 +1,119 @@
+{
+ "title": "Appendix D \u2014 Real-firm robustness arm: PRE-REGISTRATION (frozen before any model call)",
+ "registered_utc": "2026-07-09T22:52:27.596153+00:00",
+ "purpose": "Answer the 'no real-world data' objection: replicate the LLM credit-rating specification-instability finding on ANONYMIZED REAL issuers benchmarked to ACTUAL disclosed agency ratings, and test for memorization via a fingerprinting/decontamination probe.",
+ "sample": {
+  "n": 31,
+  "universe": "US mid-cap ($2-15B) non-financial issuers whose most recent 10-K discloses a long-term agency rating (S&P primary, else Moody's/Fitch mapped)",
+  "band_mix": {
+   "SAFE": 14,
+   "WATCH": 16,
+   "DISTRESS": 1
+  },
+  "selection": "See selection_rule.md (frozen, with logged data-availability amendments). Anonymized to opaque shuffled IDs R001-R045; sealed_crosswalk.json holds identities and is NEVER placed in any model prompt.",
+  "benchmark": "disclosed_agency_rating band (SAFE=IG, WATCH=BB+..B-, DISTRESS=CCC+ and below)",
+  "composition_note": {
+   "observed": "14 SAFE / 16 WATCH / 1 DISTRESS in the 31 decontaminated B2B firms.",
+   "distress_scarcity": "The FULL QC-passing pool (61 issuers that disclosed an extractable current agency rating with complete SEC-XBRL fundamentals) contained exactly ONE DISTRESS-band name (opaque ID R038; ticker sealed in sealed_crosswalk.json). The 12-name reserve contained ZERO. Substitution per the logged-substitution rule was attempted and is IMPOSSIBLE \u2014 the universe does not supply it.",
+   "interpretation": "This is an honest feature of the rated mid-cap universe, not selection failure: distress-rated ($2-15B) issuers that still file clean 10-Ks disclosing a current letter rating are near-nonexistent (most are either larger, delisted, non-filers, or disclose no letter). Pre-stated here, not deferred to the discussion section.",
+   "handling": "DISTRESS is reported as a single illustrative case and EXCLUDED from stratified inference; confirmatory tests run on SAFE and WATCH strata."
+  },
+  "decontamination": {
+   "gate_result": "Phase-3 fingerprint gate on B2B+perturbed sample: per-item ever-identified 1/34=2.9% (>=2-seed 0%) => GO. The one leaker (a sector-mislabeled toy brand) plus two cousins (cruise, lawn) removed by the tightened consumer-SIC exclusion; the remaining 31 had ZERO gate identifications.",
+   "methods": "(a) per-issuer LogUniform(0.6,1.7) figure perturbation (ratios preserved); (b) B2B GICS screen + consumer-SIC exclusion. See selection_rule.md Amendment v2."
+  }
+ },
+ "hypotheses": {
+  "H1_instability_replicates": {
+   "statement": "The LLM credit-rating specification instability replicates on real anonymized firms, judged in a COMPOSITION-AWARE way because the real arm (62% WATCH, 1 DISTRESS) is not the battery's 15/15/15.",
+   "metric": "flip_share = mean over items of P(band(spec_i) != band(spec_j)) across all spec pairs, pooled over seeds",
+   "primary": {
+    "test": "flip_share on the WATCH STRATUM only (real n=16 WATCH, battery n=15 WATCH)",
+    "decision": "SUPPORTED if |flip_share_real_WATCH - flip_share_battery_WATCH| <= 0.15, comparators computed on the IDENTICAL 12-spec grid",
+    "rationale": "Stratifying on WATCH removes the mechanical confound whereby a WATCH-heavy sample sits nearer decision thresholds and flips more regardless of model (in)stability."
+   },
+   "secondary": {
+    "test": "raw whole-sample flip_share, real vs battery, on the same 12-spec grid",
+    "reported_with": "PRE-STATED composition caveat: real arm is WATCH-heavy with near-threshold mass, so a larger raw flip_share does not by itself imply greater model instability.",
+    "decision": "reported descriptively with issuer-clustered bootstrap CI; not the confirmatory test."
+   },
+   "comparator": "battery flip-share RE-COMPUTED on these 12 specs and, for the primary, on the battery WATCH subset."
+  },
+  "H2_no_memorization": {
+   "statement": "The model cannot identify the real issuer behind an anonymized profile above chance-adjusted 5%.",
+   "metric": "fingerprint identification rate = share of items for which the model, asked to name the company/ticker from the anonymized facts, returns the correct issuer (scored against sealed_crosswalk)",
+   "decision": "GO if rate < 5%; RE-TEST (perturb figures, re-probe) if 5-15%; NO-GO (arm cannot claim decontamination) if > 15%",
+   "note": "Phase 3 gate; must pass before Phase 4 main run"
+  }
+ },
+ "reduced_spec_grid_12": {
+  "source_file": "spec_grid_12.json",
+  "n_specs": 12,
+  "axes": [
+   "A7_presentation (largest design axis, 5.0% var in Phase B)",
+   "A1_provider (Gemini+GPT)",
+   "A4_paraphrase",
+   "A5_format"
+  ],
+  "held_fixed": {
+   "A2_version": "current",
+   "A3_temperature": "0.0",
+   "A6_fewshot": "0"
+  },
+  "pinned_models": {
+   "openai": "gpt-5.4-nano",
+   "google": "gemini-3.5-flash"
+  },
+  "orthogonality": "provider, format, presentation mutually orthogonal AND orthogonal to paraphrase; only residual correlation is the structural 0.5 between the two paraphrase effect-coding columns",
+  "logdet_XtX": 13.8108,
+  "max_offdiag_crossfactor_corr": 0.0,
+  "temperature_dropped": "A3 carried 0.1% variance in Phase B (weakest axis); replaced by A7 presentation (5.0%, strongest design axis).",
+  "provider_crossed_inside": "6 specs OpenAI (gpt-5.4-nano) + 6 specs Google (gemini-3.5-flash), balanced within every paraphrase block -> the arm is genuinely multi-provider and supports the 'not one rogue vendor' claim.",
+  "deviation": "xAI/Grok dropped (user decision; Phase B xai/prior was already a dead cell). Reduced to 2 providers, both crossed inside the 12.",
+  "paraphrase_templates": "reuse phaseB/00_frozen_inputs/paraphrase_templates.json (P1-P3), unchanged"
+ },
+ "design": {
+  "specs": 12,
+  "seeds": 3,
+  "runs_per_item": 36,
+  "items": 31,
+  "total_model_calls": 1116,
+  "calls_per_provider": 558,
+  "seeds_value": [
+   20260709,
+   20260710,
+   20260711
+  ]
+ },
+ "analysis_plan": {
+  "primary": "flip_share (H1) with issuer-clustered bootstrap 95% CI (10000 reps); fingerprint rate (H2) with Wilson 95% CI",
+  "secondary": [
+   "band-accuracy vs disclosed rating (confusion matrix over SAFE/WATCH/DISTRESS)",
+   "variance decomposition: item vs spec vs seed (same estimator as Phase B)",
+   "spec-curve of per-item modal band"
+  ],
+  "parsing": "A8 strict/lenient/tolerant applied POST-HOC on stored text (no re-calls), same as Phase B"
+ },
+ "rules_frozen": {
+  "no_tuning": "thresholds, grid, parse rules, prompts, seeds fixed at this freeze; no post-hoc edits",
+  "quote_or_exclude": "every benchmark rating carries a verbatim 10-K quote + SEC URL + doc SHA-256 (ratings_provenance.csv)",
+  "collect_once": "one main run; no re-runs after freeze",
+  "cost_cap_usd": 150,
+  "stop_if_projected_exceeds_cap": true,
+  "anonymization_invariant": "zero identifying strings (ticker/name/CIK/sector/date/quote) may reach any model prompt in Phases 3-4; enforced by leak-scan (CLEAN)"
+ },
+ "gates": {
+  "phase3_fingerprint": "<5% GO | 5-15% RE-TEST | >15% NO-GO",
+  "then": "Phase 4 main run (12 specs x 3 seeds x 45 items)"
+ },
+ "cost_estimate": {
+  "phase4_main_run_usd": {
+   "gpt-5.4-nano": 0.19,
+   "gemini-3.5-flash": 1.4
+  },
+  "phase4_total_usd": 1.59,
+  "note": "12 specs x 3 seeds x 31 items = 1116 calls; provider crossed inside the 12 (558/provider).",
+  "cap_usd": 150
+ },
+ "amendment_v2_N": "Pre-registered N reduced 45 -> 31 (decontamination redesign shrinks the eligible universe: B2B + perturbed + rated + clean financials + mid-cap). Amended before any outcome/rating data. WATCH stratum retains depth (n=16)."
+}

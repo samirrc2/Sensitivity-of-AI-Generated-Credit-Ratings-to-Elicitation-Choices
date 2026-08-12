@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C020",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BBB-\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong asset base and equity, but high leverage (Total Liabilities/Assets ~74%) and weak operating profitability (EBIT margin ~13.7%) limit the rating.\"\n}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 283,
+ "out_tok": 68,
+ "usd": 0.001037,
+ "utc": "2026-07-10T14:48:07.909061+00:00"
+}

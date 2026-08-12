@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows severe liquidity stress (current ratio **0.27**) and leverage/solvency weakness with **negative shareholders\u2019 equity (-1,920M)** and **negative retained earnings (-20,476M)**, implying limited balance-sheet capacity to absorb shocks. While EBIT is positive (**465M**), the weak current and equity positions suggest elevated refinancing and default risk.  \n\nDECISION: CCC",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 240,
+ "out_tok": 245,
+ "usd": 0.000354,
+ "utc": "2026-07-10T15:18:35.942203+00:00"
+}

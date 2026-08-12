@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R019",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows severe profitability stress with negative net income (-640M) and negative EBIT/operating income (-459M), indicating ongoing operating losses. Leverage is very high (shareholders\u2019 equity of 415M versus total assets of 12,240M), which leaves little balance-sheet cushion despite a moderately healthy current ratio (4,976/2,796 \u2248 1.78). Overall, this profile aligns with a high likelihood of credit weakness.  \nDECISION: CCC-",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "in_tok": 228,
+ "out_tok": 192,
+ "usd": 0.000286,
+ "utc": "2026-07-10T14:11:49.880873+00:00"
+}

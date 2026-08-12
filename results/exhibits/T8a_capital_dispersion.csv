@@ -1,0 +1,22 @@
+metric,value
+scope,"Pillar 1 min @ 8%, ECRA base RW (CRE20.42), equal-weight $1B/name, 45 names, 118 draws"
+book_total_notional_usd,45000000000
+capital_min_usd,2024000000
+capital_p25_usd,2908000000
+capital_median_usd,3170000000
+capital_p75_usd,3663000000
+capital_max_usd,4216000000
+capital_range_usd,2192000000
+capital_range_pct_of_median,69.15
+capital_range_pct_of_notional,4.871
+PRIMARY_expected_abs_capital_diff_per_comparison_usd,648566710
+PRIMARY_expected_abs_capital_diff_pct_of_median,20.46
+decomp_design_axes_pct,70.99
+decomp_seed_noise_pct,0.03
+decomp_residual_pct,28.97
+robust_valueweight_range_pct_of_median,77.17
+robust_valueweight_expected_abs_diff_pct,22.26
+robust_exclude_saturating_n_names,15
+robust_exclude_saturating_expected_abs_diff_pct,26.83
+n_saturating_names_reach_CCC,30
+collapses_without_saturating_names,False

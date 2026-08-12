@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R005",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 4, \"rationale\": \"Strong solvency and liquidity (Altman Z-score > 3.0) are offset by low profitability, indicating solid investment-grade creditworthiness with moderate risk.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 270,
+ "out_tok": 57,
+ "usd": 0.000918,
+ "utc": "2026-07-10T13:56:23.831747+00:00"
+}

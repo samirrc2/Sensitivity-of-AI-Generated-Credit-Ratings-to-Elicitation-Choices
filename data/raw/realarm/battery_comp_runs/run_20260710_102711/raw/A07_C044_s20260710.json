@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Very weak liquidity (current ratio 0.27) and highly distressed capital structure (negative shareholders\u2019 equity of -1,920M and negative retained earnings of -20,476M) indicate significant solvency and near-term funding risk. Despite positive operating profitability (EBIT 465M on revenue 1,010M), the balance-sheet stress supports a low credit quality rating.  \n\nDECISION: CCC-",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "in_tok": 231,
+ "out_tok": 240,
+ "usd": 0.000346,
+ "utc": "2026-07-10T15:18:03.396350+00:00"
+}

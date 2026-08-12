@@ -1,0 +1,44 @@
+{
+ "spec_id": "S26",
+ "item_id": "C018",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 0.0,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-04-22. Act as a credit rating analyst.\n| Current ratio           | 1.18 |\n| Retained earnings       | 17,162M |\n| Current liabilities     | 105,547M |\n| Current assets          | 124,141M |\n| Shareholders' equity    | 5,987M |\n| Total liabilities       | 158,800M |\n| Total assets            | 164,787M |\n| EBIT / operating income | 446M |\n| Revenue                 | 22,217M |\nBased only on the above and knowledge predating 2026-04-22, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The reported balance sheet shows extreme leverage (equity is only ~3.6% of assets and total liabilities nearly equal total assets) together with thin liquidity (current ratio 1.18) and very low operating profitability (EBIT margin ~2%). These metrics place the firm deep in the speculative-grade range and are consistent with material default risk, though not yet an outright payment default.\nDECISION: CCC\n(The final rating reflects only the static ratios supplied and pre-2026 rating conventions; no forward-looking adjustments are possible from the given data.)",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 365,
+ "output_tokens": 111,
+ "cost_usd": 0.000734,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:33:03.299342+00:00",
+ "mode": "REAL"
+}

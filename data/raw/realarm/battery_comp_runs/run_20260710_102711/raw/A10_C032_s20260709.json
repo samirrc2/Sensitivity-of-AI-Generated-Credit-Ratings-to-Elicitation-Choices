@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the issuer exhibits strong profitability (operating margin of 32% and net income of 2,971M) and a massive asset base of 308,894M, but presents a highly leveraged and high-risk balance sheet structure. The equity cushion is thin with total liabilities making up 89% of total assets, and there is a severe short-term liquidity mismatch as current liabilities (159,640M) dwarf current assets (56,524M), resulting in an extremely weak current ratio of 0.35. This combination of robust earnings but highly strained near-term liquidity and high leverage is characteristic of a speculative-grade profile with elevated refinancing risk.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 291,
+ "out_tok": 162,
+ "usd": 0.001895,
+ "utc": "2026-07-10T15:03:42.859918+00:00"
+}

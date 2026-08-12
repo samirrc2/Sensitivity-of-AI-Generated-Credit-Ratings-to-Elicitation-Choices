@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"High leverage (96.6% debt-to-assets), negative equity of $415M relative to $11.8B liabilities, and substantial net/operating losses indicate high default risk.\"}\n```",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 272,
+ "out_tok": 66,
+ "usd": 0.001002,
+ "utc": "2026-07-10T14:11:31.201650+00:00"
+}

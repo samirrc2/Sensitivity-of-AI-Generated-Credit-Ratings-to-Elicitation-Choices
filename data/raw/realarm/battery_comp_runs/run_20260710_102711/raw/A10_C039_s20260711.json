@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financials, the company exhibits strong profitability with a 19% operating margin and $4.62B in net income, but its balance sheet presents an exceptionally high leverage profile with total liabilities of $1.684T against shareholders' equity of $125B (debt-to-equity ratio of approximately 13.5x). Furthermore, a current ratio of 0.83 ($1,018,577M in current assets against $1,226,809M in current liabilities) indicates a significant short-term working capital deficit of over $208B, exposing the firm to substantial refinancing and liquidity risks despite its solid earnings. This combination of massive asset/liability scale, high leverage, and weak short-term liquidity aligns with a speculative-grade rating.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 302,
+ "out_tok": 181,
+ "usd": 0.002082,
+ "utc": "2026-07-10T15:12:26.969596+00:00"
+}

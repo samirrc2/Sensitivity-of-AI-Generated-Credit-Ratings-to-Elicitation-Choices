@@ -1,0 +1,12 @@
+{
+ "item_id": "R015",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "ok": true,
+ "raw_response": "GUESS: Trimble Inc. (TRMB)",
+ "in_tok": 195,
+ "out_tok": 10,
+ "usd": 0.000383,
+ "utc": "2026-07-09T23:45:06.172233+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows weak balance sheet strength with negative shareholders\u2019 equity and retained earnings, alongside a modest current ratio of 1.09, indicating limited cushion against near-term obligations. Despite positive EBIT (about 11% of revenue), the capital position is distressed (liabilities exceed assets), which typically constrains credit quality to the speculative grade.  \n\nDECISION: B+",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 240,
+ "out_tok": 188,
+ "usd": 0.000283,
+ "utc": "2026-07-10T15:04:22.317614+00:00"
+}

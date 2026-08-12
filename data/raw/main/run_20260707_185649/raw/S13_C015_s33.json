@@ -1,0 +1,44 @@
+{
+ "spec_id": "S13",
+ "item_id": "C015",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "openai",
+ "version": "current",
+ "model": "gpt-5.4-nano",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 33,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-02-13. Act as a credit rating analyst.\nFiscal period 2025 Q4 (filed 2026-02-13). Revenue 19,133M, gross margin 29%, operating income 2,660M (operating margin 14%), net income 2,401M, diluted EPS 5.12. Total assets 98,585M, total liabilities 77,267M, shareholders' equity 21,318M. Current assets 52,485M vs current liabilities 36,558M (current ratio 1.44), retained earnings 65,448M.\nBased only on the above and knowledge predating 2026-02-13, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\"decision\":\"BB+\",\"confidence\":2,\"rationale\":\"Strong profitability (14% op margin) and positive net income, but high leverage (liabilities 78% of assets) limits credit strength.\"}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 269,
+ "output_tokens": 228,
+ "cost_usd": 0.000339,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:12:21.800364+00:00",
+ "mode": "REAL"
+}

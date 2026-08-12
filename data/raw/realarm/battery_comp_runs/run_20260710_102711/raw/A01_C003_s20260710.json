@@ -1,0 +1,19 @@
+{
+ "spec_id": "A01",
+ "item_id": "C003",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A-\",\"confidence\":3,\"rationale\":\"Solid profitability (18% operating margin) and strong equity (64.9B) support credit quality, but liquidity is moderate (current ratio 1.32) with mid leverage.\"}",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 263,
+ "out_tok": 150,
+ "usd": 0.00024,
+ "utc": "2026-07-10T14:29:21.406308+00:00"
+}

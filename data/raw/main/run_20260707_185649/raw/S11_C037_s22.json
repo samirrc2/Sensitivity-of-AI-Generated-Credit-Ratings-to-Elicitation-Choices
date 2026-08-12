@@ -1,0 +1,45 @@
+{
+ "spec_id": "S11",
+ "item_id": "C037",
+ "seed": 22,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 22,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-05-01, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-05-01):\nFiscal period 2026 Q1 (filed 2026-05-01). Revenue 1,635M, gross margin -4%, operating income 283M (operating margin 17%), net income 179M, diluted EPS 0.46. Total assets 48,860M, total liabilities 23,463M, shareholders' equity 23,369M. Current assets 3,857M vs current liabilities 3,862M (current ratio 1.00), retained earnings -6,947M.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "```json\n{\n  \"decision\": \"BBB\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong balance sheet with $23B equity, but low liquidity (1.00 current ratio) and negative retained earnings limit rating to investment-grade BBB.\"\n}\n```",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 299,
+ "output_tokens": 64,
+ "cost_usd": 0.001025,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:10:52.050079+00:00",
+ "mode": "REAL"
+}

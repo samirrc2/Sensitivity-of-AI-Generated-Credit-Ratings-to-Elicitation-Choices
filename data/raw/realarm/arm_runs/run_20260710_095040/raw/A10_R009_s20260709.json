@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R009",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits strong profitability with an operating margin of 33% ($1,572M) and solid capitalization (equity of $7,253M representing 48% of total assets), supported by substantial accumulated retained earnings of $4,042M. However, its short-term liquidity is constrained, as evidenced by a current ratio of 0.79 ($1,047M in current assets against $1,322M in current liabilities), which introduces refinancing or working capital risk. This combination of robust earnings power and moderate leverage, balanced against a weak short-term liquidity profile, is characteristic of a solid investment-grade issuer.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 243,
+ "out_tok": 147,
+ "usd": 0.001687,
+ "utc": "2026-07-10T14:00:45.850346+00:00"
+}

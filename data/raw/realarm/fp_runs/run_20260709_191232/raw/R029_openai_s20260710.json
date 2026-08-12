@@ -1,0 +1,12 @@
+{
+ "item_id": "R029",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "ok": true,
+ "raw_response": "GUESS: UNKNOWN",
+ "in_tok": 176,
+ "out_tok": 826,
+ "usd": 0.001068,
+ "utc": "2026-07-09T23:22:22.494266+00:00"
+}

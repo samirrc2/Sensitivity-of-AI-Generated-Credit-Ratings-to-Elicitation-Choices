@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows weak liquidity (current ratio of 0.97, i.e., current liabilities slightly exceed current assets) and relatively high leverage (total liabilities of ~74% of total assets). While retained earnings are positive (suggesting some earnings retention), operating profitability appears thin (EBIT of 948M on 25,270M revenue), which limits resilience under stress.  \n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 238,
+ "out_tok": 233,
+ "usd": 0.000339,
+ "utc": "2026-07-10T15:16:34.434662+00:00"
+}

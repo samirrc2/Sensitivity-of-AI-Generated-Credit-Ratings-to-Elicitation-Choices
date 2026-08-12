@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "R031",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 4, \"rationale\": \"High leverage ratio and weak liquidity (current ratio below 0.6) are offset by positive operating income and equity, justifying a BB rating.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 258,
+ "out_tok": 52,
+ "usd": 0.000855,
+ "utc": "2026-07-10T14:26:09.105547+00:00"
+}

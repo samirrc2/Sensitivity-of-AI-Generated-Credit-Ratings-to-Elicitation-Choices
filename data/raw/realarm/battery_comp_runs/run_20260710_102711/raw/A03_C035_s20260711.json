@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Liquidity is weak with a current ratio of 0.42, indicating limited short-term coverage of current liabilities. Leverage also appears high (total liabilities of 3,107,151M vs. equity of 303,243M), which would pressure credit quality in stress scenarios despite strong operating profitability (EBIT/operating income of 12,435M on revenue of 49,691M).  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 248,
+ "out_tok": 199,
+ "usd": 0.000298,
+ "utc": "2026-07-10T15:06:57.638669+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R016",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"CCC\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage, negative EBIT and net income indicate substantial default risk, though short-term liquidity is supported by a solid current ratio.\"\n}\n```",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 266,
+ "out_tok": 57,
+ "usd": 0.000912,
+ "utc": "2026-07-10T14:08:51.121592+00:00"
+}

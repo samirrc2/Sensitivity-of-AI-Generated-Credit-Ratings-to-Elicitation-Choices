@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Strong balance sheet with high equity and retained earnings, but moderate profitability (EBIT margin 15%) and tight short-term liquidity.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 275,
+ "out_tok": 51,
+ "usd": 0.000871,
+ "utc": "2026-07-10T14:59:07.193393+00:00"
+}

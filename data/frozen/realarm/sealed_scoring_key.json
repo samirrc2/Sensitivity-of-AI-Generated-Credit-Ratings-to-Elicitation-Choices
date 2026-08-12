@@ -1,0 +1,160 @@
+{
+ "SEALED": "scoring only; never in prompts.",
+ "key": [
+  {
+   "item_id": "R001",
+   "ticker": "TTC",
+   "entity_name": "THE TORO COMPANY"
+  },
+  {
+   "item_id": "R002",
+   "ticker": "OLN",
+   "entity_name": "OLIN Corp"
+  },
+  {
+   "item_id": "R003",
+   "ticker": "NWN",
+   "entity_name": "NORTHWEST NATURAL HOLDING COMPANY"
+  },
+  {
+   "item_id": "R004",
+   "ticker": "WFRD",
+   "entity_name": "Weatherford International plc"
+  },
+  {
+   "item_id": "R005",
+   "ticker": "GHC",
+   "entity_name": "GRAHAM HOLDINGS CO"
+  },
+  {
+   "item_id": "R006",
+   "ticker": "PBF",
+   "entity_name": "PBF ENERGY INC."
+  },
+  {
+   "item_id": "R007",
+   "ticker": "GTES",
+   "entity_name": "Gates Industrial Corporation plc"
+  },
+  {
+   "item_id": "R008",
+   "ticker": "OTTR",
+   "entity_name": "OTTER TAIL CORPORATION"
+  },
+  {
+   "item_id": "R009",
+   "ticker": "MTDR",
+   "entity_name": "Matador Resources Company"
+  },
+  {
+   "item_id": "R010",
+   "ticker": "GATX",
+   "entity_name": "GATX CORP"
+  },
+  {
+   "item_id": "R011",
+   "ticker": "BAX",
+   "entity_name": "BAXTER INTERNATIONAL INC"
+  },
+  {
+   "item_id": "R012",
+   "ticker": "VMI",
+   "entity_name": "VALMONT INDUSTRIES INC"
+  },
+  {
+   "item_id": "R013",
+   "ticker": "CLMT",
+   "entity_name": "Calumet, Inc. /DE"
+  },
+  {
+   "item_id": "R014",
+   "ticker": "SPXC",
+   "entity_name": "SPX TECHNOLOGIES, INC."
+  },
+  {
+   "item_id": "R015",
+   "ticker": "ASH",
+   "entity_name": "ASHLAND INC."
+  },
+  {
+   "item_id": "R016",
+   "ticker": "UCTT",
+   "entity_name": "Ultra Clean Holdings, Inc."
+  },
+  {
+   "item_id": "R017",
+   "ticker": "BKH",
+   "entity_name": "BLACK HILLS CORP /SD/"
+  },
+  {
+   "item_id": "R018",
+   "ticker": "AA",
+   "entity_name": "Alcoa Corp"
+  },
+  {
+   "item_id": "R019",
+   "ticker": "CC",
+   "entity_name": "Chemours Co"
+  },
+  {
+   "item_id": "R020",
+   "ticker": "AVA",
+   "entity_name": "AVISTA CORP"
+  },
+  {
+   "item_id": "R021",
+   "ticker": "CXT",
+   "entity_name": "CRANE NXT, CO."
+  },
+  {
+   "item_id": "R022",
+   "ticker": "SWK",
+   "entity_name": "STANLEY BLACK & DECKER, INC."
+  },
+  {
+   "item_id": "R023",
+   "ticker": "ACAD",
+   "entity_name": "ACADIA PHARMACEUTICALS INC"
+  },
+  {
+   "item_id": "R024",
+   "ticker": "SEE",
+   "entity_name": "SEALED AIR CORP/DE"
+  },
+  {
+   "item_id": "R025",
+   "ticker": "HE",
+   "entity_name": "HAWAIIAN ELECTRIC INDUSTRIES,\u00a0INC."
+  },
+  {
+   "item_id": "R026",
+   "ticker": "R",
+   "entity_name": "RYDER SYSTEM, INC."
+  },
+  {
+   "item_id": "R027",
+   "ticker": "ST",
+   "entity_name": "SENSATA TECHNOLOGIES HOLDING PLC"
+  },
+  {
+   "item_id": "R028",
+   "ticker": "SWX",
+   "entity_name": "Southwest Gas Holdings, Inc."
+  },
+  {
+   "item_id": "R029",
+   "ticker": "GPK",
+   "entity_name": "Graphic Packaging Holding Co"
+  },
+  {
+   "item_id": "R030",
+   "ticker": "NWE",
+   "entity_name": "NORTHWESTERN ENERGY GROUP, INC."
+  },
+  {
+   "item_id": "R031",
+   "ticker": "TXNM",
+   "entity_name": "TXNM Energy, Inc."
+  }
+ ]
+}

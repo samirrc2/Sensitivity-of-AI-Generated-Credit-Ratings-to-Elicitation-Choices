@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Current liquidity is moderate (current ratio 1.30) but not cushion-like, while leverage is meaningful with total liabilities exceeding equity (43,439M vs 29,093M). Operating profitability also appears relatively weak, with EBIT of 1,498M on revenue of 34,015M (~4.4%), suggesting limited earnings strength to absorb shocks. Overall, these factors point to a speculative-grade profile.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 208,
+ "usd": 0.000308,
+ "utc": "2026-07-10T14:42:20.446789+00:00"
+}

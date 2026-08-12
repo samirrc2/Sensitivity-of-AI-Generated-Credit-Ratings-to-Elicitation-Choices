@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits exceptionally strong operating performance with $49.7 billion in revenue, a high gross margin of 60%, and $7.5 billion in net income. However, its balance sheet carries a massive asset base of $3.41 trillion and total liabilities of $3.11 trillion, characteristic of a major global systemic financial institution, paired with a very low current ratio of 0.42. Given the massive systemic scale, solid profitability, and substantial equity cushion of over $303 billion, but acknowledging the inherent leverage and funding profile of a massive financial entity, a high investment-grade rating is warranted.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 295,
+ "out_tok": 137,
+ "usd": 0.001675,
+ "utc": "2026-07-10T15:07:10.980919+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits severe financial distress, characterized by a deeply negative shareholders' equity of -$1.92 billion, a massive accumulated deficit (retained earnings of -$20.48 billion), and a critically low current ratio of 0.27, indicating a severe liquidity mismatch. Despite generating positive operating income of $465 million in the quarter, the overall balance sheet insolvency (total liabilities exceeding total assets by nearly $2 billion) and extremely high short-term debt obligations relative to liquid assets put the company at a very high risk of default. \n\nDECISION: CCC-",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "in_tok": 279,
+ "out_tok": 121,
+ "usd": 0.001507,
+ "utc": "2026-07-10T15:17:34.974477+00:00"
+}

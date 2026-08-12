@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R013",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial distress, characterized by negative shareholders' equity (-$496M), a massive accumulated deficit (retained earnings of -$1,065M), and a net loss of -$23M despite $2.8B in revenue. Its capital structure is deeply insolvent with total liabilities exceeding total assets, and a weak current ratio of 1.02 indicates extremely tight liquidity and high default risk. Given these highly leveraged and insolvent conditions, the company represents a substantial credit risk but is not yet in active default.\n\nDECISION: CCC+",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "in_tok": 235,
+ "out_tok": 117,
+ "usd": 0.001405,
+ "utc": "2026-07-10T14:04:36.811671+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R026",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits a very large scale of operations with over $13 billion in revenue, but operates with thin profitability (5% operating margin) and a highly leveraged balance sheet, where total liabilities comprise over 81% of total assets ($13.8B out of $17.0B). Furthermore, liquidity is pressured as evidenced by a current ratio below 1.0 (0.89), suggesting elevated short-term refinancing risks despite positive net income. These factors collectively point to a moderate credit risk profile, typical of a lower-tier investment grade or upper-tier speculative grade issuer.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 241,
+ "out_tok": 130,
+ "usd": 0.001531,
+ "utc": "2026-07-10T14:19:18.050353+00:00"
+}

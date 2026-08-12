@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "R013",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":2,\"rationale\":\"Thin margins, operating loss, negative equity (liabilities exceed assets), and only marginal liquidity (current ratio ~1.0) indicate elevated default risk.\"}",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 230,
+ "out_tok": 167,
+ "usd": 0.000255,
+ "utc": "2026-07-10T14:05:13.420040+00:00"
+}

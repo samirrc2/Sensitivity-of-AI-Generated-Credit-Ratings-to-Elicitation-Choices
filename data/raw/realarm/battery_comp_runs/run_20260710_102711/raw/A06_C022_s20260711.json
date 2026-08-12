@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates solid profitability with annual revenue of $10.5 billion, an operating margin of 9%, and positive net income of $665 million. However, its balance sheet exhibits highly leveraged characteristics with total liabilities of $45.6 billion against shareholders' equity of $25.8 billion, alongside a weak liquidity profile indicated by a current ratio of 0.59 ($12.95 billion in current assets versus $21.86 billion in current liabilities). These combined factors of strong market position and profitability, tempered by significant short-term funding requirements and leverage, align with an investment-grade rating in the BBB category.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 275,
+ "out_tok": 141,
+ "usd": 0.001682,
+ "utc": "2026-07-10T14:50:54.771724+00:00"
+}

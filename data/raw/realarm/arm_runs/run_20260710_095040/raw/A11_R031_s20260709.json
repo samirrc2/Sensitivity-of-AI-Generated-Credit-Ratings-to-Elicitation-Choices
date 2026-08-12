@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R031",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows high leverage (total liabilities of 7,240M vs. equity of 2,866M) and weak near-term liquidity (current assets 475M vs. current liabilities 857M, current ratio ~0.55), which elevates refinancing and rollover risk. Profitability is also modest (net income margin ~3.7%), despite solid EBIT (371M) supporting operations. Overall, the risk profile is more consistent with a speculative, sub-investment grade rating.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 304,
+ "usd": 0.000427,
+ "utc": "2026-07-10T14:26:25.062699+00:00"
+}

@@ -1,0 +1,146 @@
+{
+ "_label": "POST-HOC ADDENDA (labelled); frozen panel only; no new model calls.",
+ "T6_human_benchmark": {
+  "T6.rows": [
+   {
+    "granularity": "letter",
+    "machine_percomparison_disagree": 0.8423,
+    "machine_pairwise_comparisons": 320824,
+    "human_split": 0.5,
+    "human_N": 13853,
+    "agency_level": "notch/modifier (AA+ vs AA) = our 21-grade letter scale",
+    "z_naive": 104.57,
+    "p_naive": "<1e-6",
+    "machine_95CI_clustered": [
+     0.8306,
+     0.8528
+    ],
+    "p_dependence_adjusted": "<0.0005",
+    "conclusion": "machine significantly MORE inconsistent than agencies"
+   },
+   {
+    "granularity": "notch",
+    "machine_percomparison_disagree": 0.6628,
+    "machine_pairwise_comparisons": 320824,
+    "human_split": 0.13,
+    "human_N": 13853,
+    "agency_level": "broad letter/alpha (AA vs A) = our notch-collapsed 9-grade scale",
+    "z_naive": 127.98,
+    "p_naive": "<1e-6",
+    "machine_95CI_clustered": [
+     0.6371,
+     0.6857
+    ],
+    "p_dependence_adjusted": "<0.0005",
+    "conclusion": "machine significantly MORE inconsistent than agencies"
+   },
+   {
+    "granularity": "band",
+    "machine_percomparison_disagree": 0.3531,
+    "machine_pairwise_comparisons": 320824,
+    "human_split": null,
+    "note": "no verified published human rate at this granularity; not tested"
+   },
+   {
+    "granularity": "ig_hy",
+    "machine_percomparison_disagree": 0.2682,
+    "machine_pairwise_comparisons": 320824,
+    "human_split": null,
+    "note": "no verified published human rate at this granularity; not tested"
+   }
+  ],
+  "T6.human_source": "Cantor, Packer & Cole; Livingston, Naranjo & Zhou (2010, J. Money Credit & Banking), N=13,853 issues; ~50% split at NOTCH (modifier) level, ~13% at LETTER (broad alpha) level. Paired like-for-like against our matching coarsenings.",
+  "T6.caveat": "Machine 'raters' are specifications; agency raters are two firms. The comparison is calibration, not identity. Naive z uses the pairwise-comparison count and is anti-conservative; the item-clustered bootstrap is the honest inference."
+ },
+ "ADD2_power_validation": {
+  "ADD2.full_shares_pct": {
+   "residual": 26.89,
+   "A7": 4.96,
+   "item": 63.48
+  },
+  "ADD2.subsample_validation_mean_sd": {
+   "frac_0.25": {
+    "residual": [
+     28.56,
+     8.01
+    ],
+    "A7": [
+     5.52,
+     2.29
+    ],
+    "item": [
+     60.05,
+     12.05
+    ]
+   },
+   "frac_0.5": {
+    "residual": [
+     27.89,
+     4.04
+    ],
+    "A7": [
+     4.91,
+     1.01
+    ],
+    "item": [
+     62.03,
+     5.77
+    ]
+   },
+   "frac_0.75": {
+    "residual": [
+     26.54,
+     1.74
+    ],
+    "A7": [
+     4.83,
+     0.48
+    ],
+    "item": [
+     63.96,
+     2.57
+    ]
+   }
+  },
+  "ADD2.min_detectable_axis_varshare_80pct_pct": 5.5,
+  "ADD2.assumptions": "Power figure assumes an F-test for a single 2-level main effect, effective replication n=items*seeds, alpha=0.05, and treats residual+seed as the error term; it is an order-of-magnitude guide, not an exact design calc. Subsample validation resamples items (the clustering unit) at 25/50/75% and reports mean+/-sd of the key shares to show the decomposition is stable, not an artefact of the 45-item sample."
+ },
+ "ADD3_effective_resolution": {
+  "ADD3.definition": "Effective resolution R(tau) of a machine rating opinion = the FINEST scale granularity at which cross-specification agreement, chance-corrected by Fleiss' kappa, attains threshold tau. It is benchmark-free, reusable, and reported with item-bootstrap CIs.",
+  "ADD3.kappa_by_granularity": {
+   "letter": 0.082,
+   "notch": 0.181,
+   "band": 0.389,
+   "ig_hy": 0.458
+  },
+  "ADD3.kappa_95CI": {
+   "letter": [
+    0.066,
+    0.096
+   ],
+   "notch": [
+    0.14,
+    0.21
+   ],
+   "band": [
+    0.302,
+    0.457
+   ],
+   "ig_hy": [
+    0.365,
+    0.54
+   ]
+  },
+  "ADD3.R_0.40": "ig_hy",
+  "ADD3.R_0.60": "none (coarser than IG/HY)",
+  "ADD3.R_0.75": "none (coarser than IG/HY)",
+  "ADD3.R_0.40_bootstrap_dist": {
+   "ig_hy": 0.524,
+   "band": 0.346,
+   "none (coarser than IG/HY)": 0.13
+  },
+  "ADD3.R_0.60_bootstrap_dist": {
+   "none (coarser than IG/HY)": 1.0
+  }
+ }
+}

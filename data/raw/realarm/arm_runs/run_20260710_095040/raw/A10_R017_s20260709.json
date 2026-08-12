@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R017",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the company demonstrates solid profitability with an operating margin of 23% ($336M) and a positive net income of $183M, but exhibits a highly leveraged balance sheet with a total debt-to-equity posture indicated by total liabilities of $4,411M against equity of $2,393M (liabilities-to-assets of 65%). Additionally, liquidity is relatively tight for an investment-grade profile, with a current ratio of 1.35 and cash/current assets ($623M) representing a small fraction of total assets ($6,804M). While the firm is currently profitable and stable, the high leverage and moderate liquidity profile align best with a strong speculative-grade rating.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 240,
+ "out_tok": 170,
+ "usd": 0.00189,
+ "utc": "2026-07-10T14:09:46.375388+00:00"
+}

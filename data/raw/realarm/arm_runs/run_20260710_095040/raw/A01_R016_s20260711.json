@@ -1,0 +1,19 @@
+{
+ "spec_id": "A01",
+ "item_id": "R016",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":3,\"rationale\":\"Despite strong current liquidity (3.19x) and moderate leverage, persistent losses (op margin -6%, net margin negative) and weak profitability pressure credit quality.\"}",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 228,
+ "out_tok": 140,
+ "usd": 0.000221,
+ "utc": "2026-07-10T14:07:54.249021+00:00"
+}

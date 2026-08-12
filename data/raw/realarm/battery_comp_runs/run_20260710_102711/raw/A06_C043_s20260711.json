@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows substantial scale with $25.3 billion in quarterly revenue, but operates on relatively thin margins (4% operating margin) and has a tight liquidity profile, as evidenced by a current ratio of 0.97 (current liabilities slightly exceeding current assets). Leveraged capital structure (total liabilities of $44.5 billion against $15.5 billion in equity) combined with solid profitability suggests a solid investment-grade profile with some moderate risks. \n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 274,
+ "out_tok": 101,
+ "usd": 0.00132,
+ "utc": "2026-07-10T15:16:55.226095+00:00"
+}

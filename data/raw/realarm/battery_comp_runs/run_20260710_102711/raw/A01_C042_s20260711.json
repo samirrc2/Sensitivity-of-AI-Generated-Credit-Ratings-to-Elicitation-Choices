@@ -1,0 +1,19 @@
+{
+ "spec_id": "A01",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"B+\",\"confidence\":2,\"rationale\":\"Negative shareholders\u2019 equity, current ratio 0.92, and liabilities exceed assets. Despite positive operating/net income, leverage and liquidity risk remain high.\"}",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 259,
+ "out_tok": 96,
+ "usd": 0.000172,
+ "utc": "2026-07-10T15:15:21.817895+00:00"
+}

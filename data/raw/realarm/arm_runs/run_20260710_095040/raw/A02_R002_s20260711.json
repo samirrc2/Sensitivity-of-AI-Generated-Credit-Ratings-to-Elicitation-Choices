@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R002",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates a very weak financial profile characterized by extremely low profitability, with an operating margin of virtually 0% ($7M on $9,292M in revenue) and a substantial net loss of $139M. While the company maintains a marginally acceptable current ratio of 1.21 and positive shareholders' equity, its high leverage (total liabilities of $7,476M against equity of $2,520M) and lack of earnings coverage present significant credit risk. These highly stressed credit metrics and lack of profitability place the issuer in the non-investment grade, speculative-grade category.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 135,
+ "usd": 0.001578,
+ "utc": "2026-07-10T13:52:04.115710+00:00"
+}

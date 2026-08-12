@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows only moderate liquidity (current ratio of 1.30) and relatively high leverage (total liabilities of 43,439M versus equity of 29,093M). Profitability also appears weak, with EBIT of 1,498M versus revenue of 34,015M (low single-digit EBIT margin), which tempers credit quality.  \nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 228,
+ "usd": 0.000332,
+ "utc": "2026-07-10T14:42:03.543815+00:00"
+}

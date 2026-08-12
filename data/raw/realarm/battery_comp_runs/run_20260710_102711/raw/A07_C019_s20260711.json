@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows moderate liquidity (current ratio 1.22) but relatively high leverage (total liabilities 56,835M vs. total assets 73,090M; equity 16,227M). Profitability appears reasonable (EBIT/operating income 2,575M on revenue 24,479M), but the weaker balance-sheet cushion and leverage profile point to below-investment-grade credit quality.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 193,
+ "usd": 0.000288,
+ "utc": "2026-07-10T14:47:24.133624+00:00"
+}

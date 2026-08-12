@@ -1,0 +1,12 @@
+{
+ "item_id": "R033",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "ok": true,
+ "raw_response": "To find the exact company, we look for a US public company with the following recent fiscal year metrics:\n- Revenue: ~$5.36 Billion\n- Gross Margin: ~30% (Gross Profit ~$1.6 Billion)\n- Operating Income: ~$726 Million\n- Net Income: ~$506 Million\n- Total Assets: ~$7.01 Billion\n- Total Liabilities: ~$5.78 Billion\n- Shareholders' Equity: ~$1.24 Billion\n- Retained Earnings: ~$1.03 Billion\n\nThese financial figures correspond to the FY 2023 / FY 2024 results of **Wyndham Hotels & Resorts, Inc. (WH)**.\n\nGUESS: Wyndham Hotels & Resorts (WH)",
+ "in_tok": 194,
+ "out_tok": 161,
+ "usd": 0.00174,
+ "utc": "2026-07-09T23:23:39.497921+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits an exceptionally strong financial profile, characterized by outstanding profitability (operating margin of 56% and gross margin of 59%) and a very robust balance sheet with low leverage (total assets of $57.1B versus total liabilities of $23.1B). Additionally, its liquidity position is highly secure, as evidenced by a current ratio of 2.29. These stellar metrics reflect minimal credit risk and warrant the highest investment-grade rating.\n\nDECISION: AAA",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "in_tok": 284,
+ "out_tok": 102,
+ "usd": 0.001344,
+ "utc": "2026-07-10T14:36:12.564928+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows only borderline short-term liquidity (current ratio ~1.0) and negative retained earnings (cumulative losses), which weakens balance-sheet resilience. While profitability appears solid for the period (EBIT of 283M on revenue of 1,635M), the overall financial posture\u2014especially the sustained earnings deficit\u2014supports a speculative-grade rating rather than investment grade.  \n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 238,
+ "out_tok": 193,
+ "usd": 0.000289,
+ "utc": "2026-07-10T15:09:16.189337+00:00"
+}

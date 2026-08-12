@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R006",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "To evaluate the credit rating of this issuer:\n\n1. **Financial Scale and Market Position:** The company has significant scale with revenues of $19,522M, but it is currently unprofitable, posting an operating loss of -$43M (0% margin) and a net loss of -$126M.\n2. **Balance Sheet and Liquidity:** The balance sheet shows total assets of $10,371M against total liabilities of $6,030M (leverage ratio of ~58%), a moderate equity cushion of $4,237M with positive retained earnings of $2,509M, and tight but positive short-term liquidity represented by a current ratio of 1.21. \n3. **Credit Risk Profile:** While the substantial revenue base and positive equity point to an investment-grade foundation, the lack of operating profitability and tight liquidity place the credit profile at the lowest tier of investment grade (or high speculative grade), consistent with a BBB- rating.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 232,
+ "out_tok": 220,
+ "usd": 0.002328,
+ "utc": "2026-07-10T13:57:05.030681+00:00"
+}

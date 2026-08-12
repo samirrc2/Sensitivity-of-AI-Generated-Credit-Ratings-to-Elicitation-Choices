@@ -1,0 +1,45 @@
+{
+ "spec_id": "S11",
+ "item_id": "C030",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 11,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-02-13, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-02-13):\nFiscal period 2025 Q4 (filed 2026-02-13). Revenue 5,633M, gross margin 18%, operating income 811M (operating margin 14%), net income 406M, diluted EPS 0.28. Total assets 58,167M, total liabilities 27,401M, shareholders' equity 18,899M. Current assets 13,790M vs current liabilities 6,019M (current ratio 2.29), retained earnings 1,385M.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "```json\n{\"decision\": \"A\", \"confidence\": 4, \"rationale\": \"Strong balance sheet with total assets significantly exceeding liabilities, a robust current ratio of 2.29, and consistently positive operating and net income.\"}\n```",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 301,
+ "output_tokens": 52,
+ "cost_usd": 0.000919,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:10:47.922145+00:00",
+ "mode": "REAL"
+}

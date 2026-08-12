@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R030",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB+\", \"confidence\": 4, \"rationale\": \"High leverage (66% Debt/Assets) and weak liquidity (Current Ratio 0.72) are offset by solid profitability (EBIT margin 20%) and positive net income.\"}\n```",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 268,
+ "out_tok": 63,
+ "usd": 0.000969,
+ "utc": "2026-07-10T14:24:21.608105+00:00"
+}

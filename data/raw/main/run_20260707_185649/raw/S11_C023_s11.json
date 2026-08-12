@@ -1,0 +1,45 @@
+{
+ "spec_id": "S11",
+ "item_id": "C023",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 11,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-01-29, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-01-29):\nFiscal period 2025 Q4 (filed 2026-01-29). Revenue 12,717M, gross margin 34%, operating income 2,359M (operating margin 19%), net income 2,540M, diluted EPS 2.38. Total assets 130,169M, total liabilities 111,269M, shareholders' equity 18,677M. Current assets 40,596M vs current liabilities 38,980M (current ratio 1.04), retained earnings 87,663M.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "```json\n{\n  \"decision\": \"A-\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong revenue and profitability, but leverage is relatively high with total liabilities representing 85% of assets and a tight 1.04 current ratio.\"\n}\n```",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 310,
+ "output_tokens": 63,
+ "cost_usd": 0.001032,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:10:43.426806+00:00",
+ "mode": "REAL"
+}

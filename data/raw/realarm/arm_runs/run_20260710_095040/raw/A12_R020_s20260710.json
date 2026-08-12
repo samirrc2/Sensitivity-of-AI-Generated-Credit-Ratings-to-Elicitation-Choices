@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R020",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage (Total Liabilities/Equity > 2x) and weak liquidity (Current Ratio < 1) are balanced by positive profitability and solid Altman Z-score.\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 273,
+ "out_tok": 65,
+ "usd": 0.000994,
+ "utc": "2026-07-10T14:13:21.261704+00:00"
+}

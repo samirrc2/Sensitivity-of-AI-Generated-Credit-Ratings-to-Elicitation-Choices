@@ -1,0 +1,44 @@
+{
+ "spec_id": "S30",
+ "item_id": "C031",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-04-29, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-04-29):\nFiscal period 2026 Q1 (filed 2026-04-29). Revenue 31,795M, gross margin 64%, operating income 5,851M (operating margin 18%), net income 5,290M, diluted EPS 1.6. Total assets 2,205,752M, total liabilities 2,025,439M, shareholders' equity 178,396M. Current assets 612,094M vs current liabilities 1,775,239M (current ratio 0.34), retained earnings 232,459M.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The provided financials indicate a very large financial institution (evidently a major commercial bank) with strong absolute earnings power, an 18% operating margin, and an 8% tangible equity-to-assets ratio that is typical of well-capitalized global banks. The sub-1 current ratio is expected for deposit-funded banks and does not signal liquidity distress. On a through-the-cycle basis these metrics map to the upper end of the single-A category on the S&P scale.\nDECISION: A+",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 386,
+ "output_tokens": 99,
+ "cost_usd": 0.00073,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:37:48.996371+00:00",
+ "mode": "REAL"
+}

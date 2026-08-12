@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows very high leverage (total liabilities of 158,800M versus total assets of 164,787M), leaving a very thin equity buffer (shareholders\u2019 equity of 5,987M). Although liquidity is acceptable (current ratio 1.18), profitability appears weak (EBIT/operating income of 446M versus revenue of 22,217M), limiting debt-servicing capacity and increasing downside risk.  \n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 240,
+ "out_tok": 278,
+ "usd": 0.000396,
+ "utc": "2026-07-10T14:46:35.457426+00:00"
+}

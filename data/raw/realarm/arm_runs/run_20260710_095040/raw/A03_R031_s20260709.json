@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R031",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows high leverage with total liabilities of 7,240M against total assets of 10,153M (meaning liabilities dominate the balance sheet) and weak liquidity, with a current ratio of about 0.55 (current assets 475M vs. current liabilities 857M). Profitability exists (EBIT 371M; net income 67M) but net margins are modest, increasing vulnerability under stress. Overall, these factors point to a credit quality in the lower-investment-grade to speculative boundary, leaning toward speculative.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 231,
+ "out_tok": 265,
+ "usd": 0.000377,
+ "utc": "2026-07-10T14:25:40.159489+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R028",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Moderate balance-sheet leverage (total liabilities of 7,354M vs equity of 4,503M; debt-to-equity \u2248 1.6) and only modest liquidity (current ratio \u2248 1.28) indicate some credit risk, while profitability is steady but not high (EBIT margin \u2248 8.7%). Overall this supports a lower investment-grade profile.  \n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 230,
+ "out_tok": 226,
+ "usd": 0.000329,
+ "utc": "2026-07-10T14:22:02.195902+00:00"
+}

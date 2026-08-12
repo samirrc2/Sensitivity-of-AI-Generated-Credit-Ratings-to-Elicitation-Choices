@@ -1,0 +1,45 @@
+{
+ "spec_id": "S33",
+ "item_id": "C029",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2026-05-07; do not use later information.\nProvided information:\n| Current ratio           | 0.99 |\n| Retained earnings       | 13,060M |\n| Current liabilities     | 6,096M |\n| Current assets          | 6,043M |\n| Shareholders' equity    | 10,004M |\n| Total liabilities       | 15,009M |\n| Total assets            | 25,041M |\n| EBIT / operating income | 622M |\n| Revenue                 | 4,066M |\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Weak current ratio (0.99) and low EBIT/Revenue (15.3%) indicate operational and liquidity challenges, offsetting decent equity.\"}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 274,
+ "output_tokens": 48,
+ "cost_usd": 0.000202,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:44:14.091375+00:00",
+ "mode": "REAL"
+}

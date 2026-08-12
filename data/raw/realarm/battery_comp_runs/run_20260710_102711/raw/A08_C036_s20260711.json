@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"High equity and assets support investment-grade status, but weak liquidity (current ratio 0.79) and low EBIT-to-assets limit the rating to BBB-.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 267,
+ "out_tok": 60,
+ "usd": 0.00094,
+ "utc": "2026-07-10T15:08:35.432872+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates strong operating profitability with an operating margin of 19% ($749M) and substantial equity of over $21 billion, but its balance sheet exhibits a tight liquidity profile with a current ratio of 0.79 ($5.68B in current assets against $7.15B in current liabilities) and a highly leveraged capital structure (total liabilities representing approximately 73% of total assets). This combination of solid, highly profitable operations and a large asset base, offset by short-term liquidity pressures and significant overall leverage, is characteristic of a solid investment-grade credit. \n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 278,
+ "out_tok": 132,
+ "usd": 0.001605,
+ "utc": "2026-07-10T15:07:54.315850+00:00"
+}

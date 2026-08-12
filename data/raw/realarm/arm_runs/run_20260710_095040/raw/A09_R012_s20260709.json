@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "R012",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A-\",\"confidence\":3,\"rationale\":\"Solid profitability (13% operating margin) and strong liquidity (current ratio 2.35) with moderate leverage implied; limited debt/cash flow visibility.\"}",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 234,
+ "out_tok": 185,
+ "usd": 0.000278,
+ "utc": "2026-07-10T14:04:06.966157+00:00"
+}

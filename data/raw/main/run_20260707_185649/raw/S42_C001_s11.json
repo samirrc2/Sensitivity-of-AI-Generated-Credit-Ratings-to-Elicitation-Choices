@@ -1,0 +1,43 @@
+{
+ "spec_id": "S42",
+ "item_id": "C001",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 0.0,
+ "temperature_applied": false,
+ "effective_temperature": null,
+ "call_meta": {
+  "signature": "mct+seed+eff",
+  "temperature_applied": false,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-03-19, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-03-19):\nFiscal period 2026 Q2 (filed 2026-03-19). Revenue 18,044M, gross margin 30%, operating income 2,494M (operating margin 14%), net income 1,859M, diluted EPS 2.93. Total assets 67,064M, total liabilities 34,289M, shareholders' equity 31,211M. Current assets 28,007M vs current liabilities 20,957M (current ratio 1.34), retained earnings 22,804M.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Healthy margins (30% gross, 14% operating), positive net income, moderate leverage (debt to equity ~1.1x), current ratio 1.34; no evident distress signals.\"}}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 267,
+ "output_tokens": 837,
+ "cost_usd": 0.0011,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:53:43.653621+00:00",
+ "mode": "REAL"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 4, \"rationale\": \"High leverage (Debt/Equity over 4x) and low interest/debt coverage outweigh decent profitability and current liquidity, indicating speculative-grade risk.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 281,
+ "out_tok": 53,
+ "usd": 0.000898,
+ "utc": "2026-07-10T14:56:39.837992+00:00"
+}

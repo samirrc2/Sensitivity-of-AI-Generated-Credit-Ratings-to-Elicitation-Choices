@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R027",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits solid solvency and liquidity, characterized by a strong current ratio of 2.57, a robust equity base of 2,858M (supporting assets of 6,927M), and substantial retained earnings of 2,355M. However, profitability is relatively modest, with an operating margin of 6.4% (244M operating income on 3,801M revenue) and a low net margin of 0.8% (32M net income), reflecting high non-operating expenses or financing costs. These credit strengths, balanced by moderate profitability, are consistent with an investment-grade profile in the BBB range.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 228,
+ "out_tok": 147,
+ "usd": 0.001665,
+ "utc": "2026-07-10T14:20:45.434269+00:00"
+}

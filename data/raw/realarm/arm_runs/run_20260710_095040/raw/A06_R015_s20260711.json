@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R015",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits a solid balance sheet with a strong current ratio of 2.85, moderate leverage (total liabilities-to-equity ratio of 1.42), and a positive net income of 644M. However, it suffers from a substantial operating loss of -988M (operating margin of -42%), indicating significant pressure on core profitability and potential reliance on non-operating or one-time items to achieve net profitability. This combination of robust short-term liquidity and capital structure alongside highly volatile core operating profitability aligns with a non-investment grade or low-investment grade profile.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 236,
+ "out_tok": 131,
+ "usd": 0.001533,
+ "utc": "2026-07-10T14:07:16.156762+00:00"
+}

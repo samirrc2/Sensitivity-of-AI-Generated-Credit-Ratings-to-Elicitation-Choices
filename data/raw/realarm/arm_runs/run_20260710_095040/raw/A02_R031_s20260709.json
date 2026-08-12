@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R031",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the issuer's financial profile reveals a highly leveraged balance sheet with total liabilities of 7,240M against shareholders' equity of 2,866M (debt-to-equity of approximately 2.5x), alongside a weak liquidity position characterized by a current ratio of only 0.55 (current assets of 475M vs. current liabilities of 857M). While the company is operating profitably with an operating margin of 20% (371M) and positive net income of 67M, the high fixed liabilities and severe short-term liquidity mismatch present elevated credit risk typical of non-investment grade issuers. Consequently, the company's financial profile aligns with a speculative-grade rating in the BB category.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 239,
+ "out_tok": 169,
+ "usd": 0.001879,
+ "utc": "2026-07-10T14:25:34.103118+00:00"
+}

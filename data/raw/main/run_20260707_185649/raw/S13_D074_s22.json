@@ -1,0 +1,44 @@
+{
+ "spec_id": "S13",
+ "item_id": "D074",
+ "seed": 22,
+ "family": "directional",
+ "provider": "openai",
+ "version": "current",
+ "model": "gpt-5.4-nano",
+ "benchmark_label": "SELL",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 22,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-05-21. Act as a equity research analyst.\nPrice action as of 2026-05-21: 1w +2.7%, 1m +5.3%, 3m +12.6%. Last close 57.25. 21d annualized realized volatility 27%. Position in trailing 63-day range: 100% (0%=low, 100%=high).\nBased only on the above and knowledge predating 2026-05-21, give a 20-trading-day directional recommendation for the stock. Choose exactly one label from: BUY, HOLD, SELL.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\"decision\":\"HOLD\",\"confidence\":3,\"rationale\":\"Uptrend and strong recent momentum (+12.6%/3m) but trading at the top of its 63-day range suggests limited near-term upside.\"}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 182,
+ "output_tokens": 142,
+ "cost_usd": 0.000214,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:12:42.637357+00:00",
+ "mode": "REAL"
+}

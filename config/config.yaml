@@ -1,0 +1,62 @@
+# =============================================================================
+# Paper 3 — GenAI, Analyst Dispersion, and the Price of Disagreement
+# PHASE A PILOT config. Analysis is a pure function of (frozen raw/, this file).
+# Frozen: do not edit after capture without re-freezing the raw pull_log.
+# =============================================================================
+
+study: "genai_analyst_dispersion_pilot"
+phase: "A"
+
+# --- Data source -------------------------------------------------------------
+# FMP /stable API. This account: v3 legacy deprecated (403); sp500-constituent
+# restricted (402); analyst-estimates QUARTERLY restricted (402) -> ANNUAL ONLY.
+# History reachable via `page` (limit capped at 10/call): page0 ~FY2030..2021,
+# page1 ~FY2020..2011. Two pages cover the 2018-2026 window per firm.
+fmp_base: "https://financialmodelingprep.com/stable"
+fmp_limit_cap: 10                # hard plan cap per call
+estimate_frequency: "annual"     # quarterly premium-locked on this plan
+
+# --- Sample window -----------------------------------------------------------
+sample_start: 2018
+sample_end: 2026
+fiscal_year_min: 2018            # keep firm-years with fiscal year in [min,max]
+fiscal_year_max: 2025            # 2026 estimates are forward (no realized actual yet)
+
+# --- Universe: stratified 100-firm S&P 500 subsample (current constituents) ---
+# Survivorship: current constituents => survivorship bias. Acceptable for pilot;
+# full-study fix = point-in-time constituents. Sectors are GICS; FMP profile
+# sector (modified-GICS labels) is also captured and used for data-driven grouping.
+universe_file: "data/universe.csv"
+
+# --- Dispersion construction (Step 2) ----------------------------------------
+winsor_lower: 0.01
+winsor_upper: 0.99
+min_abs_consensus: 0.10          # drop obs where |consensus EPS| < $0.10 for Dispersion1
+# Real move only if it shows in >=2 of 3 scalings AND in within-firm demeaned Raw.
+robust_scalings_required: 2
+
+# --- Controls (Step 3) -------------------------------------------------------
+trailing_error_years: 4          # annual analogue of "prior 4 quarters"
+realized_vol_window_days: 63     # trailing daily-return std, annualized-agnostic
+
+# --- Post-AI & placebo dates (Step 4), mapped to annual fiscal years ----------
+# Break at a calendar date -> applies to fiscal years ending on/after that date.
+post_dates:
+  Post_ChatGPT: "2022-11-30"
+  Post_2023:    "2023-01-01"
+  Post_2024:    "2024-01-01"
+placebo_dates:
+  Placebo_2019: "2019-01-01"
+  Placebo_2021: "2021-01-01"
+
+# --- Macro controls ----------------------------------------------------------
+# VIX attempted via FMP index EOD (^VIX). MOVE + BAML HY OAS (FRED) NOT reachable
+# from this environment / plan -> flagged unavailable, deferred to full study.
+macro_vix_symbol: "^VIX"
+
+# --- Stats -------------------------------------------------------------------
+cluster: "firm"                  # also report two-way firm+year
+bootstrap_seed: 42
+
+# --- Credit leg (Guntay-Hackbarth) -------------------------------------------
+credit_leg: "unavailable"        # no issuer CDS/OAS on FMP; deferred to full study

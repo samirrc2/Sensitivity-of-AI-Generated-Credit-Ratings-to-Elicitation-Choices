@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R022",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the issuer exhibits solid scale (Revenue of $9.1B) and profitability (operating margin of 14%), but its credit profile is constrained by weak liquidity (current ratio of 1.14) and a significant net income drag relative to operating income ($242M net vs. $1,310M operating), which suggests high interest expense or substantial non-operating losses. Additionally, a leveraged capital structure (total liabilities of $7.3B against equity of $5.4B) indicates moderate leverage, aligning the company's risk profile with an investment-grade boundary but restricting it from the higher single-A or double-A tiers. \n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 249,
+ "out_tok": 152,
+ "usd": 0.001741,
+ "utc": "2026-07-10T14:15:28.813230+00:00"
+}

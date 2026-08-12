@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C027",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits solid profitability with a strong 24% operating margin and positive net income, backed by a substantial asset base of $40.9B and positive shareholders' equity of $14.3B. However, its leverage is relatively high with total liabilities of $26.6B representing about 65% of its capital structure, and its liquidity is tight as evidenced by a low current ratio of 1.18. These mixed credit metrics\u2014healthy profitability offset by significant leverage and modest short-term liquidity\u2014are characteristic of an investment-grade issuer with moderate credit risk.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 278,
+ "out_tok": 128,
+ "usd": 0.001569,
+ "utc": "2026-07-10T14:56:48.348896+00:00"
+}

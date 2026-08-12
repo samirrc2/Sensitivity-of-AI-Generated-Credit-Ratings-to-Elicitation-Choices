@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "R006",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"High revenue but negative profitability (net loss, negative EBIT) combined with moderate leverage (equity/assets ~41%) suggests a speculative-grade BB rating.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 265,
+ "out_tok": 55,
+ "usd": 0.000892,
+ "utc": "2026-07-10T13:57:13.781954+00:00"
+}

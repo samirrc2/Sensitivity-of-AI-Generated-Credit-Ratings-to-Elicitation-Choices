@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R001",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Applying the Altman Z-score formula for a non-manufacture/general firm to evaluate credit risk, the company exhibits a very strong balance sheet with a current ratio of 1.87, retained earnings making up 96% of equity, and an equity-to-debt ratio of 0.73. With an operating margin of 16% and net income of 350M on 3.8B of assets, the company has robust profitability and a low probability of default, though its moderate leverage prevents it from reaching the highest AAA/AA tiers. This financial profile is consistent with a solid investment-grade credit.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 246,
+ "out_tok": 139,
+ "usd": 0.00162,
+ "utc": "2026-07-10T13:51:33.050374+00:00"
+}

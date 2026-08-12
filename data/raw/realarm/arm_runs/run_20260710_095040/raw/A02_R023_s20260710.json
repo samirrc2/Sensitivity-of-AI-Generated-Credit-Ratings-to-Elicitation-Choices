@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R023",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits a very strong balance sheet with low leverage (total liabilities of 290M against equity of 1,058M), an excellent current ratio of 3.83, and high gross margins of 94%. However, the massive negative retained earnings (-1,564M) indicate a history of significant accumulated losses, and the current operating margin of 14% is relatively modest compared to the high gross margin, though net income is inflated to 337M (likely due to a one-time non-operating gain or tax benefit). Despite the current strong liquidity and capitalization, the history of heavy losses and moderate operating profitability prevent an investment-grade rating higher than BBB.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 236,
+ "out_tok": 153,
+ "usd": 0.001731,
+ "utc": "2026-07-10T14:15:55.388284+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits very strong financial performance with substantial profitability, including an operating income of 2,527M (32% operating margin) and a net income of 2,438M on 7,966M in revenue. Its balance sheet is massive with 204,354M in total assets and 54,181M in equity, indicating highly robust capitalization and systemic importance, though it maintains a low current ratio of 0.55 typical of large financial-related institutions. These exceptionally strong credit metrics, large equity base, and high profitability support a high investment-grade rating.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 281,
+ "out_tok": 139,
+ "usd": 0.001672,
+ "utc": "2026-07-10T15:14:29.130999+00:00"
+}

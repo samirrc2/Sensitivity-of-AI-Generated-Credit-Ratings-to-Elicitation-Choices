@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C007",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"A\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong balance sheet with huge retained earnings, low leverage (debt/equity), and solid operating income relative to total assets.\"\n}\n```",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "in_tok": 276,
+ "out_tok": 55,
+ "usd": 0.000909,
+ "utc": "2026-07-10T14:34:20.282460+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C007",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data for 2025 Q3, the company exhibits a highly robust financial profile characterized by significant scale (annualized revenue approaching $96B and total assets of $192.8B), excellent profitability (70% gross margin and 30% operating margin), and an exceptionally deep cushion of retained earnings ($167.3B). Although the current ratio is relatively tight at 1.07x (current assets of $54.6B vs. current liabilities of $50.9B) and the total debt/liabilities structure is substantial ($113.5B), the immense scale, strong profitability, and massive equity base ($79.3B) support an extremely strong investment-grade credit profile. Consequently, the issuer warrants a high-grade rating reflecting very low credit risk.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 291,
+ "out_tok": 184,
+ "usd": 0.002092,
+ "utc": "2026-07-10T14:34:43.825475+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R001",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates solid financial health with a profitable revenue base of $2.9B, a strong gross margin of 57%, and a healthy operating margin of 16% ($454M operating income). Its balance sheet is robust, featuring a current ratio of 1.87 ($1.89B current assets vs $1.01B current liabilities) and a solid equity base of $1.6B supporting $2.2B in total liabilities, reflecting manageable leverage and investment-grade risk. Based on these solid credit metrics, moderate size, and strong profitability, the issuer warrants a stable investment-grade rating.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 245,
+ "out_tok": 139,
+ "usd": 0.001618,
+ "utc": "2026-07-10T13:50:48.935728+00:00"
+}

@@ -1,0 +1,12 @@
+{
+ "item_id": "R029",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "ok": true,
+ "raw_response": "GUESS: Hertz Global Holdings (HTZ)",
+ "in_tok": 186,
+ "out_tok": 10,
+ "usd": 0.000369,
+ "utc": "2026-07-09T23:49:19.348559+00:00"
+}

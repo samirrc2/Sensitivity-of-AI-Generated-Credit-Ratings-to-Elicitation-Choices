@@ -1,0 +1,83 @@
+{
+ "source": "ICE BofA US Corporate & High Yield OAS, FRED (public)",
+ "note": "market data (not model calls); user-downloaded from FRED, cached immutably here",
+ "series": [
+  {
+   "rating": "AAA",
+   "series_id": "BAMLC0A1CAAA",
+   "source_url": "https://fred.stlouisfed.org/series/BAMLC0A1CAAA",
+   "csv_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLC0A1CAAA",
+   "rows": 785,
+   "date_min": "2023-07-10",
+   "date_max": "2026-07-06",
+   "sha256": "a43c1974ce00e4f63d4f44fc35a8550894ff5e7ac082977feb5e0835ac5d0c11",
+   "cached_utc": "2026-07-08T01:12:09.076360Z"
+  },
+  {
+   "rating": "AA",
+   "series_id": "BAMLC0A2CAA",
+   "source_url": "https://fred.stlouisfed.org/series/BAMLC0A2CAA",
+   "csv_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLC0A2CAA",
+   "rows": 785,
+   "date_min": "2023-07-10",
+   "date_max": "2026-07-06",
+   "sha256": "14961dff488c695feb0a52db908640b0ae6be24bd66c18721883a2ac42ed3db6",
+   "cached_utc": "2026-07-08T01:12:01.696637Z"
+  },
+  {
+   "rating": "A",
+   "series_id": "BAMLC0A3CA",
+   "source_url": "https://fred.stlouisfed.org/series/BAMLC0A3CA",
+   "csv_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLC0A3CA",
+   "rows": 785,
+   "date_min": "2023-07-10",
+   "date_max": "2026-07-06",
+   "sha256": "d11d7c68d651f102dd73cc936ca6acd8ceca1d8d6a2a0738f46710bbbdafab0b",
+   "cached_utc": "2026-07-08T01:12:14.589798Z"
+  },
+  {
+   "rating": "BBB",
+   "series_id": "BAMLC0A4CBBB",
+   "source_url": "https://fred.stlouisfed.org/series/BAMLC0A4CBBB",
+   "csv_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLC0A4CBBB",
+   "rows": 782,
+   "date_min": "2023-07-10",
+   "date_max": "2026-07-01",
+   "sha256": "15317d57806168b0aecdd0ee8b605c6e52ad9e355cdbe81a17ea5356a8cc6ca4",
+   "cached_utc": "2026-07-08T01:09:41.527050Z"
+  },
+  {
+   "rating": "BB",
+   "series_id": "BAMLH0A1HYBB",
+   "source_url": "https://fred.stlouisfed.org/series/BAMLH0A1HYBB",
+   "csv_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A1HYBB",
+   "rows": 785,
+   "date_min": "2023-07-10",
+   "date_max": "2026-07-06",
+   "sha256": "3713ae03af4d6b661834f8447ed0883c6122a3a3c6718def87647a3776c28368",
+   "cached_utc": "2026-07-08T01:12:19.539291Z"
+  },
+  {
+   "rating": "B",
+   "series_id": "BAMLH0A2HYB",
+   "source_url": "https://fred.stlouisfed.org/series/BAMLH0A2HYB",
+   "csv_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A2HYB",
+   "rows": 785,
+   "date_min": "2023-07-10",
+   "date_max": "2026-07-06",
+   "sha256": "92ad10bb78410e782b2de0b311afe5766ca77eb93f2313a9a77f564259d64030",
+   "cached_utc": "2026-07-08T01:12:24.442497Z"
+  },
+  {
+   "rating": "CCC",
+   "series_id": "BAMLH0A3HYC",
+   "source_url": "https://fred.stlouisfed.org/series/BAMLH0A3HYC",
+   "csv_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A3HYC",
+   "rows": 785,
+   "date_min": "2023-07-10",
+   "date_max": "2026-07-06",
+   "sha256": "17e715a56e1c0efa050e13bd77c0447148d1e9b39db5c5d84ce201c2d4489382",
+   "cached_utc": "2026-07-08T01:12:29.279220Z"
+  }
+ ]
+}

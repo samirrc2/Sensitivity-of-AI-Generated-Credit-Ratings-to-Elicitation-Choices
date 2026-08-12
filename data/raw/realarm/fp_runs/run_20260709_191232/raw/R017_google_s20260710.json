@@ -1,0 +1,12 @@
+{
+ "item_id": "R017",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "ok": true,
+ "raw_response": "GUESS: Western Digital (WDC)",
+ "in_tok": 195,
+ "out_tok": 9,
+ "usd": 0.000374,
+ "utc": "2026-07-09T23:18:20.304570+00:00"
+}

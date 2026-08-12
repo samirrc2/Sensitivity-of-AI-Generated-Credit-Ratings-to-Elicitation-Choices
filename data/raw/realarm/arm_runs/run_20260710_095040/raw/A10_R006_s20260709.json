@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R006",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "**Analysis:**\nThe company exhibits a very large revenue scale ($19.5B) and a positive net worth ($4.2B equity, with positive retained earnings of $2.5B), but it is currently unprofitable with negative operating income (-$43M), negative net income (-$126M), and tight short-term liquidity (current ratio of 1.21). This combination of a strong, established business profile (suggested by the massive revenue and accumulated retained earnings) alongside recent operating losses and moderate leverage (debt/assets ratio around 58%) typically characterizes a speculative-grade issuer that is currently under stress but not in imminent danger of default. Therefore, a rating in the BB range reflects this balance of substantial scale and weak current profitability.\n\nDECISION: BB",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 240,
+ "out_tok": 165,
+ "usd": 0.001845,
+ "utc": "2026-07-10T13:57:23.713947+00:00"
+}

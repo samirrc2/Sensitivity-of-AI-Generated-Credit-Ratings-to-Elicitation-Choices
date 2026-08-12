@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C006",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits a very strong financial profile, characterized by highly robust profitability (19% operating margin, 58% gross margin, and 908M net income in Q3), a solid capital structure with low leverage (equity of 51,071M representing 64% of total assets), and healthy short-term liquidity (current ratio of 1.52). The substantial retained earnings of nearly 46B reflect a long history of profitable operations and capital preservation. This suggests a highly creditworthy, investment-grade profile with minimal default risk.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 275,
+ "out_tok": 126,
+ "usd": 0.001547,
+ "utc": "2026-07-10T14:33:07.612910+00:00"
+}

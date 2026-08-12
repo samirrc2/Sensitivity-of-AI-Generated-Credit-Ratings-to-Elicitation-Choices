@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C027",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 4, \"rationale\": \"High leverage (Total Debt/Assets 65%), low profitability (EBIT margin 23.6%, ROA 1.4%), and weak liquidity suggest a speculative-grade rating.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 275,
+ "out_tok": 63,
+ "usd": 0.000979,
+ "utc": "2026-07-10T14:57:40.160349+00:00"
+}

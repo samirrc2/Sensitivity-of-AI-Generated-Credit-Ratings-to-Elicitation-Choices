@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows weak liquidity with a current ratio of 0.62 and an overhang of leverage, with total liabilities exceeding total assets (37,604M vs. 35,008M) and negative shareholders\u2019 equity (-2,646M). While profitability appears strong (EBIT of 3,230M on revenue of 5,251M), the balance-sheet stress and liquidity risk point to a higher likelihood of credit weakness.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 215,
+ "usd": 0.000317,
+ "utc": "2026-07-10T14:35:55.748633+00:00"
+}

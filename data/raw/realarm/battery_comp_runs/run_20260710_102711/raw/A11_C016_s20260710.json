@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C016",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The firm shows weak near-term liquidity (current ratio of 0.90) and high leverage (total liabilities of 89,110M vs. assets of 110,646M, implying liabilities are ~80% of assets), which increases balance-sheet risk. However, profitability is reasonable (EBIT of 3,213M on revenue of 19,443M, ~16.5% margin), supporting debt service capacity. Overall, credit quality appears in the lower-investment-grade-to-speculative boundary, leaning toward BB-.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 236,
+ "usd": 0.000343,
+ "utc": "2026-07-10T14:44:30.569002+00:00"
+}

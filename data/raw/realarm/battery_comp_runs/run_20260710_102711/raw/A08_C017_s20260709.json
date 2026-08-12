@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C017",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"A\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong balance sheet with low leverage (Equity/Assets ~48%), comfortable current ratio of 1.71, and solid EBIT margin of 41.7%.\"\n}\n```",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "in_tok": 273,
+ "out_tok": 67,
+ "usd": 0.001012,
+ "utc": "2026-07-10T14:45:14.981469+00:00"
+}

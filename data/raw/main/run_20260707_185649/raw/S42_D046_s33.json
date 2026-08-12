@@ -1,0 +1,43 @@
+{
+ "spec_id": "S42",
+ "item_id": "D046",
+ "seed": 33,
+ "family": "directional",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 0.0,
+ "temperature_applied": false,
+ "effective_temperature": null,
+ "call_meta": {
+  "signature": "mct+seed+eff",
+  "temperature_applied": false,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "seed": 33,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a equity research analyst. Using only the information below and general knowledge predating 2026-03-19, give a 20-trading-day directional recommendation for the stock.\nValid answers (choose exactly one): BUY, HOLD, SELL.\nCompany information (as of 2026-03-19):\nPrice action as of 2026-03-19: 1w -1.5%, 1m -6.1%, 3m +16.2%. Last close 114.20. 21d annualized realized volatility 23%. Position in trailing 63-day range: 61% (0%=low, 100%=high).\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{{\"decision\": \"HOLD\", \"confidence\": 3, \"rationale\": \"Mid-range price, mixed signals (1m negative, 3m positive); no clear 20-day trend; volatility moderate.\"}}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 180,
+ "output_tokens": 375,
+ "cost_usd": 0.000505,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:54:08.768706+00:00",
+ "mode": "REAL"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R006",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows weak operating performance, with negative EBIT (-43M) and net income (-126M), indicating operating losses that can pressure credit quality. Liquidity is only modest (current ratio \u2248 1.21), while leverage is meaningful but not extreme (total liabilities \u2248 58% of total assets), resulting in a speculative-grade view.  \n\nDECISION: B+",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 239,
+ "out_tok": 237,
+ "usd": 0.000344,
+ "utc": "2026-07-10T13:57:34.052541+00:00"
+}

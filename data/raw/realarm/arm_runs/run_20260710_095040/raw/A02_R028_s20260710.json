@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R028",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits a solid financial profile with a substantial revenue base of $6.18 billion, profitable operations (8.7% operating margin, $500 million net income), and a decent equity cushion with a debt-to-equity ratio of approximately 1.63x. However, its liquidity is somewhat tight with a current ratio of 1.28, and a low proportion of current assets relative to total assets suggests a capital-intensive business model with potential leverage-related risks typical of lower-tier investment-grade or strong speculative-grade companies. Balancing the strong revenue and profitability against the moderate leverage and tight liquidity points to a stable investment-grade credit profile.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 239,
+ "out_tok": 145,
+ "usd": 0.001664,
+ "utc": "2026-07-10T14:21:33.281112+00:00"
+}

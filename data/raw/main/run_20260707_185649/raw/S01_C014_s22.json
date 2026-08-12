@@ -1,0 +1,45 @@
+{
+ "spec_id": "S01",
+ "item_id": "C014",
+ "seed": 22,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 22,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-02-20. Act as a credit rating analyst.\n| Current ratio           | 1.30 |\n| Retained earnings       | 33,239M |\n| Current liabilities     | 13,326M |\n| Current assets          | 17,271M |\n| Shareholders' equity    | 29,093M |\n| Total liabilities       | 43,439M |\n| Total assets            | 73,680M |\n| EBIT / operating income | 1,498M |\n| Revenue                 | 34,015M |\nBased only on the above and knowledge predating 2026-02-20, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The company exhibits a concerning debt burden, with total liabilities exceeding shareholders' equity and a Debt-to-Assets ratio of approximately 59%. While the current ratio is adequate at 1.3, the low EBIT relative to revenue and total assets suggests modest profitability or significant interest/tax expenses. These factors point to elevated financial risk.\n\nDECISION: BB",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 284,
+ "output_tokens": 73,
+ "cost_usd": 0.000268,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T22:56:59.015121+00:00",
+ "mode": "REAL"
+}

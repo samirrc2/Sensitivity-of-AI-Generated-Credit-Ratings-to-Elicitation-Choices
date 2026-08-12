@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C027",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows moderate liquidity pressure with a current ratio of 1.18, but profitability appears solid with EBIT of 577M on revenue of 2,444M (~24% EBIT margin). Despite this, leverage is relatively high (total liabilities 26,603M vs. total assets 40,898M), which limits the cushion for downside scenarios.  \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 240,
+ "out_tok": 236,
+ "usd": 0.000343,
+ "utc": "2026-07-10T14:57:38.008996+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R017",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits solid profitability with an operating margin of 23% and a net income of 183M, supported by a satisfactory liquidity position represented by a current ratio of 1.35. However, the balance sheet is relatively highly leveraged, with total liabilities of 4,411M relative to shareholders' equity of 2,393M (debt-to-equity style leverage indicators are elevated) and a asset-to-equity multiplier of nearly 2.8x. These credit metrics align with an investment-grade profile that possesses adequate capacity to meet financial commitments but is subject to adverse economic conditions.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 240,
+ "out_tok": 136,
+ "usd": 0.001584,
+ "utc": "2026-07-10T14:09:47.979081+00:00"
+}

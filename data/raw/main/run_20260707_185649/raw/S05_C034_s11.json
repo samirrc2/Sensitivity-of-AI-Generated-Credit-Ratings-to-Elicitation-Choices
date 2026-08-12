@@ -1,0 +1,45 @@
+{
+ "spec_id": "S05",
+ "item_id": "C034",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 11,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-02-24, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-02-24):\nFiscal period 2025 Q4 (filed 2026-02-24). Revenue 3,198M, gross margin 47%, operating income 1,307M (operating margin 41%), net income 734M, diluted EPS 0.6. Total assets 58,573M, total liabilities 43,578M, shareholders' equity 12,807M. Current assets 3,244M vs current liabilities 6,106M (current ratio 0.53), retained earnings -12,237M.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The company demonstrates strong profitability with an operating margin of 41% and substantial operating income of 1,307M, indicating robust core business performance. However, its balance sheet carries significant risk, characterized by a weak current ratio of 0.53 (current liabilities exceeding current assets by nearly 2.9B), a high leverage profile (total liabilities representing 74% of total assets), and a heavily negative retained earnings balance of -12,237M. Balancing its excellent operating profitability against high leverage and severe short-term liquidity constraints places the issuer in the lower tier of investment grade.\n\nDECISION: BBB-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 293,
+ "output_tokens": 133,
+ "cost_usd": 0.001637,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:04:58.808829+00:00",
+ "mode": "REAL"
+}

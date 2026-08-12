@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R011",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows weak profitability, with negative EBIT (-287M) and net income (-892M), indicating operating strain despite ongoing revenue of 10,477M. Balance sheet coverage remains reasonable (shareholders\u2019 equity of 5,711M and current assets exceeding current liabilities), but the losses reduce credit quality and suggest elevated risk of continued deterioration.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 237,
+ "out_tok": 210,
+ "usd": 0.00031,
+ "utc": "2026-07-10T14:02:31.468858+00:00"
+}

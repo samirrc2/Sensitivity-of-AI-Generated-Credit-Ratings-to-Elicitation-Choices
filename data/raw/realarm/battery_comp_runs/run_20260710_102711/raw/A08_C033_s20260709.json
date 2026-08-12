@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B-\", \"confidence\": 4, \"rationale\": \"Negative equity of -$9.3B and massive accumulated deficits point to high leverage, though positive operating income prevents immediate default.\"}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 271,
+ "out_tok": 49,
+ "usd": 0.000847,
+ "utc": "2026-07-10T15:04:50.481180+00:00"
+}

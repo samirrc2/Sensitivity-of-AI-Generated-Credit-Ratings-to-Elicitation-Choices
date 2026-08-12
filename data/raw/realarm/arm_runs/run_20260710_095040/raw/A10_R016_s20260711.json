@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R016",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "As a credit rating analyst, the issuer's credit profile presents a sharp contrast between solid short-term liquidity and weak operating profitability. The company boasts a strong balance sheet with a robust current ratio of 3.19 ($1,131M in current assets vs. $354M in current liabilities) and a moderate leverage profile (total liabilities are 54.7% of total assets, and equity is positive at $838M). However, the company is currently unprofitable, generating an operating loss of -$127M (operating margin of -6%) and a net loss of -$214M on $2,044M in revenue, which exerts downward pressure on its creditworthiness and indicates operational headwinds. \n\nDECISION: BB-",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "in_tok": 239,
+ "out_tok": 162,
+ "usd": 0.001816,
+ "utc": "2026-07-10T14:08:43.056159+00:00"
+}

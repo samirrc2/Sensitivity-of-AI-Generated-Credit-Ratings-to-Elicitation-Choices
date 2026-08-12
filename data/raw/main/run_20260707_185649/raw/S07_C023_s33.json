@@ -1,0 +1,43 @@
+{
+ "spec_id": "S07",
+ "item_id": "C023",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "2",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 0.0,
+ "temperature_applied": false,
+ "effective_temperature": null,
+ "call_meta": {
+  "signature": "mct+seed+eff",
+  "temperature_applied": false,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "seed": 33,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2026-01-29; do not use later information.\nHere are two worked examples:\n- Information: Fiscal period 2026 Q1 (filed 2026-05-04). Revenue 83,161M, gross margin 38%, operating income 5,285M (operating margin 6%), net income 4,183M, diluted EPS 1.0. Total assets 464,410M, total liabilities 203,414M, shareholders' equity 254,381M. Current assets 97,787M vs current liabilities 94,378M (current ratio 1.04), retained earnings 482,344M.\n  Answer: AA+\n- Information: Fiscal period 2025 Q3 (filed 2025-10-23). Revenue 21,957M, gross margin 49%, operating income 4,862M (operating margin 22%), net income 2,714M, diluted EPS 2.41. Total assets 217,180M, total liabilities 156,703M, shareholders' equity 60,477M. Current assets 21,703M vs current liabilities 24,301M (current ratio 0.89), retained earnings 20,155M.\n  Answer: B-\n\nProvided information:\nFiscal period 2025 Q4 (filed 2026-01-29). Revenue 12,717M, gross margin 34%, operating income 2,359M (operating margin 19%), net income 2,540M, diluted EPS 2.38. Total assets 130,169M, total liabilities 111,269M, shareholders' equity 18,677M. Current assets 40,596M vs current liabilities 38,980M (current ratio 1.04), retained earnings 87,663M.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "Reasoning: The company shows stable profitability with solid net income and a current ratio around 1.0, but its liabilities vastly exceed shareholders\u2019 equity, indicating significant leverage. This combination supports a mid-investment-grade rating with caution on leverage, aligning with BBB-/BBB range rather than higher grades.\n\nDECISION: BBB-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 501,
+ "output_tokens": 394,
+ "cost_usd": 0.000593,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:07:18.036797+00:00",
+ "mode": "REAL"
+}

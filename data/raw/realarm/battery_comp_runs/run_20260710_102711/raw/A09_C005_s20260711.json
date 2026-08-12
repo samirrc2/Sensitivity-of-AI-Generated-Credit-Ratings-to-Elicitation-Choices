@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB+\",\"confidence\":3,\"rationale\":\"Strong profitability and margins, but high leverage (liabilities/assets ~79%) limits balance-sheet strength; liquidity is adequate (current ratio 1.55).\"}",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 265,
+ "out_tok": 142,
+ "usd": 0.000231,
+ "utc": "2026-07-10T14:32:20.610637+00:00"
+}

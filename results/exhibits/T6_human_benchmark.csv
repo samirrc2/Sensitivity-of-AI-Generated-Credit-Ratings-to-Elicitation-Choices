@@ -1,0 +1,5 @@
+granularity,machine_disagree,human_split,human_N,z_naive,p_naive,p_dependence_adj,conclusion
+letter,0.8423,0.5,13853,104.57,<1e-6,<0.0005,machine significantly MORE inconsistent than agencies
+notch,0.6628,0.13,13853,127.98,<1e-6,<0.0005,machine significantly MORE inconsistent than agencies
+band,0.3531,,,,,,no verified published human rate at this granularity; not tested
+ig_hy,0.2682,,,,,,no verified published human rate at this granularity; not tested

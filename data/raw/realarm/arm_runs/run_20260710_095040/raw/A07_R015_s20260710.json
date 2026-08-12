@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R015",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Despite strong liquidity (current ratio \u2248 2.85) and healthy capitalization (equity \u2248 41% of assets), operating performance is very weak with materially negative EBIT/operating income (-988M) despite positive net income. This combination suggests limited operating resilience and higher credit risk than investment-grade.  \nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 228,
+ "out_tok": 219,
+ "usd": 0.000319,
+ "utc": "2026-07-10T14:07:20.723284+00:00"
+}

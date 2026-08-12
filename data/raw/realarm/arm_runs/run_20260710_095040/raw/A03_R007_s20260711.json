@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R007",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows strong liquidity (current ratio \u2248 3.37) and good capitalization (equity of 5,044M vs. total liabilities of 5,238M; equity \u2248 47% of assets). Profitability is solid (EBIT margin \u2248 13.5%, net margin \u2248 7.3%), supporting debt-servicing capacity, though the information provided lacks explicit interest coverage and leverage details to justify a higher rating than the \u201cA\u201d range.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 237,
+ "out_tok": 237,
+ "usd": 0.000344,
+ "utc": "2026-07-10T13:58:02.315616+00:00"
+}

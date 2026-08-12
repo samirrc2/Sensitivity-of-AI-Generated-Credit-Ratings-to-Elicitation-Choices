@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "R024",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 4, \"rationale\": \"High leverage (TL/TA at 82%) and weak liquidity (current ratio below 1.0) are offset by solid profitability (EBIT margin 13.5%, ROA 7.2%).\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 260,
+ "out_tok": 68,
+ "usd": 0.001002,
+ "utc": "2026-07-10T14:17:34.388235+00:00"
+}

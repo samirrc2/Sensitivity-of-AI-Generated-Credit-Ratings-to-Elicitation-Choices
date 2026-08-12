@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows strong financial stress indicators, including negative shareholders\u2019 equity (-9,270M) and negative retained earnings (-9,884M), along with total liabilities exceeding total assets. While operating profitability appears positive (EBIT 2,554M on revenue 23,078M), the capital structure weakness and leverage suggest a higher risk profile than investment grade.  \n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 182,
+ "usd": 0.000274,
+ "utc": "2026-07-10T15:04:44.577306+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer displays a solid financial profile with a substantial revenue base of $34.0 billion and a strong balance sheet characterized by a healthy equity base ($29.1 billion), manageable leverage (liabilities-to-equity ratio of approximately 1.5x), and a comfortable current ratio of 1.30. While operating margins are relatively thin at 4%, the company maintains robust profitability with net income of $2.9 billion and a highly positive retained earnings balance. These factors indicate a very strong capacity to meet financial commitments, corresponding to a high investment-grade profile with minor exposure to long-term risks.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "in_tok": 278,
+ "out_tok": 134,
+ "usd": 0.001623,
+ "utc": "2026-07-10T14:41:56.339513+00:00"
+}

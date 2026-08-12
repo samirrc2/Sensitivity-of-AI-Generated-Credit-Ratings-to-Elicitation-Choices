@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C021",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates exceptionally strong profitability with an operating margin of 48% ($2,002M operating income on $4,171M revenue) and a solid capital structure with shareholders' equity of $31,173M against total liabilities of $24,587M. However, its short-term liquidity profile is slightly constrained, as evidenced by a current ratio of 0.68 ($6,320M current assets vs $9,335M current liabilities). Balancing its premier profitability and strong overall balance sheet against this minor short-term liquidity pressure places the issuer in the high single-A category.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 284,
+ "out_tok": 143,
+ "usd": 0.001713,
+ "utc": "2026-07-10T14:48:57.729502+00:00"
+}

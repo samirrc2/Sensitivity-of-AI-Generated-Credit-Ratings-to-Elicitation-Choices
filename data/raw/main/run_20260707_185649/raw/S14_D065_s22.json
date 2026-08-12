@@ -1,0 +1,45 @@
+{
+ "spec_id": "S14",
+ "item_id": "D065",
+ "seed": 22,
+ "family": "directional",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 22,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Task: give a 20-trading-day directional recommendation for the stock.\nRespond with exactly one of: BUY, HOLD, SELL. Use only the figures provided and knowledge available on or before 2026-01-22; do not use later information.\nProvided information:\nPrice action as of 2026-01-22: 1w +2.6%, 1m +14.1%, 3m +4.1%. Last close 976.17. 21d annualized realized volatility 22%. Position in trailing 63-day range: 95% (0%=low, 100%=high).\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock exhibits strong short-term upward momentum, gaining 14.1% over the past month and closing near the very top of its 63-day range (95th percentile). While the 21-day realized volatility of 22% indicates stable price action during this run, the rapid ascent into a key resistance zone suggests a high probability of a short-term consolidation or mean-reversion over the next 20 trading days. Therefore, a neutral stance is warranted to await a better entry point or a clearer breakout confirmation.\n\nDECISION: HOLD",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 181,
+ "output_tokens": 119,
+ "cost_usd": 0.001343,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:13:25.499784+00:00",
+ "mode": "REAL"
+}

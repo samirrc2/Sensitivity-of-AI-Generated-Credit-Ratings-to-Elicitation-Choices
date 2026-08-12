@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"CCC\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage (Total Liabilities/Total Assets over 90%), extremely low current ratio (0.34), and very weak operating income relative to total debt.\"\n}\n```",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 285,
+ "out_tok": 64,
+ "usd": 0.001004,
+ "utc": "2026-07-10T15:02:22.675185+00:00"
+}

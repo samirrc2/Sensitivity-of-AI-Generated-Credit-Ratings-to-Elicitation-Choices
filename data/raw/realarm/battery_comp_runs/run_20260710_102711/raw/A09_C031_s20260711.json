@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":2,\"rationale\":\"High leverage (liabilities ~92% of assets) and severe liquidity deficit (current ratio 0.34) outweigh solid profitability (18% operating margin).\"}",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 271,
+ "out_tok": 172,
+ "usd": 0.000269,
+ "utc": "2026-07-10T15:02:31.402380+00:00"
+}

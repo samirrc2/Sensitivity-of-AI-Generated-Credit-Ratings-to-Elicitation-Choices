@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C017",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits exceptionally strong financial health, characterized by outstanding profitability (a 42% operating margin and $8.5 billion in net income) and a highly robust balance sheet. With total assets of $171.1 billion far exceeding total liabilities of $89.8 billion, a solid current ratio of 1.71, and substantial equity of $81.3 billion, the issuer presents extremely low credit risk. These premier credit metrics align with an elite investment-grade profile, typical of a highly stable, cash-generative technology or pharmaceutical giant.\n\nDECISION: AA+",
+ "parsed_letter": "AA+",
+ "parsed_band": "SAFE",
+ "in_tok": 287,
+ "out_tok": 124,
+ "usd": 0.001547,
+ "utc": "2026-07-10T14:44:43.987150+00:00"
+}

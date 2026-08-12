@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates highly robust financial health, characterized by strong profitability (17% operating margin, $1,651M net income in Q1), an exceptionally strong balance sheet with substantial retained earnings ($60,632M) and equity ($51,940M), and a healthy liquidity profile (current ratio of 1.53). The moderate leverage (total liabilities-to-equity ratio of approximately 1.18) combined with high-scale quarterly revenue ($11,005M) indicates a very low credit risk profile, typical of a high-quality investment-grade borrower.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 288,
+ "out_tok": 136,
+ "usd": 0.001656,
+ "utc": "2026-07-10T14:40:23.986947+00:00"
+}

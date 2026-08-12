@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C028",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided Q1 2026 financial data, the issuer exhibits an exceptionally strong balance sheet with $916.6 billion in total assets, $441.9 billion in shareholders' equity, and a solid current ratio of 1.18. Furthermore, the company demonstrates outstanding profitability with $181.5 billion in quarterly revenue, a 52% gross margin, and highly robust net income of $30.3 billion. These metrics represent one of the largest and most creditworthy balance sheets globally, justifying the highest credit rating.\n\nDECISION: AAA",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "in_tok": 297,
+ "out_tok": 124,
+ "usd": 0.001561,
+ "utc": "2026-07-10T14:58:32.539550+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided Q3 2026 financial data, the issuer exhibits an exceptionally strong credit profile characterized by massive scale (annualized revenue exceeding $110B), elite profitability (46% operating margin and $31.8B in net income for a single quarter), and a fortress balance sheet with $414.4B in shareholders' equity and a highly supportive current ratio of 1.28. The immense size, pristine capital structure, and substantial retained earnings ($302.5B) reflect minimal default risk, consistent with the highest echelon of creditworthiness.\n\nDECISION: AAA",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "in_tok": 296,
+ "out_tok": 129,
+ "usd": 0.001605,
+ "utc": "2026-07-10T14:40:03.373869+00:00"
+}

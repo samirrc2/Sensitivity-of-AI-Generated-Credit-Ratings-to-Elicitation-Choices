@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R026",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows a large revenue scale of $13.1B, but exhibits relatively low profitability with an operating margin of 5.4% and a thin equity base ($3.17B) relative to total assets ($17.0B), leading to high leverage (total liabilities/equity of approximately 4.37x). Additionally, the short-term liquidity position is tight, as evidenced by a current ratio of 0.89. These financial risk metrics align with a speculative-grade profile, typically in the double-B category.\n\nDECISION: BB",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 234,
+ "out_tok": 120,
+ "usd": 0.001431,
+ "utc": "2026-07-10T14:19:38.628983+00:00"
+}

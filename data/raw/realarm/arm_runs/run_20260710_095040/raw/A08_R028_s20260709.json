@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "R028",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Moderate leverage (equity/assets ~38%), comfortable liquidity, and steady profitability with low double-digit ROE support an investment-grade rating.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 265,
+ "out_tok": 53,
+ "usd": 0.000874,
+ "utc": "2026-07-10T14:22:05.755889+00:00"
+}

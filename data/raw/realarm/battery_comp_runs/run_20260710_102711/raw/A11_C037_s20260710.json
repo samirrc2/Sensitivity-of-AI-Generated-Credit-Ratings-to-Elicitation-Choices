@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows moderate leverage (total liabilities ~$23.5B vs. total assets ~$48.9B) and positive operating profitability (EBIT ~$283M on revenue ~$1,635M). However, liquidity is tight (current ratio ~1.00) and retained earnings are deeply negative (~-$6.9B), indicating ongoing financial strain and a weaker cushion against shocks. Overall this supports a lower-investment-grade rating.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 240,
+ "out_tok": 218,
+ "usd": 0.000321,
+ "utc": "2026-07-10T15:09:57.644358+00:00"
+}

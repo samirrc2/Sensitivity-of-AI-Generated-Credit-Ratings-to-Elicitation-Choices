@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "R019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B-\", \"confidence\": 4, \"rationale\": \"High leverage (96% debt-to-assets), very low equity, and significant net and operating losses indicate high credit risk.\"}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 265,
+ "out_tok": 51,
+ "usd": 0.000856,
+ "utc": "2026-07-10T14:11:53.624866+00:00"
+}

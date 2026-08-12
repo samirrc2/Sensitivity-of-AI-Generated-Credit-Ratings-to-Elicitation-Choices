@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits a very large scale of operations with $24.5B in annual revenue and solid operating profitability (11% operating margin, $2.58B operating income). However, its balance sheet is highly leveraged, with total liabilities of $56.8B against shareholders' equity of $16.2B (a debt-to-equity-like profile of over 3.5x), and a relatively tight liquidity position represented by a current ratio of 1.22. This combination of strong market position and solid earnings offset by high leverage and moderate liquidity is characteristic of a mid-investment grade credit.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 286,
+ "out_tok": 136,
+ "usd": 0.001653,
+ "utc": "2026-07-10T14:46:55.770595+00:00"
+}

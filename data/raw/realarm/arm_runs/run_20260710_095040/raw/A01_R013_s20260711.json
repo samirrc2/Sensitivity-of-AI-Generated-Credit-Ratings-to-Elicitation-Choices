@@ -1,0 +1,19 @@
+{
+ "spec_id": "A01",
+ "item_id": "R013",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"CCC-\",\"confidence\":2,\"rationale\":\"Negative equity, net losses, low gross/operating margins, and liabilities exceeding assets signal high financial stress and elevated default risk.\"}",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "in_tok": 228,
+ "out_tok": 115,
+ "usd": 0.000189,
+ "utc": "2026-07-10T14:04:35.268348+00:00"
+}

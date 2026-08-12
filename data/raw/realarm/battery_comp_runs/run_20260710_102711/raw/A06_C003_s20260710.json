@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C003",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits an exceptionally strong balance sheet with $122.5 billion in total assets, low leverage (total liabilities-to-equity ratio of 0.89), and robust profitability with a 18% operating margin and $1.73 billion in quarterly net income. Given its massive equity base ($64.9 billion), highly positive retained earnings ($68.5 billion), and stable liquidity (current ratio of 1.32), the company possesses excellent creditworthiness and extremely low default risk. \n\nDECISION: AA",
+ "parsed_letter": "AA",
+ "parsed_band": "SAFE",
+ "in_tok": 281,
+ "out_tok": 114,
+ "usd": 0.001448,
+ "utc": "2026-07-10T14:29:46.500501+00:00"
+}

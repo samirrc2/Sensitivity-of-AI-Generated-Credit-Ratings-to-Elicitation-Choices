@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R003",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "From a credit perspective, the company exhibits strong profitability with a solid 22% operating margin ($263M on $1,207M revenue) and positive net income, but its balance sheet carries significant leverage with a high liabilities-to-equity ratio (3.18x) and constrained short-term liquidity, as evidenced by a weak current ratio of 0.72. These factors represent a moderate credit risk profile, typical of a lower-tier investment-grade or upper-tier speculative-grade issuer that is currently viable but vulnerable to refinancing risks or economic downturns. Therefore, a borderline investment-grade rating is appropriate to balance the healthy operating profitability against the levered balance sheet and tight liquidity.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 234,
+ "out_tok": 155,
+ "usd": 0.001746,
+ "utc": "2026-07-10T13:53:55.630623+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R002",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B-\", \"confidence\": 4, \"rationale\": \"High leverage (74% debt/assets), negative net income, and near-zero EBIT (interest coverage under 1x) indicate high credit risk and weak solvency.\"}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 271,
+ "out_tok": 59,
+ "usd": 0.000937,
+ "utc": "2026-07-10T13:52:54.763497+00:00"
+}

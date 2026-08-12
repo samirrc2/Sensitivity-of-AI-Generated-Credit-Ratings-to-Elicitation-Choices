@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R012",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows solid operating profitability (EBIT margin ~13% and net margin ~11%) and good near-term liquidity (current ratio ~2.35). Leverage is moderate with liabilities around half of total assets (liabilities/assets ~0.51) and equity providing a reasonable buffer, supporting an upper-investment-grade view but not the strongest \u201cAAA/AA\u201d profile.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 237,
+ "out_tok": 226,
+ "usd": 0.00033,
+ "utc": "2026-07-10T14:04:19.335015+00:00"
+}

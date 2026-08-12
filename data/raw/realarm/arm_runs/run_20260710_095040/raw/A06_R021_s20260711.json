@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R021",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows stable financial performance with revenue of $2,083M, a positive operating margin of 7%, and net income of $90M. Leverage is moderate with total assets of $1,923M against total liabilities of $1,148M (equity of $773M), and liquidity is adequate with a current ratio of 1.50. These figures represent a solid investment-grade profile with moderate credit risk, consistent with a lower-medium investment grade.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 228,
+ "out_tok": 111,
+ "usd": 0.001341,
+ "utc": "2026-07-10T14:13:57.518389+00:00"
+}

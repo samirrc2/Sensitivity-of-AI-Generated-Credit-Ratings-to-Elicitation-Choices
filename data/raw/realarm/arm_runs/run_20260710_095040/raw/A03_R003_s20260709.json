@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R003",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer has moderate leverage (total liabilities of 4,392M versus shareholders\u2019 equity of 1,381M, i.e., ~3.2x) and weak liquidity (current ratio ~0.72), which adds refinancing/working-capital risk. However, profitability is solid for its size (EBIT margin ~22% and net margin ~9%), and positive retained earnings support capital resilience. Overall, the balance sheet strength and liquidity profile point to a lower investment-grade rating rather than speculative grade.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 231,
+ "out_tok": 271,
+ "usd": 0.000385,
+ "utc": "2026-07-10T13:53:13.208063+00:00"
+}

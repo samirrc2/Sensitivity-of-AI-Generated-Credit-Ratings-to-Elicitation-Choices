@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Negative equity, high liabilities-to-assets, and low current ratio indicate severe insolvency and default risk.\"}\n```",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 276,
+ "out_tok": 44,
+ "usd": 0.00081,
+ "utc": "2026-07-10T15:16:21.812219+00:00"
+}

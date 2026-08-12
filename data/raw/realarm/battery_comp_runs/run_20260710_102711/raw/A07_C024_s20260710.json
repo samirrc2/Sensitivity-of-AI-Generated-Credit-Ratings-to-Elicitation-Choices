@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C024",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Current liquidity is slightly weak (current ratio 0.94), and leverage is moderate to high (total liabilities are ~58% of total assets). However, the issuer shows positive retained earnings and a reasonable operating performance (EBIT of 467 on revenue of 5,013), suggesting credit risk is not extreme but still elevated.  \n\nDECISION: BB",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 231,
+ "out_tok": 204,
+ "usd": 0.000301,
+ "utc": "2026-07-10T14:53:41.171465+00:00"
+}

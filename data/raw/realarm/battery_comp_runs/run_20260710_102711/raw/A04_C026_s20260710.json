@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BBB\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage (Total Liabilities/Assets ~81%) is mitigated by solid operating profitability (EBIT margin ~30%) and positive equity, supporting an investment-grade rating.\"\n}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 280,
+ "out_tok": 67,
+ "usd": 0.001023,
+ "utc": "2026-07-10T14:55:48.236691+00:00"
+}

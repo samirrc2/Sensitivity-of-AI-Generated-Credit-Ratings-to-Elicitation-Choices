@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows reasonable liquidity (current ratio 1.55) and strong operating profitability (EBIT of 8,386M on 17,601M revenue, implying very high margin). However, leverage is high with total liabilities of 91,085M versus shareholders\u2019 equity of 23,793M (equity ~21% of assets), which elevates balance-sheet risk.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 245,
+ "usd": 0.000355,
+ "utc": "2026-07-10T14:32:28.008036+00:00"
+}

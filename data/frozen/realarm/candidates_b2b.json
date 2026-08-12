@@ -1,0 +1,1028 @@
+{
+ "n": 146,
+ "screen": "B2B low-salience sectors only (Consumer Cyclical/Defensive/Comm Services excluded); mid-cap $2-15B",
+ "candidates": [
+  {
+   "symbol": "AA",
+   "cik": 1675149,
+   "sector": "Basic Materials",
+   "marketCap": 12856720800,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "ACAD",
+   "cik": 1070494,
+   "sector": "Healthcare",
+   "marketCap": 4522339327,
+   "prelim_band": "DISTRESS"
+  },
+  {
+   "symbol": "AES",
+   "cik": 874761,
+   "sector": "Utilities",
+   "marketCap": 10504813112,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "AL",
+   "cik": 1487712,
+   "sector": "Industrials",
+   "marketCap": 7282301390,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "ALE",
+   "cik": 66756,
+   "sector": "Utilities",
+   "marketCap": 3943712122,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "AMTM",
+   "cik": 2011286,
+   "sector": "Industrials",
+   "marketCap": 5199124327,
+   "prelim_band": "DISTRESS"
+  },
+  {
+   "symbol": "APA",
+   "cik": 1841666,
+   "sector": "Basic Materials",
+   "marketCap": 11767016300,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "ARLP",
+   "cik": 1086600,
+   "sector": "Energy",
+   "marketCap": 3145707684,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "ARWR",
+   "cik": 879407,
+   "sector": "Healthcare",
+   "marketCap": 11831988000,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "ASH",
+   "cik": 1674862,
+   "sector": "Industrials",
+   "marketCap": 2976205505,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "AVA",
+   "cik": 104918,
+   "sector": "Utilities",
+   "marketCap": 3400571395,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "AVDL",
+   "cik": 1012477,
+   "sector": "Healthcare",
+   "marketCap": 2123997811,
+   "prelim_band": "DISTRESS"
+  },
+  {
+   "symbol": "AVY",
+   "cik": 8818,
+   "sector": "Basic Materials",
+   "marketCap": 12167327928,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "AZZ",
+   "cik": 8947,
+   "sector": "Industrials",
+   "marketCap": 4229338940,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "BAX",
+   "cik": 10456,
+   "sector": "Healthcare",
+   "marketCap": 11599893740,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "BB",
+   "cik": 1070235,
+   "sector": "Technology",
+   "marketCap": 6699127823,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "BILL",
+   "cik": 1786352,
+   "sector": "Technology",
+   "marketCap": 4035658284,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "BKH",
+   "cik": 1130464,
+   "sector": "Utilities",
+   "marketCap": 5578668487,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "BLBD",
+   "cik": 1589526,
+   "sector": "Industrials",
+   "marketCap": 2473813862,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "BLD",
+   "cik": 1633931,
+   "sector": "Industrials",
+   "marketCap": 9935550448,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "BSM",
+   "cik": 1621434,
+   "sector": "Basic Materials",
+   "marketCap": 2938861170,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "BTSG",
+   "cik": 1865782,
+   "sector": "Healthcare",
+   "marketCap": 14048176272,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "BTU",
+   "cik": 1064728,
+   "sector": "Energy",
+   "marketCap": 2854571299,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "CAR",
+   "cik": 723612,
+   "sector": "Industrials",
+   "marketCap": 5640693764,
+   "prelim_band": "DISTRESS"
+  },
+  {
+   "symbol": "CC",
+   "cik": 1627223,
+   "sector": "Basic Materials",
+   "marketCap": 2615068360,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "CCCS",
+   "cik": 1818201,
+   "sector": "Technology",
+   "marketCap": 5629031450,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "CCK",
+   "cik": 1219601,
+   "sector": "Industrials",
+   "marketCap": 12259763370,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "CE",
+   "cik": 1306830,
+   "sector": "Basic Materials",
+   "marketCap": 5114660819,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "CLMT",
+   "cik": 2013745,
+   "sector": "Energy",
+   "marketCap": 3398738733,
+   "prelim_band": "DISTRESS"
+  },
+  {
+   "symbol": "CLX",
+   "cik": 21076,
+   "sector": "Basic Materials",
+   "marketCap": 11254117470,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "CNH",
+   "cik": 1567094,
+   "sector": "Industrials",
+   "marketCap": 12746691520,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "CNTA",
+   "cik": 1847903,
+   "sector": "Healthcare",
+   "marketCap": 6266618015,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "COGT",
+   "cik": 1622229,
+   "sector": "Basic Materials",
+   "marketCap": 6921862680,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "CSTM",
+   "cik": 1563411,
+   "sector": "Basic Materials",
+   "marketCap": 4035499338,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "CWAN",
+   "cik": 1866368,
+   "sector": "Technology",
+   "marketCap": 7303533807,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "CWEN",
+   "cik": 1567683,
+   "sector": "Utilities",
+   "marketCap": 6856964473,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "CWT",
+   "cik": 1035201,
+   "sector": "Utilities",
+   "marketCap": 2939393697,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "CXT",
+   "cik": 25445,
+   "sector": "Industrials",
+   "marketCap": 2874241232,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "DK",
+   "cik": 1694426,
+   "sector": "Energy",
+   "marketCap": 3437615875,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "DNB",
+   "cik": 1799208,
+   "sector": "Industrials",
+   "marketCap": 4082629277,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "DNLI",
+   "cik": 1714899,
+   "sector": "Healthcare",
+   "marketCap": 4318491944,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "DTB",
+   "cik": 936340,
+   "sector": "Utilities",
+   "marketCap": 3416297760,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "ESE",
+   "cik": 866706,
+   "sector": "Technology",
+   "marketCap": 8583823299,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "EXP",
+   "cik": 918646,
+   "sector": "Industrials",
+   "marketCap": 6352732710,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "EXTR",
+   "cik": 1078271,
+   "sector": "Technology",
+   "marketCap": 4298675753,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "FLR",
+   "cik": 1124198,
+   "sector": "Industrials",
+   "marketCap": 7012825478,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "FLYW",
+   "cik": 1580560,
+   "sector": "Industrials",
+   "marketCap": 2190232971,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "GATX",
+   "cik": 40211,
+   "sector": "Industrials",
+   "marketCap": 6211207512,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "GEO",
+   "cik": 923796,
+   "sector": "Industrials",
+   "marketCap": 4016565617,
+   "prelim_band": "DISTRESS"
+  },
+  {
+   "symbol": "GHC",
+   "cik": 104889,
+   "sector": "Industrials",
+   "marketCap": 5018307992,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "GPK",
+   "cik": 1408075,
+   "sector": "Industrials",
+   "marketCap": 3003253050,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "GTES",
+   "cik": 1718512,
+   "sector": "Industrials",
+   "marketCap": 6611618126,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "GTLS",
+   "cik": 892553,
+   "sector": "Industrials",
+   "marketCap": 10033358330,
+   "prelim_band": "DISTRESS"
+  },
+  {
+   "symbol": "HAS",
+   "cik": 46080,
+   "sector": "Industrials",
+   "marketCap": 10949988490,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "HE",
+   "cik": 354707,
+   "sector": "Utilities",
+   "marketCap": 2309864649,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "HIMS",
+   "cik": 1773751,
+   "sector": "Healthcare",
+   "marketCap": 7908186000,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "HOG",
+   "cik": 793952,
+   "sector": "Industrials",
+   "marketCap": 2615917305,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "HRB",
+   "cik": 12659,
+   "sector": "Industrials",
+   "marketCap": 4900549603,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "HUBG",
+   "cik": 940942,
+   "sector": "Industrials",
+   "marketCap": 2841136668,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "IAC",
+   "cik": 1800227,
+   "sector": "Technology",
+   "marketCap": 3535637685,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "IBP",
+   "cik": 1580905,
+   "sector": "Industrials",
+   "marketCap": 5926954000,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "IDA",
+   "cik": 1057877,
+   "sector": "Utilities",
+   "marketCap": 8200413600,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "IMNM",
+   "cik": 1472012,
+   "sector": "Healthcare",
+   "marketCap": 2310536902,
+   "prelim_band": "DISTRESS"
+  },
+  {
+   "symbol": "INDV",
+   "cik": 1625297,
+   "sector": "Basic Materials",
+   "marketCap": 5153001000,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "ITCI",
+   "cik": 1567514,
+   "sector": "Basic Materials",
+   "marketCap": 14047056140,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "JBLU",
+   "cik": 1158463,
+   "sector": "Industrials",
+   "marketCap": 2202351852,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "KBH",
+   "cik": 795266,
+   "sector": "Industrials",
+   "marketCap": 3552779422,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "KLIC",
+   "cik": 56978,
+   "sector": "Technology",
+   "marketCap": 5829359169,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "KNX",
+   "cik": 1492691,
+   "sector": "Industrials",
+   "marketCap": 12539661980,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "KVYO",
+   "cik": 1835830,
+   "sector": "Technology",
+   "marketCap": 5134144763,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "LFST",
+   "cik": 1845257,
+   "sector": "Healthcare",
+   "marketCap": 4188607200,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "MAIN",
+   "cik": 1396440,
+   "sector": "Industrials",
+   "marketCap": 4804782966,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "MAT",
+   "cik": 63276,
+   "sector": "Industrials",
+   "marketCap": 3830108000,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "MGRC",
+   "cik": 752714,
+   "sector": "Industrials",
+   "marketCap": 2814291044,
+   "prelim_band": "DISTRESS"
+  },
+  {
+   "symbol": "MMSI",
+   "cik": 856982,
+   "sector": "Healthcare",
+   "marketCap": 4262935938,
+   "prelim_band": "DISTRESS"
+  },
+  {
+   "symbol": "MRCY",
+   "cik": 1049521,
+   "sector": "Technology",
+   "marketCap": 6859945083,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "MRUS",
+   "cik": 1651311,
+   "sector": "Basic Materials",
+   "marketCap": 6825746250,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "MTDR",
+   "cik": 1520006,
+   "sector": "Basic Materials",
+   "marketCap": 6380277303,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "MTH",
+   "cik": 833079,
+   "sector": "Industrials",
+   "marketCap": 5004037815,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "MWA",
+   "cik": 1350593,
+   "sector": "Industrials",
+   "marketCap": 3897692610,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "NCLH",
+   "cik": 1513761,
+   "sector": "Industrials",
+   "marketCap": 9072013600,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "NFG",
+   "cik": 70145,
+   "sector": "Utilities",
+   "marketCap": 7509694305,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "NHC",
+   "cik": 1047335,
+   "sector": "Healthcare",
+   "marketCap": 3345405928,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "NJR",
+   "cik": 356309,
+   "sector": "Utilities",
+   "marketCap": 5841340645,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "NUVB",
+   "cik": 1811063,
+   "sector": "Healthcare",
+   "marketCap": 2121404043,
+   "prelim_band": "DISTRESS"
+  },
+  {
+   "symbol": "NWE",
+   "cik": 1993004,
+   "sector": "Utilities",
+   "marketCap": 4356611640,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "NWN",
+   "cik": 1733998,
+   "sector": "Utilities",
+   "marketCap": 2088447870,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "OCUL",
+   "cik": 1393434,
+   "sector": "Healthcare",
+   "marketCap": 2307842173,
+   "prelim_band": "DISTRESS"
+  },
+  {
+   "symbol": "OGE",
+   "cik": 1021635,
+   "sector": "Utilities",
+   "marketCap": 9965800460,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "OGN",
+   "cik": 1821825,
+   "sector": "Basic Materials",
+   "marketCap": 3542595397,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "OLN",
+   "cik": 74303,
+   "sector": "Basic Materials",
+   "marketCap": 2301215820,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "ORA",
+   "cik": 1296445,
+   "sector": "Utilities",
+   "marketCap": 6782628865,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "OTEX",
+   "cik": 1002638,
+   "sector": "Technology",
+   "marketCap": 5573954409,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "OTTR",
+   "cik": 1466593,
+   "sector": "Utilities",
+   "marketCap": 3688303185,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "PARR",
+   "cik": 821483,
+   "sector": "Basic Materials",
+   "marketCap": 3286455915,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "PBF",
+   "cik": 1534504,
+   "sector": "Energy",
+   "marketCap": 6307023949,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "PBI",
+   "cik": 78814,
+   "sector": "Technology",
+   "marketCap": 2397313223,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "PCOR",
+   "cik": 1611052,
+   "sector": "Technology",
+   "marketCap": 6642177800,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "PII",
+   "cik": 931015,
+   "sector": "Industrials",
+   "marketCap": 3744816374,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "PLUG",
+   "cik": 1093691,
+   "sector": "Industrials",
+   "marketCap": 2729575383,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "PNW",
+   "cik": 764622,
+   "sector": "Utilities",
+   "marketCap": 12940347860,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "POR",
+   "cik": 784977,
+   "sector": "Utilities",
+   "marketCap": 6039948700,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "PRVA",
+   "cik": 1759655,
+   "sector": "Healthcare",
+   "marketCap": 3499363626,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "PTCT",
+   "cik": 1070081,
+   "sector": "Basic Materials",
+   "marketCap": 7428109815,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "QURE",
+   "cik": 1590560,
+   "sector": "Healthcare",
+   "marketCap": 3025196000,
+   "prelim_band": "DISTRESS"
+  },
+  {
+   "symbol": "R",
+   "cik": 85961,
+   "sector": "Industrials",
+   "marketCap": 10432259183,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "RELY",
+   "cik": 1782170,
+   "sector": "Industrials",
+   "marketCap": 4960819045,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "REYN",
+   "cik": 1786431,
+   "sector": "Industrials",
+   "marketCap": 5486274823,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "RMBS",
+   "cik": 917273,
+   "sector": "Technology",
+   "marketCap": 12341675810,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "RPM",
+   "cik": 110621,
+   "sector": "Basic Materials",
+   "marketCap": 13191526720,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "RRC",
+   "cik": 315852,
+   "sector": "Basic Materials",
+   "marketCap": 8654405243,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "RUN",
+   "cik": 1469367,
+   "sector": "Technology",
+   "marketCap": 2972320540,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "SEDG",
+   "cik": 1419612,
+   "sector": "Technology",
+   "marketCap": 3330404742,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "SEE",
+   "cik": 1012100,
+   "sector": "Basic Materials",
+   "marketCap": 6211799263,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "SLNO",
+   "cik": 1484565,
+   "sector": "Healthcare",
+   "marketCap": 2762888939,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "SLS",
+   "cik": 1390478,
+   "sector": "Basic Materials",
+   "marketCap": 2513305830,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "SMG",
+   "cik": 825542,
+   "sector": "Basic Materials",
+   "marketCap": 3796368975,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "SPXC",
+   "cik": 88205,
+   "sector": "Industrials",
+   "marketCap": 10845546073,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "SR",
+   "cik": 1126956,
+   "sector": "Utilities",
+   "marketCap": 4763631099,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "SRPT",
+   "cik": 873303,
+   "sector": "Healthcare",
+   "marketCap": 2166419520,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "SRRK",
+   "cik": 1727196,
+   "sector": "Basic Materials",
+   "marketCap": 6942834320,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "ST",
+   "cik": 1477294,
+   "sector": "Technology",
+   "marketCap": 6509538379,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "SWI",
+   "cik": 1739942,
+   "sector": "Technology",
+   "marketCap": 3201210680,
+   "prelim_band": "DISTRESS"
+  },
+  {
+   "symbol": "SWK",
+   "cik": 93556,
+   "sector": "Industrials",
+   "marketCap": 13496652066,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "SWKS",
+   "cik": 4127,
+   "sector": "Technology",
+   "marketCap": 9016839700,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "SWX",
+   "cik": 1692115,
+   "sector": "Utilities",
+   "marketCap": 6597693423,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "TKR",
+   "cik": 98362,
+   "sector": "Industrials",
+   "marketCap": 9585377764,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "TRU",
+   "cik": 1552033,
+   "sector": "Industrials",
+   "marketCap": 14716424000,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "TTC",
+   "cik": 737758,
+   "sector": "Industrials",
+   "marketCap": 8894438476,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "TXNM",
+   "cik": 1108426,
+   "sector": "Utilities",
+   "marketCap": 6259373780,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "UCTT",
+   "cik": 1275014,
+   "sector": "Technology",
+   "marketCap": 4760322699,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "UHAL",
+   "cik": 4457,
+   "sector": "Industrials",
+   "marketCap": 13105931637,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "VERA",
+   "cik": 1831828,
+   "sector": "Healthcare",
+   "marketCap": 3047184105,
+   "prelim_band": "DISTRESS"
+  },
+  {
+   "symbol": "VICR",
+   "cik": 751978,
+   "sector": "Technology",
+   "marketCap": 12512412877,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "VKTX",
+   "cik": 1607678,
+   "sector": "Basic Materials",
+   "marketCap": 4776586153,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "VMI",
+   "cik": 102729,
+   "sector": "Industrials",
+   "marketCap": 10614052201,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "VSAT",
+   "cik": 797721,
+   "sector": "Technology",
+   "marketCap": 9613088602,
+   "prelim_band": "DISTRESS"
+  },
+  {
+   "symbol": "VVX",
+   "cik": 1601548,
+   "sector": "Industrials",
+   "marketCap": 2367698800,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "WELPM",
+   "cik": 107815,
+   "sector": "Utilities",
+   "marketCap": 2194430400,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "WEX",
+   "cik": 1309108,
+   "sector": "Industrials",
+   "marketCap": 5332993823,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "WFRD",
+   "cik": 1603923,
+   "sector": "Industrials",
+   "marketCap": 5953978983,
+   "prelim_band": "WATCH"
+  },
+  {
+   "symbol": "WK",
+   "cik": 1445305,
+   "sector": "Technology",
+   "marketCap": 2936724644,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "WTRG",
+   "cik": 78128,
+   "sector": "Utilities",
+   "marketCap": 10928378835,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "X",
+   "cik": 1163302,
+   "sector": "Basic Materials",
+   "marketCap": 12416817960,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "YOU",
+   "cik": 1856314,
+   "sector": "Technology",
+   "marketCap": 5646371704,
+   "prelim_band": "SAFE"
+  },
+  {
+   "symbol": "ZI",
+   "cik": 1794515,
+   "sector": "Technology",
+   "marketCap": 3415368000,
+   "prelim_band": "SAFE"
+  }
+ ]
+}

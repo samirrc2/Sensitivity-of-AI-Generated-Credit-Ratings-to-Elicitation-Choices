@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 4, \"rationale\": \"High leverage with Total Liabilities/Equity at 2.47 and modest operating profitability (EBIT margin under 10%) suggests a speculative-grade BB rating.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 265,
+ "out_tok": 57,
+ "usd": 0.00091,
+ "utc": "2026-07-10T14:55:01.178007+00:00"
+}

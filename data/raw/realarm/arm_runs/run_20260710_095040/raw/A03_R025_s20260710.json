@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R025",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer has moderate liquidity (current ratio \u2248 1.32) and positive profitability (net income of 142M; EBIT margin \u2248 7.6%), but leverage is relatively high (liabilities 8.218B vs. assets 10.022B; equity ratio \u2248 18%). The negative retained earnings (-748M) indicate a history of cumulative losses, which constrains confidence in long-term balance sheet strength.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 235,
+ "out_tok": 263,
+ "usd": 0.000376,
+ "utc": "2026-07-10T14:18:13.384945+00:00"
+}

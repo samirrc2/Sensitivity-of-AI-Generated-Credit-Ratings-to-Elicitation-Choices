@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows very weak liquidity (current ratio of 0.42), indicating limited near-term funding capacity and higher refinancing risk. Despite decent operating profitability (EBIT of 12,435 vs revenue 49,691), the capital structure is highly leveraged (total liabilities far exceed shareholders\u2019 equity), which would likely constrain credit quality.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 250,
+ "out_tok": 193,
+ "usd": 0.000291,
+ "utc": "2026-07-10T15:07:40.799623+00:00"
+}

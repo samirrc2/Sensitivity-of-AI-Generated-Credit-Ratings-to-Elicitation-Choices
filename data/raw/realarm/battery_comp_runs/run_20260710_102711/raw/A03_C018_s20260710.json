@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows very high leverage (total liabilities are ~96% of total assets, with equity thin at 5,987M), alongside weak liquidity (current ratio of 1.18). Profitability also appears limited (EBIT of 446M on revenue of 22,217M), suggesting only modest debt-service capacity under stress.  \n\nDECISION: CCC-",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "in_tok": 238,
+ "out_tok": 287,
+ "usd": 0.000406,
+ "utc": "2026-07-10T14:45:54.233534+00:00"
+}

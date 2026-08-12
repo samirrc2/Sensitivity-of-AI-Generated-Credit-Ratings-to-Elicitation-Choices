@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows very weak liquidity (current ratio 0.35) and high leverage (equity is only ~11% of assets), which increases default risk under stress. However, profitability appears strong (EBIT of 6,598M on revenue of 20,880M, ~32% margin), providing some support. Overall, credit quality aligns best with a high-yield profile.\n\nDECISION: B+",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 251,
+ "usd": 0.00036,
+ "utc": "2026-07-10T15:03:23.600089+00:00"
+}

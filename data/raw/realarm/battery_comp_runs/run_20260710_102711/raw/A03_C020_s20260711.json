@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C020",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid cumulative profitability (large retained earnings and positive equity) and reasonable operating profitability (EBIT of 5,004M on revenue of 36,381M). However, liquidity is slightly weak with a current ratio below 1 (0.91), and leverage is elevated given total liabilities of 298,517M versus total assets of 404,258M, which increases financial risk. Overall, these factors point to a speculative-grade rating with some cushion from equity but limited liquidity flexibility.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 240,
+ "out_tok": 237,
+ "usd": 0.000344,
+ "utc": "2026-07-10T14:48:05.183736+00:00"
+}

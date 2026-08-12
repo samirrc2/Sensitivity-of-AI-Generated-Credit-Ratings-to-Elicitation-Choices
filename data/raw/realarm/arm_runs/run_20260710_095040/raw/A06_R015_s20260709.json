@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R015",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows strong balance sheet liquidity with a current ratio of 2.85, a solid equity base of 2,427M, and positive retained earnings of 2,930M. However, despite positive net income of 644M (likely driven by non-operating items or tax benefits), the company suffers from a massive operating loss of -988M (operating margin of -42%), indicating severe stress in its core operations. This combination of strong current solvency but highly unprofitable core operations places the issuer in the speculative grade.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 236,
+ "out_tok": 123,
+ "usd": 0.001461,
+ "utc": "2026-07-10T14:07:12.906257+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C021",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's Q1 2026 financial profile reveals exceptional profitability, highlighted by a 70% gross margin and a 48% operating margin (operating income of $2,002M), alongside a highly robust capital structure with total assets ($60,792M) comfortably exceeding total liabilities ($24,587M) and substantial retained earnings of $24,804M. However, the company exhibits short-term liquidity pressure, evidenced by a current ratio of 0.68 (current assets of $6,320M versus current liabilities of $9,335M), which prevents a top-tier AAA/AA rating. Given the combination of elite profitability, strong solvency, and moderate short-term working capital mismatch, the issuer warrants a high-upper-medium grade investment rating.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "in_tok": 285,
+ "out_tok": 188,
+ "usd": 0.002119,
+ "utc": "2026-07-10T14:49:43.535485+00:00"
+}

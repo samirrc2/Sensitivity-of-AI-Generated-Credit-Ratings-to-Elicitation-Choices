@@ -1,0 +1,4952 @@
+[
+ {
+  "item_id": "C001",
+  "family": "credit_health",
+  "ticker": "ACN",
+  "cell_date": "2026-03-20",
+  "asof": "2026-03-19",
+  "period": "2026 Q2",
+  "facts_text": "Fiscal period 2026 Q2 (filed 2026-03-19). Revenue 18,044M, gross margin 30%, operating income 2,494M (operating margin 14%), net income 1,859M, diluted EPS 2.93. Total assets 67,064M, total liabilities 34,289M, shareholders' equity 31,211M. Current assets 28,007M vs current liabilities 20,957M (current ratio 1.34), retained earnings 22,804M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "18,044M"
+   ],
+   [
+    "EBIT / operating income",
+    "2,494M"
+   ],
+   [
+    "Total assets",
+    "67,064M"
+   ],
+   [
+    "Total liabilities",
+    "34,289M"
+   ],
+   [
+    "Shareholders' equity",
+    "31,211M"
+   ],
+   [
+    "Current assets",
+    "28,007M"
+   ],
+   [
+    "Current liabilities",
+    "20,957M"
+   ],
+   [
+    "Retained earnings",
+    "22,804M"
+   ],
+   [
+    "Current ratio",
+    "1.34"
+   ]
+  ],
+  "benchmark_label": "SAFE",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "ACN|2026-03-20",
+   "facts_file": "docs/ACN_2026-03-20.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C002",
+  "family": "credit_health",
+  "ticker": "SCHW",
+  "cell_date": "2026-05-22",
+  "asof": "2026-05-08",
+  "period": "2026 Q1",
+  "facts_text": "Fiscal period 2026 Q1 (filed 2026-05-08). Revenue 7,300M, gross margin 89%, operating income 3,188M (operating margin 44%), net income 2,479M, diluted EPS 1.37. Total assets 493,319M, total liabilities 444,085M, shareholders' equity 49,234M. Current assets 186,246M vs current liabilities 15,003M (current ratio 12.41), retained earnings 45,912M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "7,300M"
+   ],
+   [
+    "EBIT / operating income",
+    "3,188M"
+   ],
+   [
+    "Total assets",
+    "493,319M"
+   ],
+   [
+    "Total liabilities",
+    "444,085M"
+   ],
+   [
+    "Shareholders' equity",
+    "49,234M"
+   ],
+   [
+    "Current assets",
+    "186,246M"
+   ],
+   [
+    "Current liabilities",
+    "15,003M"
+   ],
+   [
+    "Retained earnings",
+    "45,912M"
+   ],
+   [
+    "Current ratio",
+    "12.41"
+   ]
+  ],
+  "benchmark_label": "SAFE",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "SCHW|2026-05-22",
+   "facts_file": "docs/SCHW_2026-05-22.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C003",
+  "family": "credit_health",
+  "ticker": "COP",
+  "cell_date": "2026-01-23",
+  "asof": "2025-11-06",
+  "period": "2025 Q3",
+  "facts_text": "Fiscal period 2025 Q3 (filed 2025-11-06). Revenue 14,969M, gross margin 23%, operating income 2,702M (operating margin 18%), net income 1,726M, diluted EPS 1.38. Total assets 122,472M, total liabilities 57,549M, shareholders' equity 64,923M. Current assets 15,884M vs current liabilities 12,009M (current ratio 1.32), retained earnings 68,459M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "14,969M"
+   ],
+   [
+    "EBIT / operating income",
+    "2,702M"
+   ],
+   [
+    "Total assets",
+    "122,472M"
+   ],
+   [
+    "Total liabilities",
+    "57,549M"
+   ],
+   [
+    "Shareholders' equity",
+    "64,923M"
+   ],
+   [
+    "Current assets",
+    "15,884M"
+   ],
+   [
+    "Current liabilities",
+    "12,009M"
+   ],
+   [
+    "Retained earnings",
+    "68,459M"
+   ],
+   [
+    "Current ratio",
+    "1.32"
+   ]
+  ],
+  "benchmark_label": "SAFE",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "COP|2026-01-23",
+   "facts_file": "docs/COP_2026-01-23.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C004",
+  "family": "credit_health",
+  "ticker": "TSLA",
+  "cell_date": "2026-05-01",
+  "asof": "2026-04-23",
+  "period": "2026 Q1",
+  "facts_text": "Fiscal period 2026 Q1 (filed 2026-04-23). Revenue 22,387M, gross margin 21%, operating income 941M (operating margin 4%), net income 491M, diluted EPS 0.13. Total assets 143,724M, total liabilities 58,979M, shareholders' equity 84,113M. Current assets 69,748M vs current liabilities 34,138M (current ratio 2.04), retained earnings 39,480M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "22,387M"
+   ],
+   [
+    "EBIT / operating income",
+    "941M"
+   ],
+   [
+    "Total assets",
+    "143,724M"
+   ],
+   [
+    "Total liabilities",
+    "58,979M"
+   ],
+   [
+    "Shareholders' equity",
+    "84,113M"
+   ],
+   [
+    "Current assets",
+    "69,748M"
+   ],
+   [
+    "Current liabilities",
+    "34,138M"
+   ],
+   [
+    "Retained earnings",
+    "39,480M"
+   ],
+   [
+    "Current ratio",
+    "2.04"
+   ]
+  ],
+  "benchmark_label": "SAFE",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "TSLA|2026-05-01",
+   "facts_file": "docs/TSLA_2026-05-01.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C005",
+  "family": "credit_health",
+  "ticker": "LLY",
+  "cell_date": "2026-01-09",
+  "asof": "2025-10-30",
+  "period": "2025 Q3",
+  "facts_text": "Fiscal period 2025 Q3 (filed 2025-10-30). Revenue 17,601M, gross margin 83%, operating income 8,386M (operating margin 48%), net income 5,582M, diluted EPS 6.21. Total assets 114,935M, total liabilities 91,085M, shareholders' equity 23,793M. Current assets 62,071M vs current liabilities 40,141M (current ratio 1.55), retained earnings 22,252M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "17,601M"
+   ],
+   [
+    "EBIT / operating income",
+    "8,386M"
+   ],
+   [
+    "Total assets",
+    "114,935M"
+   ],
+   [
+    "Total liabilities",
+    "91,085M"
+   ],
+   [
+    "Shareholders' equity",
+    "23,793M"
+   ],
+   [
+    "Current assets",
+    "62,071M"
+   ],
+   [
+    "Current liabilities",
+    "40,141M"
+   ],
+   [
+    "Retained earnings",
+    "22,252M"
+   ],
+   [
+    "Current ratio",
+    "1.55"
+   ]
+  ],
+  "benchmark_label": "SAFE",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "LLY|2026-01-09",
+   "facts_file": "docs/LLY_2026-01-09.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C006",
+  "family": "credit_health",
+  "ticker": "DHR",
+  "cell_date": "2026-01-09",
+  "asof": "2025-10-21",
+  "period": "2025 Q3",
+  "facts_text": "Fiscal period 2025 Q3 (filed 2025-10-21). Revenue 6,053M, gross margin 58%, operating income 1,154M (operating margin 19%), net income 908M, diluted EPS 1.27. Total assets 79,897M, total liabilities 28,826M, shareholders' equity 51,071M. Current assets 9,606M vs current liabilities 6,324M (current ratio 1.52), retained earnings 45,920M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "6,053M"
+   ],
+   [
+    "EBIT / operating income",
+    "1,154M"
+   ],
+   [
+    "Total assets",
+    "79,897M"
+   ],
+   [
+    "Total liabilities",
+    "28,826M"
+   ],
+   [
+    "Shareholders' equity",
+    "51,071M"
+   ],
+   [
+    "Current assets",
+    "9,606M"
+   ],
+   [
+    "Current liabilities",
+    "6,324M"
+   ],
+   [
+    "Retained earnings",
+    "45,920M"
+   ],
+   [
+    "Current ratio",
+    "1.52"
+   ]
+  ],
+  "benchmark_label": "SAFE",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "DHR|2026-01-09",
+   "facts_file": "docs/DHR_2026-01-09.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C007",
+  "family": "credit_health",
+  "ticker": "JNJ",
+  "cell_date": "2026-02-06",
+  "asof": "2025-10-22",
+  "period": "2025 Q3",
+  "facts_text": "Fiscal period 2025 Q3 (filed 2025-10-22). Revenue 23,993M, gross margin 70%, operating income 7,096M (operating margin 30%), net income 5,152M, diluted EPS 2.12. Total assets 192,816M, total liabilities 113,539M, shareholders' equity 79,277M. Current assets 54,611M vs current liabilities 50,869M (current ratio 1.07), retained earnings 167,281M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "23,993M"
+   ],
+   [
+    "EBIT / operating income",
+    "7,096M"
+   ],
+   [
+    "Total assets",
+    "192,816M"
+   ],
+   [
+    "Total liabilities",
+    "113,539M"
+   ],
+   [
+    "Shareholders' equity",
+    "79,277M"
+   ],
+   [
+    "Current assets",
+    "54,611M"
+   ],
+   [
+    "Current liabilities",
+    "50,869M"
+   ],
+   [
+    "Retained earnings",
+    "167,281M"
+   ],
+   [
+    "Current ratio",
+    "1.07"
+   ]
+  ],
+  "benchmark_label": "SAFE",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "JNJ|2026-02-06",
+   "facts_file": "docs/JNJ_2026-02-06.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C008",
+  "family": "credit_health",
+  "ticker": "MO",
+  "cell_date": "2026-01-09",
+  "asof": "2025-10-30",
+  "period": "2025 Q3",
+  "facts_text": "Fiscal period 2025 Q3 (filed 2025-10-30). Revenue 5,251M, gross margin 73%, operating income 3,230M (operating margin 62%), net income 2,375M, diluted EPS 1.41. Total assets 35,008M, total liabilities 37,604M, shareholders' equity -2,646M. Current assets 5,119M vs current liabilities 8,286M (current ratio 0.62), retained earnings 36,115M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "5,251M"
+   ],
+   [
+    "EBIT / operating income",
+    "3,230M"
+   ],
+   [
+    "Total assets",
+    "35,008M"
+   ],
+   [
+    "Total liabilities",
+    "37,604M"
+   ],
+   [
+    "Shareholders' equity",
+    "-2,646M"
+   ],
+   [
+    "Current assets",
+    "5,119M"
+   ],
+   [
+    "Current liabilities",
+    "8,286M"
+   ],
+   [
+    "Retained earnings",
+    "36,115M"
+   ],
+   [
+    "Current ratio",
+    "0.62"
+   ]
+  ],
+  "benchmark_label": "SAFE",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "MO|2026-01-09",
+   "facts_file": "docs/MO_2026-01-09.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C009",
+  "family": "credit_health",
+  "ticker": "NEM",
+  "cell_date": "2026-04-17",
+  "asof": "2026-02-19",
+  "period": "2025 Q4",
+  "facts_text": "Fiscal period 2025 Q4 (filed 2026-02-19). Revenue 6,571M, gross margin 59%, operating income 3,688M (operating margin 56%), net income 1,301M, diluted EPS 1.21. Total assets 57,121M, total liabilities 23,079M, shareholders' equity 33,867M. Current assets 13,066M vs current liabilities 5,712M (current ratio 2.29), retained earnings 3,431M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "6,571M"
+   ],
+   [
+    "EBIT / operating income",
+    "3,688M"
+   ],
+   [
+    "Total assets",
+    "57,121M"
+   ],
+   [
+    "Total liabilities",
+    "23,079M"
+   ],
+   [
+    "Shareholders' equity",
+    "33,867M"
+   ],
+   [
+    "Current assets",
+    "13,066M"
+   ],
+   [
+    "Current liabilities",
+    "5,712M"
+   ],
+   [
+    "Retained earnings",
+    "3,431M"
+   ],
+   [
+    "Current ratio",
+    "2.29"
+   ]
+  ],
+  "benchmark_label": "SAFE",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "NEM|2026-04-17",
+   "facts_file": "docs/NEM_2026-04-17.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C010",
+  "family": "credit_health",
+  "ticker": "EOG",
+  "cell_date": "2026-04-03",
+  "asof": "2026-02-24",
+  "period": "2025 Q4",
+  "facts_text": "Fiscal period 2025 Q4 (filed 2026-02-24). Revenue 5,638M, gross margin 78%, operating income 2,489M (operating margin 44%), net income 701M, diluted EPS 1.3. Total assets 51,799M, total liabilities 21,966M, shareholders' equity 29,833M. Current assets 7,091M vs current liabilities 3,702M (current ratio 1.92), retained earnings 29,765M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "5,638M"
+   ],
+   [
+    "EBIT / operating income",
+    "2,489M"
+   ],
+   [
+    "Total assets",
+    "51,799M"
+   ],
+   [
+    "Total liabilities",
+    "21,966M"
+   ],
+   [
+    "Shareholders' equity",
+    "29,833M"
+   ],
+   [
+    "Current assets",
+    "7,091M"
+   ],
+   [
+    "Current liabilities",
+    "3,702M"
+   ],
+   [
+    "Retained earnings",
+    "29,765M"
+   ],
+   [
+    "Current ratio",
+    "1.92"
+   ]
+  ],
+  "benchmark_label": "SAFE",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "EOG|2026-04-03",
+   "facts_file": "docs/EOG_2026-04-03.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C011",
+  "family": "credit_health",
+  "ticker": "ABT",
+  "cell_date": "2026-05-01",
+  "asof": "2026-04-29",
+  "period": "2026 Q1",
+  "facts_text": "Fiscal period 2026 Q1 (filed 2026-04-29). Revenue 11,164M, gross margin 56%, operating income 1,842M (operating margin 16%), net income 1,077M, diluted EPS 0.62. Total assets 110,429M, total liabilities 57,728M, shareholders' equity 52,061M. Current assets 25,508M vs current liabilities 18,377M (current ratio 1.39), retained earnings 49,956M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "11,164M"
+   ],
+   [
+    "EBIT / operating income",
+    "1,842M"
+   ],
+   [
+    "Total assets",
+    "110,429M"
+   ],
+   [
+    "Total liabilities",
+    "57,728M"
+   ],
+   [
+    "Shareholders' equity",
+    "52,061M"
+   ],
+   [
+    "Current assets",
+    "25,508M"
+   ],
+   [
+    "Current liabilities",
+    "18,377M"
+   ],
+   [
+    "Retained earnings",
+    "49,956M"
+   ],
+   [
+    "Current ratio",
+    "1.39"
+   ]
+  ],
+  "benchmark_label": "SAFE",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "ABT|2026-05-01",
+   "facts_file": "docs/ABT_2026-05-01.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C012",
+  "family": "credit_health",
+  "ticker": "MSFT",
+  "cell_date": "2026-05-15",
+  "asof": "2026-04-29",
+  "period": "2026 Q3",
+  "facts_text": "Fiscal period 2026 Q3 (filed 2026-04-29). Revenue 82,886M, gross margin 68%, operating income 38,398M (operating margin 46%), net income 31,778M, diluted EPS 4.27. Total assets 694,228M, total liabilities 279,861M, shareholders' equity 414,367M. Current assets 175,329M vs current liabilities 136,661M (current ratio 1.28), retained earnings 302,526M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "82,886M"
+   ],
+   [
+    "EBIT / operating income",
+    "38,398M"
+   ],
+   [
+    "Total assets",
+    "694,228M"
+   ],
+   [
+    "Total liabilities",
+    "279,861M"
+   ],
+   [
+    "Shareholders' equity",
+    "414,367M"
+   ],
+   [
+    "Current assets",
+    "175,329M"
+   ],
+   [
+    "Current liabilities",
+    "136,661M"
+   ],
+   [
+    "Retained earnings",
+    "302,526M"
+   ],
+   [
+    "Current ratio",
+    "1.28"
+   ]
+  ],
+  "benchmark_label": "SAFE",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "MSFT|2026-05-15",
+   "facts_file": "docs/MSFT_2026-05-15.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C013",
+  "family": "credit_health",
+  "ticker": "TMO",
+  "cell_date": "2026-05-22",
+  "asof": "2026-05-01",
+  "period": "2026 Q1",
+  "facts_text": "Fiscal period 2026 Q1 (filed 2026-05-01). Revenue 11,005M, gross margin 41%, operating income 1,863M (operating margin 17%), net income 1,651M, diluted EPS 4.43. Total assets 113,281M, total liabilities 61,341M, shareholders' equity 51,940M. Current assets 22,316M vs current liabilities 14,621M (current ratio 1.53), retained earnings 60,632M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "11,005M"
+   ],
+   [
+    "EBIT / operating income",
+    "1,863M"
+   ],
+   [
+    "Total assets",
+    "113,281M"
+   ],
+   [
+    "Total liabilities",
+    "61,341M"
+   ],
+   [
+    "Shareholders' equity",
+    "51,940M"
+   ],
+   [
+    "Current assets",
+    "22,316M"
+   ],
+   [
+    "Current liabilities",
+    "14,621M"
+   ],
+   [
+    "Retained earnings",
+    "60,632M"
+   ],
+   [
+    "Current ratio",
+    "1.53"
+   ]
+  ],
+  "benchmark_label": "SAFE",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "TMO|2026-05-22",
+   "facts_file": "docs/TMO_2026-05-22.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C014",
+  "family": "credit_health",
+  "ticker": "PSX",
+  "cell_date": "2026-03-20",
+  "asof": "2026-02-20",
+  "period": "2025 Q4",
+  "facts_text": "Fiscal period 2025 Q4 (filed 2026-02-20). Revenue 34,015M, gross margin 6%, operating income 1,498M (operating margin 4%), net income 2,906M, diluted EPS 7.17. Total assets 73,680M, total liabilities 43,439M, shareholders' equity 29,093M. Current assets 17,271M vs current liabilities 13,326M (current ratio 1.30), retained earnings 33,239M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "34,015M"
+   ],
+   [
+    "EBIT / operating income",
+    "1,498M"
+   ],
+   [
+    "Total assets",
+    "73,680M"
+   ],
+   [
+    "Total liabilities",
+    "43,439M"
+   ],
+   [
+    "Shareholders' equity",
+    "29,093M"
+   ],
+   [
+    "Current assets",
+    "17,271M"
+   ],
+   [
+    "Current liabilities",
+    "13,326M"
+   ],
+   [
+    "Retained earnings",
+    "33,239M"
+   ],
+   [
+    "Current ratio",
+    "1.30"
+   ]
+  ],
+  "benchmark_label": "SAFE",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "PSX|2026-03-20",
+   "facts_file": "docs/PSX_2026-03-20.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C015",
+  "family": "credit_health",
+  "ticker": "CAT",
+  "cell_date": "2026-05-01",
+  "asof": "2026-02-13",
+  "period": "2025 Q4",
+  "facts_text": "Fiscal period 2025 Q4 (filed 2026-02-13). Revenue 19,133M, gross margin 29%, operating income 2,660M (operating margin 14%), net income 2,401M, diluted EPS 5.12. Total assets 98,585M, total liabilities 77,267M, shareholders' equity 21,318M. Current assets 52,485M vs current liabilities 36,558M (current ratio 1.44), retained earnings 65,448M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "19,133M"
+   ],
+   [
+    "EBIT / operating income",
+    "2,660M"
+   ],
+   [
+    "Total assets",
+    "98,585M"
+   ],
+   [
+    "Total liabilities",
+    "77,267M"
+   ],
+   [
+    "Shareholders' equity",
+    "21,318M"
+   ],
+   [
+    "Current assets",
+    "52,485M"
+   ],
+   [
+    "Current liabilities",
+    "36,558M"
+   ],
+   [
+    "Retained earnings",
+    "65,448M"
+   ],
+   [
+    "Current ratio",
+    "1.44"
+   ]
+  ],
+  "benchmark_label": "SAFE",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "CAT|2026-05-01",
+   "facts_file": "docs/CAT_2026-05-01.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C016",
+  "family": "credit_health",
+  "ticker": "PEP",
+  "cell_date": "2026-05-22",
+  "asof": "2026-04-16",
+  "period": "2026 Q1",
+  "facts_text": "Fiscal period 2026 Q1 (filed 2026-04-16). Revenue 19,443M, gross margin 55%, operating income 3,213M (operating margin 17%), net income 2,338M, diluted EPS 1.7. Total assets 110,646M, total liabilities 89,110M, shareholders' equity 21,383M. Current assets 30,916M vs current liabilities 34,477M (current ratio 0.90), retained earnings 73,165M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "19,443M"
+   ],
+   [
+    "EBIT / operating income",
+    "3,213M"
+   ],
+   [
+    "Total assets",
+    "110,646M"
+   ],
+   [
+    "Total liabilities",
+    "89,110M"
+   ],
+   [
+    "Shareholders' equity",
+    "21,383M"
+   ],
+   [
+    "Current assets",
+    "30,916M"
+   ],
+   [
+    "Current liabilities",
+    "34,477M"
+   ],
+   [
+    "Retained earnings",
+    "73,165M"
+   ],
+   [
+    "Current ratio",
+    "0.90"
+   ]
+  ],
+  "benchmark_label": "WATCH",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "PEP|2026-05-22",
+   "facts_file": "docs/PEP_2026-05-22.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C017",
+  "family": "credit_health",
+  "ticker": "AVGO",
+  "cell_date": "2026-02-20",
+  "asof": "2025-12-18",
+  "period": "2025 Q4",
+  "facts_text": "Fiscal period 2025 Q4 (filed 2025-12-18). Revenue 18,015M, gross margin 68%, operating income 7,508M (operating margin 42%), net income 8,518M, diluted EPS 1.74. Total assets 171,092M, total liabilities 89,800M, shareholders' equity 81,292M. Current assets 31,573M vs current liabilities 18,514M (current ratio 1.71), retained earnings 9,761M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "18,015M"
+   ],
+   [
+    "EBIT / operating income",
+    "7,508M"
+   ],
+   [
+    "Total assets",
+    "171,092M"
+   ],
+   [
+    "Total liabilities",
+    "89,800M"
+   ],
+   [
+    "Shareholders' equity",
+    "81,292M"
+   ],
+   [
+    "Current assets",
+    "31,573M"
+   ],
+   [
+    "Current liabilities",
+    "18,514M"
+   ],
+   [
+    "Retained earnings",
+    "9,761M"
+   ],
+   [
+    "Current ratio",
+    "1.71"
+   ]
+  ],
+  "benchmark_label": "WATCH",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "AVGO|2026-02-20",
+   "facts_file": "docs/AVGO_2026-02-20.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C018",
+  "family": "credit_health",
+  "ticker": "BA",
+  "cell_date": "2026-05-15",
+  "asof": "2026-04-22",
+  "period": "2026 Q1",
+  "facts_text": "Fiscal period 2026 Q1 (filed 2026-04-22). Revenue 22,217M, gross margin 11%, operating income 446M (operating margin 2%), net income -4M, diluted EPS -0.11. Total assets 164,787M, total liabilities 158,800M, shareholders' equity 5,987M. Current assets 124,141M vs current liabilities 105,547M (current ratio 1.18), retained earnings 17,162M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "22,217M"
+   ],
+   [
+    "EBIT / operating income",
+    "446M"
+   ],
+   [
+    "Total assets",
+    "164,787M"
+   ],
+   [
+    "Total liabilities",
+    "158,800M"
+   ],
+   [
+    "Shareholders' equity",
+    "5,987M"
+   ],
+   [
+    "Current assets",
+    "124,141M"
+   ],
+   [
+    "Current liabilities",
+    "105,547M"
+   ],
+   [
+    "Retained earnings",
+    "17,162M"
+   ],
+   [
+    "Current ratio",
+    "1.18"
+   ]
+  ],
+  "benchmark_label": "WATCH",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "BA|2026-05-15",
+   "facts_file": "docs/BA_2026-05-15.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C019",
+  "family": "credit_health",
+  "ticker": "UPS",
+  "cell_date": "2026-04-17",
+  "asof": "2026-02-17",
+  "period": "2025 Q4",
+  "facts_text": "Fiscal period 2025 Q4 (filed 2026-02-17). Revenue 24,479M, gross margin 21%, operating income 2,575M (operating margin 11%), net income 1,791M, diluted EPS 2.1. Total assets 73,090M, total liabilities 56,835M, shareholders' equity 16,227M. Current assets 19,045M vs current liabilities 15,620M (current ratio 1.22), retained earnings 20,151M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "24,479M"
+   ],
+   [
+    "EBIT / operating income",
+    "2,575M"
+   ],
+   [
+    "Total assets",
+    "73,090M"
+   ],
+   [
+    "Total liabilities",
+    "56,835M"
+   ],
+   [
+    "Shareholders' equity",
+    "16,227M"
+   ],
+   [
+    "Current assets",
+    "19,045M"
+   ],
+   [
+    "Current liabilities",
+    "15,620M"
+   ],
+   [
+    "Retained earnings",
+    "20,151M"
+   ],
+   [
+    "Current ratio",
+    "1.22"
+   ]
+  ],
+  "benchmark_label": "WATCH",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "UPS|2026-04-17",
+   "facts_file": "docs/UPS_2026-04-17.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C020",
+  "family": "credit_health",
+  "ticker": "VZ",
+  "cell_date": "2026-04-17",
+  "asof": "2026-02-17",
+  "period": "2025 Q4",
+  "facts_text": "Fiscal period 2025 Q4 (filed 2026-02-17). Revenue 36,381M, gross margin 80%, operating income 5,004M (operating margin 14%), net income 2,342M, diluted EPS 0.55. Total assets 404,258M, total liabilities 298,517M, shareholders' equity 104,460M. Current assets 56,922M vs current liabilities 62,370M (current ratio 0.91), retained earnings 94,744M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "36,381M"
+   ],
+   [
+    "EBIT / operating income",
+    "5,004M"
+   ],
+   [
+    "Total assets",
+    "404,258M"
+   ],
+   [
+    "Total liabilities",
+    "298,517M"
+   ],
+   [
+    "Shareholders' equity",
+    "104,460M"
+   ],
+   [
+    "Current assets",
+    "56,922M"
+   ],
+   [
+    "Current liabilities",
+    "62,370M"
+   ],
+   [
+    "Retained earnings",
+    "94,744M"
+   ],
+   [
+    "Current ratio",
+    "0.91"
+   ]
+  ],
+  "benchmark_label": "WATCH",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "VZ|2026-04-17",
+   "facts_file": "docs/VZ_2026-04-17.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C021",
+  "family": "credit_health",
+  "ticker": "SPGI",
+  "cell_date": "2026-05-29",
+  "asof": "2026-04-28",
+  "period": "2026 Q1",
+  "facts_text": "Fiscal period 2026 Q1 (filed 2026-04-28). Revenue 4,171M, gross margin 70%, operating income 2,002M (operating margin 48%), net income 1,395M, diluted EPS 4.69. Total assets 60,792M, total liabilities 24,587M, shareholders' equity 31,173M. Current assets 6,320M vs current liabilities 9,335M (current ratio 0.68), retained earnings 24,804M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "4,171M"
+   ],
+   [
+    "EBIT / operating income",
+    "2,002M"
+   ],
+   [
+    "Total assets",
+    "60,792M"
+   ],
+   [
+    "Total liabilities",
+    "24,587M"
+   ],
+   [
+    "Shareholders' equity",
+    "31,173M"
+   ],
+   [
+    "Current assets",
+    "6,320M"
+   ],
+   [
+    "Current liabilities",
+    "9,335M"
+   ],
+   [
+    "Retained earnings",
+    "24,804M"
+   ],
+   [
+    "Current ratio",
+    "0.68"
+   ]
+  ],
+  "benchmark_label": "WATCH",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "SPGI|2026-05-29",
+   "facts_file": "docs/SPGI_2026-05-29.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C022",
+  "family": "credit_health",
+  "ticker": "MDLZ",
+  "cell_date": "2026-02-06",
+  "asof": "2026-02-04",
+  "period": "2025 Q4",
+  "facts_text": "Fiscal period 2025 Q4 (filed 2026-02-04). Revenue 10,496M, gross margin 28%, operating income 979M (operating margin 9%), net income 665M, diluted EPS 0.51. Total assets 71,487M, total liabilities 45,596M, shareholders' equity 25,838M. Current assets 12,951M vs current liabilities 21,864M (current ratio 0.59), retained earnings 36,413M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "10,496M"
+   ],
+   [
+    "EBIT / operating income",
+    "979M"
+   ],
+   [
+    "Total assets",
+    "71,487M"
+   ],
+   [
+    "Total liabilities",
+    "45,596M"
+   ],
+   [
+    "Shareholders' equity",
+    "25,838M"
+   ],
+   [
+    "Current assets",
+    "12,951M"
+   ],
+   [
+    "Current liabilities",
+    "21,864M"
+   ],
+   [
+    "Retained earnings",
+    "36,413M"
+   ],
+   [
+    "Current ratio",
+    "0.59"
+   ]
+  ],
+  "benchmark_label": "WATCH",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "MDLZ|2026-02-06",
+   "facts_file": "docs/MDLZ_2026-02-06.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C023",
+  "family": "credit_health",
+  "ticker": "GE",
+  "cell_date": "2026-04-17",
+  "asof": "2026-01-29",
+  "period": "2025 Q4",
+  "facts_text": "Fiscal period 2025 Q4 (filed 2026-01-29). Revenue 12,717M, gross margin 34%, operating income 2,359M (operating margin 19%), net income 2,540M, diluted EPS 2.38. Total assets 130,169M, total liabilities 111,269M, shareholders' equity 18,677M. Current assets 40,596M vs current liabilities 38,980M (current ratio 1.04), retained earnings 87,663M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "12,717M"
+   ],
+   [
+    "EBIT / operating income",
+    "2,359M"
+   ],
+   [
+    "Total assets",
+    "130,169M"
+   ],
+   [
+    "Total liabilities",
+    "111,269M"
+   ],
+   [
+    "Shareholders' equity",
+    "18,677M"
+   ],
+   [
+    "Current assets",
+    "40,596M"
+   ],
+   [
+    "Current liabilities",
+    "38,980M"
+   ],
+   [
+    "Retained earnings",
+    "87,663M"
+   ],
+   [
+    "Current ratio",
+    "1.04"
+   ]
+  ],
+  "benchmark_label": "WATCH",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "GE|2026-04-17",
+   "facts_file": "docs/GE_2026-04-17.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C024",
+  "family": "credit_health",
+  "ticker": "OXY",
+  "cell_date": "2026-04-03",
+  "asof": "2026-02-18",
+  "period": "2025 Q4",
+  "facts_text": "Fiscal period 2025 Q4 (filed 2026-02-18). Revenue 5,013M, gross margin 28%, operating income 467M (operating margin 9%), net income 102M, diluted EPS -0.0688. Total assets 86,783M, total liabilities 50,185M, shareholders' equity 36,034M. Current assets 8,827M vs current liabilities 9,428M (current ratio 0.94), retained earnings 21,891M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "5,013M"
+   ],
+   [
+    "EBIT / operating income",
+    "467M"
+   ],
+   [
+    "Total assets",
+    "86,783M"
+   ],
+   [
+    "Total liabilities",
+    "50,185M"
+   ],
+   [
+    "Shareholders' equity",
+    "36,034M"
+   ],
+   [
+    "Current assets",
+    "8,827M"
+   ],
+   [
+    "Current liabilities",
+    "9,428M"
+   ],
+   [
+    "Retained earnings",
+    "21,891M"
+   ],
+   [
+    "Current ratio",
+    "0.94"
+   ]
+  ],
+  "benchmark_label": "WATCH",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "OXY|2026-04-03",
+   "facts_file": "docs/OXY_2026-04-03.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C025",
+  "family": "credit_health",
+  "ticker": "HON",
+  "cell_date": "2026-05-01",
+  "asof": "2026-04-23",
+  "period": "2026 Q1",
+  "facts_text": "Fiscal period 2026 Q1 (filed 2026-04-23). Revenue 9,143M, gross margin 39%, operating income 886M (operating margin 10%), net income 821M, diluted EPS 2.58. Total assets 73,988M, total liabilities 52,676M, shareholders' equity 21,312M. Current assets 30,590M vs current liabilities 22,085M (current ratio 1.39), retained earnings 0M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "9,143M"
+   ],
+   [
+    "EBIT / operating income",
+    "886M"
+   ],
+   [
+    "Total assets",
+    "73,988M"
+   ],
+   [
+    "Total liabilities",
+    "52,676M"
+   ],
+   [
+    "Shareholders' equity",
+    "21,312M"
+   ],
+   [
+    "Current assets",
+    "30,590M"
+   ],
+   [
+    "Current liabilities",
+    "22,085M"
+   ],
+   [
+    "Retained earnings",
+    "0M"
+   ],
+   [
+    "Current ratio",
+    "1.39"
+   ]
+  ],
+  "benchmark_label": "WATCH",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "HON|2026-05-01",
+   "facts_file": "docs/HON_2026-05-01.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C026",
+  "family": "credit_health",
+  "ticker": "BMY",
+  "cell_date": "2026-01-09",
+  "asof": "2025-10-30",
+  "period": "2025 Q3",
+  "facts_text": "Fiscal period 2025 Q3 (filed 2025-10-30). Revenue 12,222M, gross margin 72%, operating income 3,639M (operating margin 30%), net income 2,201M, diluted EPS 1.08. Total assets 96,889M, total liabilities 78,289M, shareholders' equity 18,552M. Current assets 35,630M vs current liabilities 28,136M (current ratio 1.27), retained earnings 17,093M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "12,222M"
+   ],
+   [
+    "EBIT / operating income",
+    "3,639M"
+   ],
+   [
+    "Total assets",
+    "96,889M"
+   ],
+   [
+    "Total liabilities",
+    "78,289M"
+   ],
+   [
+    "Shareholders' equity",
+    "18,552M"
+   ],
+   [
+    "Current assets",
+    "35,630M"
+   ],
+   [
+    "Current liabilities",
+    "28,136M"
+   ],
+   [
+    "Retained earnings",
+    "17,093M"
+   ],
+   [
+    "Current ratio",
+    "1.27"
+   ]
+  ],
+  "benchmark_label": "WATCH",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "BMY|2026-01-09",
+   "facts_file": "docs/BMY_2026-01-09.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C027",
+  "family": "credit_health",
+  "ticker": "EQIX",
+  "cell_date": "2026-05-29",
+  "asof": "2026-04-29",
+  "period": "2026 Q1",
+  "facts_text": "Fiscal period 2026 Q1 (filed 2026-04-29). Revenue 2,444M, gross margin 51%, operating income 577M (operating margin 24%), net income 415M, diluted EPS 4.2. Total assets 40,898M, total liabilities 26,603M, shareholders' equity 14,298M. Current assets 5,346M vs current liabilities 4,538M (current ratio 1.18), retained earnings 6,514M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "2,444M"
+   ],
+   [
+    "EBIT / operating income",
+    "577M"
+   ],
+   [
+    "Total assets",
+    "40,898M"
+   ],
+   [
+    "Total liabilities",
+    "26,603M"
+   ],
+   [
+    "Shareholders' equity",
+    "14,298M"
+   ],
+   [
+    "Current assets",
+    "5,346M"
+   ],
+   [
+    "Current liabilities",
+    "4,538M"
+   ],
+   [
+    "Retained earnings",
+    "6,514M"
+   ],
+   [
+    "Current ratio",
+    "1.18"
+   ]
+  ],
+  "benchmark_label": "WATCH",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "EQIX|2026-05-29",
+   "facts_file": "docs/EQIX_2026-05-29.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C028",
+  "family": "credit_health",
+  "ticker": "AMZN",
+  "cell_date": "2026-05-22",
+  "asof": "2026-04-30",
+  "period": "2026 Q1",
+  "facts_text": "Fiscal period 2026 Q1 (filed 2026-04-30). Revenue 181,519M, gross margin 52%, operating income 23,852M (operating margin 13%), net income 30,255M, diluted EPS 2.78. Total assets 916,630M, total liabilities 474,716M, shareholders' equity 441,914M. Current assets 255,155M vs current liabilities 216,756M (current ratio 1.18), retained earnings 280,791M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "181,519M"
+   ],
+   [
+    "EBIT / operating income",
+    "23,852M"
+   ],
+   [
+    "Total assets",
+    "916,630M"
+   ],
+   [
+    "Total liabilities",
+    "474,716M"
+   ],
+   [
+    "Shareholders' equity",
+    "441,914M"
+   ],
+   [
+    "Current assets",
+    "255,155M"
+   ],
+   [
+    "Current liabilities",
+    "216,756M"
+   ],
+   [
+    "Retained earnings",
+    "280,791M"
+   ],
+   [
+    "Current ratio",
+    "1.18"
+   ]
+  ],
+  "benchmark_label": "WATCH",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "AMZN|2026-05-22",
+   "facts_file": "docs/AMZN_2026-05-22.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C029",
+  "family": "credit_health",
+  "ticker": "ECL",
+  "cell_date": "2026-05-29",
+  "asof": "2026-05-07",
+  "period": "2026 Q1",
+  "facts_text": "Fiscal period 2026 Q1 (filed 2026-05-07). Revenue 4,066M, gross margin 44%, operating income 622M (operating margin 15%), net income 433M, diluted EPS 1.52. Total assets 25,041M, total liabilities 15,009M, shareholders' equity 10,004M. Current assets 6,043M vs current liabilities 6,096M (current ratio 0.99), retained earnings 13,060M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "4,066M"
+   ],
+   [
+    "EBIT / operating income",
+    "622M"
+   ],
+   [
+    "Total assets",
+    "25,041M"
+   ],
+   [
+    "Total liabilities",
+    "15,009M"
+   ],
+   [
+    "Shareholders' equity",
+    "10,004M"
+   ],
+   [
+    "Current assets",
+    "6,043M"
+   ],
+   [
+    "Current liabilities",
+    "6,096M"
+   ],
+   [
+    "Retained earnings",
+    "13,060M"
+   ],
+   [
+    "Current ratio",
+    "0.99"
+   ]
+  ],
+  "benchmark_label": "WATCH",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "ECL|2026-05-29",
+   "facts_file": "docs/ECL_2026-05-29.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C030",
+  "family": "credit_health",
+  "ticker": "FCX",
+  "cell_date": "2026-04-17",
+  "asof": "2026-02-13",
+  "period": "2025 Q4",
+  "facts_text": "Fiscal period 2025 Q4 (filed 2026-02-13). Revenue 5,633M, gross margin 18%, operating income 811M (operating margin 14%), net income 406M, diluted EPS 0.28. Total assets 58,167M, total liabilities 27,401M, shareholders' equity 18,899M. Current assets 13,790M vs current liabilities 6,019M (current ratio 2.29), retained earnings 1,385M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "5,633M"
+   ],
+   [
+    "EBIT / operating income",
+    "811M"
+   ],
+   [
+    "Total assets",
+    "58,167M"
+   ],
+   [
+    "Total liabilities",
+    "27,401M"
+   ],
+   [
+    "Shareholders' equity",
+    "18,899M"
+   ],
+   [
+    "Current assets",
+    "13,790M"
+   ],
+   [
+    "Current liabilities",
+    "6,019M"
+   ],
+   [
+    "Retained earnings",
+    "1,385M"
+   ],
+   [
+    "Current ratio",
+    "2.29"
+   ]
+  ],
+  "benchmark_label": "WATCH",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "FCX|2026-04-17",
+   "facts_file": "docs/FCX_2026-04-17.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C031",
+  "family": "credit_health",
+  "ticker": "WFC",
+  "cell_date": "2026-05-22",
+  "asof": "2026-04-29",
+  "period": "2026 Q1",
+  "facts_text": "Fiscal period 2026 Q1 (filed 2026-04-29). Revenue 31,795M, gross margin 64%, operating income 5,851M (operating margin 18%), net income 5,290M, diluted EPS 1.6. Total assets 2,205,752M, total liabilities 2,025,439M, shareholders' equity 178,396M. Current assets 612,094M vs current liabilities 1,775,239M (current ratio 0.34), retained earnings 232,459M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "31,795M"
+   ],
+   [
+    "EBIT / operating income",
+    "5,851M"
+   ],
+   [
+    "Total assets",
+    "2,205,752M"
+   ],
+   [
+    "Total liabilities",
+    "2,025,439M"
+   ],
+   [
+    "Shareholders' equity",
+    "178,396M"
+   ],
+   [
+    "Current assets",
+    "612,094M"
+   ],
+   [
+    "Current liabilities",
+    "1,775,239M"
+   ],
+   [
+    "Retained earnings",
+    "232,459M"
+   ],
+   [
+    "Current ratio",
+    "0.34"
+   ]
+  ],
+  "benchmark_label": "DISTRESS",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "WFC|2026-05-22",
+   "facts_file": "docs/WFC_2026-05-22.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C032",
+  "family": "credit_health",
+  "ticker": "AXP",
+  "cell_date": "2026-05-29",
+  "asof": "2026-04-23",
+  "period": "2026 Q1",
+  "facts_text": "Fiscal period 2026 Q1 (filed 2026-04-23). Revenue 20,880M, gross margin 85%, operating income 6,598M (operating margin 32%), net income 2,971M, diluted EPS 4.28. Total assets 308,894M, total liabilities 274,899M, shareholders' equity 33,995M. Current assets 56,524M vs current liabilities 159,640M (current ratio 0.35), retained earnings 26,088M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "20,880M"
+   ],
+   [
+    "EBIT / operating income",
+    "6,598M"
+   ],
+   [
+    "Total assets",
+    "308,894M"
+   ],
+   [
+    "Total liabilities",
+    "274,899M"
+   ],
+   [
+    "Shareholders' equity",
+    "33,995M"
+   ],
+   [
+    "Current assets",
+    "56,524M"
+   ],
+   [
+    "Current liabilities",
+    "159,640M"
+   ],
+   [
+    "Retained earnings",
+    "26,088M"
+   ],
+   [
+    "Current ratio",
+    "0.35"
+   ]
+  ],
+  "benchmark_label": "DISTRESS",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "AXP|2026-05-29",
+   "facts_file": "docs/AXP_2026-05-29.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C033",
+  "family": "credit_health",
+  "ticker": "LOW",
+  "cell_date": "2026-05-29",
+  "asof": "2026-05-28",
+  "period": "2026 Q1",
+  "facts_text": "Fiscal period 2026 Q1 (filed 2026-05-28). Revenue 23,078M, gross margin 33%, operating income 2,554M (operating margin 11%), net income 1,628M, diluted EPS 2.9. Total assets 54,941M, total liabilities 64,211M, shareholders' equity -9,270M. Current assets 22,162M vs current liabilities 20,274M (current ratio 1.09), retained earnings -9,884M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "23,078M"
+   ],
+   [
+    "EBIT / operating income",
+    "2,554M"
+   ],
+   [
+    "Total assets",
+    "54,941M"
+   ],
+   [
+    "Total liabilities",
+    "64,211M"
+   ],
+   [
+    "Shareholders' equity",
+    "-9,270M"
+   ],
+   [
+    "Current assets",
+    "22,162M"
+   ],
+   [
+    "Current liabilities",
+    "20,274M"
+   ],
+   [
+    "Retained earnings",
+    "-9,884M"
+   ],
+   [
+    "Current ratio",
+    "1.09"
+   ]
+  ],
+  "benchmark_label": "DISTRESS",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "LOW|2026-05-29",
+   "facts_file": "docs/LOW_2026-05-29.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C034",
+  "family": "credit_health",
+  "ticker": "WMB",
+  "cell_date": "2026-03-06",
+  "asof": "2026-02-24",
+  "period": "2025 Q4",
+  "facts_text": "Fiscal period 2025 Q4 (filed 2026-02-24). Revenue 3,198M, gross margin 47%, operating income 1,307M (operating margin 41%), net income 734M, diluted EPS 0.6. Total assets 58,573M, total liabilities 43,578M, shareholders' equity 12,807M. Current assets 3,244M vs current liabilities 6,106M (current ratio 0.53), retained earnings -12,237M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "3,198M"
+   ],
+   [
+    "EBIT / operating income",
+    "1,307M"
+   ],
+   [
+    "Total assets",
+    "58,573M"
+   ],
+   [
+    "Total liabilities",
+    "43,578M"
+   ],
+   [
+    "Shareholders' equity",
+    "12,807M"
+   ],
+   [
+    "Current assets",
+    "3,244M"
+   ],
+   [
+    "Current liabilities",
+    "6,106M"
+   ],
+   [
+    "Retained earnings",
+    "-12,237M"
+   ],
+   [
+    "Current ratio",
+    "0.53"
+   ]
+  ],
+  "benchmark_label": "DISTRESS",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "WMB|2026-03-06",
+   "facts_file": "docs/WMB_2026-03-06.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C035",
+  "family": "credit_health",
+  "ticker": "BAC",
+  "cell_date": "2026-03-20",
+  "asof": "2026-02-25",
+  "period": "2025 Q4",
+  "facts_text": "Fiscal period 2025 Q4 (filed 2026-02-25). Revenue 49,691M, gross margin 60%, operating income 12,435M (operating margin 25%), net income 7,528M, diluted EPS 0.97. Total assets 3,410,394M, total liabilities 3,107,151M, shareholders' equity 303,243M. Current assets 1,067,083M vs current liabilities 2,559,605M (current ratio 0.42), retained earnings 261,693M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "49,691M"
+   ],
+   [
+    "EBIT / operating income",
+    "12,435M"
+   ],
+   [
+    "Total assets",
+    "3,410,394M"
+   ],
+   [
+    "Total liabilities",
+    "3,107,151M"
+   ],
+   [
+    "Shareholders' equity",
+    "303,243M"
+   ],
+   [
+    "Current assets",
+    "1,067,083M"
+   ],
+   [
+    "Current liabilities",
+    "2,559,605M"
+   ],
+   [
+    "Retained earnings",
+    "261,693M"
+   ],
+   [
+    "Current ratio",
+    "0.42"
+   ]
+  ],
+  "benchmark_label": "DISTRESS",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "BAC|2026-03-20",
+   "facts_file": "docs/BAC_2026-03-20.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C036",
+  "family": "credit_health",
+  "ticker": "XEL",
+  "cell_date": "2026-02-06",
+  "asof": "2025-10-30",
+  "period": "2025 Q3",
+  "facts_text": "Fiscal period 2025 Q3 (filed 2025-10-30). Revenue 3,915M, gross margin 53%, operating income 749M (operating margin 19%), net income 524M, diluted EPS 0.9. Total assets 79,154M, total liabilities 57,973M, shareholders' equity 21,181M. Current assets 5,681M vs current liabilities 7,148M (current ratio 0.79), retained earnings 8,995M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "3,915M"
+   ],
+   [
+    "EBIT / operating income",
+    "749M"
+   ],
+   [
+    "Total assets",
+    "79,154M"
+   ],
+   [
+    "Total liabilities",
+    "57,973M"
+   ],
+   [
+    "Shareholders' equity",
+    "21,181M"
+   ],
+   [
+    "Current assets",
+    "5,681M"
+   ],
+   [
+    "Current liabilities",
+    "7,148M"
+   ],
+   [
+    "Retained earnings",
+    "8,995M"
+   ],
+   [
+    "Current ratio",
+    "0.79"
+   ]
+  ],
+  "benchmark_label": "DISTRESS",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "XEL|2026-02-06",
+   "facts_file": "docs/XEL_2026-02-06.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C037",
+  "family": "credit_health",
+  "ticker": "DLR",
+  "cell_date": "2026-05-15",
+  "asof": "2026-05-01",
+  "period": "2026 Q1",
+  "facts_text": "Fiscal period 2026 Q1 (filed 2026-05-01). Revenue 1,635M, gross margin -4%, operating income 283M (operating margin 17%), net income 179M, diluted EPS 0.46. Total assets 48,860M, total liabilities 23,463M, shareholders' equity 23,369M. Current assets 3,857M vs current liabilities 3,862M (current ratio 1.00), retained earnings -6,947M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "1,635M"
+   ],
+   [
+    "EBIT / operating income",
+    "283M"
+   ],
+   [
+    "Total assets",
+    "48,860M"
+   ],
+   [
+    "Total liabilities",
+    "23,463M"
+   ],
+   [
+    "Shareholders' equity",
+    "23,369M"
+   ],
+   [
+    "Current assets",
+    "3,857M"
+   ],
+   [
+    "Current liabilities",
+    "3,862M"
+   ],
+   [
+    "Retained earnings",
+    "-6,947M"
+   ],
+   [
+    "Current ratio",
+    "1.00"
+   ]
+  ],
+  "benchmark_label": "DISTRESS",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "DLR|2026-05-15",
+   "facts_file": "docs/DLR_2026-05-15.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C038",
+  "family": "credit_health",
+  "ticker": "AMT",
+  "cell_date": "2026-03-06",
+  "asof": "2026-02-24",
+  "period": "2025 Q4",
+  "facts_text": "Fiscal period 2025 Q4 (filed 2026-02-24). Revenue 2,738M, gross margin 71%, operating income 1,161M (operating margin 42%), net income 821M, diluted EPS 1.75. Total assets 63,190M, total liabilities 52,835M, shareholders' equity 3,652M. Current assets 2,495M vs current liabilities 3,973M (current ratio 0.63), retained earnings -5,086M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "2,738M"
+   ],
+   [
+    "EBIT / operating income",
+    "1,161M"
+   ],
+   [
+    "Total assets",
+    "63,190M"
+   ],
+   [
+    "Total liabilities",
+    "52,835M"
+   ],
+   [
+    "Shareholders' equity",
+    "3,652M"
+   ],
+   [
+    "Current assets",
+    "2,495M"
+   ],
+   [
+    "Current liabilities",
+    "3,973M"
+   ],
+   [
+    "Retained earnings",
+    "-5,086M"
+   ],
+   [
+    "Current ratio",
+    "0.63"
+   ]
+  ],
+  "benchmark_label": "DISTRESS",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "AMT|2026-03-06",
+   "facts_file": "docs/AMT_2026-03-06.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C039",
+  "family": "credit_health",
+  "ticker": "GS",
+  "cell_date": "2026-04-17",
+  "asof": "2026-02-25",
+  "period": "2025 Q4",
+  "facts_text": "Fiscal period 2025 Q4 (filed 2026-02-25). Revenue 30,125M, gross margin 52%, operating income 5,855M (operating margin 19%), net income 4,617M, diluted EPS 14.0. Total assets 1,809,320M, total liabilities 1,684,348M, shareholders' equity 124,972M. Current assets 1,018,577M vs current liabilities 1,226,809M (current ratio 0.83), retained earnings 165,288M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "30,125M"
+   ],
+   [
+    "EBIT / operating income",
+    "5,855M"
+   ],
+   [
+    "Total assets",
+    "1,809,320M"
+   ],
+   [
+    "Total liabilities",
+    "1,684,348M"
+   ],
+   [
+    "Shareholders' equity",
+    "124,972M"
+   ],
+   [
+    "Current assets",
+    "1,018,577M"
+   ],
+   [
+    "Current liabilities",
+    "1,226,809M"
+   ],
+   [
+    "Retained earnings",
+    "165,288M"
+   ],
+   [
+    "Current ratio",
+    "0.83"
+   ]
+  ],
+  "benchmark_label": "DISTRESS",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "GS|2026-04-17",
+   "facts_file": "docs/GS_2026-04-17.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C040",
+  "family": "credit_health",
+  "ticker": "DUK",
+  "cell_date": "2026-02-06",
+  "asof": "2025-11-07",
+  "period": "2025 Q3",
+  "facts_text": "Fiscal period 2025 Q3 (filed 2025-11-07). Revenue 8,669M, gross margin 99%, operating income 2,334M (operating margin 27%), net income 1,421M, diluted EPS 1.81. Total assets 192,293M, total liabilities 139,666M, shareholders' equity 51,462M. Current assets 12,208M vs current liabilities 19,405M (current ratio 0.63), retained earnings 4,718M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "8,669M"
+   ],
+   [
+    "EBIT / operating income",
+    "2,334M"
+   ],
+   [
+    "Total assets",
+    "192,293M"
+   ],
+   [
+    "Total liabilities",
+    "139,666M"
+   ],
+   [
+    "Shareholders' equity",
+    "51,462M"
+   ],
+   [
+    "Current assets",
+    "12,208M"
+   ],
+   [
+    "Current liabilities",
+    "19,405M"
+   ],
+   [
+    "Retained earnings",
+    "4,718M"
+   ],
+   [
+    "Current ratio",
+    "0.63"
+   ]
+  ],
+  "benchmark_label": "DISTRESS",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "DUK|2026-02-06",
+   "facts_file": "docs/DUK_2026-02-06.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C041",
+  "family": "credit_health",
+  "ticker": "NEE",
+  "cell_date": "2026-01-23",
+  "asof": "2025-10-28",
+  "period": "2025 Q3",
+  "facts_text": "Fiscal period 2025 Q3 (filed 2025-10-28). Revenue 7,966M, gross margin 66%, operating income 2,527M (operating margin 32%), net income 2,438M, diluted EPS 1.18. Total assets 204,354M, total liabilities 139,758M, shareholders' equity 54,181M. Current assets 12,671M vs current liabilities 22,911M (current ratio 0.55), retained earnings 34,747M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "7,966M"
+   ],
+   [
+    "EBIT / operating income",
+    "2,527M"
+   ],
+   [
+    "Total assets",
+    "204,354M"
+   ],
+   [
+    "Total liabilities",
+    "139,758M"
+   ],
+   [
+    "Shareholders' equity",
+    "54,181M"
+   ],
+   [
+    "Current assets",
+    "12,671M"
+   ],
+   [
+    "Current liabilities",
+    "22,911M"
+   ],
+   [
+    "Retained earnings",
+    "34,747M"
+   ],
+   [
+    "Current ratio",
+    "0.55"
+   ]
+  ],
+  "benchmark_label": "DISTRESS",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "NEE|2026-01-23",
+   "facts_file": "docs/NEE_2026-01-23.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C042",
+  "family": "credit_health",
+  "ticker": "SBUX",
+  "cell_date": "2026-05-29",
+  "asof": "2026-04-28",
+  "period": "2026 Q2",
+  "facts_text": "Fiscal period 2026 Q2 (filed 2026-04-28). Revenue 9,532M, gross margin 20%, operating income 777M (operating margin 8%), net income 511M, diluted EPS 0.45. Total assets 30,558M, total liabilities 39,015M, shareholders' equity -8,465M. Current assets 10,559M vs current liabilities 11,449M (current ratio 0.92), retained earnings -8,881M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "9,532M"
+   ],
+   [
+    "EBIT / operating income",
+    "777M"
+   ],
+   [
+    "Total assets",
+    "30,558M"
+   ],
+   [
+    "Total liabilities",
+    "39,015M"
+   ],
+   [
+    "Shareholders' equity",
+    "-8,465M"
+   ],
+   [
+    "Current assets",
+    "10,559M"
+   ],
+   [
+    "Current liabilities",
+    "11,449M"
+   ],
+   [
+    "Retained earnings",
+    "-8,881M"
+   ],
+   [
+    "Current ratio",
+    "0.92"
+   ]
+  ],
+  "benchmark_label": "DISTRESS",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "SBUX|2026-05-29",
+   "facts_file": "docs/SBUX_2026-05-29.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C043",
+  "family": "credit_health",
+  "ticker": "TGT",
+  "cell_date": "2026-01-09",
+  "asof": "2025-11-26",
+  "period": "2025 Q3",
+  "facts_text": "Fiscal period 2025 Q3 (filed 2025-11-26). Revenue 25,270M, gross margin 28%, operating income 948M (operating margin 4%), net income 689M, diluted EPS 1.51. Total assets 59,991M, total liabilities 44,490M, shareholders' equity 15,501M. Current assets 20,702M vs current liabilities 21,242M (current ratio 0.97), retained earnings 8,777M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "25,270M"
+   ],
+   [
+    "EBIT / operating income",
+    "948M"
+   ],
+   [
+    "Total assets",
+    "59,991M"
+   ],
+   [
+    "Total liabilities",
+    "44,490M"
+   ],
+   [
+    "Shareholders' equity",
+    "15,501M"
+   ],
+   [
+    "Current assets",
+    "20,702M"
+   ],
+   [
+    "Current liabilities",
+    "21,242M"
+   ],
+   [
+    "Retained earnings",
+    "8,777M"
+   ],
+   [
+    "Current ratio",
+    "0.97"
+   ]
+  ],
+  "benchmark_label": "DISTRESS",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "TGT|2026-01-09",
+   "facts_file": "docs/TGT_2026-01-09.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C044",
+  "family": "credit_health",
+  "ticker": "CCI",
+  "cell_date": "2026-05-29",
+  "asof": "2026-05-07",
+  "period": "2026 Q1",
+  "facts_text": "Fiscal period 2026 Q1 (filed 2026-05-07). Revenue 1,010M, gross margin 74%, operating income 465M (operating margin 46%), net income 151M, diluted EPS 0.34. Total assets 31,391M, total liabilities 33,311M, shareholders' equity -1,920M. Current assets 1,254M vs current liabilities 4,705M (current ratio 0.27), retained earnings -20,476M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "1,010M"
+   ],
+   [
+    "EBIT / operating income",
+    "465M"
+   ],
+   [
+    "Total assets",
+    "31,391M"
+   ],
+   [
+    "Total liabilities",
+    "33,311M"
+   ],
+   [
+    "Shareholders' equity",
+    "-1,920M"
+   ],
+   [
+    "Current assets",
+    "1,254M"
+   ],
+   [
+    "Current liabilities",
+    "4,705M"
+   ],
+   [
+    "Retained earnings",
+    "-20,476M"
+   ],
+   [
+    "Current ratio",
+    "0.27"
+   ]
+  ],
+  "benchmark_label": "DISTRESS",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "CCI|2026-05-29",
+   "facts_file": "docs/CCI_2026-05-29.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "C045",
+  "family": "credit_health",
+  "ticker": "AEP",
+  "cell_date": "2026-05-29",
+  "asof": "2026-05-05",
+  "period": "2026 Q1",
+  "facts_text": "Fiscal period 2026 Q1 (filed 2026-05-05). Revenue 6,020M, gross margin 65%, operating income 1,360M (operating margin 23%), net income 874M, diluted EPS 1.6. Total assets 117,776M, total liabilities 84,798M, shareholders' equity 31,808M. Current assets 6,623M vs current liabilities 12,594M (current ratio 0.53), retained earnings 15,795M.",
+  "facts_kv": [
+   [
+    "Revenue",
+    "6,020M"
+   ],
+   [
+    "EBIT / operating income",
+    "1,360M"
+   ],
+   [
+    "Total assets",
+    "117,776M"
+   ],
+   [
+    "Total liabilities",
+    "84,798M"
+   ],
+   [
+    "Shareholders' equity",
+    "31,808M"
+   ],
+   [
+    "Current assets",
+    "6,623M"
+   ],
+   [
+    "Current liabilities",
+    "12,594M"
+   ],
+   [
+    "Retained earnings",
+    "15,795M"
+   ],
+   [
+    "Current ratio",
+    "0.53"
+   ]
+  ],
+  "benchmark_label": "DISTRESS",
+  "label_space": [
+   "SAFE",
+   "WATCH",
+   "DISTRESS"
+  ],
+  "abstain_label": null,
+  "gt_source": "altman_z_prime_prime",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "AEP|2026-05-29",
+   "facts_file": "docs/AEP_2026-05-29.json",
+   "label_file": "data/outcomes/ground_truth.json"
+  }
+ },
+ {
+  "item_id": "D046",
+  "family": "directional",
+  "ticker": "MRK",
+  "cell_date": "2026-03-20",
+  "asof": "2026-03-19",
+  "period": null,
+  "facts_text": "Price action as of 2026-03-19: 1w -1.5%, 1m -6.1%, 3m +16.2%. Last close 114.20. 21d annualized realized volatility 23%. Position in trailing 63-day range: 61% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "114.20"
+   ],
+   [
+    "21d realized vol",
+    "23%"
+   ],
+   [
+    "Range position (63d)",
+    "61%"
+   ],
+   [
+    "Return 1w",
+    "-1.5%"
+   ],
+   [
+    "Return 1m",
+    "-6.1%"
+   ],
+   [
+    "Return 3m",
+    "+16.2%"
+   ]
+  ],
+  "benchmark_label": "BUY",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "MRK|2026-03-20",
+   "facts_file": "inputs/MRK_2026-03-20.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D047",
+  "family": "directional",
+  "ticker": "WMT",
+  "cell_date": "2026-03-20",
+  "asof": "2026-03-19",
+  "period": null,
+  "facts_text": "Price action as of 2026-03-19: 1w -3.4%, 1m -4.4%, 3m +4.9%. Last close 121.09. 21d annualized realized volatility 24%. Position in trailing 63-day range: 44% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "121.09"
+   ],
+   [
+    "21d realized vol",
+    "24%"
+   ],
+   [
+    "Range position (63d)",
+    "44%"
+   ],
+   [
+    "Return 1w",
+    "-3.4%"
+   ],
+   [
+    "Return 1m",
+    "-4.4%"
+   ],
+   [
+    "Return 3m",
+    "+4.9%"
+   ]
+  ],
+  "benchmark_label": "BUY",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "WMT|2026-03-20",
+   "facts_file": "inputs/WMT_2026-03-20.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D048",
+  "family": "directional",
+  "ticker": "BLK",
+  "cell_date": "2026-04-03",
+  "asof": "2026-04-02",
+  "period": null,
+  "facts_text": "Price action as of 2026-04-02: 1w -0.2%, 1m -7.9%, 3m -9.7%. Last close 966.56. 21d annualized realized volatility 38%. Position in trailing 63-day range: 18% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "966.56"
+   ],
+   [
+    "21d realized vol",
+    "38%"
+   ],
+   [
+    "Range position (63d)",
+    "18%"
+   ],
+   [
+    "Return 1w",
+    "-0.2%"
+   ],
+   [
+    "Return 1m",
+    "-7.9%"
+   ],
+   [
+    "Return 3m",
+    "-9.7%"
+   ]
+  ],
+  "benchmark_label": "BUY",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "BLK|2026-04-03",
+   "facts_file": "inputs/BLK_2026-04-03.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D049",
+  "family": "directional",
+  "ticker": "BKNG",
+  "cell_date": "2026-02-20",
+  "asof": "2026-02-19",
+  "period": null,
+  "facts_text": "Price action as of 2026-02-19: 1w -7.1%, 1m -20.3%, 3m -16.6%. Last close 160.30. 21d annualized realized volatility 52%. Position in trailing 63-day range: 0% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "160.30"
+   ],
+   [
+    "21d realized vol",
+    "52%"
+   ],
+   [
+    "Range position (63d)",
+    "0%"
+   ],
+   [
+    "Return 1w",
+    "-7.1%"
+   ],
+   [
+    "Return 1m",
+    "-20.3%"
+   ],
+   [
+    "Return 3m",
+    "-16.6%"
+   ]
+  ],
+  "benchmark_label": "BUY",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "BKNG|2026-02-20",
+   "facts_file": "inputs/BKNG_2026-02-20.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D050",
+  "family": "directional",
+  "ticker": "ORCL",
+  "cell_date": "2026-02-06",
+  "asof": "2026-02-05",
+  "period": null,
+  "facts_text": "Price action as of 2026-02-05: 1w -19.2%, 1m -29.6%, 3m -45.0%. Last close 136.48. 21d annualized realized volatility 55%. Position in trailing 63-day range: 0% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "136.48"
+   ],
+   [
+    "21d realized vol",
+    "55%"
+   ],
+   [
+    "Range position (63d)",
+    "0%"
+   ],
+   [
+    "Return 1w",
+    "-19.2%"
+   ],
+   [
+    "Return 1m",
+    "-29.6%"
+   ],
+   [
+    "Return 3m",
+    "-45.0%"
+   ]
+  ],
+  "benchmark_label": "BUY",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "ORCL|2026-02-06",
+   "facts_file": "inputs/ORCL_2026-02-06.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D051",
+  "family": "directional",
+  "ticker": "CSCO",
+  "cell_date": "2026-05-01",
+  "asof": "2026-04-30",
+  "period": null,
+  "facts_text": "Price action as of 2026-04-30: 1w +3.3%, 1m +17.9%, 3m +16.7%. Last close 91.50. 21d annualized realized volatility 27%. Position in trailing 63-day range: 100% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "91.50"
+   ],
+   [
+    "21d realized vol",
+    "27%"
+   ],
+   [
+    "Range position (63d)",
+    "100%"
+   ],
+   [
+    "Return 1w",
+    "+3.3%"
+   ],
+   [
+    "Return 1m",
+    "+17.9%"
+   ],
+   [
+    "Return 3m",
+    "+16.7%"
+   ]
+  ],
+  "benchmark_label": "BUY",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "CSCO|2026-05-01",
+   "facts_file": "inputs/CSCO_2026-05-01.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D052",
+  "family": "directional",
+  "ticker": "CRM",
+  "cell_date": "2026-04-03",
+  "asof": "2026-04-02",
+  "period": null,
+  "facts_text": "Price action as of 2026-04-02: 1w +0.9%, 1m -3.1%, 3m -29.3%. Last close 187.18. 21d annualized realized volatility 38%. Position in trailing 63-day range: 10% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "187.18"
+   ],
+   [
+    "21d realized vol",
+    "38%"
+   ],
+   [
+    "Range position (63d)",
+    "10%"
+   ],
+   [
+    "Return 1w",
+    "+0.9%"
+   ],
+   [
+    "Return 1m",
+    "-3.1%"
+   ],
+   [
+    "Return 3m",
+    "-29.3%"
+   ]
+  ],
+  "benchmark_label": "BUY",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "CRM|2026-04-03",
+   "facts_file": "inputs/CRM_2026-04-03.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D053",
+  "family": "directional",
+  "ticker": "GOOGL",
+  "cell_date": "2026-03-20",
+  "asof": "2026-03-19",
+  "period": null,
+  "facts_text": "Price action as of 2026-03-19: 1w +1.2%, 1m +1.3%, 3m +0.2%. Last close 307.13. 21d annualized realized volatility 23%. Position in trailing 63-day range: 22% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "307.13"
+   ],
+   [
+    "21d realized vol",
+    "23%"
+   ],
+   [
+    "Range position (63d)",
+    "22%"
+   ],
+   [
+    "Return 1w",
+    "+1.2%"
+   ],
+   [
+    "Return 1m",
+    "+1.3%"
+   ],
+   [
+    "Return 3m",
+    "+0.2%"
+   ]
+  ],
+  "benchmark_label": "BUY",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "GOOGL|2026-03-20",
+   "facts_file": "inputs/GOOGL_2026-03-20.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D054",
+  "family": "directional",
+  "ticker": "AAPL",
+  "cell_date": "2026-03-06",
+  "asof": "2026-03-05",
+  "period": null,
+  "facts_text": "Price action as of 2026-03-05: 1w -4.6%, 1m -3.4%, 3m -9.0%. Last close 260.29. 21d annualized realized volatility 30%. Position in trailing 63-day range: 36% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "260.29"
+   ],
+   [
+    "21d realized vol",
+    "30%"
+   ],
+   [
+    "Range position (63d)",
+    "36%"
+   ],
+   [
+    "Return 1w",
+    "-4.6%"
+   ],
+   [
+    "Return 1m",
+    "-3.4%"
+   ],
+   [
+    "Return 3m",
+    "-9.0%"
+   ]
+  ],
+  "benchmark_label": "BUY",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "AAPL|2026-03-06",
+   "facts_file": "inputs/AAPL_2026-03-06.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D055",
+  "family": "directional",
+  "ticker": "NVDA",
+  "cell_date": "2026-03-20",
+  "asof": "2026-03-19",
+  "period": null,
+  "facts_text": "Price action as of 2026-03-19: 1w -2.5%, 1m -5.0%, 3m +0.5%. Last close 178.56. 21d annualized realized volatility 34%. Position in trailing 63-day range: 31% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "178.56"
+   ],
+   [
+    "21d realized vol",
+    "34%"
+   ],
+   [
+    "Range position (63d)",
+    "31%"
+   ],
+   [
+    "Return 1w",
+    "-2.5%"
+   ],
+   [
+    "Return 1m",
+    "-5.0%"
+   ],
+   [
+    "Return 3m",
+    "+0.5%"
+   ]
+  ],
+  "benchmark_label": "BUY",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "NVDA|2026-03-20",
+   "facts_file": "inputs/NVDA_2026-03-20.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D056",
+  "family": "directional",
+  "ticker": "DOW",
+  "cell_date": "2026-04-17",
+  "asof": "2026-04-16",
+  "period": null,
+  "facts_text": "Price action as of 2026-04-16: 1w +4.9%, 1m +8.2%, 3m +41.3%. Last close 39.92. 21d annualized realized volatility 44%. Position in trailing 63-day range: 87% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "39.92"
+   ],
+   [
+    "21d realized vol",
+    "44%"
+   ],
+   [
+    "Range position (63d)",
+    "87%"
+   ],
+   [
+    "Return 1w",
+    "+4.9%"
+   ],
+   [
+    "Return 1m",
+    "+8.2%"
+   ],
+   [
+    "Return 3m",
+    "+41.3%"
+   ]
+  ],
+  "benchmark_label": "BUY",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "DOW|2026-04-17",
+   "facts_file": "inputs/DOW_2026-04-17.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D057",
+  "family": "directional",
+  "ticker": "D",
+  "cell_date": "2026-05-15",
+  "asof": "2026-05-14",
+  "period": null,
+  "facts_text": "Price action as of 2026-05-14: 1w +2.2%, 1m +0.9%, 3m -3.3%. Last close 62.97. 21d annualized realized volatility 19%. Position in trailing 63-day range: 50% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "62.97"
+   ],
+   [
+    "21d realized vol",
+    "19%"
+   ],
+   [
+    "Range position (63d)",
+    "50%"
+   ],
+   [
+    "Return 1w",
+    "+2.2%"
+   ],
+   [
+    "Return 1m",
+    "+0.9%"
+   ],
+   [
+    "Return 3m",
+    "-3.3%"
+   ]
+  ],
+  "benchmark_label": "BUY",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "D|2026-05-15",
+   "facts_file": "inputs/D_2026-05-15.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D058",
+  "family": "directional",
+  "ticker": "CL",
+  "cell_date": "2026-01-23",
+  "asof": "2026-01-22",
+  "period": null,
+  "facts_text": "Price action as of 2026-01-22: 1w +1.5%, 1m +9.5%, 3m +9.1%. Last close 85.81. 21d annualized realized volatility 22%. Position in trailing 63-day range: 100% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "85.81"
+   ],
+   [
+    "21d realized vol",
+    "22%"
+   ],
+   [
+    "Range position (63d)",
+    "100%"
+   ],
+   [
+    "Return 1w",
+    "+1.5%"
+   ],
+   [
+    "Return 1m",
+    "+9.5%"
+   ],
+   [
+    "Return 3m",
+    "+9.1%"
+   ]
+  ],
+  "benchmark_label": "BUY",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "CL|2026-01-23",
+   "facts_file": "inputs/CL_2026-01-23.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D059",
+  "family": "directional",
+  "ticker": "DE",
+  "cell_date": "2026-05-15",
+  "asof": "2026-05-14",
+  "period": null,
+  "facts_text": "Price action as of 2026-05-14: 1w -1.0%, 1m -0.3%, 3m -3.9%. Last close 574.64. 21d annualized realized volatility 33%. Position in trailing 63-day range: 18% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "574.64"
+   ],
+   [
+    "21d realized vol",
+    "33%"
+   ],
+   [
+    "Range position (63d)",
+    "18%"
+   ],
+   [
+    "Return 1w",
+    "-1.0%"
+   ],
+   [
+    "Return 1m",
+    "-0.3%"
+   ],
+   [
+    "Return 3m",
+    "-3.9%"
+   ]
+  ],
+  "benchmark_label": "BUY",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "DE|2026-05-15",
+   "facts_file": "inputs/DE_2026-05-15.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D060",
+  "family": "directional",
+  "ticker": "MS",
+  "cell_date": "2026-04-03",
+  "asof": "2026-04-02",
+  "period": null,
+  "facts_text": "Price action as of 2026-04-02: 1w +1.6%, 1m -1.1%, 3m -6.6%. Last close 165.81. 21d annualized realized volatility 28%. Position in trailing 63-day range: 31% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "165.81"
+   ],
+   [
+    "21d realized vol",
+    "28%"
+   ],
+   [
+    "Range position (63d)",
+    "31%"
+   ],
+   [
+    "Return 1w",
+    "+1.6%"
+   ],
+   [
+    "Return 1m",
+    "-1.1%"
+   ],
+   [
+    "Return 3m",
+    "-6.6%"
+   ]
+  ],
+  "benchmark_label": "BUY",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "MS|2026-04-03",
+   "facts_file": "inputs/MS_2026-04-03.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D061",
+  "family": "directional",
+  "ticker": "ADBE",
+  "cell_date": "2026-03-20",
+  "asof": "2026-03-19",
+  "period": null,
+  "facts_text": "Price action as of 2026-03-19: 1w -8.8%, 1m -6.5%, 3m -29.3%. Last close 245.99. 21d annualized realized volatility 42%. Position in trailing 63-day range: 0% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "245.99"
+   ],
+   [
+    "21d realized vol",
+    "42%"
+   ],
+   [
+    "Range position (63d)",
+    "0%"
+   ],
+   [
+    "Return 1w",
+    "-8.8%"
+   ],
+   [
+    "Return 1m",
+    "-6.5%"
+   ],
+   [
+    "Return 3m",
+    "-29.3%"
+   ]
+  ],
+  "benchmark_label": "BUY",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "ADBE|2026-03-20",
+   "facts_file": "inputs/ADBE_2026-03-20.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D062",
+  "family": "directional",
+  "ticker": "LIN",
+  "cell_date": "2026-01-23",
+  "asof": "2026-01-22",
+  "period": null,
+  "facts_text": "Price action as of 2026-01-22: 1w +1.3%, 1m +5.7%, 3m -1.0%. Last close 445.64. 21d annualized realized volatility 12%. Position in trailing 63-day range: 93% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "445.64"
+   ],
+   [
+    "21d realized vol",
+    "12%"
+   ],
+   [
+    "Range position (63d)",
+    "93%"
+   ],
+   [
+    "Return 1w",
+    "+1.3%"
+   ],
+   [
+    "Return 1m",
+    "+5.7%"
+   ],
+   [
+    "Return 3m",
+    "-1.0%"
+   ]
+  ],
+  "benchmark_label": "BUY",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "LIN|2026-01-23",
+   "facts_file": "inputs/LIN_2026-01-23.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D063",
+  "family": "directional",
+  "ticker": "CMCSA",
+  "cell_date": "2026-03-20",
+  "asof": "2026-03-19",
+  "period": null,
+  "facts_text": "Price action as of 2026-03-19: 1w -3.9%, 1m -8.3%, 3m +4.1%. Last close 28.98. 21d annualized realized volatility 28%. Position in trailing 63-day range: 31% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "28.98"
+   ],
+   [
+    "21d realized vol",
+    "28%"
+   ],
+   [
+    "Range position (63d)",
+    "31%"
+   ],
+   [
+    "Return 1w",
+    "-3.9%"
+   ],
+   [
+    "Return 1m",
+    "-8.3%"
+   ],
+   [
+    "Return 3m",
+    "+4.1%"
+   ]
+  ],
+  "benchmark_label": "BUY",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "CMCSA|2026-03-20",
+   "facts_file": "inputs/CMCSA_2026-03-20.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D064",
+  "family": "directional",
+  "ticker": "SPG",
+  "cell_date": "2026-05-22",
+  "asof": "2026-05-21",
+  "period": null,
+  "facts_text": "Price action as of 2026-05-21: 1w +1.0%, 1m +1.6%, 3m +1.6%. Last close 204.90. 21d annualized realized volatility 20%. Position in trailing 63-day range: 91% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "204.90"
+   ],
+   [
+    "21d realized vol",
+    "20%"
+   ],
+   [
+    "Range position (63d)",
+    "91%"
+   ],
+   [
+    "Return 1w",
+    "+1.0%"
+   ],
+   [
+    "Return 1m",
+    "+1.6%"
+   ],
+   [
+    "Return 3m",
+    "+1.6%"
+   ]
+  ],
+  "benchmark_label": "BUY",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "SPG|2026-05-22",
+   "facts_file": "inputs/SPG_2026-05-22.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D065",
+  "family": "directional",
+  "ticker": "COST",
+  "cell_date": "2026-01-23",
+  "asof": "2026-01-22",
+  "period": null,
+  "facts_text": "Price action as of 2026-01-22: 1w +2.6%, 1m +14.1%, 3m +4.1%. Last close 976.17. 21d annualized realized volatility 22%. Position in trailing 63-day range: 95% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "976.17"
+   ],
+   [
+    "21d realized vol",
+    "22%"
+   ],
+   [
+    "Range position (63d)",
+    "95%"
+   ],
+   [
+    "Return 1w",
+    "+2.6%"
+   ],
+   [
+    "Return 1m",
+    "+14.1%"
+   ],
+   [
+    "Return 3m",
+    "+4.1%"
+   ]
+  ],
+  "benchmark_label": "BUY",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "COST|2026-01-23",
+   "facts_file": "inputs/COST_2026-01-23.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D066",
+  "family": "directional",
+  "ticker": "UNP",
+  "cell_date": "2026-04-03",
+  "asof": "2026-04-02",
+  "period": null,
+  "facts_text": "Price action as of 2026-04-02: 1w +2.3%, 1m -8.2%, 3m +5.8%. Last close 244.71. 21d annualized realized volatility 21%. Position in trailing 63-day range: 51% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "244.71"
+   ],
+   [
+    "21d realized vol",
+    "21%"
+   ],
+   [
+    "Range position (63d)",
+    "51%"
+   ],
+   [
+    "Return 1w",
+    "+2.3%"
+   ],
+   [
+    "Return 1m",
+    "-8.2%"
+   ],
+   [
+    "Return 3m",
+    "+5.8%"
+   ]
+  ],
+  "benchmark_label": "BUY",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "UNP|2026-04-03",
+   "facts_file": "inputs/UNP_2026-04-03.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D067",
+  "family": "directional",
+  "ticker": "CVX",
+  "cell_date": "2026-02-06",
+  "asof": "2026-02-05",
+  "period": null,
+  "facts_text": "Price action as of 2026-02-05: 1w +4.7%, 1m +14.5%, 3m +16.8%. Last close 179.23. 21d annualized realized volatility 22%. Position in trailing 63-day range: 94% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "179.23"
+   ],
+   [
+    "21d realized vol",
+    "22%"
+   ],
+   [
+    "Range position (63d)",
+    "94%"
+   ],
+   [
+    "Return 1w",
+    "+4.7%"
+   ],
+   [
+    "Return 1m",
+    "+14.5%"
+   ],
+   [
+    "Return 3m",
+    "+16.8%"
+   ]
+  ],
+  "benchmark_label": "BUY",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "CVX|2026-02-06",
+   "facts_file": "inputs/CVX_2026-02-06.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D068",
+  "family": "directional",
+  "ticker": "PLD",
+  "cell_date": "2026-01-09",
+  "asof": "2026-01-08",
+  "period": null,
+  "facts_text": "Price action as of 2026-01-08: 1w +0.6%, 1m +1.4%, 3m +10.7%. Last close 128.39. 21d annualized realized volatility 15%. Position in trailing 63-day range: 88% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "128.39"
+   ],
+   [
+    "21d realized vol",
+    "15%"
+   ],
+   [
+    "Range position (63d)",
+    "88%"
+   ],
+   [
+    "Return 1w",
+    "+0.6%"
+   ],
+   [
+    "Return 1m",
+    "+1.4%"
+   ],
+   [
+    "Return 3m",
+    "+10.7%"
+   ]
+  ],
+  "benchmark_label": "BUY",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "PLD|2026-01-09",
+   "facts_file": "inputs/PLD_2026-01-09.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D069",
+  "family": "directional",
+  "ticker": "GM",
+  "cell_date": "2026-05-29",
+  "asof": "2026-05-28",
+  "period": null,
+  "facts_text": "Price action as of 2026-05-28: 1w +10.8%, 1m +6.8%, 3m +4.4%. Last close 84.35. 21d annualized realized volatility 40%. Position in trailing 63-day range: 100% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "84.35"
+   ],
+   [
+    "21d realized vol",
+    "40%"
+   ],
+   [
+    "Range position (63d)",
+    "100%"
+   ],
+   [
+    "Return 1w",
+    "+10.8%"
+   ],
+   [
+    "Return 1m",
+    "+6.8%"
+   ],
+   [
+    "Return 3m",
+    "+4.4%"
+   ]
+  ],
+  "benchmark_label": "SELL",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "GM|2026-05-29",
+   "facts_file": "inputs/GM_2026-05-29.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D070",
+  "family": "directional",
+  "ticker": "LMT",
+  "cell_date": "2026-04-03",
+  "asof": "2026-04-02",
+  "period": null,
+  "facts_text": "Price action as of 2026-04-02: 1w -0.7%, 1m -6.3%, 3m +28.8%. Last close 622.79. 21d annualized realized volatility 24%. Position in trailing 63-day range: 70% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "622.79"
+   ],
+   [
+    "21d realized vol",
+    "24%"
+   ],
+   [
+    "Range position (63d)",
+    "70%"
+   ],
+   [
+    "Return 1w",
+    "-0.7%"
+   ],
+   [
+    "Return 1m",
+    "-6.3%"
+   ],
+   [
+    "Return 3m",
+    "+28.8%"
+   ]
+  ],
+  "benchmark_label": "SELL",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "LMT|2026-04-03",
+   "facts_file": "inputs/LMT_2026-04-03.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D071",
+  "family": "directional",
+  "ticker": "EXC",
+  "cell_date": "2026-03-06",
+  "asof": "2026-03-05",
+  "period": null,
+  "facts_text": "Price action as of 2026-03-05: 1w -0.1%, 1m +10.8%, 3m +8.4%. Last close 48.77. 21d annualized realized volatility 28%. Position in trailing 63-day range: 89% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "48.77"
+   ],
+   [
+    "21d realized vol",
+    "28%"
+   ],
+   [
+    "Range position (63d)",
+    "89%"
+   ],
+   [
+    "Return 1w",
+    "-0.1%"
+   ],
+   [
+    "Return 1m",
+    "+10.8%"
+   ],
+   [
+    "Return 3m",
+    "+8.4%"
+   ]
+  ],
+  "benchmark_label": "SELL",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "EXC|2026-03-06",
+   "facts_file": "inputs/EXC_2026-03-06.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D072",
+  "family": "directional",
+  "ticker": "SHW",
+  "cell_date": "2026-05-01",
+  "asof": "2026-04-30",
+  "period": null,
+  "facts_text": "Price action as of 2026-04-30: 1w -4.8%, 1m +0.3%, 3m -9.3%. Last close 321.61. 21d annualized realized volatility 34%. Position in trailing 63-day range: 26% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "321.61"
+   ],
+   [
+    "21d realized vol",
+    "34%"
+   ],
+   [
+    "Range position (63d)",
+    "26%"
+   ],
+   [
+    "Return 1w",
+    "-4.8%"
+   ],
+   [
+    "Return 1m",
+    "+0.3%"
+   ],
+   [
+    "Return 3m",
+    "-9.3%"
+   ]
+  ],
+  "benchmark_label": "SELL",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "SHW|2026-05-01",
+   "facts_file": "inputs/SHW_2026-05-01.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D073",
+  "family": "directional",
+  "ticker": "TJX",
+  "cell_date": "2026-02-20",
+  "asof": "2026-02-19",
+  "period": null,
+  "facts_text": "Price action as of 2026-02-19: 1w +3.8%, 1m +0.3%, 3m +7.8%. Last close 156.51. 21d annualized realized volatility 19%. Position in trailing 63-day range: 86% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "156.51"
+   ],
+   [
+    "21d realized vol",
+    "19%"
+   ],
+   [
+    "Range position (63d)",
+    "86%"
+   ],
+   [
+    "Return 1w",
+    "+3.8%"
+   ],
+   [
+    "Return 1m",
+    "+0.3%"
+   ],
+   [
+    "Return 3m",
+    "+7.8%"
+   ]
+  ],
+  "benchmark_label": "SELL",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "TJX|2026-02-20",
+   "facts_file": "inputs/TJX_2026-02-20.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D074",
+  "family": "directional",
+  "ticker": "SLB",
+  "cell_date": "2026-05-22",
+  "asof": "2026-05-21",
+  "period": null,
+  "facts_text": "Price action as of 2026-05-21: 1w +2.7%, 1m +5.3%, 3m +12.6%. Last close 57.25. 21d annualized realized volatility 27%. Position in trailing 63-day range: 100% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "57.25"
+   ],
+   [
+    "21d realized vol",
+    "27%"
+   ],
+   [
+    "Range position (63d)",
+    "100%"
+   ],
+   [
+    "Return 1w",
+    "+2.7%"
+   ],
+   [
+    "Return 1m",
+    "+5.3%"
+   ],
+   [
+    "Return 3m",
+    "+12.6%"
+   ]
+  ],
+  "benchmark_label": "SELL",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "SLB|2026-05-22",
+   "facts_file": "inputs/SLB_2026-05-22.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D075",
+  "family": "directional",
+  "ticker": "DIS",
+  "cell_date": "2026-05-01",
+  "asof": "2026-04-30",
+  "period": null,
+  "facts_text": "Price action as of 2026-04-30: 1w +0.1%, 1m +7.6%, 3m -7.0%. Last close 103.75. 21d annualized realized volatility 21%. Position in trailing 63-day range: 56% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "103.75"
+   ],
+   [
+    "21d realized vol",
+    "21%"
+   ],
+   [
+    "Range position (63d)",
+    "56%"
+   ],
+   [
+    "Return 1w",
+    "+0.1%"
+   ],
+   [
+    "Return 1m",
+    "+7.6%"
+   ],
+   [
+    "Return 3m",
+    "-7.0%"
+   ]
+  ],
+  "benchmark_label": "SELL",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "DIS|2026-05-01",
+   "facts_file": "inputs/DIS_2026-05-01.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D076",
+  "family": "directional",
+  "ticker": "SRE",
+  "cell_date": "2026-02-20",
+  "asof": "2026-02-19",
+  "period": null,
+  "facts_text": "Price action as of 2026-02-19: 1w +2.0%, 1m +5.1%, 3m +0.8%. Last close 92.97. 21d annualized realized volatility 21%. Position in trailing 63-day range: 80% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "92.97"
+   ],
+   [
+    "21d realized vol",
+    "21%"
+   ],
+   [
+    "Range position (63d)",
+    "80%"
+   ],
+   [
+    "Return 1w",
+    "+2.0%"
+   ],
+   [
+    "Return 1m",
+    "+5.1%"
+   ],
+   [
+    "Return 3m",
+    "+0.8%"
+   ]
+  ],
+  "benchmark_label": "SELL",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "SRE|2026-02-20",
+   "facts_file": "inputs/SRE_2026-02-20.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D077",
+  "family": "directional",
+  "ticker": "APD",
+  "cell_date": "2026-02-06",
+  "asof": "2026-02-05",
+  "period": null,
+  "facts_text": "Price action as of 2026-02-05: 1w +10.7%, 1m +9.7%, 3m +17.7%. Last close 283.50. 21d annualized realized volatility 31%. Position in trailing 63-day range: 94% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "283.50"
+   ],
+   [
+    "21d realized vol",
+    "31%"
+   ],
+   [
+    "Range position (63d)",
+    "94%"
+   ],
+   [
+    "Return 1w",
+    "+10.7%"
+   ],
+   [
+    "Return 1m",
+    "+9.7%"
+   ],
+   [
+    "Return 3m",
+    "+17.7%"
+   ]
+  ],
+  "benchmark_label": "SELL",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "APD|2026-02-06",
+   "facts_file": "inputs/APD_2026-02-06.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D078",
+  "family": "directional",
+  "ticker": "ABBV",
+  "cell_date": "2026-02-20",
+  "asof": "2026-02-19",
+  "period": null,
+  "facts_text": "Price action as of 2026-02-19: 1w +1.6%, 1m +4.8%, 3m -4.1%. Last close 224.35. 21d annualized realized volatility 25%. Position in trailing 63-day range: 46% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "224.35"
+   ],
+   [
+    "21d realized vol",
+    "25%"
+   ],
+   [
+    "Range position (63d)",
+    "46%"
+   ],
+   [
+    "Return 1w",
+    "+1.6%"
+   ],
+   [
+    "Return 1m",
+    "+4.8%"
+   ],
+   [
+    "Return 3m",
+    "-4.1%"
+   ]
+  ],
+  "benchmark_label": "SELL",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "ABBV|2026-02-20",
+   "facts_file": "inputs/ABBV_2026-02-20.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D079",
+  "family": "directional",
+  "ticker": "RTX",
+  "cell_date": "2026-02-20",
+  "asof": "2026-02-19",
+  "period": null,
+  "facts_text": "Price action as of 2026-02-19: 1w +4.5%, 1m +4.6%, 3m +17.0%. Last close 205.41. 21d annualized realized volatility 22%. Position in trailing 63-day range: 100% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "205.41"
+   ],
+   [
+    "21d realized vol",
+    "22%"
+   ],
+   [
+    "Range position (63d)",
+    "100%"
+   ],
+   [
+    "Return 1w",
+    "+4.5%"
+   ],
+   [
+    "Return 1m",
+    "+4.6%"
+   ],
+   [
+    "Return 3m",
+    "+17.0%"
+   ]
+  ],
+  "benchmark_label": "SELL",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "RTX|2026-02-20",
+   "facts_file": "inputs/RTX_2026-02-20.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D080",
+  "family": "directional",
+  "ticker": "NUE",
+  "cell_date": "2026-02-06",
+  "asof": "2026-02-05",
+  "period": null,
+  "facts_text": "Price action as of 2026-02-05: 1w +3.7%, 1m +10.1%, 3m +29.3%. Last close 186.50. 21d annualized realized volatility 32%. Position in trailing 63-day range: 93% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "186.50"
+   ],
+   [
+    "21d realized vol",
+    "32%"
+   ],
+   [
+    "Range position (63d)",
+    "93%"
+   ],
+   [
+    "Return 1w",
+    "+3.7%"
+   ],
+   [
+    "Return 1m",
+    "+10.1%"
+   ],
+   [
+    "Return 3m",
+    "+29.3%"
+   ]
+  ],
+  "benchmark_label": "SELL",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "NUE|2026-02-06",
+   "facts_file": "inputs/NUE_2026-02-06.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D081",
+  "family": "directional",
+  "ticker": "JPM",
+  "cell_date": "2026-01-09",
+  "asof": "2026-01-08",
+  "period": null,
+  "facts_text": "Price action as of 2026-01-08: 1w +2.3%, 1m +4.6%, 3m +8.5%. Last close 329.79. 21d annualized realized volatility 28%. Position in trailing 63-day range: 88% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "329.79"
+   ],
+   [
+    "21d realized vol",
+    "28%"
+   ],
+   [
+    "Range position (63d)",
+    "88%"
+   ],
+   [
+    "Return 1w",
+    "+2.3%"
+   ],
+   [
+    "Return 1m",
+    "+4.6%"
+   ],
+   [
+    "Return 3m",
+    "+8.5%"
+   ]
+  ],
+  "benchmark_label": "SELL",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "JPM|2026-01-09",
+   "facts_file": "inputs/JPM_2026-01-09.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D082",
+  "family": "directional",
+  "ticker": "PFE",
+  "cell_date": "2026-04-03",
+  "asof": "2026-04-02",
+  "period": null,
+  "facts_text": "Price action as of 2026-04-02: 1w +2.7%, 1m +6.4%, 3m +13.7%. Last close 28.32. 21d annualized realized volatility 22%. Position in trailing 63-day range: 93% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "28.32"
+   ],
+   [
+    "21d realized vol",
+    "22%"
+   ],
+   [
+    "Range position (63d)",
+    "93%"
+   ],
+   [
+    "Return 1w",
+    "+2.7%"
+   ],
+   [
+    "Return 1m",
+    "+6.4%"
+   ],
+   [
+    "Return 3m",
+    "+13.7%"
+   ]
+  ],
+  "benchmark_label": "SELL",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "PFE|2026-04-03",
+   "facts_file": "inputs/PFE_2026-04-03.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D083",
+  "family": "directional",
+  "ticker": "T",
+  "cell_date": "2026-04-03",
+  "asof": "2026-04-02",
+  "period": null,
+  "facts_text": "Price action as of 2026-04-02: 1w -2.0%, 1m -2.2%, 3m +14.0%. Last close 28.33. 21d annualized realized volatility 23%. Position in trailing 63-day range: 87% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "28.33"
+   ],
+   [
+    "21d realized vol",
+    "23%"
+   ],
+   [
+    "Range position (63d)",
+    "87%"
+   ],
+   [
+    "Return 1w",
+    "-2.0%"
+   ],
+   [
+    "Return 1m",
+    "-2.2%"
+   ],
+   [
+    "Return 3m",
+    "+14.0%"
+   ]
+  ],
+  "benchmark_label": "SELL",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "T|2026-04-03",
+   "facts_file": "inputs/T_2026-04-03.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D084",
+  "family": "directional",
+  "ticker": "NFLX",
+  "cell_date": "2026-01-09",
+  "asof": "2026-01-08",
+  "period": null,
+  "facts_text": "Price action as of 2026-01-08: 1w -3.4%, 1m -6.5%, 3m -25.4%. Last close 90.53. 21d annualized realized volatility 21%. Position in trailing 63-day range: 0% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "90.53"
+   ],
+   [
+    "21d realized vol",
+    "21%"
+   ],
+   [
+    "Range position (63d)",
+    "0%"
+   ],
+   [
+    "Return 1w",
+    "-3.4%"
+   ],
+   [
+    "Return 1m",
+    "-6.5%"
+   ],
+   [
+    "Return 3m",
+    "-25.4%"
+   ]
+  ],
+  "benchmark_label": "SELL",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "NFLX|2026-01-09",
+   "facts_file": "inputs/NFLX_2026-01-09.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D085",
+  "family": "directional",
+  "ticker": "PSA",
+  "cell_date": "2026-04-17",
+  "asof": "2026-04-16",
+  "period": null,
+  "facts_text": "Price action as of 2026-04-16: 1w +2.9%, 1m +5.5%, 3m +4.9%. Last close 301.74. 21d annualized realized volatility 29%. Position in trailing 63-day range: 80% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "301.74"
+   ],
+   [
+    "21d realized vol",
+    "29%"
+   ],
+   [
+    "Range position (63d)",
+    "80%"
+   ],
+   [
+    "Return 1w",
+    "+2.9%"
+   ],
+   [
+    "Return 1m",
+    "+5.5%"
+   ],
+   [
+    "Return 3m",
+    "+4.9%"
+   ]
+  ],
+  "benchmark_label": "SELL",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "PSA|2026-04-17",
+   "facts_file": "inputs/PSA_2026-04-17.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D086",
+  "family": "directional",
+  "ticker": "MPC",
+  "cell_date": "2026-05-15",
+  "asof": "2026-05-14",
+  "period": null,
+  "facts_text": "Price action as of 2026-05-14: 1w +2.7%, 1m +11.6%, 3m +25.7%. Last close 248.82. 21d annualized realized volatility 41%. Position in trailing 63-day range: 83% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "248.82"
+   ],
+   [
+    "21d realized vol",
+    "41%"
+   ],
+   [
+    "Range position (63d)",
+    "83%"
+   ],
+   [
+    "Return 1w",
+    "+2.7%"
+   ],
+   [
+    "Return 1m",
+    "+11.6%"
+   ],
+   [
+    "Return 3m",
+    "+25.7%"
+   ]
+  ],
+  "benchmark_label": "SELL",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "MPC|2026-05-15",
+   "facts_file": "inputs/MPC_2026-05-15.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D087",
+  "family": "directional",
+  "ticker": "HD",
+  "cell_date": "2026-02-20",
+  "asof": "2026-02-19",
+  "period": null,
+  "facts_text": "Price action as of 2026-02-19: 1w -3.1%, 1m +0.9%, 3m +5.7%. Last close 378.58. 21d annualized realized volatility 20%. Position in trailing 63-day range: 79% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "378.58"
+   ],
+   [
+    "21d realized vol",
+    "20%"
+   ],
+   [
+    "Range position (63d)",
+    "79%"
+   ],
+   [
+    "Return 1w",
+    "-3.1%"
+   ],
+   [
+    "Return 1m",
+    "+0.9%"
+   ],
+   [
+    "Return 3m",
+    "+5.7%"
+   ]
+  ],
+  "benchmark_label": "SELL",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "HD|2026-02-20",
+   "facts_file": "inputs/HD_2026-02-20.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D088",
+  "family": "directional",
+  "ticker": "SO",
+  "cell_date": "2026-05-01",
+  "asof": "2026-04-30",
+  "period": null,
+  "facts_text": "Price action as of 2026-04-30: 1w +3.0%, 1m +0.2%, 3m +8.5%. Last close 96.70. 21d annualized realized volatility 18%. Position in trailing 63-day range: 78% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "96.70"
+   ],
+   [
+    "21d realized vol",
+    "18%"
+   ],
+   [
+    "Range position (63d)",
+    "78%"
+   ],
+   [
+    "Return 1w",
+    "+3.0%"
+   ],
+   [
+    "Return 1m",
+    "+0.2%"
+   ],
+   [
+    "Return 3m",
+    "+8.5%"
+   ]
+  ],
+  "benchmark_label": "SELL",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "SO|2026-05-01",
+   "facts_file": "inputs/SO_2026-05-01.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D089",
+  "family": "directional",
+  "ticker": "META",
+  "cell_date": "2026-05-22",
+  "asof": "2026-05-21",
+  "period": null,
+  "facts_text": "Price action as of 2026-05-21: 1w -1.8%, 1m -10.0%, 3m -7.4%. Last close 607.38. 21d annualized realized volatility 36%. Position in trailing 63-day range: 50% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "607.38"
+   ],
+   [
+    "21d realized vol",
+    "36%"
+   ],
+   [
+    "Range position (63d)",
+    "50%"
+   ],
+   [
+    "Return 1w",
+    "-1.8%"
+   ],
+   [
+    "Return 1m",
+    "-10.0%"
+   ],
+   [
+    "Return 3m",
+    "-7.4%"
+   ]
+  ],
+  "benchmark_label": "SELL",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "META|2026-05-22",
+   "facts_file": "inputs/META_2026-05-22.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ },
+ {
+  "item_id": "D090",
+  "family": "directional",
+  "ticker": "O",
+  "cell_date": "2026-05-01",
+  "asof": "2026-04-30",
+  "period": null,
+  "facts_text": "Price action as of 2026-04-30: 1w +0.2%, 1m +5.0%, 3m +5.7%. Last close 64.24. 21d annualized realized volatility 15%. Position in trailing 63-day range: 56% (0%=low, 100%=high).",
+  "facts_kv": [
+   [
+    "Last close",
+    "64.24"
+   ],
+   [
+    "21d realized vol",
+    "15%"
+   ],
+   [
+    "Range position (63d)",
+    "56%"
+   ],
+   [
+    "Return 1w",
+    "+0.2%"
+   ],
+   [
+    "Return 1m",
+    "+5.0%"
+   ],
+   [
+    "Return 3m",
+    "+5.7%"
+   ]
+  ],
+  "benchmark_label": "SELL",
+  "label_space": [
+   "BUY",
+   "HOLD",
+   "SELL"
+  ],
+  "abstain_label": "HOLD",
+  "gt_source": "forward_return_sign_20td",
+  "provenance": {
+   "paper": "Paper 2",
+   "cell_key": "O|2026-05-01",
+   "facts_file": "inputs/O_2026-05-01.json",
+   "label_file": "data/outcomes/forward_returns.json"
+  }
+ }
+]

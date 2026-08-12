@@ -1,0 +1,19 @@
+{
+ "spec_id": "A01",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB-\",\"confidence\":2,\"rationale\":\"Adequate liquidity (current ratio 2.04) and moderate leverage, but thin operating margin (4%) limits credit strength.\"}",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 259,
+ "out_tok": 155,
+ "usd": 0.000246,
+ "utc": "2026-07-10T14:30:29.124597+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R027",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB+\", \"confidence\": 4, \"rationale\": \"Moderate leverage (equity/assets 41%) and solid liquidity (current ratio 2.57) are offset by low profitability (net margin <1%, ROA 0.46%).\"}\n```",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 268,
+ "out_tok": 64,
+ "usd": 0.000978,
+ "utc": "2026-07-10T14:20:35.792296+00:00"
+}

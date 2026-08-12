@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits a solid investment-grade profile, supported by a large asset base ($74.0B), profitable operations with a 10% operating margin, and a supportive liquidity position evidenced by a 1.39 current ratio. However, a significant leverage profile (total liabilities representing approximately 71% of total assets) and a retained earnings balance of $0M suggest either a highly leveraged capital structure, a recent corporate restructuring, or aggressive capital return policies, which constrain the rating to the lower end of investment grade. \n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 278,
+ "out_tok": 115,
+ "usd": 0.001452,
+ "utc": "2026-07-10T14:55:10.470548+00:00"
+}

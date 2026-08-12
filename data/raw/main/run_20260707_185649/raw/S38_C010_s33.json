@@ -1,0 +1,43 @@
+{
+ "spec_id": "S38",
+ "item_id": "C010",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 0.0,
+ "temperature_applied": false,
+ "effective_temperature": null,
+ "call_meta": {
+  "signature": "mct+seed+eff",
+  "temperature_applied": false,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "seed": 33,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-02-24, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-02-24):\n| Current ratio           | 1.92 |\n| Retained earnings       | 29,765M |\n| Current liabilities     | 3,702M |\n| Current assets          | 7,091M |\n| Shareholders' equity    | 29,833M |\n| Total liabilities       | 21,966M |\n| Total assets            | 51,799M |\n| EBIT / operating income | 2,489M |\n| Revenue                 | 5,638M |\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The company shows solid liquidity (current ratio 1.92) and strong profitability (EBIT ~44% of revenue) with a healthy equity base and moderate leverage (debt around 0.7x equity, and debt ratio ~0.42). These fundamentals support a rating in the upper investment-grade range, though the absence of cash flow timing details and interest coverage prevents a higher top-notch grade. Overall, the credit risk appears modest with room to absorb shocks relative to peers, suggesting an investment-grade rating.\n\nDECISION: A",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 244,
+ "output_tokens": 373,
+ "cost_usd": 0.000515,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:49:39.875275+00:00",
+ "mode": "REAL"
+}

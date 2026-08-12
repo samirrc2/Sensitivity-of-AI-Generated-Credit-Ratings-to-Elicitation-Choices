@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows severe financial distress, characterized by negative shareholders' equity (-$1,920M), a massive retained deficit (-$20,476M), and a highly precarious liquidity position with a current ratio of just 0.27 (current liabilities of $4,705M vs. current assets of $1,254M). Although it generates operating and net income, the deeply insolvent balance sheet and imminent working capital shortfall place the issuer at a very high risk of default. These factors are consistent with a highly speculative, deeply distressed credit profile.\n\nDECISION: CCC+",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "in_tok": 272,
+ "out_tok": 126,
+ "usd": 0.001542,
+ "utc": "2026-07-10T15:17:58.967406+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits exceptionally strong profitability and operating efficiency, with a 62% operating margin and $3,230M in operating income on $5,251M in revenue for the quarter. However, the balance sheet presents significant short-term liquidity risks and structural leverage issues, characterized by negative shareholders' equity of -$2,646M and a weak current ratio of 0.62 ($5,119M in current assets against $8,286M in current liabilities). Despite the robust earnings power and high retained earnings suggesting historical success, the immediate working capital deficit and negative equity position constrain the rating to the lower end of investment grade.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 283,
+ "out_tok": 146,
+ "usd": 0.001739,
+ "utc": "2026-07-10T14:35:05.229521+00:00"
+}

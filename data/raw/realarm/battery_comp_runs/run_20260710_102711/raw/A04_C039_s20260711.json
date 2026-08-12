@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"CCC+\", \"confidence\": 4, \"rationale\": \"High leverage (D/E > 13), critical liquidity with current ratio under 1, and extremely weak EBIT interest/debt coverage suggest severe distress.\"}\n```",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "in_tok": 294,
+ "out_tok": 55,
+ "usd": 0.000936,
+ "utc": "2026-07-10T15:11:52.031095+00:00"
+}

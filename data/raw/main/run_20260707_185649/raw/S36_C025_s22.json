@@ -1,0 +1,44 @@
+{
+ "spec_id": "S36",
+ "item_id": "C025",
+ "seed": 22,
+ "family": "credit_health",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 22,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2026-04-23; do not use later information.\nProvided information:\n| Current ratio           | 1.39 |\n| Retained earnings       | 0M |\n| Current liabilities     | 22,085M |\n| Current assets          | 30,590M |\n| Shareholders' equity    | 21,312M |\n| Total liabilities       | 52,676M |\n| Total assets            | 73,988M |\n| EBIT / operating income | 886M |\n| Revenue                 | 9,143M |\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The provided metrics indicate elevated credit risk: leverage is high (total liabilities/total assets = 71%), retained earnings are zero (signaling no earnings retention or a post-restructuring profile), profitability is thin (EBIT margin \u2248 9.7%), and the implied Altman Z-score is well below the distress threshold. These factors together support a single-B rating on the 21-grade scale, with no data available to justify investment-grade or lower-tier CCC.\nDECISION: B",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 352,
+ "output_tokens": 96,
+ "cost_usd": 0.00068,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:46:55.456977+00:00",
+ "mode": "REAL"
+}

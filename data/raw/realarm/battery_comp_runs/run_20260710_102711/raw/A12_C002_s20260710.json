@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Extremely high leverage with debt-to-equity over 9x, total assets mostly debt-funded, and highly insufficient EBIT ($3.2B) relative to total liabilities ($444B).\"}\n```",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 284,
+ "out_tok": 65,
+ "usd": 0.001011,
+ "utc": "2026-07-10T14:29:16.998320+00:00"
+}

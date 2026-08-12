@@ -1,0 +1,43 @@
+{
+ "spec_id": "S31",
+ "item_id": "C043",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 0.0,
+ "temperature_applied": false,
+ "effective_temperature": null,
+ "call_meta": {
+  "signature": "mct+seed+eff",
+  "temperature_applied": false,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2025-11-26; do not use later information.\nProvided information:\n| Current ratio           | 0.97 |\n| Retained earnings       | 8,777M |\n| Current liabilities     | 21,242M |\n| Current assets          | 20,702M |\n| Shareholders' equity    | 15,501M |\n| Total liabilities       | 44,490M |\n| Total assets            | 59,991M |\n| EBIT / operating income | 948M |\n| Revenue                 | 25,270M |\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The company shows modest profitability with EBIT of 948 on 25,270 revenue, but weak liquidity (current ratio 0.97) and high leverage (total liabilities 44,490 against equity 15,501), implying elevated credit risk despite solid asset base. Given the tight liquidity and substantial leverage, the rating is below investment grade but not severely distressed. DECISION: BBB-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 233,
+ "output_tokens": 407,
+ "cost_usd": 0.000555,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:39:15.634456+00:00",
+ "mode": "REAL"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C006",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows solid liquidity with a current ratio of 1.52, and it has meaningful internal capital generation/cushion reflected by retained earnings of 45,920M and total equity of 51,071M. Leverage appears moderate (total liabilities of 28,826M vs. equity of 51,071M), and profitability is reasonably strong with EBIT of 1,154M on revenue of 6,053M. Overall, this supports an upper-investment-grade profile, though not quite at the strongest tier based on the limited detail provided.  \n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 242,
+ "out_tok": 241,
+ "usd": 0.00035,
+ "utc": "2026-07-10T14:33:37.721060+00:00"
+}

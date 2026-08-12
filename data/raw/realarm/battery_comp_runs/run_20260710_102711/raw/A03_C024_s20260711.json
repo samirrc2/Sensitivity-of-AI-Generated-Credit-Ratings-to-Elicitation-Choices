@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C024",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows moderate financial leverage (total liabilities of 50,185M against total assets of 86,783M) and positive retained earnings and equity, supporting balance-sheet resilience. However, liquidity is slightly weak with a current ratio of 0.94, which leaves less cushion for near-term obligations, though profitability appears reasonable (EBIT of 467M on revenue of 5,013M).\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 238,
+ "out_tok": 218,
+ "usd": 0.00032,
+ "utc": "2026-07-10T14:53:08.284176+00:00"
+}

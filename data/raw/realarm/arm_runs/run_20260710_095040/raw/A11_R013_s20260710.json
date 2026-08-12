@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R013",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows weak balance sheet strength with negative shareholders\u2019 equity (\u2013$496M), retained earnings deeply negative (\u2013$1,065M), and total liabilities exceeding total assets (\u2013$329M on net assets), which indicates ongoing solvency pressure. While EBIT remains positive ($74M) and liquidity is only marginally positive (current assets $580M vs. current liabilities $569M), the persistent losses (net income \u2013$23M) and leverage suggest elevated credit risk consistent with the lower end of the speculative range.  \n\nDECISION: B",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 238,
+ "usd": 0.000344,
+ "utc": "2026-07-10T14:05:25.991997+00:00"
+}

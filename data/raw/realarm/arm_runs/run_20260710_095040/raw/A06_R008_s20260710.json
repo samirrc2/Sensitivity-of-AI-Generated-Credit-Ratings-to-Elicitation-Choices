@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R008",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits very strong financial health, characterized by high profitability (operating margin of 27% and net income of 309M), a conservative capital structure with equity of 2,082M relative to 2,352M in liabilities, and excellent liquidity with a current ratio of 2.28. These metrics, alongside a solid asset base of 4,434M and significant retained earnings (1,362M), indicate a high-grade investment profile, typically aligning with a strong upper-medium grade to low high-grade investment credit rating.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "in_tok": 228,
+ "out_tok": 130,
+ "usd": 0.001512,
+ "utc": "2026-07-10T13:59:21.591351+00:00"
+}

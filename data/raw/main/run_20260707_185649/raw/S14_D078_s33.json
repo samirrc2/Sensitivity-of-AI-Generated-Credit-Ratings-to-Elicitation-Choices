@@ -1,0 +1,45 @@
+{
+ "spec_id": "S14",
+ "item_id": "D078",
+ "seed": 33,
+ "family": "directional",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "SELL",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Task: give a 20-trading-day directional recommendation for the stock.\nRespond with exactly one of: BUY, HOLD, SELL. Use only the figures provided and knowledge available on or before 2026-02-19; do not use later information.\nProvided information:\nPrice action as of 2026-02-19: 1w +1.6%, 1m +4.8%, 3m -4.1%. Last close 224.35. 21d annualized realized volatility 25%. Position in trailing 63-day range: 46% (0%=low, 100%=high).\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock has demonstrated solid near-term momentum with gains of +1.6% over the last week and +4.8% over the last month, recovering well within its medium-term range. Despite a slight decline over the past three months, its position at the 46th percentile of its 63-day range combined with moderate volatility of 25% suggests stable consolidation with room for upward continuation over the next 20 trading days. \n\nDECISION: BUY",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 180,
+ "output_tokens": 100,
+ "cost_usd": 0.00117,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:13:33.531917+00:00",
+ "mode": "REAL"
+}

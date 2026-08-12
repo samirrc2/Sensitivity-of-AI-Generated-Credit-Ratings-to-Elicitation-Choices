@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"High equity and asset base provide stability, but weak current ratio and high leverage justify a moderate investment-grade rating.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 272,
+ "out_tok": 46,
+ "usd": 0.000822,
+ "utc": "2026-07-10T15:19:34.068638+00:00"
+}

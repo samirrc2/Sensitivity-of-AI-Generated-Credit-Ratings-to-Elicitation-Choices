@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R009",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the company exhibits strong profitability with a high operating margin of 33% ($1,572M) and a solid capital structure with an equity-to-assets ratio of approximately 48% ($7,253M in equity on $15,011M in assets). However, its short-term liquidity is pressured, as evidenced by a current ratio of 0.79 ($1,047M in current assets against $1,322M in current liabilities), which introduces refinancing or working capital risk. Balancing the strong profitability and moderate leverage against the weak short-term liquidity profile, the company represents a solid investment-grade credit, though not at the highest tiers.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 243,
+ "out_tok": 161,
+ "usd": 0.001814,
+ "utc": "2026-07-10T14:00:49.203395+00:00"
+}

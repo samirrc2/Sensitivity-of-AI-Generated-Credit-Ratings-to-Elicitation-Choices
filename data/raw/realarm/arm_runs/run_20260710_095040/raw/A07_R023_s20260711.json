@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R023",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Liquidity appears strong (current ratio \u2248 916/239 = 3.8) and leverage is low (total liabilities \u2248 290/1,349 = 21%), supporting debt service capacity. Profitability is solid (EBIT margin \u2248 90/626 = 14%), but the large negative retained earnings indicate accumulated weakness that prevents a higher rating.  \nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 222,
+ "out_tok": 249,
+ "usd": 0.000356,
+ "utc": "2026-07-10T14:16:25.290305+00:00"
+}

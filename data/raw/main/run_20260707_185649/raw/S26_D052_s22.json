@@ -1,0 +1,44 @@
+{
+ "spec_id": "S26",
+ "item_id": "D052",
+ "seed": 22,
+ "family": "directional",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 0.0,
+   "seed": 22,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-04-02. Act as a equity research analyst.\n| Return 3m            | -29.3% |\n| Return 1m            | -3.1% |\n| Return 1w            | +0.9% |\n| Range position (63d) | 10% |\n| 21d realized vol     | 38% |\n| Last close           | 187.18 |\nBased only on the above and knowledge predating 2026-04-02, give a 20-trading-day directional recommendation for the stock. Choose exactly one label from: BUY, HOLD, SELL.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock shows persistent negative momentum, with steep 3-month losses and a 1-month decline that outweigh the minor 1-week rebound. Trading near the bottom of its 63-day range with elevated realized volatility further signals downside risk rather than stabilization.\nDECISION: SELL",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 296,
+ "output_tokens": 54,
+ "cost_usd": 0.000505,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:33:39.887058+00:00",
+ "mode": "REAL"
+}

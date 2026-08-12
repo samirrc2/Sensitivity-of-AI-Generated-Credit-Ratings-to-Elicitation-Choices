@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "R027",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Moderate leverage with Total Assets/Equity at 2.42x, comfortable liquidity (Current Ratio of 2.57x), but low profitability with Net Income of 32M.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 261,
+ "out_tok": 63,
+ "usd": 0.000959,
+ "utc": "2026-07-10T14:20:59.540116+00:00"
+}

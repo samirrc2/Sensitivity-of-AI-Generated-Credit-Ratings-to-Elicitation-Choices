@@ -1,0 +1,45 @@
+{
+ "spec_id": "S46",
+ "item_id": "C036",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 0.0,
+   "maxOutputTokens": 1024,
+   "seed": 11,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2025-10-30. Act as a credit rating analyst.\nFiscal period 2025 Q3 (filed 2025-10-30). Revenue 3,915M, gross margin 53%, operating income 749M (operating margin 19%), net income 524M, diluted EPS 0.9. Total assets 79,154M, total liabilities 57,973M, shareholders' equity 21,181M. Current assets 5,681M vs current liabilities 7,148M (current ratio 0.79), retained earnings 8,995M.\nBased only on the above and knowledge predating 2025-10-30, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 4, \"rationale\": \"Solid profitability and equity base are offset by a weak current ratio of 0.79 and high leverage, indicating borderline investment grade.\"}\n```",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 300,
+ "output_tokens": 51,
+ "cost_usd": 0.000909,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-08T00:00:59.932311+00:00",
+ "mode": "REAL"
+}

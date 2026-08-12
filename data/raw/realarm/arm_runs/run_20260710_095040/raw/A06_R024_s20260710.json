@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R024",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid operational profitability with revenue of $4.08 billion, an operating margin of 14% ($552 million), and net income of $384 million. However, its balance sheet exhibits high leverage (total liabilities of $4.39 billion against shareholders' equity of $941 million, resulting in a leverage ratio of about 4.7x) and weak liquidity, indicated by a working capital deficit with a current ratio of 0.91. These credit metrics, combining strong cash generation with constrained liquidity and high leverage, are characteristic of a non-investment grade issuer.\n\nDECISION: BB",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 234,
+ "out_tok": 133,
+ "usd": 0.001548,
+ "utc": "2026-07-10T14:17:22.138540+00:00"
+}

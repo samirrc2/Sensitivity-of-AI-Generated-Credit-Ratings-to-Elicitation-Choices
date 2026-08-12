@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "R016",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":3,\"rationale\":\"Despite strong liquidity (current ratio 3.19) and moderate leverage, sustained operating and net losses indicate elevated earnings risk.\"}",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 230,
+ "out_tok": 136,
+ "usd": 0.000216,
+ "utc": "2026-07-10T14:08:36.042123+00:00"
+}

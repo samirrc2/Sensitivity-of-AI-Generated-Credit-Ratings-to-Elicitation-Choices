@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows modest liquidity (current ratio 1.44) and decent operating profitability (EBIT of 2,660M on revenue of 19,133M, ~14% margin), supporting debt service capacity. However, leverage is relatively high (total liabilities 77,267M vs. total assets 98,585M), which limits credit resilience, aligning it with a sub-investment-grade but not weak category.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 233,
+ "out_tok": 209,
+ "usd": 0.000308,
+ "utc": "2026-07-10T14:43:04.580441+00:00"
+}

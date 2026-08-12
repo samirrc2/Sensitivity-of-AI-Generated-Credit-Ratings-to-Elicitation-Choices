@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R025",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows moderate liquidity (current ratio \u2248 1.32) and positive profitability (net margin \u2248 4% and EBIT margin \u2248 7.6%), but leverage is high (total liabilities \u2248 82% of total assets) and retained earnings are materially negative (-$748M), indicating weaker capital accumulation. Overall credit quality appears speculative with limited cushion, most consistent with the BB range.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 228,
+ "out_tok": 217,
+ "usd": 0.000317,
+ "utc": "2026-07-10T14:18:35.521571+00:00"
+}

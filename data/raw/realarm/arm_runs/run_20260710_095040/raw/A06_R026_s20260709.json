@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R026",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits solid revenue generation of $13.13 billion and positive profitability (operating income of $710 million, net income of $517 million), but operates on thin margins (5% operating margin) and carries a highly leveraged capital structure with total liabilities representing over 81% of total assets. Additionally, liquidity is tight with a current ratio of 0.89 ($2,565 million in current assets vs. $2,881 million in current liabilities), which increases short-term refinancing risk. These financial metrics align with a non-investment grade or high-yield profile, pointing to moderate credit risk.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 234,
+ "out_tok": 141,
+ "usd": 0.00162,
+ "utc": "2026-07-10T14:19:37.151734+00:00"
+}

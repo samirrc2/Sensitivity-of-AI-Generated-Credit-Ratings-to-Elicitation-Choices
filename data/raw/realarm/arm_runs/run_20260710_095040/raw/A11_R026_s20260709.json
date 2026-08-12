@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R026",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows moderately weak liquidity (current ratio \u2248 0.89) and high leverage (total liabilities \u2248 13,829M vs. total assets 16,994M; equity \u2248 3,165M). Operating profitability is modest (EBIT margin \u2248 5.4%), but net profitability and equity build-up remain positive, supporting but not fully offsetting the balance-sheet risk.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 239,
+ "out_tok": 250,
+ "usd": 0.00036,
+ "utc": "2026-07-10T14:20:04.052799+00:00"
+}

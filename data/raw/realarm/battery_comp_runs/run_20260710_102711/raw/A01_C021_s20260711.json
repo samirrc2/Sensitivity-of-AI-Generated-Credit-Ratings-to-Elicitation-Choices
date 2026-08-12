@@ -1,0 +1,19 @@
+{
+ "spec_id": "A01",
+ "item_id": "C021",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A-\",\"confidence\":3,\"rationale\":\"Strong profitability (48% operating margin) and solid leverage (liabilities/equity ~0.79) but weak liquidity (current ratio 0.68) limits rating.\"}",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 263,
+ "out_tok": 137,
+ "usd": 0.000224,
+ "utc": "2026-07-10T14:48:56.193243+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R013",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows substantial balance-sheet stress with negative shareholders\u2019 equity (-496M) and retained earnings (-1,065M), along with negative net income (-23M), indicating persistent financial weakness. While operating profitability is positive (EBIT 74M) relative to revenue (2,800M), the thin/negative equity base and high leverage (total liabilities 2,149M vs. total assets 1,820M) suggest elevated default risk.  \n\nDECISION: B+",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 231,
+ "out_tok": 181,
+ "usd": 0.000272,
+ "utc": "2026-07-10T14:04:46.862827+00:00"
+}

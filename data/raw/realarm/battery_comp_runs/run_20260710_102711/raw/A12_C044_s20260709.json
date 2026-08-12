@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"C\",\n  \"confidence\": 5,\n  \"rationale\": \"Severe insolvency with negative equity (-1,920M), massive retained deficit (-20,476M), extremely poor liquidity (0.27 current ratio), and unsustainable leverage.\"\n}\n```",
+ "parsed_letter": "C",
+ "parsed_band": "DISTRESS",
+ "in_tok": 275,
+ "out_tok": 71,
+ "usd": 0.001051,
+ "utc": "2026-07-10T15:18:46.675482+00:00"
+}

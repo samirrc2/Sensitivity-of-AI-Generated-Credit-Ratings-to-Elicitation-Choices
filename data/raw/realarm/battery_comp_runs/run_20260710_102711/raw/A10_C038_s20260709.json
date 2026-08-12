@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the issuer's financial profile reveals severe balance sheet distress, characterized by a highly leveraged capital structure with shareholders' equity of only $3,652M against total liabilities of $52,835M, an accumulated deficit (retained earnings of -$5,086M), and a weak current ratio of 0.63 indicating immediate liquidity pressure. While the company exhibits strong profitability with a 42% operating margin and $821M in net income, the massive debt burden and working capital deficit pose significant default risks that place the issuer deep into speculative-grade territory.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 281,
+ "out_tok": 133,
+ "usd": 0.001619,
+ "utc": "2026-07-10T15:10:55.312726+00:00"
+}

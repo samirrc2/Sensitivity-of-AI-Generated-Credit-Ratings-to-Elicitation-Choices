@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R004",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows decent operating profitability (EBIT margin ~17.5% and net margin ~9.9%) and solid liquidity (current ratio ~2.2). However, negative retained earnings and relatively high leverage (liabilities-to-equity ~2.1) indicate weaker balance-sheet resilience, supporting a lower investment-grade rating.  \n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 230,
+ "out_tok": 191,
+ "usd": 0.000285,
+ "utc": "2026-07-10T13:54:48.155141+00:00"
+}

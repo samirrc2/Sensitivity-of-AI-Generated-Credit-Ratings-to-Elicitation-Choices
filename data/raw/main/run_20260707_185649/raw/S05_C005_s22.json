@@ -1,0 +1,45 @@
+{
+ "spec_id": "S05",
+ "item_id": "C005",
+ "seed": 22,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 22,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2025-10-30, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2025-10-30):\nFiscal period 2025 Q3 (filed 2025-10-30). Revenue 17,601M, gross margin 83%, operating income 8,386M (operating margin 48%), net income 5,582M, diluted EPS 6.21. Total assets 114,935M, total liabilities 91,085M, shareholders' equity 23,793M. Current assets 62,071M vs current liabilities 40,141M (current ratio 1.55), retained earnings 22,252M.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "This issuer exhibits an exceptionally strong financial profile, characterized by highly robust profitability (48% operating margin and 83% gross margin on $17.6B in quarterly revenue) and strong liquidity (current ratio of 1.55). While the leverage ratio is moderately high with total liabilities of $91.1B against $114.9B in assets, the company's massive earnings power, substantial retained earnings, and immense scale represent a prime-grade credit profile with extremely low default risk. \n\nDECISION: AA+",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 300,
+ "output_tokens": 114,
+ "cost_usd": 0.001476,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:04:41.782493+00:00",
+ "mode": "REAL"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R011",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid liquidity with a current ratio of 2.31 ($6.4B in current assets vs. $2.8B in current liabilities) and a significant buffer of accumulated historical earnings (retained earnings of $12.8B), indicating a strong long-term track record. However, the company is currently unprofitable, posting a net loss of $892M on $10.5B in revenue, and carries a high leverage profile with total liabilities of $13.0B against equity of $5.7B. These balanced factors of near-term operational stress alongside deep historical reserves and solid short-term liquidity align with a lower-medium investment grade profile.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 241,
+ "out_tok": 151,
+ "usd": 0.001721,
+ "utc": "2026-07-10T14:02:44.188481+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows very weak liquidity (current ratio 0.27) and negative capital (shareholders\u2019 equity of -1,920M and retained earnings of -20,476M), indicating limited balance-sheet resilience and heightened refinancing risk. Despite positive operating profitability (EBIT/operating income of 465M on 1,010M revenue), leverage is extreme with total liabilities exceeding total assets, consistent with a distressed credit profile.  \n\nDECISION: CCC-",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "in_tok": 240,
+ "out_tok": 260,
+ "usd": 0.000373,
+ "utc": "2026-07-10T15:18:33.836196+00:00"
+}

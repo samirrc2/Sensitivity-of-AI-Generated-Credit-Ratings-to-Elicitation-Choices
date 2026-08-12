@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits an exceptionally strong financial profile, characterized by outstanding profitability (89% gross margin and 44% operating margin) and a highly robust liquidity position, highlighted by a current ratio of 12.41 (current assets of $186,246M against current liabilities of $15,003M). While the total liabilities-to-equity ratio is high at approximately 9.0x, the massive liquid asset buffer and substantial retained earnings minimize default risk to an extreme degree. Based on this superior liquidity, high profitability, and massive asset base, the issuer warrants the highest credit quality rating.\n\nDECISION: AAA",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "in_tok": 291,
+ "out_tok": 136,
+ "usd": 0.001661,
+ "utc": "2026-07-10T14:29:04.688267+00:00"
+}

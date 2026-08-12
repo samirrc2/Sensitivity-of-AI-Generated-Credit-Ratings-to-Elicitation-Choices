@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "R023",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"High equity ratio and strong liquidity are offset by significant accumulated deficits (negative retained earnings) and moderate EBIT relative to assets.\"}\n```",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 255,
+ "out_tok": 48,
+ "usd": 0.000815,
+ "utc": "2026-07-10T14:16:29.226844+00:00"
+}

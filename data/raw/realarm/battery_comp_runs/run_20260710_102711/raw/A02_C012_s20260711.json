@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits exceptionally strong credit fundamentals, characterized by massive scale (revenue of $82.9B in Q3 alone), elite profitability margins (operating margin of 46%, net income of $31.8B), and a highly robust balance sheet with $414.4B in shareholders' equity against $279.9B in total liabilities. While the current ratio of 1.28 is adequate rather than highly liquid, the sheer volume of retained earnings ($302.5B) and immense cash-generating capacity represent an extremely low default risk profile consistent with the highest credit quality.\n\nDECISION: AAA",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "in_tok": 295,
+ "out_tok": 133,
+ "usd": 0.00164,
+ "utc": "2026-07-10T14:39:28.430827+00:00"
+}

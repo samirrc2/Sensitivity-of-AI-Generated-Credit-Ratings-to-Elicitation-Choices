@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C003",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided Q3 2025 financial data, the issuer exhibits an exceptionally strong balance sheet with $122.5B in total assets, $64.9B in shareholders' equity, and a solid current ratio of 1.32, indicating minimal default risk. Furthermore, the company displays robust profitability with a 23% gross margin, $2.7B in quarterly operating income (18% margin), and $1.7B in net income, supporting highly stable debt-service capabilities. These premium credit metrics and massive scale are characteristic of a highly secure, high-grade investment-class issuer.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 288,
+ "out_tok": 139,
+ "usd": 0.001683,
+ "utc": "2026-07-10T14:29:24.863526+00:00"
+}

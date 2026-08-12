@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer displays a solid financial profile with a strong revenue base of $19.13 billion, positive net profitability ($2.40 billion net income), and a healthy current ratio of 1.44. However, the balance sheet is highly leveraged with total liabilities of $77.27 billion relative to shareholders' equity of $21.32 billion (debt-to-equity and total liabilities-to-equity ratios are elevated). This leverage profile, balanced by strong operating profitability and substantial retained earnings, aligns with an upper-medium grade investment rating.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 280,
+ "out_tok": 124,
+ "usd": 0.001536,
+ "utc": "2026-07-10T14:43:01.184900+00:00"
+}

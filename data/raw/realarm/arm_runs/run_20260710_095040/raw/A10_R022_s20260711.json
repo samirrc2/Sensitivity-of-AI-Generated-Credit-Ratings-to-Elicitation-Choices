@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R022",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's financial profile reveals moderate creditworthiness. On the positive side, the firm is profitable with an operating margin of 14.4% ($1,310M) and has a solid equity cushion ($5,450M equity against $12,786M assets, or a 42.6% equity ratio). However, liquidity is highly constrained, evidenced by a very tight current ratio of 1.14 ($3,598M current assets vs $3,157M current liabilities), and net income ($242M) is significantly depressed relative to operating income, suggesting high interest or non-operating expenses that compress debt service capacity.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 249,
+ "out_tok": 155,
+ "usd": 0.001768,
+ "utc": "2026-07-10T14:15:32.470708+00:00"
+}

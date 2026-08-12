@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R001",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits solid financial performance with substantial profitability (operating margin of 16% and net income of 350M) and a healthy balance sheet, characterized by a current ratio of 1.87 and positive shareholders' equity of 1,609M. However, its overall asset scale (total assets of 3,807M) and leverage profile (total liabilities representing approximately 58% of total assets) place it firmly in the investment-grade category but below the highest credit tiers. These metrics align with a stable, mid-investment-grade risk profile.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 238,
+ "out_tok": 129,
+ "usd": 0.001518,
+ "utc": "2026-07-10T13:51:11.651968+00:00"
+}

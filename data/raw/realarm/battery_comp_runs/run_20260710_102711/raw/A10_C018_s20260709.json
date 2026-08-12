@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided Q1 2026 financial data, the company exhibits a very weak capital structure with extremely high leverage, evidenced by total assets of 164,787M against total liabilities of 158,800M, leaving a thin shareholders' equity cushion of just 5,987M (an equity-to-assets ratio of only 3.6%). Furthermore, profitability is highly strained with a razor-thin gross margin of 11%, a low operating margin of 2% (446M), and a net loss of -4M. While a current ratio of 1.18 provides some short-term liquidity, the combination of negligible equity capitalization, unprofitable operations, and massive liabilities places this issuer in the highly speculative category.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 284,
+ "out_tok": 172,
+ "usd": 0.001974,
+ "utc": "2026-07-10T14:46:29.229391+00:00"
+}

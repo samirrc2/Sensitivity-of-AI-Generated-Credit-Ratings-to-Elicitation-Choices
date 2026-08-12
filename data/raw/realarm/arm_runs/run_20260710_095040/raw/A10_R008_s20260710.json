@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R008",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An evaluation of the company's financial profile indicates strong creditworthiness, characterized by high profitability (27% operating margin), a solid capital structure (total debt/liabilities represent 53% of the balance sheet, supported by $2,082M in equity), and robust liquidity (a current ratio of 2.28). While the company exhibits investment-grade characteristics with stable earnings and a healthy cushion of retained earnings, its absolute asset size ($4.4B) and revenue scale ($1.5B) position it as a mid-sized corporate issuer, which typically caps the rating in the upper-medium investment grade. Consequently, the company possesses strong capacity to meet its financial commitments but faces slightly higher vulnerability to long-term economic shifts than higher-rated peers.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 236,
+ "out_tok": 167,
+ "usd": 0.001857,
+ "utc": "2026-07-10T13:59:43.281209+00:00"
+}

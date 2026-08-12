@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"CCC\",\n  \"confidence\": 4,\n  \"rationale\": \"Negative equity, severe retained earnings deficit, sub-1.0 current ratio, and low EBIT-to-debt coverage indicate extremely high default risk.\"\n}\n```",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 276,
+ "out_tok": 61,
+ "usd": 0.000963,
+ "utc": "2026-07-10T15:16:20.572869+00:00"
+}

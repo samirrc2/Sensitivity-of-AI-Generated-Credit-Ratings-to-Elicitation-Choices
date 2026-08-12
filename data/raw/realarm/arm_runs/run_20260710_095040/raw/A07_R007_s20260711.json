@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R007",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Strong liquidity (current ratio \u2248 3.4) and solid profitability (EBIT margin \u2248 13.5%, net margin \u2248 7.3%) support the ability to meet near-term obligations. Leverage is moderate (total liabilities \u2248 1.04\u00d7 shareholders\u2019 equity), which tempers the overall credit strength compared with top-tier ratings.  \n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "in_tok": 230,
+ "out_tok": 242,
+ "usd": 0.000348,
+ "utc": "2026-07-10T13:58:23.102420+00:00"
+}

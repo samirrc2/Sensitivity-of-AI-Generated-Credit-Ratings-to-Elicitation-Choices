@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows very strong liquidity (current ratio 12.41), and profitability appears solid with EBIT/operating income of 3,188M relative to revenue of 7,300M. However, capital structure is highly leveraged, with total liabilities at ~90% of total assets (444,085M vs. 493,319M), which constrains credit strength despite the strong operating performance.  \n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 240,
+ "out_tok": 286,
+ "usd": 0.000406,
+ "utc": "2026-07-10T14:28:33.588375+00:00"
+}

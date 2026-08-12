@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BBB-\",\n  \"confidence\": 4,\n  \"rationale\": \"High equity and assets support investment grade, but low profitability (EBIT margin 19%) and tight current ratio (0.79) limit rating to BBB-.\"\n}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 274,
+ "out_tok": 67,
+ "usd": 0.001014,
+ "utc": "2026-07-10T15:08:08.782128+00:00"
+}

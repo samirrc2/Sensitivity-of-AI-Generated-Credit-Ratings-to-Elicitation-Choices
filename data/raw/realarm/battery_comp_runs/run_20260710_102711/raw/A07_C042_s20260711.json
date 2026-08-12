@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows weak liquidity (current ratio 0.92) and significant balance-sheet distress with negative shareholders\u2019 equity and retained earnings, indicating accumulated losses and heightened solvency risk. While operating profitability exists (EBIT of 777M on 9,532M revenue), the negative equity position and liabilities exceeding assets suggest a high likelihood of credit deterioration.  \nDECISION: CCC-",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "in_tok": 231,
+ "out_tok": 216,
+ "usd": 0.000316,
+ "utc": "2026-07-10T15:15:54.796656+00:00"
+}

@@ -1,0 +1,45 @@
+{
+ "spec_id": "S01",
+ "item_id": "D089",
+ "seed": 22,
+ "family": "directional",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "SELL",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 22,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-05-21. Act as a equity research analyst.\n| Return 3m            | -7.4% |\n| Return 1m            | -10.0% |\n| Return 1w            | -1.8% |\n| Range position (63d) | 50% |\n| 21d realized vol     | 36% |\n| Last close           | 607.38 |\nBased only on the above and knowledge predating 2026-05-21, give a 20-trading-day directional recommendation for the stock. Choose exactly one label from: BUY, HOLD, SELL.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock has experienced significant negative returns over the past three months, including a substantial 10% drop in the last month and a continued decline in the past week. Despite this, its range position is at 50%, suggesting it's not at an extreme low within its recent trading range, which could indicate potential for further downside if the negative momentum persists. The high 21-day realized volatility of 36% means large price swings are common, but given the sustained negative trend, it suggests a higher probability of continued downward movement in the short term.\n\nDECISION: SELL",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 193,
+ "output_tokens": 121,
+ "cost_usd": 0.00036,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T22:57:44.163485+00:00",
+ "mode": "REAL"
+}

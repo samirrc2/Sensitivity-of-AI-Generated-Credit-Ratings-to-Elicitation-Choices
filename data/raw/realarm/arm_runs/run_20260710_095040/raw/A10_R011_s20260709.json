@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R011",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's financial profile reveals a mixed credit risk outlook: while the balance sheet exhibits a solid liquidity buffer (current ratio of 2.31x) and a healthy equity cushion (shareholders' equity of $5,711M against assets of $18,687M), the company is currently unprofitable, with an operating loss of -$287M and a deep net loss of -$892M. Given the substantial accumulated retained earnings ($12,770M), the firm has a strong historical track record, but its recent operational distress and significant net losses place it in speculative-grade territory until profitability stabilizes. Therefore, a high speculative-grade rating is warranted to balance the strong asset/liquidity backing against current earnings weakness.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 249,
+ "out_tok": 168,
+ "usd": 0.001885,
+ "utc": "2026-07-10T14:03:03.644858+00:00"
+}

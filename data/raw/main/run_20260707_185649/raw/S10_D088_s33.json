@@ -1,0 +1,45 @@
+{
+ "spec_id": "S10",
+ "item_id": "D088",
+ "seed": 33,
+ "family": "directional",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "SELL",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "2",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 0.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-04-30. Act as a equity research analyst.\n| Return 3m            | +8.5% |\n| Return 1m            | +0.2% |\n| Return 1w            | +3.0% |\n| Range position (63d) | 78% |\n| 21d realized vol     | 18% |\n| Last close           | 96.70 |\nHere are two worked examples:\n- Information: Price action as of 2026-03-19: 1w +4.1%, 1m -5.5%, 3m -1.3%. Last close 109.85. 21d annualized realized volatility 35%. Position in trailing 63-day range: 24% (0%=low, 100%=high).\n  Answer: BUY\n- Information: Price action as of 2026-04-02: 1w -4.8%, 1m -8.3%, 3m -0.8%. Last close 201.40. 21d annualized realized volatility 23%. Position in trailing 63-day range: 46% (0%=low, 100%=high).\n  Answer: SELL\n\nBased only on the above and knowledge predating 2026-04-30, give a 20-trading-day directional recommendation for the stock. Choose exactly one label from: BUY, HOLD, SELL.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock exhibits strong positive momentum across multiple timeframes, gaining +8.5% over the last 3 months and +3.0% over the past week. It is trading near the upper end of its recent range (78th percentile of its 63-day range) with relatively low and stable volatility (18% realized volatility), suggesting a healthy, low-risk upward trend that is likely to continue over the next 20 trading days.\n\nDECISION: BUY",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 390,
+ "output_tokens": 100,
+ "cost_usd": 0.001485,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:10:29.036117+00:00",
+ "mode": "REAL"
+}

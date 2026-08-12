@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R006",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage (Total Debt/Equity over 1.4x), negative profitability (EBIT and Net Income are negative), but offset by strong liquidity and revenue base.\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 272,
+ "out_tok": 65,
+ "usd": 0.000993,
+ "utc": "2026-07-10T13:56:47.815052+00:00"
+}

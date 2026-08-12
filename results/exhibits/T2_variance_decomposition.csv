@@ -1,0 +1,11 @@
+component,variance_share_pct
+item,63.484
+residual_seed_noise,24.652
+provider_x_item,2.237
+A7_presentation,4.959
+A6_fewshot,1.369
+A1_provider,1.266
+A4_paraphrase,1.071
+A2_version,0.485
+A5_format,0.419
+A3_temperature,0.059

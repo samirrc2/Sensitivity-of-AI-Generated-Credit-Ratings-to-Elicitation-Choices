@@ -1,0 +1,45 @@
+{
+ "spec_id": "S34",
+ "item_id": "C009",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 0.0,
+   "maxOutputTokens": 1024,
+   "seed": 11,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-02-19. Act as a credit rating analyst.\n| Current ratio           | 2.29 |\n| Retained earnings       | 3,431M |\n| Current liabilities     | 5,712M |\n| Current assets          | 13,066M |\n| Shareholders' equity    | 33,867M |\n| Total liabilities       | 23,079M |\n| Total assets            | 57,121M |\n| EBIT / operating income | 3,688M |\n| Revenue                 | 6,571M |\nBased only on the above and knowledge predating 2026-02-19, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The company exhibits a strong current ratio of 2.29 and substantial retained earnings, indicating good short-term liquidity and profitability retention. However, the debt-to-equity ratio is high at 0.68 (23,079M / 33,867M), and the EBIT margin is modest at 56.12% (3,688M / 6,571M), suggesting a significant reliance on debt and average operational efficiency. The overall financial health points to a solid, but not exceptional, creditworthiness.\n\nDECISION: A-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 281,
+ "output_tokens": 126,
+ "cost_usd": 0.000399,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:44:56.100815+00:00",
+ "mode": "REAL"
+}

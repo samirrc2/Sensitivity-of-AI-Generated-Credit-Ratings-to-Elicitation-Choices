@@ -1,0 +1,45 @@
+{
+ "spec_id": "S41",
+ "item_id": "D050",
+ "seed": 22,
+ "family": "directional",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 0.0,
+   "maxOutputTokens": 1024,
+   "seed": 22,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Task: give a 20-trading-day directional recommendation for the stock.\nRespond with exactly one of: BUY, HOLD, SELL. Use only the figures provided and knowledge available on or before 2026-02-05; do not use later information.\nProvided information:\nPrice action as of 2026-02-05: 1w -19.2%, 1m -29.6%, 3m -45.0%. Last close 136.48. 21d annualized realized volatility 55%. Position in trailing 63-day range: 0% (0%=low, 100%=high).\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\"decision\": \"BUY\", \"confidence\": 3, \"rationale\": \"Significant short-term declines and current low in range suggest a potential bounce. High volatility supports this.\"}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 191,
+ "output_tokens": 38,
+ "cost_usd": 0.000152,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:53:16.322861+00:00",
+ "mode": "REAL"
+}

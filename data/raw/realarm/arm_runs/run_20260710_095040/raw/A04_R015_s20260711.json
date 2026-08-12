@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R015",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"Strong equity base and liquidity are offset by severely negative operating income, indicating operational distress despite positive net income.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 269,
+ "out_tok": 44,
+ "usd": 0.000799,
+ "utc": "2026-07-10T14:07:05.141505+00:00"
+}

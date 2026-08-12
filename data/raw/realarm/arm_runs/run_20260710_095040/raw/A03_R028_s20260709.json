@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R028",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid capitalization (shareholders\u2019 equity of 4,503M) and positive profitability (net income 500M; EBIT 539M), with a reasonable short-term liquidity profile (current assets 1,355M vs. current liabilities 1,057M). However, leverage is relatively high (total liabilities 7,354M vs. total assets 11,857M; D/E ~1.6) and operating profitability appears modest (EBIT margin ~9%), limiting credit strength.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 237,
+ "out_tok": 219,
+ "usd": 0.000321,
+ "utc": "2026-07-10T14:21:37.531101+00:00"
+}

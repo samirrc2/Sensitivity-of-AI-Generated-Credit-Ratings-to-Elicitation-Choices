@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Moderate leverage (Total Debt/Assets 79%) and decent EBIT margin (47%) are offset by low asset turnover (0.15), justifying a solid investment-grade rating.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 282,
+ "out_tok": 62,
+ "usd": 0.000981,
+ "utc": "2026-07-10T14:32:35.767829+00:00"
+}

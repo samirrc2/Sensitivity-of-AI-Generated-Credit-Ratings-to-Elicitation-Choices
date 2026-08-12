@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Liquidity is adequate but only moderately so (current ratio 1.39), and the balance sheet shows leverage (total liabilities 52,676M vs. equity 21,312M). While EBIT of 886M on revenue of 9,143M indicates positive operating profitability, the lack of retained earnings (0M) is a major offset, suggesting limited historical earnings capacity and weaker financial resilience.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 236,
+ "out_tok": 194,
+ "usd": 0.00029,
+ "utc": "2026-07-10T14:54:27.147549+00:00"
+}

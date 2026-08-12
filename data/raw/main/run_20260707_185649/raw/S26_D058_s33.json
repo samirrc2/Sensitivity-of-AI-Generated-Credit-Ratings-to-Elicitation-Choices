@@ -1,0 +1,44 @@
+{
+ "spec_id": "S26",
+ "item_id": "D058",
+ "seed": 33,
+ "family": "directional",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 0.0,
+   "seed": 33,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-01-22. Act as a equity research analyst.\n| Return 3m            | +9.1% |\n| Return 1m            | +9.5% |\n| Return 1w            | +1.5% |\n| Range position (63d) | 100% |\n| 21d realized vol     | 22% |\n| Last close           | 85.81 |\nBased only on the above and knowledge predating 2026-01-22, give a 20-trading-day directional recommendation for the stock. Choose exactly one label from: BUY, HOLD, SELL.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The provided data shows clear positive price momentum across multiple horizons (particularly the past month), with the stock closing at a fresh 63-day high. This combination is consistent with trend continuation over a ~20-trading-day window, outweighing the moderate realized volatility.\nDECISION: BUY",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 296,
+ "output_tokens": 56,
+ "cost_usd": 0.00051,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:33:44.051856+00:00",
+ "mode": "REAL"
+}

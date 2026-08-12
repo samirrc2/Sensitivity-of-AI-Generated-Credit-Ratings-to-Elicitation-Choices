@@ -1,0 +1,45 @@
+{
+ "spec_id": "S01",
+ "item_id": "D061",
+ "seed": 22,
+ "family": "directional",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 22,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-03-19. Act as a equity research analyst.\n| Return 3m            | -29.3% |\n| Return 1m            | -6.5% |\n| Return 1w            | -8.8% |\n| Range position (63d) | 0% |\n| 21d realized vol     | 42% |\n| Last close           | 245.99 |\nBased only on the above and knowledge predating 2026-03-19, give a 20-trading-day directional recommendation for the stock. Choose exactly one label from: BUY, HOLD, SELL.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock has experienced significant short-term declines, with returns of -29.3% over 3 months, -6.5% over 1 month, and -8.8% over 1 week. Its range position at 0% suggests it is at the very bottom of its 63-day trading range, implying a potential for mean reversion or at least limited further downside in the immediate term. While volatility is high at 42%, the deep retracement and range position suggest that a short-term rebound is more likely than further significant declines over the next 20 trading days.\n\nDECISION: BUY",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 192,
+ "output_tokens": 130,
+ "cost_usd": 0.000383,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T22:57:27.287229+00:00",
+ "mode": "REAL"
+}

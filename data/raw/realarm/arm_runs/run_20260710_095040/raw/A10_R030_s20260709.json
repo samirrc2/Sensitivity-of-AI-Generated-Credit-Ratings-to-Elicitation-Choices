@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R030",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's financial profile reveals strong profitability with an operating margin of 20% ($436M on $2,153M revenue) and positive net income of $242M, indicating solid core earnings power. However, the balance sheet presents a highly leveraged capital structure with an equity multiplier of 2.93 (Total Assets of $11,310M to Shareholders' Equity of $3,858M) and a strained short-term liquidity position, characterized by a current ratio of 0.72 ($674M current assets against $932M current liabilities). This combination of robust operating profitability alongside elevated leverage and weak short-term liquidity aligns with a speculative-grade profile that currently faces manageable default risk.\n\nDECISION: BB",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 237,
+ "out_tok": 169,
+ "usd": 0.001876,
+ "utc": "2026-07-10T14:24:55.258102+00:00"
+}

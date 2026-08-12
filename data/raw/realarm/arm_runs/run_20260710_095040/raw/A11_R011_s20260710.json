@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R011",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows solid near-term liquidity (current assets/current liabilities \u2248 6,403/2,767 = 2.3x) and positive shareholders\u2019 equity (5,711M), but it is currently loss-making with negative EBIT (-287M) and net income (-892M), indicating weakened operating performance. Leverage is relatively high (total liabilities 13,001M vs. total assets 18,687M), which reduces balance-sheet resilience.  \nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 239,
+ "out_tok": 273,
+ "usd": 0.000389,
+ "utc": "2026-07-10T14:03:12.631636+00:00"
+}

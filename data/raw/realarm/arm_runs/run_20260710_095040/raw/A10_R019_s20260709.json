@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the company is experiencing severe financial distress, characterized by an operating loss of -459M, a net loss of -640M, and an extremely thin equity cushion (shareholders' equity of 415M against 11,824M in total liabilities, resulting in a leverage ratio of over 28x). While the company currently maintains adequate short-term liquidity (a current ratio of 1.78 and positive retained earnings of 2,023M), its highly leveraged capital structure and substantial operating losses place it deep into speculative-grade territory with high default risk. Therefore, a rating in the single-B category is warranted to reflect the high vulnerability to default balanced against temporary short-term liquidity.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 246,
+ "out_tok": 167,
+ "usd": 0.001872,
+ "utc": "2026-07-10T14:12:01.326323+00:00"
+}

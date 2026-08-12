@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C003",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits an exceptionally strong balance sheet with a massive equity base ($64.92 billion) exceeding total liabilities ($57.55 billion), a healthy current ratio of 1.32, and substantial accumulated retained earnings ($68.46 billion) reflecting a long history of highly profitable operations. This solid capital structure is supported by robust profitability, evidenced by an 18% operating margin and $1.73 billion in quarterly net income, translating to extremely low default risk. While the liquidity profile is adequate and leverage is conservative, the asset-heavy nature of the balance sheet and moderate current ratio place it just below the highest possible sovereign-equivalent tiers, supporting a highly secure investment-grade rating in the double-A category.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 289,
+ "out_tok": 160,
+ "usd": 0.001874,
+ "utc": "2026-07-10T14:30:10.891958+00:00"
+}

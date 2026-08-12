@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C010",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows strong liquidity (current ratio of 1.92) and moderate leverage (total liabilities of 21,966M versus total assets of 51,799M). Operating performance appears very strong with EBIT/operating income of 2,489M on revenue of 5,638M, indicating solid earnings capacity, supporting an investment-grade rating in the upper range.  \n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 233,
+ "out_tok": 230,
+ "usd": 0.000334,
+ "utc": "2026-07-10T14:37:48.522822+00:00"
+}

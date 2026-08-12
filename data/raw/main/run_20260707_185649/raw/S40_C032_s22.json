@@ -1,0 +1,44 @@
+{
+ "spec_id": "S40",
+ "item_id": "C032",
+ "seed": 22,
+ "family": "credit_health",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 0.0,
+   "seed": 22,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2026-04-23; do not use later information.\nProvided information:\nFiscal period 2026 Q1 (filed 2026-04-23). Revenue 20,880M, gross margin 85%, operating income 6,598M (operating margin 32%), net income 2,971M, diluted EPS 4.28. Total assets 308,894M, total liabilities 274,899M, shareholders' equity 33,995M. Current assets 56,524M vs current liabilities 159,640M (current ratio 0.35), retained earnings 26,088M.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\"decision\": \"BB+\", \"confidence\": 3, \"rationale\": \"Strong margins/profits but very weak liquidity (CR 0.35) and high leverage limit rating.\"}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 380,
+ "output_tokens": 39,
+ "cost_usd": 0.000573,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:51:56.988703+00:00",
+ "mode": "REAL"
+}

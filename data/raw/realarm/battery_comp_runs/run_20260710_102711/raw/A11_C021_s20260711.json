@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C021",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows **weak near-term liquidity** with a current ratio of **0.68**, indicating reliance on operating cash flow to meet short-term obligations. However, **leverage is not extreme** (total liabilities of **24,587M** vs. total assets of **60,792M**) and profitability appears **strong** with EBIT of **2,002M** on revenue of **4,171M** (~48% EBIT margin). Overall, these factors support an **upper-investment-grade** rating but not the strongest liquidity-driven tier.\n\nDECISION: BBB+",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 269,
+ "usd": 0.000385,
+ "utc": "2026-07-10T14:50:05.807276+00:00"
+}

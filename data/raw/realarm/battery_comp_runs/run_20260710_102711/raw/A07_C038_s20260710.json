@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Liquidity is weak (current ratio 0.63) and the company has significant cumulative losses (retained earnings of -5,086M), indicating financial strain. Leverage is high with very low equity relative to assets (shareholders\u2019 equity 3,652M vs total assets 63,190M), which increases default risk, even though operating profitability (EBIT/operating income 1,161M) appears positive.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 211,
+ "usd": 0.00031,
+ "utc": "2026-07-10T15:10:42.642567+00:00"
+}

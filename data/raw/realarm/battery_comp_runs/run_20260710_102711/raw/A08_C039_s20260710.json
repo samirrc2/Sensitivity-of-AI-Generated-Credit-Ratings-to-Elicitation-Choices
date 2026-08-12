@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"CCC\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage (Total Liabilities/Assets over 93%), weak liquidity (Current Ratio 0.83), and extremely low profitability relative to massive liabilities indicate high default risk.\"\n}\n```",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 287,
+ "out_tok": 67,
+ "usd": 0.001034,
+ "utc": "2026-07-10T15:12:13.736191+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's balance sheet reveals severe structural insolvency, characterized by a negative retained earnings balance of -$5,086M and an extremely thin equity cushion of $3,652M supporting a massive asset base of $63,190M (leverage ratio of nearly 17.3x). Furthermore, the company faces immediate liquidity pressure with a current ratio of 0.63 ($2,495M in current assets against $3,973M in current liabilities), meaning its short-term obligations exceed its liquid assets by nearly $1.5B. Despite strong operating profitability (42% operating margin on $2,738M in revenue), the extreme leverage, negative retained earnings, and severe working capital deficit place the issuer at high credit risk, typical of a highly speculative, non-investment grade profile.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 281,
+ "out_tok": 188,
+ "usd": 0.002113,
+ "utc": "2026-07-10T15:10:59.255545+00:00"
+}

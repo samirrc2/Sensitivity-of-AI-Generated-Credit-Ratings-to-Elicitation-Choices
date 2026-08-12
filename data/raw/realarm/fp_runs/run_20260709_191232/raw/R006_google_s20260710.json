@@ -1,0 +1,12 @@
+{
+ "item_id": "R006",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "ok": true,
+ "raw_response": "GUESS: MicroStrategy (MSTR)",
+ "in_tok": 178,
+ "out_tok": 9,
+ "usd": 0.000348,
+ "utc": "2026-07-09T23:14:37.740623+00:00"
+}

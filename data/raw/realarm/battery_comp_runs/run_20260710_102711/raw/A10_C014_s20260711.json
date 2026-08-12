@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financials, the company shows a solid balance sheet with low leverage (total liabilities to equity ratio of approximately 1.49x, and equity representing nearly 40% of assets), a supportive current ratio of 1.30, and strong profitability (net income of 2,906M on 34,015M in revenue). However, the operating margin is relatively thin at 4% (implying the bottom-line net income was significantly aided by non-operating items or tax benefits), and the gross margin of 6% suggests a high-volume, low-margin business model (such as retail or wholesaling) that is susceptible to macroeconomic swings. Taking into account the strong solvency and asset base alongside these tight operating margins, the issuer exhibits strong creditworthiness with moderate susceptibility to adverse economic conditions.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 286,
+ "out_tok": 182,
+ "usd": 0.002067,
+ "utc": "2026-07-10T14:42:18.241887+00:00"
+}

@@ -1,0 +1,44 @@
+{
+ "spec_id": "S26",
+ "item_id": "C025",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 0.0,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-04-23. Act as a credit rating analyst.\n| Current ratio           | 1.39 |\n| Retained earnings       | 0M |\n| Current liabilities     | 22,085M |\n| Current assets          | 30,590M |\n| Shareholders' equity    | 21,312M |\n| Total liabilities       | 52,676M |\n| Total assets            | 73,988M |\n| EBIT / operating income | 886M |\n| Revenue                 | 9,143M |\nBased only on the above and knowledge predating 2026-04-23, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The reported balance sheet shows high leverage (equity ~29% of assets) with zero retained earnings, implying a history of losses or a leveraged recapitalization. Liquidity is only adequate (current ratio 1.39) and the modest EBIT margin provides little visibility into interest coverage or debt service capacity given the scale of total liabilities. These factors together place the credit in the upper tier of the single-B category.\nDECISION: B+",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 363,
+ "output_tokens": 88,
+ "cost_usd": 0.000674,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:33:10.253958+00:00",
+ "mode": "REAL"
+}

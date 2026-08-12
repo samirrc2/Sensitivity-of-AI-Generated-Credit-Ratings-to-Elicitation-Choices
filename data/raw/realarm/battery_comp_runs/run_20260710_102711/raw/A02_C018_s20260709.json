@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer displays extremely high leverage with total assets of 164,787M supported by only 5,987M in shareholders' equity (an assets-to-equity multiplier of over 27x), alongside weak profitability characterized by a very low 2% operating margin and a net loss of 4M on 22,217M in revenue. While the company maintains a massive asset base and positive retained earnings of 17,162M, the tight current ratio of 1.18 and thin equity cushion present substantial credit risk. Therefore, the company exhibits a highly leveraged, speculative-grade profile.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 283,
+ "out_tok": 142,
+ "usd": 0.001703,
+ "utc": "2026-07-10T14:45:45.830895+00:00"
+}

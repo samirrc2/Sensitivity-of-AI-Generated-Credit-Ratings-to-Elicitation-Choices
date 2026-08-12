@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided Q1 2026 financial data, the company demonstrates significant scale with $23.1B in revenue and is operationally profitable with an 11% operating margin and $1.63B in net income. However, its balance sheet is highly leveraged and weak, characterized by negative shareholders' equity of -$9.27B (likely driven by accumulated deficits, given the -$9.88B in retained earnings) and a tight current ratio of 1.09. While the company's solid earnings power and positive cash-generating potential mitigate immediate default risk, the negative net worth and high liability load place it firmly in the non-investment grade (speculative) category.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 285,
+ "out_tok": 155,
+ "usd": 0.001822,
+ "utc": "2026-07-10T15:05:00.223541+00:00"
+}

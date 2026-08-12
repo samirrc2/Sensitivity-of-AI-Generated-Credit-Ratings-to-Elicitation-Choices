@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows weak liquidity (current ratio 0.62) and heavy leverage with negative shareholders\u2019 equity (\u22122,646M) despite total liabilities exceeding total assets (37,604M vs. 35,008M), indicating elevated balance-sheet risk. While operating income/EBIT of 3,230M against revenue of 5,251M suggests profitability, the capital structure and liquidity profile are consistent with a higher credit risk category.  \nDECISION: CCC+",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "in_tok": 233,
+ "out_tok": 263,
+ "usd": 0.000375,
+ "utc": "2026-07-10T14:35:34.776696+00:00"
+}

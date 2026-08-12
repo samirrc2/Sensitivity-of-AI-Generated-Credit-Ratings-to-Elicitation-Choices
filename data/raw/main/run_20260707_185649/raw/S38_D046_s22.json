@@ -1,0 +1,43 @@
+{
+ "spec_id": "S38",
+ "item_id": "D046",
+ "seed": 22,
+ "family": "directional",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 0.0,
+ "temperature_applied": false,
+ "effective_temperature": null,
+ "call_meta": {
+  "signature": "mct+seed+eff",
+  "temperature_applied": false,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "seed": 22,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a equity research analyst. Using only the information below and general knowledge predating 2026-03-19, give a 20-trading-day directional recommendation for the stock.\nValid answers (choose exactly one): BUY, HOLD, SELL.\nCompany information (as of 2026-03-19):\n| Return 3m            | +16.2% |\n| Return 1m            | -6.1% |\n| Return 1w            | -1.5% |\n| Range position (63d) | 61% |\n| 21d realized vol     | 23% |\n| Last close           | 114.20 |\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock shows solid medium-term momentum with a +16.2% return over 3 months, suggesting continued strength despite a recent 1-month pullback. A 21-day realized vol of 23% indicates meaningful trading interest and potential for further moves, while a 61% range position signals the price is within its typical range rather than at an extreme. Taken together, the setup favors continued upside over roughly the next 20 trading days.\n\nDECISION: BUY",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 170,
+ "output_tokens": 423,
+ "cost_usd": 0.000563,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:50:00.155761+00:00",
+ "mode": "REAL"
+}

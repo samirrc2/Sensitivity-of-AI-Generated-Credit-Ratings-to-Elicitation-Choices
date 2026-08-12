@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R011",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid liquidity (current assets of 6,403M vs. current liabilities of 2,767M) and positive equity (5,711M), but profitability is weak with sustained operating losses (EBIT -287M) and net losses (net income -892M). Leverage is moderate (total liabilities 13,001M vs. assets 18,687M), but the lack of earnings power lowers credit resilience.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 239,
+ "out_tok": 215,
+ "usd": 0.000317,
+ "utc": "2026-07-10T14:03:09.839126+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows strong financial performance with substantial revenue ($12.2B in Q3), solid profitability (30% operating margin, 72% gross margin), and a stable liquidity profile (current ratio of 1.27). However, the leverage profile is relatively high, with total liabilities of $78.3B against shareholders' equity of $18.6B (equity-to-assets ratio of ~19%), which moderates the rating from the highest categories. These metrics align with a solid investment-grade profile that reflects strong market position and operating cash flows alongside moderate financial leverage.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 280,
+ "out_tok": 132,
+ "usd": 0.001608,
+ "utc": "2026-07-10T14:56:06.067576+00:00"
+}

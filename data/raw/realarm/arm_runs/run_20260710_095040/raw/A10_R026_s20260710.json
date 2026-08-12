@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R026",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "As a credit rating analyst, the issuer demonstrates solid revenue generation ($13.1B) and positive profitability ($710M operating income, $517M net income), but is constrained by low profitability margins (5% operating margin) and a highly leveraged capital structure with a total debt-to-equity style profile of $13.8B in liabilities against $3.16B in equity. Furthermore, the company exhibits short-term liquidity pressure, evidenced by a current ratio of 0.89 ($2,565M current assets vs $2,881M current liabilities), which increases default risk in the near term despite the stable cumulative profitability indicated by $2,664M in retained earnings. These factors place the issuer in the non-investment grade spectrum, specifically in the double-B category, reflecting moderate credit risk.\n\nDECISION: BB",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "in_tok": 242,
+ "out_tok": 185,
+ "usd": 0.002028,
+ "utc": "2026-07-10T14:19:59.858283+00:00"
+}

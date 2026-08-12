@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows severe balance-sheet stress with **negative shareholders\u2019 equity** (\u2013$1,920M) and **negative retained earnings** (\u2013$20,476M), alongside very weak liquidity (**current ratio 0.27**). Although it generates **positive EBIT ($465M)**, the thin/negative net worth and strained current coverage imply high refinancing and default risk.  \n\nDECISION: CCC",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 240,
+ "out_tok": 247,
+ "usd": 0.000357,
+ "utc": "2026-07-10T15:18:38.260696+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong profitability with $30.1B in revenue, a 52% gross margin, and $4.6B in net income, indicating a robust and sustainable operating model. However, its balance sheet reveals significant leverage with $1,684B in total liabilities against $125B in shareholders' equity, as well as a tight liquidity position reflected by a current ratio of 0.83 ($1,018B in current assets vs. $1,226B in current liabilities). This combination of highly profitable operations but extremely large-scale financial/leverage profiles (characteristic of major financial institutions or highly leveraged financing vehicles) warrants a strong investment-grade rating, tempered by the substantial short-term liabilities.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 301,
+ "out_tok": 163,
+ "usd": 0.001919,
+ "utc": "2026-07-10T15:11:19.448052+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R018",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid financial scale with revenue of $18.9B and total assets of $23.7B, alongside positive profitability (net income of $1.7B and an 8% operating margin). However, the balance sheet has a moderate leverage profile (total liabilities of $14.6B against $7.6B in equity), a modest current ratio of 1.44, and negative retained earnings of -$398M, indicating historical accumulated losses or heavy restructuring. These metrics align with a solid investment-grade profile that balance healthy size and earnings against moderate leverage.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 236,
+ "out_tok": 130,
+ "usd": 0.001524,
+ "utc": "2026-07-10T14:10:31.678061+00:00"
+}

@@ -1,0 +1,45 @@
+{
+ "spec_id": "S34",
+ "item_id": "D063",
+ "seed": 33,
+ "family": "directional",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 0.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-03-19. Act as a equity research analyst.\n| Return 3m            | +4.1% |\n| Return 1m            | -8.3% |\n| Return 1w            | -3.9% |\n| Range position (63d) | 31% |\n| 21d realized vol     | 28% |\n| Last close           | 28.98 |\nBased only on the above and knowledge predating 2026-03-19, give a 20-trading-day directional recommendation for the stock. Choose exactly one label from: BUY, HOLD, SELL.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock has experienced significant negative momentum recently, with negative returns over the past month and week, despite a positive 3-month return. Its current price is in the lower third of its 63-day range, suggesting a potential for further downside or at least a lack of strong upward catalysts in the short term. The high 21-day realized volatility indicates continued price swings, but the recent trend is clearly negative.\n\nDECISION: SELL",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 191,
+ "output_tokens": 92,
+ "cost_usd": 0.000287,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:45:28.779567+00:00",
+ "mode": "REAL"
+}

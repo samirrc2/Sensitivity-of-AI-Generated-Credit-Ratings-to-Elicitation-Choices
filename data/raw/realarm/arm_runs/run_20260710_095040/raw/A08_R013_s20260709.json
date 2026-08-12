@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "R013",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B-\", \"confidence\": 4, \"rationale\": \"Negative equity, cumulative losses, and high leverage indicate high credit risk, though positive EBIT provides some debt-servicing capacity.\"}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 256,
+ "out_tok": 49,
+ "usd": 0.000825,
+ "utc": "2026-07-10T14:05:07.098216+00:00"
+}

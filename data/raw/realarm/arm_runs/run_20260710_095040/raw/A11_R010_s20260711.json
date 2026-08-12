@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R010",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows good operating profitability for its size (net income margin \u2248 19%), which supports earnings capacity. However, leverage is very high (total liabilities \u2248 5.2x shareholders\u2019 equity) and equity coverage of assets is relatively thin (~15%), increasing balance-sheet risk and limiting cushion against adverse developments.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 206,
+ "out_tok": 213,
+ "usd": 0.000307,
+ "utc": "2026-07-10T14:02:10.140393+00:00"
+}

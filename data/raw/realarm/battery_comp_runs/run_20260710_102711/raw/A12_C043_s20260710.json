@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 4, \"rationale\": \"High leverage (74% debt-to-assets), weak EBIT interest cover (EBIT margin 3.75%), and tight liquidity (current ratio < 1) indicate non-investment grade credit.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 278,
+ "out_tok": 66,
+ "usd": 0.001011,
+ "utc": "2026-07-10T15:17:25.366420+00:00"
+}

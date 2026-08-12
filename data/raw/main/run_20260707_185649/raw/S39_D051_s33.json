@@ -1,0 +1,44 @@
+{
+ "spec_id": "S39",
+ "item_id": "D051",
+ "seed": 33,
+ "family": "directional",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "2",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 33,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-04-30. Act as a equity research analyst.\nPrice action as of 2026-04-30: 1w +3.3%, 1m +17.9%, 3m +16.7%. Last close 91.50. 21d annualized realized volatility 27%. Position in trailing 63-day range: 100% (0%=low, 100%=high).\nHere are two worked examples:\n- Information: Price action as of 2026-03-19: 1w +4.1%, 1m -5.5%, 3m -1.3%. Last close 109.85. 21d annualized realized volatility 35%. Position in trailing 63-day range: 24% (0%=low, 100%=high).\n  Answer: BUY\n- Information: Price action as of 2026-04-02: 1w -4.8%, 1m -8.3%, 3m -0.8%. Last close 201.40. 21d annualized realized volatility 23%. Position in trailing 63-day range: 46% (0%=low, 100%=high).\n  Answer: SELL\n\nBased only on the above and knowledge predating 2026-04-30, give a 20-trading-day directional recommendation for the stock. Choose exactly one label from: BUY, HOLD, SELL.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "SELL\n\nReason: The stock shows strong recent momentum (1w, 1m, 3m all positive) but is currently at the 100th percentile of its 63-day range, signaling potential overbought risk and a possible near-term pullback. A mean-reversion move could cap further upside over the next ~20 trading days.\n\nDECISION: SELL",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 343,
+ "output_tokens": 532,
+ "cost_usd": 0.000734,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:50:54.769367+00:00",
+ "mode": "REAL"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R031",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates solid profitability with revenue of 1,823M, an operating income of 371M (20% margin), and positive net income of 67M. However, its financial profile is constrained by high leverage (total liabilities of 7,240M against total assets of 10,153M, representing a debt-to-equity ratio of approximately 2.5x) and weak short-term liquidity, as evidenced by a current ratio of 0.55 (current assets of 475M vs. current liabilities of 857M). This combination of stable operating profitability alongside elevated leverage and liquidity pressure is characteristic of a mid-investment grade to high-yield transition rating.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 232,
+ "out_tok": 163,
+ "usd": 0.001815,
+ "utc": "2026-07-10T14:25:56.031043+00:00"
+}

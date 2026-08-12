@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R012",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits strong financial health, characterized by solid profitability (net income of 400M on 3,617M in revenue, with a 13% operating margin) and a robust balance sheet featuring excellent liquidity (current ratio of 2.35) and conservative leverage (equity of 1,863M against total liabilities of 1,971M). The substantial retained earnings of 3,602M further demonstrate a track record of consistent, long-term profitability and capital preservation. These metrics are indicative of a strong investment-grade profile with low credit risk.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 236,
+ "out_tok": 133,
+ "usd": 0.001551,
+ "utc": "2026-07-10T14:03:53.755593+00:00"
+}

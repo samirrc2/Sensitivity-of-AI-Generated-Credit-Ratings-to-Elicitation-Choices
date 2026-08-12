@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB-\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage (D/E over 2.8x), weak liquidity (current ratio < 1), and low profitability (EBIT margin 3.75%, ROCE < 2%) indicate non-investment grade.\"\n}\n```",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 278,
+ "out_tok": 79,
+ "usd": 0.001128,
+ "utc": "2026-07-10T15:17:24.317287+00:00"
+}

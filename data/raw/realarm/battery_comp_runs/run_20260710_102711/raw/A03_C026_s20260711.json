@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid operating profitability (EBIT of 3,639M on revenue of 12,222M) and positive retained earnings, but liquidity is only moderate (current ratio 1.27) and leverage is high (total liabilities of 78,289M versus shareholders\u2019 equity of 18,552M). The combination of decent earnings power alongside elevated balance-sheet leverage supports a non-investment-grade rating.  \n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 240,
+ "out_tok": 260,
+ "usd": 0.000373,
+ "utc": "2026-07-10T14:55:43.846329+00:00"
+}

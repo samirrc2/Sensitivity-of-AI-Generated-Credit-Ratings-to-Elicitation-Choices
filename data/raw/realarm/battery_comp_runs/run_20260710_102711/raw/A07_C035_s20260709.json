@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows weak liquidity (current ratio of 0.42), meaning current assets are far below current liabilities, increasing refinancing/cash-stress risk. Balance sheet leverage is also very high (total liabilities are ~91% of total assets), which\u2014despite a solid EBIT/revenue level\u2014suggests elevated credit risk.  \n\nDECISION: B+",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 241,
+ "out_tok": 268,
+ "usd": 0.000383,
+ "utc": "2026-07-10T15:07:16.403195+00:00"
+}

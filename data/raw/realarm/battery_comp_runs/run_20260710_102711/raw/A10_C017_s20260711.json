@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C017",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the issuer exhibits an exceptionally strong credit profile characterized by high profitability (42% operating margin), robust capitalization with a low leverage profile (total liabilities of $89.8B against total assets of $171.1B, resulting in an equity base of $81.3B), and very healthy short-term liquidity (current ratio of 1.71). These metrics reflect an industry-leading, highly stable enterprise with minimal default risk and vast financial flexibility, consistent with the highest tier of creditworthiness.\n\nDECISION: AAA",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "in_tok": 288,
+ "out_tok": 119,
+ "usd": 0.001503,
+ "utc": "2026-07-10T14:45:28.602583+00:00"
+}

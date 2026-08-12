@@ -1,0 +1,12 @@
+{
+ "item_id": "R029",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "ok": true,
+ "raw_response": "Based on the highly specific balance sheet and income statement metrics provided\u2014particularly the unique combination of approximately $3.47B in revenue, $10.02B in total assets, $8.22B in total liabilities, and a negative retained earnings balance of -$748M\u2014this closely matches the recent annual financial profile of the major US airline **JetBlue Airways**.\n\nGUESS: JetBlue Airways (JBLU)",
+ "in_tok": 186,
+ "out_tok": 92,
+ "usd": 0.001107,
+ "utc": "2026-07-09T23:49:20.705624+00:00"
+}

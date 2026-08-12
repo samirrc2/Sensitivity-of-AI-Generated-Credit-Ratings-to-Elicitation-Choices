@@ -1,0 +1,19 @@
+{
+ "spec_id": "A01",
+ "item_id": "R029",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB-\",\"confidence\":2,\"rationale\":\"Thin margins (13% gross, 9% operating) and modest liquidity (current ratio 1.30) lead to intermediate credit quality despite positive equity.\"}",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 232,
+ "out_tok": 200,
+ "usd": 0.000296,
+ "utc": "2026-07-10T14:22:31.937402+00:00"
+}

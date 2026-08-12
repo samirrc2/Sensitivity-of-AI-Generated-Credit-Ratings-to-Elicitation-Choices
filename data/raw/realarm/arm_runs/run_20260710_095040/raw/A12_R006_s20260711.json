@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R006",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 4, \"rationale\": \"High leverage (Total Debt/Equity) and negative profitability (EBIT/Net Income) are offset by strong liquidity (Current Ratio 1.21) and high asset turnover (Revenue/Assets 1.88).\"}\n```",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 273,
+ "out_tok": 70,
+ "usd": 0.00104,
+ "utc": "2026-07-10T13:57:40.036364+00:00"
+}

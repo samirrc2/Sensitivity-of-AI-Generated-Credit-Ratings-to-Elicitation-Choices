@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R011",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Weak profitability with negative net income (-892M) and negative EBIT/operating income (-287M) indicates ongoing earnings pressure, while high leverage (total liabilities 13,001M vs. assets 18,687M) limits balance-sheet resilience. Liquidity looks comparatively adequate (current ratio \u2248 2.3), which supports a less severe than \u201cCCC\u201d rating but still consistent with a speculative grade.\n\nDECISION: BB-",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "in_tok": 230,
+ "out_tok": 234,
+ "usd": 0.000339,
+ "utc": "2026-07-10T14:02:50.677177+00:00"
+}

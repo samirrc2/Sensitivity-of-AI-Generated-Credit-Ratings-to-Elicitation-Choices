@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R030",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits solid profitability with an operating margin of 20% and net income of 242M on revenue of 2,153M. However, its capital structure is moderately leveraged (total liabilities of 7,452M against equity of 3,858M), and it faces short-term liquidity pressure with a weak current ratio of 0.72 (current assets of 674M versus current liabilities of 932M). This combination of strong operating performance but constrained short-term liquidity and moderate leverage is characteristic of a lower investment-grade credit profile.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 236,
+ "out_tok": 134,
+ "usd": 0.00156,
+ "utc": "2026-07-10T14:24:00.701853+00:00"
+}

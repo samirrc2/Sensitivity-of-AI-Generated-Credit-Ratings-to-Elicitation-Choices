@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C028",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits an exceptionally strong financial profile, characterized by massive scale (assets of 916.6B and quarterly revenue of 181.5B), highly robust profitability (operating income of 23.9B and net income of 30.3B), and a solid capital structure with a shareholders' equity base of 441.9B against total liabilities of 474.7B. While the current ratio of 1.18 is slightly tight, the sheer volume of earnings, massive liquidity, and dominant market position implied by these figures indicate extremely low default risk. This financial strength aligns with the highest tier of creditworthiness, representing minimal credit risk.\n\nDECISION: AAA",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "in_tok": 296,
+ "out_tok": 149,
+ "usd": 0.001785,
+ "utc": "2026-07-10T14:57:52.256334+00:00"
+}

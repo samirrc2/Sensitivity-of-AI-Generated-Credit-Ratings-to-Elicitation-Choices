@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R003",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "**Analysis:**\nThe company demonstrates solid profitability with an operating margin of 22% ($263M) and positive net income ($106M), but its leverage is highly elevated, with total liabilities representing 76% of total assets ($4,392M / $5,773M) and equity being relatively thin ($1,381M). More critically, the issuer faces immediate liquidity risk, as evidenced by a weak current ratio of 0.72 ($564M in current assets against $783M in current liabilities), indicating a working capital deficit of $219M that must be refinanced or covered. Given the combination of strong operating performance alongside significant short-term liquidity pressures and high leverage, the issuer represents a speculative-grade profile, positioning it in the double-B category.\n\nDECISION: BB",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 234,
+ "out_tok": 182,
+ "usd": 0.001989,
+ "utc": "2026-07-10T13:53:53.254257+00:00"
+}

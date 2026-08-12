@@ -1,0 +1,43 @@
+{
+ "spec_id": "S38",
+ "item_id": "C030",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 0.0,
+ "temperature_applied": false,
+ "effective_temperature": null,
+ "call_meta": {
+  "signature": "mct+seed+eff",
+  "temperature_applied": false,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "seed": 33,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-02-13, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-02-13):\n| Current ratio           | 2.29 |\n| Retained earnings       | 1,385M |\n| Current liabilities     | 6,019M |\n| Current assets          | 13,790M |\n| Shareholders' equity    | 18,899M |\n| Total liabilities       | 27,401M |\n| Total assets            | 58,167M |\n| EBIT / operating income | 811M |\n| Revenue                 | 5,633M |\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The company shows solid liquidity (current ratio 2.29) and reasonable leverage (total liabilities 27.4B vs. assets 58.2B; debt-to-assets ~0.47), with a healthy EBIT margin on revenue. However, there is limited information on interest coverage and cash flow stability, which keeps the rating from being clearly investment-grade at the higher end; the profile sits in the mid-investment grade range with some leverage risk.\n\nDECISION: BBB-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 242,
+ "output_tokens": 362,
+ "cost_usd": 0.000501,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:49:50.963957+00:00",
+ "mode": "REAL"
+}

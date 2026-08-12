@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R002",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer displays significant financial distress, characterized by a net loss of $139 million on $9.29 billion in revenue and an extremely thin operating margin of approximately 0.08% ($7 million). While the company maintains a marginally positive current ratio of 1.21 and positive shareholders' equity, its high leverage (total liabilities of $7.476 billion against total assets of $10.039 billion) and negligible operating profitability place it deep into speculative-grade territory. These factors indicate high credit risk and weak debt-servicing capacity, consistent with a highly speculative B-grade profile.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 235,
+ "out_tok": 136,
+ "usd": 0.001576,
+ "utc": "2026-07-10T13:52:24.552072+00:00"
+}

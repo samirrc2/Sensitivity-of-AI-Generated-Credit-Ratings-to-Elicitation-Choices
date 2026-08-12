@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R016",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows a solid balance sheet with a very strong liquidity profile (current ratio of 3.19x) and moderate leverage (assets-to-equity of 2.43x, with equity of 838M supporting 1,114M in liabilities). However, profitability is weak with an operating loss of -127M and a net loss of -214M on revenue of 2,044M. These operating losses drag down the credit profile, but the substantial equity cushion and liquid assets mitigate immediate default risk, placing the issuer in the speculative-grade category.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 231,
+ "out_tok": 134,
+ "usd": 0.001553,
+ "utc": "2026-07-10T14:08:22.412989+00:00"
+}

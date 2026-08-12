@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C027",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"High equity and assets provide a cushion, but very low profitability (EBIT/Assets ~1.4%) and high leverage warrant a BB rating.\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 267,
+ "out_tok": 61,
+ "usd": 0.00095,
+ "utc": "2026-07-10T14:57:18.481884+00:00"
+}

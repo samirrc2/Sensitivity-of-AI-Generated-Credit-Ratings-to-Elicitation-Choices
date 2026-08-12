@@ -1,0 +1,12 @@
+{
+ "item_id": "R044",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "ok": true,
+ "raw_response": "GUESS: Cboe Global Markets (CBOE)",
+ "in_tok": 189,
+ "out_tok": 12,
+ "usd": 0.000392,
+ "utc": "2026-07-09T23:27:41.541404+00:00"
+}

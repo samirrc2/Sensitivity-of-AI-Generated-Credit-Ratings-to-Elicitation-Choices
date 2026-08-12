@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows strong profitability with an operating margin of 42% (operating income of $1,161M on $2,738M in revenue) and a high gross margin of 71%. However, the balance sheet exhibits significant leverage and liquidity risk, characterized by a low current ratio of 0.63, negative retained earnings of -$5,086M, and a very thin equity base relative to total assets ($3,652M in equity versus $63,190M in assets). These high leverage metrics and weak liquidity profile constrain the credit profile to the speculative-grade category despite the strong operating profitability.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 273,
+ "out_tok": 144,
+ "usd": 0.001705,
+ "utc": "2026-07-10T15:10:38.098403+00:00"
+}

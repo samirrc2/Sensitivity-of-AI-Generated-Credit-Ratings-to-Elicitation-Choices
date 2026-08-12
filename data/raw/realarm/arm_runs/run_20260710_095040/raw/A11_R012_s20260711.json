@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R012",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows solid liquidity (current ratio \u2248 2.35) and healthy operating profitability (EBIT margin \u2248 13%). Leverage appears moderate (total liabilities are ~51% of total assets; liabilities/equity \u2248 1.06), supporting overall credit stability, but coverage of current liabilities (EBIT/current liabilities \u2248 0.57) is not exceptionally high.  \nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 237,
+ "out_tok": 255,
+ "usd": 0.000366,
+ "utc": "2026-07-10T14:04:24.078744+00:00"
+}

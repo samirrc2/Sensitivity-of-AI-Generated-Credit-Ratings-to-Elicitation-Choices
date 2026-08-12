@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits extremely weak credit fundamentals, characterized by deeply negative shareholders' equity (-$8,465M), negative retained earnings (-$8,881M) indicating sustained cumulative losses, and liabilities ($39,015M) that significantly exceed total assets ($30,558M). Additionally, liquidity is pressured with a current ratio below 1.0 (0.92), suggesting elevated default risk despite positive operating and net income in the current quarter. These severe structural balance sheet insolvency characteristics are consistent with a highly speculative, substantial credit risk profile.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 272,
+ "out_tok": 126,
+ "usd": 0.001542,
+ "utc": "2026-07-10T15:15:47.062307+00:00"
+}

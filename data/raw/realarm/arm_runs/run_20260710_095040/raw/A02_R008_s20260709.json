@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R008",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits strong financial health, characterized by high profitability (27% operating margin, $309M net income), a solid balance sheet with a conservative leverage profile (equity of $2,082M vs. liabilities of $2,352M), and excellent short-term liquidity represented by a current ratio of 2.28. While its credit metrics are highly robust and indicative of an investment-grade profile, its moderate absolute scale of revenue ($1.45B) and assets ($4.43B) prevents it from reaching the highest \"AA\" or \"AAA\" categories, which are typically reserved for much larger multinational enterprises.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 235,
+ "out_tok": 144,
+ "usd": 0.001649,
+ "utc": "2026-07-10T13:58:57.425581+00:00"
+}

@@ -1,0 +1,45 @@
+{
+ "spec_id": "S14",
+ "item_id": "D063",
+ "seed": 22,
+ "family": "directional",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 22,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Task: give a 20-trading-day directional recommendation for the stock.\nRespond with exactly one of: BUY, HOLD, SELL. Use only the figures provided and knowledge available on or before 2026-03-19; do not use later information.\nProvided information:\nPrice action as of 2026-03-19: 1w -3.9%, 1m -8.3%, 3m +4.1%. Last close 28.98. 21d annualized realized volatility 28%. Position in trailing 63-day range: 31% (0%=low, 100%=high).\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock has experienced a significant short-term pullback, declining 8.3% over the past month and trading in the lower third (31st percentile) of its 63-day range, while maintaining a positive 3-month return of 4.1%. Given the moderate annualized volatility of 28% and the recent sell-off, the stock is currently oversold but showing signs of stabilizing, suggesting a neutral stance over the next 20 trading days to allow the price action to consolidate. \n\nDECISION: HOLD",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 179,
+ "output_tokens": 112,
+ "cost_usd": 0.001276,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:13:24.455182+00:00",
+ "mode": "REAL"
+}

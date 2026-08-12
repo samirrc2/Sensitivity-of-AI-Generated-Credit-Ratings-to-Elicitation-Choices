@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R020",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows solid profitability (EBIT margin ~18% and net margin ~10%) and meaningful equity capitalization (equity/assets ~32%). However, liquidity is weak (current ratio ~0.83) and overall leverage is relatively high (liabilities/assets ~68%), limiting near-term financial flexibility. Overall, this points to a credit profile in the **BB** category.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 239,
+ "out_tok": 229,
+ "usd": 0.000334,
+ "utc": "2026-07-10T14:13:16.210139+00:00"
+}

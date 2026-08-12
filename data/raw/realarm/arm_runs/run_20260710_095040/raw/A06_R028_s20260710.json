@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R028",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows stable financial performance with revenue of $6.18 billion, an operating margin of 9% ($539 million), and net income of $500 million. It maintains a moderate capital structure with equity of $4.50 billion against $7.35 billion in liabilities (debt/equity leverage is manageable) and a satisfactory short-term liquidity position with a current ratio of 1.28. These metrics indicate investment-grade quality with moderate credit risk, typical of a solid mid-to-high triple-B profile.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 232,
+ "out_tok": 121,
+ "usd": 0.001437,
+ "utc": "2026-07-10T14:21:56.259637+00:00"
+}

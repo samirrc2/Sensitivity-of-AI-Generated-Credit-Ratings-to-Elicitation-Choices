@@ -1,0 +1,19 @@
+{
+ "spec_id": "A05",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"B+\",\"confidence\":2,\"rationale\":\"Strong profitability but weak balance sheet: negative equity (-2,646M), leverage (liabilities > assets), and poor liquidity (current ratio 0.62).\"}",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 256,
+ "out_tok": 137,
+ "usd": 0.000222,
+ "utc": "2026-07-10T14:35:22.468064+00:00"
+}

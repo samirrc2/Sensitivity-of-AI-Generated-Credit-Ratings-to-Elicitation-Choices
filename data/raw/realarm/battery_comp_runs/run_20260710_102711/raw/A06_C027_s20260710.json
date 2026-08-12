@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C027",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows a solid operating margin of 24% and consistent profitability, with a net income of 415M on quarterly revenue of 2,444M. However, its balance sheet leverage is moderately high with total liabilities of 26,603M against shareholders' equity of 14,298M, and liquidity is relatively tight as reflected by a current ratio of 1.18. These financial metrics align with a solid investment-grade profile that carries moderate risk.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 271,
+ "out_tok": 112,
+ "usd": 0.001414,
+ "utc": "2026-07-10T14:57:09.422588+00:00"
+}

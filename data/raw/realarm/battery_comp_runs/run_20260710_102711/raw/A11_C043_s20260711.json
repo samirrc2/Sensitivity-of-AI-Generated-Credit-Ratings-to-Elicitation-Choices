@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows tight short-term liquidity (current ratio of 0.97) and a relatively high leverage position (total liabilities far exceed equity). Profitability also appears thin (EBIT of 948M on 25,270M revenue), which weakens debt-servicing capacity in a downturn, pointing to a sub-investment-grade profile.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 240,
+ "out_tok": 179,
+ "usd": 0.000272,
+ "utc": "2026-07-10T15:17:23.068600+00:00"
+}

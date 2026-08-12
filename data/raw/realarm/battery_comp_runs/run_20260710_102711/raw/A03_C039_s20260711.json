@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows weak liquidity (current ratio of 0.83), and extremely high leverage with liabilities at ~93% of total assets, which increases financial risk and reduces balance-sheet resilience in a downturn. While profitability appears solid (EBIT/operating income of 5,855 on revenue of 30,125), the leverage and liquidity combination supports a speculative-grade rating rather than investment grade.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 248,
+ "out_tok": 221,
+ "usd": 0.000326,
+ "utc": "2026-07-10T15:11:45.663055+00:00"
+}

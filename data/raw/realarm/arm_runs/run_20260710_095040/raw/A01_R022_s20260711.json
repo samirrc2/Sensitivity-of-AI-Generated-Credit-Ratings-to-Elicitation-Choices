@@ -1,0 +1,19 @@
+{
+ "spec_id": "A01",
+ "item_id": "R022",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":3,\"rationale\":\"Moderate profitability (14% op margin) but low net margin; weak liquidity (current ratio 1.14) and moderate leverage (liabilities/equity ~1.35) constrain credit quality.\"}",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 236,
+ "out_tok": 144,
+ "usd": 0.000227,
+ "utc": "2026-07-10T14:14:41.388660+00:00"
+}

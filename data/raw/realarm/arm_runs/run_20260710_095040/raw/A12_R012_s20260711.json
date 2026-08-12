@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R012",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Strong balance sheet liquidity and profitability metrics are balanced by a moderate scale and debt-to-equity profile consistent with an investment-grade rating.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 270,
+ "out_tok": 51,
+ "usd": 0.000864,
+ "utc": "2026-07-10T14:04:30.359491+00:00"
+}

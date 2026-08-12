@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows moderate liquidity (current ratio 1.22) and reasonable operating profitability (EBIT/Revenue \u2248 10.5%). However, leverage appears high (total liabilities of 56,835M against equity of 16,227M), which increases fixed-charge and refinancing risk and limits the cushion for a lower-credit profile.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 203,
+ "usd": 0.000302,
+ "utc": "2026-07-10T14:47:44.596097+00:00"
+}

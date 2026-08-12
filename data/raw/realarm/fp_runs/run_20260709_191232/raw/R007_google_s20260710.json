@@ -1,0 +1,12 @@
+{
+ "item_id": "R007",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "ok": true,
+ "raw_response": "GUESS: Toll Brothers (TOL)",
+ "in_tok": 193,
+ "out_tok": 9,
+ "usd": 0.000371,
+ "utc": "2026-07-09T23:14:56.700368+00:00"
+}

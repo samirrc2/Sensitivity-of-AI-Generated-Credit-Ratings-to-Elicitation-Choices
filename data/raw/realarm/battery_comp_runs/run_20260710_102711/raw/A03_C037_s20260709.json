@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows borderline liquidity with a current ratio of ~1.0 and meaningful cumulative losses reflected in negative retained earnings (-6,947M). While leverage is moderate (total liabilities nearly equal to total equity) and profitability is positive (EBIT of 283M on 1,635M revenue), the retained earnings weakness suggests elevated risk and limits the rating.  \n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 238,
+ "out_tok": 203,
+ "usd": 0.000301,
+ "utc": "2026-07-10T15:09:11.559755+00:00"
+}

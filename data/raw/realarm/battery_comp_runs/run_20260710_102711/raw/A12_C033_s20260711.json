@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Severe negative equity, accumulated deficit, and total liabilities exceeding assets indicate extreme leverage and high default risk despite positive operating income.\"}\n```",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 279,
+ "out_tok": 47,
+ "usd": 0.000842,
+ "utc": "2026-07-10T15:05:21.330829+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R002",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits a very weak financial profile characterized by extremely low profitability, with an operating income of only $7 million (0% margin) and a net loss of $139 million on $9,292 million in revenue. While the balance sheet shows a positive net worth (shareholders' equity of $2,520 million) and a barely adequate current ratio of 1.21, the high leverage (total liabilities of $7,476 million against assets of $10,039 million) combined with lack of earnings power poses a significant credit risk. This profile is consistent with a highly speculative, non-investment grade credit characterized by elevated vulnerability to default.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 150,
+ "usd": 0.001713,
+ "utc": "2026-07-10T13:52:01.206794+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C027",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 4, \"rationale\": \"High leverage (Debt/Equity ~1.86), low asset turnover (0.06), and thin EBIT margin (23.6%) justify a speculative-grade BB rating.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 274,
+ "out_tok": 62,
+ "usd": 0.000969,
+ "utc": "2026-07-10T14:57:00.615965+00:00"
+}

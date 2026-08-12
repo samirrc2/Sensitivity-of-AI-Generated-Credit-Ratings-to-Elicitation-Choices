@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "To determine the credit rating, we evaluate the issuer's financial strength as of FY 2025 Q4. The company shows a large scale of operations with $24.5B in revenue and solid profitability (11% operating margin, $1.79B net income), but maintains a highly leveraged balance sheet with total liabilities of $56.8B against shareholders' equity of $16.2B (debt-to-equity leverage is elevated) and a relatively tight current ratio of 1.22. These characteristics\u2014significant scale and consistent profitability offset by substantial leverage and moderate liquidity\u2014are consistent with a strong investment-grade profile in the BBB range.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 279,
+ "out_tok": 147,
+ "usd": 0.001741,
+ "utc": "2026-07-10T14:47:17.390661+00:00"
+}

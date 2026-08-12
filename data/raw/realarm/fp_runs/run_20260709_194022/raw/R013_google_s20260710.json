@@ -1,0 +1,12 @@
+{
+ "item_id": "R013",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "ok": true,
+ "raw_response": "GUESS: LCI Industries",
+ "in_tok": 190,
+ "out_tok": 6,
+ "usd": 0.000339,
+ "utc": "2026-07-09T23:44:38.947761+00:00"
+}

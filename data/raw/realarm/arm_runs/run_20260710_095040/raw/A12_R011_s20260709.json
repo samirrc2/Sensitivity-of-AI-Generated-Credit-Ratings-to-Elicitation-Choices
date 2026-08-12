@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R011",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"B-\",\n  \"confidence\": 4,\n  \"rationale\": \"Negative EBIT and net income, high leverage (Total Liabilities/Assets ~70%), and weak equity base indicate high default risk despite decent liquidity.\"\n}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 276,
+ "out_tok": 61,
+ "usd": 0.000963,
+ "utc": "2026-07-10T14:03:16.367393+00:00"
+}

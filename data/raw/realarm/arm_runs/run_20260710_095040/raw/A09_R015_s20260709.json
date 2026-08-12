@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "R015",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":3,\"rationale\":\"Strong liquidity and equity, but large operating losses (-42% margin) weaken credit quality; profitability relies on non-operating factors.\"}",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 234,
+ "out_tok": 136,
+ "usd": 0.000217,
+ "utc": "2026-07-10T14:07:27.837688+00:00"
+}

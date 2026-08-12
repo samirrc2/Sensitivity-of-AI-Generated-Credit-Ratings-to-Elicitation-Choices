@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "R004",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"High leverage (total debt/equity and negative retained earnings) is balanced by solid current liquidity and positive net income/operating profit.\"}\n```",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 264,
+ "out_tok": 50,
+ "usd": 0.000846,
+ "utc": "2026-07-10T13:54:51.461068+00:00"
+}

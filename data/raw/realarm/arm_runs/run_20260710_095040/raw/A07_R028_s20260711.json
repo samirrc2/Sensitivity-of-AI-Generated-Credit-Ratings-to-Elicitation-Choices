@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R028",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows moderate leverage (total liabilities of 7,354M versus equity of 4,503M) but maintains acceptable liquidity with a current ratio of about 1.28 (1,355M current assets / 1,057M current liabilities). Profitability is solid (net margin ~8.1% and EBIT margin ~8.7%), supporting creditworthiness, but the capital structure suggests some vulnerability, leading to a lower investment-grade view.  \n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 230,
+ "out_tok": 270,
+ "usd": 0.000384,
+ "utc": "2026-07-10T14:22:04.655564+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R013",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company has a highly distressed balance sheet with negative shareholders\u2019 equity (-496M) and insolvency-style leverage (total liabilities of 2,149M exceed total assets of 1,820M). Liquidity is only marginal (current assets 580M vs. current liabilities 569M), while profitability is weak at the bottom line (net income -23M) despite modest positive EBIT (74M), supporting a higher default-risk profile.  \n\nDECISION: CCC+",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "in_tok": 233,
+ "out_tok": 233,
+ "usd": 0.000338,
+ "utc": "2026-07-10T14:05:28.375037+00:00"
+}

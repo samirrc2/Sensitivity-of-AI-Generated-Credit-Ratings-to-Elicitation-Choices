@@ -1,0 +1,3 @@
+0fc164e97d1e93c478f93fe17fb22929597359f3bb1379313b54e811f3b3e5d3
+# files (in order): results.json, results_addenda.json, results_market.json, results_capital.json, run_analysis.py, addenda.py, market_analysis.py, capital_analysis.py
+# T8 POST-HOC ADDITION extends the manifest with results_capital.json + capital_analysis.py; confirmatory files unchanged.

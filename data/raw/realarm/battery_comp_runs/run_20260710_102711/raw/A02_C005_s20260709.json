@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits exceptionally strong financial performance, characterized by high-scale revenue ($17.6B in Q3), outstanding profitability (83% gross margin, 48% operating margin), and robust liquidity with a current ratio of 1.55. Although the leverage ratio is somewhat elevated with total liabilities of $91.1B against total assets of $114.9B, the immense earnings generation capacity and substantial asset base support an extremely low credit risk profile.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 288,
+ "out_tok": 106,
+ "usd": 0.001386,
+ "utc": "2026-07-10T14:31:32.273309+00:00"
+}

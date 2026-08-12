@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits extremely strong financial health, characterized by exceptional profitability (56% operating margin), a robust liquidity position (current ratio of 2.29x), and a highly conservative capital structure where shareholders' equity ($33.9B) significantly exceeds total liabilities ($23.1B). Given the massive asset base of over $57B, substantial net income of $1.3B, and low overall leverage, the credit risk is minimal, justifying a premium investment-grade rating.\n\nDECISION: AA",
+ "parsed_letter": "AA",
+ "parsed_band": "SAFE",
+ "in_tok": 277,
+ "out_tok": 108,
+ "usd": 0.001388,
+ "utc": "2026-07-10T14:36:32.663869+00:00"
+}

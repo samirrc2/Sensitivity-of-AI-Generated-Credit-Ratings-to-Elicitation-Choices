@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage (Total Debt/Assets over 74%) and highly negative retained earnings are balanced by massive asset scale and positive EBIT.\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 277,
+ "out_tok": 58,
+ "usd": 0.000937,
+ "utc": "2026-07-10T15:05:43.518185+00:00"
+}

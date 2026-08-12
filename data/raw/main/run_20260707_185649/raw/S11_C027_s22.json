@@ -1,0 +1,45 @@
+{
+ "spec_id": "S11",
+ "item_id": "C027",
+ "seed": 22,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 22,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-04-29, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-04-29):\nFiscal period 2026 Q1 (filed 2026-04-29). Revenue 2,444M, gross margin 51%, operating income 577M (operating margin 24%), net income 415M, diluted EPS 4.2. Total assets 40,898M, total liabilities 26,603M, shareholders' equity 14,298M. Current assets 5,346M vs current liabilities 4,538M (current ratio 1.18), retained earnings 6,514M.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "```json\n{\n  \"decision\": \"A-\",\n  \"confidence\": 4,\n  \"rationale\": \"Solid profitability and operating margin, but moderate leverage (liabilities/assets ~65%) and a relatively tight current ratio of 1.18 constrain the rating.\"\n}\n```",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 299,
+ "output_tokens": 66,
+ "cost_usd": 0.001043,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:10:46.134645+00:00",
+ "mode": "REAL"
+}

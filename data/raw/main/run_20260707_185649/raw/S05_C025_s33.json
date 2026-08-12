@@ -1,0 +1,45 @@
+{
+ "spec_id": "S05",
+ "item_id": "C025",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-04-23, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-04-23):\nFiscal period 2026 Q1 (filed 2026-04-23). Revenue 9,143M, gross margin 39%, operating income 886M (operating margin 10%), net income 821M, diluted EPS 2.58. Total assets 73,988M, total liabilities 52,676M, shareholders' equity 21,312M. Current assets 30,590M vs current liabilities 22,085M (current ratio 1.39), retained earnings 0M.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The company exhibits solid financial performance with substantial quarterly revenue ($9,143M), a strong operating margin (10%), and a healthy current ratio of 1.39, indicating comfortable short-term liquidity. However, the leverage profile is moderately high with total liabilities of $52,676M against shareholders' equity of $21,312M (debt-to-equity equivalent of ~2.47x), and the retained earnings balance of $0M suggests a recent restructuring, spin-off, or aggressive capital return policy. This combination of robust profitability and moderate-to-high leverage aligns with a solid investment-grade profile.\n\nDECISION: BBB-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 289,
+ "output_tokens": 144,
+ "cost_usd": 0.00173,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:04:53.895462+00:00",
+ "mode": "REAL"
+}

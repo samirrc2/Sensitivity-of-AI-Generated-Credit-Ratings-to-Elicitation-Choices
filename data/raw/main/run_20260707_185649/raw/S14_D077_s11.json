@@ -1,0 +1,45 @@
+{
+ "spec_id": "S14",
+ "item_id": "D077",
+ "seed": 11,
+ "family": "directional",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "SELL",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 11,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Task: give a 20-trading-day directional recommendation for the stock.\nRespond with exactly one of: BUY, HOLD, SELL. Use only the figures provided and knowledge available on or before 2026-02-05; do not use later information.\nProvided information:\nPrice action as of 2026-02-05: 1w +10.7%, 1m +9.7%, 3m +17.7%. Last close 283.50. 21d annualized realized volatility 31%. Position in trailing 63-day range: 94% (0%=low, 100%=high).\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock is showing strong upward momentum across all short- and medium-term horizons (1-week, 1-month, and 3-month periods) and is trading near its 63-day high at the 94th percentile. Given this robust trend and a moderate 31% annualized volatility supporting the move, the upward trajectory is likely to persist over the next 20 trading days. \n\nDECISION: BUY",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 182,
+ "output_tokens": 91,
+ "cost_usd": 0.001092,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:13:32.396845+00:00",
+ "mode": "REAL"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "R030",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Moderate leverage with Total Assets/Equity around 2.9x, solid EBIT margin of 20%, positive net income, but weak current ratio of 0.72.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 261,
+ "out_tok": 60,
+ "usd": 0.000932,
+ "utc": "2026-07-10T14:24:47.271639+00:00"
+}

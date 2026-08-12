@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R010",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "High leverage is evident from liabilities of 17,381M against assets of 21,779M (liabilities/assets \u2248 80%), which can pressure resilience during downturns. While profitability looks solid (net margin \u2248 19% from net income 403M on revenue 2,106M) the limited equity base (3,328M) suggests weaker balance-sheet buffers than investment-grade issuers.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 197,
+ "out_tok": 287,
+ "usd": 0.000398,
+ "utc": "2026-07-10T14:01:42.661922+00:00"
+}

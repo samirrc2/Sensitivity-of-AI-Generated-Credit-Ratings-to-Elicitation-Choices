@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "R015",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"Strong equity and liquidity are severely offset by highly negative operating income (EBIT), leading to a speculative-grade profile.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 262,
+ "out_tok": 47,
+ "usd": 0.000816,
+ "utc": "2026-07-10T14:07:25.199582+00:00"
+}

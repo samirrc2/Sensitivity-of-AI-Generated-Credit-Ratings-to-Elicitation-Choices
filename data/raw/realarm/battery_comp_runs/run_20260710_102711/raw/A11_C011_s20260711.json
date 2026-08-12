@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C011",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows moderate liquidity (current ratio 1.39) and solid profitability, with EBIT of 1,842M on 11,164M revenue (roughly mid-teens operating margin). Leverage appears manageable (total liabilities 57,728M vs. total assets 110,429M; equity 52,061M), supporting a mid-to-upper investment-grade profile rather than a higher-tier rating.  \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 242,
+ "out_tok": 209,
+ "usd": 0.00031,
+ "utc": "2026-07-10T14:39:14.745066+00:00"
+}

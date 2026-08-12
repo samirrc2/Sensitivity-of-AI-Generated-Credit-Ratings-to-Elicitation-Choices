@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows weak near-term liquidity (current ratio 0.63), indicating limited ability to cover current obligations without reliance on cash flow. However, profitability appears solid with a strong EBIT/operating income level relative to revenue, which may help offset balance-sheet pressure. Overall, the high leverage (total liabilities well above current liquidity) supports a rating in the lower investment/upper speculative band.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 209,
+ "usd": 0.00031,
+ "utc": "2026-07-10T15:13:43.916276+00:00"
+}

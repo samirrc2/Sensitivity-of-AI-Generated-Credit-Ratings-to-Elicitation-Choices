@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C023",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates solid profitability with an operating margin of 19% and net income of 2,540M, supported by a massive asset base of 130,169M and substantial retained earnings of 87,663M. However, its highly leveraged balance sheet (total liabilities of 111,269M relative to 18,677M in equity) and tight short-term liquidity (current ratio of 1.04) present moderate credit risks that limit its rating to the lower end of the investment-grade spectrum. \n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 289,
+ "out_tok": 131,
+ "usd": 0.001613,
+ "utc": "2026-07-10T14:51:35.149915+00:00"
+}

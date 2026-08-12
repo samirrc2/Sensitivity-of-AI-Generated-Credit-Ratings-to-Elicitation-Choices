@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "R003",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"High leverage (total debt-to-assets ratio over 75%) and weak current ratio are mitigated by solid profitability, placing it in the BB range.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 258,
+ "out_tok": 56,
+ "usd": 0.000891,
+ "utc": "2026-07-10T13:53:43.057063+00:00"
+}

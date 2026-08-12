@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits a strong balance sheet with a substantial equity base of $23.37 billion relative to total liabilities of $23.46 billion (a leverage ratio of approximately 48% assets-to-liabilities). However, the company operates with tight short-term liquidity (current ratio of 1.00), has significant accumulated historical deficits (retained earnings of -$6.95 billion), and shows unusual profitability dynamics with a negative gross margin (-4%) despite a positive operating margin (17%). These mixed credit factors\u2014combining solid long-term solvency with weak liquidity and historical losses\u2014support a solid investment-grade rating in the BBB category.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 278,
+ "out_tok": 145,
+ "usd": 0.001722,
+ "utc": "2026-07-10T15:09:07.902369+00:00"
+}

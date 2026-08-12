@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R017",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "To assess the creditworthiness of the issuer based on the provided financial data:\n\n1. **Profitability and Scale:** The company shows solid operating profitability with an operating margin of 23.2% ($336M on $1,446M revenue) and a net margin of 12.7% ($183M), indicating a strong business model, though the revenue scale is relatively modest.\n2. **Liquidity and Balance Sheet:** The liquidity profile is adequate with a current ratio of 1.35 ($623M current assets vs. $463M current liabilities), but the overall leverage is elevated, as evidenced by a total liabilities-to-equity ratio of 1.84 ($4,411M liabilities vs. $2,393M equity) and an asset-to-equity multiplier of 2.84. \n3. **Credit Rating Implications:** While the operating profitability supports an investment-grade profile, the combination of high overall leverage relative to equity, a moderate asset base ($6.8B), and tight short-term liquidity suggests a moderate investment-grade risk profile, typically mapped to the lower-BBB range.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 240,
+ "out_tok": 257,
+ "usd": 0.002673,
+ "utc": "2026-07-10T14:09:50.451370+00:00"
+}

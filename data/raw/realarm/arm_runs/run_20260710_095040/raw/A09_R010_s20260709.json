@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "R010",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB+\",\"confidence\":3,\"rationale\":\"High leverage (liabilities/assets 0.80; debt/equity ~5.2) offsets strong profitability (net margin ~19%); limited protection from thin equity.\"}",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 197,
+ "out_tok": 242,
+ "usd": 0.000342,
+ "utc": "2026-07-10T14:01:50.715022+00:00"
+}

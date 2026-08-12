@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R024",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Current liquidity is weak (current ratio \u2248 0.91), and leverage is relatively high (total liabilities are ~82% of total assets), which constrains balance-sheet resilience. However, profitability is solid (net margin ~9% and EBIT ~13.5% of revenue), supporting debt service capacity. Overall, this points to a speculative but not highly distressed profile.  \nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 226,
+ "out_tok": 238,
+ "usd": 0.000343,
+ "utc": "2026-07-10T14:17:31.185710+00:00"
+}

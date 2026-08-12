@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows very strong liquidity (current ratio 12.41) and exceptionally high operating profitability (EBIT of 3,188M on 7,300M revenue). However, leverage is very high with liabilities of 444,085M versus assets of 493,319M (equity is relatively thin at 49,234M), which elevates balance-sheet risk.  \n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 321,
+ "usd": 0.000448,
+ "utc": "2026-07-10T14:28:54.352950+00:00"
+}

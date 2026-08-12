@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R015",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates a solid capital structure with a healthy equity cushion (shareholders' equity of 2,427M against total assets of 5,878M) and robust short-term liquidity, as evidenced by a strong current ratio of 2.85. However, the company exhibits severe operational inefficiencies with a deeply negative operating income of -988M (operating margin of -42%), although net income remains positive at 644M due to non-operating items or tax adjustments. This significant divergence between weak operating profitability and strong balance sheet metrics places the credit profile in the lower investment-grade or high speculative-grade territory.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 236,
+ "out_tok": 142,
+ "usd": 0.001632,
+ "utc": "2026-07-10T14:07:14.683185+00:00"
+}

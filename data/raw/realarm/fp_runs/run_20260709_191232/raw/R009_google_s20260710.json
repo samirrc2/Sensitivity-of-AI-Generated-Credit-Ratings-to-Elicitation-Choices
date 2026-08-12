@@ -1,0 +1,12 @@
+{
+ "item_id": "R009",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "ok": true,
+ "raw_response": "To find the company matching these financial figures, we can analyze the key ratios and balance sheet structure:\n* **Revenue:** $1,228M\n* **Operating Income:** -$97M\n* **Net Income:** -$6M (much higher than operating income, indicating significant non-operating income, such as interest income from a massive cash pile or investment gains)\n* **Total Assets:** $8,398M (extremely asset-heavy relative to revenue, Asset Turnover of only ~0.15)\n* **Total Liabilities:** $3,597M\n* **Shareholders' Equity:** $4,802M\n* **Retained Earnings:** $1,694M\n* **Current Assets / Current Liabilities:** $923M / $440M\n\nThis unique profile\u2014huge asset base, high equity, relatively low revenue, operating loss but near-breakeven net income due to non-operating items\u2014is highly characteristic of a real estate investment trust (REIT), a holding company, or a biotech/development-stage company with massive cash/investments. \n\nSpecifically, these figures match the FY 2023 financial results of **Vornado Realty Trust** (NYSE: VNO):\n* **Revenue:** $1.23 Billion (specifically around $1,228M of rental/service revenue depending on segment presentation)\n* **Total Assets:** ~$8.4 Billion\n* **Total Equity:** ~$4.8 Billion\n\nGUESS: Vornado Realty Trust",
+ "in_tok": 180,
+ "out_tok": 327,
+ "usd": 0.003213,
+ "utc": "2026-07-09T23:15:35.334969+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"CCC+\", \"confidence\": 4, \"rationale\": \"Negative equity of -$8.5B, high total liabilities of $39B, and weak profitability relative to debt imply severe distress.\"}\n```",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "in_tok": 268,
+ "out_tok": 51,
+ "usd": 0.000861,
+ "utc": "2026-07-10T15:15:58.436435+00:00"
+}

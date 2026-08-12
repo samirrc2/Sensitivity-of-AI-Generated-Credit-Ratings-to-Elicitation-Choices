@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"CCC\",\n  \"confidence\": 4,\n  \"rationale\": \"Negative equity, total liabilities exceeding assets, and a critical current ratio of 0.62 indicate severe distress and high default risk.\"\n}\n```",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 277,
+ "out_tok": 58,
+ "usd": 0.000937,
+ "utc": "2026-07-10T14:36:01.543667+00:00"
+}

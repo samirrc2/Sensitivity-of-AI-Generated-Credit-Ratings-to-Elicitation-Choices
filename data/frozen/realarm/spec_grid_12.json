@@ -1,0 +1,157 @@
+{
+ "n": 12,
+ "axes": [
+  "A7_presentation",
+  "A1_provider",
+  "A4_paraphrase",
+  "A5_format"
+ ],
+ "held_fixed": {
+  "A2_version": "current",
+  "A3_temperature": "0.0",
+  "A6_fewshot": "0"
+ },
+ "design": "12/24 fraction: per-paraphrase resolution-III 2^(3-1) blocks (pres/prov/fmt each 2/2 and mutually orthogonal within block); half-fraction generators chosen to maximise global main-effects logdet",
+ "logdet_XtX": 13.8108,
+ "max_offdiag_crossfactor_corr": 0.0,
+ "orthogonality": "provider, format, presentation mutually orthogonal AND orthogonal to paraphrase; only residual correlation is the structural 0.5 between the two paraphrase effect-coding columns",
+ "pinned_models": {
+  "openai": "gpt-5.4-nano",
+  "google": "gemini-3.5-flash"
+ },
+ "temperature_dropped": "A3 carried 0.1% variance in Phase B (weakest axis); replaced by A7 presentation (5.0%, strongest design axis).",
+ "specs": [
+  {
+   "spec_id": "A01",
+   "A1_provider": "openai",
+   "A2_version": "current",
+   "A4_paraphrase": "P1",
+   "A5_format": "json",
+   "A6_fewshot": "0",
+   "A7_presentation": "L0",
+   "A3_temperature": "0.0",
+   "model": "gpt-5.4-nano"
+  },
+  {
+   "spec_id": "A02",
+   "A1_provider": "google",
+   "A2_version": "current",
+   "A4_paraphrase": "P1",
+   "A5_format": "freetext",
+   "A6_fewshot": "0",
+   "A7_presentation": "L0",
+   "A3_temperature": "0.0",
+   "model": "gemini-3.5-flash"
+  },
+  {
+   "spec_id": "A03",
+   "A1_provider": "openai",
+   "A2_version": "current",
+   "A4_paraphrase": "P1",
+   "A5_format": "freetext",
+   "A6_fewshot": "0",
+   "A7_presentation": "L1",
+   "A3_temperature": "0.0",
+   "model": "gpt-5.4-nano"
+  },
+  {
+   "spec_id": "A04",
+   "A1_provider": "google",
+   "A2_version": "current",
+   "A4_paraphrase": "P1",
+   "A5_format": "json",
+   "A6_fewshot": "0",
+   "A7_presentation": "L1",
+   "A3_temperature": "0.0",
+   "model": "gemini-3.5-flash"
+  },
+  {
+   "spec_id": "A05",
+   "A1_provider": "openai",
+   "A2_version": "current",
+   "A4_paraphrase": "P2",
+   "A5_format": "json",
+   "A6_fewshot": "0",
+   "A7_presentation": "L0",
+   "A3_temperature": "0.0",
+   "model": "gpt-5.4-nano"
+  },
+  {
+   "spec_id": "A06",
+   "A1_provider": "google",
+   "A2_version": "current",
+   "A4_paraphrase": "P2",
+   "A5_format": "freetext",
+   "A6_fewshot": "0",
+   "A7_presentation": "L0",
+   "A3_temperature": "0.0",
+   "model": "gemini-3.5-flash"
+  },
+  {
+   "spec_id": "A07",
+   "A1_provider": "openai",
+   "A2_version": "current",
+   "A4_paraphrase": "P2",
+   "A5_format": "freetext",
+   "A6_fewshot": "0",
+   "A7_presentation": "L1",
+   "A3_temperature": "0.0",
+   "model": "gpt-5.4-nano"
+  },
+  {
+   "spec_id": "A08",
+   "A1_provider": "google",
+   "A2_version": "current",
+   "A4_paraphrase": "P2",
+   "A5_format": "json",
+   "A6_fewshot": "0",
+   "A7_presentation": "L1",
+   "A3_temperature": "0.0",
+   "model": "gemini-3.5-flash"
+  },
+  {
+   "spec_id": "A09",
+   "A1_provider": "openai",
+   "A2_version": "current",
+   "A4_paraphrase": "P3",
+   "A5_format": "json",
+   "A6_fewshot": "0",
+   "A7_presentation": "L0",
+   "A3_temperature": "0.0",
+   "model": "gpt-5.4-nano"
+  },
+  {
+   "spec_id": "A10",
+   "A1_provider": "google",
+   "A2_version": "current",
+   "A4_paraphrase": "P3",
+   "A5_format": "freetext",
+   "A6_fewshot": "0",
+   "A7_presentation": "L0",
+   "A3_temperature": "0.0",
+   "model": "gemini-3.5-flash"
+  },
+  {
+   "spec_id": "A11",
+   "A1_provider": "openai",
+   "A2_version": "current",
+   "A4_paraphrase": "P3",
+   "A5_format": "freetext",
+   "A6_fewshot": "0",
+   "A7_presentation": "L1",
+   "A3_temperature": "0.0",
+   "model": "gpt-5.4-nano"
+  },
+  {
+   "spec_id": "A12",
+   "A1_provider": "google",
+   "A2_version": "current",
+   "A4_paraphrase": "P3",
+   "A5_format": "json",
+   "A6_fewshot": "0",
+   "A7_presentation": "L1",
+   "A3_temperature": "0.0",
+   "model": "gemini-3.5-flash"
+  }
+ ]
+}

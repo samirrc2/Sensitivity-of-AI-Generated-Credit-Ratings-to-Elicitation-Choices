@@ -1,0 +1,5221 @@
+{
+ "n": 579,
+ "date_window": [
+  "2024-07-01",
+  "2025-12-31"
+ ],
+ "note": "Non-financial issuers whose recent 10-K prints a Moody's rating token. prelim_band from the token; confirmed later by the parser. No market-cap filter yet.",
+ "issuers": [
+  {
+   "ticker": "AAWH",
+   "cik": 1756390,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2833,
+   "accession": "0001628280-25-012668",
+   "filing_date": "2025-03-13"
+  },
+  {
+   "ticker": "ACAD",
+   "cik": 1070494,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2834,
+   "accession": "0000950170-25-029253",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "ACOG",
+   "cik": 1655923,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2836,
+   "accession": "0001213900-25-026225",
+   "filing_date": "2025-03-31"
+  },
+  {
+   "ticker": "ADGM",
+   "cik": 2006986,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 3841,
+   "accession": "0001558370-25-003849",
+   "filing_date": "2025-03-27"
+  },
+  {
+   "ticker": "AES",
+   "cik": 874761,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 4991,
+   "accession": "0000874761-25-000013",
+   "filing_date": "2025-03-11"
+  },
+  {
+   "ticker": "AMRN",
+   "cik": 897448,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2834,
+   "accession": "0000950170-25-037620",
+   "filing_date": "2025-03-12"
+  },
+  {
+   "ticker": "AMTM",
+   "cik": 2011286,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 7389,
+   "accession": "0002011286-24-000072",
+   "filing_date": "2024-12-17"
+  },
+  {
+   "ticker": "ANRO",
+   "cik": 1999480,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2834,
+   "accession": "0001999480-25-000025",
+   "filing_date": "2025-03-20"
+  },
+  {
+   "ticker": "ATUS",
+   "cik": 1702780,
+   "prelim_band": "DISTRESS",
+   "token": "Caa2",
+   "sic": 4841,
+   "accession": "0001628280-25-005486",
+   "filing_date": "2025-02-13"
+  },
+  {
+   "ticker": "AVDL",
+   "cik": 1012477,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2834,
+   "accession": "0001012477-25-000010",
+   "filing_date": "2025-03-03"
+  },
+  {
+   "ticker": "BA",
+   "cik": 12927,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 3721,
+   "accession": "0000012927-25-000015",
+   "filing_date": "2025-02-03"
+  },
+  {
+   "ticker": "BACK",
+   "cik": 1729944,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 8093,
+   "accession": "0001641172-25-004643",
+   "filing_date": "2025-04-15"
+  },
+  {
+   "ticker": "BBW",
+   "cik": 1113809,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 5945,
+   "accession": "0001437749-25-012234",
+   "filing_date": "2025-04-17"
+  },
+  {
+   "ticker": "BBXIA",
+   "cik": 1814974,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 5400,
+   "accession": "0001437749-25-009118",
+   "filing_date": "2025-03-25"
+  },
+  {
+   "ticker": "BCSF",
+   "cik": 1655050,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 0,
+   "accession": "0000950170-25-029152",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "BG",
+   "cik": 1996862,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2070,
+   "accession": "0001996862-25-000008",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "BHC",
+   "cik": 885590,
+   "prelim_band": "DISTRESS",
+   "token": "Caa1",
+   "sic": 2834,
+   "accession": "0000885590-25-000007",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "BIOA",
+   "cik": 1709941,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2834,
+   "accession": "0000950170-25-042759",
+   "filing_date": "2025-03-20"
+  },
+  {
+   "ticker": "CADL",
+   "cik": 1841387,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2836,
+   "accession": "0000950170-25-038803",
+   "filing_date": "2025-03-13"
+  },
+  {
+   "ticker": "CAR",
+   "cik": 723612,
+   "prelim_band": "DISTRESS",
+   "token": "Caa1",
+   "sic": 7510,
+   "accession": "0000723612-25-000005",
+   "filing_date": "2025-02-14"
+  },
+  {
+   "ticker": "CBSTF",
+   "cik": 1776738,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 100,
+   "accession": "0001776738-25-000003",
+   "filing_date": "2025-03-17"
+  },
+  {
+   "ticker": "CCCS",
+   "cik": 1818201,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 7372,
+   "accession": "0000950170-25-026848",
+   "filing_date": "2025-02-25"
+  },
+  {
+   "ticker": "CCS",
+   "cik": 1576940,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 1531,
+   "accession": "0001576940-25-000006",
+   "filing_date": "2025-01-30"
+  },
+  {
+   "ticker": "CE",
+   "cik": 1306830,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2820,
+   "accession": "0001306830-25-000027",
+   "filing_date": "2025-02-21"
+  },
+  {
+   "ticker": "CHSCL",
+   "cik": 823277,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 5150,
+   "accession": "0000823277-24-000046",
+   "filing_date": "2024-11-06"
+  },
+  {
+   "ticker": "CING",
+   "cik": 1862150,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2834,
+   "accession": "0001641172-25-000970",
+   "filing_date": "2025-03-27"
+  },
+  {
+   "ticker": "CLMT",
+   "cik": 2013745,
+   "prelim_band": "DISTRESS",
+   "token": "Caa1",
+   "sic": 2911,
+   "accession": "0001558370-25-001961",
+   "filing_date": "2025-03-03"
+  },
+  {
+   "ticker": "CLPT",
+   "cik": 1285550,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 3841,
+   "accession": "0000950170-25-027934",
+   "filing_date": "2025-02-26"
+  },
+  {
+   "ticker": "CLYM",
+   "cik": 1768446,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2834,
+   "accession": "0000950170-25-044350",
+   "filing_date": "2025-03-25"
+  },
+  {
+   "ticker": "CSL",
+   "cik": 790051,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 3060,
+   "accession": "0000790051-25-000077",
+   "filing_date": "2025-02-14"
+  },
+  {
+   "ticker": "CTBB",
+   "cik": 68622,
+   "prelim_band": "DISTRESS",
+   "token": "Caa3",
+   "sic": 4813,
+   "accession": "0000068622-25-000005",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "CWAN",
+   "cik": 1866368,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 7372,
+   "accession": "0001628280-25-011307",
+   "filing_date": "2025-03-07"
+  },
+  {
+   "ticker": "CWT",
+   "cik": 1035201,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 4941,
+   "accession": "0001035201-25-000003",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "DHAI",
+   "cik": 1883788,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 3841,
+   "accession": "0001493152-25-018682",
+   "filing_date": "2025-10-20"
+  },
+  {
+   "ticker": "DTSS",
+   "cik": 1631282,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 7372,
+   "accession": "0001213900-25-092109",
+   "filing_date": "2025-09-26"
+  },
+  {
+   "ticker": "EPD",
+   "cik": 1061219,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 4922,
+   "accession": "0001061219-25-000006",
+   "filing_date": "2025-02-28"
+  },
+  {
+   "ticker": "ETN",
+   "cik": 1551182,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 3590,
+   "accession": "0001551182-25-000006",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "EU",
+   "cik": 1500881,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 1090,
+   "accession": "0001500881-25-000002",
+   "filing_date": "2025-03-03"
+  },
+  {
+   "ticker": "FFAI",
+   "cik": 1805521,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 3711,
+   "accession": "0001628280-25-015548",
+   "filing_date": "2025-03-31"
+  },
+  {
+   "ticker": "FGPR",
+   "cik": 922358,
+   "prelim_band": "DISTRESS",
+   "token": "Caa1",
+   "sic": 5900,
+   "accession": "0001104659-25-099508",
+   "filing_date": "2025-10-15"
+  },
+  {
+   "ticker": "FRBP",
+   "cik": 1825248,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 0,
+   "accession": "0001825248-25-000004",
+   "filing_date": "2025-03-14"
+  },
+  {
+   "ticker": "FSS",
+   "cik": 277509,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 3711,
+   "accession": "0000277509-25-000012",
+   "filing_date": "2025-02-26"
+  },
+  {
+   "ticker": "GAIN",
+   "cik": 1321741,
+   "prelim_band": "DISTRESS",
+   "token": "Caa1",
+   "sic": 0,
+   "accession": "0001321741-25-000010",
+   "filing_date": "2025-05-13"
+  },
+  {
+   "ticker": "GEO",
+   "cik": 923796,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 1520,
+   "accession": "0000950170-25-029972",
+   "filing_date": "2025-02-28"
+  },
+  {
+   "ticker": "GLDD",
+   "cik": 1372020,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 1600,
+   "accession": "0000950170-25-024407",
+   "filing_date": "2025-02-21"
+  },
+  {
+   "ticker": "GLTO",
+   "cik": 1800315,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2834,
+   "accession": "0000950170-25-041981",
+   "filing_date": "2025-03-19"
+  },
+  {
+   "ticker": "GNLX",
+   "cik": 1231457,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2834,
+   "accession": "0001641172-25-006650",
+   "filing_date": "2025-04-29"
+  },
+  {
+   "ticker": "GOVX",
+   "cik": 832489,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2834,
+   "accession": "0001437749-25-009614",
+   "filing_date": "2025-03-27"
+  },
+  {
+   "ticker": "GSAT",
+   "cik": 1366868,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 4899,
+   "accession": "0001366868-25-000033",
+   "filing_date": "2025-02-28"
+  },
+  {
+   "ticker": "GTLS",
+   "cik": 892553,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 3443,
+   "accession": "0000892553-25-000039",
+   "filing_date": "2025-02-28"
+  },
+  {
+   "ticker": "HOV",
+   "cik": 357294,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 1531,
+   "accession": "0001753926-25-001938",
+   "filing_date": "2025-12-22"
+  },
+  {
+   "ticker": "ICMB",
+   "cik": 1578348,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 0,
+   "accession": "0000950170-24-109384",
+   "filing_date": "2024-09-25"
+  },
+  {
+   "ticker": "IMNM",
+   "cik": 1472012,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2834,
+   "accession": "0001558370-25-003302",
+   "filing_date": "2025-03-19"
+  },
+  {
+   "ticker": "IVVD",
+   "cik": 1832038,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2836,
+   "accession": "0000950170-25-042332",
+   "filing_date": "2025-03-20"
+  },
+  {
+   "ticker": "JUSHF",
+   "cik": 1909747,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2833,
+   "accession": "0001628280-25-010947",
+   "filing_date": "2025-03-06"
+  },
+  {
+   "ticker": "KALV",
+   "cik": 1348911,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2834,
+   "accession": "0000950170-25-095011",
+   "filing_date": "2025-07-10"
+  },
+  {
+   "ticker": "KODK",
+   "cik": 31235,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 3861,
+   "accession": "0000950170-25-040256",
+   "filing_date": "2025-03-17"
+  },
+  {
+   "ticker": "LAC",
+   "cik": 1966983,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 1000,
+   "accession": "0000950170-25-046424",
+   "filing_date": "2025-03-28"
+  },
+  {
+   "ticker": "LEAT",
+   "cik": 1456189,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 3751,
+   "accession": "0001062993-25-006432",
+   "filing_date": "2025-03-28"
+  },
+  {
+   "ticker": "LESL",
+   "cik": 1821806,
+   "prelim_band": "DISTRESS",
+   "token": "Caa1",
+   "sic": 5990,
+   "accession": "0001193125-25-323811",
+   "filing_date": "2025-12-18"
+  },
+  {
+   "ticker": "LFVN",
+   "cik": 849146,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2834,
+   "accession": "0000849146-24-000073",
+   "filing_date": "2024-08-28"
+  },
+  {
+   "ticker": "LGCY",
+   "cik": 1836754,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 8200,
+   "accession": "0001493152-25-014945",
+   "filing_date": "2025-09-25"
+  },
+  {
+   "ticker": "LUMN",
+   "cik": 18926,
+   "prelim_band": "DISTRESS",
+   "token": "Caa1",
+   "sic": 4813,
+   "accession": "0000018926-25-000010",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "LXRX",
+   "cik": 1062822,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2834,
+   "accession": "0001062822-25-000013",
+   "filing_date": "2025-03-07"
+  },
+  {
+   "ticker": "MFIC",
+   "cik": 1278752,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 0,
+   "accession": "0000950170-25-026688",
+   "filing_date": "2025-02-25"
+  },
+  {
+   "ticker": "MGRC",
+   "cik": 752714,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 7359,
+   "accession": "0000950170-25-023116",
+   "filing_date": "2025-02-19"
+  },
+  {
+   "ticker": "MKC",
+   "cik": 63754,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2090,
+   "accession": "0000063754-25-000005",
+   "filing_date": "2025-01-23"
+  },
+  {
+   "ticker": "MMSI",
+   "cik": 856982,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 3841,
+   "accession": "0000856982-25-000011",
+   "filing_date": "2025-02-25"
+  },
+  {
+   "ticker": "MNST",
+   "cik": 865752,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2086,
+   "accession": "0001410578-25-000248",
+   "filing_date": "2025-02-28"
+  },
+  {
+   "ticker": "MRCC",
+   "cik": 1512931,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 0,
+   "accession": "0001512931-25-000013",
+   "filing_date": "2025-02-28"
+  },
+  {
+   "ticker": "MRMD",
+   "cik": 1522767,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2833,
+   "accession": "0001522767-25-000014",
+   "filing_date": "2025-03-06"
+  },
+  {
+   "ticker": "MTVA",
+   "cik": 1638287,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2834,
+   "accession": "0001558370-25-003386",
+   "filing_date": "2025-03-20"
+  },
+  {
+   "ticker": "NCDL",
+   "cik": 1737924,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 0,
+   "accession": "0001628280-25-008382",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "NEE",
+   "cik": 753308,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 4911,
+   "accession": "0000753308-25-000011",
+   "filing_date": "2025-02-14"
+  },
+  {
+   "ticker": "NJR",
+   "cik": 356309,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 4924,
+   "accession": "0000356309-25-000093",
+   "filing_date": "2025-11-20"
+  },
+  {
+   "ticker": "NUVB",
+   "cik": 1811063,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2834,
+   "accession": "0000950170-25-034903",
+   "filing_date": "2025-03-06"
+  },
+  {
+   "ticker": "NVRO",
+   "cik": 1444380,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 3841,
+   "accession": "0001444380-25-000024",
+   "filing_date": "2025-03-04"
+  },
+  {
+   "ticker": "OBDC",
+   "cik": 1655888,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 0,
+   "accession": "0001655888-25-000007",
+   "filing_date": "2025-02-19"
+  },
+  {
+   "ticker": "OCUL",
+   "cik": 1393434,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2834,
+   "accession": "0001558370-25-002000",
+   "filing_date": "2025-03-03"
+  },
+  {
+   "ticker": "OLMA",
+   "cik": 1750284,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2834,
+   "accession": "0000950170-25-041204",
+   "filing_date": "2025-03-18"
+  },
+  {
+   "ticker": "OVV",
+   "cik": 1792580,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 1311,
+   "accession": "0000950170-25-027914",
+   "filing_date": "2025-02-26"
+  },
+  {
+   "ticker": "OXSQ",
+   "cik": 1259429,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 0,
+   "accession": "0001213900-25-020801",
+   "filing_date": "2025-03-05"
+  },
+  {
+   "ticker": "PACB",
+   "cik": 1299130,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 3826,
+   "accession": "0001299130-25-000061",
+   "filing_date": "2025-03-17"
+  },
+  {
+   "ticker": "PBF",
+   "cik": 1534504,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2911,
+   "accession": "0001534504-25-000011",
+   "filing_date": "2025-02-13"
+  },
+  {
+   "ticker": "PCOR",
+   "cik": 1611052,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 7372,
+   "accession": "0001628280-25-008121",
+   "filing_date": "2025-02-26"
+  },
+  {
+   "ticker": "PFLT",
+   "cik": 1504619,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 0,
+   "accession": "0000950170-24-130666",
+   "filing_date": "2024-11-26"
+  },
+  {
+   "ticker": "PH",
+   "cik": 76334,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 3490,
+   "accession": "0000076334-25-000035",
+   "filing_date": "2025-08-22"
+  },
+  {
+   "ticker": "PII",
+   "cik": 931015,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 3790,
+   "accession": "0001628280-25-006009",
+   "filing_date": "2025-02-18"
+  },
+  {
+   "ticker": "PLUG",
+   "cik": 1093691,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 3620,
+   "accession": "0001558370-25-002049",
+   "filing_date": "2025-03-03"
+  },
+  {
+   "ticker": "PNNT",
+   "cik": 1383414,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 0,
+   "accession": "0000950170-24-130670",
+   "filing_date": "2024-11-26"
+  },
+  {
+   "ticker": "PROK",
+   "cik": 1850270,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2836,
+   "accession": "0000950170-25-040483",
+   "filing_date": "2025-03-17"
+  },
+  {
+   "ticker": "PTCT",
+   "cik": 1070081,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2834,
+   "accession": "0001070081-25-000012",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "QURE",
+   "cik": 1590560,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2834,
+   "accession": "0001558370-25-001699",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "ROP",
+   "cik": 882835,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 3823,
+   "accession": "0000882835-25-000008",
+   "filing_date": "2025-02-24"
+  },
+  {
+   "ticker": "RS",
+   "cik": 861884,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 5051,
+   "accession": "0001558370-25-001806",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "SAJ",
+   "cik": 1377936,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 0,
+   "accession": "0001213900-25-040617",
+   "filing_date": "2025-05-07"
+  },
+  {
+   "ticker": "SKLZ",
+   "cik": 1801661,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 7374,
+   "accession": "0001801661-24-000100",
+   "filing_date": "2024-08-29"
+  },
+  {
+   "ticker": "SNRG",
+   "cik": 1652539,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 4953,
+   "accession": "0001062993-24-020888",
+   "filing_date": "2024-12-19"
+  },
+  {
+   "ticker": "SNTI",
+   "cik": 1854270,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2836,
+   "accession": "0001854270-25-000042",
+   "filing_date": "2025-03-20"
+  },
+  {
+   "ticker": "SNX",
+   "cik": 1177394,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 5045,
+   "accession": "0001177394-25-000009",
+   "filing_date": "2025-01-24"
+  },
+  {
+   "ticker": "SRAX",
+   "cik": 1538217,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 7311,
+   "accession": "0001493152-24-037704",
+   "filing_date": "2024-09-20"
+  },
+  {
+   "ticker": "SWI",
+   "cik": 1739942,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 7372,
+   "accession": "0001739942-25-000058",
+   "filing_date": "2025-04-22"
+  },
+  {
+   "ticker": "SWX",
+   "cik": 1692115,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 4923,
+   "accession": "0001692115-25-000082",
+   "filing_date": "2025-02-26"
+  },
+  {
+   "ticker": "TLLTF",
+   "cik": 1761510,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2111,
+   "accession": "0001558370-25-004669",
+   "filing_date": "2025-04-10"
+  },
+  {
+   "ticker": "TMUS",
+   "cik": 1283699,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 4812,
+   "accession": "0001283699-25-000012",
+   "filing_date": "2025-01-31"
+  },
+  {
+   "ticker": "ULS",
+   "cik": 1901440,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 8734,
+   "accession": "0001901440-25-000012",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "URI",
+   "cik": 1067701,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 7359,
+   "accession": "0001067701-25-000008",
+   "filing_date": "2025-01-29"
+  },
+  {
+   "ticker": "VERA",
+   "cik": 1831828,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2834,
+   "accession": "0000950170-25-029969",
+   "filing_date": "2025-02-28"
+  },
+  {
+   "ticker": "VMC",
+   "cik": 1396009,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 1400,
+   "accession": "0001396009-25-000005",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "VRM",
+   "cik": 1580864,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 5500,
+   "accession": "0000950170-25-037265",
+   "filing_date": "2025-03-11"
+  },
+  {
+   "ticker": "VSAT",
+   "cik": 797721,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 3663,
+   "accession": "0000950170-25-077138",
+   "filing_date": "2025-05-27"
+  },
+  {
+   "ticker": "VSEE",
+   "cik": 1864531,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 8000,
+   "accession": "0001558370-25-011813",
+   "filing_date": "2025-08-28"
+  },
+  {
+   "ticker": "VSTS",
+   "cik": 1967649,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 5190,
+   "accession": "0001967649-24-000060",
+   "filing_date": "2024-11-22"
+  },
+  {
+   "ticker": "X",
+   "cik": 1163302,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 3312,
+   "accession": "0001163302-25-000018",
+   "filing_date": "2025-01-31"
+  },
+  {
+   "ticker": "XIFR",
+   "cik": 1603145,
+   "prelim_band": "DISTRESS",
+   "token": "Caa1",
+   "sic": 4911,
+   "accession": "0001603145-25-000006",
+   "filing_date": "2025-02-21"
+  },
+  {
+   "ticker": "XXII",
+   "cik": 1347858,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2111,
+   "accession": "0001558370-25-003345",
+   "filing_date": "2025-03-20"
+  },
+  {
+   "ticker": "YCBD",
+   "cik": 1644903,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 2844,
+   "accession": "0001437749-25-038435",
+   "filing_date": "2025-12-19"
+  },
+  {
+   "ticker": "ZM",
+   "cik": 1585521,
+   "prelim_band": "DISTRESS",
+   "token": "CCC+",
+   "sic": 7370,
+   "accession": "0001585521-25-000042",
+   "filing_date": "2025-02-28"
+  },
+  {
+   "ticker": "AA",
+   "cik": 1675149,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 3334,
+   "accession": "0000950170-25-024242",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "AAP",
+   "cik": 1158449,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 5531,
+   "accession": "0001158449-25-000064",
+   "filing_date": "2025-02-26"
+  },
+  {
+   "ticker": "ALSN",
+   "cik": 1411207,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 3714,
+   "accession": "0000950170-25-019379",
+   "filing_date": "2025-02-13"
+  },
+  {
+   "ticker": "APG",
+   "cik": 1796209,
+   "prelim_band": "WATCH",
+   "token": "Ba2",
+   "sic": 7340,
+   "accession": "0001628280-25-008189",
+   "filing_date": "2025-02-26"
+  },
+  {
+   "ticker": "ARMK",
+   "cik": 1584509,
+   "prelim_band": "WATCH",
+   "token": "Ba2",
+   "sic": 5812,
+   "accession": "0001584509-25-000219",
+   "filing_date": "2025-11-25"
+  },
+  {
+   "ticker": "ASH",
+   "cik": 1674862,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 5160,
+   "accession": "0001193125-25-289248",
+   "filing_date": "2025-11-20"
+  },
+  {
+   "ticker": "ASTS",
+   "cik": 1780312,
+   "prelim_band": "WATCH",
+   "token": "BB+",
+   "sic": 4899,
+   "accession": "0000950170-25-030909",
+   "filing_date": "2025-03-03"
+  },
+  {
+   "ticker": "ATXS",
+   "cik": 1454789,
+   "prelim_band": "WATCH",
+   "token": "BB+",
+   "sic": 2834,
+   "accession": "0001410578-25-000309",
+   "filing_date": "2025-03-11"
+  },
+  {
+   "ticker": "AXL",
+   "cik": 1062231,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 3714,
+   "accession": "0001062231-25-000008",
+   "filing_date": "2025-02-14"
+  },
+  {
+   "ticker": "BARK",
+   "cik": 1819574,
+   "prelim_band": "WATCH",
+   "token": "BB+",
+   "sic": 5990,
+   "accession": "0001819574-25-000033",
+   "filing_date": "2025-07-29"
+  },
+  {
+   "ticker": "BB",
+   "cik": 1070235,
+   "prelim_band": "WATCH",
+   "token": "BB+",
+   "sic": 7372,
+   "accession": "0001070235-25-000068",
+   "filing_date": "2025-04-02"
+  },
+  {
+   "ticker": "BBIO",
+   "cik": 1743881,
+   "prelim_band": "WATCH",
+   "token": "BB+",
+   "sic": 2834,
+   "accession": "0000950170-25-024119",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "BBWI",
+   "cik": 701985,
+   "prelim_band": "WATCH",
+   "token": "Ba2",
+   "sic": 5990,
+   "accession": "0000701985-25-000011",
+   "filing_date": "2025-03-14"
+  },
+  {
+   "ticker": "BLBD",
+   "cik": 1589526,
+   "prelim_band": "WATCH",
+   "token": "BB+",
+   "sic": 3713,
+   "accession": "0001589526-24-000119",
+   "filing_date": "2024-11-25"
+  },
+  {
+   "ticker": "BLKB",
+   "cik": 1280058,
+   "prelim_band": "WATCH",
+   "token": "BB+",
+   "sic": 7372,
+   "accession": "0001280058-25-000010",
+   "filing_date": "2025-02-21"
+  },
+  {
+   "ticker": "BNTC",
+   "cik": 1808898,
+   "prelim_band": "WATCH",
+   "token": "BB+",
+   "sic": 2834,
+   "accession": "0001193125-24-226968",
+   "filing_date": "2024-09-26"
+  },
+  {
+   "ticker": "BROS",
+   "cik": 1866581,
+   "prelim_band": "WATCH",
+   "token": "BB+",
+   "sic": 5810,
+   "accession": "0001866581-25-000048",
+   "filing_date": "2025-02-13"
+  },
+  {
+   "ticker": "BTU",
+   "cik": 1064728,
+   "prelim_band": "WATCH",
+   "token": "BB+",
+   "sic": 1221,
+   "accession": "0001064728-25-000018",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "CC",
+   "cik": 1627223,
+   "prelim_band": "WATCH",
+   "token": "Ba3",
+   "sic": 2800,
+   "accession": "0000950170-25-021787",
+   "filing_date": "2025-02-18"
+  },
+  {
+   "ticker": "CCK",
+   "cik": 1219601,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 3411,
+   "accession": "0001219601-25-000009",
+   "filing_date": "2025-03-03"
+  },
+  {
+   "ticker": "CEG",
+   "cik": 1868275,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 4911,
+   "accession": "0001868275-25-000023",
+   "filing_date": "2025-02-18"
+  },
+  {
+   "ticker": "CHDN",
+   "cik": 20212,
+   "prelim_band": "WATCH",
+   "token": "BB+",
+   "sic": 7948,
+   "accession": "0000020212-25-000051",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "CHH",
+   "cik": 1046311,
+   "prelim_band": "WATCH",
+   "token": "BB+",
+   "sic": 7011,
+   "accession": "0001046311-25-000007",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "CNH",
+   "cik": 1567094,
+   "prelim_band": "WATCH",
+   "token": "BB+",
+   "sic": 3531,
+   "accession": "0001628280-25-009007",
+   "filing_date": "2025-02-28"
+  },
+  {
+   "ticker": "CNNE",
+   "cik": 1704720,
+   "prelim_band": "WATCH",
+   "token": "Ba3",
+   "sic": 5810,
+   "accession": "0001704720-25-000015",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "COTY",
+   "cik": 1024305,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 2844,
+   "accession": "0001024305-24-000035",
+   "filing_date": "2024-08-20"
+  },
+  {
+   "ticker": "CQP",
+   "cik": 1383650,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 4924,
+   "accession": "0001383650-25-000007",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "CWCO",
+   "cik": 928340,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 4941,
+   "accession": "0001558370-25-003137",
+   "filing_date": "2025-03-17"
+  },
+  {
+   "ticker": "CWEN",
+   "cik": 1567683,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 4911,
+   "accession": "0001567683-25-000007",
+   "filing_date": "2025-02-25"
+  },
+  {
+   "ticker": "CXT",
+   "cik": 25445,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 3490,
+   "accession": "0001628280-25-006754",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "D",
+   "cik": 715957,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 4911,
+   "accession": "0000950170-25-028387",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "DGX",
+   "cik": 1022079,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 8071,
+   "accession": "0001022079-25-000044",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "DNB",
+   "cik": 1799208,
+   "prelim_band": "WATCH",
+   "token": "Ba3",
+   "sic": 7320,
+   "accession": "0001799208-25-000012",
+   "filing_date": "2025-02-21"
+  },
+  {
+   "ticker": "DUK",
+   "cik": 1326160,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 4931,
+   "accession": "0001326160-25-000072",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "EGY",
+   "cik": 894627,
+   "prelim_band": "WATCH",
+   "token": "Ba2",
+   "sic": 1311,
+   "accession": "0000894627-25-000014",
+   "filing_date": "2025-03-17"
+  },
+  {
+   "ticker": "EQT",
+   "cik": 33213,
+   "prelim_band": "WATCH",
+   "token": "Ba2",
+   "sic": 1311,
+   "accession": "0000033213-25-000011",
+   "filing_date": "2025-02-19"
+  },
+  {
+   "ticker": "EVEX",
+   "cik": 1823652,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 3721,
+   "accession": "0001554855-25-000157",
+   "filing_date": "2025-03-11"
+  },
+  {
+   "ticker": "F",
+   "cik": 37996,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 3711,
+   "accession": "0000037996-25-000013",
+   "filing_date": "2025-02-06"
+  },
+  {
+   "ticker": "FE",
+   "cik": 1031296,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 4911,
+   "accession": "0001031296-25-000006",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "FERG",
+   "cik": 2011641,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 5070,
+   "accession": "0002011641-24-000005",
+   "filing_date": "2024-09-25"
+  },
+  {
+   "ticker": "FL",
+   "cik": 850209,
+   "prelim_band": "WATCH",
+   "token": "Ba3",
+   "sic": 5661,
+   "accession": "0001437749-25-009620",
+   "filing_date": "2025-03-27"
+  },
+  {
+   "ticker": "FLR",
+   "cik": 1124198,
+   "prelim_band": "WATCH",
+   "token": "Ba2",
+   "sic": 1600,
+   "accession": "0001628280-25-005924",
+   "filing_date": "2025-02-18"
+  },
+  {
+   "ticker": "FND",
+   "cik": 1507079,
+   "prelim_band": "WATCH",
+   "token": "Ba3",
+   "sic": 5211,
+   "accession": "0001507079-25-000013",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "FSEN",
+   "cik": 1501729,
+   "prelim_band": "WATCH",
+   "token": "BB+",
+   "sic": 0,
+   "accession": "0001628280-25-012773",
+   "filing_date": "2025-03-14"
+  },
+  {
+   "ticker": "FTI",
+   "cik": 1681459,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 3533,
+   "accession": "0001681459-25-000036",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "GAP",
+   "cik": 39911,
+   "prelim_band": "WATCH",
+   "token": "Ba2",
+   "sic": 5651,
+   "accession": "0000039911-25-000029",
+   "filing_date": "2025-03-18"
+  },
+  {
+   "ticker": "GHC",
+   "cik": 104889,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 8200,
+   "accession": "0000104889-25-000022",
+   "filing_date": "2025-02-26"
+  },
+  {
+   "ticker": "GM",
+   "cik": 1467858,
+   "prelim_band": "WATCH",
+   "token": "BB+",
+   "sic": 3711,
+   "accession": "0001467858-25-000032",
+   "filing_date": "2025-01-28"
+  },
+  {
+   "ticker": "GPK",
+   "cik": 1408075,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 2650,
+   "accession": "0001408075-25-000007",
+   "filing_date": "2025-02-12"
+  },
+  {
+   "ticker": "GTES",
+   "cik": 1718512,
+   "prelim_band": "WATCH",
+   "token": "Ba3",
+   "sic": 3560,
+   "accession": "0001718512-25-000013",
+   "filing_date": "2025-02-06"
+  },
+  {
+   "ticker": "HE",
+   "cik": 354707,
+   "prelim_band": "WATCH",
+   "token": "Ba3",
+   "sic": 4911,
+   "accession": "0000354707-25-000013",
+   "filing_date": "2025-02-24"
+  },
+  {
+   "ticker": "HES",
+   "cik": 4447,
+   "prelim_band": "WATCH",
+   "token": "Ba2",
+   "sic": 2911,
+   "accession": "0001628280-25-008716",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "HWM",
+   "cik": 4281,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 3350,
+   "accession": "0000004281-25-000011",
+   "filing_date": "2025-02-14"
+  },
+  {
+   "ticker": "IBM",
+   "cik": 51143,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 3570,
+   "accession": "0000051143-25-000015",
+   "filing_date": "2025-02-25"
+  },
+  {
+   "ticker": "JBI",
+   "cik": 1839839,
+   "prelim_band": "WATCH",
+   "token": "Ba3",
+   "sic": 3442,
+   "accession": "0001839839-25-000032",
+   "filing_date": "2025-02-26"
+  },
+  {
+   "ticker": "JWN",
+   "cik": 72333,
+   "prelim_band": "WATCH",
+   "token": "Ba2",
+   "sic": 5651,
+   "accession": "0000072333-25-000039",
+   "filing_date": "2025-03-21"
+  },
+  {
+   "ticker": "KBH",
+   "cik": 795266,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 1531,
+   "accession": "0000795266-25-000014",
+   "filing_date": "2025-01-24"
+  },
+  {
+   "ticker": "KLIC",
+   "cik": 56978,
+   "prelim_band": "WATCH",
+   "token": "BB+",
+   "sic": 3674,
+   "accession": "0000056978-24-000148",
+   "filing_date": "2024-11-14"
+  },
+  {
+   "ticker": "KRUS",
+   "cik": 1772177,
+   "prelim_band": "WATCH",
+   "token": "BB+",
+   "sic": 5812,
+   "accession": "0000950170-24-124091",
+   "filing_date": "2024-11-08"
+  },
+  {
+   "ticker": "KSS",
+   "cik": 885639,
+   "prelim_band": "WATCH",
+   "token": "Ba3",
+   "sic": 5311,
+   "accession": "0000950170-25-042662",
+   "filing_date": "2025-03-20"
+  },
+  {
+   "ticker": "LEN",
+   "cik": 920760,
+   "prelim_band": "WATCH",
+   "token": "BB+",
+   "sic": 1520,
+   "accession": "0001628280-25-002404",
+   "filing_date": "2025-01-23"
+  },
+  {
+   "ticker": "LEVI",
+   "cik": 94845,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 2300,
+   "accession": "0000094845-25-000005",
+   "filing_date": "2025-01-29"
+  },
+  {
+   "ticker": "LNG",
+   "cik": 3570,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 4924,
+   "accession": "0000003570-25-000033",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "LTH",
+   "cik": 1869198,
+   "prelim_band": "WATCH",
+   "token": "Ba3",
+   "sic": 7997,
+   "accession": "0001869198-25-000009",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "M",
+   "cik": 794367,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 5311,
+   "accession": "0001628280-25-014315",
+   "filing_date": "2025-03-21"
+  },
+  {
+   "ticker": "MCD",
+   "cik": 63908,
+   "prelim_band": "WATCH",
+   "token": "BB+",
+   "sic": 5812,
+   "accession": "0000063908-25-000012",
+   "filing_date": "2025-02-25"
+  },
+  {
+   "ticker": "MTDR",
+   "cik": 1520006,
+   "prelim_band": "WATCH",
+   "token": "Ba3",
+   "sic": 1311,
+   "accession": "0001520006-25-000066",
+   "filing_date": "2025-02-25"
+  },
+  {
+   "ticker": "MWA",
+   "cik": 1350593,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 3490,
+   "accession": "0001350593-24-000079",
+   "filing_date": "2024-11-20"
+  },
+  {
+   "ticker": "NCLH",
+   "cik": 1513761,
+   "prelim_band": "WATCH",
+   "token": "Ba3",
+   "sic": 4400,
+   "accession": "0001558370-25-001743",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "NRG",
+   "cik": 1013871,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 4911,
+   "accession": "0001013871-25-000006",
+   "filing_date": "2025-02-26"
+  },
+  {
+   "ticker": "NWL",
+   "cik": 814453,
+   "prelim_band": "WATCH",
+   "token": "Ba3",
+   "sic": 3089,
+   "accession": "0000814453-25-000008",
+   "filing_date": "2025-02-14"
+  },
+  {
+   "ticker": "NWN",
+   "cik": 1733998,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 4924,
+   "accession": "0001733998-25-000020",
+   "filing_date": "2025-02-28"
+  },
+  {
+   "ticker": "NXST",
+   "cik": 1142417,
+   "prelim_band": "WATCH",
+   "token": "Ba3",
+   "sic": 4833,
+   "accession": "0000950170-25-028949",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "OLN",
+   "cik": 74303,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 2800,
+   "accession": "0000074303-25-000023",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "ORA",
+   "cik": 1296445,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 4911,
+   "accession": "0001628280-25-008531",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "PARR",
+   "cik": 821483,
+   "prelim_band": "WATCH",
+   "token": "Ba3",
+   "sic": 1311,
+   "accession": "0000821483-25-000010",
+   "filing_date": "2025-02-28"
+  },
+  {
+   "ticker": "PCG",
+   "cik": 1004980,
+   "prelim_band": "WATCH",
+   "token": "Ba2",
+   "sic": 4931,
+   "accession": "0001004980-25-000010",
+   "filing_date": "2025-02-13"
+  },
+  {
+   "ticker": "PHIN",
+   "cik": 1968915,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 3714,
+   "accession": "0001968915-25-000006",
+   "filing_date": "2025-02-13"
+  },
+  {
+   "ticker": "PRGO",
+   "cik": 1585364,
+   "prelim_band": "WATCH",
+   "token": "Ba2",
+   "sic": 2834,
+   "accession": "0001585364-25-000014",
+   "filing_date": "2025-02-28"
+  },
+  {
+   "ticker": "PRKS",
+   "cik": 1564902,
+   "prelim_band": "WATCH",
+   "token": "Ba2",
+   "sic": 7990,
+   "accession": "0000950170-25-030398",
+   "filing_date": "2025-03-03"
+  },
+  {
+   "ticker": "PRMB",
+   "cik": 2042694,
+   "prelim_band": "WATCH",
+   "token": "Ba3",
+   "sic": 2080,
+   "accession": "0002042694-25-000003",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "RCL",
+   "cik": 884887,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 4400,
+   "accession": "0000884887-25-000050",
+   "filing_date": "2025-02-14"
+  },
+  {
+   "ticker": "RICK",
+   "cik": 935419,
+   "prelim_band": "WATCH",
+   "token": "BB+",
+   "sic": 5812,
+   "accession": "0001628280-24-051384",
+   "filing_date": "2024-12-16"
+  },
+  {
+   "ticker": "RMTG",
+   "cik": 1760026,
+   "prelim_band": "WATCH",
+   "token": "BB+",
+   "sic": 5990,
+   "accession": "0001213900-25-032016",
+   "filing_date": "2025-04-15"
+  },
+  {
+   "ticker": "SEAT",
+   "cik": 1856031,
+   "prelim_band": "WATCH",
+   "token": "Ba3",
+   "sic": 7990,
+   "accession": "0000950170-25-037612",
+   "filing_date": "2025-03-12"
+  },
+  {
+   "ticker": "SEB",
+   "cik": 88121,
+   "prelim_band": "WATCH",
+   "token": "BB+",
+   "sic": 5150,
+   "accession": "0000088121-25-000017",
+   "filing_date": "2025-02-13"
+  },
+  {
+   "ticker": "SEE",
+   "cik": 1012100,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 2820,
+   "accession": "0001628280-25-008091",
+   "filing_date": "2025-02-26"
+  },
+  {
+   "ticker": "SIG",
+   "cik": 832988,
+   "prelim_band": "WATCH",
+   "token": "Ba3",
+   "sic": 5944,
+   "accession": "0000832988-25-000018",
+   "filing_date": "2025-03-19"
+  },
+  {
+   "ticker": "SMG",
+   "cik": 825542,
+   "prelim_band": "WATCH",
+   "token": "Ba3",
+   "sic": 2870,
+   "accession": "0001546380-24-000043",
+   "filing_date": "2024-11-26"
+  },
+  {
+   "ticker": "SO",
+   "cik": 92122,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 4911,
+   "accession": "0000092122-25-000018",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "SPXC",
+   "cik": 88205,
+   "prelim_band": "WATCH",
+   "token": "Ba2",
+   "sic": 3540,
+   "accession": "0000088205-25-000007",
+   "filing_date": "2025-02-26"
+  },
+  {
+   "ticker": "SR",
+   "cik": 1126956,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 4924,
+   "accession": "0001437749-24-035823",
+   "filing_date": "2024-11-20"
+  },
+  {
+   "ticker": "ST",
+   "cik": 1477294,
+   "prelim_band": "WATCH",
+   "token": "Ba2",
+   "sic": 3823,
+   "accession": "0001477294-25-000022",
+   "filing_date": "2025-02-28"
+  },
+  {
+   "ticker": "SW",
+   "cik": 2005951,
+   "prelim_band": "WATCH",
+   "token": "Ba2",
+   "sic": 2650,
+   "accession": "0002005951-25-000005",
+   "filing_date": "2025-03-07"
+  },
+  {
+   "ticker": "TDS",
+   "cik": 1051512,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 4813,
+   "accession": "0001051512-25-000011",
+   "filing_date": "2025-02-21"
+  },
+  {
+   "ticker": "TEAM",
+   "cik": 1650372,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 7372,
+   "accession": "0001650372-24-000036",
+   "filing_date": "2024-08-16"
+  },
+  {
+   "ticker": "TNL",
+   "cik": 1361658,
+   "prelim_band": "WATCH",
+   "token": "Ba3",
+   "sic": 7011,
+   "accession": "0001361658-25-000012",
+   "filing_date": "2025-02-19"
+  },
+  {
+   "ticker": "TRGP",
+   "cik": 1389170,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 4922,
+   "accession": "0000950170-25-023983",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "TROX",
+   "cik": 1530804,
+   "prelim_band": "WATCH",
+   "token": "Ba3",
+   "sic": 2810,
+   "accession": "0001530804-25-000004",
+   "filing_date": "2025-02-19"
+  },
+  {
+   "ticker": "TRS",
+   "cik": 842633,
+   "prelim_band": "WATCH",
+   "token": "Ba2",
+   "sic": 3460,
+   "accession": "0000842633-25-000015",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "TSN",
+   "cik": 100493,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 2015,
+   "accession": "0000100493-25-000095",
+   "filing_date": "2025-11-10"
+  },
+  {
+   "ticker": "TTWO",
+   "cik": 946581,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 7372,
+   "accession": "0001628280-25-026694",
+   "filing_date": "2025-05-20"
+  },
+  {
+   "ticker": "TXNM",
+   "cik": 1108426,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 4911,
+   "accession": "0001108426-25-000014",
+   "filing_date": "2025-02-28"
+  },
+  {
+   "ticker": "UAL",
+   "cik": 100517,
+   "prelim_band": "WATCH",
+   "token": "Ba2",
+   "sic": 4512,
+   "accession": "0000100517-25-000046",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "UCTT",
+   "cik": 1275014,
+   "prelim_band": "WATCH",
+   "token": "Ba3",
+   "sic": 3674,
+   "accession": "0001628280-25-007865",
+   "filing_date": "2025-02-25"
+  },
+  {
+   "ticker": "USM",
+   "cik": 821130,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 4812,
+   "accession": "0000821130-25-000023",
+   "filing_date": "2025-02-21"
+  },
+  {
+   "ticker": "VFC",
+   "cik": 103379,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 2320,
+   "accession": "0000103379-25-000023",
+   "filing_date": "2025-05-22"
+  },
+  {
+   "ticker": "VSCO",
+   "cik": 1856437,
+   "prelim_band": "WATCH",
+   "token": "Ba2",
+   "sic": 5621,
+   "accession": "0001856437-25-000006",
+   "filing_date": "2025-03-21"
+  },
+  {
+   "ticker": "WBA",
+   "cik": 1618921,
+   "prelim_band": "WATCH",
+   "token": "Ba3",
+   "sic": 5912,
+   "accession": "0001618921-24-000084",
+   "filing_date": "2024-10-15"
+  },
+  {
+   "ticker": "WFRD",
+   "cik": 1603923,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 3533,
+   "accession": "0001603923-25-000050",
+   "filing_date": "2025-02-06"
+  },
+  {
+   "ticker": "WH",
+   "cik": 1722684,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 7011,
+   "accession": "0001722684-25-000005",
+   "filing_date": "2025-02-13"
+  },
+  {
+   "ticker": "WMG",
+   "cik": 1319161,
+   "prelim_band": "WATCH",
+   "token": "Ba1",
+   "sic": 7900,
+   "accession": "0001319161-25-000034",
+   "filing_date": "2025-11-20"
+  },
+  {
+   "ticker": "WSO",
+   "cik": 105016,
+   "prelim_band": "WATCH",
+   "token": "BB+",
+   "sic": 5070,
+   "accession": "0001193125-25-041730",
+   "filing_date": "2025-02-28"
+  },
+  {
+   "ticker": "XYZ",
+   "cik": 1512673,
+   "prelim_band": "WATCH",
+   "token": "Ba2",
+   "sic": 7372,
+   "accession": "0001628280-25-007376",
+   "filing_date": "2025-02-24"
+  },
+  {
+   "ticker": "YOSH",
+   "cik": 1898604,
+   "prelim_band": "WATCH",
+   "token": "BB+",
+   "sic": 5812,
+   "accession": "0001493152-24-029642",
+   "filing_date": "2024-07-31"
+  },
+  {
+   "ticker": "YUM",
+   "cik": 1041061,
+   "prelim_band": "WATCH",
+   "token": "Ba2",
+   "sic": 5812,
+   "accession": "0001041061-25-000013",
+   "filing_date": "2025-02-19"
+  },
+  {
+   "ticker": "ABVC",
+   "cik": 1173313,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2834,
+   "accession": "0001213900-25-032118",
+   "filing_date": "2025-04-15"
+  },
+  {
+   "ticker": "ACRS",
+   "cik": 1557746,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2834,
+   "accession": "0001558370-25-001819",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "ADP",
+   "cik": 8670,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7374,
+   "accession": "0000008670-24-000024",
+   "filing_date": "2024-08-07"
+  },
+  {
+   "ticker": "ADTI",
+   "cik": 1420924,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 5960,
+   "accession": "0001641172-25-017758",
+   "filing_date": "2025-07-03"
+  },
+  {
+   "ticker": "AEE",
+   "cik": 1002910,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 4931,
+   "accession": "0001002910-25-000055",
+   "filing_date": "2025-02-18"
+  },
+  {
+   "ticker": "AERT",
+   "cik": 1853044,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 8742,
+   "accession": "0001829126-25-004837",
+   "filing_date": "2025-07-02"
+  },
+  {
+   "ticker": "AGTX",
+   "cik": 1603345,
+   "prelim_band": "SAFE",
+   "token": "BBB+",
+   "sic": 2836,
+   "accession": "0001477932-25-005077",
+   "filing_date": "2025-07-16"
+  },
+  {
+   "ticker": "AIFF",
+   "cik": 803578,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7372,
+   "accession": "0001437749-25-010818",
+   "filing_date": "2025-04-03"
+  },
+  {
+   "ticker": "AKYA",
+   "cik": 1711933,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3826,
+   "accession": "0001558370-25-003124",
+   "filing_date": "2025-03-17"
+  },
+  {
+   "ticker": "AL",
+   "cik": 1487712,
+   "prelim_band": "SAFE",
+   "token": "BBB+",
+   "sic": 7359,
+   "accession": "0001628280-25-005392",
+   "filing_date": "2025-02-13"
+  },
+  {
+   "ticker": "ALE",
+   "cik": 66756,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 4931,
+   "accession": "0000066756-25-000013",
+   "filing_date": "2025-02-13"
+  },
+  {
+   "ticker": "ALEC",
+   "cik": 1653087,
+   "prelim_band": "SAFE",
+   "token": "BBB+",
+   "sic": 2836,
+   "accession": "0000950170-25-027758",
+   "filing_date": "2025-02-26"
+  },
+  {
+   "ticker": "ALV",
+   "cik": 1034670,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3714,
+   "accession": "0000950170-25-023852",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "AMCR",
+   "cik": 1748790,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 3990,
+   "accession": "0001748790-25-000023",
+   "filing_date": "2025-08-15"
+  },
+  {
+   "ticker": "AMGN",
+   "cik": 318154,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 2836,
+   "accession": "0000318154-25-000010",
+   "filing_date": "2025-02-14"
+  },
+  {
+   "ticker": "AMZN",
+   "cik": 1018724,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 5961,
+   "accession": "0001018724-25-000004",
+   "filing_date": "2025-02-07"
+  },
+  {
+   "ticker": "AN",
+   "cik": 350698,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 5500,
+   "accession": "0000350698-25-000029",
+   "filing_date": "2025-02-14"
+  },
+  {
+   "ticker": "ANGO",
+   "cik": 1275187,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3841,
+   "accession": "0001628280-24-032989",
+   "filing_date": "2024-07-25"
+  },
+  {
+   "ticker": "ANIK",
+   "cik": 898437,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3841,
+   "accession": "0001171843-25-001486",
+   "filing_date": "2025-03-17"
+  },
+  {
+   "ticker": "AORT",
+   "cik": 784199,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3841,
+   "accession": "0000784199-25-000029",
+   "filing_date": "2025-02-28"
+  },
+  {
+   "ticker": "APA",
+   "cik": 1841666,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 1311,
+   "accession": "0002040266-25-000007",
+   "filing_date": "2025-02-28"
+  },
+  {
+   "ticker": "APD",
+   "cik": 2969,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 2810,
+   "accession": "0000002969-24-000056",
+   "filing_date": "2024-11-21"
+  },
+  {
+   "ticker": "APHP",
+   "cik": 1771995,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7900,
+   "accession": "0001641172-25-003967",
+   "filing_date": "2025-04-14"
+  },
+  {
+   "ticker": "ARCC",
+   "cik": 1287750,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 0,
+   "accession": "0001287750-25-000007",
+   "filing_date": "2025-02-05"
+  },
+  {
+   "ticker": "ARDX",
+   "cik": 1437402,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2834,
+   "accession": "0001628280-25-006653",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "ARLP",
+   "cik": 1086600,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 1221,
+   "accession": "0001558370-25-001805",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "ARWR",
+   "cik": 879407,
+   "prelim_band": "SAFE",
+   "token": "BBB+",
+   "sic": 2834,
+   "accession": "0000879407-25-000029",
+   "filing_date": "2025-11-25"
+  },
+  {
+   "ticker": "ATER",
+   "cik": 1757715,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 3634,
+   "accession": "0001437749-25-009139",
+   "filing_date": "2025-03-25"
+  },
+  {
+   "ticker": "ATHA",
+   "cik": 1620463,
+   "prelim_band": "SAFE",
+   "token": "BBB+",
+   "sic": 2836,
+   "accession": "0000950170-25-029069",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "ATO",
+   "cik": 731802,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 4924,
+   "accession": "0000731802-24-000030",
+   "filing_date": "2024-11-18"
+  },
+  {
+   "ticker": "ATOM",
+   "cik": 1420520,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3674,
+   "accession": "0001683168-25-001330",
+   "filing_date": "2025-03-04"
+  },
+  {
+   "ticker": "AVA",
+   "cik": 104918,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 4931,
+   "accession": "0000950170-25-027077",
+   "filing_date": "2025-02-26"
+  },
+  {
+   "ticker": "AVNW",
+   "cik": 1377789,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3663,
+   "accession": "0001377789-24-000043",
+   "filing_date": "2024-10-04"
+  },
+  {
+   "ticker": "AVY",
+   "cik": 8818,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 2670,
+   "accession": "0000008818-25-000003",
+   "filing_date": "2025-02-26"
+  },
+  {
+   "ticker": "AWK",
+   "cik": 1410636,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 4941,
+   "accession": "0001410636-25-000022",
+   "filing_date": "2025-02-19"
+  },
+  {
+   "ticker": "AZZ",
+   "cik": 8947,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3470,
+   "accession": "0000008947-25-000046",
+   "filing_date": "2025-04-21"
+  },
+  {
+   "ticker": "BAX",
+   "cik": 10456,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 3841,
+   "accession": "0001628280-25-007201",
+   "filing_date": "2025-02-21"
+  },
+  {
+   "ticker": "BDX",
+   "cik": 10795,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 3841,
+   "accession": "0000010795-24-000084",
+   "filing_date": "2024-11-27"
+  },
+  {
+   "ticker": "BIVI",
+   "cik": 1580149,
+   "prelim_band": "SAFE",
+   "token": "BBB+",
+   "sic": 2834,
+   "accession": "0001520138-24-000324",
+   "filing_date": "2024-09-30"
+  },
+  {
+   "ticker": "BJ",
+   "cik": 1531152,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 5331,
+   "accession": "0001531152-25-000013",
+   "filing_date": "2025-03-14"
+  },
+  {
+   "ticker": "BKH",
+   "cik": 1130464,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 4911,
+   "accession": "0000950170-25-018647",
+   "filing_date": "2025-02-12"
+  },
+  {
+   "ticker": "BLND",
+   "cik": 1855747,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7370,
+   "accession": "0001855747-25-000017",
+   "filing_date": "2025-03-13"
+  },
+  {
+   "ticker": "BMBL",
+   "cik": 1830043,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7370,
+   "accession": "0000950170-25-030151",
+   "filing_date": "2025-02-28"
+  },
+  {
+   "ticker": "BR",
+   "cik": 1383312,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 7389,
+   "accession": "0001383312-24-000039",
+   "filing_date": "2024-08-06"
+  },
+  {
+   "ticker": "BSLK",
+   "cik": 1841125,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2860,
+   "accession": "0001841125-25-000017",
+   "filing_date": "2025-03-18"
+  },
+  {
+   "ticker": "BSM",
+   "cik": 1621434,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 1311,
+   "accession": "0001628280-25-007730",
+   "filing_date": "2025-02-25"
+  },
+  {
+   "ticker": "BSX",
+   "cik": 885725,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 3841,
+   "accession": "0000885725-25-000011",
+   "filing_date": "2025-02-18"
+  },
+  {
+   "ticker": "BTSG",
+   "cik": 1865782,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 8082,
+   "accession": "0000950170-25-034196",
+   "filing_date": "2025-03-06"
+  },
+  {
+   "ticker": "BWA",
+   "cik": 908255,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 3714,
+   "accession": "0000908255-25-000007",
+   "filing_date": "2025-02-06"
+  },
+  {
+   "ticker": "BYON",
+   "cik": 1130713,
+   "prelim_band": "SAFE",
+   "token": "BBB+",
+   "sic": 5961,
+   "accession": "0001130713-25-000024",
+   "filing_date": "2025-02-25"
+  },
+  {
+   "ticker": "BZFD",
+   "cik": 1828972,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 4899,
+   "accession": "0001828972-25-000073",
+   "filing_date": "2025-03-14"
+  },
+  {
+   "ticker": "CARR",
+   "cik": 1783180,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 3585,
+   "accession": "0001783180-25-000008",
+   "filing_date": "2025-02-11"
+  },
+  {
+   "ticker": "CBIH",
+   "cik": 1411057,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 8731,
+   "accession": "0001683168-24-006402",
+   "filing_date": "2024-09-16"
+  },
+  {
+   "ticker": "CCAP",
+   "cik": 1633336,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 0,
+   "accession": "0000950170-25-023153",
+   "filing_date": "2025-02-19"
+  },
+  {
+   "ticker": "CEAD",
+   "cik": 1482541,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 700,
+   "accession": "0001641172-25-000913",
+   "filing_date": "2025-03-27"
+  },
+  {
+   "ticker": "CERS",
+   "cik": 1020214,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3841,
+   "accession": "0000950170-25-027906",
+   "filing_date": "2025-02-26"
+  },
+  {
+   "ticker": "CGBD",
+   "cik": 1544206,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 0,
+   "accession": "0001544206-25-000011",
+   "filing_date": "2025-02-25"
+  },
+  {
+   "ticker": "CICB",
+   "cik": 1534254,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 0,
+   "accession": "0001534254-25-000004",
+   "filing_date": "2025-03-13"
+  },
+  {
+   "ticker": "CLDI",
+   "cik": 1855485,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2836,
+   "accession": "0001641172-25-001810",
+   "filing_date": "2025-03-31"
+  },
+  {
+   "ticker": "CLW",
+   "cik": 1441236,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 2631,
+   "accession": "0001504337-25-000005",
+   "filing_date": "2025-02-24"
+  },
+  {
+   "ticker": "CLX",
+   "cik": 21076,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 2842,
+   "accession": "0000021076-24-000030",
+   "filing_date": "2024-08-08"
+  },
+  {
+   "ticker": "CNP",
+   "cik": 1130310,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 4911,
+   "accession": "0001130310-25-000040",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "CNSP",
+   "cik": 1729427,
+   "prelim_band": "SAFE",
+   "token": "BBB+",
+   "sic": 2834,
+   "accession": "0001683168-25-002139",
+   "filing_date": "2025-03-31"
+  },
+  {
+   "ticker": "CNTA",
+   "cik": 1847903,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 2834,
+   "accession": "0001847903-25-000051",
+   "filing_date": "2025-03-24"
+  },
+  {
+   "ticker": "COCO",
+   "cik": 1482981,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2080,
+   "accession": "0001482981-25-000032",
+   "filing_date": "2025-02-26"
+  },
+  {
+   "ticker": "COGT",
+   "cik": 1622229,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2834,
+   "accession": "0000950170-25-026115",
+   "filing_date": "2025-02-25"
+  },
+  {
+   "ticker": "COKE",
+   "cik": 317540,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2086,
+   "accession": "0000317540-25-000025",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "CP",
+   "cik": 16875,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 4011,
+   "accession": "0000016875-25-000008",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "CPAY",
+   "cik": 1175454,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 7389,
+   "accession": "0001628280-25-008746",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "CRGX",
+   "cik": 1966494,
+   "prelim_band": "SAFE",
+   "token": "BBB+",
+   "sic": 2836,
+   "accession": "0000950170-25-037929",
+   "filing_date": "2025-03-12"
+  },
+  {
+   "ticker": "CRH",
+   "cik": 849395,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 3241,
+   "accession": "0001628280-25-008179",
+   "filing_date": "2025-02-26"
+  },
+  {
+   "ticker": "CRTO",
+   "cik": 1576427,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7311,
+   "accession": "0001576427-25-000031",
+   "filing_date": "2025-02-28"
+  },
+  {
+   "ticker": "CSPI",
+   "cik": 356037,
+   "prelim_band": "SAFE",
+   "token": "BBB+",
+   "sic": 7373,
+   "accession": "0000356037-24-000070",
+   "filing_date": "2024-12-20"
+  },
+  {
+   "ticker": "CSTM",
+   "cik": 1563411,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 3341,
+   "accession": "0001563411-25-000005",
+   "filing_date": "2025-02-28"
+  },
+  {
+   "ticker": "CSX",
+   "cik": 277948,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 4011,
+   "accession": "0000277948-25-000008",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "CTAS",
+   "cik": 723254,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2320,
+   "accession": "0000723254-24-000036",
+   "filing_date": "2024-07-25"
+  },
+  {
+   "ticker": "CTNM",
+   "cik": 1855175,
+   "prelim_band": "SAFE",
+   "token": "BBB+",
+   "sic": 2834,
+   "accession": "0001437749-25-006458",
+   "filing_date": "2025-03-06"
+  },
+  {
+   "ticker": "CVS",
+   "cik": 64803,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 5912,
+   "accession": "0000064803-25-000007",
+   "filing_date": "2025-02-12"
+  },
+  {
+   "ticker": "CVSI",
+   "cik": 1510964,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2834,
+   "accession": "0000950170-25-046180",
+   "filing_date": "2025-03-27"
+  },
+  {
+   "ticker": "DAL",
+   "cik": 27904,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 4512,
+   "accession": "0000027904-25-000004",
+   "filing_date": "2025-02-11"
+  },
+  {
+   "ticker": "DBI",
+   "cik": 1319947,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 5661,
+   "accession": "0001319947-25-000012",
+   "filing_date": "2025-03-24"
+  },
+  {
+   "ticker": "DD",
+   "cik": 1666700,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 2821,
+   "accession": "0001666700-25-000005",
+   "filing_date": "2025-02-14"
+  },
+  {
+   "ticker": "DESLF",
+   "cik": 1340476,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 7372,
+   "accession": "0000950170-25-027896",
+   "filing_date": "2025-02-26"
+  },
+  {
+   "ticker": "DG",
+   "cik": 29534,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 5331,
+   "accession": "0001558370-25-003413",
+   "filing_date": "2025-03-21"
+  },
+  {
+   "ticker": "DHI",
+   "cik": 882184,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 1531,
+   "accession": "0000882184-24-000057",
+   "filing_date": "2024-11-19"
+  },
+  {
+   "ticker": "DHR",
+   "cik": 313616,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 3823,
+   "accession": "0000313616-25-000043",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "DK",
+   "cik": 1694426,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2911,
+   "accession": "0001694426-25-000013",
+   "filing_date": "2025-02-26"
+  },
+  {
+   "ticker": "DKS",
+   "cik": 1089063,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 5940,
+   "accession": "0001089063-25-000012",
+   "filing_date": "2025-03-27"
+  },
+  {
+   "ticker": "DMRC",
+   "cik": 1438231,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7373,
+   "accession": "0001437749-25-005471",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "DNLI",
+   "cik": 1714899,
+   "prelim_band": "SAFE",
+   "token": "BBB+",
+   "sic": 2836,
+   "accession": "0001714899-25-000066",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "DOV",
+   "cik": 29905,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 3530,
+   "accession": "0000029905-25-000006",
+   "filing_date": "2025-02-14"
+  },
+  {
+   "ticker": "DOW",
+   "cik": 1751788,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 2821,
+   "accession": "0001751788-25-000012",
+   "filing_date": "2025-02-04"
+  },
+  {
+   "ticker": "DRI",
+   "cik": 940944,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 5812,
+   "accession": "0000940944-24-000035",
+   "filing_date": "2024-07-19"
+  },
+  {
+   "ticker": "DTB",
+   "cik": 936340,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 4911,
+   "accession": "0000936340-25-000065",
+   "filing_date": "2025-02-13"
+  },
+  {
+   "ticker": "DUKR",
+   "cik": 1638911,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 3721,
+   "accession": "0001213900-25-025286",
+   "filing_date": "2025-03-20"
+  },
+  {
+   "ticker": "DVN",
+   "cik": 1090012,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 1311,
+   "accession": "0000950170-25-022844",
+   "filing_date": "2025-02-19"
+  },
+  {
+   "ticker": "DXC",
+   "cik": 1688568,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 7374,
+   "accession": "0001688568-25-000029",
+   "filing_date": "2025-05-15"
+  },
+  {
+   "ticker": "DYNR",
+   "cik": 1111741,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 1000,
+   "accession": "0000950170-25-061164",
+   "filing_date": "2025-04-30"
+  },
+  {
+   "ticker": "ECDA",
+   "cik": 1922858,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3711,
+   "accession": "0001213900-25-015018",
+   "filing_date": "2025-02-19"
+  },
+  {
+   "ticker": "ECL",
+   "cik": 31462,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 2840,
+   "accession": "0001558370-25-001263",
+   "filing_date": "2025-02-21"
+  },
+  {
+   "ticker": "ED",
+   "cik": 1047862,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 4931,
+   "accession": "0001047862-25-000011",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "EIX",
+   "cik": 827052,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 4911,
+   "accession": "0000827052-25-000022",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "EMMA",
+   "cik": 822370,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2834,
+   "accession": "0000950170-25-053744",
+   "filing_date": "2025-04-14"
+  },
+  {
+   "ticker": "ENB",
+   "cik": 895728,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 4610,
+   "accession": "0000895728-25-000006",
+   "filing_date": "2025-02-14"
+  },
+  {
+   "ticker": "ENGN",
+   "cik": 1980845,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2836,
+   "accession": "0000950170-24-138472",
+   "filing_date": "2024-12-19"
+  },
+  {
+   "ticker": "ENTX",
+   "cik": 1638097,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 2836,
+   "accession": "0001178913-25-001112",
+   "filing_date": "2025-03-28"
+  },
+  {
+   "ticker": "ENVB",
+   "cik": 890821,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2834,
+   "accession": "0001641172-25-001296",
+   "filing_date": "2025-03-28"
+  },
+  {
+   "ticker": "ENZ",
+   "cik": 316253,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 8071,
+   "accession": "0001213900-24-091798",
+   "filing_date": "2024-10-29"
+  },
+  {
+   "ticker": "ES",
+   "cik": 72741,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 4911,
+   "accession": "0000072741-25-000007",
+   "filing_date": "2025-02-14"
+  },
+  {
+   "ticker": "ESE",
+   "cik": 866706,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3669,
+   "accession": "0001410578-24-002064",
+   "filing_date": "2024-11-29"
+  },
+  {
+   "ticker": "EVA",
+   "cik": 1592057,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2400,
+   "accession": "0001592057-24-000036",
+   "filing_date": "2024-10-03"
+  },
+  {
+   "ticker": "EVRG",
+   "cik": 1711269,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 4931,
+   "accession": "0001711269-25-000004",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "EXE",
+   "cik": 895126,
+   "prelim_band": "SAFE",
+   "token": "BBB+",
+   "sic": 1311,
+   "accession": "0000895126-25-000021",
+   "filing_date": "2025-02-26"
+  },
+  {
+   "ticker": "EXP",
+   "cik": 918646,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 3241,
+   "accession": "0000950170-25-075321",
+   "filing_date": "2025-05-20"
+  },
+  {
+   "ticker": "EXPE",
+   "cik": 1324424,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 4700,
+   "accession": "0001324424-25-000008",
+   "filing_date": "2025-02-07"
+  },
+  {
+   "ticker": "EZOO",
+   "cik": 1752372,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7310,
+   "accession": "0001641172-25-010460",
+   "filing_date": "2025-05-15"
+  },
+  {
+   "ticker": "FANG",
+   "cik": 1539838,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 1311,
+   "accession": "0001539838-25-000021",
+   "filing_date": "2025-02-26"
+  },
+  {
+   "ticker": "FCX",
+   "cik": 831259,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 1000,
+   "accession": "0000831259-25-000006",
+   "filing_date": "2025-02-14"
+  },
+  {
+   "ticker": "FDX",
+   "cik": 1048911,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 4513,
+   "accession": "0000950170-24-083577",
+   "filing_date": "2024-07-15"
+  },
+  {
+   "ticker": "FI",
+   "cik": 798354,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 7389,
+   "accession": "0000798354-25-000047",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "FIS",
+   "cik": 1136893,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 7389,
+   "accession": "0001136893-25-000014",
+   "filing_date": "2025-02-13"
+  },
+  {
+   "ticker": "FKWL",
+   "cik": 722572,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3661,
+   "accession": "0001683168-24-006754",
+   "filing_date": "2024-09-30"
+  },
+  {
+   "ticker": "FLEX",
+   "cik": 866374,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 3672,
+   "accession": "0000866374-25-000027",
+   "filing_date": "2025-05-21"
+  },
+  {
+   "ticker": "FLNT",
+   "cik": 1460329,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 7310,
+   "accession": "0001437749-25-010194",
+   "filing_date": "2025-03-31"
+  },
+  {
+   "ticker": "FLYW",
+   "cik": 1580560,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7389,
+   "accession": "0000950170-25-027078",
+   "filing_date": "2025-02-26"
+  },
+  {
+   "ticker": "FOX",
+   "cik": 1754301,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 4833,
+   "accession": "0001628280-24-036123",
+   "filing_date": "2024-08-08"
+  },
+  {
+   "ticker": "FSK",
+   "cik": 1422183,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 0,
+   "accession": "0001628280-25-008175",
+   "filing_date": "2025-02-26"
+  },
+  {
+   "ticker": "FYBR",
+   "cik": 20520,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 4813,
+   "accession": "0001562762-25-000028",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "GATX",
+   "cik": 40211,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 4700,
+   "accession": "0000040211-25-000024",
+   "filing_date": "2025-02-19"
+  },
+  {
+   "ticker": "GBDC",
+   "cik": 1476765,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 0,
+   "accession": "0001476765-24-000132",
+   "filing_date": "2024-11-19"
+  },
+  {
+   "ticker": "GBX",
+   "cik": 923120,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 3743,
+   "accession": "0000950170-24-117047",
+   "filing_date": "2024-10-24"
+  },
+  {
+   "ticker": "GE",
+   "cik": 40545,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 3600,
+   "accession": "0000040545-25-000015",
+   "filing_date": "2025-02-03"
+  },
+  {
+   "ticker": "GEHC",
+   "cik": 1932393,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 3844,
+   "accession": "0001932393-25-000005",
+   "filing_date": "2025-02-13"
+  },
+  {
+   "ticker": "GIS",
+   "cik": 40704,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 2040,
+   "accession": "0001193125-25-147079",
+   "filing_date": "2025-06-26"
+  },
+  {
+   "ticker": "GLAD",
+   "cik": 1143513,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 0,
+   "accession": "0001143513-24-000011",
+   "filing_date": "2024-11-13"
+  },
+  {
+   "ticker": "GOGO",
+   "cik": 1537054,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 4899,
+   "accession": "0000950170-25-039384",
+   "filing_date": "2025-03-14"
+  },
+  {
+   "ticker": "GPAK",
+   "cik": 1948884,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7900,
+   "accession": "0001161697-24-000295",
+   "filing_date": "2024-07-03"
+  },
+  {
+   "ticker": "GPC",
+   "cik": 40987,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 5013,
+   "accession": "0000040987-25-000026",
+   "filing_date": "2025-02-21"
+  },
+  {
+   "ticker": "GSBD",
+   "cik": 1572694,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 0,
+   "accession": "0000950170-25-029231",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "GWH",
+   "cik": 1819438,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3690,
+   "accession": "0001628280-25-015649",
+   "filing_date": "2025-03-31"
+  },
+  {
+   "ticker": "HAS",
+   "cik": 46080,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3944,
+   "accession": "0000046080-25-000027",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "HIMS",
+   "cik": 1773751,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 8011,
+   "accession": "0001773751-25-000062",
+   "filing_date": "2025-02-24"
+  },
+  {
+   "ticker": "HOG",
+   "cik": 793952,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 3751,
+   "accession": "0000793952-25-000063",
+   "filing_date": "2025-02-26"
+  },
+  {
+   "ticker": "HOLX",
+   "cik": 859737,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 3844,
+   "accession": "0000859737-25-000072",
+   "filing_date": "2025-11-18"
+  },
+  {
+   "ticker": "HRB",
+   "cik": 12659,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 7200,
+   "accession": "0001838862-24-000030",
+   "filing_date": "2024-08-15"
+  },
+  {
+   "ticker": "HRL",
+   "cik": 48465,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2011,
+   "accession": "0000048465-24-000051",
+   "filing_date": "2024-12-05"
+  },
+  {
+   "ticker": "HSY",
+   "cik": 47111,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2060,
+   "accession": "0000047111-25-000014",
+   "filing_date": "2025-02-18"
+  },
+  {
+   "ticker": "HUBG",
+   "cik": 940942,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 4731,
+   "accession": "0000950170-25-026866",
+   "filing_date": "2025-02-25"
+  },
+  {
+   "ticker": "HYSR",
+   "cik": 1481028,
+   "prelim_band": "SAFE",
+   "token": "BBB+",
+   "sic": 3674,
+   "accession": "0001213900-24-083387",
+   "filing_date": "2024-09-30"
+  },
+  {
+   "ticker": "IBEX",
+   "cik": 1720420,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7374,
+   "accession": "0001720420-24-000042",
+   "filing_date": "2024-09-12"
+  },
+  {
+   "ticker": "IDA",
+   "cik": 1057877,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 4911,
+   "accession": "0001057877-25-000014",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "IDXX",
+   "cik": 874716,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2835,
+   "accession": "0000874716-25-000037",
+   "filing_date": "2025-02-21"
+  },
+  {
+   "ticker": "IE",
+   "cik": 1879016,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 1000,
+   "accession": "0001879016-25-000003",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "IEX",
+   "cik": 832101,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 3561,
+   "accession": "0000832101-25-000010",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "IKT",
+   "cik": 1750149,
+   "prelim_band": "SAFE",
+   "token": "BBB+",
+   "sic": 2836,
+   "accession": "0000950170-25-046096",
+   "filing_date": "2025-03-27"
+  },
+  {
+   "ticker": "IMUX",
+   "cik": 1280776,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2834,
+   "accession": "0001280776-25-000005",
+   "filing_date": "2025-03-31"
+  },
+  {
+   "ticker": "INDV",
+   "cik": 1625297,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 2834,
+   "accession": "0001625297-25-000016",
+   "filing_date": "2025-03-03"
+  },
+  {
+   "ticker": "INTC",
+   "cik": 50863,
+   "prelim_band": "SAFE",
+   "token": "BBB+",
+   "sic": 3674,
+   "accession": "0000050863-25-000009",
+   "filing_date": "2025-01-31"
+  },
+  {
+   "ticker": "INVX",
+   "cik": 1042893,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 3533,
+   "accession": "0000950170-25-031003",
+   "filing_date": "2025-03-03"
+  },
+  {
+   "ticker": "IP",
+   "cik": 51434,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 2621,
+   "accession": "0000051434-25-000013",
+   "filing_date": "2025-02-21"
+  },
+  {
+   "ticker": "IPG",
+   "cik": 51644,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 7311,
+   "accession": "0000051644-25-000024",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "IPSI",
+   "cik": 1591913,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 5961,
+   "accession": "0001213900-25-026455",
+   "filing_date": "2025-03-31"
+  },
+  {
+   "ticker": "IRD",
+   "cik": 1228627,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2834,
+   "accession": "0001140361-25-011410",
+   "filing_date": "2025-03-31"
+  },
+  {
+   "ticker": "ITHUF",
+   "cik": 1643154,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 100,
+   "accession": "0000950170-25-043874",
+   "filing_date": "2025-03-24"
+  },
+  {
+   "ticker": "ITT",
+   "cik": 216228,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 3561,
+   "accession": "0000216228-25-000014",
+   "filing_date": "2025-02-10"
+  },
+  {
+   "ticker": "IXHL",
+   "cik": 1873875,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2834,
+   "accession": "0001213900-24-082937",
+   "filing_date": "2024-09-30"
+  },
+  {
+   "ticker": "JCI",
+   "cik": 833444,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 3585,
+   "accession": "0000833444-25-000097",
+   "filing_date": "2025-11-14"
+  },
+  {
+   "ticker": "K",
+   "cik": 55067,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 2040,
+   "accession": "0001628280-25-007118",
+   "filing_date": "2025-02-21"
+  },
+  {
+   "ticker": "KAYS",
+   "cik": 1530746,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2834,
+   "accession": "0001903596-25-000274",
+   "filing_date": "2025-05-19"
+  },
+  {
+   "ticker": "KBDC",
+   "cik": 1747172,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 0,
+   "accession": "0001213900-25-019408",
+   "filing_date": "2025-03-03"
+  },
+  {
+   "ticker": "KDP",
+   "cik": 1418135,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 2080,
+   "accession": "0001418135-25-000013",
+   "filing_date": "2025-02-25"
+  },
+  {
+   "ticker": "KEYR",
+   "cik": 1832161,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 5900,
+   "accession": "0001493152-24-037866",
+   "filing_date": "2024-09-24"
+  },
+  {
+   "ticker": "KHC",
+   "cik": 1637459,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 2030,
+   "accession": "0001637459-25-000011",
+   "filing_date": "2025-02-13"
+  },
+  {
+   "ticker": "KLC",
+   "cik": 1873529,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 8351,
+   "accession": "0000950170-25-043210",
+   "filing_date": "2025-03-21"
+  },
+  {
+   "ticker": "KMI",
+   "cik": 1506307,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 4922,
+   "accession": "0001506307-25-000008",
+   "filing_date": "2025-02-13"
+  },
+  {
+   "ticker": "KNX",
+   "cik": 1492691,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 4213,
+   "accession": "0001492691-25-000013",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "KVYO",
+   "cik": 1835830,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7372,
+   "accession": "0001835830-25-000014",
+   "filing_date": "2025-02-19"
+  },
+  {
+   "ticker": "LFST",
+   "cik": 1845257,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 8000,
+   "accession": "0000950170-25-029100",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "LII",
+   "cik": 1069202,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 3585,
+   "accession": "0001628280-25-004859",
+   "filing_date": "2025-02-11"
+  },
+  {
+   "ticker": "LILA",
+   "cik": 1712184,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 4841,
+   "accession": "0001712184-25-000031",
+   "filing_date": "2025-02-19"
+  },
+  {
+   "ticker": "LNT",
+   "cik": 352541,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 4931,
+   "accession": "0000352541-25-000014",
+   "filing_date": "2025-02-21"
+  },
+  {
+   "ticker": "LOPE",
+   "cik": 1434588,
+   "prelim_band": "SAFE",
+   "token": "BBB+",
+   "sic": 8200,
+   "accession": "0001558370-25-001150",
+   "filing_date": "2025-02-19"
+  },
+  {
+   "ticker": "LOW",
+   "cik": 60667,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 5211,
+   "accession": "0000060667-25-000049",
+   "filing_date": "2025-03-24"
+  },
+  {
+   "ticker": "LPTV",
+   "cik": 1643988,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7363,
+   "accession": "0001493152-24-049828",
+   "filing_date": "2024-12-12"
+  },
+  {
+   "ticker": "LTCH",
+   "cik": 1826000,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 5072,
+   "accession": "0001826000-24-000073",
+   "filing_date": "2024-12-19"
+  },
+  {
+   "ticker": "LTRX",
+   "cik": 1114925,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3576,
+   "accession": "0001683168-24-006264",
+   "filing_date": "2024-09-09"
+  },
+  {
+   "ticker": "LUV",
+   "cik": 92380,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 4512,
+   "accession": "0000092380-25-000024",
+   "filing_date": "2025-02-07"
+  },
+  {
+   "ticker": "LVS",
+   "cik": 1300514,
+   "prelim_band": "SAFE",
+   "token": "BBB+",
+   "sic": 7011,
+   "accession": "0001300514-25-000040",
+   "filing_date": "2025-02-07"
+  },
+  {
+   "ticker": "MAIN",
+   "cik": 1396440,
+   "prelim_band": "SAFE",
+   "token": "BBB+",
+   "sic": 0,
+   "accession": "0001396440-25-000018",
+   "filing_date": "2025-02-28"
+  },
+  {
+   "ticker": "MAN",
+   "cik": 871763,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 7363,
+   "accession": "0000950170-25-023186",
+   "filing_date": "2025-02-19"
+  },
+  {
+   "ticker": "MAT",
+   "cik": 63276,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 3942,
+   "accession": "0001628280-25-007887",
+   "filing_date": "2025-02-26"
+  },
+  {
+   "ticker": "MCK",
+   "cik": 927653,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 5122,
+   "accession": "0000927653-25-000036",
+   "filing_date": "2025-05-09"
+  },
+  {
+   "ticker": "MCO",
+   "cik": 1059556,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 7320,
+   "accession": "0001059556-25-000025",
+   "filing_date": "2025-02-14"
+  },
+  {
+   "ticker": "MCS",
+   "cik": 62234,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7830,
+   "accession": "0000062234-25-000006",
+   "filing_date": "2025-02-28"
+  },
+  {
+   "ticker": "MCW",
+   "cik": 1853513,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7500,
+   "accession": "0000950170-25-024533",
+   "filing_date": "2025-02-21"
+  },
+  {
+   "ticker": "MOBQ",
+   "cik": 1084267,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7310,
+   "accession": "0001683168-25-002311",
+   "filing_date": "2025-04-07"
+  },
+  {
+   "ticker": "MPC",
+   "cik": 1510295,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 2911,
+   "accession": "0001510295-25-000012",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "MPLX",
+   "cik": 1552000,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 4610,
+   "accession": "0001552000-25-000012",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "MRAM",
+   "cik": 1438423,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3674,
+   "accession": "0001558370-25-001827",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "MRCY",
+   "cik": 1049521,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3670,
+   "accession": "0001049521-24-000029",
+   "filing_date": "2024-08-13"
+  },
+  {
+   "ticker": "MRVL",
+   "cik": 1835632,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3674,
+   "accession": "0001835632-25-000057",
+   "filing_date": "2025-03-12"
+  },
+  {
+   "ticker": "MSDL",
+   "cik": 1782524,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 0,
+   "accession": "0001782524-25-000009",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "MTH",
+   "cik": 833079,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 1531,
+   "accession": "0000833079-25-000021",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "MUX",
+   "cik": 314203,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 1040,
+   "accession": "0001558370-25-008967",
+   "filing_date": "2025-06-27"
+  },
+  {
+   "ticker": "MVST",
+   "cik": 1760689,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3690,
+   "accession": "0001760689-25-000010",
+   "filing_date": "2025-03-31"
+  },
+  {
+   "ticker": "MYO",
+   "cik": 1369290,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3842,
+   "accession": "0000950170-25-036349",
+   "filing_date": "2025-03-10"
+  },
+  {
+   "ticker": "NEM",
+   "cik": 1164727,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 1040,
+   "accession": "0001164727-25-000011",
+   "filing_date": "2025-02-21"
+  },
+  {
+   "ticker": "NFE",
+   "cik": 1749723,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 4924,
+   "accession": "0001749723-25-000029",
+   "filing_date": "2025-03-10"
+  },
+  {
+   "ticker": "NFG",
+   "cik": 70145,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 4924,
+   "accession": "0000070145-24-000036",
+   "filing_date": "2024-11-22"
+  },
+  {
+   "ticker": "NGL",
+   "cik": 1504461,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 4922,
+   "accession": "0001504461-25-000014",
+   "filing_date": "2025-05-29"
+  },
+  {
+   "ticker": "NI",
+   "cik": 1111711,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 4931,
+   "accession": "0001111711-25-000008",
+   "filing_date": "2025-02-12"
+  },
+  {
+   "ticker": "NNE",
+   "cik": 1923891,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 4911,
+   "accession": "0001493152-24-052393",
+   "filing_date": "2024-12-30"
+  },
+  {
+   "ticker": "NOW",
+   "cik": 1373715,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 7372,
+   "accession": "0001373715-25-000010",
+   "filing_date": "2025-01-30"
+  },
+  {
+   "ticker": "NRGV",
+   "cik": 1828536,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 3690,
+   "accession": "0001828536-25-000032",
+   "filing_date": "2025-04-01"
+  },
+  {
+   "ticker": "NTWK",
+   "cik": 1039280,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7372,
+   "accession": "0001493152-24-038751",
+   "filing_date": "2024-09-30"
+  },
+  {
+   "ticker": "NUE",
+   "cik": 73309,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 3312,
+   "accession": "0000950170-25-028427",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "NVEC",
+   "cik": 724910,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3674,
+   "accession": "0001376474-25-000437",
+   "filing_date": "2025-05-07"
+  },
+  {
+   "ticker": "NVRI",
+   "cik": 45876,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 8900,
+   "accession": "0000045876-25-000018",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "NWE",
+   "cik": 1993004,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 4931,
+   "accession": "0001993004-25-000021",
+   "filing_date": "2025-02-13"
+  },
+  {
+   "ticker": "OCEA",
+   "cik": 1869974,
+   "prelim_band": "SAFE",
+   "token": "BBB+",
+   "sic": 2834,
+   "accession": "0001641172-25-003155",
+   "filing_date": "2025-04-08"
+  },
+  {
+   "ticker": "OESX",
+   "cik": 1409375,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3640,
+   "accession": "0000950170-25-090385",
+   "filing_date": "2025-06-26"
+  },
+  {
+   "ticker": "OGE",
+   "cik": 1021635,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 4911,
+   "accession": "0000950170-25-022560",
+   "filing_date": "2025-02-19"
+  },
+  {
+   "ticker": "OGN",
+   "cik": 1821825,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 2834,
+   "accession": "0001821825-25-000006",
+   "filing_date": "2025-02-28"
+  },
+  {
+   "ticker": "OI",
+   "cik": 812074,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3221,
+   "accession": "0001558370-25-000868",
+   "filing_date": "2025-02-12"
+  },
+  {
+   "ticker": "OKE",
+   "cik": 1039684,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 4923,
+   "accession": "0001039684-25-000036",
+   "filing_date": "2025-02-25"
+  },
+  {
+   "ticker": "OKUR",
+   "cik": 1637715,
+   "prelim_band": "SAFE",
+   "token": "BBB+",
+   "sic": 2834,
+   "accession": "0000950170-25-036252",
+   "filing_date": "2025-03-10"
+  },
+  {
+   "ticker": "OMC",
+   "cik": 29989,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 7311,
+   "accession": "0000029989-25-000009",
+   "filing_date": "2025-02-05"
+  },
+  {
+   "ticker": "ONAR",
+   "cik": 1682265,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 1700,
+   "accession": "0001477932-25-002756",
+   "filing_date": "2025-04-15"
+  },
+  {
+   "ticker": "OPAL",
+   "cik": 1842279,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 4932,
+   "accession": "0001842279-25-000049",
+   "filing_date": "2025-03-17"
+  },
+  {
+   "ticker": "ORGO",
+   "cik": 1661181,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2834,
+   "accession": "0000950170-25-029137",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "ORMP",
+   "cik": 1176309,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 2834,
+   "accession": "0001013762-25-003450",
+   "filing_date": "2025-03-27"
+  },
+  {
+   "ticker": "OSK",
+   "cik": 775158,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 3711,
+   "accession": "0000950170-25-024305",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "OTEX",
+   "cik": 1002638,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7373,
+   "accession": "0001002638-24-000052",
+   "filing_date": "2024-08-01"
+  },
+  {
+   "ticker": "OTIS",
+   "cik": 1781335,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 3600,
+   "accession": "0001781335-25-000010",
+   "filing_date": "2025-02-04"
+  },
+  {
+   "ticker": "OTTR",
+   "cik": 1466593,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 4911,
+   "accession": "0001466593-25-000034",
+   "filing_date": "2025-02-19"
+  },
+  {
+   "ticker": "OXY",
+   "cik": 797468,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 1311,
+   "accession": "0000797468-25-000029",
+   "filing_date": "2025-02-18"
+  },
+  {
+   "ticker": "PBI",
+   "cik": 78814,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 3579,
+   "accession": "0000078814-25-000015",
+   "filing_date": "2025-02-21"
+  },
+  {
+   "ticker": "PCT",
+   "cik": 1830033,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2821,
+   "accession": "0000950170-25-028422",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "PEG",
+   "cik": 788784,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 4931,
+   "accession": "0000950170-25-026874",
+   "filing_date": "2025-02-25"
+  },
+  {
+   "ticker": "PIF",
+   "cik": 1851322,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 0,
+   "accession": "0001851322-25-000023",
+   "filing_date": "2025-03-04"
+  },
+  {
+   "ticker": "PLYA",
+   "cik": 1692412,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 7011,
+   "accession": "0001692412-25-000052",
+   "filing_date": "2025-02-25"
+  },
+  {
+   "ticker": "PNW",
+   "cik": 764622,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 4911,
+   "accession": "0000764622-25-000023",
+   "filing_date": "2025-02-25"
+  },
+  {
+   "ticker": "POR",
+   "cik": 784977,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 4911,
+   "accession": "0000784977-25-000012",
+   "filing_date": "2025-02-14"
+  },
+  {
+   "ticker": "PPL",
+   "cik": 922224,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 4911,
+   "accession": "0000922224-25-000009",
+   "filing_date": "2025-02-13"
+  },
+  {
+   "ticker": "PRVA",
+   "cik": 1759655,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 8000,
+   "accession": "0001759655-25-000018",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "PSBD",
+   "cik": 1794776,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 0,
+   "accession": "0000950170-25-028337",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "PSEC",
+   "cik": 1287032,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 0,
+   "accession": "0001287032-25-000232",
+   "filing_date": "2025-08-26"
+  },
+  {
+   "ticker": "PSX",
+   "cik": 1534701,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 2911,
+   "accession": "0001534701-25-000074",
+   "filing_date": "2025-02-21"
+  },
+  {
+   "ticker": "PVH",
+   "cik": 78239,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 2320,
+   "accession": "0000078239-25-000018",
+   "filing_date": "2025-04-01"
+  },
+  {
+   "ticker": "QIPT",
+   "cik": 1540013,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 8090,
+   "accession": "0001558370-24-016299",
+   "filing_date": "2024-12-16"
+  },
+  {
+   "ticker": "R",
+   "cik": 85961,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 7510,
+   "accession": "0000085961-25-000032",
+   "filing_date": "2025-02-12"
+  },
+  {
+   "ticker": "RBBN",
+   "cik": 1708055,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7373,
+   "accession": "0001558370-25-001773",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "RELY",
+   "cik": 1782170,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7389,
+   "accession": "0001782170-25-000018",
+   "filing_date": "2025-02-19"
+  },
+  {
+   "ticker": "REVG",
+   "cik": 1687221,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3711,
+   "accession": "0001193125-25-313470",
+   "filing_date": "2025-12-10"
+  },
+  {
+   "ticker": "REYN",
+   "cik": 1786431,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2673,
+   "accession": "0001628280-25-003936",
+   "filing_date": "2025-02-05"
+  },
+  {
+   "ticker": "RFL",
+   "cik": 1713863,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2834,
+   "accession": "0001213900-24-095111",
+   "filing_date": "2024-11-07"
+  },
+  {
+   "ticker": "RPM",
+   "cik": 110621,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 2851,
+   "accession": "0000950170-24-086386",
+   "filing_date": "2024-07-25"
+  },
+  {
+   "ticker": "RRC",
+   "cik": 315852,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 1311,
+   "accession": "0000950170-25-026789",
+   "filing_date": "2025-02-25"
+  },
+  {
+   "ticker": "RRR",
+   "cik": 1653653,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7011,
+   "accession": "0001653653-25-000004",
+   "filing_date": "2025-02-21"
+  },
+  {
+   "ticker": "RSG",
+   "cik": 1060391,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 4953,
+   "accession": "0001060391-25-000091",
+   "filing_date": "2025-02-14"
+  },
+  {
+   "ticker": "RTX",
+   "cik": 101829,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 3724,
+   "accession": "0000101829-25-000005",
+   "filing_date": "2025-02-03"
+  },
+  {
+   "ticker": "RUN",
+   "cik": 1469367,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 3690,
+   "accession": "0001469367-25-000039",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "RXT",
+   "cik": 1810019,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7370,
+   "accession": "0001810019-25-000043",
+   "filing_date": "2025-03-21"
+  },
+  {
+   "ticker": "SABR",
+   "cik": 1597033,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 7370,
+   "accession": "0001597033-25-000027",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "SAVA",
+   "cik": 1069530,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2834,
+   "accession": "0001437749-25-005919",
+   "filing_date": "2025-03-03"
+  },
+  {
+   "ticker": "SBC",
+   "cik": 1930313,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 8011,
+   "accession": "0001641172-25-001062",
+   "filing_date": "2025-03-28"
+  },
+  {
+   "ticker": "SCCO",
+   "cik": 1001838,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 1000,
+   "accession": "0001558370-25-002017",
+   "filing_date": "2025-03-03"
+  },
+  {
+   "ticker": "SEDG",
+   "cik": 1419612,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 3674,
+   "accession": "0001178913-25-000605",
+   "filing_date": "2025-02-25"
+  },
+  {
+   "ticker": "SGHT",
+   "cik": 1531177,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3841,
+   "accession": "0000950170-25-035500",
+   "filing_date": "2025-03-07"
+  },
+  {
+   "ticker": "SGMO",
+   "cik": 1001233,
+   "prelim_band": "SAFE",
+   "token": "BBB+",
+   "sic": 2836,
+   "accession": "0001628280-25-013088",
+   "filing_date": "2025-03-17"
+  },
+  {
+   "ticker": "SGN",
+   "cik": 1898474,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7374,
+   "accession": "0001213900-25-031093",
+   "filing_date": "2025-04-11"
+  },
+  {
+   "ticker": "SHLS",
+   "cik": 1831651,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3674,
+   "accession": "0001831651-25-000019",
+   "filing_date": "2025-02-25"
+  },
+  {
+   "ticker": "SLE",
+   "cik": 1621672,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7373,
+   "accession": "0001437749-25-010233",
+   "filing_date": "2025-03-31"
+  },
+  {
+   "ticker": "SLNO",
+   "cik": 1484565,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 3845,
+   "accession": "0000950170-25-029545",
+   "filing_date": "2025-02-28"
+  },
+  {
+   "ticker": "SMRT",
+   "cik": 1837014,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7373,
+   "accession": "0000950170-25-033086",
+   "filing_date": "2025-03-05"
+  },
+  {
+   "ticker": "SNAL",
+   "cik": 1886894,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7372,
+   "accession": "0001641172-25-000784",
+   "filing_date": "2025-03-26"
+  },
+  {
+   "ticker": "SPB",
+   "cik": 109177,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3690,
+   "accession": "0000109177-25-000043",
+   "filing_date": "2025-11-18"
+  },
+  {
+   "ticker": "SPGI",
+   "cik": 64040,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 7320,
+   "accession": "0000064040-25-000052",
+   "filing_date": "2025-02-11"
+  },
+  {
+   "ticker": "SRE",
+   "cik": 1032208,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 4932,
+   "accession": "0001032208-25-000012",
+   "filing_date": "2025-02-25"
+  },
+  {
+   "ticker": "SRPT",
+   "cik": 873303,
+   "prelim_band": "SAFE",
+   "token": "BBB+",
+   "sic": 2834,
+   "accession": "0000950170-25-029973",
+   "filing_date": "2025-02-28"
+  },
+  {
+   "ticker": "SRRK",
+   "cik": 1727196,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2836,
+   "accession": "0001558370-25-001682",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "SRZN",
+   "cik": 1824893,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2836,
+   "accession": "0000950170-25-047712",
+   "filing_date": "2025-03-31"
+  },
+  {
+   "ticker": "STAA",
+   "cik": 718937,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3851,
+   "accession": "0000950170-25-024813",
+   "filing_date": "2025-02-21"
+  },
+  {
+   "ticker": "STAI",
+   "cik": 1994624,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3825,
+   "accession": "0001410578-25-001275",
+   "filing_date": "2025-05-14"
+  },
+  {
+   "ticker": "STE",
+   "cik": 1757898,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 3842,
+   "accession": "0001757898-25-000005",
+   "filing_date": "2025-05-29"
+  },
+  {
+   "ticker": "STEM",
+   "cik": 1758766,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3690,
+   "accession": "0001758766-25-000005",
+   "filing_date": "2025-03-05"
+  },
+  {
+   "ticker": "STIM",
+   "cik": 1227636,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3841,
+   "accession": "0001558370-25-003833",
+   "filing_date": "2025-03-27"
+  },
+  {
+   "ticker": "STRZ",
+   "cik": 929351,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7812,
+   "accession": "0000929351-25-000069",
+   "filing_date": "2025-07-29"
+  },
+  {
+   "ticker": "STSS",
+   "cik": 1737995,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3841,
+   "accession": "0001641172-25-000989",
+   "filing_date": "2025-03-27"
+  },
+  {
+   "ticker": "SVCO",
+   "cik": 1943289,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7372,
+   "accession": "0001628280-25-010567",
+   "filing_date": "2025-03-05"
+  },
+  {
+   "ticker": "SWK",
+   "cik": 93556,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 3420,
+   "accession": "0000093556-25-000007",
+   "filing_date": "2025-02-18"
+  },
+  {
+   "ticker": "SWKS",
+   "cik": 4127,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3674,
+   "accession": "0000004127-25-000085",
+   "filing_date": "2025-11-07"
+  },
+  {
+   "ticker": "SYK",
+   "cik": 310764,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 3841,
+   "accession": "0000310764-25-000023",
+   "filing_date": "2025-02-12"
+  },
+  {
+   "ticker": "SYY",
+   "cik": 96021,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 5140,
+   "accession": "0000096021-25-000099",
+   "filing_date": "2025-08-22"
+  },
+  {
+   "ticker": "T",
+   "cik": 732717,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 4813,
+   "accession": "0000732717-25-000013",
+   "filing_date": "2025-02-12"
+  },
+  {
+   "ticker": "TAP",
+   "cik": 24545,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 2082,
+   "accession": "0000024545-25-000007",
+   "filing_date": "2025-02-18"
+  },
+  {
+   "ticker": "TCPC",
+   "cik": 1370755,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 0,
+   "accession": "0000950170-25-028389",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "TEL",
+   "cik": 1385157,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 5065,
+   "accession": "0001558370-24-015227",
+   "filing_date": "2024-11-12"
+  },
+  {
+   "ticker": "TGLS",
+   "cik": 1534675,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 3211,
+   "accession": "0001493152-25-008697",
+   "filing_date": "2025-02-28"
+  },
+  {
+   "ticker": "TKR",
+   "cik": 98362,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 3562,
+   "accession": "0000098362-25-000055",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "TLSI",
+   "cik": 1826667,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3841,
+   "accession": "0001826667-25-000030",
+   "filing_date": "2025-04-15"
+  },
+  {
+   "ticker": "TPB",
+   "cik": 1290677,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 2100,
+   "accession": "0001437749-25-006480",
+   "filing_date": "2025-03-06"
+  },
+  {
+   "ticker": "TRAW",
+   "cik": 1130598,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2834,
+   "accession": "0001558370-25-004165",
+   "filing_date": "2025-03-31"
+  },
+  {
+   "ticker": "TRCK",
+   "cik": 1045942,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3669,
+   "accession": "0001437749-24-038259",
+   "filing_date": "2024-12-23"
+  },
+  {
+   "ticker": "TRML",
+   "cik": 1827506,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2836,
+   "accession": "0001827506-25-000027",
+   "filing_date": "2025-03-13"
+  },
+  {
+   "ticker": "TSCO",
+   "cik": 916365,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 5200,
+   "accession": "0000916365-25-000076",
+   "filing_date": "2025-02-20"
+  },
+  {
+   "ticker": "TSLX",
+   "cik": 1508655,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 0,
+   "accession": "0000950170-25-019845",
+   "filing_date": "2025-02-13"
+  },
+  {
+   "ticker": "TT",
+   "cik": 1466258,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 3822,
+   "accession": "0001466258-25-000039",
+   "filing_date": "2025-02-06"
+  },
+  {
+   "ticker": "TTC",
+   "cik": 737758,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 3524,
+   "accession": "0000737758-25-000115",
+   "filing_date": "2025-12-17"
+  },
+  {
+   "ticker": "TVC",
+   "cik": 1376986,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 4911,
+   "accession": "0001376986-24-000029",
+   "filing_date": "2024-11-14"
+  },
+  {
+   "ticker": "UA",
+   "cik": 1336917,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 2300,
+   "accession": "0001336917-25-000078",
+   "filing_date": "2025-05-22"
+  },
+  {
+   "ticker": "UNP",
+   "cik": 100885,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 4011,
+   "accession": "0000100885-25-000042",
+   "filing_date": "2025-02-07"
+  },
+  {
+   "ticker": "URBN",
+   "cik": 912615,
+   "prelim_band": "SAFE",
+   "token": "BBB+",
+   "sic": 5651,
+   "accession": "0000950170-25-048506",
+   "filing_date": "2025-04-01"
+  },
+  {
+   "ticker": "UTL",
+   "cik": 755001,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 4931,
+   "accession": "0000950170-25-017154",
+   "filing_date": "2025-02-10"
+  },
+  {
+   "ticker": "VATE",
+   "cik": 1006837,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3440,
+   "accession": "0001006837-25-000021",
+   "filing_date": "2025-03-31"
+  },
+  {
+   "ticker": "VHAI",
+   "cik": 1880431,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7371,
+   "accession": "0001213900-25-037129",
+   "filing_date": "2025-04-30"
+  },
+  {
+   "ticker": "VICR",
+   "cik": 751978,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 3679,
+   "accession": "0000950170-25-030619",
+   "filing_date": "2025-03-03"
+  },
+  {
+   "ticker": "VKTX",
+   "cik": 1607678,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2834,
+   "accession": "0000950170-25-027824",
+   "filing_date": "2025-02-26"
+  },
+  {
+   "ticker": "VLO",
+   "cik": 1035002,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 2911,
+   "accession": "0001035002-25-000005",
+   "filing_date": "2025-02-26"
+  },
+  {
+   "ticker": "VLTO",
+   "cik": 1967680,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 3825,
+   "accession": "0001967680-25-000008",
+   "filing_date": "2025-02-25"
+  },
+  {
+   "ticker": "VMI",
+   "cik": 102729,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 3440,
+   "accession": "0000102729-25-000009",
+   "filing_date": "2025-02-25"
+  },
+  {
+   "ticker": "VRSK",
+   "cik": 1442145,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7374,
+   "accession": "0001437749-25-005160",
+   "filing_date": "2025-02-26"
+  },
+  {
+   "ticker": "VRSSD",
+   "cik": 1879001,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7370,
+   "accession": "0001641172-25-019545",
+   "filing_date": "2025-07-14"
+  },
+  {
+   "ticker": "VSTM",
+   "cik": 1526119,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2834,
+   "accession": "0001558370-25-003372",
+   "filing_date": "2025-03-20"
+  },
+  {
+   "ticker": "VVX",
+   "cik": 1601548,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 8744,
+   "accession": "0001601548-25-000009",
+   "filing_date": "2025-02-24"
+  },
+  {
+   "ticker": "VYGR",
+   "cik": 1640266,
+   "prelim_band": "SAFE",
+   "token": "BBB+",
+   "sic": 2836,
+   "accession": "0001558370-25-002703",
+   "filing_date": "2025-03-11"
+  },
+  {
+   "ticker": "WAB",
+   "cik": 943452,
+   "prelim_band": "SAFE",
+   "token": "BBB+",
+   "sic": 3743,
+   "accession": "0001628280-25-005100",
+   "filing_date": "2025-02-12"
+  },
+  {
+   "ticker": "WEC",
+   "cik": 783325,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 4931,
+   "accession": "0000107815-25-000103",
+   "filing_date": "2025-02-21"
+  },
+  {
+   "ticker": "WELPM",
+   "cik": 107815,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 4911,
+   "accession": "0000107815-25-000105",
+   "filing_date": "2025-02-21"
+  },
+  {
+   "ticker": "WINT",
+   "cik": 946486,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2836,
+   "accession": "0001437749-25-012093",
+   "filing_date": "2025-04-15"
+  },
+  {
+   "ticker": "WK",
+   "cik": 1445305,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7372,
+   "accession": "0001445305-25-000034",
+   "filing_date": "2025-02-25"
+  },
+  {
+   "ticker": "WLFC",
+   "cik": 1018164,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 5080,
+   "accession": "0001018164-25-000027",
+   "filing_date": "2025-03-11"
+  },
+  {
+   "ticker": "WM",
+   "cik": 823768,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 4953,
+   "accession": "0001558370-25-001132",
+   "filing_date": "2025-02-19"
+  },
+  {
+   "ticker": "WMB",
+   "cik": 107263,
+   "prelim_band": "SAFE",
+   "token": "Baa2",
+   "sic": 4922,
+   "accession": "0000107263-25-000031",
+   "filing_date": "2025-02-25"
+  },
+  {
+   "ticker": "WORX",
+   "cik": 1674227,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7990,
+   "accession": "0001213900-24-081111",
+   "filing_date": "2024-09-24"
+  },
+  {
+   "ticker": "WTRG",
+   "cik": 78128,
+   "prelim_band": "SAFE",
+   "token": "Baa1",
+   "sic": 4941,
+   "accession": "0001562762-25-000036",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "WWD",
+   "cik": 108312,
+   "prelim_band": "SAFE",
+   "token": "BBB+",
+   "sic": 3620,
+   "accession": "0001193125-25-296204",
+   "filing_date": "2025-11-25"
+  },
+  {
+   "ticker": "WYNN",
+   "cik": 1174922,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7011,
+   "accession": "0001174922-25-000039",
+   "filing_date": "2025-02-13"
+  },
+  {
+   "ticker": "XERS",
+   "cik": 1867096,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2834,
+   "accession": "0001867096-25-000039",
+   "filing_date": "2025-03-06"
+  },
+  {
+   "ticker": "XNCR",
+   "cik": 1326732,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2834,
+   "accession": "0001326732-25-000029",
+   "filing_date": "2025-02-27"
+  },
+  {
+   "ticker": "XOMA",
+   "cik": 791908,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 2834,
+   "accession": "0001558370-25-003131",
+   "filing_date": "2025-03-17"
+  },
+  {
+   "ticker": "YORW",
+   "cik": 108985,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 4941,
+   "accession": "0000108985-25-000015",
+   "filing_date": "2025-03-04"
+  },
+  {
+   "ticker": "YOU",
+   "cik": 1856314,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7372,
+   "accession": "0001856314-25-000008",
+   "filing_date": "2025-02-26"
+  },
+  {
+   "ticker": "ZBH",
+   "cik": 1136869,
+   "prelim_band": "SAFE",
+   "token": "Baa3",
+   "sic": 3842,
+   "accession": "0000950170-25-026604",
+   "filing_date": "2025-02-25"
+  },
+  {
+   "ticker": "ZI",
+   "cik": 1794515,
+   "prelim_band": "SAFE",
+   "token": "Aaa",
+   "sic": 7372,
+   "accession": "0001794515-25-000045",
+   "filing_date": "2025-02-25"
+  }
+ ]
+}

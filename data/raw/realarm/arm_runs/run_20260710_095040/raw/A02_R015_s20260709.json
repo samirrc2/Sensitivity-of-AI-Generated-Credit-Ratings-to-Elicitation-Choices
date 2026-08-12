@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R015",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows a strong balance sheet with a solid current ratio of 2.85, substantial shareholders' equity of 2,427M, and a positive net income of 644M. However, it suffers from a severe operating loss of -988M (operating margin of -42%), indicating that its bottom-line profitability is heavily reliant on non-operating items or one-off events rather than core business sustainability. Given the highly volatile and weak core operating performance balanced by currently adequate liquidity and moderate leverage, the company represents a speculative-grade credit risk.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 243,
+ "out_tok": 127,
+ "usd": 0.001507,
+ "utc": "2026-07-10T14:06:51.675859+00:00"
+}

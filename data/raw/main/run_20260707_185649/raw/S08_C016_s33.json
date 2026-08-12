@@ -1,0 +1,44 @@
+{
+ "spec_id": "S08",
+ "item_id": "C016",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 33,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-04-16, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-04-16):\n| Current ratio           | 0.90 |\n| Retained earnings       | 73,165M |\n| Current liabilities     | 34,477M |\n| Current assets          | 30,916M |\n| Shareholders' equity    | 21,383M |\n| Total liabilities       | 89,110M |\n| Total assets            | 110,646M |\n| EBIT / operating income | 3,213M |\n| Revenue                 | 19,443M |\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"BB- with high leverage and weak liquidity; limited coverage data; risk above investment grade though not extreme.\"}}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 253,
+ "output_tokens": 754,
+ "cost_usd": 0.000993,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:08:07.851341+00:00",
+ "mode": "REAL"
+}

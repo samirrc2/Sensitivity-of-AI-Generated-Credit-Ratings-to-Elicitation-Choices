@@ -1,0 +1,45 @@
+{
+ "spec_id": "S05",
+ "item_id": "C009",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 11,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-02-19, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-02-19):\nFiscal period 2025 Q4 (filed 2026-02-19). Revenue 6,571M, gross margin 59%, operating income 3,688M (operating margin 56%), net income 1,301M, diluted EPS 1.21. Total assets 57,121M, total liabilities 23,079M, shareholders' equity 33,867M. Current assets 13,066M vs current liabilities 5,712M (current ratio 2.29), retained earnings 3,431M.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "To assess the creditworthiness of the issuer, we analyze the key financial metrics from the 2025 Q4 filing:\n1. **Profitability and Margins:** The company exhibits outstanding profitability, with a gross margin of 59%, a highly robust operating margin of 56% ($3,688M operating income on $6,571M revenue), and solid net income of $1,301M.\n2. **Capital Structure and Solvency:** The balance sheet is exceptionally strong, characterized by low leverage; total assets of $57,121M are supported by $33,867M in shareholders' equity, leaving a conservative total liabilities-to-equity ratio of approximately 0.68x ($23,079M in total liabilities).\n3. **Liquidity:** Short-term liquidity is excellent, evidenced by a current ratio of 2.29 ($13,066M in current assets against $5,712M in current liabilities), providing a substantial buffer to meet short-term obligations.\n\nGiven the combination of elite profitability, low leverage, and superior liquidity, the issuer represents an extremely low credit risk, justifying a high investment-grade rating in the AA range.\n\nDECISION: AA",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 296,
+ "output_tokens": 272,
+ "cost_usd": 0.002892,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:04:44.283564+00:00",
+ "mode": "REAL"
+}

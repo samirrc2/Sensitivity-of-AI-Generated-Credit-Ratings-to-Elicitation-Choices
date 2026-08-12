@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's financial profile reveals a severe divergence between its strong operating profitability (42% operating margin, $1,161M operating income) and its highly distressed balance sheet. The company exhibits a critically weak capital structure with an extremely thin equity cushion ($3,652M in equity supporting $63,190M in assets, leading to a leverage ratio of over 17x), a negative retained earnings balance of -$5,086M indicative of historical losses, and a severe liquidity mismatch highlighted by a current ratio of 0.63 ($2,495M in current assets against $3,973M in current liabilities). These factors present high default and refinancing risks that overshadow current profitability, aligning the company with a highly speculative grade.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 281,
+ "out_tok": 173,
+ "usd": 0.001979,
+ "utc": "2026-07-10T15:10:57.323403+00:00"
+}

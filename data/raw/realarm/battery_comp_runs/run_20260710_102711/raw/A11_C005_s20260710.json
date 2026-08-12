@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows healthy liquidity (current ratio 1.55) and strong operating profitability (EBIT/Revenue \u2248 48%), which supports debt service capacity. However, leverage is high with total liabilities at ~79% of total assets and equity only ~21% of assets, indicating weaker balance-sheet resilience. Overall, this merits a speculative-grade rating at the higher end.\n\nDECISION: BB+",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "in_tok": 242,
+ "out_tok": 227,
+ "usd": 0.000332,
+ "utc": "2026-07-10T14:32:30.214650+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows weak liquidity with a current ratio of 0.63, and large accumulated losses reflected in negative retained earnings (-5,086M). Despite positive equity and EBIT/operating income of 1,161M, leverage is high (total liabilities of 52,835M versus total assets of 63,190M), which elevates refinancing and credit risk.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 240,
+ "out_tok": 316,
+ "usd": 0.000443,
+ "utc": "2026-07-10T15:10:17.273437+00:00"
+}

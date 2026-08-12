@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C024",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 4, \"rationale\": \"High leverage (D/E ~1.4x), weak liquidity (current ratio 0.94), and very low profitability (EBIT margin 9.3%, ROA 0.5%) indicate non-investment grade.\"}\n```",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 276,
+ "out_tok": 73,
+ "usd": 0.001071,
+ "utc": "2026-07-10T14:54:12.096747+00:00"
+}

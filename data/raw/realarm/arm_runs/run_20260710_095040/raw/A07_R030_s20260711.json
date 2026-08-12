@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R030",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Liquidity is weak (current ratio \u2248 0.72), and the balance sheet is levered with total liabilities (7,452M) exceeding shareholders\u2019 equity (3,858M). However, profitability is solid (EBIT margin \u2248 20% and net margin \u2248 11%), which somewhat offsets the financial and liquidity risk.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 226,
+ "out_tok": 205,
+ "usd": 0.000301,
+ "utc": "2026-07-10T14:24:42.817683+00:00"
+}

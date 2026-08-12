@@ -1,0 +1,44 @@
+{
+ "spec_id": "S40",
+ "item_id": "C040",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 0.0,
+   "seed": 33,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2025-11-07; do not use later information.\nProvided information:\nFiscal period 2025 Q3 (filed 2025-11-07). Revenue 8,669M, gross margin 99%, operating income 2,334M (operating margin 27%), net income 1,421M, diluted EPS 1.81. Total assets 192,293M, total liabilities 139,666M, shareholders' equity 51,462M. Current assets 12,208M vs current liabilities 19,405M (current ratio 0.63), retained earnings 4,718M.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Adequate equity (27%), solid margins, but weak liquidity (CR 0.63) limits rating.\"}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 380,
+ "output_tokens": 41,
+ "cost_usd": 0.000578,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:52:06.054177+00:00",
+ "mode": "REAL"
+}

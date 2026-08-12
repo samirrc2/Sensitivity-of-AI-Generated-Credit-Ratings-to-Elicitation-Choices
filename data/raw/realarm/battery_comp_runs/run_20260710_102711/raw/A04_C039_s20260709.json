@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"CCC\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage, extremely low EBIT relative to huge liabilities, negative working capital, and very thin equity base indicate severe distress.\"\n}\n```",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 294,
+ "out_tok": 55,
+ "usd": 0.000936,
+ "utc": "2026-07-10T15:11:47.355781+00:00"
+}

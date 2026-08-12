@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R010",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid profitability (net income of 403M on 2,106M revenue) but a relatively weak balance sheet cushion, with equity of 3,328M covering only about 15% of total assets and liabilities of 17,381M versus 21,779M assets. This leverage suggests elevated financial risk compared with investment-grade issuers, though earnings help partially offset it.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 204,
+ "out_tok": 164,
+ "usd": 0.000246,
+ "utc": "2026-07-10T14:01:18.425832+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R020",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows moderate operating profitability (EBIT margin ~18%) and solid capitalization (equity > 30% of assets), but liquidity is weak with a current ratio below 1 (current assets 1,107M vs current liabilities 1,333M). Leverage is also fairly high (total liabilities 8,577M vs equity 4,112M), which limits credit resilience despite positive retained earnings and net income.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 230,
+ "out_tok": 271,
+ "usd": 0.000385,
+ "utc": "2026-07-10T14:12:58.003584+00:00"
+}

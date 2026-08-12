@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid profitability (EBIT of 8,386M on revenue 17,601M, ~48% margin) and adequate near-term liquidity (current ratio 1.55). However, leverage is high with total liabilities of 91,085M versus total assets of 114,935M, which meaningfully constrains financial flexibility. Overall, this supports a speculative-grade credit profile rather than investment grade.  \nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 246,
+ "usd": 0.000354,
+ "utc": "2026-07-10T14:32:02.913208+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R026",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BBB-\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage (Total Debt/Equity around 4.37) is balanced by solid profitability (EBIT 710M) and positive net income, indicating a marginal investment-grade profile.\"\n}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 274,
+ "out_tok": 73,
+ "usd": 0.001068,
+ "utc": "2026-07-10T14:19:27.682158+00:00"
+}

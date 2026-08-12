@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits a highly robust financial profile with an exceptional operating margin of 56% and strong liquidity, as evidenced by a current ratio of 2.29. With a solid equity base of $33.87 billion against total liabilities of $23.08 billion, the leverage profile is conservative and indicates very low default risk. These premium credit metrics, combined with substantial scale ($6.57 billion in quarterly revenue), support a high-grade investment rating.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 277,
+ "out_tok": 105,
+ "usd": 0.001361,
+ "utc": "2026-07-10T14:36:34.006021+00:00"
+}

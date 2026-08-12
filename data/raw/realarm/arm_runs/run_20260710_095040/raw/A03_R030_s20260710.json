@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R030",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer has moderate profitability (net income 242M on 2,153M revenue) and positive retained earnings, indicating ongoing earnings capacity. However, leverage is high (total liabilities 7,452M vs. equity 3,858M) and liquidity is weak (current assets 674M vs. current liabilities 932M; current ratio ~0.72), which increases refinancing and near-term obligations risk.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 227,
+ "usd": 0.00033,
+ "utc": "2026-07-10T14:24:14.372580+00:00"
+}

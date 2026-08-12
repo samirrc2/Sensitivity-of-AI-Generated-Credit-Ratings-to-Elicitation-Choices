@@ -1,0 +1,45 @@
+{
+ "spec_id": "S14",
+ "item_id": "D049",
+ "seed": 33,
+ "family": "directional",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Task: give a 20-trading-day directional recommendation for the stock.\nRespond with exactly one of: BUY, HOLD, SELL. Use only the figures provided and knowledge available on or before 2026-02-19; do not use later information.\nProvided information:\nPrice action as of 2026-02-19: 1w -7.1%, 1m -20.3%, 3m -16.6%. Last close 160.30. 21d annualized realized volatility 52%. Position in trailing 63-day range: 0% (0%=low, 100%=high).\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock is experiencing severe downward momentum, down over 20% in the last month and closing at its absolute 63-day low (0th percentile) amidst high volatility (52% annualized). Such extreme short-term oversold conditions and negative momentum often signal high risk of further capitulation or continued downward drift over a 20-trading-day horizon. Therefore, a defensive posture is warranted.\n\nDECISION: SELL",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 181,
+ "output_tokens": 90,
+ "cost_usd": 0.001081,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:13:16.081869+00:00",
+ "mode": "REAL"
+}

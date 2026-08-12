@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits severe balance sheet distress, characterized by negative shareholders' equity of -$1,920M, a massive retained earnings deficit of -$20,476M, and a highly critical liquidity position with a current ratio of only 0.27 (current liabilities of $4,705M dwarf current assets of $1,254M). Although the firm is currently operating profitably with a 46% operating margin, its extremely weak solvency and looming short-term debt pressures present an imminent risk of default or restructuring. This profile is consistent with a highly speculative, near-default credit profile.\n\nDECISION: CCC-",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "in_tok": 280,
+ "out_tok": 135,
+ "usd": 0.001635,
+ "utc": "2026-07-10T15:18:25.699102+00:00"
+}

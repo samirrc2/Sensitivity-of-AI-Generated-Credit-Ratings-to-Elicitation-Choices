@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits solid profitability with an 11% operating margin and $1.79B in net income, supported by a positive retained earnings balance of over $20.1B. However, its balance sheet is highly leveraged with a total liabilities-to-equity ratio of approximately 3.5x ($56.8B in liabilities vs. $16.2B in equity) and a relatively tight liquidity position as reflected by a 1.22 current ratio. This combination of strong earnings capacity and significant leverage suggests a solid, investment-grade profile but with moderate credit risk, aligning with a lower-tier investment-grade rating.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 287,
+ "out_tok": 141,
+ "usd": 0.0017,
+ "utc": "2026-07-10T14:47:34.925669+00:00"
+}

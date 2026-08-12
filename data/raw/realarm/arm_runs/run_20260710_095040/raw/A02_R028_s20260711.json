@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R028",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits solid profitability with an operating income of $539M (9% margin) and a stable capital structure with an equity-to-assets ratio of approximately 38% ($4,503M equity on $11,857M assets). While its liquidity is adequate with a current ratio of 1.28, its leverage is moderate-to-high (total liabilities of $7,354M relative to assets and earnings), and the retained earnings cushion is relatively modest compared to the asset base. These credit metrics are characteristic of a stable, investment-grade issuer with moderate credit risk, typical of the lower-medium grade.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 239,
+ "out_tok": 144,
+ "usd": 0.001655,
+ "utc": "2026-07-10T14:21:34.925255+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R014",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financials, the company exhibits a very strong credit profile characterized by solid profitability (15% operating margin), a highly conservative capital structure with low leverage (Debt-to-Equity of at most 0.61x, with total liabilities representing only 38% of total assets), and excellent liquidity (current ratio of 2.48). While these metrics point to an investment-grade profile, the absolute size of the business (revenue of $3.1B and assets under $5B) limits its ability to achieve the highest rating categories (AAA/AA range) which are typically reserved for much larger, systemically diversified multinational corporations. Therefore, a solid upper-medium investment grade rating is appropriate to reflect its strong financial cushion balanced against its moderate scale.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 242,
+ "out_tok": 166,
+ "usd": 0.001857,
+ "utc": "2026-07-10T14:06:26.118161+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer's financial profile is highly leveraged and distressed, characterized by extremely thin shareholders' equity of $415M relative to $11,824M in total liabilities (debt-to-equity ratio of over 28x) and significant profitability pressures (net loss of $640M on $11,006M in revenue). While a decent current ratio of 1.78 and positive retained earnings indicate some residual liquidity, the operating loss of $459M and negative margins place the issuer deep into speculative-grade territory. These factors represent high credit risk and vulnerability to default, consistent with a high-yield B-range rating.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 238,
+ "out_tok": 147,
+ "usd": 0.00168,
+ "utc": "2026-07-10T14:11:41.259478+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"Moderate leverage (78% Debt/Assets) and thin profitability (10.5% EBIT margin) justify a lower investment grade rating.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 273,
+ "out_tok": 53,
+ "usd": 0.000887,
+ "utc": "2026-07-10T14:47:26.494529+00:00"
+}

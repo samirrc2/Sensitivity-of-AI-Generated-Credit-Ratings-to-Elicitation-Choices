@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"B-\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage (73% debt-to-assets), weak liquidity (0.63 current ratio), and low interest coverage relative to massive $140B liabilities signal high default risk.\"\n}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 281,
+ "out_tok": 72,
+ "usd": 0.00107,
+ "utc": "2026-07-10T15:13:52.227401+00:00"
+}

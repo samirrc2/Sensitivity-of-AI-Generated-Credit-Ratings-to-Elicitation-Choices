@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer displays exceptional financial strength, characterized by highly robust profitability (operating margin of 48% and net income of 5,582M) and a very large asset base of nearly $115B. While its leverage is moderately high (total liabilities of $91B against $23.8B in equity), it maintains strong liquidity with a current ratio of 1.55 and massive absolute cash-flow generation capabilities. Based on these premier scale metrics and high operating efficiency, the company commands a high investment-grade rating.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 288,
+ "out_tok": 120,
+ "usd": 0.001512,
+ "utc": "2026-07-10T14:31:33.769122+00:00"
+}

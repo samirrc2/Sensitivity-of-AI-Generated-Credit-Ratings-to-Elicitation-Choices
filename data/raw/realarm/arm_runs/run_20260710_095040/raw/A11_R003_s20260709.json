@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R003",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows solid operating profitability (EBIT margin ~22% and net margin ~9%), but liquidity is weak with current assets (564M) below current liabilities (783M). Leverage is high (total liabilities 4,392M vs. shareholders\u2019 equity 1,381M), which increases refinancing and balance-sheet risk, leading to a speculative-grade but not distressed assessment.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 245,
+ "usd": 0.000353,
+ "utc": "2026-07-10T13:53:59.567912+00:00"
+}

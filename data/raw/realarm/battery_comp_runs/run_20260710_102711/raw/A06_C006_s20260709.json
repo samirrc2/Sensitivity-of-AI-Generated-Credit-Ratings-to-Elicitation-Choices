@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C006",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates exceptionally strong creditworthiness, characterized by high profitability (19% operating margin, 908M net income in Q3 2025) and a very robust capital structure, with shareholders' equity of 51,071M supporting total liabilities of 28,826M (a low leverage ratio of 36%). Liquid assets are healthy, with a current ratio of 1.52, and the massive retained earnings of 45,920M reflect a long track record of profitable operations.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 275,
+ "out_tok": 122,
+ "usd": 0.001511,
+ "utc": "2026-07-10T14:33:06.172578+00:00"
+}

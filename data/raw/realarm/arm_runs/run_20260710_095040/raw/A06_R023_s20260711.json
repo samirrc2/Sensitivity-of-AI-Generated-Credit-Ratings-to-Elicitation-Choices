@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R023",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits an exceptionally strong balance sheet with a very high current ratio of 3.83, low leverage (total liabilities to equity of 0.27x), and highly profitable operations characterized by a 94% gross margin and positive operating income. However, the presence of deeply negative retained earnings (-1,564M) suggests historical losses or a complex corporate restructuring, and the net income of 337M (exceeding operating income of 90M) indicates significant non-operating or one-time gains. Balancing the excellent current solvency and asset protection against the historical deficit and moderate operating size, the issuer represents a solid investment-grade profile.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 229,
+ "out_tok": 146,
+ "usd": 0.001658,
+ "utc": "2026-07-10T14:16:18.436714+00:00"
+}

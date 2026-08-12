@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R018",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Strong asset base and profitability (net income $1.7B) are offset by high leverage (62% total debt/assets) and negative accumulated retained earnings.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 277,
+ "out_tok": 57,
+ "usd": 0.000929,
+ "utc": "2026-07-10T14:11:09.433421+00:00"
+}

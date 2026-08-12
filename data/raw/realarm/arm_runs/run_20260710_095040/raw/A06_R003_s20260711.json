@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R003",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates solid profitability with revenue of $1,207M, an operating margin of 22% ($263M), and net income of $106M, indicating a stable underlying business. However, the balance sheet exhibits high leverage with total liabilities of $4,392M against equity of $1,381M, alongside a weak short-term liquidity position as reflected by a current ratio of 0.72 (current assets of $564M versus current liabilities of $783M). These elevated leverage and liquidity risks constrain the credit profile to the speculative-grade category, balanced by positive earnings.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 226,
+ "out_tok": 143,
+ "usd": 0.001626,
+ "utc": "2026-07-10T13:53:32.004619+00:00"
+}

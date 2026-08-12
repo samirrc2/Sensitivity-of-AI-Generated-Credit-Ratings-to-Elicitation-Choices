@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows solid leverage support (total liabilities of 279,861M vs equity of 414,367M) and very strong operating profitability (EBIT/operating income of 38,398M on revenue of 82,886M). Liquidity is only adequate (current ratio of 1.28), which tempers the rating, but overall credit strength appears investment-grade.  \n\nDECISION: A-",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 215,
+ "usd": 0.000317,
+ "utc": "2026-07-10T14:40:12.561339+00:00"
+}

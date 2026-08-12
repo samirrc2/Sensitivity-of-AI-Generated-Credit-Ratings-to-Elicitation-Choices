@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"High capitalization and liquidity are severely offset by weak profitability (EBIT margin of 4.2% and return on assets under 1%).\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 280,
+ "out_tok": 60,
+ "usd": 0.00096,
+ "utc": "2026-07-10T14:31:22.391561+00:00"
+}

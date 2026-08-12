@@ -1,0 +1,45 @@
+{
+ "spec_id": "S02",
+ "item_id": "C024",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "2",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 11,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-02-18. Act as a credit rating analyst.\nFiscal period 2025 Q4 (filed 2026-02-18). Revenue 5,013M, gross margin 28%, operating income 467M (operating margin 9%), net income 102M, diluted EPS -0.0688. Total assets 86,783M, total liabilities 50,185M, shareholders' equity 36,034M. Current assets 8,827M vs current liabilities 9,428M (current ratio 0.94), retained earnings 21,891M.\nHere are two worked examples:\n- Information: Fiscal period 2026 Q1 (filed 2026-05-04). Revenue 83,161M, gross margin 38%, operating income 5,285M (operating margin 6%), net income 4,183M, diluted EPS 1.0. Total assets 464,410M, total liabilities 203,414M, shareholders' equity 254,381M. Current assets 97,787M vs current liabilities 94,378M (current ratio 1.04), retained earnings 482,344M.\n  Answer: AA+\n- Information: Fiscal period 2025 Q3 (filed 2025-10-23). Revenue 21,957M, gross margin 49%, operating income 4,862M (operating margin 22%), net income 2,714M, diluted EPS 2.41. Total assets 217,180M, total liabilities 156,703M, shareholders' equity 60,477M. Current assets 21,703M vs current liabilities 24,301M (current ratio 0.89), retained earnings 20,155M.\n  Answer: B-\n\nBased only on the above and knowledge predating 2026-02-18, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The company exhibits weak profitability (low net income and negative diluted EPS) and poor liquidity (current ratio below 1), suggesting challenges in meeting short-term obligations and generating sustainable earnings. While assets exceed liabilities, the negative EPS and tight liquidity are significant red flags.\nDECISION: B",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 621,
+ "output_tokens": 58,
+ "cost_usd": 0.000331,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T22:57:58.612244+00:00",
+ "mode": "REAL"
+}

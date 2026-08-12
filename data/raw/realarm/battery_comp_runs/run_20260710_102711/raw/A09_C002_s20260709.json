@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A-\",\"confidence\":2,\"rationale\":\"Very strong margins and liquidity (current ratio 12.4), but high overall leverage (liabilities/assets ~90%) limits visibility.\"}",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 265,
+ "out_tok": 156,
+ "usd": 0.000248,
+ "utc": "2026-07-10T14:28:59.409485+00:00"
+}

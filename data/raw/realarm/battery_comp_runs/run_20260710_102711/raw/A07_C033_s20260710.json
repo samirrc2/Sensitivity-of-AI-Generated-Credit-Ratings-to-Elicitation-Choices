@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows significant financial distress with negative shareholders\u2019 equity and retained earnings, indicating accumulated losses and weak capital structure. Liquidity is only marginal (current ratio ~1.09) and total liabilities exceed total assets, while operating profitability exists but is modest relative to revenue.  \n\nDECISION: CCC",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 233,
+ "out_tok": 222,
+ "usd": 0.000324,
+ "utc": "2026-07-10T15:04:47.013912+00:00"
+}

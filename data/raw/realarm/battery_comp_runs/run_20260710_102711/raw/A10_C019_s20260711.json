@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financials, the issuer exhibits a leveraged balance sheet with a high liabilities-to-assets ratio of approximately 78% (Total Liabilities of $56.8B on $73.1B of Assets) and a modest current ratio of 1.22, indicating tight short-term liquidity. However, the company remains solidly profitable with $24.5B in revenue, an 11% operating margin ($2.58B), and positive net income of $1.79B, supported by a healthy retained earnings base of $20.2B. This combination of strong profitability and market presence alongside high leverage and moderate liquidity profile is characteristic of a solid, investment-grade issuer in the triple-B range.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 287,
+ "out_tok": 162,
+ "usd": 0.001888,
+ "utc": "2026-07-10T14:47:38.433503+00:00"
+}

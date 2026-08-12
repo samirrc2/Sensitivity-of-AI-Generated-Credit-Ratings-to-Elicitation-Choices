@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R006",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Current liquidity is modest but acceptable (current ratio \u2248 1.21), and leverage is moderate (total liabilities \u2248 58% of total assets). However, the company is loss-making in the most recent year (net income and EBIT are both negative), indicating weak operating/earnings support for credit. Overall, this points to a speculative-to-investment-grade boundary, so I assign a **BBB-** rating.  \nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 239,
+ "out_tok": 235,
+ "usd": 0.000342,
+ "utc": "2026-07-10T13:57:36.543197+00:00"
+}

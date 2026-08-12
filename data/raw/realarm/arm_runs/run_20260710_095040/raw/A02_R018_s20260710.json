@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R018",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits a solid financial profile with a substantial revenue base of $18.86 billion, positive operating and net income, and a comfortable current ratio of 1.44. However, its moderately high leverage (total liabilities/assets of 61.6%) and negative retained earnings of -$398 million indicate historical losses or aggressive capital restructurings that constrain its creditworthiness from reaching the highest investment-grade tiers. These metrics align with a solid, lower-tier investment grade profile characterized by stable cash flows but moderate debt-service risk.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 243,
+ "out_tok": 121,
+ "usd": 0.001453,
+ "utc": "2026-07-10T14:10:11.320735+00:00"
+}

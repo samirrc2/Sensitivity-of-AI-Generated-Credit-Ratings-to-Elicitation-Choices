@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"A\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong balance sheet with low leverage (Debt/Equity < 0.7), high liquidity (current ratio 2.29), and very high operating profitability (EBIT margin ~56%).\"\n}\n```",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "in_tok": 277,
+ "out_tok": 72,
+ "usd": 0.001063,
+ "utc": "2026-07-10T14:36:23.280269+00:00"
+}

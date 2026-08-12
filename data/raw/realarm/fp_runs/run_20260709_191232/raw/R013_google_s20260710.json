@@ -1,0 +1,12 @@
+{
+ "item_id": "R013",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "ok": true,
+ "raw_response": "GUESS: GAP (GPS)",
+ "in_tok": 198,
+ "out_tok": 7,
+ "usd": 0.00036,
+ "utc": "2026-07-09T23:16:55.853802+00:00"
+}

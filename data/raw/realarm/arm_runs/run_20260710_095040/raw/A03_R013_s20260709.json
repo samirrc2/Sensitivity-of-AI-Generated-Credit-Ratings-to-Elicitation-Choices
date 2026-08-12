@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R013",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer has materially weak balance-sheet credit fundamentals, including negative shareholders\u2019 equity (\u2013496M), negative retained earnings (\u20131,065M), and liabilities exceeding assets, which indicates significant leverage and limited cushion. Although operating profitability is positive (EBIT 74M) and liquidity is roughly balanced (current assets 580M vs. current liabilities 569M), the most recent net loss (\u201323M) and sustained capital impairment point to elevated credit risk consistent with a lower speculative-grade profile.\n\nDECISION: CCC",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 231,
+ "out_tok": 215,
+ "usd": 0.000315,
+ "utc": "2026-07-10T14:04:42.447782+00:00"
+}

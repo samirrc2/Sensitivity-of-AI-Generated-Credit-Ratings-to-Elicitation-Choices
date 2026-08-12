@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits a solid operating profile with a 19% operating margin and $749M in operating income on $3,915M of quarterly revenue, supported by a healthy 53% gross margin. However, its balance sheet is highly leveraged with total assets of $79,154M against total liabilities of $57,973M (a debt-to-equity ratio of approximately 2.7x), and it faces short-term liquidity pressure with a current ratio of 0.79 ($5,681M in current assets vs. $7,148M in current liabilities). This combination of strong operating profitability but significant leverage and weak short-term liquidity aligns with an investment-grade rating at the lower end of the spectrum.\n\nDECISION: BBB-",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "in_tok": 278,
+ "out_tok": 172,
+ "usd": 0.001965,
+ "utc": "2026-07-10T15:07:55.937499+00:00"
+}

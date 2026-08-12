@@ -1,0 +1,45 @@
+{
+ "spec_id": "S14",
+ "item_id": "D075",
+ "seed": 33,
+ "family": "directional",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "SELL",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Task: give a 20-trading-day directional recommendation for the stock.\nRespond with exactly one of: BUY, HOLD, SELL. Use only the figures provided and knowledge available on or before 2026-04-30; do not use later information.\nProvided information:\nPrice action as of 2026-04-30: 1w +0.1%, 1m +7.6%, 3m -7.0%. Last close 103.75. 21d annualized realized volatility 21%. Position in trailing 63-day range: 56% (0%=low, 100%=high).\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock has shown a solid short-term recovery with a +7.6% gain over the past month, stabilizing near the midpoint of its 63-day range (56%) with moderate annualized volatility of 21%. However, the medium-term 3-month trend remains negative at -7.0%, suggesting the recent bounce may face overhead resistance as it approaches previous highs. Given these conflicting short- and medium-term signals, the stock is likely to consolidate over the next 20 trading days.\n\nDECISION: HOLD",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 180,
+ "output_tokens": 112,
+ "cost_usd": 0.001278,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:13:31.788768+00:00",
+ "mode": "REAL"
+}

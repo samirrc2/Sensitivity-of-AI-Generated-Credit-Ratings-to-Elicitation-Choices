@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R014",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"A\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong balance sheet with low leverage (Debt/Equity < 0.61), robust liquidity (Current Ratio ~2.5x), and solid profitability (ROA ~6.8%, Net Margin >10%).\"\n}\n```",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "in_tok": 267,
+ "out_tok": 77,
+ "usd": 0.001094,
+ "utc": "2026-07-10T14:05:53.935198+00:00"
+}

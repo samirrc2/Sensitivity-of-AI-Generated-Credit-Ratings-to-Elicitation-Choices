@@ -1,0 +1,45 @@
+{
+ "spec_id": "S05",
+ "item_id": "C020",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-02-17, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-02-17):\nFiscal period 2025 Q4 (filed 2026-02-17). Revenue 36,381M, gross margin 80%, operating income 5,004M (operating margin 14%), net income 2,342M, diluted EPS 0.55. Total assets 404,258M, total liabilities 298,517M, shareholders' equity 104,460M. Current assets 56,922M vs current liabilities 62,370M (current ratio 0.91), retained earnings 94,744M.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The company exhibits massive scale with over $36 billion in quarterly revenue, an exceptional gross margin of 80%, and a highly profitable operating income of over $5 billion, alongside a very substantial asset base of over $404 billion and positive equity of over $104 billion. While its massive operating cash generation and profitability support an investment-grade profile, its current ratio of 0.91 (current assets of $56.9B vs current liabilities of $62.4B) and a moderately high leverage ratio (total liabilities representing approximately 74% of total assets) pose minor short-term liquidity constraints that cap the rating at the upper-medium investment grade. Based on these strong financial fundamentals, high profitability, and massive scale offset by minor liquidity headwinds, the issuer warrants a strong investment-grade rating.\n\nDECISION: A-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 302,
+ "output_tokens": 178,
+ "cost_usd": 0.002055,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:04:51.146653+00:00",
+ "mode": "REAL"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B-\", \"confidence\": 4, \"rationale\": \"High leverage, deep accumulated losses, weak interest coverage, and low asset turnover indicate significant credit risk and speculative-grade profile.\"}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 275,
+ "out_tok": 49,
+ "usd": 0.000853,
+ "utc": "2026-07-10T15:10:03.906312+00:00"
+}

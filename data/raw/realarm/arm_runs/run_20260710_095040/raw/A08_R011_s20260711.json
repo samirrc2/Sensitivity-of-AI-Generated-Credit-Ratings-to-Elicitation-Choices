@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "R011",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"High leverage (70% debt-to-assets), negative profitability with operating and net losses, offset by reasonable liquidity (current ratio over 2).\"}\n```",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 268,
+ "out_tok": 55,
+ "usd": 0.000897,
+ "utc": "2026-07-10T14:02:56.311231+00:00"
+}

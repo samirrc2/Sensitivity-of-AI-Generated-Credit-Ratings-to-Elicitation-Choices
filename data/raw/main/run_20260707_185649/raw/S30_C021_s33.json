@@ -1,0 +1,44 @@
+{
+ "spec_id": "S30",
+ "item_id": "C021",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 33,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-04-28, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-04-28):\nFiscal period 2026 Q1 (filed 2026-04-28). Revenue 4,171M, gross margin 70%, operating income 2,002M (operating margin 48%), net income 1,395M, diluted EPS 4.69. Total assets 60,792M, total liabilities 24,587M, shareholders' equity 31,173M. Current assets 6,320M vs current liabilities 9,335M (current ratio 0.68), retained earnings 24,804M.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The company exhibits exceptional profitability (48% operating margin, ~33% net margin) and a robust equity base (leverage ~0.79\u00d7), which more than offset the sub-1.0 current ratio for a large, cash-generative firm. These metrics align with upper-investment-grade credits that routinely access capital markets even with temporarily compressed liquidity. Therefore the issuer is assigned A+.\nDECISION: A+",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 380,
+ "output_tokens": 85,
+ "cost_usd": 0.000688,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:37:35.126814+00:00",
+ "mode": "REAL"
+}

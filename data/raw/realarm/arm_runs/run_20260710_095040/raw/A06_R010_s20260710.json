@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R010",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "To determine the appropriate credit rating, we analyze the issuer's key financial metrics:\n*   **Leverage and Solvency:** The leverage ratio is high, with total liabilities of 17,381M against total assets of 21,779M (a liabilities-to-assets ratio of approximately 79.8%) and equity of 3,328M (Debt/Equity equivalent of over 5x).\n*   **Profitability:** The issuer is solidly profitable, generating a net income of 403M on revenue of 2,106M (an impressive net profit margin of 19.1%), and boasts strong accumulated profitability with retained earnings of 4,176M.\n*   **Scale:** With over 21B in assets and 2B in revenue, the issuer is large, indicating stable operations, but the highly leveraged balance sheet restricts its rating to the lower end of investment grade.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 193,
+ "out_tok": 210,
+ "usd": 0.00218,
+ "utc": "2026-07-10T14:01:33.951437+00:00"
+}

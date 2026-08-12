@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Extremely weak liquidity with a current ratio of 0.34, massive debt leverage, and nominal EBIT relative to massive liabilities.\"}\n```",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 292,
+ "out_tok": 50,
+ "usd": 0.000888,
+ "utc": "2026-07-10T15:01:55.662317+00:00"
+}

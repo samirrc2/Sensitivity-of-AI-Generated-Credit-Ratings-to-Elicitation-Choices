@@ -1,0 +1,7 @@
+pair_type,mean_capital_error_correlation,n_pairs,note
+same_vendor_mean,0.068,2439,within-vendor spec pairs
+diff_vendor_mean,-0.048,4464,cross-vendor spec pairs
+gap_same_minus_diff,0.116,,systemic (non-diversifiable) component
+same_vendor_google,0.060,,within-google correlation
+same_vendor_openai,0.058,,within-openai correlation
+same_vendor_xai,0.137,,within-xai correlation

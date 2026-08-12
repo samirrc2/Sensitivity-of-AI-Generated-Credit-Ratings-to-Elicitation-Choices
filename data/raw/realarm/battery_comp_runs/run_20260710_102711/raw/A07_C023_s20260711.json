@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C023",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows weak liquidity (current ratio 1.04) and high leverage (total liabilities of 111,269M versus total assets of 130,169M, leaving equity of only 18,677M). However, operating performance is relatively solid with EBIT of 2,359M on revenue of 12,717M (~18.5% margin), suggesting earnings capacity to support obligations despite leverage.  \nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 238,
+ "usd": 0.000344,
+ "utc": "2026-07-10T14:52:08.857265+00:00"
+}

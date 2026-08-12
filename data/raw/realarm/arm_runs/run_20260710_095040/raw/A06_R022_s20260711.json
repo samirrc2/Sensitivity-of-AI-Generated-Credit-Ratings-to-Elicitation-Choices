@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R022",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows a solid market position with substantial revenue of $9,106M and positive profitability (operating income of $1,310M and net income of $242M). However, its balance sheet leverage is moderately high (total liabilities of $7,336M against equity of $5,450M) and its short-term liquidity is relatively tight, as indicated by a current ratio of 1.14. These characteristics reflect an investment-grade profile with some moderate credit risks, typical of a mid-to-high triple-B rating.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 241,
+ "out_tok": 128,
+ "usd": 0.001514,
+ "utc": "2026-07-10T14:15:07.625533+00:00"
+}

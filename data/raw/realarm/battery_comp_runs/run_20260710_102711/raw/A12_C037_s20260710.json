@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B-\", \"confidence\": 4, \"rationale\": \"High leverage (Debt/Equity ~1x), deeply negative retained earnings, thin interest coverage (EBIT 283M vs 23.5B liabilities), and low asset turnover signal high default risk.\"}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 275,
+ "out_tok": 68,
+ "usd": 0.001025,
+ "utc": "2026-07-10T15:10:02.571457+00:00"
+}

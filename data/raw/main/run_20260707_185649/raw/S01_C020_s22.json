@@ -1,0 +1,45 @@
+{
+ "spec_id": "S01",
+ "item_id": "C020",
+ "seed": 22,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 22,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-02-17. Act as a credit rating analyst.\n| Current ratio           | 0.91 |\n| Retained earnings       | 94,744M |\n| Current liabilities     | 62,370M |\n| Current assets          | 56,922M |\n| Shareholders' equity    | 104,460M |\n| Total liabilities       | 298,517M |\n| Total assets            | 404,258M |\n| EBIT / operating income | 5,004M |\n| Revenue                 | 36,381M |\nBased only on the above and knowledge predating 2026-02-17, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The company exhibits a weak current ratio of 0.91, indicating potential short-term liquidity challenges. While total assets exceed total liabilities, the substantial leverage (Total Liabilities / Shareholders' Equity = 298,517M / 104,460M = 2.86) and relatively low EBIT compared to revenue suggest modest profitability and elevated financial risk. These factors collectively point to a speculative-grade rating.\n\nDECISION: BB",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 287,
+ "output_tokens": 97,
+ "cost_usd": 0.000329,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T22:57:02.675714+00:00",
+ "mode": "REAL"
+}

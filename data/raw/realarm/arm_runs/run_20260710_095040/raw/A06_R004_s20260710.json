@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R004",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer displays solid profitability with a 17% operating margin and $414 million in net income, alongside strong short-term liquidity indicated by a current ratio of 2.19. However, the capital structure is moderately leveraged (total liabilities to equity ratio of approximately 2.06) and carries negative retained earnings of -$1,086 million, indicating historical losses or significant restructuring. These mixed factors\u2014robust current earnings balanced against accumulated deficit and leverage\u2014align with an upper-medium grade investment rating.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 238,
+ "out_tok": 114,
+ "usd": 0.001383,
+ "utc": "2026-07-10T13:54:40.149258+00:00"
+}

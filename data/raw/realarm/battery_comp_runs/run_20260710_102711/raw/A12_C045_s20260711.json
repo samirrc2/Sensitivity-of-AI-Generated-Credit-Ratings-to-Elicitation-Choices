@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 4, \"rationale\": \"Weak current ratio (0.53) and high leverage (total debt/equity), but positive EBIT and substantial retained earnings support a BB speculative-grade rating.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 280,
+ "out_tok": 56,
+ "usd": 0.000924,
+ "utc": "2026-07-10T15:19:57.925748+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows only neutral liquidity (current ratio ~1.00) and significant accumulated losses (retained earnings of -6,947M), which weakens credit resilience. However, profitability is relatively solid (EBIT 283M on revenue 1,635M) and leverage is not extreme given shareholders\u2019 equity of 23,369M versus total liabilities of 23,463M, supporting a sub-investment-grade but not highly distressed rating.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 231,
+ "out_tok": 241,
+ "usd": 0.000347,
+ "utc": "2026-07-10T15:09:36.370420+00:00"
+}

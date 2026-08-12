@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The firm shows adequate short-term liquidity with a current ratio of 1.55, and strong operating profitability (EBIT of 8,386M on revenue of 17,601M). However, the capital structure is leveraged (total liabilities of 91,085M vs. equity of 23,793M), which limits credit resilience despite retained earnings being substantial.  \n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 242,
+ "out_tok": 235,
+ "usd": 0.000342,
+ "utc": "2026-07-10T14:32:34.617090+00:00"
+}

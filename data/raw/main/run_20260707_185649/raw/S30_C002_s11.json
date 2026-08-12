@@ -1,0 +1,44 @@
+{
+ "spec_id": "S30",
+ "item_id": "C002",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-05-08, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-05-08):\nFiscal period 2026 Q1 (filed 2026-05-08). Revenue 7,300M, gross margin 89%, operating income 3,188M (operating margin 44%), net income 2,479M, diluted EPS 1.37. Total assets 493,319M, total liabilities 444,085M, shareholders' equity 49,234M. Current assets 186,246M vs current liabilities 15,003M (current ratio 12.41), retained earnings 45,912M.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The issuer shows exceptional profitability (44% operating margin, 89% gross margin) and liquidity (current ratio >12x with minimal short-term obligations), supported by positive retained earnings and scale. However, high overall leverage (equity ~10% of assets) caps the rating below the highest tiers.\n\nDECISION: AA-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 380,
+ "output_tokens": 66,
+ "cost_usd": 0.00064,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:37:16.078362+00:00",
+ "mode": "REAL"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B-\", \"confidence\": 4, \"rationale\": \"High leverage (71% debt/assets), zero retained earnings, and very low interest coverage (EBIT is only 1.7% of total liabilities) suggest high default risk.\"}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 273,
+ "out_tok": 62,
+ "usd": 0.000968,
+ "utc": "2026-07-10T14:55:24.563099+00:00"
+}

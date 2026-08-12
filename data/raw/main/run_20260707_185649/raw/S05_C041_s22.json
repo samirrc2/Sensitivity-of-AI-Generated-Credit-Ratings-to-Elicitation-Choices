@@ -1,0 +1,45 @@
+{
+ "spec_id": "S05",
+ "item_id": "C041",
+ "seed": 22,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 22,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2025-10-28, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2025-10-28):\nFiscal period 2025 Q3 (filed 2025-10-28). Revenue 7,966M, gross margin 66%, operating income 2,527M (operating margin 32%), net income 2,438M, diluted EPS 1.18. Total assets 204,354M, total liabilities 139,758M, shareholders' equity 54,181M. Current assets 12,671M vs current liabilities 22,911M (current ratio 0.55), retained earnings 34,747M.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The issuer demonstrates very strong profitability (gross margin of 66% and operating margin of 32%) and a massive asset base of over $204 billion, reflecting a highly robust market position. However, there is a notable short-term liquidity headwind, as evidenced by a low current ratio of 0.55 (current assets of $12.67B versus current liabilities of $22.91B), and a relatively leveraged balance sheet with total liabilities of $139.76B against equity of $54.18B. This combination of exceptional earnings capacity and franchise strength, tempered by aggressive short-term funding structures, is consistent with a strong investment-grade profile in the single-A category.\n\nDECISION: A-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 300,
+ "output_tokens": 161,
+ "cost_usd": 0.001899,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:05:03.425576+00:00",
+ "mode": "REAL"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R027",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 4, \"rationale\": \"Strong liquidity and asset coverage are offset by high leverage (59% Debt/Assets) and very weak profitability (0.8% Net Margin, 0.5% ROA).\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 269,
+ "out_tok": 61,
+ "usd": 0.000953,
+ "utc": "2026-07-10T14:21:23.720140+00:00"
+}

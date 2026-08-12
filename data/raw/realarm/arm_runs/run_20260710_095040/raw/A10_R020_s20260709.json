@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R020",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the company exhibits a solid operating profile with a strong 18% operating margin and profitability, alongside moderate leverage as indicated by an equity-to-assets ratio of approximately 32.4%. However, the credit profile is constrained by a weak liquidity position, evidenced by a current ratio of 0.83 (current liabilities exceeding current assets by $226M), which introduces short-term refinancing risks and prevents an upper-medium grade rating. Balancing the robust operating profitability against the tight short-term liquidity and moderate leverage suggests a solid investment-grade rating at the lower end of the BBB category.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 241,
+ "out_tok": 137,
+ "usd": 0.001594,
+ "utc": "2026-07-10T14:13:08.510699+00:00"
+}

@@ -1,0 +1,45 @@
+{
+ "spec_id": "S11",
+ "item_id": "C042",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 11,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-04-28, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-04-28):\nFiscal period 2026 Q2 (filed 2026-04-28). Revenue 9,532M, gross margin 20%, operating income 777M (operating margin 8%), net income 511M, diluted EPS 0.45. Total assets 30,558M, total liabilities 39,015M, shareholders' equity -8,465M. Current assets 10,559M vs current liabilities 11,449M (current ratio 0.92), retained earnings -8,881M.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "```json\n{\n  \"decision\": \"B-\",\n  \"confidence\": 4,\n  \"rationale\": \"Negative equity (-8.5B), negative retained earnings, and weak liquidity (current ratio 0.92) outweigh solid quarterly profitability, indicating high credit risk.\"\n}\n```",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 300,
+ "output_tokens": 66,
+ "cost_usd": 0.001044,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:10:54.835878+00:00",
+ "mode": "REAL"
+}

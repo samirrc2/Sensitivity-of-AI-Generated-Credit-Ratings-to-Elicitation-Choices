@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R003",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows relatively solid operating profitability (EBIT of 263M on 1,207M revenue) but has weak near-term liquidity with current assets of 564M covering only 72% of current liabilities (783M). Leverage is high, with total liabilities of 4,392M exceeding shareholders\u2019 equity of 1,381M (~3.2x), increasing refinancing and stress-risk.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 285,
+ "usd": 0.000403,
+ "utc": "2026-07-10T13:54:02.025175+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R017",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's financial profile reveals solid profitability with a 23% operating margin ($336M operating income on $1.45B revenue) and positive net income of $183M, demonstrating operational stability. However, the balance sheet carries a relatively high leverage profile with total liabilities of $4.41B against shareholders' equity of $2.39B (debt-to-equity of approximately 1.84), coupled with a tight liquidity position indicated by a current ratio of 1.35. This combination of healthy operating profitability but moderately leveraged capital structure and moderate liquidity aligns with an investment-grade rating in the BBB category.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 239,
+ "out_tok": 146,
+ "usd": 0.001672,
+ "utc": "2026-07-10T14:09:00.212576+00:00"
+}

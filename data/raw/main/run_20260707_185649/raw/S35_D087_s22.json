@@ -1,0 +1,44 @@
+{
+ "spec_id": "S35",
+ "item_id": "D087",
+ "seed": 22,
+ "family": "directional",
+ "provider": "openai",
+ "version": "current",
+ "model": "gpt-5.4-nano",
+ "benchmark_label": "SELL",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "2",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 22,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a equity research analyst. Using only the information below and general knowledge predating 2026-02-19, give a 20-trading-day directional recommendation for the stock.\nValid answers (choose exactly one): BUY, HOLD, SELL.\nHere are two worked examples:\n- Information: Price action as of 2026-03-19: 1w +4.1%, 1m -5.5%, 3m -1.3%. Last close 109.85. 21d annualized realized volatility 35%. Position in trailing 63-day range: 24% (0%=low, 100%=high).\n  Answer: BUY\n- Information: Price action as of 2026-04-02: 1w -4.8%, 1m -8.3%, 3m -0.8%. Last close 201.40. 21d annualized realized volatility 23%. Position in trailing 63-day range: 46% (0%=low, 100%=high).\n  Answer: SELL\n\nCompany information (as of 2026-02-19):\n| Return 3m            | +5.7% |\n| Return 1m            | +0.9% |\n| Return 1w            | -3.1% |\n| Range position (63d) | 79% |\n| 21d realized vol     | 20% |\n| Last close           | 378.58 |\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock has been up over the medium term (3m +5.7%, 1m +0.9%) but has recently turned down over the past week (-3.1%). With the price positioned near the upper end of its 63-day range (79%) and moderate realized volatility (20%), the risk/reward over the next ~20 trading days favors a pullback rather than further upside momentum.  \n\nDECISION: SELL",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 340,
+ "output_tokens": 198,
+ "cost_usd": 0.000316,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:46:13.950825+00:00",
+ "mode": "REAL"
+}

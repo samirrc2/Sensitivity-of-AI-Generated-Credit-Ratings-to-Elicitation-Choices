@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided Q1 2026 financial data, the company exhibits an exceptionally strong credit profile, characterized by a massive balance sheet (total assets of $113.3 billion), substantial equity ($51.9 billion), and highly robust profitability with an operating margin of 17% and net income of $1.65 billion. Its liquidity is solid with a current ratio of 1.53, and a deep buffer of $60.6 billion in retained earnings indicates long-term cumulative profitability and financial resilience. This combination of massive scale, strong capitalization, and high profitability is consistent with a high-quality, investment-grade profile.\n\nDECISION: AA",
+ "parsed_letter": "AA",
+ "parsed_band": "SAFE",
+ "in_tok": 289,
+ "out_tok": 143,
+ "usd": 0.00172,
+ "utc": "2026-07-10T14:41:16.540246+00:00"
+}

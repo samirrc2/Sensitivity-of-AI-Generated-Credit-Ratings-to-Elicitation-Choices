@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits exceptionally strong credit fundamentals, characterized by a massive equity base of $414.4 billion, strong short-term liquidity with a current ratio of 1.28, and outstanding profitability with an operating margin of 46% and quarterly net income of $31.8 billion. Given its colossal scale (assets of $694.2 billion), conservative leverage, and high profit margins, the issuer possesses an extremely strong capacity to meet its financial commitments, justifying the highest credit rating.\n\nDECISION: AAA",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "in_tok": 288,
+ "out_tok": 110,
+ "usd": 0.001422,
+ "utc": "2026-07-10T14:39:47.743888+00:00"
+}

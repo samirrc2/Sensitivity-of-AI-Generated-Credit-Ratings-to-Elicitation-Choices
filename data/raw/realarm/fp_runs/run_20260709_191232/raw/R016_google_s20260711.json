@@ -1,0 +1,12 @@
+{
+ "item_id": "R016",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "ok": true,
+ "raw_response": "GUESS: Jones Lang LaSalle (JLL)",
+ "in_tok": 191,
+ "out_tok": 10,
+ "usd": 0.000377,
+ "utc": "2026-07-09T23:17:59.124786+00:00"
+}

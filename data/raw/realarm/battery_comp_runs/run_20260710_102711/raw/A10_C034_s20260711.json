@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits strong operating profitability with an operating margin of 41% ($1,307M on $3,198M in revenue) and a net profit of $734M, yet its balance sheet carries significant structural risks. It suffers from a highly constrained liquidity profile with a current ratio of 0.53 ($3,244M in current assets against $6,106M in current liabilities), highly leveraged capitalization (total liabilities of $43,578M against equity of $12,807M), and a deeply negative retained earnings balance of -$12,237M indicating historical distress or aggressive capital restructuring. Consequently, while current operations are highly profitable, the substantial near-term refinancing risks and leveraged balance sheet limit the creditworthiness to non-investment grade.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 282,
+ "out_tok": 180,
+ "usd": 0.002043,
+ "utc": "2026-07-10T15:06:25.690272+00:00"
+}

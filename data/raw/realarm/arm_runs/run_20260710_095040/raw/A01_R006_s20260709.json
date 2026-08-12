@@ -1,0 +1,19 @@
+{
+ "spec_id": "A01",
+ "item_id": "R006",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":2,\"rationale\":\"Operating and net losses, weak liquidity (current ratio 1.21), but solid equity cushion and moderate leverage limit downside risk.\"}",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 229,
+ "out_tok": 185,
+ "usd": 0.000277,
+ "utc": "2026-07-10T13:56:28.413232+00:00"
+}

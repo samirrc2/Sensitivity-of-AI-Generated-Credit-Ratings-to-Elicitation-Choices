@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage (Total Debt/Equity ratio over 4.5), negative retained earnings, and low profitability (EBIT/Assets ~2.6%) suggest speculative-grade, likely mid-BB.\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 271,
+ "out_tok": 72,
+ "usd": 0.001054,
+ "utc": "2026-07-10T14:19:06.832542+00:00"
+}

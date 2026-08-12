@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R023",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "**Credit Analysis:**\n\nThe issuer exhibits an exceptionally strong balance sheet with high liquidity (current ratio of 3.83x) and a very low leverage profile (total liabilities representing only 21.5% of total assets). The business model is highly profitable with an outstanding 94% gross margin and positive operating and net income, though the significantly negative retained earnings (-$1,564M) indicate substantial historical losses or aggressive recapitalizations that constrain the rating from the highest investment-grade categories. Balancing the robust current financial health and profitability against the accumulated deficit and moderate absolute operating income scale ($90M), the issuer warrants a solid investment-grade rating.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 237,
+ "out_tok": 145,
+ "usd": 0.00166,
+ "utc": "2026-07-10T14:16:36.622008+00:00"
+}

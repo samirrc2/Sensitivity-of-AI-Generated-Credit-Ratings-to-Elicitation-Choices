@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R029",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's financial profile reveals a moderate operating margin of 9% and a current ratio of 1.30, indicating adequate but tight short-term liquidity. However, there is a severe balance sheet discrepancy, as total assets ($11,798M) do not equal the sum of total liabilities ($11M) and shareholders' equity ($3,342M), leaving an unexplained gap of over $8.4 billion that suggests significant accounting anomalies or reporting risks. Furthermore, a total liability figure of just $11M alongside current liabilities of $2,248M is mathematically impossible and represents a critical reporting error, warranting a highly speculative non-investment grade rating due to extreme information risk.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 243,
+ "out_tok": 160,
+ "usd": 0.001805,
+ "utc": "2026-07-10T14:23:39.953973+00:00"
+}

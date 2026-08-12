@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R003",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage (Total Debt/Equity of 3.2x), weak liquidity (Current Ratio 0.72x), and modest profitability (ROA 1.8%) indicate speculative-grade creditworthiness.\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 266,
+ "out_tok": 75,
+ "usd": 0.001074,
+ "utc": "2026-07-10T13:54:05.367004+00:00"
+}

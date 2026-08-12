@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R009",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BBB+\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong solvency (equity/assets 48%) and solid profitability (EBIT margin 33%, ROA 10.5%) are offset by a weak current ratio of 0.79.\"\n}\n```",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 275,
+ "out_tok": 74,
+ "usd": 0.001079,
+ "utc": "2026-07-10T14:01:00.389182+00:00"
+}

@@ -1,0 +1,45 @@
+{
+ "spec_id": "S14",
+ "item_id": "C016",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2026-04-16; do not use later information.\nProvided information:\nFiscal period 2026 Q1 (filed 2026-04-16). Revenue 19,443M, gross margin 55%, operating income 3,213M (operating margin 17%), net income 2,338M, diluted EPS 1.7. Total assets 110,646M, total liabilities 89,110M, shareholders' equity 21,383M. Current assets 30,916M vs current liabilities 34,477M (current ratio 0.90), retained earnings 73,165M.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The issuer shows a strong financial profile characterized by high profitability (operating income of 3,213M on 19,443M in quarterly revenue, yielding a 17% operating margin) and substantial retained earnings of 73,165M. However, its capital structure is moderately leveraged, with total liabilities of 89,110M against total assets of 110,646M, and liquidity is somewhat tight with a current ratio of 0.90 (current assets of 30,916M versus current liabilities of 34,477M). These robust earnings combined with moderate leverage and slightly constrained short-term liquidity align with an upper-medium grade investment-grade rating.\n\nDECISION: A-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 286,
+ "output_tokens": 165,
+ "cost_usd": 0.001914,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:12:56.497769+00:00",
+ "mode": "REAL"
+}

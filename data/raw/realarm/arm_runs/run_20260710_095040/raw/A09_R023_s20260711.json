@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "R023",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A-\",\"confidence\":3,\"rationale\":\"Strong liquidity (current ratio 3.83) and low leverage (liabilities/assets ~0.22) with solid operating margin, but negative retained earnings signals earnings volatility/offsets.\"}",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 228,
+ "out_tok": 203,
+ "usd": 0.000299,
+ "utc": "2026-07-10T14:16:34.901606+00:00"
+}

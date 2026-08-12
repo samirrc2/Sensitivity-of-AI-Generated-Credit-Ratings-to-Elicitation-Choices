@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C007",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows decent profitability with EBIT of 7,096M on revenue of 23,993M (strong operating margin), and a solid equity cushion (shareholders\u2019 equity of 79,277M vs. total assets of 192,816M). However, liquidity is thin with a current ratio of only 1.07 and liabilities are meaningfully sized relative to assets, limiting resilience in a downturn.  \nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 233,
+ "out_tok": 244,
+ "usd": 0.000352,
+ "utc": "2026-07-10T14:34:14.790578+00:00"
+}

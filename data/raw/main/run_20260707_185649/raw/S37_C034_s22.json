@@ -1,0 +1,44 @@
+{
+ "spec_id": "S37",
+ "item_id": "C034",
+ "seed": 22,
+ "family": "credit_health",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 22,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-02-24. Act as a credit rating analyst.\n| Current ratio           | 0.53 |\n| Retained earnings       | -12,237M |\n| Current liabilities     | 6,106M |\n| Current assets          | 3,244M |\n| Shareholders' equity    | 12,807M |\n| Total liabilities       | 43,578M |\n| Total assets            | 58,573M |\n| EBIT / operating income | 1,307M |\n| Revenue                 | 3,198M |\nBased only on the above and knowledge predating 2026-02-24, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Weak liquidity (CR 0.53), negative RE, high leverage offset by positive equity/EBIT.\"}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 376,
+ "output_tokens": 39,
+ "cost_usd": 0.000567,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:48:40.217879+00:00",
+ "mode": "REAL"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R002",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the company exhibits extremely weak profitability with an operating margin of virtually 0% ($7M on $9,292M revenue) and a substantial net loss of -$139M, indicating severe operational inefficiency despite its large scale. While the company maintains a marginally adequate liquidity profile (current ratio of 1.21) and positive shareholders' equity, its high leverage (total liabilities of $7,476M against $2,520M in equity) combined with the lack of earnings to service debt places it at a high speculative-grade risk level. Therefore, the issuer exhibits significant credit weakness but is not yet in immediate default, justifying a highly speculative rating.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 243,
+ "out_tok": 154,
+ "usd": 0.001751,
+ "utc": "2026-07-10T13:52:45.750438+00:00"
+}

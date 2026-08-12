@@ -1,0 +1,19 @@
+{
+ "spec_id": "A01",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":3,\"rationale\":\"Despite strong profitability, high leverage and weak liquidity (current ratio 0.63) plus negative retained earnings indicate elevated credit risk.\"}",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 261,
+ "out_tok": 172,
+ "usd": 0.000267,
+ "utc": "2026-07-10T15:10:05.656080+00:00"
+}

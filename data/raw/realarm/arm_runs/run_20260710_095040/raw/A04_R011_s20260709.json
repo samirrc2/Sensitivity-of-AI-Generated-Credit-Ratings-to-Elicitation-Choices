@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R011",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"High equity and positive working capital are offset by negative net income and negative EBIT, indicating elevated credit risk.\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 275,
+ "out_tok": 52,
+ "usd": 0.00088,
+ "utc": "2026-07-10T14:02:32.512657+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R026",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows high leverage with total liabilities (13,829M) far exceeding shareholders\u2019 equity (3,165M), leaving limited balance-sheet cushion. Liquidity is also weak with a current ratio below 1 (current assets 2,565M vs. current liabilities 2,881M). While profitability is positive (net income 517M and EBIT 710M), the thin margins (net margin ~4%) make the balance-sheet and earnings profile consistent with a lower-investment-grade rating.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 237,
+ "out_tok": 224,
+ "usd": 0.000327,
+ "utc": "2026-07-10T14:19:22.031052+00:00"
+}

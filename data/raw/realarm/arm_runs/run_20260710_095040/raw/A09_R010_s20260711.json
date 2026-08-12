@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "R010",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB+\",\"confidence\":3,\"rationale\":\"~19% net margin supports earnings, but leverage is high (liabilities/assets ~80%) and equity is thin, limiting balance-sheet resilience.\"}",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 197,
+ "out_tok": 160,
+ "usd": 0.000239,
+ "utc": "2026-07-10T14:01:55.353514+00:00"
+}

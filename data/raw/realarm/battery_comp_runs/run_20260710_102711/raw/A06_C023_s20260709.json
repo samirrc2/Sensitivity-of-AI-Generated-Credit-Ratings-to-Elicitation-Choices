@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C023",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates strong operating profitability with $2,359 million in operating income (19% operating margin) and a robust retained earnings base of $87,663 million. However, the balance sheet is highly leveraged with total liabilities of $111,269 million against shareholders' equity of $18,677 million (debt-to-equity ratio of nearly 6.0x), and liquidity is tight as indicated by a current ratio of 1.04. This combination of strong operating performance but highly leveraged capital structure aligns with a low investment-grade profile.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 282,
+ "out_tok": 132,
+ "usd": 0.001611,
+ "utc": "2026-07-10T14:51:57.370678+00:00"
+}

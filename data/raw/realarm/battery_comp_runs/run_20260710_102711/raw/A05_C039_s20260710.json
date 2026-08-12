@@ -1,0 +1,19 @@
+{
+ "spec_id": "A05",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":2,\"rationale\":\"High leverage (equity ~6.9%) and weak liquidity (current ratio 0.83) offset solid profitability (net margin ~15%) and retained earnings.\"}",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 264,
+ "out_tok": 168,
+ "usd": 0.000263,
+ "utc": "2026-07-10T15:11:55.765720+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R004",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the issuer demonstrates a solid operating performance with a 17% operating margin and a strong liquidity position, highlighted by a current ratio of 2.19. However, the company's capital structure is moderately leveraged (Total Liabilities/Equity of 2.06x), and the significantly negative retained earnings (-1,086M) indicate a history of accumulated losses or aggressive capital restructuring, which constrains it to the non-investment grade category. A rating of BB+ reflects this balance of strong current profitability and liquidity against long-term solvency risks and historical deficit.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 246,
+ "out_tok": 131,
+ "usd": 0.001548,
+ "utc": "2026-07-10T13:55:01.243431+00:00"
+}

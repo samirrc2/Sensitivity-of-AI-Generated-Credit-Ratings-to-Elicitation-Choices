@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C030",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BBB-\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong liquidity (current ratio 2.29) and solid equity cushion, but profitability is weak (EBIT margin 14.4%, ROA 1.4%) with high total leverage.\"\n}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 276,
+ "out_tok": 74,
+ "usd": 0.00108,
+ "utc": "2026-07-10T15:01:08.731379+00:00"
+}

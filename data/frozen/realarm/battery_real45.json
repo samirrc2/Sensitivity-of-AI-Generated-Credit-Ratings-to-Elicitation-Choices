@@ -1,0 +1,1576 @@
+{
+ "n": 31,
+ "decontamination": "B2B brand-salience screen + per-issuer LogUniform(0.6,1.7) figure perturbation (ratios preserved)",
+ "note": "Zero identifying strings; opaque shuffled IDs; safe for model prompts.",
+ "items": [
+  {
+   "item_id": "R001",
+   "family": "credit_health_realfirm",
+   "facts_text": "Revenue 2,899M, gross margin 57%, operating income 454M (operating margin 16%), net income 350M. Total assets 3,807M, total liabilities 2,198M, shareholders' equity 1,609M. Current assets 1,888M vs current liabilities 1,010M (current ratio 1.87), retained earnings 1,539M.",
+   "facts_kv": [
+    [
+     "Revenue",
+     "2,899M"
+    ],
+    [
+     "EBIT / operating income",
+     "454M"
+    ],
+    [
+     "Net income",
+     "350M"
+    ],
+    [
+     "Total assets",
+     "3,807M"
+    ],
+    [
+     "Total liabilities",
+     "2,198M"
+    ],
+    [
+     "Shareholders' equity",
+     "1,609M"
+    ],
+    [
+     "Current assets",
+     "1,888M"
+    ],
+    [
+     "Current liabilities",
+     "1,010M"
+    ],
+    [
+     "Retained earnings",
+     "1,539M"
+    ]
+   ],
+   "benchmark_label": "SAFE",
+   "label_space": [
+    "SAFE",
+    "WATCH",
+    "DISTRESS"
+   ],
+   "abstain_label": null,
+   "gt_source": "disclosed_agency_rating"
+  },
+  {
+   "item_id": "R002",
+   "family": "credit_health_realfirm",
+   "facts_text": "Revenue 9,292M, gross margin 7%, operating income 7M (operating margin 0%), net income -139M. Total assets 10,039M, total liabilities 7,476M, shareholders' equity 2,520M. Current assets 2,701M vs current liabilities 2,233M (current ratio 1.21), retained earnings 2,932M.",
+   "facts_kv": [
+    [
+     "Revenue",
+     "9,292M"
+    ],
+    [
+     "EBIT / operating income",
+     "7M"
+    ],
+    [
+     "Net income",
+     "-139M"
+    ],
+    [
+     "Total assets",
+     "10,039M"
+    ],
+    [
+     "Total liabilities",
+     "7,476M"
+    ],
+    [
+     "Shareholders' equity",
+     "2,520M"
+    ],
+    [
+     "Current assets",
+     "2,701M"
+    ],
+    [
+     "Current liabilities",
+     "2,233M"
+    ],
+    [
+     "Retained earnings",
+     "2,932M"
+    ]
+   ],
+   "benchmark_label": "WATCH",
+   "label_space": [
+    "SAFE",
+    "WATCH",
+    "DISTRESS"
+   ],
+   "abstain_label": null,
+   "gt_source": "disclosed_agency_rating"
+  },
+  {
+   "item_id": "R003",
+   "family": "credit_health_realfirm",
+   "facts_text": "Revenue 1,207M, operating income 263M (operating margin 22%), net income 106M. Total assets 5,773M, total liabilities 4,392M, shareholders' equity 1,381M. Current assets 564M vs current liabilities 783M (current ratio 0.72), retained earnings 408M.",
+   "facts_kv": [
+    [
+     "Revenue",
+     "1,207M"
+    ],
+    [
+     "EBIT / operating income",
+     "263M"
+    ],
+    [
+     "Net income",
+     "106M"
+    ],
+    [
+     "Total assets",
+     "5,773M"
+    ],
+    [
+     "Total liabilities",
+     "4,392M"
+    ],
+    [
+     "Shareholders' equity",
+     "1,381M"
+    ],
+    [
+     "Current assets",
+     "564M"
+    ],
+    [
+     "Current liabilities",
+     "783M"
+    ],
+    [
+     "Retained earnings",
+     "408M"
+    ]
+   ],
+   "benchmark_label": "SAFE",
+   "label_space": [
+    "SAFE",
+    "WATCH",
+    "DISTRESS"
+   ],
+   "abstain_label": null,
+   "gt_source": "disclosed_agency_rating"
+  },
+  {
+   "item_id": "R004",
+   "family": "credit_health_realfirm",
+   "facts_text": "Revenue 4,165M, gross margin 25%, operating income 727M (operating margin 17%), net income 414M. Total assets 4,997M, total liabilities 3,366M, shareholders' equity 1,634M. Current assets 3,242M vs current liabilities 1,478M (current ratio 2.19), retained earnings -1,086M.",
+   "facts_kv": [
+    [
+     "Revenue",
+     "4,165M"
+    ],
+    [
+     "EBIT / operating income",
+     "727M"
+    ],
+    [
+     "Net income",
+     "414M"
+    ],
+    [
+     "Total assets",
+     "4,997M"
+    ],
+    [
+     "Total liabilities",
+     "3,366M"
+    ],
+    [
+     "Shareholders' equity",
+     "1,634M"
+    ],
+    [
+     "Current assets",
+     "3,242M"
+    ],
+    [
+     "Current liabilities",
+     "1,478M"
+    ],
+    [
+     "Retained earnings",
+     "-1,086M"
+    ]
+   ],
+   "benchmark_label": "WATCH",
+   "label_space": [
+    "SAFE",
+    "WATCH",
+    "DISTRESS"
+   ],
+   "abstain_label": null,
+   "gt_source": "disclosed_agency_rating"
+  },
+  {
+   "item_id": "R005",
+   "family": "credit_health_realfirm",
+   "facts_text": "Revenue 2,101M, operating income 168M (operating margin 8%), net income 209M. Total assets 6,015M, total liabilities 2,528M, shareholders' equity 3,435M. Current assets 1,742M vs current liabilities 995M (current ratio 1.75), retained earnings 5,941M.",
+   "facts_kv": [
+    [
+     "Revenue",
+     "2,101M"
+    ],
+    [
+     "EBIT / operating income",
+     "168M"
+    ],
+    [
+     "Net income",
+     "209M"
+    ],
+    [
+     "Total assets",
+     "6,015M"
+    ],
+    [
+     "Total liabilities",
+     "2,528M"
+    ],
+    [
+     "Shareholders' equity",
+     "3,435M"
+    ],
+    [
+     "Current assets",
+     "1,742M"
+    ],
+    [
+     "Current liabilities",
+     "995M"
+    ],
+    [
+     "Retained earnings",
+     "5,941M"
+    ]
+   ],
+   "benchmark_label": "WATCH",
+   "label_space": [
+    "SAFE",
+    "WATCH",
+    "DISTRESS"
+   ],
+   "abstain_label": null,
+   "gt_source": "disclosed_agency_rating"
+  },
+  {
+   "item_id": "R006",
+   "family": "credit_health_realfirm",
+   "facts_text": "Revenue 19,522M, operating income -43M (operating margin 0%), net income -126M. Total assets 10,371M, total liabilities 6,030M, shareholders' equity 4,237M. Current assets 3,546M vs current liabilities 2,923M (current ratio 1.21), retained earnings 2,509M.",
+   "facts_kv": [
+    [
+     "Revenue",
+     "19,522M"
+    ],
+    [
+     "EBIT / operating income",
+     "-43M"
+    ],
+    [
+     "Net income",
+     "-126M"
+    ],
+    [
+     "Total assets",
+     "10,371M"
+    ],
+    [
+     "Total liabilities",
+     "6,030M"
+    ],
+    [
+     "Shareholders' equity",
+     "4,237M"
+    ],
+    [
+     "Current assets",
+     "3,546M"
+    ],
+    [
+     "Current liabilities",
+     "2,923M"
+    ],
+    [
+     "Retained earnings",
+     "2,509M"
+    ]
+   ],
+   "benchmark_label": "WATCH",
+   "label_space": [
+    "SAFE",
+    "WATCH",
+    "DISTRESS"
+   ],
+   "abstain_label": null,
+   "gt_source": "disclosed_agency_rating"
+  },
+  {
+   "item_id": "R007",
+   "family": "credit_health_realfirm",
+   "facts_text": "Revenue 5,209M, gross margin 40%, operating income 704M (operating margin 14%), net income 380M. Total assets 10,819M, total liabilities 5,238M, shareholders' equity 5,044M. Current assets 3,754M vs current liabilities 1,113M (current ratio 3.37), retained earnings 2,500M.",
+   "facts_kv": [
+    [
+     "Revenue",
+     "5,209M"
+    ],
+    [
+     "EBIT / operating income",
+     "704M"
+    ],
+    [
+     "Net income",
+     "380M"
+    ],
+    [
+     "Total assets",
+     "10,819M"
+    ],
+    [
+     "Total liabilities",
+     "5,238M"
+    ],
+    [
+     "Shareholders' equity",
+     "5,044M"
+    ],
+    [
+     "Current assets",
+     "3,754M"
+    ],
+    [
+     "Current liabilities",
+     "1,113M"
+    ],
+    [
+     "Retained earnings",
+     "2,500M"
+    ]
+   ],
+   "benchmark_label": "WATCH",
+   "label_space": [
+    "SAFE",
+    "WATCH",
+    "DISTRESS"
+   ],
+   "abstain_label": null,
+   "gt_source": "disclosed_agency_rating"
+  },
+  {
+   "item_id": "R008",
+   "family": "credit_health_realfirm",
+   "facts_text": "Revenue 1,454M, operating income 387M (operating margin 27%), net income 309M. Total assets 4,434M, total liabilities 2,352M, shareholders' equity 2,082M. Current assets 894M vs current liabilities 393M (current ratio 2.28), retained earnings 1,362M.",
+   "facts_kv": [
+    [
+     "Revenue",
+     "1,454M"
+    ],
+    [
+     "EBIT / operating income",
+     "387M"
+    ],
+    [
+     "Net income",
+     "309M"
+    ],
+    [
+     "Total assets",
+     "4,434M"
+    ],
+    [
+     "Total liabilities",
+     "2,352M"
+    ],
+    [
+     "Shareholders' equity",
+     "2,082M"
+    ],
+    [
+     "Current assets",
+     "894M"
+    ],
+    [
+     "Current liabilities",
+     "393M"
+    ],
+    [
+     "Retained earnings",
+     "1,362M"
+    ]
+   ],
+   "benchmark_label": "SAFE",
+   "label_space": [
+    "SAFE",
+    "WATCH",
+    "DISTRESS"
+   ],
+   "abstain_label": null,
+   "gt_source": "disclosed_agency_rating"
+  },
+  {
+   "item_id": "R009",
+   "family": "credit_health_realfirm",
+   "facts_text": "Revenue 4,738M, operating income 1,572M (operating margin 33%), net income 973M. Total assets 15,011M, total liabilities 7,758M, shareholders' equity 7,253M. Current assets 1,047M vs current liabilities 1,322M (current ratio 0.79), retained earnings 4,042M.",
+   "facts_kv": [
+    [
+     "Revenue",
+     "4,738M"
+    ],
+    [
+     "EBIT / operating income",
+     "1,572M"
+    ],
+    [
+     "Net income",
+     "973M"
+    ],
+    [
+     "Total assets",
+     "15,011M"
+    ],
+    [
+     "Total liabilities",
+     "7,758M"
+    ],
+    [
+     "Shareholders' equity",
+     "7,253M"
+    ],
+    [
+     "Current assets",
+     "1,047M"
+    ],
+    [
+     "Current liabilities",
+     "1,322M"
+    ],
+    [
+     "Retained earnings",
+     "4,042M"
+    ]
+   ],
+   "benchmark_label": "WATCH",
+   "label_space": [
+    "SAFE",
+    "WATCH",
+    "DISTRESS"
+   ],
+   "abstain_label": null,
+   "gt_source": "disclosed_agency_rating"
+  },
+  {
+   "item_id": "R010",
+   "family": "credit_health_realfirm",
+   "facts_text": "Revenue 2,106M, net income 403M. Total assets 21,779M, total liabilities 17,381M, shareholders' equity 3,328M. Retained earnings 4,176M.",
+   "facts_kv": [
+    [
+     "Revenue",
+     "2,106M"
+    ],
+    [
+     "Net income",
+     "403M"
+    ],
+    [
+     "Total assets",
+     "21,779M"
+    ],
+    [
+     "Total liabilities",
+     "17,381M"
+    ],
+    [
+     "Shareholders' equity",
+     "3,328M"
+    ],
+    [
+     "Retained earnings",
+     "4,176M"
+    ]
+   ],
+   "benchmark_label": "SAFE",
+   "label_space": [
+    "SAFE",
+    "WATCH",
+    "DISTRESS"
+   ],
+   "abstain_label": null,
+   "gt_source": "disclosed_agency_rating"
+  },
+  {
+   "item_id": "R011",
+   "family": "credit_health_realfirm",
+   "facts_text": "Revenue 10,477M, gross margin 30%, operating income -287M (operating margin -3%), net income -892M. Total assets 18,687M, total liabilities 13,001M, shareholders' equity 5,711M. Current assets 6,403M vs current liabilities 2,767M (current ratio 2.31), retained earnings 12,770M.",
+   "facts_kv": [
+    [
+     "Revenue",
+     "10,477M"
+    ],
+    [
+     "EBIT / operating income",
+     "-287M"
+    ],
+    [
+     "Net income",
+     "-892M"
+    ],
+    [
+     "Total assets",
+     "18,687M"
+    ],
+    [
+     "Total liabilities",
+     "13,001M"
+    ],
+    [
+     "Shareholders' equity",
+     "5,711M"
+    ],
+    [
+     "Current assets",
+     "6,403M"
+    ],
+    [
+     "Current liabilities",
+     "2,767M"
+    ],
+    [
+     "Retained earnings",
+     "12,770M"
+    ]
+   ],
+   "benchmark_label": "SAFE",
+   "label_space": [
+    "SAFE",
+    "WATCH",
+    "DISTRESS"
+   ],
+   "abstain_label": null,
+   "gt_source": "disclosed_agency_rating"
+  },
+  {
+   "item_id": "R012",
+   "family": "credit_health_realfirm",
+   "facts_text": "Revenue 3,617M, gross margin 39%, operating income 474M (operating margin 13%), net income 400M. Total assets 3,845M, total liabilities 1,971M, shareholders' equity 1,863M. Current assets 1,963M vs current liabilities 835M (current ratio 2.35), retained earnings 3,602M.",
+   "facts_kv": [
+    [
+     "Revenue",
+     "3,617M"
+    ],
+    [
+     "EBIT / operating income",
+     "474M"
+    ],
+    [
+     "Net income",
+     "400M"
+    ],
+    [
+     "Total assets",
+     "3,845M"
+    ],
+    [
+     "Total liabilities",
+     "1,971M"
+    ],
+    [
+     "Shareholders' equity",
+     "1,863M"
+    ],
+    [
+     "Current assets",
+     "1,963M"
+    ],
+    [
+     "Current liabilities",
+     "835M"
+    ],
+    [
+     "Retained earnings",
+     "3,602M"
+    ]
+   ],
+   "benchmark_label": "SAFE",
+   "label_space": [
+    "SAFE",
+    "WATCH",
+    "DISTRESS"
+   ],
+   "abstain_label": null,
+   "gt_source": "disclosed_agency_rating"
+  },
+  {
+   "item_id": "R013",
+   "family": "credit_health_realfirm",
+   "facts_text": "Revenue 2,800M, gross margin 6%, operating income 74M (operating margin 3%), net income -23M. Total assets 1,820M, total liabilities 2,149M, shareholders' equity -496M. Current assets 580M vs current liabilities 569M (current ratio 1.02), retained earnings -1,065M.",
+   "facts_kv": [
+    [
+     "Revenue",
+     "2,800M"
+    ],
+    [
+     "EBIT / operating income",
+     "74M"
+    ],
+    [
+     "Net income",
+     "-23M"
+    ],
+    [
+     "Total assets",
+     "1,820M"
+    ],
+    [
+     "Total liabilities",
+     "2,149M"
+    ],
+    [
+     "Shareholders' equity",
+     "-496M"
+    ],
+    [
+     "Current assets",
+     "580M"
+    ],
+    [
+     "Current liabilities",
+     "569M"
+    ],
+    [
+     "Retained earnings",
+     "-1,065M"
+    ]
+   ],
+   "benchmark_label": "DISTRESS",
+   "label_space": [
+    "SAFE",
+    "WATCH",
+    "DISTRESS"
+   ],
+   "abstain_label": null,
+   "gt_source": "disclosed_agency_rating"
+  },
+  {
+   "item_id": "R014",
+   "family": "credit_health_realfirm",
+   "facts_text": "Revenue 3,102M, gross margin 19%, operating income 480M (operating margin 15%), net income 334M. Total assets 4,936M, total liabilities 1,872M, shareholders' equity 3,064M. Current assets 1,566M vs current liabilities 631M (current ratio 2.48), retained earnings 661M.",
+   "facts_kv": [
+    [
+     "Revenue",
+     "3,102M"
+    ],
+    [
+     "EBIT / operating income",
+     "480M"
+    ],
+    [
+     "Net income",
+     "334M"
+    ],
+    [
+     "Total assets",
+     "4,936M"
+    ],
+    [
+     "Total liabilities",
+     "1,872M"
+    ],
+    [
+     "Shareholders' equity",
+     "3,064M"
+    ],
+    [
+     "Current assets",
+     "1,566M"
+    ],
+    [
+     "Current liabilities",
+     "631M"
+    ],
+    [
+     "Retained earnings",
+     "661M"
+    ]
+   ],
+   "benchmark_label": "WATCH",
+   "label_space": [
+    "SAFE",
+    "WATCH",
+    "DISTRESS"
+   ],
+   "abstain_label": null,
+   "gt_source": "disclosed_agency_rating"
+  },
+  {
+   "item_id": "R015",
+   "family": "credit_health_realfirm",
+   "facts_text": "Revenue 2,325M, gross margin 30%, operating income -988M (operating margin -42%), net income 644M. Total assets 5,878M, total liabilities 3,451M, shareholders' equity 2,427M. Current assets 1,536M vs current liabilities 539M (current ratio 2.85), retained earnings 2,930M.",
+   "facts_kv": [
+    [
+     "Revenue",
+     "2,325M"
+    ],
+    [
+     "EBIT / operating income",
+     "-988M"
+    ],
+    [
+     "Net income",
+     "644M"
+    ],
+    [
+     "Total assets",
+     "5,878M"
+    ],
+    [
+     "Total liabilities",
+     "3,451M"
+    ],
+    [
+     "Shareholders' equity",
+     "2,427M"
+    ],
+    [
+     "Current assets",
+     "1,536M"
+    ],
+    [
+     "Current liabilities",
+     "539M"
+    ],
+    [
+     "Retained earnings",
+     "2,930M"
+    ]
+   ],
+   "benchmark_label": "WATCH",
+   "label_space": [
+    "SAFE",
+    "WATCH",
+    "DISTRESS"
+   ],
+   "abstain_label": null,
+   "gt_source": "disclosed_agency_rating"
+  },
+  {
+   "item_id": "R016",
+   "family": "credit_health_realfirm",
+   "facts_text": "Revenue 2,044M, gross margin 19%, operating income -127M (operating margin -6%), net income -214M. Total assets 2,038M, total liabilities 1,114M, shareholders' equity 838M. Current assets 1,131M vs current liabilities 354M (current ratio 3.19), retained earnings 223M.",
+   "facts_kv": [
+    [
+     "Revenue",
+     "2,044M"
+    ],
+    [
+     "EBIT / operating income",
+     "-127M"
+    ],
+    [
+     "Net income",
+     "-214M"
+    ],
+    [
+     "Total assets",
+     "2,038M"
+    ],
+    [
+     "Total liabilities",
+     "1,114M"
+    ],
+    [
+     "Shareholders' equity",
+     "838M"
+    ],
+    [
+     "Current assets",
+     "1,131M"
+    ],
+    [
+     "Current liabilities",
+     "354M"
+    ],
+    [
+     "Retained earnings",
+     "223M"
+    ]
+   ],
+   "benchmark_label": "WATCH",
+   "label_space": [
+    "SAFE",
+    "WATCH",
+    "DISTRESS"
+   ],
+   "abstain_label": null,
+   "gt_source": "disclosed_agency_rating"
+  },
+  {
+   "item_id": "R017",
+   "family": "credit_health_realfirm",
+   "facts_text": "Revenue 1,446M, gross margin 33%, operating income 336M (operating margin 23%), net income 183M. Total assets 6,804M, total liabilities 4,411M, shareholders' equity 2,393M. Current assets 623M vs current liabilities 463M (current ratio 1.35), retained earnings 841M.",
+   "facts_kv": [
+    [
+     "Revenue",
+     "1,446M"
+    ],
+    [
+     "EBIT / operating income",
+     "336M"
+    ],
+    [
+     "Net income",
+     "183M"
+    ],
+    [
+     "Total assets",
+     "6,804M"
+    ],
+    [
+     "Total liabilities",
+     "4,411M"
+    ],
+    [
+     "Shareholders' equity",
+     "2,393M"
+    ],
+    [
+     "Current assets",
+     "623M"
+    ],
+    [
+     "Current liabilities",
+     "463M"
+    ],
+    [
+     "Retained earnings",
+     "841M"
+    ]
+   ],
+   "benchmark_label": "SAFE",
+   "label_space": [
+    "SAFE",
+    "WATCH",
+    "DISTRESS"
+   ],
+   "abstain_label": null,
+   "gt_source": "disclosed_agency_rating"
+  },
+  {
+   "item_id": "R018",
+   "family": "credit_health_realfirm",
+   "facts_text": "Revenue 18,859M, operating income 1,564M (operating margin 8%), net income 1,701M. Total assets 23,706M, total liabilities 14,602M, shareholders' equity 7,580M. Current assets 8,038M vs current liabilities 5,587M (current ratio 1.44), retained earnings -398M.",
+   "facts_kv": [
+    [
+     "Revenue",
+     "18,859M"
+    ],
+    [
+     "EBIT / operating income",
+     "1,564M"
+    ],
+    [
+     "Net income",
+     "1,701M"
+    ],
+    [
+     "Total assets",
+     "23,706M"
+    ],
+    [
+     "Total liabilities",
+     "14,602M"
+    ],
+    [
+     "Shareholders' equity",
+     "7,580M"
+    ],
+    [
+     "Current assets",
+     "8,038M"
+    ],
+    [
+     "Current liabilities",
+     "5,587M"
+    ],
+    [
+     "Retained earnings",
+     "-398M"
+    ]
+   ],
+   "benchmark_label": "WATCH",
+   "label_space": [
+    "SAFE",
+    "WATCH",
+    "DISTRESS"
+   ],
+   "abstain_label": null,
+   "gt_source": "disclosed_agency_rating"
+  },
+  {
+   "item_id": "R019",
+   "family": "credit_health_realfirm",
+   "facts_text": "Revenue 11,006M, gross margin 14%, operating income -459M (operating margin -4%), net income -640M. Total assets 12,240M, total liabilities 11,824M, shareholders' equity 415M. Current assets 4,976M vs current liabilities 2,796M (current ratio 1.78), retained earnings 2,023M.",
+   "facts_kv": [
+    [
+     "Revenue",
+     "11,006M"
+    ],
+    [
+     "EBIT / operating income",
+     "-459M"
+    ],
+    [
+     "Net income",
+     "-640M"
+    ],
+    [
+     "Total assets",
+     "12,240M"
+    ],
+    [
+     "Total liabilities",
+     "11,824M"
+    ],
+    [
+     "Shareholders' equity",
+     "415M"
+    ],
+    [
+     "Current assets",
+     "4,976M"
+    ],
+    [
+     "Current liabilities",
+     "2,796M"
+    ],
+    [
+     "Retained earnings",
+     "2,023M"
+    ]
+   ],
+   "benchmark_label": "WATCH",
+   "label_space": [
+    "SAFE",
+    "WATCH",
+    "DISTRESS"
+   ],
+   "abstain_label": null,
+   "gt_source": "disclosed_agency_rating"
+  },
+  {
+   "item_id": "R020",
+   "family": "credit_health_realfirm",
+   "facts_text": "Revenue 2,981M, operating income 537M (operating margin 18%), net income 293M. Total assets 12,689M, total liabilities 8,577M, shareholders' equity 4,112M. Current assets 1,107M vs current liabilities 1,333M (current ratio 0.83), retained earnings 1,374M.",
+   "facts_kv": [
+    [
+     "Revenue",
+     "2,981M"
+    ],
+    [
+     "EBIT / operating income",
+     "537M"
+    ],
+    [
+     "Net income",
+     "293M"
+    ],
+    [
+     "Total assets",
+     "12,689M"
+    ],
+    [
+     "Total liabilities",
+     "8,577M"
+    ],
+    [
+     "Shareholders' equity",
+     "4,112M"
+    ],
+    [
+     "Current assets",
+     "1,107M"
+    ],
+    [
+     "Current liabilities",
+     "1,333M"
+    ],
+    [
+     "Retained earnings",
+     "1,374M"
+    ]
+   ],
+   "benchmark_label": "SAFE",
+   "label_space": [
+    "SAFE",
+    "WATCH",
+    "DISTRESS"
+   ],
+   "abstain_label": null,
+   "gt_source": "disclosed_agency_rating"
+  },
+  {
+   "item_id": "R021",
+   "family": "credit_health_realfirm",
+   "facts_text": "Revenue 2,083M, gross margin 37%, operating income 152M (operating margin 7%), net income 90M. Total assets 1,923M, total liabilities 1,148M, shareholders' equity 773M. Current assets 526M vs current liabilities 351M (current ratio 1.50), retained earnings 231M.",
+   "facts_kv": [
+    [
+     "Revenue",
+     "2,083M"
+    ],
+    [
+     "EBIT / operating income",
+     "152M"
+    ],
+    [
+     "Net income",
+     "90M"
+    ],
+    [
+     "Total assets",
+     "1,923M"
+    ],
+    [
+     "Total liabilities",
+     "1,148M"
+    ],
+    [
+     "Shareholders' equity",
+     "773M"
+    ],
+    [
+     "Current assets",
+     "526M"
+    ],
+    [
+     "Current liabilities",
+     "351M"
+    ],
+    [
+     "Retained earnings",
+     "231M"
+    ]
+   ],
+   "benchmark_label": "WATCH",
+   "label_space": [
+    "SAFE",
+    "WATCH",
+    "DISTRESS"
+   ],
+   "abstain_label": null,
+   "gt_source": "disclosed_agency_rating"
+  },
+  {
+   "item_id": "R022",
+   "family": "credit_health_realfirm",
+   "facts_text": "Revenue 9,106M, gross margin 28%, operating income 1,310M (operating margin 14%), net income 242M. Total assets 12,786M, total liabilities 7,336M, shareholders' equity 5,450M. Current assets 3,598M vs current liabilities 3,157M (current ratio 1.14), retained earnings 4,962M.",
+   "facts_kv": [
+    [
+     "Revenue",
+     "9,106M"
+    ],
+    [
+     "EBIT / operating income",
+     "1,310M"
+    ],
+    [
+     "Net income",
+     "242M"
+    ],
+    [
+     "Total assets",
+     "12,786M"
+    ],
+    [
+     "Total liabilities",
+     "7,336M"
+    ],
+    [
+     "Shareholders' equity",
+     "5,450M"
+    ],
+    [
+     "Current assets",
+     "3,598M"
+    ],
+    [
+     "Current liabilities",
+     "3,157M"
+    ],
+    [
+     "Retained earnings",
+     "4,962M"
+    ]
+   ],
+   "benchmark_label": "SAFE",
+   "label_space": [
+    "SAFE",
+    "WATCH",
+    "DISTRESS"
+   ],
+   "abstain_label": null,
+   "gt_source": "disclosed_agency_rating"
+  },
+  {
+   "item_id": "R023",
+   "family": "credit_health_realfirm",
+   "facts_text": "Revenue 626M, gross margin 94%, operating income 90M (operating margin 14%), net income 337M. Total assets 1,349M, total liabilities 290M, shareholders' equity 1,058M. Current assets 916M vs current liabilities 239M (current ratio 3.83), retained earnings -1,564M.",
+   "facts_kv": [
+    [
+     "Revenue",
+     "626M"
+    ],
+    [
+     "EBIT / operating income",
+     "90M"
+    ],
+    [
+     "Net income",
+     "337M"
+    ],
+    [
+     "Total assets",
+     "1,349M"
+    ],
+    [
+     "Total liabilities",
+     "290M"
+    ],
+    [
+     "Shareholders' equity",
+     "1,058M"
+    ],
+    [
+     "Current assets",
+     "916M"
+    ],
+    [
+     "Current liabilities",
+     "239M"
+    ],
+    [
+     "Retained earnings",
+     "-1,564M"
+    ]
+   ],
+   "benchmark_label": "SAFE",
+   "label_space": [
+    "SAFE",
+    "WATCH",
+    "DISTRESS"
+   ],
+   "abstain_label": null,
+   "gt_source": "disclosed_agency_rating"
+  },
+  {
+   "item_id": "R024",
+   "family": "credit_health_realfirm",
+   "facts_text": "Revenue 4,076M, gross margin 30%, operating income 552M (operating margin 14%), net income 384M. Total assets 5,333M, total liabilities 4,392M, shareholders' equity 941M. Current assets 1,460M vs current liabilities 1,598M (current ratio 0.91), retained earnings 783M.",
+   "facts_kv": [
+    [
+     "Revenue",
+     "4,076M"
+    ],
+    [
+     "EBIT / operating income",
+     "552M"
+    ],
+    [
+     "Net income",
+     "384M"
+    ],
+    [
+     "Total assets",
+     "5,333M"
+    ],
+    [
+     "Total liabilities",
+     "4,392M"
+    ],
+    [
+     "Shareholders' equity",
+     "941M"
+    ],
+    [
+     "Current assets",
+     "1,460M"
+    ],
+    [
+     "Current liabilities",
+     "1,598M"
+    ],
+    [
+     "Retained earnings",
+     "783M"
+    ]
+   ],
+   "benchmark_label": "WATCH",
+   "label_space": [
+    "SAFE",
+    "WATCH",
+    "DISTRESS"
+   ],
+   "abstain_label": null,
+   "gt_source": "disclosed_agency_rating"
+  },
+  {
+   "item_id": "R025",
+   "family": "credit_health_realfirm",
+   "facts_text": "Revenue 3,467M, operating income 264M (operating margin 8%), net income 142M. Total assets 10,022M, total liabilities 8,218M, shareholders' equity 1,804M. Current assets 2,117M vs current liabilities 1,604M (current ratio 1.32), retained earnings -748M.",
+   "facts_kv": [
+    [
+     "Revenue",
+     "3,467M"
+    ],
+    [
+     "EBIT / operating income",
+     "264M"
+    ],
+    [
+     "Net income",
+     "142M"
+    ],
+    [
+     "Total assets",
+     "10,022M"
+    ],
+    [
+     "Total liabilities",
+     "8,218M"
+    ],
+    [
+     "Shareholders' equity",
+     "1,804M"
+    ],
+    [
+     "Current assets",
+     "2,117M"
+    ],
+    [
+     "Current liabilities",
+     "1,604M"
+    ],
+    [
+     "Retained earnings",
+     "-748M"
+    ]
+   ],
+   "benchmark_label": "WATCH",
+   "label_space": [
+    "SAFE",
+    "WATCH",
+    "DISTRESS"
+   ],
+   "abstain_label": null,
+   "gt_source": "disclosed_agency_rating"
+  },
+  {
+   "item_id": "R026",
+   "family": "credit_health_realfirm",
+   "facts_text": "Revenue 13,134M, operating income 710M (operating margin 5%), net income 517M. Total assets 16,994M, total liabilities 13,829M, shareholders' equity 3,165M. Current assets 2,565M vs current liabilities 2,881M (current ratio 0.89), retained earnings 2,664M.",
+   "facts_kv": [
+    [
+     "Revenue",
+     "13,134M"
+    ],
+    [
+     "EBIT / operating income",
+     "710M"
+    ],
+    [
+     "Net income",
+     "517M"
+    ],
+    [
+     "Total assets",
+     "16,994M"
+    ],
+    [
+     "Total liabilities",
+     "13,829M"
+    ],
+    [
+     "Shareholders' equity",
+     "3,165M"
+    ],
+    [
+     "Current assets",
+     "2,565M"
+    ],
+    [
+     "Current liabilities",
+     "2,881M"
+    ],
+    [
+     "Retained earnings",
+     "2,664M"
+    ]
+   ],
+   "benchmark_label": "SAFE",
+   "label_space": [
+    "SAFE",
+    "WATCH",
+    "DISTRESS"
+   ],
+   "abstain_label": null,
+   "gt_source": "disclosed_agency_rating"
+  },
+  {
+   "item_id": "R027",
+   "family": "credit_health_realfirm",
+   "facts_text": "Revenue 3,801M, operating income 244M (operating margin 6%), net income 32M. Total assets 6,927M, total liabilities 4,069M, shareholders' equity 2,858M. Current assets 2,046M vs current liabilities 795M (current ratio 2.57), retained earnings 2,355M.",
+   "facts_kv": [
+    [
+     "Revenue",
+     "3,801M"
+    ],
+    [
+     "EBIT / operating income",
+     "244M"
+    ],
+    [
+     "Net income",
+     "32M"
+    ],
+    [
+     "Total assets",
+     "6,927M"
+    ],
+    [
+     "Total liabilities",
+     "4,069M"
+    ],
+    [
+     "Shareholders' equity",
+     "2,858M"
+    ],
+    [
+     "Current assets",
+     "2,046M"
+    ],
+    [
+     "Current liabilities",
+     "795M"
+    ],
+    [
+     "Retained earnings",
+     "2,355M"
+    ]
+   ],
+   "benchmark_label": "WATCH",
+   "label_space": [
+    "SAFE",
+    "WATCH",
+    "DISTRESS"
+   ],
+   "abstain_label": null,
+   "gt_source": "disclosed_agency_rating"
+  },
+  {
+   "item_id": "R028",
+   "family": "credit_health_realfirm",
+   "facts_text": "Revenue 6,178M, operating income 539M (operating margin 9%), net income 500M. Total assets 11,857M, total liabilities 7,354M, shareholders' equity 4,503M. Current assets 1,355M vs current liabilities 1,057M (current ratio 1.28), retained earnings 1,163M.",
+   "facts_kv": [
+    [
+     "Revenue",
+     "6,178M"
+    ],
+    [
+     "EBIT / operating income",
+     "539M"
+    ],
+    [
+     "Net income",
+     "500M"
+    ],
+    [
+     "Total assets",
+     "11,857M"
+    ],
+    [
+     "Total liabilities",
+     "7,354M"
+    ],
+    [
+     "Shareholders' equity",
+     "4,503M"
+    ],
+    [
+     "Current assets",
+     "1,355M"
+    ],
+    [
+     "Current liabilities",
+     "1,057M"
+    ],
+    [
+     "Retained earnings",
+     "1,163M"
+    ]
+   ],
+   "benchmark_label": "SAFE",
+   "label_space": [
+    "SAFE",
+    "WATCH",
+    "DISTRESS"
+   ],
+   "abstain_label": null,
+   "gt_source": "disclosed_agency_rating"
+  },
+  {
+   "item_id": "R029",
+   "family": "credit_health_realfirm",
+   "facts_text": "Revenue 8,634M, gross margin 13%, operating income 806M (operating margin 9%), net income 445M. Total assets 11,798M, total liabilities 11M, shareholders' equity 3,342M. Current assets 2,929M vs current liabilities 2,248M (current ratio 1.30), retained earnings 1,617M.",
+   "facts_kv": [
+    [
+     "Revenue",
+     "8,634M"
+    ],
+    [
+     "EBIT / operating income",
+     "806M"
+    ],
+    [
+     "Net income",
+     "445M"
+    ],
+    [
+     "Total assets",
+     "11,798M"
+    ],
+    [
+     "Total liabilities",
+     "11M"
+    ],
+    [
+     "Shareholders' equity",
+     "3,342M"
+    ],
+    [
+     "Current assets",
+     "2,929M"
+    ],
+    [
+     "Current liabilities",
+     "2,248M"
+    ],
+    [
+     "Retained earnings",
+     "1,617M"
+    ]
+   ],
+   "benchmark_label": "WATCH",
+   "label_space": [
+    "SAFE",
+    "WATCH",
+    "DISTRESS"
+   ],
+   "abstain_label": null,
+   "gt_source": "disclosed_agency_rating"
+  },
+  {
+   "item_id": "R030",
+   "family": "credit_health_realfirm",
+   "facts_text": "Revenue 2,153M, operating income 436M (operating margin 20%), net income 242M. Total assets 11,310M, total liabilities 7,452M, shareholders' equity 3,858M. Current assets 674M vs current liabilities 932M (current ratio 0.72), retained earnings 1,199M.",
+   "facts_kv": [
+    [
+     "Revenue",
+     "2,153M"
+    ],
+    [
+     "EBIT / operating income",
+     "436M"
+    ],
+    [
+     "Net income",
+     "242M"
+    ],
+    [
+     "Total assets",
+     "11,310M"
+    ],
+    [
+     "Total liabilities",
+     "7,452M"
+    ],
+    [
+     "Shareholders' equity",
+     "3,858M"
+    ],
+    [
+     "Current assets",
+     "674M"
+    ],
+    [
+     "Current liabilities",
+     "932M"
+    ],
+    [
+     "Retained earnings",
+     "1,199M"
+    ]
+   ],
+   "benchmark_label": "SAFE",
+   "label_space": [
+    "SAFE",
+    "WATCH",
+    "DISTRESS"
+   ],
+   "abstain_label": null,
+   "gt_source": "disclosed_agency_rating"
+  },
+  {
+   "item_id": "R031",
+   "family": "credit_health_realfirm",
+   "facts_text": "Revenue 1,823M, gross margin 30%, operating income 371M (operating margin 20%), net income 67M. Total assets 10,153M, total liabilities 7,240M, shareholders' equity 2,866M. Current assets 475M vs current liabilities 857M (current ratio 0.55), retained earnings 730M.",
+   "facts_kv": [
+    [
+     "Revenue",
+     "1,823M"
+    ],
+    [
+     "EBIT / operating income",
+     "371M"
+    ],
+    [
+     "Net income",
+     "67M"
+    ],
+    [
+     "Total assets",
+     "10,153M"
+    ],
+    [
+     "Total liabilities",
+     "7,240M"
+    ],
+    [
+     "Shareholders' equity",
+     "2,866M"
+    ],
+    [
+     "Current assets",
+     "475M"
+    ],
+    [
+     "Current liabilities",
+     "857M"
+    ],
+    [
+     "Retained earnings",
+     "730M"
+    ]
+   ],
+   "benchmark_label": "SAFE",
+   "label_space": [
+    "SAFE",
+    "WATCH",
+    "DISTRESS"
+   ],
+   "abstain_label": null,
+   "gt_source": "disclosed_agency_rating"
+  }
+ ]
+}

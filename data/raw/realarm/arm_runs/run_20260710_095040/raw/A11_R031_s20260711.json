@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R031",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows substantial leverage (total liabilities ~7,240M vs. shareholders\u2019 equity ~2,866M; debt-to-equity ~2.5x) and weak near-term liquidity (current ratio ~0.55), which constrain credit strength. Operating profitability is solid (EBIT margin ~20%), but bottom-line profitability is comparatively low (net margin ~3.7%), indicating limited cushion despite earnings generation.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 271,
+ "usd": 0.000385,
+ "utc": "2026-07-10T14:26:29.366677+00:00"
+}

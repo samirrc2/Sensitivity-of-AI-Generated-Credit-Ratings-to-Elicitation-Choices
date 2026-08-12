@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C024",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits a strong balance sheet with total assets of $86,783M and a solid equity base of $36,034M, representing a reasonable leverage profile (liabilities-to-equity of approximately 1.4x). However, the company faces near-term liquidity pressure with a current ratio of 0.94 and low profitability relative to its asset size (operating income of $467M on $86.8B in assets, and a low net income of $102M with negative diluted EPS). These metrics suggest a highly stable, asset-rich company (likely a utility or capital-intensive financial/infrastructure firm) with investment-grade creditworthiness, but tempered by weak short-term liquidity and low current profitability.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 281,
+ "out_tok": 167,
+ "usd": 0.001924,
+ "utc": "2026-07-10T14:52:59.811585+00:00"
+}

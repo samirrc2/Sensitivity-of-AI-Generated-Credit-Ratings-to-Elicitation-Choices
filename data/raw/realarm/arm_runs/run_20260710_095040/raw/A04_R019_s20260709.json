@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"B-\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage (96.6% debt-to-assets), extremely thin equity cushion ($415M vs $11.8B liabilities), and significant net losses (-$640M) signal high default risk.\"\n}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 272,
+ "out_tok": 80,
+ "usd": 0.001128,
+ "utc": "2026-07-10T14:11:30.008667+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows very high leverage, with shareholders\u2019 equity of only about 3.6% of total assets (5,987M equity vs. 164,787M assets) and current liabilities exceeding current assets, indicating limited balance-sheet cushion. Liquidity is modest (current ratio 1.18) and operating profitability is thin (EBIT of 446M on revenue of 22,217M, ~2% margin), which increases vulnerability to downturns.  \n\nDECISION: B+",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 238,
+ "out_tok": 276,
+ "usd": 0.000393,
+ "utc": "2026-07-10T14:45:56.788026+00:00"
+}

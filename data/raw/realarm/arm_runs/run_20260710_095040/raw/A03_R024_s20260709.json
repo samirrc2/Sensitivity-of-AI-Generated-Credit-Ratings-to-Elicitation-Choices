@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R024",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows moderate profitability (net income margin ~9% and EBIT margin ~14%), which supports debt service capacity. However, leverage is high (total liabilities of 4,392M versus shareholders\u2019 equity of 941M) and liquidity is weak with a current ratio below 1 (current assets 1,460M vs. current liabilities 1,598M), indicating elevated financial risk.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 207,
+ "usd": 0.000305,
+ "utc": "2026-07-10T14:17:06.105241+00:00"
+}

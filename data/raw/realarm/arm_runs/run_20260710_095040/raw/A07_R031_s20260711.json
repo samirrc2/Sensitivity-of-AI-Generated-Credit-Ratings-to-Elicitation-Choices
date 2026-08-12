@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R031",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Liquidity appears weak (current ratio \u2248 475/857 = 0.55) and leverage is high (equity \u2248 2,866 vs. total liabilities 7,240; equity-to-assets \u2248 28%), which increases funding and refinancing risk. Profitability is mixed\u2014EBIT is relatively strong (371/1,823 \u2248 20% margin) but net income is low (67/1,823 \u2248 4%), indicating limited bottom-line cushion.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 224,
+ "out_tok": 252,
+ "usd": 0.00036,
+ "utc": "2026-07-10T14:26:06.745311+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows weak liquidity (current ratio of 0.63) and structural strain with negative retained earnings, suggesting ongoing loss history. Leverage is high (total liabilities ~84% of total assets), which heightens refinancing and near-term risk; although operating profitability (EBIT) relative to revenue is strong, the balance-sheet pressure warrants a speculative-grade rating.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 207,
+ "usd": 0.000307,
+ "utc": "2026-07-10T15:11:04.229191+00:00"
+}

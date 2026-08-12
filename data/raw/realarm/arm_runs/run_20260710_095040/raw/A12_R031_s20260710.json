@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R031",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 4, \"rationale\": \"High leverage (Total Debt/Equity over 2.5x), weak liquidity (Current Ratio < 0.6x), and low profitability (ROA ~0.7%) indicate non-investment grade creditworthiness.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 266,
+ "out_tok": 68,
+ "usd": 0.001011,
+ "utc": "2026-07-10T14:26:33.624244+00:00"
+}

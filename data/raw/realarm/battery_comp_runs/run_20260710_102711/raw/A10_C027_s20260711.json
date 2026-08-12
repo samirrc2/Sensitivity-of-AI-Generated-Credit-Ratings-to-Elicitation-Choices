@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C027",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided Q1 2026 financial data, the issuer demonstrates a highly leveraged balance sheet with total assets of $40.9B supported by $26.6B in liabilities (debt-to-equity ratio of approximately 1.86x) and a tight liquidity profile, as evidenced by a low current ratio of 1.18x ($5.3B current assets vs. $4.5B current liabilities). However, the business remains solidly profitable with strong margins (51% gross, 24% operating) and positive net income of $415M for the quarter, indicating a stable capacity to service its obligations but limited cushion for severe downturns. Therefore, the issuer represents a moderate credit risk, placing it at the lower end of the investment-grade spectrum.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 279,
+ "out_tok": 176,
+ "usd": 0.002002,
+ "utc": "2026-07-10T14:57:31.814886+00:00"
+}

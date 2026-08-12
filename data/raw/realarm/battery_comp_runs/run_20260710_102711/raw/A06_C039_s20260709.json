@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits massive scale with total assets of over $1.8 trillion and solid profitability, including a net income of $4,617 million and an operating margin of 19%, characteristic of a major global financial institution. However, the balance sheet shows a very high leverage profile (total liabilities representing about 93% of assets) and a current ratio below 1.0 (0.83), reflecting the typical but highly leveraged structure of a large systemic bank or financial entity. Taking into account the immense asset base, solid earnings, and inherent leverage risks, the credit profile is highly robust but positioned just below the highest tiers.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "in_tok": 294,
+ "out_tok": 138,
+ "usd": 0.001683,
+ "utc": "2026-07-10T15:12:00.135104+00:00"
+}

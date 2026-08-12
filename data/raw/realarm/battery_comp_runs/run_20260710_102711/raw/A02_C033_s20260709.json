@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong revenue generation ($23,078M in Q1) and is currently profitable with positive operating income ($2,554M) and net income ($1,628M). However, it exhibits a deeply compromised balance sheet characterized by negative shareholders' equity (-$9,270M), accumulated deficits (retained earnings of -$9,884M), and total liabilities ($64,211M) that exceed total assets ($54,941M). While its short-term liquidity is marginally adequate (current ratio of 1.09), the substantial insolvency risk represented by the negative equity position places its credit profile firmly in the non-investment grade speculative category, balanced by its ongoing operational profitability.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 284,
+ "out_tok": 165,
+ "usd": 0.001911,
+ "utc": "2026-07-10T15:04:14.998702+00:00"
+}

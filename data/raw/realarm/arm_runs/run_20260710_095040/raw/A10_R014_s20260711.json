@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R014",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits strong financial health, characterized by solid profitability (operating margin of 15% and net income of $334M) and a very robust balance sheet with low leverage (equity-to-assets ratio of 62%) and excellent liquidity (current ratio of 2.48). While these metrics reflect an investment-grade profile with low default risk, the absolute size of the company (revenue of $3.1B and assets of $4.9B) limits its ability to achieve the highest investment grades (AAA/AA range) which are typically reserved for much larger, globally diversified enterprises. Consequently, a strong upper-medium grade is highly appropriate for this credit profile.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 242,
+ "out_tok": 149,
+ "usd": 0.001704,
+ "utc": "2026-07-10T14:06:27.650846+00:00"
+}

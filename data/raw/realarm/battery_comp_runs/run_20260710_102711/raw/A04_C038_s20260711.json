@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"High total debt-to-assets ratio (~84%) and negative retained earnings are balanced by positive EBIT and solid equity, indicating speculative grade.\"}\n```",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 275,
+ "out_tok": 53,
+ "usd": 0.000889,
+ "utc": "2026-07-10T15:10:26.555563+00:00"
+}

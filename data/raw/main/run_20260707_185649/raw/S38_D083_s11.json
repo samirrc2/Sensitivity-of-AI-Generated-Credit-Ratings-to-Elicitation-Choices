@@ -1,0 +1,43 @@
+{
+ "spec_id": "S38",
+ "item_id": "D083",
+ "seed": 11,
+ "family": "directional",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "SELL",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 0.0,
+ "temperature_applied": false,
+ "effective_temperature": null,
+ "call_meta": {
+  "signature": "mct+seed+eff",
+  "temperature_applied": false,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a equity research analyst. Using only the information below and general knowledge predating 2026-04-02, give a 20-trading-day directional recommendation for the stock.\nValid answers (choose exactly one): BUY, HOLD, SELL.\nCompany information (as of 2026-04-02):\n| Return 3m            | +14.0% |\n| Return 1m            | -2.2% |\n| Return 1w            | -2.0% |\n| Range position (63d) | 87% |\n| 21d realized vol     | 23% |\n| Last close           | 28.33 |\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock has solid 3-month gains but has faced near-term weakness (1-month and 1-week declines) while trading deep within its prior range (87th percentile). With elevated near-term volatility and momentum softer over the last few weeks, the path to the next 20 trading days is likely to be range-bound or modestly negative rather than strongly positive. Hold for now to avoid chasing potential near-term downside while the longer-term trend remains uncertain.\n\nDECISION: HOLD",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 170,
+ "output_tokens": 360,
+ "cost_usd": 0.000484,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:50:18.740366+00:00",
+ "mode": "REAL"
+}

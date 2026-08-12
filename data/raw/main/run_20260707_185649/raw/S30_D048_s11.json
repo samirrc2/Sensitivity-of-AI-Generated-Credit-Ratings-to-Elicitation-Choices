@@ -1,0 +1,44 @@
+{
+ "spec_id": "S30",
+ "item_id": "D048",
+ "seed": 11,
+ "family": "directional",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a equity research analyst. Using only the information below and general knowledge predating 2026-04-02, give a 20-trading-day directional recommendation for the stock.\nValid answers (choose exactly one): BUY, HOLD, SELL.\nCompany information (as of 2026-04-02):\nPrice action as of 2026-04-02: 1w -0.2%, 1m -7.9%, 3m -9.7%. Last close 966.56. 21d annualized realized volatility 38%. Position in trailing 63-day range: 18% (0%=low, 100%=high).\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock has shown persistent negative momentum (\u20137.9% over 1m, \u20139.7% over 3m) and sits only 18% above the trailing 63-day low, implying the near-term path of least resistance remains lower despite already being depressed. Realized volatility of 38% does not alter the directional bias on a one-month horizon.\n\nDECISION: SELL",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 294,
+ "output_tokens": 80,
+ "cost_usd": 0.000567,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:38:04.980216+00:00",
+ "mode": "REAL"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates a solid financial profile with substantial quarterly revenue of $9,143M, an operating margin of 10%, and a strong balance sheet featuring $73.99B in total assets. It maintains a healthy liquidity position with a current ratio of 1.39 ($30.59B in current assets vs. $22.09B in current liabilities) and a solid equity base of $21.31B, though its high leverage (total liabilities of $52.68B relative to equity) and zero retained earnings suggest a corporate structure or recent restructuring typical of an investment-grade issuer with moderate credit risk. \n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 277,
+ "out_tok": 146,
+ "usd": 0.00173,
+ "utc": "2026-07-10T14:54:19.115583+00:00"
+}

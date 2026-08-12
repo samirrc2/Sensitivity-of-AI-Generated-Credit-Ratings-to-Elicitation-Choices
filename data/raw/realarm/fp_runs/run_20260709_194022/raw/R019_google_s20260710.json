@@ -1,0 +1,12 @@
+{
+ "item_id": "R019",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "ok": true,
+ "raw_response": "GUESS: Iron Mountain (IRM)",
+ "in_tok": 193,
+ "out_tok": 8,
+ "usd": 0.000362,
+ "utc": "2026-07-09T23:46:20.225310+00:00"
+}

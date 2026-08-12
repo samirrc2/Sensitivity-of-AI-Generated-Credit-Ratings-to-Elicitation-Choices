@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R015",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows decent balance-sheet strength and liquidity (current ratio ~2.9; shareholders\u2019 equity of 2,427M), but profitability is weak from an operating perspective with EBIT/operating income of -988M despite positive net income. This suggests operational stress and raises concerns about sustainable cash generation, leading to a speculative-grade rating rather than investment grade.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 235,
+ "out_tok": 181,
+ "usd": 0.000273,
+ "utc": "2026-07-10T14:06:59.402634+00:00"
+}

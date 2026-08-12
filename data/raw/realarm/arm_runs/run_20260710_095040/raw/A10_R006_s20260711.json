@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R006",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "As a credit rating analyst, the issuer's massive scale (nearly $20 billion in revenue) and positive book equity ($4.2 billion) with accumulated retained earnings suggest an established operating history, but profitability is currently weak with a marginal operating loss (-$43M) and net loss (-$126M). Liquid assets provide a thin but positive buffer (current ratio of 1.21), and the moderate leverage (total debt/liabilities of $6.0B against $10.4B in assets) indicates manageable solvency risk in the near term despite the lack of current-year earnings. This profile of high revenue scale but razor-thin, volatile margins and modest liquidity aligns with a non-investment grade, speculative-grade profile in the \"double-B\" range.\n\nDECISION: BB",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "in_tok": 240,
+ "out_tok": 170,
+ "usd": 0.00189,
+ "utc": "2026-07-10T13:57:29.050172+00:00"
+}

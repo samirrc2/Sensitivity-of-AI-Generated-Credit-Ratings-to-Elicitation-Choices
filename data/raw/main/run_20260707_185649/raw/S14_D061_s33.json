@@ -1,0 +1,45 @@
+{
+ "spec_id": "S14",
+ "item_id": "D061",
+ "seed": 33,
+ "family": "directional",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Task: give a 20-trading-day directional recommendation for the stock.\nRespond with exactly one of: BUY, HOLD, SELL. Use only the figures provided and knowledge available on or before 2026-03-19; do not use later information.\nProvided information:\nPrice action as of 2026-03-19: 1w -8.8%, 1m -6.5%, 3m -29.3%. Last close 245.99. 21d annualized realized volatility 42%. Position in trailing 63-day range: 0% (0%=low, 100%=high).\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock has experienced severe downward momentum, losing 29.3% over the last three months and currently sitting at its absolute 63-day low (0th percentile). With elevated 21-day annualized volatility at 42%, the stock is in a steep, high-velocity downtrend with no signs of stabilization or a near-term bottom. This suggests continuation of the downward trend over the next 20 trading days.\n\nDECISION: SELL",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 180,
+ "output_tokens": 96,
+ "cost_usd": 0.001134,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:13:23.291381+00:00",
+ "mode": "REAL"
+}

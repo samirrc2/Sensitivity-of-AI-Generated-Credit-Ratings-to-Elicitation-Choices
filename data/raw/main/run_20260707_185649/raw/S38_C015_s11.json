@@ -1,0 +1,43 @@
+{
+ "spec_id": "S38",
+ "item_id": "C015",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 0.0,
+ "temperature_applied": false,
+ "effective_temperature": null,
+ "call_meta": {
+  "signature": "mct+seed+eff",
+  "temperature_applied": false,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-02-13, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-02-13):\n| Current ratio           | 1.44 |\n| Retained earnings       | 65,448M |\n| Current liabilities     | 36,558M |\n| Current assets          | 52,485M |\n| Shareholders' equity    | 21,318M |\n| Total liabilities       | 77,267M |\n| Total assets            | 98,585M |\n| EBIT / operating income | 2,660M |\n| Revenue                 | 19,133M |\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The company shows solid liquidity (current ratio 1.44) and a substantial equity base relative to retained earnings, but it also carries high leverage (total liabilities about 77.3k vs equity 21.3k, debt-to-equity ~3.6) and a relatively modest EBIT margin. While profitability and retained earnings support credit quality, the elevated leverage and limited interest coverage visibility suggest a cautious investment-grade stance. Overall, BBB+ is justified as a balanced assessment between solvency strength and leverage risk.\n\nDECISION: BBB+",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 244,
+ "output_tokens": 438,
+ "cost_usd": 0.000596,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:49:44.353926+00:00",
+ "mode": "REAL"
+}

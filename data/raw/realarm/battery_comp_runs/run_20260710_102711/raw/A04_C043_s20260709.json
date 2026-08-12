@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BBB-\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong balance sheet and positive equity, but low profitability (EBIT margin ~3.7%) and tight liquidity (current ratio < 1) warrant a low investment grade.\"\n}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 277,
+ "out_tok": 67,
+ "usd": 0.001019,
+ "utc": "2026-07-10T15:16:41.547380+00:00"
+}

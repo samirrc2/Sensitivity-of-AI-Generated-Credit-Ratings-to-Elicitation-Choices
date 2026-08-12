@@ -1,0 +1,45 @@
+{
+ "spec_id": "S01",
+ "item_id": "D069",
+ "seed": 22,
+ "family": "directional",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "SELL",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 22,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-05-28. Act as a equity research analyst.\n| Return 3m            | +4.4% |\n| Return 1m            | +6.8% |\n| Return 1w            | +10.8% |\n| Range position (63d) | 100% |\n| 21d realized vol     | 40% |\n| Last close           | 84.35 |\nBased only on the above and knowledge predating 2026-05-28, give a 20-trading-day directional recommendation for the stock. Choose exactly one label from: BUY, HOLD, SELL.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock has shown very strong recent performance across all reported timeframes (1w, 1m, 3m), culminating in a 100% range position over the last 63 trading days, indicating it is trading at its highest point within that period. This strong upward momentum, despite high 21-day realized volatility (40%), suggests a powerful positive sentiment that is likely to persist in the near term. Given the recent price action and momentum, the stock appears poised for further gains.\n\nDECISION: BUY",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 193,
+ "output_tokens": 110,
+ "cost_usd": 0.000333,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T22:57:32.061622+00:00",
+ "mode": "REAL"
+}

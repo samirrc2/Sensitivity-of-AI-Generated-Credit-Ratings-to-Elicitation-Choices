@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"CCC+\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage, massive accumulated deficit (-$6.9B), and extremely weak EBIT interest coverage relative to $23.5B total liabilities indicate severe distress.\"\n}\n```",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "in_tok": 275,
+ "out_tok": 64,
+ "usd": 0.000989,
+ "utc": "2026-07-10T15:10:01.106897+00:00"
+}

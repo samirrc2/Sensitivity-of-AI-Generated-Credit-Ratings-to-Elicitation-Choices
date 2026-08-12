@@ -1,0 +1,45 @@
+{
+ "spec_id": "S46",
+ "item_id": "C009",
+ "seed": 22,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 0.0,
+   "maxOutputTokens": 1024,
+   "seed": 22,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-02-19. Act as a credit rating analyst.\nFiscal period 2025 Q4 (filed 2026-02-19). Revenue 6,571M, gross margin 59%, operating income 3,688M (operating margin 56%), net income 1,301M, diluted EPS 1.21. Total assets 57,121M, total liabilities 23,079M, shareholders' equity 33,867M. Current assets 13,066M vs current liabilities 5,712M (current ratio 2.29), retained earnings 3,431M.\nBased only on the above and knowledge predating 2026-02-19, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "```json\n{\"decision\": \"A+\", \"confidence\": 4, \"rationale\": \"Strong profitability, high operating margin, robust liquidity with a 2.29 current ratio, and a solid equity cushion support a strong investment-grade rating.\"}\n```",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 306,
+ "output_tokens": 55,
+ "cost_usd": 0.000954,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-08T00:00:44.038894+00:00",
+ "mode": "REAL"
+}

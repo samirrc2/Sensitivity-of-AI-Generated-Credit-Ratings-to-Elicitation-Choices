@@ -1,0 +1,44 @@
+{
+ "spec_id": "S08",
+ "item_id": "C040",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2025-11-07, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2025-11-07):\n| Current ratio           | 0.63 |\n| Retained earnings       | 4,718M |\n| Current liabilities     | 19,405M |\n| Current assets          | 12,208M |\n| Shareholders' equity    | 51,462M |\n| Total liabilities       | 139,666M |\n| Total assets            | 192,293M |\n| EBIT / operating income | 2,334M |\n| Revenue                 | 8,669M |\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"Low current ratio, high leverage, weak liquidity; earnings moderate; strong asset base but debt burden lowers investment-grade assessment.\"}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 253,
+ "output_tokens": 627,
+ "cost_usd": 0.000834,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:08:20.497561+00:00",
+ "mode": "REAL"
+}

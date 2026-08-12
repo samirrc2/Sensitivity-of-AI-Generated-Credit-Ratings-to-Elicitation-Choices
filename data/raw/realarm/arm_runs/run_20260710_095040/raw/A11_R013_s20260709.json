@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R013",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows significant balance-sheet weakness: shareholders\u2019 equity is negative (-496M) and total liabilities exceed total assets (2,149M vs. 1,820M), indicating a materially impaired capital structure. Liquidity is only marginal (current assets 580M vs. current liabilities 569M), while profitability is weak with net losses despite modest positive EBIT (74M).  \n\nDECISION: CCC",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 233,
+ "out_tok": 216,
+ "usd": 0.000317,
+ "utc": "2026-07-10T14:05:23.041868+00:00"
+}

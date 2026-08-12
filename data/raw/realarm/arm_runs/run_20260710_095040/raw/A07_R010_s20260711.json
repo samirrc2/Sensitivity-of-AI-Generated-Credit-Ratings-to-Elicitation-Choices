@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R010",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid profitability (net income margin ~19% and ROE ~12%), indicating the ability to generate earnings. However, balance sheet leverage is high (total liabilities ~17,381M vs. equity ~3,328M; liabilities/equity ~5.2), which raises default risk and limits rating uplift.  \nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 197,
+ "out_tok": 295,
+ "usd": 0.000408,
+ "utc": "2026-07-10T14:01:45.167289+00:00"
+}

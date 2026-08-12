@@ -1,0 +1,6 @@
+source,metric,relative_dispersion_pct,note
+BCBS 256 RCAP (2013),outlier bank vs 10% capital-ratio benchmark,20.0,"= 2.0 pp either direction; IRB internal models; >100 banks; OUTLIER figure, most banks narrower"
+Machine (this study),expected pairwise gap (central tendency),20.46,"standardised ECRA; 45-name synthetic book; MEAN over spec pairs, not an outlier"
+Machine (this study),outlier spec above median,33.0,like-for-like with RCAP outlier metric
+Machine (this study),outlier spec below median,36.2,like-for-like with RCAP outlier metric
+Machine (this study),full range,69.2,max-min as % of median

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C011",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"A\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong balance sheet with $52B equity, low leverage (total debt/assets around 52%), and positive operating income, though profitability ratios are moderate.\"\n}\n```",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "in_tok": 274,
+ "out_tok": 64,
+ "usd": 0.000987,
+ "utc": "2026-07-10T14:38:54.958924+00:00"
+}

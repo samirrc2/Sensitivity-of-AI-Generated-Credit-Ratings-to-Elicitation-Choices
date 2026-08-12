@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R013",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"CCC\",\n  \"confidence\": 4,\n  \"rationale\": \"Negative equity, cumulative losses, and total liabilities exceeding assets indicate severe solvency risk and distress despite positive EBIT.\"\n}\n```",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 264,
+ "out_tok": 52,
+ "usd": 0.000864,
+ "utc": "2026-07-10T14:05:29.732315+00:00"
+}

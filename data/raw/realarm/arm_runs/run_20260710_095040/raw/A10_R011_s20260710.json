@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R011",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's financial profile reveals a mixed credit picture: while the balance sheet shows solid short-term liquidity (current ratio of 2.31) and a substantial equity cushion (shareholders' equity of 5,711M against total assets of 18,687M with positive retained earnings of 12,770M), the company is currently unprofitable, exhibiting an operating loss of -287M and a deep net loss of -892M on 10,477M in revenue. These earnings pressures and negative returns prevent an investment-grade rating, but the strong asset cover and liquidity buffer mitigate near-term default risk, aligning the issuer with a speculative-grade profile. \n\nDECISION: BB-",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "in_tok": 249,
+ "out_tok": 163,
+ "usd": 0.00184,
+ "utc": "2026-07-10T14:03:05.622647+00:00"
+}

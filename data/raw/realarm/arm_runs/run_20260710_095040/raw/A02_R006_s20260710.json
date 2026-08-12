@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R006",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits a very large scale of operations with over $19.5 billion in revenue, but suffers from weak profitability with negative operating and net income (operating margin of approximately 0% and a net loss of $126 million). Financial leverage is moderate (assets-to-equity of 2.4x) and liquidity is tight but acceptable with a current ratio of 1.21x, though positive retained earnings of $2.5 billion suggest historical viability. Given the combination of massive scale but current unprofitability and thin liquidity, the credit profile is sub-investment grade but possesses adequate capacity to meet financial commitments in the near term.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 239,
+ "out_tok": 141,
+ "usd": 0.001628,
+ "utc": "2026-07-10T13:56:35.711066+00:00"
+}

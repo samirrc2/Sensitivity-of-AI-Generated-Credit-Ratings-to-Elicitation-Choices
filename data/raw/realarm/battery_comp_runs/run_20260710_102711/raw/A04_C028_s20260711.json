@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C028",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"A\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong balance sheet with substantial equity and assets, comfortable current ratio, and solid profitability, though EBIT-to-assets is relatively low.\"\n}\n```",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "in_tok": 288,
+ "out_tok": 58,
+ "usd": 0.000954,
+ "utc": "2026-07-10T14:58:01.881803+00:00"
+}

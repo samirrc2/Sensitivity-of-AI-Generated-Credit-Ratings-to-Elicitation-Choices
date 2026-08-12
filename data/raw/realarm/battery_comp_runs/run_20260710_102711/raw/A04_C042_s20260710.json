@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"CCC\",\n  \"confidence\": 4,\n  \"rationale\": \"Negative equity of -$8.5B, high leverage, and low operating income relative to total liabilities indicate severe distress and high default risk.\"\n}\n```",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 275,
+ "out_tok": 59,
+ "usd": 0.000944,
+ "utc": "2026-07-10T15:15:37.070989+00:00"
+}

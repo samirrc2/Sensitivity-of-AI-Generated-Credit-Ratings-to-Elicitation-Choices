@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C003",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits a very strong balance sheet with substantial total assets of $122.5 billion, low leverage (total liabilities are only 47% of total assets), and a solid current ratio of 1.32. Profitability is robust with an 18% operating margin, $2.7 billion in operating income for the quarter, and a deep retained earnings cushion of over $68 billion. These factors indicate an extremely strong capacity to meet financial commitments, characteristic of a high-quality investment-grade profile.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 281,
+ "out_tok": 115,
+ "usd": 0.001457,
+ "utc": "2026-07-10T14:29:45.174270+00:00"
+}

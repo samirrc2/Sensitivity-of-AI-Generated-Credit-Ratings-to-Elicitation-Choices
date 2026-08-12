@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer's balance sheet exhibits an extremely large scale, with total assets exceeding $3.4 trillion and a substantial capital base of over $303 billion in shareholders' equity, reflecting a major global systemically important financial institution (G-SIB). Despite a very low current ratio of 0.42 (typical for large banking operations with massive short-term funding and deposit liabilities) and high leverage, its strong profitability\u2014generating $12.4 billion in quarterly operating income and over $7.5 billion in quarterly net income\u2014underpins exceptionally strong creditworthiness. This combination of vast systemic importance, high capitalization, and strong earnings power justifies an extremely high investment-grade rating.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 295,
+ "out_tok": 147,
+ "usd": 0.001765,
+ "utc": "2026-07-10T15:07:12.717894+00:00"
+}

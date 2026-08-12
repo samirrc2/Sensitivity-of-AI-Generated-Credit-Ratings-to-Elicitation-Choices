@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R024",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid profitability (Net income of 384M on Revenue of 4,076M and EBIT of 552M), but leverage is high (Total liabilities of 4,392M vs. Total assets of 5,333M; equity is only 941M). Liquidity is also weak with a current ratio below 1 (current assets 1,460M vs. current liabilities 1,598M), indicating limited short-term cushion, supporting a speculative grade rather than investment grade.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 214,
+ "usd": 0.000314,
+ "utc": "2026-07-10T14:17:08.197047+00:00"
+}

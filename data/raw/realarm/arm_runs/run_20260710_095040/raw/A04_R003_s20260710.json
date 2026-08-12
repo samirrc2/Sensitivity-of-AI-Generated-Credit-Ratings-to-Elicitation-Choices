@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R003",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 4, \"rationale\": \"High leverage (76% Debt/Assets) and weak liquidity (Current Ratio of 0.72) constrain the rating to non-investment grade, despite positive profitability.\"}\n```",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 265,
+ "out_tok": 60,
+ "usd": 0.000937,
+ "utc": "2026-07-10T13:53:20.732679+00:00"
+}

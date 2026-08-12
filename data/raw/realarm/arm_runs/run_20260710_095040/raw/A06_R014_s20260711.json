@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R014",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits strong financial health, characterized by solid profitability (15% operating margin, $334M net income) and a highly conservative balance sheet with low leverage (total liabilities-to-equity of 0.61x). Liquidity is robust, as evidenced by a strong current ratio of 2.48 and a significant equity cushion ($3,064M in equity supporting $4,936M in assets). These high-quality credit metrics, combined with substantial scale ($3.1B in revenue), align with a solid investment-grade profile.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 234,
+ "out_tok": 127,
+ "usd": 0.001494,
+ "utc": "2026-07-10T14:06:05.610114+00:00"
+}

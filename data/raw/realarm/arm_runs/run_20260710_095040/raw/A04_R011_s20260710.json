@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R011",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"High equity and asset base offset by negative net income and EBIT, indicating moderate default risk with adequate short-term liquidity.\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 275,
+ "out_tok": 55,
+ "usd": 0.000907,
+ "utc": "2026-07-10T14:02:33.544991+00:00"
+}

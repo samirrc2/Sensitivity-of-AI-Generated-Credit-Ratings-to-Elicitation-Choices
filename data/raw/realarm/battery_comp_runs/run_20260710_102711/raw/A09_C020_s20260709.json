@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "C020",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":2,\"rationale\":\"Operating profitability modest (14% margin) but liquidity weak (current ratio 0.91) and leverage elevated (liabilities/assets 74%).\"}",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 265,
+ "out_tok": 220,
+ "usd": 0.000328,
+ "utc": "2026-07-10T14:48:30.815406+00:00"
+}

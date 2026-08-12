@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "**Credit Rating Analysis:**\n\nThe issuer shows robust scale and profitability with $23.1B in quarterly revenue and positive operating income ($2.55B), but its balance sheet exhibits severe structural risk, characterized by negative shareholders' equity (-$9.27B) and accumulated deficits (retained earnings of -$9.88B). While a current ratio of 1.09 indicates barely adequate short-term liquidity, the negative book value of equity and high leverage point to substantial long-term solvency risk, placing the issuer in the speculative-grade category. However, the strong current operating profitability and substantial asset base prevent a near-term default rating, justifying a mid-tier speculative grade.\n\nDECISION: BB-",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "in_tok": 285,
+ "out_tok": 151,
+ "usd": 0.001787,
+ "utc": "2026-07-10T15:05:05.331504+00:00"
+}

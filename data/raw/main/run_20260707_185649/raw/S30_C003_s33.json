@@ -1,0 +1,44 @@
+{
+ "spec_id": "S30",
+ "item_id": "C003",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 33,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2025-11-06, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2025-11-06):\nFiscal period 2025 Q3 (filed 2025-11-06). Revenue 14,969M, gross margin 23%, operating income 2,702M (operating margin 18%), net income 1,726M, diluted EPS 1.38. Total assets 122,472M, total liabilities 57,549M, shareholders' equity 64,923M. Current assets 15,884M vs current liabilities 12,009M (current ratio 1.32), retained earnings 68,459M.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The reported financials reflect a large, consistently profitable company with robust operating margins (18%), ample shareholders' equity well in excess of total liabilities, a current ratio above 1.0, and substantial retained earnings. These metrics indicate very low default risk and strong debt-service capacity, consistent with upper high-grade credits but not the absolute strongest (e.g., sovereign or near-sovereign balance sheets that receive AAA).  \nDECISION: AA+",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 380,
+ "output_tokens": 89,
+ "cost_usd": 0.000697,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:37:19.035483+00:00",
+ "mode": "REAL"
+}

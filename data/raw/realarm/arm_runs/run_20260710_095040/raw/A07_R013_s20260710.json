@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R013",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Negative retained earnings and shareholders\u2019 equity (\u2212496M), together with total liabilities exceeding total assets, point to high balance-sheet stress. Although EBIT is positive (74M), net income remains negative (\u221223M), indicating weak bottom-line credit strength consistent with a distressed/speculative profile.  \n\nDECISION: CCC-",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "in_tok": 224,
+ "out_tok": 170,
+ "usd": 0.000257,
+ "utc": "2026-07-10T14:05:03.993843+00:00"
+}

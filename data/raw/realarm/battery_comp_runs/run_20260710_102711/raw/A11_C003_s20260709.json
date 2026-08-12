@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C003",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows solid earnings generation (EBIT margin of ~18%) and reasonable balance-sheet leverage (total liabilities ~47% of assets; liabilities-to-equity ~0.89). Liquidity is supportive but not strong (current ratio 1.32), so credit strength appears adequate but not top-tier.  \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 242,
+ "out_tok": 259,
+ "usd": 0.000372,
+ "utc": "2026-07-10T14:30:14.980017+00:00"
+}

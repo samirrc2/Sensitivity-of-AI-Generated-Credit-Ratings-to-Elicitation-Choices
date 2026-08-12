@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R030",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "To determine the credit rating, we analyze the issuer's key financial metrics:\n1. **Leverage and Capital Structure:** Total assets of 11,310M against total liabilities of 7,452M represent a relatively high leverage ratio (Liabilities/Assets ~ 66%), and a debt-to-equity ratio of nearly 1.93x, which poses moderate risk.\n2. **Liquidity:** The current ratio of 0.72 (674M current assets vs 932M current liabilities) indicates short-term liquidity pressures and potential working capital deficits.\n3. **Profitability:** The issuer demonstrates solid profitability with an operating margin of 20% (436M operating income on 2,153M revenue) and a net income of 242M, which provides reasonable interest and debt service coverage, offsetting some liquidity concerns.\n\nConsidering the strong operating profitability balanced against a constrained liquidity profile and substantial leverage, the issuer is positioned at the lower end of the investment-grade spectrum.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 229,
+ "out_tok": 230,
+ "usd": 0.002414,
+ "utc": "2026-07-10T14:24:29.168218+00:00"
+}

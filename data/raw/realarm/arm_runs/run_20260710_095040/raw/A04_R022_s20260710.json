@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R022",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BBB+\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong balance sheet with equity-to-assets ratio of 43%, positive profitability, and solid interest coverage (EBIT/Interest implied), but moderate leverage suggests investment-grade BBB+.\"\n}\n```",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 274,
+ "out_tok": 70,
+ "usd": 0.001041,
+ "utc": "2026-07-10T14:14:56.062895+00:00"
+}

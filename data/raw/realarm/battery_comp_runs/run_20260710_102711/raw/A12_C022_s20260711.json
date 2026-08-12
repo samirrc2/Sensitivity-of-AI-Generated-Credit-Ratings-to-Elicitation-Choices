@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 4, \"rationale\": \"Strong asset base and equity are offset by weak liquidity (0.59 current ratio) and low profitability (EBIT/Assets under 1.4%).\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 279,
+ "out_tok": 55,
+ "usd": 0.000914,
+ "utc": "2026-07-10T14:51:28.129035+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R028",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the company exhibits a moderate financial profile: it is profitable with a 9% operating margin and $500M in net income, maintains adequate liquidity with a current ratio of 1.28 ($1,355M current assets vs $1,057M current liabilities), and possesses a solid capital structure with an equity-to-assets ratio of approximately 38% ($4,503M equity vs $11,857M total assets). While the company is stable and profitable, its leverage (total liabilities of $7,354M relative to equity and earnings) and moderate liquidity profile prevent an upper-medium grade rating, placing it at the lower threshold of investment grade. Therefore, the company's credit profile is characteristic of a stable, low-investment-grade borrower.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 240,
+ "out_tok": 184,
+ "usd": 0.002016,
+ "utc": "2026-07-10T14:22:15.738143+00:00"
+}

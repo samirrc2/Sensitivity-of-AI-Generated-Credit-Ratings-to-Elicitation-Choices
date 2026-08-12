@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C028",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits an exceptionally strong financial profile, characterized by massive scale (revenue of $181.5B and total assets of $916.6B in Q1 2026), strong profitability (net income of $30.3B), and a very solid balance sheet with substantial equity of $441.9B. Although the current ratio is somewhat tight at 1.18, the sheer scale, operating cash generation, and massive equity cushion represent minimal credit risk. This credit profile is consistent with the highest level of creditworthiness.\n\nDECISION: AAA",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "in_tok": 289,
+ "out_tok": 123,
+ "usd": 0.001541,
+ "utc": "2026-07-10T14:58:10.619054+00:00"
+}

@@ -1,0 +1,44 @@
+{
+ "spec_id": "S30",
+ "item_id": "C013",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-05-01, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-05-01):\nFiscal period 2026 Q1 (filed 2026-05-01). Revenue 11,005M, gross margin 41%, operating income 1,863M (operating margin 17%), net income 1,651M, diluted EPS 4.43. Total assets 113,281M, total liabilities 61,341M, shareholders' equity 51,940M. Current assets 22,316M vs current liabilities 14,621M (current ratio 1.53), retained earnings 60,632M.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The provided metrics reflect a large, highly profitable company with robust operating margins (17%), ample liquidity (current ratio >1.5x), positive shareholders\u2019 equity, and substantial retained earnings. These factors support a high investment-grade rating, though total liabilities exceed equity and the absence of cash-flow, interest-coverage, or sector-comparable data caps the rating below the absolute top of the scale.\nDECISION: AA\n(The rating uses standard 21-grade conventions and would be reviewed with full financial-statement footnotes or peer benchmarks.)",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 380,
+ "output_tokens": 104,
+ "cost_usd": 0.000735,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:37:27.818859+00:00",
+ "mode": "REAL"
+}

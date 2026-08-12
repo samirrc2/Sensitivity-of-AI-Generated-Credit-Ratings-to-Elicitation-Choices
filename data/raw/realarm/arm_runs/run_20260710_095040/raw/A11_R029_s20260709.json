@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R029",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "With strong profitability (EBIT of 806M vs revenue of 8,634M) and substantial retained earnings (1,617M) supporting equity (3,342M), the company shows solid internal funding capacity. Liquidity is acceptable with a current ratio of about 1.30 (current assets 2,929M vs current liabilities 2,248M), suggesting manageable near-term obligations. Overall credit quality appears strong but not at the very top tier.  \n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 237,
+ "out_tok": 315,
+ "usd": 0.000441,
+ "utc": "2026-07-10T14:23:43.986382+00:00"
+}

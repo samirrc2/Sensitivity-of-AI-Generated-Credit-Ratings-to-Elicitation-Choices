@@ -1,0 +1,12 @@
+{
+ "item_id": "R023",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "ok": true,
+ "raw_response": "GUESS: NYCB (New York Community Bancorp)",
+ "in_tok": 188,
+ "out_tok": 12,
+ "usd": 0.00039,
+ "utc": "2026-07-09T23:47:36.591495+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB-\",\"confidence\":3,\"rationale\":\"Thin operating profitability (4% margin, 6% gross) but positive net income and moderate leverage; liquidity adequate (current ratio 1.30).\"}",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 265,
+ "out_tok": 182,
+ "usd": 0.00028,
+ "utc": "2026-07-10T14:42:12.284330+00:00"
+}

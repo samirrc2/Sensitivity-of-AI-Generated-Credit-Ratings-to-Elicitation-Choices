@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits solid profitability with quarterly revenue of $9,143M, an operating margin of 10%, and a strong net income of $821M. Balance sheet health is reasonable with total assets of $73,988M against liabilities of $52,676M (equity of $21,312M) and a comfortable current ratio of 1.39, although the leverage is moderately high and retained earnings are at zero. These metrics reflect a stable, investment-grade profile with moderate credit risk.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 270,
+ "out_tok": 123,
+ "usd": 0.001512,
+ "utc": "2026-07-10T14:54:50.412409+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows significant financial weakness: negative shareholders\u2019 equity and retained earnings, a below-1.0 current ratio (0.92), and total liabilities that materially exceed assets, indicating limited balance-sheet resilience. While EBIT is positive (777M), the scale of accumulated losses and liquidity tightness suggest elevated credit risk and likely reduced ability to absorb shocks.\n\nDECISION: CCC+",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "in_tok": 238,
+ "out_tok": 194,
+ "usd": 0.00029,
+ "utc": "2026-07-10T15:15:29.093928+00:00"
+}

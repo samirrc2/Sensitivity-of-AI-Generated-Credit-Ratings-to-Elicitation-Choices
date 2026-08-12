@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R024",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "With EBIT margin of ~13.5% and net margin of ~9% providing some earnings support, the company shows reasonable operating profitability. However, leverage is high (total liabilities ~4.39B vs equity ~0.94B; liabilities/equity ~4.7) and liquidity is weak (current ratio ~0.91), which increases downside risk in a credit stress scenario. Overall, this profile fits a **BB-** rating.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 235,
+ "out_tok": 233,
+ "usd": 0.000338,
+ "utc": "2026-07-10T14:17:54.533476+00:00"
+}

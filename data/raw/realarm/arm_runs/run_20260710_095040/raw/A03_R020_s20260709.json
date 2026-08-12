@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R020",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid profitability (EBIT of 537M on 2,981M revenue) and a meaningful equity base (shareholders\u2019 equity of 4,112M, ~32% of total assets), which supports balance-sheet resilience. However, liquidity is weak with a sub-1.0 current ratio (current assets 1,107M vs. current liabilities 1,333M) and leverage is relatively high (total liabilities 8,577M vs. equity 4,112M). Overall credit quality appears consistent with the lower end of investment grade risk.  \n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 237,
+ "out_tok": 300,
+ "usd": 0.000422,
+ "utc": "2026-07-10T14:12:32.257694+00:00"
+}

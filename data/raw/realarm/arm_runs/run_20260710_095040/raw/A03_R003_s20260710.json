@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R003",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows moderate profitability (EBIT margin ~22% and net margin ~9%), supporting its ability to generate earnings. However, leverage is relatively high (liabilities ~76% of assets, with equity ~24% of assets) and liquidity is weak (current ratio ~0.72), which increases refinancing and near-term obligations risk. Overall this aligns with a speculative grade in the lower BB range.  \nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 231,
+ "out_tok": 226,
+ "usd": 0.000329,
+ "utc": "2026-07-10T13:53:15.463027+00:00"
+}

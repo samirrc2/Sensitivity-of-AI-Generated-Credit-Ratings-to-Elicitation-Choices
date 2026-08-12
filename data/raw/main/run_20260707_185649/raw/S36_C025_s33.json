@@ -1,0 +1,44 @@
+{
+ "spec_id": "S36",
+ "item_id": "C025",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 33,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2026-04-23; do not use later information.\nProvided information:\n| Current ratio           | 1.39 |\n| Retained earnings       | 0M |\n| Current liabilities     | 22,085M |\n| Current assets          | 30,590M |\n| Shareholders' equity    | 21,312M |\n| Total liabilities       | 52,676M |\n| Total assets            | 73,988M |\n| EBIT / operating income | 886M |\n| Revenue                 | 9,143M |\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "Current ratio of 1.39 shows adequate but unexceptional liquidity. Leverage is high (total liabilities/assets = 71 percent) with equity/assets of only 29 percent and retained earnings of zero, indicating structural weakness and limited loss-absorption capacity. Positive but modest EBIT margin (9.7 percent) is insufficient to offset these balance-sheet risks, placing the credit firmly in the upper speculative-grade band.\nDECISION: B+",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 352,
+ "output_tokens": 87,
+ "cost_usd": 0.000657,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:46:51.467942+00:00",
+ "mode": "REAL"
+}

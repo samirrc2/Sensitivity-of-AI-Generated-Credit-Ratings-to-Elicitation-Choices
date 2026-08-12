@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C007",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits exceptionally strong financial performance with an annualized revenue of nearly $96 billion, a very high gross margin of 70%, and strong profitability (30% operating margin and $5.15 billion net income in Q3 alone). While the current ratio is relatively tight at 1.07 and total liabilities are $113.5 billion, the massive asset base of $192.8 billion, substantial retained earnings of over $167 billion, and immense cash-generation capacity support a highly secure, investment-grade credit profile. These characteristics are consistent with a very strong capacity to meet financial commitments, typical of a high-quality, low-risk issuer.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 290,
+ "out_tok": 149,
+ "usd": 0.001776,
+ "utc": "2026-07-10T14:33:50.075681+00:00"
+}

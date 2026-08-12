@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C020",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows modest liquidity with a current ratio of 0.91 (below 1), and balance-sheet leverage is relatively high (liabilities are ~74% of assets, with equity ~26% of assets). Operating profitability is decent (EBIT of 5,004 on revenue 36,381), but the weaker liquidity and leverage profile point to elevated credit risk.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 232,
+ "usd": 0.000337,
+ "utc": "2026-07-10T14:48:25.532575+00:00"
+}

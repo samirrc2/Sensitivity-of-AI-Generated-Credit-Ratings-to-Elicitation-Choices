@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R017",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows moderate financial performance with revenue of $1,446M, a strong operating margin of 23% ($336M), and positive net income of $183M. However, its balance sheet is highly leveraged with total liabilities of $4,411M relative to shareholders' equity of $2,393M (debt-to-equity or leverage profile is elevated, asset-to-equity ratio is around 2.84), and it maintains a relatively tight liquidity position with a current ratio of 1.35. These metrics reflect an investment-grade profile but with notable leverage, aligning with a solid lower-medium grade.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 232,
+ "out_tok": 148,
+ "usd": 0.00168,
+ "utc": "2026-07-10T14:09:25.912277+00:00"
+}

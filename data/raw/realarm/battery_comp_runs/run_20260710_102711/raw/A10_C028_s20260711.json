@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C028",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This issuer exhibits an exceptionally strong credit profile, characterized by massive scale (Revenue of $181.5B, Total Assets of $916.6B), robust profitability (operating income of $23.9B and net income of $30.3B), and a very conservative capital structure with a high equity cushion (Equity of $441.9B against Liabilities of $474.7B) and deep retained earnings ($280.8B). While the current ratio is relatively tight at 1.18x, the sheer absolute scale of cash generation, assets, and equity capitalization places this entity among the most creditworthy corporate issuers globally.\n\nDECISION: AA+",
+ "parsed_letter": "AA+",
+ "parsed_band": "SAFE",
+ "in_tok": 297,
+ "out_tok": 148,
+ "usd": 0.001778,
+ "utc": "2026-07-10T14:58:34.080276+00:00"
+}

@@ -1,0 +1,45 @@
+{
+ "spec_id": "S09",
+ "item_id": "D054",
+ "seed": 33,
+ "family": "directional",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "json",
+  "A6_fewshot": "2",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "You are a equity research analyst. Using only the information below and general knowledge predating 2026-03-05, give a 20-trading-day directional recommendation for the stock.\nValid answers (choose exactly one): BUY, HOLD, SELL.\nHere are two worked examples:\n- Information: Price action as of 2026-03-19: 1w +4.1%, 1m -5.5%, 3m -1.3%. Last close 109.85. 21d annualized realized volatility 35%. Position in trailing 63-day range: 24% (0%=low, 100%=high).\n  Answer: BUY\n- Information: Price action as of 2026-04-02: 1w -4.8%, 1m -8.3%, 3m -0.8%. Last close 201.40. 21d annualized realized volatility 23%. Position in trailing 63-day range: 46% (0%=low, 100%=high).\n  Answer: SELL\n\nCompany information (as of 2026-03-05):\n| Return 3m            | -9.0% |\n| Return 1m            | -3.4% |\n| Return 1w            | -4.6% |\n| Range position (63d) | 36% |\n| 21d realized vol     | 30% |\n| Last close           | 260.29 |\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\"decision\": \"SELL\", \"confidence\": 4, \"rationale\": \"Strong negative momentum across all timeframes (1w, 1m, 3m) and low range position indicate continued downward pressure.\"}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 399,
+ "output_tokens": 46,
+ "cost_usd": 0.000235,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:09:14.182027+00:00",
+ "mode": "REAL"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows moderate liquidity with a current ratio of 1.44 and solid operating profitability (EBIT of 2,660 on revenue of 19,133, ~14% margin). However, balance-sheet leverage appears high (total liabilities of 77,267 vs. shareholders\u2019 equity of 21,318), which increases loss-absorption risk in a downturn. Overall, this supports a speculative-grade rating near the investment/speculative boundary.  \n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 259,
+ "usd": 0.000372,
+ "utc": "2026-07-10T14:43:26.771862+00:00"
+}

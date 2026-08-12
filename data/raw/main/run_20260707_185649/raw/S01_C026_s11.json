@@ -1,0 +1,45 @@
+{
+ "spec_id": "S01",
+ "item_id": "C026",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 11,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2025-10-30. Act as a credit rating analyst.\n| Current ratio           | 1.27 |\n| Retained earnings       | 17,093M |\n| Current liabilities     | 28,136M |\n| Current assets          | 35,630M |\n| Shareholders' equity    | 18,552M |\n| Total liabilities       | 78,289M |\n| Total assets            | 96,889M |\n| EBIT / operating income | 3,639M |\n| Revenue                 | 12,222M |\nBased only on the above and knowledge predating 2025-10-30, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The company exhibits weak liquidity with a current ratio of 1.27, suggesting potential short-term challenges. Its high total liabilities relative to total assets (around 80.8%) and modest shareholders' equity indicate a heavily debt-financed structure and elevated financial risk, especially given the negative retained earnings. The EBIT to revenue margin of approximately 29.8% is healthy, but the overall leverage and negative retained earnings are concerning.\n\nDECISION: BB-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 284,
+ "output_tokens": 96,
+ "cost_usd": 0.000325,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T22:57:06.070402+00:00",
+ "mode": "REAL"
+}

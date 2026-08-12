@@ -1,0 +1,19 @@
+{
+ "spec_id": "A01",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB+\",\"confidence\":2,\"rationale\":\"Profitable but modest margins (operating 9%); weak liquidity (current ratio 0.59) increases refinancing risk despite positive equity and retained earnings.\"}",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 259,
+ "out_tok": 140,
+ "usd": 0.000227,
+ "utc": "2026-07-10T14:50:10.651086+00:00"
+}

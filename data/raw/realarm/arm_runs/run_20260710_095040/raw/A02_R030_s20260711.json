@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R030",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits solid profitability with an operating margin of 20% ($436M operating income on $2,153M revenue) and positive net income of $242M, alongside a moderate capital structure (debt/equity leverage indicated by equity of $3,858M against $7,452M in liabilities). However, the company faces near-term liquidity constraints as evidenced by a weak current ratio of 0.72 ($674M current assets against $932M current liabilities). These combined factors of strong operational performance balanced against tight short-term liquidity align with a stable investment-grade rating in the BBB category.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 236,
+ "out_tok": 145,
+ "usd": 0.001659,
+ "utc": "2026-07-10T14:24:02.320832+00:00"
+}

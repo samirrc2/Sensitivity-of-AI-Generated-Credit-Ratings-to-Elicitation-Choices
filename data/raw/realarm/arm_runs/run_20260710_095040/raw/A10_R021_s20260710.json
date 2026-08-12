@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R021",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial metrics, the company displays moderate profitability (7% operating margin, 4.3% net margin) and decent short-term liquidity (current ratio of 1.50), but exhibits a leveraged balance sheet with a total liabilities-to-equity ratio of approximately 1.49x ($1,148M / $773M). These figures point to a stable but non-investment grade profile, where the capacity to meet financial commitments is adequate but susceptible to adverse economic conditions. Therefore, the company best aligns with a speculative-grade rating in the double-B category.\n\nDECISION: BB",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 236,
+ "out_tok": 132,
+ "usd": 0.001542,
+ "utc": "2026-07-10T14:14:19.089509+00:00"
+}

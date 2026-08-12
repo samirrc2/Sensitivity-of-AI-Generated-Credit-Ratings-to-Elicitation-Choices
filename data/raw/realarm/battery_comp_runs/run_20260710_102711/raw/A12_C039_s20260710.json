@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"CCC\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage (Total Debt/Equity over 13x), working capital deficit (Current Ratio 0.83), and extremely low profitability (EBIT/Total Assets under 0.4%) indicate severe distress.\"\n}\n```",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 295,
+ "out_tok": 76,
+ "usd": 0.001127,
+ "utc": "2026-07-10T15:12:37.249766+00:00"
+}

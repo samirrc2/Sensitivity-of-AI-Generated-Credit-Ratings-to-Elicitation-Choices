@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":3,\"rationale\":\"Strong profitability (25% operating margin) but very weak liquidity (current ratio 0.42) and high leverage (equity ~9% of assets) drive a below-investment grade view.\"}",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 273,
+ "out_tok": 178,
+ "usd": 0.000277,
+ "utc": "2026-07-10T15:07:28.662471+00:00"
+}

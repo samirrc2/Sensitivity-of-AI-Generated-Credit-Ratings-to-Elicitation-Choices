@@ -1,0 +1,44 @@
+{
+ "spec_id": "S26",
+ "item_id": "C003",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 0.0,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2025-11-06. Act as a credit rating analyst.\n| Current ratio           | 1.32 |\n| Retained earnings       | 68,459M |\n| Current liabilities     | 12,009M |\n| Current assets          | 15,884M |\n| Shareholders' equity    | 64,923M |\n| Total liabilities       | 57,549M |\n| Total assets            | 122,472M |\n| EBIT / operating income | 2,702M |\n| Revenue                 | 14,969M |\nBased only on the above and knowledge predating 2025-11-06, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The provided data show a large, mature company with moderate leverage (total liabilities/assets of ~47%), adequate liquidity (current ratio of 1.32), strong historical profitability (retained earnings of 68.5B, or ~56% of assets), and a healthy EBIT margin (~18%). These metrics collectively indicate low-to-moderate credit risk with no signs of distress, consistent with a mid-investment-grade profile.\nDECISION: BBB+\n```",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 367,
+ "output_tokens": 91,
+ "cost_usd": 0.000686,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:32:43.683565+00:00",
+ "mode": "REAL"
+}

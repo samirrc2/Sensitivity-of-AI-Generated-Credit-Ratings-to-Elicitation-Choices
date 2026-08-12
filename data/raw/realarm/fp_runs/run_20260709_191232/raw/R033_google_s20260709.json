@@ -1,0 +1,12 @@
+{
+ "item_id": "R033",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "ok": true,
+ "raw_response": "GUESS: Hasbro (HAS)",
+ "in_tok": 194,
+ "out_tok": 7,
+ "usd": 0.000354,
+ "utc": "2026-07-09T23:23:37.053112+00:00"
+}

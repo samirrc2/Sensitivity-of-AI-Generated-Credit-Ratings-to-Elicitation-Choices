@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid liquidity (current ratio 2.29) and a strong balance-sheet position (equity of 33,867M versus total assets of 57,121M, with total liabilities of 23,079M). It also has very strong operating profitability for the provided period (EBIT of 3,688M on revenue of 6,571M), supporting a high investment-grade credit profile.  \n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 233,
+ "out_tok": 245,
+ "usd": 0.000353,
+ "utc": "2026-07-10T14:36:39.438123+00:00"
+}

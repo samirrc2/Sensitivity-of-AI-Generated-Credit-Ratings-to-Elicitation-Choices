@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R015",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Liquidity appears solid (current ratio \u2248 2.85) and leverage is moderate (equity \u2248 41% of assets), but profitability is severely impaired at the operating level, with EBIT/operating income of **-988M** against **2,325M** revenue. This indicates ongoing operating stress that is not fully offset by positive net income, supporting a speculative-grade view.  \n\nDECISION: B+",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 228,
+ "out_tok": 248,
+ "usd": 0.000356,
+ "utc": "2026-07-10T14:07:22.821350+00:00"
+}

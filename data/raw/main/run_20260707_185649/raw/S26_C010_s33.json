@@ -1,0 +1,44 @@
+{
+ "spec_id": "S26",
+ "item_id": "C010",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 0.0,
+   "seed": 33,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-02-24. Act as a credit rating analyst.\n| Current ratio           | 1.92 |\n| Retained earnings       | 29,765M |\n| Current liabilities     | 3,702M |\n| Current assets          | 7,091M |\n| Shareholders' equity    | 29,833M |\n| Total liabilities       | 21,966M |\n| Total assets            | 51,799M |\n| EBIT / operating income | 2,489M |\n| Revenue                 | 5,638M |\nBased only on the above and knowledge predating 2026-02-24, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The provided metrics indicate a large, mature company with strong liquidity (current ratio of 1.92), low leverage (total liabilities at only 42% of assets and well below equity), and exceptional profitability (EBIT margin near 44%). These factors, combined with the very large retained-earnings balance, are consistent with upper-tier investment-grade credit quality but fall short of the near-perfect resilience required for AAA.\nDECISION: AA-\n(The rating uses pre-2026 rating-agency criteria and ratio benchmarks for industrials/utilities; the absence of interest-coverage or cash-flow data prevents a more granular distinction.)",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 367,
+ "output_tokens": 121,
+ "cost_usd": 0.000761,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:32:56.187153+00:00",
+ "mode": "REAL"
+}

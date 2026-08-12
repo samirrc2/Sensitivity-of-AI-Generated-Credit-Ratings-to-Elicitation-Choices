@@ -1,0 +1,567 @@
+{
+ "title": "Garden of Forking Prompts \u2014 Phase B specification grid",
+ "axes": {
+  "A1_provider": {
+   "levels": [
+    "openai",
+    "google",
+    "xai"
+   ],
+   "note": "3 providers; xAI replaces pre-registered Anthropic (key unavailable) \u2014 deviation A4"
+  },
+  "A2_version": {
+   "levels": [
+    "current",
+    "prior"
+   ],
+   "note": "2 pinned model snapshots per provider (see collect.py MODELS)"
+  },
+  "A3_temperature": {
+   "levels": [
+    "0.0",
+    "1.0"
+   ],
+   "note": "requested; EFFECTIVE temperature logged from response metadata (deviation: reasoning models drop temp=0)"
+  },
+  "A4_paraphrase": {
+   "levels": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "note": "3 frozen semantically-equivalent templates (paraphrase_templates.json)"
+  },
+  "A5_format": {
+   "levels": [
+    "json",
+    "freetext"
+   ]
+  },
+  "A6_fewshot": {
+   "levels": [
+    "0",
+    "2"
+   ]
+  },
+  "A7_presentation": {
+   "levels": [
+    "L0 (prose,original)",
+    "L1 (table,reversed)"
+   ]
+  },
+  "A8_parsing": {
+   "levels": [
+    "strict",
+    "lenient",
+    "tolerant"
+   ],
+   "note": "POST-HOC on stored text; not a collection axis"
+  }
+ },
+ "full_factorial_A1toA7": 288,
+ "fraction": {
+  "n_runs": 48,
+  "type": "balance-constrained D-optimal fraction (main-effects model, effect-coded)",
+  "generator": "design.py (seed 20260707): every factor held marginally balanced (3-level 16/16/16, 2-level 24/24); log|X'X| of the effect-coded MAIN-EFFECTS model maximized by within-column swap hill-climbing, 40 random restarts. anthropic->xai categorical relabel post-generation (deviation A4).",
+  "resolution_proof": {
+   "note": "A globally strength-2-orthogonal array for two 3-level + five 2-level factors needs N divisible by 36; 48 cannot be globally orthogonal, so resolution is REPORTED not assumed.",
+   "main_effect_max_offdiag_corr": 0.0541,
+   "main_x_2FI_max_abs_corr": 0.3536,
+   "logdet_XtX": 39.2795,
+   "reading": "main effects mutually orthogonal (max |r|=0.054); main x two-factor-interaction aliasing up to 0.354 -> only low-alias 2FIs estimable; variance decomposition read main-effects-first"
+  }
+ },
+ "grid": {
+  "n_specs": 48,
+  "n_items": 90,
+  "n_seeds": 3,
+  "seeds": [
+   11,
+   22,
+   33
+  ],
+  "total_calls": 12960
+ },
+ "specs": [
+  {
+   "spec_id": "S01",
+   "A1_provider": "google",
+   "A2_version": "prior",
+   "A3_temperature": "1.0",
+   "A4_paraphrase": "P3",
+   "A5_format": "freetext",
+   "A6_fewshot": "0",
+   "A7_presentation": "L1"
+  },
+  {
+   "spec_id": "S02",
+   "A1_provider": "google",
+   "A2_version": "prior",
+   "A3_temperature": "1.0",
+   "A4_paraphrase": "P3",
+   "A5_format": "freetext",
+   "A6_fewshot": "2",
+   "A7_presentation": "L0"
+  },
+  {
+   "spec_id": "S03",
+   "A1_provider": "xai",
+   "A2_version": "prior",
+   "A3_temperature": "0.0",
+   "A4_paraphrase": "P1",
+   "A5_format": "freetext",
+   "A6_fewshot": "0",
+   "A7_presentation": "L1"
+  },
+  {
+   "spec_id": "S04",
+   "A1_provider": "xai",
+   "A2_version": "current",
+   "A3_temperature": "0.0",
+   "A4_paraphrase": "P2",
+   "A5_format": "freetext",
+   "A6_fewshot": "2",
+   "A7_presentation": "L1"
+  },
+  {
+   "spec_id": "S05",
+   "A1_provider": "google",
+   "A2_version": "current",
+   "A3_temperature": "1.0",
+   "A4_paraphrase": "P1",
+   "A5_format": "freetext",
+   "A6_fewshot": "0",
+   "A7_presentation": "L0"
+  },
+  {
+   "spec_id": "S06",
+   "A1_provider": "xai",
+   "A2_version": "current",
+   "A3_temperature": "1.0",
+   "A4_paraphrase": "P1",
+   "A5_format": "json",
+   "A6_fewshot": "2",
+   "A7_presentation": "L1"
+  },
+  {
+   "spec_id": "S07",
+   "A1_provider": "openai",
+   "A2_version": "prior",
+   "A3_temperature": "0.0",
+   "A4_paraphrase": "P2",
+   "A5_format": "freetext",
+   "A6_fewshot": "2",
+   "A7_presentation": "L0"
+  },
+  {
+   "spec_id": "S08",
+   "A1_provider": "openai",
+   "A2_version": "prior",
+   "A3_temperature": "1.0",
+   "A4_paraphrase": "P1",
+   "A5_format": "json",
+   "A6_fewshot": "0",
+   "A7_presentation": "L1"
+  },
+  {
+   "spec_id": "S09",
+   "A1_provider": "google",
+   "A2_version": "prior",
+   "A3_temperature": "1.0",
+   "A4_paraphrase": "P1",
+   "A5_format": "json",
+   "A6_fewshot": "2",
+   "A7_presentation": "L1"
+  },
+  {
+   "spec_id": "S10",
+   "A1_provider": "google",
+   "A2_version": "current",
+   "A3_temperature": "0.0",
+   "A4_paraphrase": "P3",
+   "A5_format": "freetext",
+   "A6_fewshot": "2",
+   "A7_presentation": "L1"
+  },
+  {
+   "spec_id": "S11",
+   "A1_provider": "google",
+   "A2_version": "current",
+   "A3_temperature": "1.0",
+   "A4_paraphrase": "P1",
+   "A5_format": "json",
+   "A6_fewshot": "0",
+   "A7_presentation": "L0"
+  },
+  {
+   "spec_id": "S12",
+   "A1_provider": "google",
+   "A2_version": "current",
+   "A3_temperature": "0.0",
+   "A4_paraphrase": "P1",
+   "A5_format": "freetext",
+   "A6_fewshot": "2",
+   "A7_presentation": "L1"
+  },
+  {
+   "spec_id": "S13",
+   "A1_provider": "openai",
+   "A2_version": "current",
+   "A3_temperature": "1.0",
+   "A4_paraphrase": "P3",
+   "A5_format": "json",
+   "A6_fewshot": "0",
+   "A7_presentation": "L0"
+  },
+  {
+   "spec_id": "S14",
+   "A1_provider": "google",
+   "A2_version": "current",
+   "A3_temperature": "1.0",
+   "A4_paraphrase": "P2",
+   "A5_format": "freetext",
+   "A6_fewshot": "0",
+   "A7_presentation": "L0"
+  },
+  {
+   "spec_id": "S15",
+   "A1_provider": "openai",
+   "A2_version": "prior",
+   "A3_temperature": "1.0",
+   "A4_paraphrase": "P1",
+   "A5_format": "freetext",
+   "A6_fewshot": "2",
+   "A7_presentation": "L0"
+  },
+  {
+   "spec_id": "S16",
+   "A1_provider": "xai",
+   "A2_version": "prior",
+   "A3_temperature": "1.0",
+   "A4_paraphrase": "P3",
+   "A5_format": "freetext",
+   "A6_fewshot": "0",
+   "A7_presentation": "L0"
+  },
+  {
+   "spec_id": "S17",
+   "A1_provider": "openai",
+   "A2_version": "prior",
+   "A3_temperature": "1.0",
+   "A4_paraphrase": "P2",
+   "A5_format": "freetext",
+   "A6_fewshot": "0",
+   "A7_presentation": "L1"
+  },
+  {
+   "spec_id": "S18",
+   "A1_provider": "openai",
+   "A2_version": "current",
+   "A3_temperature": "0.0",
+   "A4_paraphrase": "P3",
+   "A5_format": "json",
+   "A6_fewshot": "0",
+   "A7_presentation": "L1"
+  },
+  {
+   "spec_id": "S19",
+   "A1_provider": "google",
+   "A2_version": "prior",
+   "A3_temperature": "1.0",
+   "A4_paraphrase": "P3",
+   "A5_format": "json",
+   "A6_fewshot": "2",
+   "A7_presentation": "L0"
+  },
+  {
+   "spec_id": "S20",
+   "A1_provider": "xai",
+   "A2_version": "prior",
+   "A3_temperature": "0.0",
+   "A4_paraphrase": "P1",
+   "A5_format": "freetext",
+   "A6_fewshot": "2",
+   "A7_presentation": "L0"
+  },
+  {
+   "spec_id": "S21",
+   "A1_provider": "openai",
+   "A2_version": "current",
+   "A3_temperature": "0.0",
+   "A4_paraphrase": "P3",
+   "A5_format": "freetext",
+   "A6_fewshot": "2",
+   "A7_presentation": "L0"
+  },
+  {
+   "spec_id": "S22",
+   "A1_provider": "openai",
+   "A2_version": "current",
+   "A3_temperature": "1.0",
+   "A4_paraphrase": "P2",
+   "A5_format": "json",
+   "A6_fewshot": "2",
+   "A7_presentation": "L1"
+  },
+  {
+   "spec_id": "S23",
+   "A1_provider": "openai",
+   "A2_version": "current",
+   "A3_temperature": "1.0",
+   "A4_paraphrase": "P2",
+   "A5_format": "json",
+   "A6_fewshot": "2",
+   "A7_presentation": "L0"
+  },
+  {
+   "spec_id": "S24",
+   "A1_provider": "google",
+   "A2_version": "prior",
+   "A3_temperature": "0.0",
+   "A4_paraphrase": "P2",
+   "A5_format": "json",
+   "A6_fewshot": "2",
+   "A7_presentation": "L1"
+  },
+  {
+   "spec_id": "S25",
+   "A1_provider": "xai",
+   "A2_version": "prior",
+   "A3_temperature": "0.0",
+   "A4_paraphrase": "P2",
+   "A5_format": "json",
+   "A6_fewshot": "0",
+   "A7_presentation": "L0"
+  },
+  {
+   "spec_id": "S26",
+   "A1_provider": "xai",
+   "A2_version": "current",
+   "A3_temperature": "0.0",
+   "A4_paraphrase": "P3",
+   "A5_format": "freetext",
+   "A6_fewshot": "0",
+   "A7_presentation": "L1"
+  },
+  {
+   "spec_id": "S27",
+   "A1_provider": "xai",
+   "A2_version": "current",
+   "A3_temperature": "1.0",
+   "A4_paraphrase": "P2",
+   "A5_format": "freetext",
+   "A6_fewshot": "2",
+   "A7_presentation": "L0"
+  },
+  {
+   "spec_id": "S28",
+   "A1_provider": "openai",
+   "A2_version": "current",
+   "A3_temperature": "0.0",
+   "A4_paraphrase": "P1",
+   "A5_format": "json",
+   "A6_fewshot": "0",
+   "A7_presentation": "L0"
+  },
+  {
+   "spec_id": "S29",
+   "A1_provider": "openai",
+   "A2_version": "current",
+   "A3_temperature": "0.0",
+   "A4_paraphrase": "P3",
+   "A5_format": "json",
+   "A6_fewshot": "2",
+   "A7_presentation": "L1"
+  },
+  {
+   "spec_id": "S30",
+   "A1_provider": "xai",
+   "A2_version": "current",
+   "A3_temperature": "1.0",
+   "A4_paraphrase": "P1",
+   "A5_format": "freetext",
+   "A6_fewshot": "0",
+   "A7_presentation": "L0"
+  },
+  {
+   "spec_id": "S31",
+   "A1_provider": "openai",
+   "A2_version": "prior",
+   "A3_temperature": "0.0",
+   "A4_paraphrase": "P2",
+   "A5_format": "freetext",
+   "A6_fewshot": "0",
+   "A7_presentation": "L1"
+  },
+  {
+   "spec_id": "S32",
+   "A1_provider": "xai",
+   "A2_version": "prior",
+   "A3_temperature": "0.0",
+   "A4_paraphrase": "P1",
+   "A5_format": "json",
+   "A6_fewshot": "2",
+   "A7_presentation": "L0"
+  },
+  {
+   "spec_id": "S33",
+   "A1_provider": "google",
+   "A2_version": "prior",
+   "A3_temperature": "1.0",
+   "A4_paraphrase": "P2",
+   "A5_format": "json",
+   "A6_fewshot": "0",
+   "A7_presentation": "L1"
+  },
+  {
+   "spec_id": "S34",
+   "A1_provider": "google",
+   "A2_version": "prior",
+   "A3_temperature": "0.0",
+   "A4_paraphrase": "P3",
+   "A5_format": "freetext",
+   "A6_fewshot": "0",
+   "A7_presentation": "L1"
+  },
+  {
+   "spec_id": "S35",
+   "A1_provider": "openai",
+   "A2_version": "current",
+   "A3_temperature": "1.0",
+   "A4_paraphrase": "P1",
+   "A5_format": "freetext",
+   "A6_fewshot": "2",
+   "A7_presentation": "L1"
+  },
+  {
+   "spec_id": "S36",
+   "A1_provider": "xai",
+   "A2_version": "current",
+   "A3_temperature": "1.0",
+   "A4_paraphrase": "P2",
+   "A5_format": "freetext",
+   "A6_fewshot": "0",
+   "A7_presentation": "L1"
+  },
+  {
+   "spec_id": "S37",
+   "A1_provider": "xai",
+   "A2_version": "current",
+   "A3_temperature": "1.0",
+   "A4_paraphrase": "P3",
+   "A5_format": "json",
+   "A6_fewshot": "0",
+   "A7_presentation": "L1"
+  },
+  {
+   "spec_id": "S38",
+   "A1_provider": "openai",
+   "A2_version": "prior",
+   "A3_temperature": "0.0",
+   "A4_paraphrase": "P1",
+   "A5_format": "freetext",
+   "A6_fewshot": "0",
+   "A7_presentation": "L1"
+  },
+  {
+   "spec_id": "S39",
+   "A1_provider": "openai",
+   "A2_version": "prior",
+   "A3_temperature": "1.0",
+   "A4_paraphrase": "P3",
+   "A5_format": "freetext",
+   "A6_fewshot": "2",
+   "A7_presentation": "L0"
+  },
+  {
+   "spec_id": "S40",
+   "A1_provider": "xai",
+   "A2_version": "current",
+   "A3_temperature": "0.0",
+   "A4_paraphrase": "P2",
+   "A5_format": "json",
+   "A6_fewshot": "0",
+   "A7_presentation": "L0"
+  },
+  {
+   "spec_id": "S41",
+   "A1_provider": "google",
+   "A2_version": "prior",
+   "A3_temperature": "0.0",
+   "A4_paraphrase": "P2",
+   "A5_format": "json",
+   "A6_fewshot": "0",
+   "A7_presentation": "L0"
+  },
+  {
+   "spec_id": "S42",
+   "A1_provider": "openai",
+   "A2_version": "prior",
+   "A3_temperature": "0.0",
+   "A4_paraphrase": "P1",
+   "A5_format": "json",
+   "A6_fewshot": "0",
+   "A7_presentation": "L0"
+  },
+  {
+   "spec_id": "S43",
+   "A1_provider": "google",
+   "A2_version": "current",
+   "A3_temperature": "0.0",
+   "A4_paraphrase": "P1",
+   "A5_format": "json",
+   "A6_fewshot": "2",
+   "A7_presentation": "L1"
+  },
+  {
+   "spec_id": "S44",
+   "A1_provider": "google",
+   "A2_version": "current",
+   "A3_temperature": "0.0",
+   "A4_paraphrase": "P2",
+   "A5_format": "freetext",
+   "A6_fewshot": "2",
+   "A7_presentation": "L0"
+  },
+  {
+   "spec_id": "S45",
+   "A1_provider": "xai",
+   "A2_version": "prior",
+   "A3_temperature": "1.0",
+   "A4_paraphrase": "P2",
+   "A5_format": "json",
+   "A6_fewshot": "2",
+   "A7_presentation": "L1"
+  },
+  {
+   "spec_id": "S46",
+   "A1_provider": "google",
+   "A2_version": "current",
+   "A3_temperature": "0.0",
+   "A4_paraphrase": "P3",
+   "A5_format": "json",
+   "A6_fewshot": "0",
+   "A7_presentation": "L0"
+  },
+  {
+   "spec_id": "S47",
+   "A1_provider": "xai",
+   "A2_version": "prior",
+   "A3_temperature": "0.0",
+   "A4_paraphrase": "P3",
+   "A5_format": "json",
+   "A6_fewshot": "2",
+   "A7_presentation": "L0"
+  },
+  {
+   "spec_id": "S48",
+   "A1_provider": "xai",
+   "A2_version": "prior",
+   "A3_temperature": "1.0",
+   "A4_paraphrase": "P3",
+   "A5_format": "json",
+   "A6_fewshot": "2",
+   "A7_presentation": "L1"
+  }
+ ]
+}

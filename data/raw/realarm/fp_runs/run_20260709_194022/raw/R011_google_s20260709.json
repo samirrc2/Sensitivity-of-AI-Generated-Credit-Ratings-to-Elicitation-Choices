@@ -1,0 +1,12 @@
+{
+ "item_id": "R011",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "ok": true,
+ "raw_response": "To find the specific company, we can analyze the unique financial footprint provided:\n- **Revenue:** $5,051M\n- **Operating Income:** $1,461M (29% margin)\n- **Net Income:** $396M (indicating high non-operating expenses, likely interest expense from high debt)\n- **Total Assets:** $21,099M\n- **Total Liabilities:** $19,031M\n- **Shareholders' Equity:** $2,069M\n- **Current Assets:** $1,066M vs. **Current Liabilities:** $5,104M (current ratio of 0.21, reflecting massive short-term debt maturities or current portion of long-term debt)\n- **Retained Earnings:** -$5,211M (accumulated deficit, common in highly leveraged buyouts or companies that went through restructuring/spin-offs)\n\nThis profile (high operating margin, massive debt load relative to assets/equity, huge current liabilities compared to current assets, and a massive accumulated deficit) strongly points to a highly leveraged infrastructure, utility, or real estate/gaming company. \n\nSpecifically, this matches the FY2023 financial results of **Vici Properties Inc.** (NYSE: VICI), a real estate investment trust specializing in casino properties.\n\nGUESS: VICI",
+ "in_tok": 192,
+ "out_tok": 294,
+ "usd": 0.002934,
+ "utc": "2026-07-09T23:43:53.135068+00:00"
+}

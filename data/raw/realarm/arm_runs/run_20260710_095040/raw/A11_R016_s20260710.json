@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R016",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows strong liquidity (current assets of 1,131M vs. current liabilities of 354M; current ratio ~3.2) and moderate leverage (total liabilities 1,114M vs. total assets 2,038M). However, profitability is weak with material operating and net losses (EBIT -127M, net income -214M), which reduces credit stability and raises refinancing/earnings risk.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 252,
+ "usd": 0.000362,
+ "utc": "2026-07-10T14:08:47.913619+00:00"
+}

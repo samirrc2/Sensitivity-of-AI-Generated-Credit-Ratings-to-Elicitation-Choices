@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R020",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits solid profitability with an 18% operating margin and $537M in operating income, backed by a substantial asset base of $12.7B and positive equity of $4.1B. However, its financial profile is constrained by a relatively high leverage ratio (total liabilities-to-equity of approximately 2.1x) and a weak short-term liquidity position, as evidenced by a current ratio of 0.83 ($1,107M in current assets against $1,333M in current liabilities). These balanced credit factors\u2014healthy profitability offset by elevated leverage and tight liquidity\u2014are characteristic of an investment-grade issuer at the lower end of the spectrum.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 240,
+ "out_tok": 154,
+ "usd": 0.001746,
+ "utc": "2026-07-10T14:12:29.579597+00:00"
+}

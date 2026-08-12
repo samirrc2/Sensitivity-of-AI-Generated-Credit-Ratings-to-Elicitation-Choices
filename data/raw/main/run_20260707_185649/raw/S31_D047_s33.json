@@ -1,0 +1,43 @@
+{
+ "spec_id": "S31",
+ "item_id": "D047",
+ "seed": 33,
+ "family": "directional",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 0.0,
+ "temperature_applied": false,
+ "effective_temperature": null,
+ "call_meta": {
+  "signature": "mct+seed+eff",
+  "temperature_applied": false,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "seed": 33,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Task: give a 20-trading-day directional recommendation for the stock.\nRespond with exactly one of: BUY, HOLD, SELL. Use only the figures provided and knowledge available on or before 2026-03-19; do not use later information.\nProvided information:\n| Return 3m            | +4.9% |\n| Return 1m            | -4.4% |\n| Return 1w            | -3.4% |\n| Range position (63d) | 44% |\n| 21d realized vol     | 24% |\n| Last close           | 121.09 |\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock shows mixed short-term momentum with recent declines (1w and 1m negatives) but a positive 3-month return, indicating an uncertain near-term path. The 44% range position suggests the price is below the midpoint of its recent range, offering potential for mean reversion if support holds. Overall, indicators are not decisively bullish or bearish for a 20-day horizon, so a cautious stance is warranted.\n\nDECISION: HOLD",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 161,
+ "output_tokens": 483,
+ "cost_usd": 0.000636,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:39:18.728179+00:00",
+ "mode": "REAL"
+}

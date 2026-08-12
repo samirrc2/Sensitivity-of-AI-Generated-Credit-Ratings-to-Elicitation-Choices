@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB+\",\"confidence\":2,\"rationale\":\"Strong profitability (30% op margin) but high leverage (liabilities/assets ~81%) and modest liquidity (current ratio 1.27) constrain credit strength.\"}",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 265,
+ "out_tok": 172,
+ "usd": 0.000268,
+ "utc": "2026-07-10T14:56:17.845436+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R005",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid balance-sheet health with positive retained earnings, meaningful shareholders\u2019 equity (3,435M vs. total liabilities of 2,528M), and reasonable liquidity (current ratio \u2248 1.75). Profitability is positive (net income 209M on revenue 2,101M), though coverage metrics are limited due to missing interest expense, keeping the rating from the higher investment-grade tiers.  \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 235,
+ "out_tok": 227,
+ "usd": 0.000331,
+ "utc": "2026-07-10T13:55:31.116189+00:00"
+}

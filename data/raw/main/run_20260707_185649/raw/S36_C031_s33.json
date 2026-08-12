@@ -1,0 +1,44 @@
+{
+ "spec_id": "S36",
+ "item_id": "C031",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 33,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2026-04-29; do not use later information.\nProvided information:\n| Current ratio           | 0.34 |\n| Retained earnings       | 232,459M |\n| Current liabilities     | 1,775,239M |\n| Current assets          | 612,094M |\n| Shareholders' equity    | 178,396M |\n| Total liabilities       | 2,025,439M |\n| Total assets            | 2,205,752M |\n| EBIT / operating income | 5,851M |\n| Revenue                 | 31,795M |\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The provided figures show critically weak liquidity (current ratio of 0.34) and extreme leverage (total liabilities/total assets \u2248 91.8%, equity only \u2248 8% of assets), which are only partially offset by positive retained earnings and an 18% operating margin. These metrics place the issuer firmly in speculative-grade territory, most consistent with the lower end of the BB category once typical adjustments for size and earnings stability are considered.\nDECISION: BB-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 362,
+ "output_tokens": 93,
+ "cost_usd": 0.000685,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:47:06.972554+00:00",
+ "mode": "REAL"
+}

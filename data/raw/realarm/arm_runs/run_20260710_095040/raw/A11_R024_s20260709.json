@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R024",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows moderate profitability (EBIT margin ~13.5%, net margin ~9.4%), but leverage is high with liabilities at ~82% of assets and relatively thin equity (~18% of total assets). Liquidity is also weak (current ratio ~0.91), indicating limited near-term coverage. Overall, this supports a **BB-** credit profile with meaningful refinancing/liquidity risk.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 235,
+ "out_tok": 210,
+ "usd": 0.00031,
+ "utc": "2026-07-10T14:17:49.738266+00:00"
+}

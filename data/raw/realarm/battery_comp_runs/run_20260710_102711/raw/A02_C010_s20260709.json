@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C010",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates exceptionally strong financial health, characterized by high profitability (44% operating margin on $5.6B in revenue), conservative leverage with a robust capital structure (shareholders' equity of $29.8B against total liabilities of $22.0B, and total assets of $51.8B), and solid short-term liquidity (current ratio of 1.92). The massive retained earnings of nearly $29.8B further highlight a long track record of profitable operations and capital preservation. These characteristics align with an extremely low credit risk profile typical of high-quality, investment-grade issuers.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 281,
+ "out_tok": 136,
+ "usd": 0.001646,
+ "utc": "2026-07-10T14:37:14.433989+00:00"
+}

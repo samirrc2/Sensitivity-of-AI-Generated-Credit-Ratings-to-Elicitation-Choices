@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R007",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows strong liquidity with a current ratio of about **3.4x** (current assets 3,754M vs. current liabilities 1,113M) and a solid equity base (shareholders\u2019 equity **5,044M** vs. total liabilities **5,238M**). Profitability is adequate (EBIT **704M**, net income **380M**) and leverage appears moderate given total assets of **10,819M**. Overall, credit quality fits the **upper investment-grade** range but without evidence of exceptional cushion.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 239,
+ "out_tok": 269,
+ "usd": 0.000384,
+ "utc": "2026-07-10T13:58:40.992097+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R020",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows moderate profitability (EBIT margin ~18%) and substantial equity (shareholders\u2019 equity of 4,112M) but also elevated leverage (total liabilities 8,577M vs. total assets 12,689M; liabilities/asset ~68%). Liquidity appears weak with current assets (1,107M) below current liabilities (1,333M), increasing refinancing/near-term stress risk.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 239,
+ "out_tok": 211,
+ "usd": 0.000312,
+ "utc": "2026-07-10T14:13:13.927345+00:00"
+}

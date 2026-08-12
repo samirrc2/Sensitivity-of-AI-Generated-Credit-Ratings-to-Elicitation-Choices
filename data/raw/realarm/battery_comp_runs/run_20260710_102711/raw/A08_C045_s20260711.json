@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Strong balance sheet with substantial equity and retained earnings, but weaker short-term liquidity (current ratio 0.53) and high total liabilities.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 272,
+ "out_tok": 53,
+ "usd": 0.000885,
+ "utc": "2026-07-10T15:19:36.137300+00:00"
+}

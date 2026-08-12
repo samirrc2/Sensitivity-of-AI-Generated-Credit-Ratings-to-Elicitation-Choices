@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R020",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's financial profile reveals solid profitability with an 18% operating margin and $293M in net income, but this is offset by a highly leveraged balance sheet (total liabilities of $8,577M against equity of $4,112M, resulting in a debt-to-equity ratio over 2.0x) and weak short-term liquidity, as evidenced by a current ratio of 0.83 ($1,107M in current assets vs $1,333M in current liabilities). While the company is consistently profitable, the elevated leverage and working capital deficit pose moderate credit risks, placing it at the lower end of investment grade. Consequently, the issuer is assigned a BBB- rating, reflecting adequate capacity to meet financial commitments but subject to adverse economic conditions.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 241,
+ "out_tok": 179,
+ "usd": 0.001972,
+ "utc": "2026-07-10T14:13:11.773388+00:00"
+}

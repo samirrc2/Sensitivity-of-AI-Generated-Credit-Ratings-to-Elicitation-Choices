@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R021",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows moderate leverage (total liabilities of 1,148M versus total assets of 1,923M; liabilities/assets \u2248 0.60) with decent near-term liquidity (current ratio \u2248 526M/351M \u2248 1.50). Profitability is positive but not particularly strong (net margin \u2248 90M/2,083M \u2248 4.3%; EBIT margin \u2248 7.3%), suggesting solid but not high-grade credit quality.  \nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 222,
+ "out_tok": 238,
+ "usd": 0.000342,
+ "utc": "2026-07-10T14:14:02.101556+00:00"
+}

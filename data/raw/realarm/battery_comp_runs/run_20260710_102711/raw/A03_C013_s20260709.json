@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows moderate liquidity (current ratio 1.53) and solid internal capital accumulation (high retained earnings with equity of 51,940M). Profitability appears reasonably strong with EBIT of 1,863M on revenue of 11,005M, but the balance sheet carries moderate leverage (total liabilities 61,341M vs. total assets 113,281M), limiting higher rating strength.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 240,
+ "out_tok": 204,
+ "usd": 0.000303,
+ "utc": "2026-07-10T14:40:29.090837+00:00"
+}

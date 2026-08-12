@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R021",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Liquidity appears adequate (current ratio \u2248 1.50), and the balance sheet shows solid equity support (equity/assets \u2248 40%). However, profitability is modest (net margin \u2248 4% and EBIT margin \u2248 7%), with fairly meaningful leverage (liabilities/equity \u2248 1.5), which tempers credit strength.  \n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 231,
+ "out_tok": 232,
+ "usd": 0.000336,
+ "utc": "2026-07-10T14:14:25.466845+00:00"
+}

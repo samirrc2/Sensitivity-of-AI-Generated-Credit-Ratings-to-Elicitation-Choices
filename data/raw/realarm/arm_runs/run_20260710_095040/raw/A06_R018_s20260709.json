@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R018",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits strong financial metrics, with significant revenue of $18,859M, an operating margin of 8%, a solid current ratio of 1.44, and a healthy capital structure where shareholders' equity ($7,580M) covers more than half of the total liabilities ($14,602M). While the slightly negative retained earnings (-$398M) suggest past restructuring or historical deficits, the strong current profitability and substantial asset base support a solid investment-grade profile.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 236,
+ "out_tok": 114,
+ "usd": 0.00138,
+ "utc": "2026-07-10T14:10:30.069073+00:00"
+}

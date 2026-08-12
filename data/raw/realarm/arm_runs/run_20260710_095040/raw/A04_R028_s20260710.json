@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R028",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Moderate leverage (62% Liabilities/Assets), solid interest coverage (EBIT 539M), adequate liquidity (Current Ratio 1.28), and consistent profitability support a solid investment-grade rating.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 272,
+ "out_tok": 67,
+ "usd": 0.001011,
+ "utc": "2026-07-10T14:21:44.861346+00:00"
+}

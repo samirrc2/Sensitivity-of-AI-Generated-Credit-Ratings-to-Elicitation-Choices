@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R029",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's financial profile reveals a moderate operating margin of 9% and a current ratio of 1.30, indicating adequate but tight short-term liquidity. However, there is a severe discrepancy in the balance sheet figures provided (Total Assets of 11,798M vs. the sum of Liabilities and Equity of only 3,353M), which introduces significant reporting risk or capital structure instability. Given the modest profitability, tight liquidity, and accounting inconsistency, the issuer represents a moderate credit risk consistent with a borderline investment-grade rating.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 243,
+ "out_tok": 125,
+ "usd": 0.00149,
+ "utc": "2026-07-10T14:23:38.343381+00:00"
+}

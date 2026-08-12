@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R031",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows relatively high leverage (total liabilities of 7,240M vs equity of 2,866M) and weak liquidity (current ratio \u2248 0.55, with current assets of 475M vs current liabilities of 857M). While operating profitability appears reasonable (EBIT of 371M on revenue of 1,823M), net income is modest (67M), indicating limited earnings cushion relative to the balance sheet.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 244,
+ "usd": 0.000352,
+ "utc": "2026-07-10T14:26:27.030761+00:00"
+}

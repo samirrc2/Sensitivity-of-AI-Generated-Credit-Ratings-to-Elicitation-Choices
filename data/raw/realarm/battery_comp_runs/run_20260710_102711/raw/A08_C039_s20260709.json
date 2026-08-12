@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"CCC\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage (93% debt/assets), low current ratio, extremely weak EBIT relative to huge liabilities ($1.68T) indicate severe distress.\"\n}\n```",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 287,
+ "out_tok": 63,
+ "usd": 0.000998,
+ "utc": "2026-07-10T15:12:11.851210+00:00"
+}

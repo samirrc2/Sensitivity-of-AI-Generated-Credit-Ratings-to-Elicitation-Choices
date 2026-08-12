@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"CCC\",\n  \"confidence\": 4,\n  \"rationale\": \"Negative equity, severe working capital deficit (current ratio 0.27), high leverage, and massive accumulated deficit indicate extreme default risk.\"\n}\n```",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 274,
+ "out_tok": 59,
+ "usd": 0.000942,
+ "utc": "2026-07-10T15:17:47.364464+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A01",
+ "item_id": "R027",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB-\",\"confidence\":2,\"rationale\":\"Moderate leverage (liabilities/assets ~59%) and low profitability (operating margin 6%, net margin ~0.8%); liquidity strong (current ratio 2.57).\"}",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 227,
+ "out_tok": 132,
+ "usd": 0.00021,
+ "utc": "2026-07-10T14:20:16.052270+00:00"
+}

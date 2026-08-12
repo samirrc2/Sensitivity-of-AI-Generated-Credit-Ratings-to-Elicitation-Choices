@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the balance sheet reveals an exceptionally high leverage profile with total liabilities of 3,107,151M against shareholders' equity of 303,243M (an equity-to-assets ratio of under 9%), alongside a severely constrained liquidity position indicated by a current ratio of 0.42 (current liabilities of 2,559,605M dwarf current assets of 1,067,083M). Despite strong profitability metrics, including an operating margin of 25% (12,435M) and net income of 7,528M, the massive scale of liabilities relative to capital and the acute short-term refinancing risk are characteristic of a highly leveraged, systemically large financial institution or a highly distressed corporate issuer. Balancing the solid earnings generation against the substantial near-term liquidity mismatch and high leverage warrants a speculative-grade rating.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 303,
+ "out_tok": 201,
+ "usd": 0.002263,
+ "utc": "2026-07-10T15:07:32.435415+00:00"
+}

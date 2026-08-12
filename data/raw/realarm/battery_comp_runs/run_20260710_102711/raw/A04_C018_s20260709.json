@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"B-\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage (Total Debt/Equity over 26x), low EBIT margins (2%), and extremely thin equity buffer present significant default risk.\"\n}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 281,
+ "out_tok": 61,
+ "usd": 0.000971,
+ "utc": "2026-07-10T14:45:57.849931+00:00"
+}

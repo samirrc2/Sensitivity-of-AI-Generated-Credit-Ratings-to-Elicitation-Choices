@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's Q3 2025 financial profile reveals exceptionally strong profitability, highlighted by a 73% gross margin and a 62% operating margin (operating income of $3,230M on $5,251M revenue), alongside substantial accumulated wealth represented by $36,115M in retained earnings. However, the balance sheet presents near-term liquidity constraints and structural leverage risk, evidenced by a negative shareholders' equity of -$2,646M and a weak current ratio of 0.62 ($5,119M in current assets against $8,286M in current liabilities). While the business model is highly lucrative and generates massive operating income to service obligations, the negative equity and working capital deficit prevent a prime investment-grade rating, justifying a solid upper-medium grade rating.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 284,
+ "out_tok": 187,
+ "usd": 0.002109,
+ "utc": "2026-07-10T14:35:51.939883+00:00"
+}

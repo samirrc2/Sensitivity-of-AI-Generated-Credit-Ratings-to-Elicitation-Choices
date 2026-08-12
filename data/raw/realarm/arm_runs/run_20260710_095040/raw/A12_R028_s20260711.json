@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R028",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 4, \"rationale\": \"High leverage (total debt/equity) and low EBIT interest coverage indicators are offset by positive profitability and adequate liquidity, placing it at lowest investment grade.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 273,
+ "out_tok": 54,
+ "usd": 0.000896,
+ "utc": "2026-07-10T14:22:30.341706+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R018",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's financial profile reveals moderate creditworthiness: while the company exhibits a solid current ratio of 1.44 and an acceptable operating margin of 8%, its balance sheet carries a relatively high debt-to-equity ratio (total liabilities of $14.6B against equity of $7.58B) and negative retained earnings (-$398M), indicating historical losses or aggressive capital distributions. These leverage and accumulated deficit concerns are balanced by positive net income ($1.7B) and a substantial asset base, positioning the issuer at the lower end of the investment-grade spectrum. \n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 244,
+ "out_tok": 134,
+ "usd": 0.001572,
+ "utc": "2026-07-10T14:10:56.374022+00:00"
+}

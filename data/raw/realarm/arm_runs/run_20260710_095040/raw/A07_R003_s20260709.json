@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R003",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "High leverage (total liabilities are ~76% of total assets) and weak near-term liquidity (current ratio ~0.72) increase financial risk, while profitability is solid (EBIT margin ~21.8% and net margin ~8.8%) and equity provides some balance-sheet support. Overall this profile suggests a BB- level credit quality rather than investment grade.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 224,
+ "out_tok": 220,
+ "usd": 0.00032,
+ "utc": "2026-07-10T13:53:34.289504+00:00"
+}

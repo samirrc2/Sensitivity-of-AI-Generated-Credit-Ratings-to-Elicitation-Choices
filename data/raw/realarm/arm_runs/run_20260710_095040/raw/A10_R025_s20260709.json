@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's financial profile reveals significant credit risk. While the company is currently profitable (operating margin of 8% and net income of $142M) and maintains adequate short-term liquidity (current ratio of 1.32), its balance sheet is highly leveraged with an equity-to-assets ratio of only 18% (shareholders' equity of $1,804M against $10,022M in assets). Furthermore, the deeply negative retained earnings of -$748M indicate a history of cumulative losses or aggressive capital restructurings, which places the credit profile firmly in the non-investment grade (speculative) category, specifically at the upper end of the highly speculative tier.\n\nDECISION: B+",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 238,
+ "out_tok": 161,
+ "usd": 0.001806,
+ "utc": "2026-07-10T14:18:54.847181+00:00"
+}

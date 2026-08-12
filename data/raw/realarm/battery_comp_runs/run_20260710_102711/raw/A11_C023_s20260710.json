@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C023",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The firm shows decent operating profitability (EBIT of 2,359M on revenue of 12,717M) but only marginal liquidity with a current ratio of 1.04. Leverage is relatively high (liabilities of 111,269M versus equity of 18,677M), which limits balance-sheet resilience and drives the rating to the speculative range despite positive earnings power.  \n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 246,
+ "usd": 0.000356,
+ "utc": "2026-07-10T14:52:28.556815+00:00"
+}

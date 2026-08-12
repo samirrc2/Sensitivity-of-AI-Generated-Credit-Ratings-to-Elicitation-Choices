@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R011",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"High leverage (70% debt-to-assets), negative profitability with operating and net losses, but supported by decent liquidity and accumulated retained earnings.\"}\n```",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 275,
+ "out_tok": 54,
+ "usd": 0.000898,
+ "utc": "2026-07-10T14:02:34.842328+00:00"
+}

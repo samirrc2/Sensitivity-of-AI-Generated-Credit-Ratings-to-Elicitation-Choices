@@ -1,0 +1,43 @@
+{
+ "spec_id": "S38",
+ "item_id": "C031",
+ "seed": 22,
+ "family": "credit_health",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 0.0,
+ "temperature_applied": false,
+ "effective_temperature": null,
+ "call_meta": {
+  "signature": "mct+seed+eff",
+  "temperature_applied": false,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "seed": 22,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-04-29, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-04-29):\n| Current ratio           | 0.34 |\n| Retained earnings       | 232,459M |\n| Current liabilities     | 1,775,239M |\n| Current assets          | 612,094M |\n| Shareholders' equity    | 178,396M |\n| Total liabilities       | 2,025,439M |\n| Total assets            | 2,205,752M |\n| EBIT / operating income | 5,851M |\n| Revenue                 | 31,795M |\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The company shows very weak liquidity (current ratio 0.34) and high leverage (total liabilities ~11x equity), with limited current assets to cover near-term obligations, despite a positive EBIT margin. These factors suggest a high risk of default and distressed credit conditions, justifying a low credit quality. DECISION: CCC+",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 250,
+ "output_tokens": 331,
+ "cost_usd": 0.000464,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:49:50.950639+00:00",
+ "mode": "REAL"
+}

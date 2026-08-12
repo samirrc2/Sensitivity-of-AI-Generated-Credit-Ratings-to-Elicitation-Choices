@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R012",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BBB\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong liquidity (current ratio 2.35) and solid profitability (EBIT margin 13.1%) are balanced by moderate leverage, justifying a comfortable investment-grade rating.\"\n}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 270,
+ "out_tok": 69,
+ "usd": 0.001026,
+ "utc": "2026-07-10T14:04:25.099586+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R030",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "To evaluate the credit rating of this issuer:\n\nThe issuer shows solid profitability with an operating margin of 20% (operating income of 436M on 2,153M revenue) and positive net income of 242M, which supports its debt-servicing capacity. However, its balance sheet displays high leverage with a total debt-to-equity posture (liabilities of 7,452M against equity of 3,858M) and weak short-term liquidity, as evidenced by a current ratio of 0.72 (current assets of 674M versus current liabilities of 932M). This combination of strong operating performance alongside moderate-to-high leverage and tight liquidity is characteristic of an investment-grade rating at the lower end of the spectrum.\n\nDECISION: BBB-",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "in_tok": 229,
+ "out_tok": 178,
+ "usd": 0.001945,
+ "utc": "2026-07-10T14:24:30.935802+00:00"
+}

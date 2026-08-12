@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits razor-thin profitability with a 2% operating margin, a net loss of $4M, and a highly leveraged balance sheet where total liabilities ($158,800M) represent over 96% of total assets ($164,787M), resulting in a very thin equity cushion ($5,987M). While the company maintains a marginally acceptable short-term liquidity profile with a current ratio of 1.18 and substantial retained earnings of $17,162M, its extremely high leverage and lack of net profitability place it in the speculative-grade category. Given these factors, the issuer is assigned a highly speculative credit profile reflecting significant leverage risk but with currently sufficient short-term assets to cover short-term obligations.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 284,
+ "out_tok": 168,
+ "usd": 0.001938,
+ "utc": "2026-07-10T14:46:30.989245+00:00"
+}

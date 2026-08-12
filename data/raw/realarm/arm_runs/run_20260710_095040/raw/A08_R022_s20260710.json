@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "R022",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"The issuer has solid capitalization (42.6% equity/assets), good profitability (EBIT margin of 14.4%), and adequate current liquidity.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 267,
+ "out_tok": 56,
+ "usd": 0.000904,
+ "utc": "2026-07-10T14:15:18.632994+00:00"
+}

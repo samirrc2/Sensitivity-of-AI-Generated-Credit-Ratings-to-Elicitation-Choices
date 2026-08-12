@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C021",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits an exceptionally strong financial profile, characterized by highly robust profitability (48% operating margin and 70% gross margin) and a solid capital structure with shareholders' equity of 31,173M representing over half of its 60,792M total asset base. Although the current ratio is relatively low at 0.68, the immense profitability, massive retained earnings, and overall asset-to-liability coverage indicate extremely low default risk. \n\nDECISION: AA+",
+ "parsed_letter": "AA+",
+ "parsed_band": "SAFE",
+ "in_tok": 284,
+ "out_tok": 106,
+ "usd": 0.00138,
+ "utc": "2026-07-10T14:48:59.533112+00:00"
+}

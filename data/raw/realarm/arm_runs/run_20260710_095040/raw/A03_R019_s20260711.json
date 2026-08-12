@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R019",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows significant leverage with very thin capitalization (shareholders\u2019 equity of 415M versus total assets of 12,240M, ~3%), leaving little loss-absorbing capacity. It also has negative profitability (net income -640M and EBIT -459M), indicating weak operating performance and elevated credit risk despite current liquidity (current assets exceed current liabilities).  \nDECISION: CCC-",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "in_tok": 235,
+ "out_tok": 231,
+ "usd": 0.000336,
+ "utc": "2026-07-10T14:11:28.831463+00:00"
+}

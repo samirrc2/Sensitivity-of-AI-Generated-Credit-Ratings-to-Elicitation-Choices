@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows solid operating profitability (EBIT margin ~30%) and reasonable liquidity (current ratio 1.27), supported by substantial retained earnings. However, its balance sheet is highly levered, with total liabilities (~78,289M) far exceeding shareholders\u2019 equity (~18,552M), which constrains credit strength in a downturn. Overall, this profile aligns best with a speculative-grade rating.  \n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 234,
+ "usd": 0.000341,
+ "utc": "2026-07-10T14:56:34.260348+00:00"
+}

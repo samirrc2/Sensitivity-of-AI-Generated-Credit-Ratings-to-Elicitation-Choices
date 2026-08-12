@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"CCC\",\n  \"confidence\": 4,\n  \"rationale\": \"Extremely weak liquidity, massive leverage (91.8% debt-to-assets), and highly insufficient operating income to cover liabilities indicate severe distress and high default risk.\"\n}\n```",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 292,
+ "out_tok": 66,
+ "usd": 0.001032,
+ "utc": "2026-07-10T15:01:54.602065+00:00"
+}

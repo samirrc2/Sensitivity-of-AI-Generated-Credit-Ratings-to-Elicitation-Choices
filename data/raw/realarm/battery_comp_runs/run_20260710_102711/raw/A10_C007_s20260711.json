@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C007",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "**Analysis:**\nThe issuer exhibits an exceptionally strong credit profile, characterized by highly robust profitability (30% operating margin, $7.1B operating income) and a massive equity cushion ($79.3B in shareholders' equity supported by $167.3B in retained earnings). Although the current ratio of 1.07 indicates a relatively tight short-term liquidity position, the company's sheer scale ($192.8B in assets), strong operating cash generation potential, and moderate leverage (total liabilities to assets of 58.9%) justify a high investment-grade rating. Given the massive asset base and strong earnings power offset slightly by the tight current ratio, a solid upper-medium investment grade rating is warranted.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "in_tok": 291,
+ "out_tok": 160,
+ "usd": 0.001877,
+ "utc": "2026-07-10T14:34:45.603581+00:00"
+}

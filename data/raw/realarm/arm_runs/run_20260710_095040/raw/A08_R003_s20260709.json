@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "R003",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"High leverage with total liabilities to equity over 3x and weak current ratio (0.72), offset by decent operating profitability.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 258,
+ "out_tok": 50,
+ "usd": 0.000837,
+ "utc": "2026-07-10T13:53:40.767526+00:00"
+}

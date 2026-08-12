@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "R008",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A-\", \"confidence\": 4, \"rationale\": \"Strong balance sheet with a 47% equity-to-assets ratio, robust profitability (EBIT margin of 26.6%), and solid current liquidity.\"}\n```",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 260,
+ "out_tok": 58,
+ "usd": 0.000912,
+ "utc": "2026-07-10T13:59:32.818843+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R013",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits extremely weak credit metrics: it has negative net income (-$23M), negative shareholders' equity (-$496M) due to massive accumulated deficits (retained earnings of -$1,065M), and liabilities exceeding its assets. Margins are razor-thin (operating margin of 3% and gross margin of 6%), and the current ratio of 1.02 indicates highly constrained liquidity. These factors represent high default risk, placing the issuer deep into the non-investment grade, speculative territory.\n\nDECISION: CCC+",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "in_tok": 228,
+ "out_tok": 116,
+ "usd": 0.001386,
+ "utc": "2026-07-10T14:05:00.110631+00:00"
+}

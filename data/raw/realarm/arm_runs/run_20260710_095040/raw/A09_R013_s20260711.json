@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "R013",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"CCC-\",\"confidence\":3,\"rationale\":\"Thin margins (gross 6%, op 3%), net loss, negative equity and retained earnings, and highly leveraged balance sheet with barely adequate liquidity.\"}",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "in_tok": 230,
+ "out_tok": 217,
+ "usd": 0.000317,
+ "utc": "2026-07-10T14:05:15.880978+00:00"
+}

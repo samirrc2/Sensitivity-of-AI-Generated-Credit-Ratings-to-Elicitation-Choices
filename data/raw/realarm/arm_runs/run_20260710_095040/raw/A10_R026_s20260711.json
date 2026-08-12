@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R026",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the company exhibits a very large scale of operations (Revenue of $13.1B) and is profitable (Net Income of $517M), which provides some fundamental stability. However, its profitability margins are quite thin (operating margin of 5.4%), leverage is high (assets-to-equity ratio of 5.37x, representing a highly leveraged capital structure), and its liquidity profile is constrained with a current ratio of 0.89 (current liabilities exceed current assets). This combination of solid revenue scale but weak liquidity, high leverage, and low margins is characteristic of a speculative-grade issuer with moderate credit risk.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 145,
+ "usd": 0.001668,
+ "utc": "2026-07-10T14:20:01.611601+00:00"
+}

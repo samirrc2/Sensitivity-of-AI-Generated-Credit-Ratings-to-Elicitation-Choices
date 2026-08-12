@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid liquidity with a current ratio of 2.04 and a strong capital base (shareholders\u2019 equity of 84,113M against total assets of 143,724M), suggesting manageable near-term obligations. However, profitability appears modest (EBIT of 941M on revenue of 22,387M, ~4% margin), which limits credit strength and keeps the rating below the higher investment-grade bands.\n\nDECISION: BBB+",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "in_tok": 238,
+ "out_tok": 232,
+ "usd": 0.000338,
+ "utc": "2026-07-10T14:30:40.095076+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R013",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"CCC\",\n  \"confidence\": 4,\n  \"rationale\": \"Negative equity, substantial accumulated deficits, and total liabilities exceeding total assets indicate severe insolvency risk and extremely weak creditworthiness.\"\n}\n```",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 263,
+ "out_tok": 54,
+ "usd": 0.00088,
+ "utc": "2026-07-10T14:04:49.131270+00:00"
+}

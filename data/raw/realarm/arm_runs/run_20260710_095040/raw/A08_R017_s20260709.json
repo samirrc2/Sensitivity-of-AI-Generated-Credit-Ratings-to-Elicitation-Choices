@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "R017",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Moderate leverage (equity/assets ~35%), solid profitability with 23% EBIT margin, and comfortable current ratio of 1.35x justify an investment grade rating.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 258,
+ "out_tok": 60,
+ "usd": 0.000927,
+ "utc": "2026-07-10T14:09:34.797213+00:00"
+}

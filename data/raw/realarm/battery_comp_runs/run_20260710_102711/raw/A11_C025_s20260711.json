@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows moderate liquidity (current ratio 1.39) and a reasonable operating profitability (EBIT of 886 on revenue of 9,143, ~10% EBIT margin). However, balance-sheet risk is elevated: retained earnings are 0M and leverage is high (total liabilities 52,676M vs. equity 21,312M), which weakens resilience under stress. Overall, this supports a speculative-grade rating near the BB level.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 238,
+ "out_tok": 197,
+ "usd": 0.000294,
+ "utc": "2026-07-10T14:55:21.831022+00:00"
+}

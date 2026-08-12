@@ -1,0 +1,43 @@
+{
+ "spec_id": "S42",
+ "item_id": "C042",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 0.0,
+ "temperature_applied": false,
+ "effective_temperature": null,
+ "call_meta": {
+  "signature": "mct+seed+eff",
+  "temperature_applied": false,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-04-28, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-04-28):\nFiscal period 2026 Q2 (filed 2026-04-28). Revenue 9,532M, gross margin 20%, operating income 777M (operating margin 8%), net income 511M, diluted EPS 0.45. Total assets 30,558M, total liabilities 39,015M, shareholders' equity -8,465M. Current assets 10,559M vs current liabilities 11,449M (current ratio 0.92), retained earnings -8,881M.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Negative equity (-8.5B) and liabilities exceed assets; weak liquidity (CR 0.92) imply elevated default risk despite profits.\"}}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 263,
+ "output_tokens": 569,
+ "cost_usd": 0.000764,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:54:07.225086+00:00",
+ "mode": "REAL"
+}

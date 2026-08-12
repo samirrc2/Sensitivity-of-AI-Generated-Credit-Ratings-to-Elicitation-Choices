@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 4, \"rationale\": \"High leverage (Debt/Equity > 4) and weak interest coverage/profitability metrics suggest speculative-grade credit quality despite adequate short-term liquidity.\"}\n```",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 281,
+ "out_tok": 55,
+ "usd": 0.000916,
+ "utc": "2026-07-10T14:56:38.631884+00:00"
+}

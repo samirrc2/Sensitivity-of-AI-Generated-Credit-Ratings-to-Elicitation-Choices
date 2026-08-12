@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows decent operating performance (EBIT/operating income of 3,639M on 12,222M revenue, implying a strong margin) but has a relatively weak balance-sheet structure with high leverage (total liabilities 78,289M vs total assets 96,889M) and only modest liquidity (current ratio 1.27). Overall, credit strength appears more consistent with a speculative-grade profile rather than investment-grade.  \nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 197,
+ "usd": 0.000293,
+ "utc": "2026-07-10T14:56:12.434986+00:00"
+}

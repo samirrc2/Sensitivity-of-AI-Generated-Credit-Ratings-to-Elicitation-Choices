@@ -1,0 +1,44 @@
+{
+ "spec_id": "S30",
+ "item_id": "C017",
+ "seed": 22,
+ "family": "credit_health",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 22,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2025-12-18, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2025-12-18):\nFiscal period 2025 Q4 (filed 2025-12-18). Revenue 18,015M, gross margin 68%, operating income 7,508M (operating margin 42%), net income 8,518M, diluted EPS 1.74. Total assets 171,092M, total liabilities 89,800M, shareholders' equity 81,292M. Current assets 31,573M vs current liabilities 18,514M (current ratio 1.71), retained earnings 9,761M.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The reported financials reflect exceptional profitability (42% operating margin, substantial net income), a solid balance sheet (equity of ~81B supporting 171B assets), and ample liquidity (current ratio >1.7), all consistent with the profile of a top-tier non-financial corporate that carries minimal default risk.\nDECISION: AAA\n(The rating reflects pre-2025 knowledge of comparable issuers; absence of explicit debt maturity or cash-flow volatility data prevents a higher notching within the scale.)",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 380,
+ "output_tokens": 99,
+ "cost_usd": 0.000723,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:37:32.391910+00:00",
+ "mode": "REAL"
+}

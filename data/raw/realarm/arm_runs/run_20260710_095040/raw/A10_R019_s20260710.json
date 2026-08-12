@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the issuer exhibits severe financial distress, characterized by an extremely thin equity cushion (shareholders' equity of only $415M against $11,824M in liabilities, resulting in a leverage ratio of over 28x), substantial operating and net losses, and a weak gross margin of 14% on $11B in revenue. While the current ratio of 1.78 offers some short-term liquidity comfort, the structurally unprofitable operations and highly leveraged capital structure put the issuer at high risk of default or restructuring in the near-to-medium term. Therefore, the issuer is rated deep in the non-investment grade, speculative territory.\n\nDECISION: CCC+",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "in_tok": 246,
+ "out_tok": 150,
+ "usd": 0.001719,
+ "utc": "2026-07-10T14:12:02.953419+00:00"
+}

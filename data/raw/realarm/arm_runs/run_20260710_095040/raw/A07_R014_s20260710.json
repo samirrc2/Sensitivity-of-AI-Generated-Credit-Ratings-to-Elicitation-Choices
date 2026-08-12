@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R014",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows strong financial flexibility with a healthy liquidity position (current ratio \u2248 1566/631 = 2.48) and moderate leverage (liabilities/assets \u2248 1,872/4,936 = 0.38). Profitability also appears solid (net margin \u2248 334/3,102 = 10.8% and EBIT margin \u2248 480/3,102 = 15.5%), supporting a strong but not top-tier credit profile given the limited information (e.g., no interest coverage or cash-flow details).\n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "in_tok": 226,
+ "out_tok": 272,
+ "usd": 0.000385,
+ "utc": "2026-07-10T14:06:10.577634+00:00"
+}

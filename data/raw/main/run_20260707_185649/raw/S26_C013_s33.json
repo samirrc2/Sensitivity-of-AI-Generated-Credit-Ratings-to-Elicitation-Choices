@@ -1,0 +1,44 @@
+{
+ "spec_id": "S26",
+ "item_id": "C013",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 0.0,
+   "seed": 33,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-05-01. Act as a credit rating analyst.\n| Current ratio           | 1.53 |\n| Retained earnings       | 60,632M |\n| Current liabilities     | 14,621M |\n| Current assets          | 22,316M |\n| Shareholders' equity    | 51,940M |\n| Total liabilities       | 61,341M |\n| Total assets            | 113,281M |\n| EBIT / operating income | 1,863M |\n| Revenue                 | 11,005M |\nBased only on the above and knowledge predating 2026-05-01, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The provided metrics indicate adequate liquidity (current ratio of 1.53) and a long operating history (retained earnings of 60.6B on 113B assets), but very low asset turnover and EBIT-to-assets of only ~1.6% combined with total liabilities exceeding equity together imply only moderate creditworthiness. These factors are consistent with a speculative-grade profile but not deep distress.\nDECISION: BB+",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 367,
+ "output_tokens": 84,
+ "cost_usd": 0.000669,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:33:02.374182+00:00",
+ "mode": "REAL"
+}

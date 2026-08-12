@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C006",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows solid liquidity (current ratio 1.52) and moderate leverage (total liabilities of 28,826M versus total assets of 79,897M, with substantial shareholders\u2019 equity of 51,071M). Profitability appears strong with EBIT of 1,154M on revenue of 6,053M (~19% EBIT margin), supporting debt service capacity. Overall, these indicators point to strong but not top-tier credit quality, so I assign an **A-**.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 242,
+ "out_tok": 232,
+ "usd": 0.000338,
+ "utc": "2026-07-10T14:33:33.363568+00:00"
+}

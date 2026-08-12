@@ -1,0 +1,19 @@
+{
+ "spec_id": "A01",
+ "item_id": "R010",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB-\",\"confidence\":2,\"rationale\":\"Strong profitability (net margin ~19%) and positive retained earnings, but high leverage (liabilities ~80% of assets) and limited equity cushion constrain rating.\"}",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 195,
+ "out_tok": 197,
+ "usd": 0.000285,
+ "utc": "2026-07-10T14:01:05.495381+00:00"
+}

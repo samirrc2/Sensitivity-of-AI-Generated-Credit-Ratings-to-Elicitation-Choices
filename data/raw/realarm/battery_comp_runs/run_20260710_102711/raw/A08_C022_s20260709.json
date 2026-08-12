@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BBB-\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong balance sheet with high equity and retained earnings, but weak liquidity (current ratio 0.59) and moderate profitability (EBIT margin ~9.3%).\"\n}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 271,
+ "out_tok": 67,
+ "usd": 0.001009,
+ "utc": "2026-07-10T14:51:03.316159+00:00"
+}

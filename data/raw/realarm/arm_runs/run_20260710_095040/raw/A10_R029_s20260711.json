@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R029",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financials, the company shows solid profitability with $8,634M in revenue and $445M in net income, alongside a stable liquidity profile represented by a 1.30 current ratio. However, there is a severe accounting inconsistency in the balance sheet, as total assets ($11,798M) do not equal the sum of total liabilities ($11M) and shareholders' equity ($3,342M), and the reported total liabilities of $11M are mathematically impossible given the current liabilities of $2,248M. Due to these fundamental reporting discrepancies and potential data integrity issues, the issuer carries significant risk, limiting the rating to the speculative-grade category.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 243,
+ "out_tok": 157,
+ "usd": 0.001778,
+ "utc": "2026-07-10T14:23:41.556047+00:00"
+}

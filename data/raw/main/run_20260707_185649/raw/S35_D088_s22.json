@@ -1,0 +1,44 @@
+{
+ "spec_id": "S35",
+ "item_id": "D088",
+ "seed": 22,
+ "family": "directional",
+ "provider": "openai",
+ "version": "current",
+ "model": "gpt-5.4-nano",
+ "benchmark_label": "SELL",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "2",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 22,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a equity research analyst. Using only the information below and general knowledge predating 2026-04-30, give a 20-trading-day directional recommendation for the stock.\nValid answers (choose exactly one): BUY, HOLD, SELL.\nHere are two worked examples:\n- Information: Price action as of 2026-03-19: 1w +4.1%, 1m -5.5%, 3m -1.3%. Last close 109.85. 21d annualized realized volatility 35%. Position in trailing 63-day range: 24% (0%=low, 100%=high).\n  Answer: BUY\n- Information: Price action as of 2026-04-02: 1w -4.8%, 1m -8.3%, 3m -0.8%. Last close 201.40. 21d annualized realized volatility 23%. Position in trailing 63-day range: 46% (0%=low, 100%=high).\n  Answer: SELL\n\nCompany information (as of 2026-04-30):\n| Return 3m            | +8.5% |\n| Return 1m            | +0.2% |\n| Return 1w            | +3.0% |\n| Range position (63d) | 78% |\n| 21d realized vol     | 18% |\n| Last close           | 96.70 |\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock has a positive intermediate trend (3-month return +8.5%) with continued strength over the last week (+3.0%) and relatively low volatility (18% over 21 days). With the shares trading high in the 63-day range (78%), upside may be more gradual, but the overall momentum still argues for a bullish 20-trading-day stance.  \n\nDECISION: BUY",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 340,
+ "output_tokens": 190,
+ "cost_usd": 0.000306,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:46:14.527724+00:00",
+ "mode": "REAL"
+}

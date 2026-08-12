@@ -1,0 +1,43 @@
+{
+ "spec_id": "S18",
+ "item_id": "C030",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "openai",
+ "version": "current",
+ "model": "gpt-5.4-nano",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 0.0,
+ "temperature_applied": false,
+ "effective_temperature": null,
+ "call_meta": {
+  "signature": "mct+seed+eff",
+  "temperature_applied": false,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-02-13. Act as a credit rating analyst.\n| Current ratio           | 2.29 |\n| Retained earnings       | 1,385M |\n| Current liabilities     | 6,019M |\n| Current assets          | 13,790M |\n| Shareholders' equity    | 18,899M |\n| Total liabilities       | 27,401M |\n| Total assets            | 58,167M |\n| EBIT / operating income | 811M |\n| Revenue                 | 5,633M |\nBased only on the above and knowledge predating 2026-02-13, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\"decision\":\"A-\",\"confidence\":2,\"rationale\":\"Strong liquidity (current ratio 2.29) and solid operating margin (~14% EBIT/revenue) with moderate leverage (liabilities/equity ~1.45).\"}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 253,
+ "output_tokens": 254,
+ "cost_usd": 0.000368,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:19:51.392579+00:00",
+ "mode": "REAL"
+}

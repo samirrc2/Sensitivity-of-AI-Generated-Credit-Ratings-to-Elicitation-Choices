@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"CCC\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage (Total Debt/Equity ratio is extremely high), negative working capital (current ratio 0.83), and highly insufficient EBIT-to-liability coverage indicate severe distress.\"\n}\n```",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 295,
+ "out_tok": 68,
+ "usd": 0.001055,
+ "utc": "2026-07-10T15:12:38.382194+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R007",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the issuer exhibits a strong credit profile characterized by solid profitability (14% operating margin, $380M net income), a robust capital structure with equity ($5,044M) nearly equal to total liabilities ($5,238M), and exceptional short-term liquidity as evidenced by a current ratio of 3.37. However, the lack of specific cash flow, debt-to-EBITDA, and interest coverage metrics, combined with moderate asset size ($10.8B), suggests an upper-medium grade rating rather than a prime or high-grade rating. \n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 247,
+ "out_tok": 137,
+ "usd": 0.001603,
+ "utc": "2026-07-10T13:58:36.523450+00:00"
+}

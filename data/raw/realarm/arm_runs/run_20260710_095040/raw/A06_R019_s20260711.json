@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows severe financial distress, characterized by a razor-thin equity cushion (shareholders' equity of only $415 million against massive total liabilities of $11,824 million, resulting in a leverage ratio of nearly 28x) and significant profitability challenges, including an operating loss of $459 million and a net loss of $640 million. While the current ratio of 1.78 provides some near-term liquidity buffer, the extremely weak balance sheet and lack of profitability place the issuer deep into speculative-grade territory with high credit risk. \n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 238,
+ "out_tok": 127,
+ "usd": 0.0015,
+ "utc": "2026-07-10T14:11:42.769827+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"CCC-\", \"confidence\": 4, \"rationale\": \"Severe negative equity, deeply negative retained earnings, extremely low current ratio, and unsustainably high leverage indicate imminent default risk.\"}\n```",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "in_tok": 275,
+ "out_tok": 49,
+ "usd": 0.000853,
+ "utc": "2026-07-10T15:18:47.987722+00:00"
+}

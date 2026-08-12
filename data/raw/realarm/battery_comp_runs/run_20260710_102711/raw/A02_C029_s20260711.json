@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates solid profitability with an operating margin of 15% and a substantial net income of 433M on 4,066M in quarterly revenue, alongside a strong equity base of 10,004M and significant retained earnings of 13,060M. However, its short-term liquidity is slightly constrained, as evidenced by a current ratio of 0.99 (current assets of 6,043M vs. current liabilities of 6,096M), and its leverage is moderate with total liabilities representing about 60% of total assets. These factors suggest a financially stable, investment-grade profile with minor short-term liquidity risks, typical of a strong upper-medium grade issuer.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 280,
+ "out_tok": 165,
+ "usd": 0.001905,
+ "utc": "2026-07-10T14:58:57.345862+00:00"
+}

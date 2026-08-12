@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows leverage stress, with total liabilities exceeding total assets (64,211M vs 54,941M) and consistently negative capital (shareholders\u2019 equity of -9,270M and retained earnings of -9,884M), which weakens balance-sheet resilience. Liquidity is only modestly supported (current ratio 1.09), though positive EBIT/operating income (2,554M) suggests operations still generate earnings. Overall, the balance-sheet condition supports a speculative, elevated-risk rating.  \n\nDECISION: B+",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 284,
+ "usd": 0.000403,
+ "utc": "2026-07-10T15:05:15.546608+00:00"
+}

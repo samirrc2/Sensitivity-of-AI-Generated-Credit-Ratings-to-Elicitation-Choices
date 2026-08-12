@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C021",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits exceptionally strong profitability with an operating margin of 48% (operating income of 2,002M on 4,171M in revenue) and a very robust capital structure, evidenced by shareholders' equity of 31,173M against total liabilities of 24,587M. However, there is a moderate short-term liquidity constraint represented by a current ratio of 0.68 (current assets of 6,320M versus current liabilities of 9,335M), which prevents a top-tier AAA/AA rating. Given the massive asset base, high profitability, and overall solid equity cushion, the credit risk remains very low.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "in_tok": 284,
+ "out_tok": 155,
+ "usd": 0.001821,
+ "utc": "2026-07-10T14:49:01.240680+00:00"
+}

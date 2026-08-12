@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "R025",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":2,\"rationale\":\"Moderate operating margin (8%) and some liquidity (current ratio 1.32) but high leverage, thin equity, and negative retained earnings (\u2013748M) signal elevated risk.\"}",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 229,
+ "out_tok": 106,
+ "usd": 0.000178,
+ "utc": "2026-07-10T14:18:51.372335+00:00"
+}

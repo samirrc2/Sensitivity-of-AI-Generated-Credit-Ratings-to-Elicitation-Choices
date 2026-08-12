@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R016",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B-\", \"confidence\": 4, \"rationale\": \"Severe negative profitability (EBIT -127M, Net Income -214M) and high leverage outweigh strong liquidity, indicating high credit risk.\"}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 266,
+ "out_tok": 56,
+ "usd": 0.000903,
+ "utc": "2026-07-10T14:08:52.270248+00:00"
+}

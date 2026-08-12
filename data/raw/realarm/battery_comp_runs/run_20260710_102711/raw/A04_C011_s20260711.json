@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C011",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"A\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong balance sheet with low leverage, high equity-to-assets, and solid profitability, offset by moderate asset turnover and interest coverage.\"\n}\n```",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "in_tok": 281,
+ "out_tok": 58,
+ "usd": 0.000944,
+ "utc": "2026-07-10T14:38:34.931990+00:00"
+}

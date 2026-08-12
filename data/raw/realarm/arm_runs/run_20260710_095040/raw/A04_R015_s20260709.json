@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R015",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong balance sheet equity and liquidity, but negative operating income (EBIT) presents significant credit risk, suggesting a speculative-grade rating.\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 269,
+ "out_tok": 58,
+ "usd": 0.000925,
+ "utc": "2026-07-10T14:07:02.802105+00:00"
+}

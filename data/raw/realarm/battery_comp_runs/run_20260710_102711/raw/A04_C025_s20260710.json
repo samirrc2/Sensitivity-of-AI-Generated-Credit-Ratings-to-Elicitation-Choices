@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage, zero retained earnings, and thin EBIT-to-interest coverage suggest sub-investment grade, but large asset base supports a BB rating.\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 272,
+ "out_tok": 61,
+ "usd": 0.000957,
+ "utc": "2026-07-10T14:54:35.115854+00:00"
+}

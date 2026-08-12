@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows **weak liquidity** (current ratio **0.42**) and **high leverage** (total liabilities of **3.11T** against equity of **0.30T**, implying thin balance-sheet buffers). However, operating profitability appears relatively strong (**EBIT/operating income 12.4B on revenue 49.7B**, ~25% margin), which partially offsets credit risk. Overall, the combination suggests **speculative credit quality with elevated financial risk**.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 250,
+ "out_tok": 238,
+ "usd": 0.000348,
+ "utc": "2026-07-10T15:07:42.990228+00:00"
+}

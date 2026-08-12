@@ -1,0 +1,58 @@
+# Data availability
+
+All data required to reproduce every result are included in this repository and are released under
+MIT. No proprietary data and no live model access are needed to reproduce the paper.
+
+## Frozen inputs (pre-registered)
+- `data/frozen/main/battery_90.json` — the 90-item firm-quarter battery (Altman Z″ benchmark bands).
+- `config/grid_definition.json`, `config/paraphrase_templates.json`, `config/rating_scale.json` —
+  the specification grid and prompt templates.
+- `data/frozen/main/capital_map.json` — Basel CRE20 ECRA risk-weight map (quote-verified; **post-hoc**).
+- `data/frozen/market_data/*.csv` — FRED ICE-BofA option-adjusted spread series (cached).
+- `PREREGISTRATION.md`, `PREREGISTRATION_AMENDMENTS.md`.
+
+## Frozen response corpus (the elicitations)
+- `data/raw/main/run_20260707_185649/` — per-call model responses (~12,960 cells; the grok-4.1-fast
+  prior snapshot is a documented all-empty dead cell, retained, not imputed).
+- `data/panel/panel.parquet` — the analysis panel built once from the raw corpus.
+
+## Real-firm arm
+- `data/frozen/realarm/` — anonymized perturbed battery, sealed crosswalk, rating provenance
+  (verbatim 10-K quote + SEC URL + document SHA-256), spec grid, selection artifacts.
+- `data/raw/realarm/{arm_runs,battery_comp_runs,fp_runs}/` — model-output panels (the arm's frozen
+  elicitations and the fingerprinting-gate probes).
+
+## Integrity
+- `manifest/MANIFEST_*.sha256` fix every frozen stage (inputs, raw, panel, analysis, capital, market,
+  validation, real-firm arm).
+- Verified: `bash reproduce.sh` regenerates every `results/results_*.json`, `results/H1_results.json`,
+  and `results/exhibits/*` **byte-for-byte**, offline.
+
+## Re-fetchable (not required)
+- The disposable SEC 10-K HTML and company-facts cache used to *build* the real-firm battery is not
+  shipped (it was removed to keep the artifact lean). It is re-fetchable at no cost from the SEC
+  (accession IDs / URLs in `data/frozen/realarm/ratings_provenance.csv`) and is **not needed** to
+  reproduce any result — the anonymized battery and the model-output run panels are frozen in
+  `data/frozen/realarm/` and `data/raw/realarm/`.
+
+## Reproducibility — the two chains (journal-facing)
+**1. Frozen corpus → results (the reproduction of record).**
+`bash reproduce.sh` regenerates every `results/results_*.json`, `H1_results.json`, and exhibit
+**byte-for-byte** from `data/panel/panel.parquet` + `data/frozen/*` — offline, no API calls, no keys.
+Verified: `results.json = 7b86f6a7…`, real-arm `diff = −0.0914 SUPPORTED`.
+
+**2. Raw responses → panel → results (the full chain, provided for auditors).**
+The complete raw corpus — **12,960 per-call model responses** — is released at
+`data/raw/main/run_20260707_185649/raw/` and integrity-fixed by `MANIFEST_RAW` (`fd8122fa…`,
+recomputation verified). `analysis/build_panel.py` rebuilds the panel from these raw responses; the
+rebuilt panel is **row-for-row identical** to the released `panel.parquet` (`df.equals == True`,
+32,379 rows). Note: Parquet serialization is not byte-deterministic, so a rebuilt `panel.parquet`
+may hash differently while containing identical data; the confirmatory analysis reads the released
+frozen panel, so **all reported numbers reproduce exactly**. The released `panel.parquet`
+(`MANIFEST_PANEL` `64507c1e…`) is the artifact of record.
+
+**On "re-collecting" the LLM responses.** LLM outputs are non-deterministic — that is the paper's
+central finding — so re-querying the models would *not* reproduce the same corpus and is neither
+expected nor meaningful for reproducibility. The frozen response corpus is the primary data;
+`capture/` is included only to document how it was collected (requires provider API keys; not needed
+to reproduce any result).

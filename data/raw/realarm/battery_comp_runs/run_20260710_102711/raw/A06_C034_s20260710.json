@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates very strong operating profitability with an operating margin of 41% (operating income of $1,307M) and significant scale with $58.5B in total assets. However, its financial profile is constrained by a highly leveraged balance sheet (total liabilities of $43.6B against shareholders' equity of $12.8B), a deeply negative retained earnings balance of -$12.2B, and weak short-term liquidity represented by a current ratio of 0.53. These mixed credit factors\u2014combining strong business operations with high leverage and tight liquidity\u2014align the issuer with a low-investment-grade rating.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 274,
+ "out_tok": 144,
+ "usd": 0.001707,
+ "utc": "2026-07-10T15:05:58.637325+00:00"
+}

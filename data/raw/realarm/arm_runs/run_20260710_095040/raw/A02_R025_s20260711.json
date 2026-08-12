@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits moderate profitability with an operating margin of 8% and net income of $142M on $3,467M in revenue, but carries a highly leveraged balance sheet with a total liabilities-to-equity ratio of approximately 4.56x ($8,218M in liabilities vs. $1,804M in equity) and accumulated deficit (retained earnings of -$748M). While the short-term liquidity is acceptable with a current ratio of 1.32, the high leverage and negative retained earnings present elevated credit risk, placing the issuer in the speculative-grade category. Based on these financial metrics, the credit profile is consistent with a highly leveraged double-B category issuer.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 237,
+ "out_tok": 160,
+ "usd": 0.001796,
+ "utc": "2026-07-10T14:18:09.011164+00:00"
+}

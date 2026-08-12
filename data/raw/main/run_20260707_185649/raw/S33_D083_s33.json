@@ -1,0 +1,45 @@
+{
+ "spec_id": "S33",
+ "item_id": "D083",
+ "seed": 33,
+ "family": "directional",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "SELL",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Task: give a 20-trading-day directional recommendation for the stock.\nRespond with exactly one of: BUY, HOLD, SELL. Use only the figures provided and knowledge available on or before 2026-04-02; do not use later information.\nProvided information:\n| Return 3m            | +14.0% |\n| Return 1m            | -2.2% |\n| Return 1w            | -2.0% |\n| Range position (63d) | 87% |\n| 21d realized vol     | 23% |\n| Last close           | 28.33 |\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\"decision\": \"HOLD\", \"confidence\": 3, \"rationale\": \"Recent negative returns (1m, 1w) despite strong 3m return and high range position suggest consolidation or minor pullback, thus HOLD.\"}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 187,
+ "output_tokens": 48,
+ "cost_usd": 0.000176,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:44:46.480414+00:00",
+ "mode": "REAL"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R023",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows strong liquidity (current ratio ~3.8) and modest leverage (total liabilities ~290M vs. equity ~1,058M). Profitability is solid with positive net income (~337M) and operating earnings (EBIT ~90M), but the negative retained earnings (\u20111,564M) suggests weaker accumulated earnings support, limiting the ability to reach the highest tiers.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 229,
+ "out_tok": 228,
+ "usd": 0.000331,
+ "utc": "2026-07-10T14:16:03.658701+00:00"
+}

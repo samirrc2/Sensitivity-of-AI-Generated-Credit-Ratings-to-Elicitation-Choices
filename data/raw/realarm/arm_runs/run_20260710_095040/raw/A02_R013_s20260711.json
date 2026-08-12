@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R013",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits severe financial distress, characterized by negative shareholders' equity (-$496M), substantial accumulated losses (retained earnings of -$1,065M), a net loss of -$23M, and highly strained liquidity (current ratio of 1.02). Operating profitability is extremely weak (3% operating margin) and insufficient to cover its high leverage and interest burdens, indicating a very high risk of default or restructuring. Consequently, the issuer falls deep into the highly speculative, non-investment grade category.\n\nDECISION: CCC+",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "in_tok": 235,
+ "out_tok": 114,
+ "usd": 0.001378,
+ "utc": "2026-07-10T14:04:39.976515+00:00"
+}

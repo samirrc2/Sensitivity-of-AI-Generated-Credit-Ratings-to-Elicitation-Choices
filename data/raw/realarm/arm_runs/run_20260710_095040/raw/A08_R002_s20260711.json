@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "R002",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"High leverage (74% debt-to-assets), weak profitability (negative net income, marginal EBIT), but cushioned by decent liquidity and substantial retained earnings.\"}\n```",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 263,
+ "out_tok": 56,
+ "usd": 0.000898,
+ "utc": "2026-07-10T13:52:34.945394+00:00"
+}

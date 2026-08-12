@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits exceptionally strong credit fundamentals as of 2025 Q4, characterized by high profitability (operating margin of 56% and net income of 1,301M), a robust liquidity position (current ratio of 2.29), and a solid capital structure with shareholders' equity of 33,867M against total liabilities of 23,079M (leverage ratio of approximately 40%). These metrics reflect a highly stable, low-risk financial profile consistent with high-grade investment-class issuers.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 277,
+ "out_tok": 123,
+ "usd": 0.001523,
+ "utc": "2026-07-10T14:36:35.490782+00:00"
+}

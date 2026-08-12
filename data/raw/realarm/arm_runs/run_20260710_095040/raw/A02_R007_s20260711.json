@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R007",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits a strong financial profile characterized by robust profitability (14% operating margin, $380M net income), a solid capital structure with a low debt-to-equity ratio (total liabilities of $5,238M against equity of $5,044M), and excellent short-term liquidity (current ratio of 3.37). These metrics indicate a low credit risk and a strong capacity to meet financial commitments, typical of an upper-medium-grade investment rating. \n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 246,
+ "out_tok": 111,
+ "usd": 0.001368,
+ "utc": "2026-07-10T13:57:54.248765+00:00"
+}

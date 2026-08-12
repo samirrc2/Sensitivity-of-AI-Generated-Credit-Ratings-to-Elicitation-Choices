@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R010",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows relatively strong profitability (net income margin ~19% and ROE ~12%), but its capital structure is very leveraged: equity is only about 15% of assets (equity/assets \u2248 3,328/21,779) with liabilities comprising ~80% of the balance sheet. The thin equity cushion, together with retained earnings that exceed reported equity (suggesting negative offsets in other equity components), indicates higher balance-sheet risk, supporting a speculative-grade outcome.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 206,
+ "out_tok": 299,
+ "usd": 0.000415,
+ "utc": "2026-07-10T14:02:04.689682+00:00"
+}

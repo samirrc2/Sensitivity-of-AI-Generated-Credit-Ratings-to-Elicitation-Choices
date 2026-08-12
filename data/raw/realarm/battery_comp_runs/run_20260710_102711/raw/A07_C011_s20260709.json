@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C011",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows solid operating profitability (EBIT is about 16.5% of revenue) and a moderate liquidity position (current ratio 1.39), suggesting adequate short-term funding capacity. However, leverage is meaningful (total liabilities are ~52% of total assets and exceed equity by a small margin), which limits the strength of the credit profile.  \nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 233,
+ "out_tok": 199,
+ "usd": 0.000295,
+ "utc": "2026-07-10T14:38:48.343870+00:00"
+}

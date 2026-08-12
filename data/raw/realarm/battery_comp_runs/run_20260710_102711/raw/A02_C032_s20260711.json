@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits very strong operational profitability with an 85% gross margin and 32% operating margin, backed by substantial quarterly revenue of $20.88 billion and net income of $2.971 billion. However, its balance sheet shows significant liquidity risk and leverage, characterized by a very low current ratio of 0.35 ($56.5 billion in current assets versus $159.6 billion in current liabilities) and a highly leveraged capital structure with equity of only $34 billion against $274.9 billion in total liabilities. This combination of highly profitable operations but a highly leveraged, liquidity-constrained balance sheet aligns with a low investment-grade or high speculative-grade rating.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 290,
+ "out_tok": 156,
+ "usd": 0.001839,
+ "utc": "2026-07-10T15:02:59.131756+00:00"
+}

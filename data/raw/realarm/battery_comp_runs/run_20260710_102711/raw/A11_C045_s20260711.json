@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows weak near-term liquidity (current ratio 0.53), which increases refinancing/working-capital risk. However, profitability appears solid (EBIT of 1,360 on revenue of 6,020, ~23% margin), supporting serviceability despite high leverage (total liabilities materially exceed equity). Overall, the risk profile aligns best with a **BB-** rating.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 192,
+ "usd": 0.000288,
+ "utc": "2026-07-10T15:19:54.063423+00:00"
+}

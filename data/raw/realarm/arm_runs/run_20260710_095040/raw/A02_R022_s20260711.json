@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R022",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates solid scale with $9.1B in revenue and a healthy operating profit of $1.31B (14% margin), supported by a positive net equity position ($5.45B). However, its liquidity is relatively tight as evidenced by a current ratio of 1.14, and net income ($242M) is significantly lower than operating income, likely due to high interest expenses or non-operating charges relative to its debt load ($7.3B in liabilities). These solid operating metrics paired with moderate financial leverage and tighter liquidity position the issuer in the lower-tier investment grade category.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 248,
+ "out_tok": 135,
+ "usd": 0.001587,
+ "utc": "2026-07-10T14:14:46.392350+00:00"
+}

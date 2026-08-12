@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R015",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits a solid balance sheet with a strong current ratio of 2.85, a healthy equity base ($2.43B), and substantial accumulated retained earnings ($2.93B), suggesting a historically profitable track record and moderate leverage (debt-to-equity and liabilities-to-assets are well-controlled). However, the company experienced a severe operating loss of -$988M (operating margin of -42%) during the most recent fiscal year, with net income only remaining positive ($644M) due to likely one-time, non-operating items. This severe operating deficit introduces significant short-to-medium-term business risk, which offsets its strong solvency metrics and positions the issuer in the lower tier of investment grade.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 243,
+ "out_tok": 162,
+ "usd": 0.001823,
+ "utc": "2026-07-10T14:06:55.157874+00:00"
+}

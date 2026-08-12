@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R030",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage (Total Liabilities/Assets at 66%) and weak liquidity (Current Ratio at 0.72) offset decent EBIT profitability, indicating a speculative-grade rating.\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 269,
+ "out_tok": 68,
+ "usd": 0.001015,
+ "utc": "2026-07-10T14:25:16.782829+00:00"
+}

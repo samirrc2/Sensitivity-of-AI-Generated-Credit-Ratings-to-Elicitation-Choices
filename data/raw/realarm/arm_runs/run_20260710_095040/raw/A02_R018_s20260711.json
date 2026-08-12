@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R018",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates a large scale of operations with $18.9B in revenue and solid profitability, reflecting an 8% operating margin and $1.7B in net income. It maintains adequate liquidity with a current ratio of 1.44, though its capital structure is moderately leveraged (total liabilities-to-equity of 1.93) and it carries negative retained earnings of -$398M, indicating historical losses or significant restructurings. These factors represent a solid investment-grade profile with moderate credit risk, typical of an upper-medium grade issuer.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 243,
+ "out_tok": 126,
+ "usd": 0.001499,
+ "utc": "2026-07-10T14:10:12.833174+00:00"
+}

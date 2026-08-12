@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R016",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows sustained operating weakness with negative EBIT (-127M) and a significant net loss (-214M), which is credit-negative and suggests impaired debt service capacity. However, liquidity looks comparatively strong (current assets 1,131M vs. current liabilities 354M) and balance sheet leverage is not extreme (total liabilities 1,114M vs. equity 838M). Overall, this points to elevated credit risk but not severe balance-sheet insolvency based on the provided snapshot.  \n\nDECISION: B+",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 277,
+ "usd": 0.000393,
+ "utc": "2026-07-10T14:08:45.614122+00:00"
+}

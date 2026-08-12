@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R005",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits a solid financial profile characterized by a strong balance sheet with low leverage (total liabilities to equity of approximately 0.74x), a healthy current ratio of 1.75, and a highly positive retained earnings balance of $5,941M indicating a history of profitable operations. While the current fiscal year's profitability is stable with an 8% operating margin and $209M in net income, the overall scale of revenue and earnings is moderate rather than dominant. These credit-strength metrics, balanced by moderate operating margins, align with a solid investment-grade profile.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 236,
+ "out_tok": 130,
+ "usd": 0.001524,
+ "utc": "2026-07-10T13:55:27.006739+00:00"
+}

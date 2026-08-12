@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R016",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B-\", \"confidence\": 4, \"rationale\": \"High leverage, negative EBIT and net income, and low retained earnings indicate significant credit risk, balanced only by adequate current liquidity.\"}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 266,
+ "out_tok": 49,
+ "usd": 0.00084,
+ "utc": "2026-07-10T14:08:53.299284+00:00"
+}

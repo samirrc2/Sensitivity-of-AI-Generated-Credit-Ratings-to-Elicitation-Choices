@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage (Total Debt/Equity ratio over 2.6x), very weak liquidity (current ratio of 0.53), and low EBIT margin (22.6%) suggest speculative grade.\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 280,
+ "out_tok": 73,
+ "usd": 0.001077,
+ "utc": "2026-07-10T15:19:55.297378+00:00"
+}

@@ -1,0 +1,44 @@
+{
+ "spec_id": "S36",
+ "item_id": "D059",
+ "seed": 33,
+ "family": "directional",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 33,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Task: give a 20-trading-day directional recommendation for the stock.\nRespond with exactly one of: BUY, HOLD, SELL. Use only the figures provided and knowledge available on or before 2026-05-14; do not use later information.\nProvided information:\n| Return 3m            | -3.9% |\n| Return 1m            | -0.3% |\n| Return 1w            | -1.0% |\n| Range position (63d) | 18% |\n| 21d realized vol     | 33% |\n| Last close           | 574.64 |\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock shows consistently negative returns over the trailing 3m/1m/1w windows and sits near the bottom of its 63-day range, while 21-day realized volatility remains elevated at 33 %. These factors together point to ongoing downside pressure or sideways consolidation rather than a sustained rebound over the next 20 trading days.\n\nDECISION: SELL",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 285,
+ "output_tokens": 71,
+ "cost_usd": 0.000534,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:47:32.546125+00:00",
+ "mode": "REAL"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"B-\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage, zero retained earnings, and low operating profitability (EBIT/Interest coverage risk) indicate significant credit risk and speculative-grade profile.\"\n}",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 273,
+ "out_tok": 56,
+ "usd": 0.000914,
+ "utc": "2026-07-10T14:55:26.131165+00:00"
+}

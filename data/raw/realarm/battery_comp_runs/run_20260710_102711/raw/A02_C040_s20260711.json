@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits a strong operating performance with high gross margins (99%), solid operating margins (27%), and significant scale (Total Assets of $192.3B). However, the capital structure is highly leveraged with total liabilities of $139.7B relative to shareholders' equity of $51.5B, and the liquidity profile is constrained as evidenced by a weak current ratio of 0.63 ($12.2B in current assets vs. $19.4B in current liabilities). This combination of immense scale and strong operating profitability, balanced against high leverage and short-term liquidity deficits, is consistent with a solid investment-grade rating in the BBB category.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 287,
+ "out_tok": 149,
+ "usd": 0.001772,
+ "utc": "2026-07-10T15:12:49.228340+00:00"
+}

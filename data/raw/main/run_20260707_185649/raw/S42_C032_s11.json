@@ -1,0 +1,43 @@
+{
+ "spec_id": "S42",
+ "item_id": "C032",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 0.0,
+ "temperature_applied": false,
+ "effective_temperature": null,
+ "call_meta": {
+  "signature": "mct+seed+eff",
+  "temperature_applied": false,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-04-23, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-04-23):\nFiscal period 2026 Q1 (filed 2026-04-23). Revenue 20,880M, gross margin 85%, operating income 6,598M (operating margin 32%), net income 2,971M, diluted EPS 4.28. Total assets 308,894M, total liabilities 274,899M, shareholders' equity 33,995M. Current assets 56,524M vs current liabilities 159,640M (current ratio 0.35), retained earnings 26,088M.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"Weak liquidity (current ratio 0.35) and high leverage; earnings are positive but coverage uncertain; aligns with BB- speculative-grade.\"}}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 267,
+ "output_tokens": 568,
+ "cost_usd": 0.000763,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:54:00.500429+00:00",
+ "mode": "REAL"
+}

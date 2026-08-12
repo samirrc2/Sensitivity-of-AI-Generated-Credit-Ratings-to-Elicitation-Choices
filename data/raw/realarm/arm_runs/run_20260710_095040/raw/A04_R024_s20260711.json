@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R024",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 4, \"rationale\": \"High leverage (75% debt-to-assets), weak current ratio, but solid operating profitability and net income support a mid-speculative rating.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 267,
+ "out_tok": 54,
+ "usd": 0.000886,
+ "utc": "2026-07-10T14:17:14.150222+00:00"
+}

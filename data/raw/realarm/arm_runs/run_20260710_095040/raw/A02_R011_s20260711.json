@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R011",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits a large revenue base ($10.5B) and a solid asset cushion ($18.7B against $13.0B in liabilities), supported by strong short-term liquidity with a current ratio of 2.31 and significant accumulated retained earnings ($12.8B). However, profitability is currently under pressure, characterized by a negative operating margin of -3% and a net loss of $892M for the fiscal year. Given the combination of substantial scale and liquidity buffers tempered by recent significant earnings deficits, the issuer represents moderate credit risk.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 248,
+ "out_tok": 126,
+ "usd": 0.001506,
+ "utc": "2026-07-10T14:02:24.300430+00:00"
+}

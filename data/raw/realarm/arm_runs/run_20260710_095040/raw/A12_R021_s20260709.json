@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R021",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB+\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong solvency (equity/assets 40%) and solid profitability (EBIT margin 7.3%, ROA 4.7%) support a strong speculative-grade rating near investment grade.\"\n}\n```",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 263,
+ "out_tok": 71,
+ "usd": 0.001034,
+ "utc": "2026-07-10T14:14:32.959024+00:00"
+}

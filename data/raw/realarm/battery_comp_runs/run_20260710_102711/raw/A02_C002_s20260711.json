@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the company exhibits an exceptionally strong balance sheet with a massive asset base of $493.3B, negligible debt risk as evidenced by an outstanding current ratio of 12.41 ($186.2B in current assets vs. $15.0B in current liabilities), and robust profitability with a 44% operating margin and $2.48B in quarterly net income. Although the equity-to-assets ratio is relatively low (about 10%), the absolute liquidity cushion, immense scale, and extremely high gross margins (89%) indicate the highest level of creditworthiness and capacity to meet financial commitments.\n\nDECISION: AAA",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "in_tok": 290,
+ "out_tok": 144,
+ "usd": 0.001731,
+ "utc": "2026-07-10T14:28:25.814549+00:00"
+}

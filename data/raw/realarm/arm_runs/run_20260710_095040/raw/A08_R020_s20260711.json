@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "R020",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Adequate interest coverage and moderate leverage (Equity/Assets of 32%) support a solid investment grade rating.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 265,
+ "out_tok": 46,
+ "usd": 0.000811,
+ "utc": "2026-07-10T14:13:01.222862+00:00"
+}

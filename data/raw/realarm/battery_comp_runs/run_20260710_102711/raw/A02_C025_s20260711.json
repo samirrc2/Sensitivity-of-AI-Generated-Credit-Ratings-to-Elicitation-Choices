@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits a solid financial profile with substantial quarterly revenue ($9,143M), positive profitability (operating margin of 10% and net income of $821M), and a supportive liquidity position (current ratio of 1.39). However, its balance sheet leverage is moderately high, with total liabilities of $52,676M against total assets of $73,988M (a debt-to-assets ratio of approximately 71%), and the presence of $0M in retained earnings suggests a recently restructured balance sheet, spin-off, or accumulated deficit history. These credit metrics, balanced by strong operational scale, are consistent with a solid investment-grade rating in the BBB category.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 277,
+ "out_tok": 157,
+ "usd": 0.001829,
+ "utc": "2026-07-10T14:54:22.615317+00:00"
+}

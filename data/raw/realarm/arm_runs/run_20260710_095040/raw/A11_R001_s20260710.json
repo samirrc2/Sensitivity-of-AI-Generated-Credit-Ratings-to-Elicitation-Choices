@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R001",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows solid profitability (EBIT margin ~15.7%, net income ~350M) and good liquidity (current ratio ~1.87), supporting timely obligations. Leverage is moderate with liabilities at ~58% of assets (total liabilities 2,198M vs. total assets 3,807M), and strong equity capitalization (equity 1,609M) provides additional balance-sheet resilience. Overall, the credit profile aligns most closely with **BBB+**.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 239,
+ "out_tok": 299,
+ "usd": 0.000422,
+ "utc": "2026-07-10T13:51:41.524763+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R010",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows high leverage (total liabilities of 17,381M versus shareholders\u2019 equity of 3,328M; liabilities \u2248 80% of assets), which raises refinancing and downside risk. However, profitability appears solid for the period (net income 403M on revenue 2,106M, ~19% margin) and retained earnings are positive, supporting debt service capacity. Overall, the balance sheet leverage keeps the credit quality in the speculative-grade range.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 206,
+ "out_tok": 252,
+ "usd": 0.000356,
+ "utc": "2026-07-10T14:02:07.141159+00:00"
+}

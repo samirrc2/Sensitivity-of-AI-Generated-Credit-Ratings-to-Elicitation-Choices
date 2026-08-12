@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates exceptionally strong profitability, with an operating margin of 62% and net income of 2,375M on 5,251M in revenue for the quarter, alongside a highly robust retained earnings balance of 36,115M. However, the presence of negative shareholders' equity (-2,646M) and a weak current ratio of 0.62 (current assets of 5,119M vs. current liabilities of 8,286M) indicate a highly leveraged balance sheet and short-term liquidity pressures typical of a highly rated investment-grade issuer that has undergone heavy share repurchases or debt-financed recapitalization. Taking into account the superb core profitability and franchise strength balanced against the negative equity and tight liquidity, a solid investment-grade rating in the A-range is warranted.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 276,
+ "out_tok": 185,
+ "usd": 0.002079,
+ "utc": "2026-07-10T14:35:26.441682+00:00"
+}

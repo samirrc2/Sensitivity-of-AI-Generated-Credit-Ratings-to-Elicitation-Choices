@@ -1,0 +1,12 @@
+{
+ "item_id": "R041",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "ok": true,
+ "raw_response": "To find the matching company, we look for a US public company with the following highly unusual financial profile from a recent fiscal year:\n* **Revenue:** ~$1.82 Billion\n* **Operating Income:** ~ -$775 Million (a massive operating loss)\n* **Net Income:** ~+$505 Million (a large net profit despite the operating loss, indicating massive non-operating income, such as an investment gain, tax benefit, or asset sale)\n* **Retained Earnings:** ~$2.30 Billion\n* **Total Assets:** ~$4.61 Billion\n* **Shareholders' Equity:** ~$1.90 Billion\n\nThis specific combination of a steep operating loss (~ -$775M) alongside a strong positive net income (~+$505M) on ~$1.82B in revenue perfectly matches the FY2023 financial results of **Robinhood Markets, Inc.** (NASDAQ: HOOD). \n\nDuring 2023, Robinhood reported:\n* **Total Net Revenues:** $1,865M (close to $1.82B)\n* **Operating Loss / Net Income mismatch:** Driven by unique accounting items, including a massive $485 million regulatory/legal-related share repurchase credit/expense adjustment (the Emergent Fidelity Technologies share purchase) and changes in fair value of warrant liabilities.\n\nGUESS: HOOD",
+ "in_tok": 192,
+ "out_tok": 294,
+ "usd": 0.002934,
+ "utc": "2026-07-09T23:26:40.304692+00:00"
+}

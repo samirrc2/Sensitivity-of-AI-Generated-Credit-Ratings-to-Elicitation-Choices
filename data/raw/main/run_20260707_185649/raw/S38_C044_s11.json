@@ -1,0 +1,43 @@
+{
+ "spec_id": "S38",
+ "item_id": "C044",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 0.0,
+ "temperature_applied": false,
+ "effective_temperature": null,
+ "call_meta": {
+  "signature": "mct+seed+eff",
+  "temperature_applied": false,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-05-07, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-05-07):\n| Current ratio           | 0.27 |\n| Retained earnings       | -20,476M |\n| Current liabilities     | 4,705M |\n| Current assets          | 1,254M |\n| Shareholders' equity    | -1,920M |\n| Total liabilities       | 33,311M |\n| Total assets            | 31,391M |\n| EBIT / operating income | 465M |\n| Revenue                 | 1,010M |\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The company has a negative equity position and very weak liquidity (current ratio 0.27), with total liabilities exceeding total assets. This implies heightened risk of default and distress despite positive EBIT, suggesting a non-investment-grade, highly speculative rating. Therefore, a CCC rating is appropriate.\n\nDECISION: CCC",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 242,
+ "output_tokens": 326,
+ "cost_usd": 0.000456,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:49:57.431715+00:00",
+ "mode": "REAL"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C023",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates a massive asset base of over $130 billion, strong profitability (net income of $2,540 million, 19% operating margin), and highly cumulative retained earnings of $87,663 million, indicating a long track record of profitable operations. However, the balance sheet exhibits high leverage with total liabilities of $111,269 million against shareholders' equity of $18,677 million, and a tight liquidity profile represented by a current ratio of 1.04. This combination of strong market presence and profitability paired with high leverage and tight near-term liquidity is characteristic of a solid investment-grade credit, tempered to the lower-medium tier.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 282,
+ "out_tok": 154,
+ "usd": 0.001809,
+ "utc": "2026-07-10T14:52:00.554149+00:00"
+}

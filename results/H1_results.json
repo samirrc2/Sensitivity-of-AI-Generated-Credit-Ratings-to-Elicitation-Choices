@@ -1,0 +1,70 @@
+{
+ "H1_primary_WATCH": {
+  "arm_flip_share": [
+   0.2263,
+   0.1472,
+   0.3083
+  ],
+  "battery_flip_share": [
+   0.3177,
+   0.2234,
+   0.4062
+  ],
+  "diff_arm_minus_battery": -0.0914,
+  "diff_95CI": [
+   -0.2127,
+   0.0322
+  ],
+  "n_watch_arm": 16,
+  "n_watch_battery": 15,
+  "decision": "SUPPORTED (|diff|<=0.15)"
+ },
+ "H1_secondary_raw": {
+  "arm_flip_share": [
+   0.2539,
+   0.1946,
+   0.3134
+  ],
+  "battery_flip_share": [
+   0.3134,
+   0.2497,
+   0.3777
+  ],
+  "diff_arm_minus_battery": -0.0595,
+  "diff_95CI": [
+   -0.1456,
+   0.0274
+  ],
+  "caveat": "real arm is WATCH-heavy (near-threshold mass); raw diff is descriptive, not confirmatory."
+ },
+ "band_accuracy_vs_agency": {
+  "n": 1080,
+  "exact_band_accuracy": 0.537,
+  "confusion_true_pred": {
+   "SAFE->DISTRESS": 2,
+   "SAFE->SAFE": 305,
+   "SAFE->WATCH": 197,
+   "WATCH->DISTRESS": 15,
+   "WATCH->SAFE": 286,
+   "WATCH->WATCH": 275
+  }
+ },
+ "variance_decomposition_arm": {
+  "item": 0.6068,
+  "spec": 0.0345,
+  "seed": 0.0,
+  "residual": 0.3587
+ },
+ "variance_decomposition_battery": {
+  "item": 0.5457,
+  "spec": 0.0863,
+  "seed": 0.0001,
+  "residual": 0.3679
+ },
+ "provenance": {
+  "arm_run": "20260710_095040",
+  "battery_run": "20260710_102711",
+  "arm_calls": 1116,
+  "battery_calls": 1620
+ }
+}

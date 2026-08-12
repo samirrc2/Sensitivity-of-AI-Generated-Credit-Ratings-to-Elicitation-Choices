@@ -1,0 +1,12 @@
+{
+ "item_id": "R030",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "ok": true,
+ "raw_response": "To find the specific company, we can analyze the unique combination of financial characteristics:\n*   **Revenue:** $626 million.\n*   **Gross Margin:** 94% (extremely high, typical of SaaS/software, biotech/pharma, or licensing companies).\n*   **Operating Income:** $90 million (14% margin).\n*   **Net Income:** $337 million (significantly higher than operating income, indicating a massive one-time tax benefit, investment gain, or discontinued operations).\n*   **Retained Earnings:** -$1.564 billion (indicates a long history of accumulated deficits, very common for biotechnology companies that recently turned profitable or software companies with heavy early-stage stock-based compensation/losses).\n*   **Balance Sheet:** $1.35 billion in assets, $290 million in liabilities (highly liquid, current ratio 3.83).\n\nA biotech/biopharma company with an approved blockbuster drug or licensing revenues fits this profile perfectly (high gross margins, huge accumulated deficit but recently highly profitable, and high net income due to tax asset recognition/valuation allowance releases). \n\nOne company matching these exact figures (FY 2023 or trailing twelve months) is **Halozyme Therapeutics** (ticker: HALO). Halozyme is a high-margin royalty/licensing biotech company with gross margins around 94%, revenue in the $600M-$700M range, and a history of accumulated deficits (negative retained earnings) that has turned highly profitable. Another candidate with similar metrics is **Prothena** or **Exelixis**, but Halozyme's licensing business model perfectly explains the sustained 94% gross margin.\n\nGUESS: Halozyme Therapeutics (HALO)",
+ "in_tok": 185,
+ "out_tok": 379,
+ "usd": 0.003688,
+ "utc": "2026-07-09T23:49:42.799233+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 4, \"rationale\": \"High equity and asset base are offset by low operating profitability (EBIT margin ~17%, ROA ~1.6%), resulting in a borderline investment-grade rating.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 282,
+ "out_tok": 59,
+ "usd": 0.000954,
+ "utc": "2026-07-10T14:41:26.020296+00:00"
+}

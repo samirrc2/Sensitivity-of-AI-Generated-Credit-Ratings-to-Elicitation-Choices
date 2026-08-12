@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R014",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A-\", \"confidence\": 4, \"rationale\": \"Strong balance sheet with low leverage (38% debt/assets), solid profitability (9.7% ROA), and robust liquidity, supporting an investment-grade rating.\"}\n```",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 268,
+ "out_tok": 59,
+ "usd": 0.000933,
+ "utc": "2026-07-10T14:06:39.966029+00:00"
+}

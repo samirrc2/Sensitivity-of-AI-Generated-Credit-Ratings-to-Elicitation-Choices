@@ -1,0 +1,5 @@
+comparison,band_agreement,letter_agreement
+"within_family(same vendor, seeds)",0.737,0.225
+cross_family(different vendors),0.504,0.052
+provider_main_effect_varshare_pct,1.266,
+provider_x_item_varshare_pct,2.237,

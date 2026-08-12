@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"A-\",\n  \"confidence\": 4,\n  \"rationale\": \"High asset base and strong liquidity (current ratio 12.41) are offset by high leverage (90% debt-to-assets) and moderate profitability.\"\n}\n```",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 276,
+ "out_tok": 67,
+ "usd": 0.001017,
+ "utc": "2026-07-10T14:28:55.575620+00:00"
+}

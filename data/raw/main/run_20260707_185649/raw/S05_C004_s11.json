@@ -1,0 +1,45 @@
+{
+ "spec_id": "S05",
+ "item_id": "C004",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 11,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-04-23, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-04-23):\nFiscal period 2026 Q1 (filed 2026-04-23). Revenue 22,387M, gross margin 21%, operating income 941M (operating margin 4%), net income 491M, diluted EPS 0.13. Total assets 143,724M, total liabilities 58,979M, shareholders' equity 84,113M. Current assets 69,748M vs current liabilities 34,138M (current ratio 2.04), retained earnings 39,480M.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The issuer exhibits a very strong financial profile, characterized by a large asset base of over $143 billion, substantial shareholders' equity of $84.1 billion, and a conservative capital structure with a low leverage ratio (total liabilities to equity of approximately 0.70x). Liquidity is robust with a current ratio of 2.04, and the company maintains consistent profitability with positive quarterly net income of $491 million and significant retained earnings. Despite relatively thin operating margins (4%), the sheer scale, strong balance sheet, and excellent liquidity justify a solid investment-grade rating in the single-A category.\n\nDECISION: A-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 295,
+ "output_tokens": 135,
+ "cost_usd": 0.001657,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:04:40.945457+00:00",
+ "mode": "REAL"
+}

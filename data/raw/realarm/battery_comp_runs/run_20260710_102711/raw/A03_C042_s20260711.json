@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer\u2019s financial profile is weak: it has negative shareholders\u2019 equity and retained earnings, with total liabilities exceeding total assets, indicating significant balance-sheet stress and elevated solvency risk. Liquidity is also tight (current ratio of 0.92). While it generates positive operating income (EBIT/operating income of 777M), the structural capital deficit points to a credit quality in the distressed, speculative range.\n\nDECISION: CCC-",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "in_tok": 238,
+ "out_tok": 268,
+ "usd": 0.000383,
+ "utc": "2026-07-10T15:15:34.318743+00:00"
+}

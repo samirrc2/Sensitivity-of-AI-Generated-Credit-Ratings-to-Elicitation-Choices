@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer displays exceptional operating profitability with an operating margin of 62% and quarterly net income of 2,375M on 5,251M in revenue. However, its balance sheet shows significant leverage with negative shareholders' equity of -2,646M and a tight liquidity position reflected in a current ratio of 0.62. This combination of highly robust, cash-generative business operations alongside a highly leveraged capital structure typically characterizes a strong investment-grade credit profile, albeit with moderated ratings due to the balance sheet structure.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 276,
+ "out_tok": 121,
+ "usd": 0.001503,
+ "utc": "2026-07-10T14:35:27.998684+00:00"
+}

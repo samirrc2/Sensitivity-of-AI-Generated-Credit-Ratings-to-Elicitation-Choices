@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R002",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits high revenues of $9,292M but suffers from extremely weak profitability, with a gross margin of only 7%, operating income barely at breakeven ($7M), and a substantial net loss of -$139M. While the balance sheet shows a positive equity base of $2,520M and adequate short-term liquidity (current ratio of 1.21), the lack of profitability and low operating margin present significant credit risk. These characteristics align with a non-investment grade speculative rating.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 235,
+ "out_tok": 116,
+ "usd": 0.001396,
+ "utc": "2026-07-10T13:52:22.927124+00:00"
+}

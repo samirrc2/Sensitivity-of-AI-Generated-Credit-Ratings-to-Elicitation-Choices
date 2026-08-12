@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's Q1 2026 financial profile reveals a highly leveraged balance sheet with total liabilities of $158,800M against shareholders' equity of only $5,987M (a debt-to-equity ratio of over 26x), leaving an exceptionally thin equity cushion. Furthermore, profitability is weak with a marginal gross margin of 11%, a low operating margin of 2%, and a net loss of $4M for the quarter. While a current ratio of 1.18 provides some near-term liquidity cover, the combination of extreme leverage, razor-thin profitability, and net losses places the issuer in the highly speculative, high-credit-risk category.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 284,
+ "out_tok": 158,
+ "usd": 0.001848,
+ "utc": "2026-07-10T14:46:32.643880+00:00"
+}

@@ -1,0 +1,12 @@
+{
+ "item_id": "R037",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "ok": true,
+ "raw_response": "GUESS: Campbell Soup Company (CPB)",
+ "in_tok": 197,
+ "out_tok": 10,
+ "usd": 0.000385,
+ "utc": "2026-07-09T23:25:19.045311+00:00"
+}

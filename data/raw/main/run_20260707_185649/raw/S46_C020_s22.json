@@ -1,0 +1,45 @@
+{
+ "spec_id": "S46",
+ "item_id": "C020",
+ "seed": 22,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 0.0,
+   "maxOutputTokens": 1024,
+   "seed": 22,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-02-17. Act as a credit rating analyst.\nFiscal period 2025 Q4 (filed 2026-02-17). Revenue 36,381M, gross margin 80%, operating income 5,004M (operating margin 14%), net income 2,342M, diluted EPS 0.55. Total assets 404,258M, total liabilities 298,517M, shareholders' equity 104,460M. Current assets 56,922M vs current liabilities 62,370M (current ratio 0.91), retained earnings 94,744M.\nBased only on the above and knowledge predating 2026-02-17, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "```json\n{\n  \"decision\": \"BBB\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong asset base and high gross margins are offset by low operating profitability, a sub-1.0 current ratio, and high leverage.\"\n}\n```",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 312,
+ "output_tokens": 58,
+ "cost_usd": 0.00099,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-08T00:00:50.614076+00:00",
+ "mode": "REAL"
+}

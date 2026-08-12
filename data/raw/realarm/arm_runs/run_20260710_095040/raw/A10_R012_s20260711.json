@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R012",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the company exhibits a very strong credit profile, characterized by solid profitability (13% operating margin and $400M net income), a highly liquid balance sheet (current ratio of 2.35x), and a conservative capital structure with equity ($1,863M) nearly equal to total liabilities ($1,971M) and substantial retained earnings ($3,602M). While these metrics indicate upper-medium grade to low-risk investment-grade quality, the absolute scale of the business (revenue of $3.6B and assets of $3.8B) is modest compared to multi-national peers, which typically caps the rating in the single-A category. Therefore, an 'A' rating is assigned to reflect its strong financial risk profile alongside its moderate operational scale.\n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "in_tok": 244,
+ "out_tok": 179,
+ "usd": 0.001977,
+ "utc": "2026-07-10T14:04:17.026319+00:00"
+}

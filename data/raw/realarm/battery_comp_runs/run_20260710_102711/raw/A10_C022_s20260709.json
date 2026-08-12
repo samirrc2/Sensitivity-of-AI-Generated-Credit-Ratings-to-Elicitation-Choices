@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's financial profile reveals a highly leveraged balance sheet with a total debt-to-equity indicator implied by total liabilities of $45,596M against shareholders' equity of $25,838M, alongside a critical liquidity constraint evidenced by a current ratio of only 0.59 (current assets of $12,951M versus current liabilities of $21,864M). While the firm remains profitable with a net income of $665M and operating margin of 9% on $10,496M in revenue, the severe working capital deficit and substantial overall liabilities relative to its asset base ($71,487M) elevate default risk to the sub-investment grade category. Consequently, the firm's financial profile reflects moderate default risk characterized by speculative-grade credit metrics, warranting a BB rating.\n\nDECISION: BB",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 283,
+ "out_tok": 192,
+ "usd": 0.002152,
+ "utc": "2026-07-10T14:51:13.272069+00:00"
+}

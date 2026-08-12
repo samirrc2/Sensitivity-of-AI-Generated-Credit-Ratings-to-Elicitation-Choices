@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R006",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits a very large revenue base ($19.5B) and a substantial equity cushion ($4.2B with positive retained earnings), suggesting a well-established market position. However, it is currently unprofitable, with a marginal operating loss (-$43M), a net loss (-$126M), a leveraged balance sheet (total liabilities/equity of ~1.4x), and a tight current ratio of 1.21x. These factors indicate moderate credit risk with sufficient capacity to meet financial commitments but heightened vulnerability to adverse economic conditions.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 239,
+ "out_tok": 122,
+ "usd": 0.001456,
+ "utc": "2026-07-10T13:56:37.328331+00:00"
+}

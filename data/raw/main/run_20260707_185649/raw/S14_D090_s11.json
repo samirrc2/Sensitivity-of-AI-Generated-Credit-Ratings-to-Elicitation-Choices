@@ -1,0 +1,45 @@
+{
+ "spec_id": "S14",
+ "item_id": "D090",
+ "seed": 11,
+ "family": "directional",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "SELL",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 11,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Task: give a 20-trading-day directional recommendation for the stock.\nRespond with exactly one of: BUY, HOLD, SELL. Use only the figures provided and knowledge available on or before 2026-04-30; do not use later information.\nProvided information:\nPrice action as of 2026-04-30: 1w +0.2%, 1m +5.0%, 3m +5.7%. Last close 64.24. 21d annualized realized volatility 15%. Position in trailing 63-day range: 56% (0%=low, 100%=high).\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock shows steady, moderate upward momentum across the 1-week, 1-month, and 3-month windows, paired with a relatively low annualized volatility of 15%. Sitting near the midpoint of its 63-day range (56%), it has ample room to continue its gradual trend without being overextended. This combination of consistent positive returns and stable volatility supports a positive outlook for the next 20 trading days.\n\nDECISION: BUY",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 179,
+ "output_tokens": 96,
+ "cost_usd": 0.001132,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:13:40.412029+00:00",
+ "mode": "REAL"
+}

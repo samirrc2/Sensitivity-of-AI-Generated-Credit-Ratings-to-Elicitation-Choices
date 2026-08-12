@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows weak near-term liquidity (current ratio of 0.55) alongside relatively high leverage (total liabilities are ~68% of total assets). However, profitability appears solid with EBIT of 2,527M on revenue of 7,966M (~32% EBIT margin), which partially offsets the balance-sheet and liquidity risks. Overall, this supports a speculative but not distressed rating.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 193,
+ "usd": 0.00029,
+ "utc": "2026-07-10T15:15:10.904555+00:00"
+}

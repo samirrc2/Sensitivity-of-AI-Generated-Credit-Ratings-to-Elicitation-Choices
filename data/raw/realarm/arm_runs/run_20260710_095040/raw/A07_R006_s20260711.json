@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R006",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows weak operating and profitability performance with negative EBIT (-43M) and a net loss (-126M), which typically pressures credit quality. Liquidity is only modest (current ratio \u2248 1.21) and leverage is relatively high (liabilities/assets \u2248 0.58), supporting a speculative-grade outcome rather than investment grade.  \n\nDECISION: B+",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 230,
+ "out_tok": 239,
+ "usd": 0.000345,
+ "utc": "2026-07-10T13:57:11.523659+00:00"
+}

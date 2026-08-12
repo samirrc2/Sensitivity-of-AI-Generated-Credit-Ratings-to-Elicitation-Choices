@@ -1,0 +1,45 @@
+{
+ "spec_id": "S05",
+ "item_id": "C044",
+ "seed": 22,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 22,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-05-07, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-05-07):\nFiscal period 2026 Q1 (filed 2026-05-07). Revenue 1,010M, gross margin 74%, operating income 465M (operating margin 46%), net income 151M, diluted EPS 0.34. Total assets 31,391M, total liabilities 33,311M, shareholders' equity -1,920M. Current assets 1,254M vs current liabilities 4,705M (current ratio 0.27), retained earnings -20,476M.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The company exhibits severe financial distress, characterized by negative shareholders' equity (-$1,920M), massive accumulated deficits (retained earnings of -$20,476M), and a critically low current ratio of 0.27 (current liabilities of $4,705M vs. current assets of $1,254M) which poses an immediate liquidity and refinancing risk despite positive operating income. This highly leveraged capital structure and severe working capital deficit indicate a very high vulnerability to default, placing the issuer in the deep non-investment grade territory.\n\nDECISION: CCC",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 291,
+ "output_tokens": 123,
+ "cost_usd": 0.001544,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:05:05.028377+00:00",
+ "mode": "REAL"
+}

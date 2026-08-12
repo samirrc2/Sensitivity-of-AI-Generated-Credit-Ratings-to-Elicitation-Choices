@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows tight liquidity with a current ratio of ~1.0, and it has substantial accumulated losses reflected in negative retained earnings (-6,947M). While operating profitability appears positive (EBIT 283M on revenue 1,635M), the balance-sheet strain and leverage profile (liabilities nearly equal to equity) suggest elevated credit risk consistent with a lower speculative-grade rating.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 231,
+ "out_tok": 177,
+ "usd": 0.000267,
+ "utc": "2026-07-10T15:09:32.743492+00:00"
+}

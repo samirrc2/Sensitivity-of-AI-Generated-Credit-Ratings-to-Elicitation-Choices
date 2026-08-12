@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R002",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B-\", \"confidence\": 4, \"rationale\": \"High leverage (74% debt-to-assets), weak profitability with a net loss of $139M, and extremely low EBIT-to-interest coverage suggest high credit risk.\"}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 270,
+ "out_tok": 63,
+ "usd": 0.000972,
+ "utc": "2026-07-10T13:52:13.390257+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided Q3 2025 financial data, the company exhibits a very large scale (annualized revenue exceeding $100B and assets of approximately $60B), but operates with thin margins (operating margin of 4.0%) and a tight liquidity profile, as evidenced by a current ratio of 0.97 (current liabilities exceed current assets). While the company is profitable with positive net income and substantial retained earnings, its high leverage (total liabilities-to-equity ratio of approximately 2.87x) and weak short-term liquidity place it in the lower-investment-grade category. These characteristics are consistent with a solid, highly leveraged investment-grade issuer.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 281,
+ "out_tok": 151,
+ "usd": 0.001781,
+ "utc": "2026-07-10T15:16:32.386175+00:00"
+}

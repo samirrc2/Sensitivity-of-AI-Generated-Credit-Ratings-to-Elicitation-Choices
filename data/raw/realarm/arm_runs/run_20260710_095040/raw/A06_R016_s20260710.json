@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R016",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates a solid liquidity profile with a current ratio of 3.19 and a reasonable capital structure with equity of 838M against liabilities of 1,114M (debt-to-equity leverage is moderate). However, profitability is weak with negative operating income (-127M, -6% margin) and a net loss of -214M on 2,044M in revenue. These operating losses and negative returns constrain the credit profile to speculative grade, but the strong short-term liquidity cushions against immediate default risk.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 231,
+ "out_tok": 124,
+ "usd": 0.001463,
+ "utc": "2026-07-10T14:08:20.806079+00:00"
+}

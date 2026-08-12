@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the issuer exhibits an exceptionally strong credit profile characterized by an outstanding operating margin of 56% (generating $3.69B in operating income on $6.57B in revenue) and a highly robust balance sheet. The company maintains an excellent liquidity profile with a current ratio of 2.29 ($13.1B in current assets against $5.7B in current liabilities) and a very conservative leverage profile, with total equity of $33.9B comfortably supporting total liabilities of $23.1B. Although net income ($1.30B) is lower than operating income\u2014likely due to non-operating items, taxes, or one-off adjustments\u2014the underlying cash-generation capability, high gross margins (59%), and substantial asset cushion warrant a high-quality investment-grade rating.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 285,
+ "out_tok": 185,
+ "usd": 0.002093,
+ "utc": "2026-07-10T14:36:56.228807+00:00"
+}

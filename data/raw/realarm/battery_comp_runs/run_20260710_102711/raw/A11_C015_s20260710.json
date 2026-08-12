@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows moderate liquidity (current ratio 1.44) and solid operating profitability (EBIT margin ~13.9%), supported by substantial retained earnings. However, the balance sheet is highly leveraged with large total liabilities (liabilities/assets ~78%) and relatively thin equity (~21% of assets), which elevates refinancing and downside risk.  \nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 201,
+ "usd": 0.0003,
+ "utc": "2026-07-10T14:43:28.731984+00:00"
+}

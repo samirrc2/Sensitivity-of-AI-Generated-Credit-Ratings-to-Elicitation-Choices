@@ -1,0 +1,44 @@
+{
+ "spec_id": "S08",
+ "item_id": "C038",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 33,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-02-24, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-02-24):\n| Current ratio           | 0.63 |\n| Retained earnings       | -5,086M |\n| Current liabilities     | 3,973M |\n| Current assets          | 2,495M |\n| Shareholders' equity    | 3,652M |\n| Total liabilities       | 52,835M |\n| Total assets            | 63,190M |\n| EBIT / operating income | 1,161M |\n| Revenue                 | 2,738M |\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\"decision\": \"CCC-\", \"confidence\": 3, \"rationale\": \"Extremely high leverage (TL far exceeds equity), negative retained earnings, weak liquidity; distressed but still positive EBITDA.\"}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 253,
+ "output_tokens": 370,
+ "cost_usd": 0.000513,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:08:19.126177+00:00",
+ "mode": "REAL"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C021",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 4, \"rationale\": \"High equity and retained earnings provide solid asset coverage, but weak liquidity (0.68 current ratio) and low asset turnover cap it at investment grade.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 278,
+ "out_tok": 55,
+ "usd": 0.000912,
+ "utc": "2026-07-10T14:50:08.966631+00:00"
+}

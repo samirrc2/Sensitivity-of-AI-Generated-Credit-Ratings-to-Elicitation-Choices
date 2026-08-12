@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial information, the issuer exhibits severe financial distress, characterized by negative shareholders' equity (-1,920M), a massive accumulated deficit (retained earnings of -20,476M), and an extremely weak current ratio of 0.27 (current assets of 1,254M versus current liabilities of 4,705M). Despite generating positive operating income, the company faces a severe working capital deficit and a highly leveraged balance sheet with liabilities exceeding assets, indicating an imminent risk of default or restructuring. This profile is consistent with a highly speculative, vulnerable, and near-default credit profile.\n\nDECISION: CCC-",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "in_tok": 280,
+ "out_tok": 139,
+ "usd": 0.001671,
+ "utc": "2026-07-10T15:18:27.861042+00:00"
+}

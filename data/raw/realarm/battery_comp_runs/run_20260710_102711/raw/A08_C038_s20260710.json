@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 4, \"rationale\": \"High total liabilities relative to equity/assets is offset by solid EBIT, though negative retained earnings and low liquidity weigh on the rating.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 268,
+ "out_tok": 49,
+ "usd": 0.000843,
+ "utc": "2026-07-10T15:10:47.119356+00:00"
+}

@@ -1,0 +1,45 @@
+{
+ "spec_id": "S33",
+ "item_id": "C004",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2026-04-23; do not use later information.\nProvided information:\n| Current ratio           | 2.04 |\n| Retained earnings       | 39,480M |\n| Current liabilities     | 34,138M |\n| Current assets          | 69,748M |\n| Shareholders' equity    | 84,113M |\n| Total liabilities       | 58,979M |\n| Total assets            | 143,724M |\n| EBIT / operating income | 941M |\n| Revenue                 | 22,387M |\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"Solid current ratio and equity. EBIT/Revenue (4.2%) is moderate, suggesting average profitability, justifying an investment grade rating.\"}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 278,
+ "output_tokens": 46,
+ "cost_usd": 0.000198,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:43:59.165254+00:00",
+ "mode": "REAL"
+}

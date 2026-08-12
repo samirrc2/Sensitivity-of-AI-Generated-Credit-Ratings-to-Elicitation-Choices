@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R003",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "**Analysis:**\nThe company demonstrates solid profitability with an operating margin of 22% ($263M) and positive net income ($106M), but its balance sheet exhibits elevated risk. Leverage is relatively high with a total liabilities-to-equity ratio of 3.18x ($4,392M / $1,381M), and liquidity is constrained as evidenced by a weak current ratio of 0.72 ($564M of current assets against $783M of current liabilities). These combined factors of stable operating profitability offset by aggressive leverage and near-term liquidity pressure are characteristic of a non-investment grade, speculative-grade issuer in the double-B category.\n\nDECISION: BB",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 234,
+ "out_tok": 155,
+ "usd": 0.001746,
+ "utc": "2026-07-10T13:53:57.305608+00:00"
+}

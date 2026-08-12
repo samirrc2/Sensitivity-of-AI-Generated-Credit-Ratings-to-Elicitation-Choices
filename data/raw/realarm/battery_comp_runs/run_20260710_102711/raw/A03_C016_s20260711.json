@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C016",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows solid operating profitability (EBIT of 3,213M on 19,443M revenue, ~16% margin), which supports debt service capacity. However, liquidity is weak with a current ratio of 0.90, and leverage is high with total liabilities of 89,110M versus total assets of 110,646M, increasing refinancing and downside risk. Overall, this fits a **BBB-** level credit profile.  \n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 240,
+ "out_tok": 216,
+ "usd": 0.000318,
+ "utc": "2026-07-10T14:43:52.423377+00:00"
+}

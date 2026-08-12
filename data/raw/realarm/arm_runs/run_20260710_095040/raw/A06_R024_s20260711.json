@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R024",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid profitability with revenue of $4,076M, an operating margin of 14% ($552M), and net income of $384M. However, its financial profile carries significant leverage and tight liquidity, as evidenced by a highly geared balance sheet (total liabilities of $4,392M against shareholders' equity of $941M) and a current ratio below parity (0.91). This combination of stable operating profitability but elevated balance sheet leverage and weak short-term liquidity is characteristic of a mid-to-lower investment grade profile.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 234,
+ "out_tok": 130,
+ "usd": 0.001521,
+ "utc": "2026-07-10T14:17:23.643484+00:00"
+}

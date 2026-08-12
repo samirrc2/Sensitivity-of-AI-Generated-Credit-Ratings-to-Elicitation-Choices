@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Moderate leverage (59% Debt/Assets) and modest profitability (4.4% EBIT margin, 2% ROA) indicate an investment-grade rating, constrained to BBB.\"}\n```",
+ "parsed_letter": "C",
+ "parsed_band": "DISTRESS",
+ "in_tok": 281,
+ "out_tok": 61,
+ "usd": 0.000971,
+ "utc": "2026-07-10T14:42:27.645393+00:00"
+}

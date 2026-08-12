@@ -1,0 +1,12 @@
+{
+ "item_id": "R013",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "ok": true,
+ "raw_response": "GUESS: KRIM (or similar, but actual match is **Campbell Soup Company** / CPB)",
+ "in_tok": 198,
+ "out_tok": 22,
+ "usd": 0.000495,
+ "utc": "2026-07-09T23:16:56.872554+00:00"
+}

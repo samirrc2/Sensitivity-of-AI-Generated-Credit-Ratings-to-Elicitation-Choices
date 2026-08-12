@@ -1,0 +1,45 @@
+{
+ "spec_id": "S14",
+ "item_id": "C022",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2026-02-04; do not use later information.\nProvided information:\nFiscal period 2025 Q4 (filed 2026-02-04). Revenue 10,496M, gross margin 28%, operating income 979M (operating margin 9%), net income 665M, diluted EPS 0.51. Total assets 71,487M, total liabilities 45,596M, shareholders' equity 25,838M. Current assets 12,951M vs current liabilities 21,864M (current ratio 0.59), retained earnings 36,413M.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The issuer demonstrates a solid operating performance with quarterly revenue of $10.5 billion, positive operating income of $979 million, and a healthy retained earnings balance of $36.4 billion. However, its short-term liquidity position is highly pressured, as evidenced by a current ratio of 0.59 (current assets of $12.95 billion versus current liabilities of $21.86 billion), and the overall leverage profile is moderate with liabilities representing about 64% of total assets. These factors balance out to a solid investment-grade profile but with notable short-term refinancing/liquidity risks.\n\nDECISION: BBB-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 281,
+ "output_tokens": 137,
+ "cost_usd": 0.001654,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:13:00.125472+00:00",
+ "mode": "REAL"
+}

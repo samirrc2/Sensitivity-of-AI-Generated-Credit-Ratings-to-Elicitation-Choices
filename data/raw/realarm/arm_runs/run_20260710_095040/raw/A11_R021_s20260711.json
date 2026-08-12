@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R021",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows moderate financial leverage (Total liabilities of 1,148M vs. equity of 773M; D/E \u2248 1.5) alongside a reasonable but not strong liquidity position (current assets 526M vs. current liabilities 351M; current ratio \u2248 1.5). Profitability appears adequate but not strong (EBIT margin \u2248 7% and net margin \u2248 4%), which limits cushion against a downturn. Overall, this supports a lower-investment-grade credit profile.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 231,
+ "out_tok": 262,
+ "usd": 0.000374,
+ "utc": "2026-07-10T14:14:31.586339+00:00"
+}

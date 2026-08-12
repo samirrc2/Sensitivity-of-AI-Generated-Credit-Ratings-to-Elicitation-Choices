@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits strong operating performance with quarterly revenue of $23.1B, an operating margin of 11% ($2.55B), and a positive current ratio of 1.09. However, the balance sheet presents severe structural risk with negative shareholders' equity of -$9.27B (total liabilities exceed total assets) and accumulated deficits (retained earnings of -$9.88B), which heavily constrains the rating to the speculative-grade category despite strong current earnings. \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 284,
+ "out_tok": 111,
+ "usd": 0.001425,
+ "utc": "2026-07-10T15:04:16.599514+00:00"
+}

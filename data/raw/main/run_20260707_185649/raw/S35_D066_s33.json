@@ -1,0 +1,44 @@
+{
+ "spec_id": "S35",
+ "item_id": "D066",
+ "seed": 33,
+ "family": "directional",
+ "provider": "openai",
+ "version": "current",
+ "model": "gpt-5.4-nano",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "2",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 33,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a equity research analyst. Using only the information below and general knowledge predating 2026-04-02, give a 20-trading-day directional recommendation for the stock.\nValid answers (choose exactly one): BUY, HOLD, SELL.\nHere are two worked examples:\n- Information: Price action as of 2026-03-19: 1w +4.1%, 1m -5.5%, 3m -1.3%. Last close 109.85. 21d annualized realized volatility 35%. Position in trailing 63-day range: 24% (0%=low, 100%=high).\n  Answer: BUY\n- Information: Price action as of 2026-04-02: 1w -4.8%, 1m -8.3%, 3m -0.8%. Last close 201.40. 21d annualized realized volatility 23%. Position in trailing 63-day range: 46% (0%=low, 100%=high).\n  Answer: SELL\n\nCompany information (as of 2026-04-02):\n| Return 3m            | +5.8% |\n| Return 1m            | -8.2% |\n| Return 1w            | +2.3% |\n| Range position (63d) | 51% |\n| 21d realized vol     | 21% |\n| Last close           | 244.71 |\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock has been weakening over the past month (-8.2%), but has started to stabilize with a positive 1-week move (+2.3%). With the price sitting near the middle of its 63-day range (51%) and moderate realized volatility (21%), the signal is mixed rather than strongly directional.  \n\nDECISION: HOLD",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 340,
+ "output_tokens": 154,
+ "cost_usd": 0.000261,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:46:06.327232+00:00",
+ "mode": "REAL"
+}

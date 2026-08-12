@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R013",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows significant financial distress, characterized by a negative net income of -23M, severely accumulated deficits (retained earnings of -1,065M), and negative shareholders' equity of -496M (technical insolvency). While the company remains operational with 2,800M in revenue and a razor-thin current ratio of 1.02, its highly leveraged capital structure (liabilities exceeding assets) indicates a very high credit risk and substantial vulnerability to default. Based on these highly leveraged and distressed credit metrics, the issuer falls into the highly speculative CCC range.\n\nDECISION: CCC+",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "in_tok": 228,
+ "out_tok": 128,
+ "usd": 0.001494,
+ "utc": "2026-07-10T14:04:56.953212+00:00"
+}

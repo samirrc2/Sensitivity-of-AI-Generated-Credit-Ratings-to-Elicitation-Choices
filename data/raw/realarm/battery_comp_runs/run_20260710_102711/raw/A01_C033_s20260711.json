@@ -1,0 +1,19 @@
+{
+ "spec_id": "A01",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"B+\",\"confidence\":3,\"rationale\":\"Weak capitalization with negative equity (\u2212$9.3B) and liabilities exceeding assets; leverage and liquidity tight (current ratio 1.09) despite positive margins.\"}",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 263,
+ "out_tok": 161,
+ "usd": 0.000254,
+ "utc": "2026-07-10T15:04:13.233860+00:00"
+}

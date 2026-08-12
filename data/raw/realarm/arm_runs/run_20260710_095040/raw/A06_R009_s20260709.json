@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R009",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits strong profitability with an operating margin of 33% ($1,572M operating income on $4,738M revenue) and a solid capital structure with a debt-to-equity ratio supported by $7,253M in shareholders' equity against $7,758M in total liabilities. While its short-term liquidity is slightly tight with a current ratio of 0.79, the high profitability, substantial retained earnings ($4,042M), and overall balance sheet strength align with an upper-medium grade, strong investment-grade credit profile. \n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 235,
+ "out_tok": 133,
+ "usd": 0.00155,
+ "utc": "2026-07-10T14:00:23.739937+00:00"
+}

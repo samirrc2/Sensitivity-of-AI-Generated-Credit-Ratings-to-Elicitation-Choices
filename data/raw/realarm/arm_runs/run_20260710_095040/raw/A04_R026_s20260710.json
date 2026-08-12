@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R026",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Moderate leverage (74% debt-to-assets), positive profitability with thin margins, and adequate equity support point to a solid investment-grade rating.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 274,
+ "out_tok": 54,
+ "usd": 0.000897,
+ "utc": "2026-07-10T14:19:28.905336+00:00"
+}

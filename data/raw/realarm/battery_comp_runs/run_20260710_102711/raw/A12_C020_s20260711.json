@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C020",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 4, \"rationale\": \"High leverage (74% debt-to-assets) and weak liquidity (current ratio 0.91) offset a large equity base and positive, though low, EBIT margin.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 284,
+ "out_tok": 62,
+ "usd": 0.000984,
+ "utc": "2026-07-10T14:48:49.844634+00:00"
+}

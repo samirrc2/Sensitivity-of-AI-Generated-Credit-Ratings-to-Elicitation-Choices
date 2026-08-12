@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows clear financial stress: liquidity is weak (current ratio 0.92) and both retained earnings and shareholders\u2019 equity are negative, indicating persistent losses and limited balance-sheet resilience. While EBIT is positive (\u2248$777M on $9,532M revenue), the capital structure is highly impaired with liabilities far exceeding asset base (total liabilities $39,015M vs. total assets $30,558M), elevating default risk.  \n\nDECISION: B",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "in_tok": 240,
+ "out_tok": 197,
+ "usd": 0.000294,
+ "utc": "2026-07-10T15:16:18.086020+00:00"
+}

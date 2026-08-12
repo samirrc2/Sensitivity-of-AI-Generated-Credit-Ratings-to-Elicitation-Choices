@@ -1,0 +1,45 @@
+{
+ "spec_id": "S01",
+ "item_id": "D050",
+ "seed": 11,
+ "family": "directional",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 11,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-02-05. Act as a equity research analyst.\n| Return 3m            | -45.0% |\n| Return 1m            | -29.6% |\n| Return 1w            | -19.2% |\n| Range position (63d) | 0% |\n| 21d realized vol     | 55% |\n| Last close           | 136.48 |\nBased only on the above and knowledge predating 2026-02-05, give a 20-trading-day directional recommendation for the stock. Choose exactly one label from: BUY, HOLD, SELL.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock has experienced significant downward momentum across 3-month, 1-month, and 1-week periods, with a range position at 0% indicating it's at its 63-day low. High 21-day realized volatility further suggests a high-risk, negative trend. While a rebound could occur, the strong downtrend and low range position increase the likelihood of continued weakness in the near term.\n\nDECISION: SELL",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 194,
+ "output_tokens": 94,
+ "cost_usd": 0.000293,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T22:57:20.344148+00:00",
+ "mode": "REAL"
+}

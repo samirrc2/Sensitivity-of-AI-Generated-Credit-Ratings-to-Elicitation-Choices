@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R016",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "From a credit perspective, the company exhibits a split risk profile: it has a solid balance sheet with strong short-term liquidity (current ratio of 3.19x) and moderate leverage (debt-to-equity ratio implied by 1,114M liabilities to 838M equity), but it suffers from severe profitability challenges, including a negative operating margin (-6%) and a net loss of -214M on 2,044M in revenue. These operating losses drag down its creditworthiness, indicating near-term performance pressure, but the substantial liquidity cushion and positive retained earnings prevent a near-term default scenario. Consequently, the issuer is assigned a speculative-grade rating in the BB range, reflecting stable liquidity but weak current operating performance.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 239,
+ "out_tok": 165,
+ "usd": 0.001844,
+ "utc": "2026-07-10T14:08:39.510483+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R030",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "To evaluate the creditworthiness of the issuer based on the provided financial data, we analyze key credit metrics:\n* **Profitability:** The company demonstrates strong profitability with an operating margin of 20% ($436M operating income on $2,153M revenue) and positive net income of $242M.\n* **Leverage and Capital Structure:** Leverage is moderately high, with total liabilities of $7,452M against total assets of $11,310M (Debt-to-Assets of ~66%) and equity of $3,858M, indicating a solid equity cushion and substantial retained earnings ($1,199M) built over time.\n* **Liquidity:** Liquidity is constrained in the short term, as evidenced by a current ratio of 0.72 ($674M current assets vs. $932M current liabilities), which increases refinancing or short-term liquidity risk and prevents an investment-grade rating in the 'A' category or higher.\n\nGiven the strong operating profitability and solid asset base, offset by high leverage and tight short-term liquidity, the issuer represents a moderate credit risk consistent with a lower investment-grade rating.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 237,
+ "out_tok": 262,
+ "usd": 0.002714,
+ "utc": "2026-07-10T14:24:59.377138+00:00"
+}

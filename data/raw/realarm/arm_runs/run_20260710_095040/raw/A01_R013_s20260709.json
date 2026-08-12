@@ -1,0 +1,19 @@
+{
+ "spec_id": "A01",
+ "item_id": "R013",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"CCC-\",\"confidence\":2,\"rationale\":\"Very weak profitability (6% GM, operating margin 3%, net loss) and negative equity with liabilities exceeding assets; liquidity only marginal (current ratio 1.02).\"}",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "in_tok": 228,
+ "out_tok": 99,
+ "usd": 0.000169,
+ "utc": "2026-07-10T14:04:31.612112+00:00"
+}

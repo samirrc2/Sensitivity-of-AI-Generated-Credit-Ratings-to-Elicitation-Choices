@@ -1,0 +1,44 @@
+{
+ "spec_id": "S15",
+ "item_id": "D088",
+ "seed": 11,
+ "family": "directional",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "SELL",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "2",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a equity research analyst. Using only the information below and general knowledge predating 2026-04-30, give a 20-trading-day directional recommendation for the stock.\nValid answers (choose exactly one): BUY, HOLD, SELL.\nHere are two worked examples:\n- Information: Price action as of 2026-03-19: 1w +4.1%, 1m -5.5%, 3m -1.3%. Last close 109.85. 21d annualized realized volatility 35%. Position in trailing 63-day range: 24% (0%=low, 100%=high).\n  Answer: BUY\n- Information: Price action as of 2026-04-02: 1w -4.8%, 1m -8.3%, 3m -0.8%. Last close 201.40. 21d annualized realized volatility 23%. Position in trailing 63-day range: 46% (0%=low, 100%=high).\n  Answer: SELL\n\nCompany information (as of 2026-04-30):\nPrice action as of 2026-04-30: 1w +3.0%, 1m +0.2%, 3m +8.5%. Last close 96.70. 21d annualized realized volatility 18%. Position in trailing 63-day range: 78% (0%=low, 100%=high).\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "Reasoning: The stock shows positive short- to medium-term momentum with a 1-week gain and a 3-month rise of 8.5%, and its price sits near the upper end of the 63-day range (78%), indicating strength and potential for continued upside. While volatility is modest (21d realized ~18%), the prevailing uptrend supports a constructive stance for about 20 trading days.\n\nDECISION: BUY",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 341,
+ "output_tokens": 287,
+ "cost_usd": 0.000427,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:14:27.566764+00:00",
+ "mode": "REAL"
+}

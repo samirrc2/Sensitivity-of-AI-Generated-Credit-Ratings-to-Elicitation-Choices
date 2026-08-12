@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R018",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Adequate liquidity and moderate leverage offset by negative accumulated retained earnings, reflecting a solid investment-grade profile with some historical constraints.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 277,
+ "out_tok": 48,
+ "usd": 0.000847,
+ "utc": "2026-07-10T14:11:08.004193+00:00"
+}

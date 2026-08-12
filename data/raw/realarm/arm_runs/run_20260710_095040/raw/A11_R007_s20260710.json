@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R007",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Strong liquidity (current ratio \u2248 3.4) and solid profitability (EBIT margin \u2248 13.5%, net income margin \u2248 7%) support timely debt service. However, leverage is moderate (total liabilities/assets \u2248 48% and liabilities slightly exceed equity), limiting rating upside. Overall, this profiles in the BBB range.  \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 239,
+ "out_tok": 229,
+ "usd": 0.000334,
+ "utc": "2026-07-10T13:58:43.077384+00:00"
+}

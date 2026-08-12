@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R006",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates a very large revenue base ($19.5B) and a positive equity cushion ($4.2B with total assets of $10.4B), indicating significant market scale, but it is currently operating at a break-even level with an operating loss of -$43M and a net loss of -$126M. A current ratio of 1.21 reflects tight but adequate short-term liquidity, while the positive retained earnings of $2.5B suggest a historical track record of profitability. Given the combination of substantial scale, moderate leverage (debt-to-equity and liability profiles), and temporary lack of profitability, the issuer represents a moderate credit risk typically associated with the lower tier of investment grade or the upper tier of speculative grade.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 239,
+ "out_tok": 164,
+ "usd": 0.001835,
+ "utc": "2026-07-10T13:56:34.012546+00:00"
+}

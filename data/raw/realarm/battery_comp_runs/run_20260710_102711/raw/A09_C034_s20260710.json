@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":3,\"rationale\":\"Strong profitability (41% op margin) but weak liquidity (current ratio 0.53) and high leverage; negative retained earnings signal elevated financial risk.\"}",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 263,
+ "out_tok": 135,
+ "usd": 0.000221,
+ "utc": "2026-07-10T15:06:16.702471+00:00"
+}

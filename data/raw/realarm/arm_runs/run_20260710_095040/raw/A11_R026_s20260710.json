@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R026",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows weak near-term liquidity (current ratio \u2248 0.89) and relatively high leverage (total liabilities materially exceed equity), which increases refinancing/credit risk. Profitability is positive but modest (EBIT margin \u2248 5% and net margin \u2248 4%), limiting cushion against downturns. Overall, this profile aligns best with a lower-investment-grade risk level.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 239,
+ "out_tok": 229,
+ "usd": 0.000334,
+ "utc": "2026-07-10T14:20:06.257985+00:00"
+}

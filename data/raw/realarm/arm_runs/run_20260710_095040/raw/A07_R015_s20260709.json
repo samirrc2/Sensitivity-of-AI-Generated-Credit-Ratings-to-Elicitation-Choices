@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R015",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Liquidity is solid with a current ratio of about 2.85, and the firm reports positive net income (644M) with meaningful equity (2,427M). However, the company has a large operating loss (EBIT/operating income of -988M vs. 2,325M revenue), which weakens credit strength and suggests profitability risk. Overall this points to a speculative-grade credit profile, though not the weakest category.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 228,
+ "out_tok": 276,
+ "usd": 0.000391,
+ "utc": "2026-07-10T14:07:18.540043+00:00"
+}

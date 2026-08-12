@@ -1,0 +1,45 @@
+{
+ "spec_id": "S05",
+ "item_id": "C028",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 11,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-04-30, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-04-30):\nFiscal period 2026 Q1 (filed 2026-04-30). Revenue 181,519M, gross margin 52%, operating income 23,852M (operating margin 13%), net income 30,255M, diluted EPS 2.78. Total assets 916,630M, total liabilities 474,716M, shareholders' equity 441,914M. Current assets 255,155M vs current liabilities 216,756M (current ratio 1.18), retained earnings 280,791M.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The company exhibits an exceptionally strong financial profile, characterized by massive scale (quarterly revenue of $181.5B and total assets of $916.6B), robust profitability (operating income of $23.9B and net income of $30.3B), and a solid balance sheet with a healthy equity base of $441.9B. Although the current ratio is relatively tight at 1.18x, the absolute cushion of liquidity, massive earnings generation, and immense capital buffer support the highest level of creditworthiness. These characteristics are consistent with a premier, low-risk sovereign-grade equivalent enterprise.\n\nDECISION: AAA",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 308,
+ "output_tokens": 138,
+ "cost_usd": 0.001704,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:04:55.344174+00:00",
+ "mode": "REAL"
+}

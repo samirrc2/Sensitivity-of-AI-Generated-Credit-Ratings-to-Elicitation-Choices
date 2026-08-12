@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits severe financial distress, characterized by negative shareholders' equity (-$1.92 billion), a massive accumulated deficit (retained earnings of -$20.48 billion), and an extremely weak current ratio of 0.27 (current liabilities of $4.71 billion vs. current assets of $1.25 billion) which indicates highly constrained short-term liquidity and a high risk of default despite positive operating income. This capital structure deficit and acute liquidity pressure place the company deep into speculative grade territory, near default.\n\nDECISION: CCC-",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "in_tok": 279,
+ "out_tok": 117,
+ "usd": 0.001471,
+ "utc": "2026-07-10T15:17:36.625936+00:00"
+}

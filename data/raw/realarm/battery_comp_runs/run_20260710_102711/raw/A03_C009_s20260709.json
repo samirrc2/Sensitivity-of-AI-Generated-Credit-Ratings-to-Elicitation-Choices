@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows strong liquidity (current ratio 2.29) and solid balance sheet strength, with equity (33,867M) exceeding total liabilities (23,079M). Earnings power appears very robust, with EBIT of 3,688M relative to revenue of 6,571M, supporting strong cash-generating capacity and downside resilience. Overall, this supports a high investment-grade rating, though limited coverage/leverage detail prevents an ultra-top tier score.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 240,
+ "out_tok": 216,
+ "usd": 0.000318,
+ "utc": "2026-07-10T14:36:17.005975+00:00"
+}

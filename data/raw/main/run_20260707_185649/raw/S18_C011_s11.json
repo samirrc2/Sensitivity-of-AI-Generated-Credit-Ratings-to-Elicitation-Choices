@@ -1,0 +1,43 @@
+{
+ "spec_id": "S18",
+ "item_id": "C011",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "openai",
+ "version": "current",
+ "model": "gpt-5.4-nano",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 0.0,
+ "temperature_applied": false,
+ "effective_temperature": null,
+ "call_meta": {
+  "signature": "mct+seed+eff",
+  "temperature_applied": false,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-04-29. Act as a credit rating analyst.\n| Current ratio           | 1.39 |\n| Retained earnings       | 49,956M |\n| Current liabilities     | 18,377M |\n| Current assets          | 25,508M |\n| Shareholders' equity    | 52,061M |\n| Total liabilities       | 57,728M |\n| Total assets            | 110,429M |\n| EBIT / operating income | 1,842M |\n| Revenue                 | 11,164M |\nBased only on the above and knowledge predating 2026-04-29, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\"decision\":\"BBB+\",\"confidence\":3,\"rationale\":\"Moderate liquidity (current ratio 1.39) and solid EBIT margin (~16.5%), but leverage is meaningful (liabilities ~52% of assets).\"}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 255,
+ "output_tokens": 191,
+ "cost_usd": 0.00029,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:19:44.119648+00:00",
+ "mode": "REAL"
+}

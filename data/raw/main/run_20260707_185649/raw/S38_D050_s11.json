@@ -1,0 +1,43 @@
+{
+ "spec_id": "S38",
+ "item_id": "D050",
+ "seed": 11,
+ "family": "directional",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 0.0,
+ "temperature_applied": false,
+ "effective_temperature": null,
+ "call_meta": {
+  "signature": "mct+seed+eff",
+  "temperature_applied": false,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a equity research analyst. Using only the information below and general knowledge predating 2026-02-05, give a 20-trading-day directional recommendation for the stock.\nValid answers (choose exactly one): BUY, HOLD, SELL.\nCompany information (as of 2026-02-05):\n| Return 3m            | -45.0% |\n| Return 1m            | -29.6% |\n| Return 1w            | -19.2% |\n| Range position (63d) | 0% |\n| 21d realized vol     | 55% |\n| Last close           | 136.48 |\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock has shown steep negative performance across 3 months (-45%), 1 month (-29.6%), and 1 week (-19.2%), indicating persistent bearish momentum. With a relatively high realized volatility (~55%) and no evident range breakout (0% range position), downside pressure may persist over the next 20 trading days.\n\nDECISION: SELL",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 170,
+ "output_tokens": 273,
+ "cost_usd": 0.000375,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:50:01.153425+00:00",
+ "mode": "REAL"
+}

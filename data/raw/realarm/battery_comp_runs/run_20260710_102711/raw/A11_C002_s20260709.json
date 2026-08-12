@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Despite very strong liquidity (current ratio 12.41) and solid operating profitability (EBIT of 3,188M on 7,300M revenue), the company is highly leveraged with thin capitalization (equity 49,234M vs. total liabilities 444,085M; liabilities ~90% of total assets). This balance sheet risk constrains the credit view to the lower-investment-grade to speculative boundary.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 240,
+ "usd": 0.000348,
+ "utc": "2026-07-10T14:29:10.443159+00:00"
+}

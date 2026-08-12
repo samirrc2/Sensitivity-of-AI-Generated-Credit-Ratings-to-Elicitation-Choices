@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 4, \"rationale\": \"High leverage (Total Debt/Equity over 4.5x) and negative retained earnings indicate speculative-grade credit, though offset by positive EBIT and current ratio.\"}\n```",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 271,
+ "out_tok": 57,
+ "usd": 0.000919,
+ "utc": "2026-07-10T14:19:08.039732+00:00"
+}

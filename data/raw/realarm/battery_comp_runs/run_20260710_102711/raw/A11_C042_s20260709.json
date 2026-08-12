@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows clear balance-sheet stress: negative retained earnings and negative shareholders\u2019 equity, along with a sub-1 current ratio (0.92) indicating liquidity weakness. While operating profitability is positive (EBIT of 777 on revenue of 9,532), the leverage (total liabilities exceeding total assets) elevates default risk and constrains credit quality.  \n\nDECISION: B+",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 240,
+ "out_tok": 179,
+ "usd": 0.000272,
+ "utc": "2026-07-10T15:16:13.507291+00:00"
+}

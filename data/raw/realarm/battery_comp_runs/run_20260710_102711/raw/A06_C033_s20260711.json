@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid operating performance with quarterly revenue of $23.1B, operating income of $2.55B (11% margin), and positive net income of $1.63B. However, its balance sheet is highly leveraged with negative shareholders' equity of -$9.27B and a retained earnings deficit of -$9.88B, offset slightly by a stable near-term liquidity position (current ratio of 1.09). These metrics indicate a speculative-grade profile with significant debt burdens but currently stable operations and cash generation.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 277,
+ "out_tok": 123,
+ "usd": 0.001523,
+ "utc": "2026-07-10T15:04:42.707774+00:00"
+}

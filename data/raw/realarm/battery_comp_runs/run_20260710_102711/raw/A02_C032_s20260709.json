@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates highly robust profitability with an 85% gross margin and 32% operating margin, translating to solid quarterly revenue and net income. However, its balance sheet exhibits a highly leveraged capital structure (total liabilities representing approximately 89% of total assets) and an extremely weak liquidity profile, highlighted by a current ratio of only 0.35 due to a substantial short-term liability overhang. These significant short-term refinancing risks and high leverage offset the company's strong operating performance, justifying a non-investment grade rating in the BB range.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 290,
+ "out_tok": 121,
+ "usd": 0.001524,
+ "utc": "2026-07-10T15:02:55.771927+00:00"
+}

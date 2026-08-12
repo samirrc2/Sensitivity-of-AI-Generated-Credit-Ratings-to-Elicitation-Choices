@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R006",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 4, \"rationale\": \"High revenue but unprofitable with negative EBIT and net income. Leverage is moderate (58% L/A), but weak profitability limits to BB.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 273,
+ "out_tok": 52,
+ "usd": 0.000878,
+ "utc": "2026-07-10T13:57:38.746257+00:00"
+}

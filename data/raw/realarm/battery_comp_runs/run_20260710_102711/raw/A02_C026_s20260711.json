@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates robust profitability with a 30% operating margin, a 72% gross margin, and solid quarterly net income of $2,201M. However, its capital structure is highly leveraged with total liabilities of $78,289M against shareholders' equity of $18,552M (assets-to-equity ratio of over 5.2x), and its liquidity profile is relatively tight with a current ratio of 1.27. Based on the strong operating performance tempered by elevated balance sheet leverage, the issuer warrants a solid investment-grade rating in the BBB category.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 287,
+ "out_tok": 134,
+ "usd": 0.001636,
+ "utc": "2026-07-10T14:55:36.255259+00:00"
+}

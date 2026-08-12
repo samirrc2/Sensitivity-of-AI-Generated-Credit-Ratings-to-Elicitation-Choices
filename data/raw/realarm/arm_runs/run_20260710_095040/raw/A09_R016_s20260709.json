@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "R016",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"B+\",\"confidence\":3,\"rationale\":\"Despite strong liquidity (current ratio 3.19) and positive equity, sustained operating/net losses and weak profitability indicate elevated credit risk.\"}",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 230,
+ "out_tok": 148,
+ "usd": 0.000231,
+ "utc": "2026-07-10T14:08:34.428358+00:00"
+}

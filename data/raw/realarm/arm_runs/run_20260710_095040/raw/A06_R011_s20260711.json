@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R011",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid liquidity with a current ratio of 2.31 and a substantial equity cushion of $5,711M (total assets of $18,687M against total liabilities of $13,001M), supported by a very strong historical base of retained earnings ($12,770M). However, the company is currently unprofitable, posting a net loss of $892M and an operating loss of $287M on $10,477M of revenue. This combination of strong balance sheet metrics but temporary high-volume profitability pressure is characteristic of a mid-to-lower investment-grade credit profile.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 241,
+ "out_tok": 147,
+ "usd": 0.001685,
+ "utc": "2026-07-10T14:02:45.855430+00:00"
+}

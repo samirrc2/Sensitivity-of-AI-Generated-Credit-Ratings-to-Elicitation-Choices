@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows strong financial strength with solid liquidity (current ratio of 2.29) and a substantial equity cushion (shareholders\u2019 equity of 33,867M versus total liabilities of 23,079M). Profitability appears very strong (EBIT of 3,688M on revenue of 6,571M), supporting good debt-servicing capacity. Overall, these factors indicate low credit risk, consistent with a high investment-grade rating.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 240,
+ "out_tok": 288,
+ "usd": 0.000408,
+ "utc": "2026-07-10T14:36:19.665079+00:00"
+}

@@ -1,0 +1,44 @@
+{
+ "spec_id": "S15",
+ "item_id": "C032",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "2",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 33,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-04-23, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nHere are two worked examples:\n- Information: Fiscal period 2026 Q1 (filed 2026-05-04). Revenue 83,161M, gross margin 38%, operating income 5,285M (operating margin 6%), net income 4,183M, diluted EPS 1.0. Total assets 464,410M, total liabilities 203,414M, shareholders' equity 254,381M. Current assets 97,787M vs current liabilities 94,378M (current ratio 1.04), retained earnings 482,344M.\n  Answer: AA+\n- Information: Fiscal period 2025 Q3 (filed 2025-10-23). Revenue 21,957M, gross margin 49%, operating income 4,862M (operating margin 22%), net income 2,714M, diluted EPS 2.41. Total assets 217,180M, total liabilities 156,703M, shareholders' equity 60,477M. Current assets 21,703M vs current liabilities 24,301M (current ratio 0.89), retained earnings 20,155M.\n  Answer: B-\n\nCompany information (as of 2026-04-23):\nFiscal period 2026 Q1 (filed 2026-04-23). Revenue 20,880M, gross margin 85%, operating income 6,598M (operating margin 32%), net income 2,971M, diluted EPS 4.28. Total assets 308,894M, total liabilities 274,899M, shareholders' equity 33,995M. Current assets 56,524M vs current liabilities 159,640M (current ratio 0.35), retained earnings 26,088M.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The company shows strong profitability metrics (high gross and operating margins, positive net income) but extreme leverage (liabilities far exceed equity) and very weak liquidity (current ratio 0.35), indicating elevated credit risk despite earnings strength. This combination supports a non-investment-grade rating with a conservative stance.\n\nDECISION: B-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 510,
+ "output_tokens": 459,
+ "cost_usd": 0.000676,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:13:58.606469+00:00",
+ "mode": "REAL"
+}

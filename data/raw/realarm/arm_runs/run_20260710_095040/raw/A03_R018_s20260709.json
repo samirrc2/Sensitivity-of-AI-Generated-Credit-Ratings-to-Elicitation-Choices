@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R018",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows moderate liquidity (current ratio ~1.44) and sustained profitability (positive net income and EBIT), which supports debt service capacity. However, high leverage (total liabilities ~62% of total assets) and negative retained earnings (accumulated deficit) indicate weaker balance-sheet resilience, limiting rating strength.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 239,
+ "out_tok": 204,
+ "usd": 0.000303,
+ "utc": "2026-07-10T14:10:14.812252+00:00"
+}

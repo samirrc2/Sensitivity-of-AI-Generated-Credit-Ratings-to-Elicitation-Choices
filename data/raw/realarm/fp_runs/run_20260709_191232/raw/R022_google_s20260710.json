@@ -1,0 +1,12 @@
+{
+ "item_id": "R022",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "ok": true,
+ "raw_response": "GUESS: Uber Technologies (UBER)",
+ "in_tok": 202,
+ "out_tok": 9,
+ "usd": 0.000384,
+ "utc": "2026-07-09T23:20:09.574432+00:00"
+}

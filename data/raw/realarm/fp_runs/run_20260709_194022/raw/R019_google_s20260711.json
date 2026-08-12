@@ -1,0 +1,12 @@
+{
+ "item_id": "R019",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "ok": true,
+ "raw_response": "To find the matching company, we look for a US public company with the following approximate financial profile from a recent fiscal year:\n*   **Revenue:** ~$4.94B\n*   **Operating Income:** ~$1.64B (Operating Margin: ~33%)\n*   **Net Income:** ~$1.015B\n*   **Total Assets:** ~$15.66B\n*   **Total Liabilities:** ~$8.09B\n*   **Shareholders' Equity:** ~$7.56B\n*   **Current Assets:** ~$1.09B\n*   **Current Liabilities:** ~$1.38B (Current Ratio: ~0.79)\n*   **Retained Earnings:** ~$4.22B\n\nThese figures correspond precisely to the FY 2023 financial results of **Match Group, Inc.** (NASDAQ: MTCH), the parent company of Tinder, Hinge, and other dating platforms. \n\nGUESS: MTCH",
+ "in_tok": 193,
+ "out_tok": 213,
+ "usd": 0.002207,
+ "utc": "2026-07-09T23:46:21.709799+00:00"
+}

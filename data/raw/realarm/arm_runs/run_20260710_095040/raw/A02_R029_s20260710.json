@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R029",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits solid profitability with revenue of $8,634M, an operating income of $806M (9% margin), and net income of $445M. Its balance sheet shows an exceptionally low level of total liabilities ($11M) compared to shareholders' equity ($3,342M) and total assets ($11,798M), representing near-zero debt and extremely low financial leverage. Although the current ratio is modest at 1.30, the virtually non-existent long-term debt obligations indicate an exceptionally strong capacity to meet financial commitments, warranting a highly secure credit rating.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 242,
+ "out_tok": 139,
+ "usd": 0.001614,
+ "utc": "2026-07-10T14:22:38.968714+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C027",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BBB-\",\n  \"confidence\": 4,\n  \"rationale\": \"Moderate leverage with Total Assets/Equity around 2.86, adequate liquidity (current ratio 1.18), but low EBIT-to-revenue margin of 23.6% warrants a low-investment-grade rating.\"\n}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 267,
+ "out_tok": 81,
+ "usd": 0.00113,
+ "utc": "2026-07-10T14:57:21.372955+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Liquidity is slightly below adequate (current ratio 0.97), and leverage is high (total liabilities 44,490M vs. equity 15,501M). Operating profitability also appears thin (EBIT 948M on revenue 25,270M, ~3.7% margin), which limits coverage and resilience, suggesting a below-investment-grade profile.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 231,
+ "out_tok": 212,
+ "usd": 0.000311,
+ "utc": "2026-07-10T15:17:01.202354+00:00"
+}

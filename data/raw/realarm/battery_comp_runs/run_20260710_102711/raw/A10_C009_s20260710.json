@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided fiscal year-end 2025 financial data, the company exhibits an exceptionally strong credit profile characterized by high profitability (56% operating margin), a very robust liquidity position (current ratio of 2.29), and a highly conservative capital structure with equity ($33,867M) comfortably exceeding total liabilities ($23,079M). These stellar credit metrics and significant asset cushion ($57,121M in total assets) justify an upper-medium to high-grade investment rating, though the notable gap between operating income ($3,688M) and net income ($1,301M) suggests potential non-operating expenses or tax adjustments that slightly temper an absolute top-tier rating.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 285,
+ "out_tok": 163,
+ "usd": 0.001894,
+ "utc": "2026-07-10T14:36:54.221315+00:00"
+}

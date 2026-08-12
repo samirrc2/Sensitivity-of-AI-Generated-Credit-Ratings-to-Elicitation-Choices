@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows only moderate liquidity (current ratio 1.30) and relatively high leverage (total liabilities are ~59% of total assets). Profitability also appears modest (EBIT ~4.4% of revenue), which limits debt-servicing cushion despite sizable accumulated retained earnings. Overall, credit quality fits a speculative-grade profile, but not severe distress.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 219,
+ "usd": 0.000322,
+ "utc": "2026-07-10T14:42:25.138409+00:00"
+}

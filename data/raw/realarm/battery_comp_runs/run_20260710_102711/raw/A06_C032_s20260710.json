@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer displays very strong profitability, with quarterly revenue of $20.88B, an 85% gross margin, and $6.6B in operating income. However, its balance sheet exhibits highly leveraged characteristics, featuring a very low current ratio of 0.35 (current liabilities of $159.6B vastly exceeding current assets of $56.5B) and total liabilities representing nearly 89% of total assets. While its massive operating scale and earning power support an investment-grade profile, the substantial short-term refinancing needs and leverage constrain the rating.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 283,
+ "out_tok": 129,
+ "usd": 0.001585,
+ "utc": "2026-07-10T15:03:19.137497+00:00"
+}

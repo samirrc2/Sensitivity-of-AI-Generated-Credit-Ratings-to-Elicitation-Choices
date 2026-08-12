@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "**Analysis:**\nThe issuer exhibits a solid balance sheet with total assets of $73.68B against total liabilities of $43.44B (equity of $29.09B), supported by strong cumulative profitability represented by $33.24B in retained earnings and a current ratio of 1.30. However, the operating profile is characterized by thin margins (6% gross margin and 4% operating margin on $34.02B in revenue), which suggests exposure to competitive or low-margin industry dynamics, while the net income of $2.91B is notably elevated relative to operating income, likely due to non-operating items. This combination of strong capitalization and moderate liquidity, tempered by low operating profitability, is consistent with a solid, investment-grade profile.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 286,
+ "out_tok": 175,
+ "usd": 0.002004,
+ "utc": "2026-07-10T14:42:14.271090+00:00"
+}

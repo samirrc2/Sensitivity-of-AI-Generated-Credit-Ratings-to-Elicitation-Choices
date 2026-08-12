@@ -1,0 +1,12 @@
+{
+ "item_id": "R018",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "ok": true,
+ "raw_response": "GUESS: Etsy (ETSY)",
+ "in_tok": 194,
+ "out_tok": 8,
+ "usd": 0.000363,
+ "utc": "2026-07-09T23:46:02.785240+00:00"
+}

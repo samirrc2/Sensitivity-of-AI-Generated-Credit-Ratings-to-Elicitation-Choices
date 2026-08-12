@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R016",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows a solid balance sheet with a very strong current ratio of 3.19 and positive shareholders' equity ($838M vs $1,114M in liabilities), indicating low short-term default risk. However, it is currently unprofitable, posting an operating loss of -$127M (-6% margin) and a net loss of -$214M on $2,044M in revenue. This combination of a strong liquidity runway but significant current-year operating losses positions the company in the lower investment-grade or upper speculative-grade territory.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 238,
+ "out_tok": 127,
+ "usd": 0.0015,
+ "utc": "2026-07-10T14:07:57.592009+00:00"
+}

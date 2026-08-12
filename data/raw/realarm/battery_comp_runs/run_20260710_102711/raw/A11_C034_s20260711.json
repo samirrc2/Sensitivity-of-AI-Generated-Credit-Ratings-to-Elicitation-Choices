@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows weak liquidity with a current ratio of 0.53 and substantial current liabilities relative to current assets. Additionally, retained earnings are deeply negative (-12,237M), indicating ongoing loss absorption, which weakens downside resilience despite positive equity and strong EBIT relative to revenue. Overall, this combination points to a lower investment-grade profile leaning toward speculative credit risk.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 237,
+ "usd": 0.000345,
+ "utc": "2026-07-10T15:06:33.420078+00:00"
+}

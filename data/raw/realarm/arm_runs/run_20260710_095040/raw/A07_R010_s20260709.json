@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R010",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows healthy profitability (net income margin ~19%), but leverage is high with liabilities substantially exceeding equity (liabilities/assets ~80%). Based on the limited financials provided and the strong dependence on a relatively thin equity base, the credit profile appears more consistent with a speculative-grade rating.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 197,
+ "out_tok": 179,
+ "usd": 0.000263,
+ "utc": "2026-07-10T14:01:40.080474+00:00"
+}

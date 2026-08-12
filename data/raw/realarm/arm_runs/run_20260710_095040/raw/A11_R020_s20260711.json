@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R020",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows relatively high leverage (total liabilities of 8,577M vs. equity of 4,112M) and weak near-term liquidity (current ratio \u2248 1,107/1,333 = 0.83), which increases refinancing/working-capital risk. While operating profitability is solid (EBIT margin \u2248 537/2,981 = 18%), the low net income level (293M) suggests limited cushion for an already leveraged balance sheet.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 239,
+ "out_tok": 282,
+ "usd": 0.0004,
+ "utc": "2026-07-10T14:13:18.955724+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R001",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid financial health with good liquidity (current ratio \u2248 1.87), a healthy equity base (equity/assets \u2248 0.42), and strong profitability (net margin \u2248 12%). Leverage is moderate (total liabilities/assets \u2248 0.58), but the lack of debt/interest detail limits confidence in long-term credit resilience.  \n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "in_tok": 230,
+ "out_tok": 219,
+ "usd": 0.00032,
+ "utc": "2026-07-10T13:51:15.296336+00:00"
+}

@@ -1,0 +1,43 @@
+{
+ "spec_id": "S31",
+ "item_id": "D063",
+ "seed": 22,
+ "family": "directional",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 0.0,
+ "temperature_applied": false,
+ "effective_temperature": null,
+ "call_meta": {
+  "signature": "mct+seed+eff",
+  "temperature_applied": false,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "seed": 22,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Task: give a 20-trading-day directional recommendation for the stock.\nRespond with exactly one of: BUY, HOLD, SELL. Use only the figures provided and knowledge available on or before 2026-03-19; do not use later information.\nProvided information:\n| Return 3m            | +4.1% |\n| Return 1m            | -8.3% |\n| Return 1w            | -3.9% |\n| Range position (63d) | 31% |\n| 21d realized vol     | 28% |\n| Last close           | 28.98 |\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock has been weak over the past month (-8.3%), while its price sits near the lower end of a 63-day range (31% range position), indicating potential for mean reversion. With moderate 21-day realized volatility (28%), the setup favors an upside bias over a 20-trading-day horizon.\n\nDECISION: BUY",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 161,
+ "output_tokens": 464,
+ "cost_usd": 0.000612,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:39:26.682046+00:00",
+ "mode": "REAL"
+}

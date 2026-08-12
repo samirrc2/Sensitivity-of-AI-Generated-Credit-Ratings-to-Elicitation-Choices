@@ -1,0 +1,12 @@
+{
+ "item_id": "R025",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "ok": true,
+ "raw_response": "GUESS: JWN (Nordstrom, Inc.)",
+ "in_tok": 171,
+ "out_tok": 971,
+ "usd": 0.001248,
+ "utc": "2026-07-09T23:21:02.006371+00:00"
+}

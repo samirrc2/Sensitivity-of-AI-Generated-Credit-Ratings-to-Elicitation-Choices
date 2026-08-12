@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R027",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage (Total Liabilities/Assets at 59%) and weak profitability metrics, including a very low Net Income/Revenue margin of 0.8%, justify a speculative-grade BB rating.\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 269,
+ "out_tok": 71,
+ "usd": 0.001043,
+ "utc": "2026-07-10T14:21:22.446390+00:00"
+}

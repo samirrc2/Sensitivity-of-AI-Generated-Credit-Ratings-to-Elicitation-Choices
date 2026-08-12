@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits solid operational performance with significant revenue ($23.1B), positive operating income ($2.55B, 11% margin), and a stable current ratio (1.09x). However, its balance sheet is highly leveraged with negative shareholders' equity (-$9,270M) and negative retained earnings, indicating a history of accumulated losses or aggressive capital restructuring, which poses elevated credit risk despite the strong current profitability. These mixed factors\u2014strong short-term earnings profile but highly leveraged capital structure\u2014are characteristic of a non-investment grade, speculative-grade credit.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 284,
+ "out_tok": 129,
+ "usd": 0.001587,
+ "utc": "2026-07-10T15:04:18.303743+00:00"
+}

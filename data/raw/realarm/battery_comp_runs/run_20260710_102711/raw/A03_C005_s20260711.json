@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows reasonably adequate liquidity (current ratio 1.55) and very strong operating profitability (EBIT of 8,386M versus revenue of 17,601M). However, balance-sheet leverage is high (total liabilities 91,085M against equity 23,793M), which limits resilience under adverse scenarios despite strong earnings capacity.  \nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 240,
+ "out_tok": 232,
+ "usd": 0.000338,
+ "utc": "2026-07-10T14:31:42.635060+00:00"
+}

@@ -1,0 +1,12 @@
+{
+ "item_id": "R018",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "ok": true,
+ "raw_response": "GUESS: eBay (EBAY)",
+ "in_tok": 199,
+ "out_tok": 8,
+ "usd": 0.000371,
+ "utc": "2026-07-09T23:18:44.806596+00:00"
+}

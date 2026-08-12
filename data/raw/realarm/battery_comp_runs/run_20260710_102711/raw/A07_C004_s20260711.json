@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "With a solid current ratio (2.04) and a healthy equity buffer (shareholders\u2019 equity of 84,113M vs. total liabilities of 58,979M), liquidity and leverage look manageable. However, profitability appears modest, with EBIT/operating income of 941M on revenue of 22,387M (roughly a ~4% operating margin), which limits strength.  \n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 231,
+ "out_tok": 195,
+ "usd": 0.00029,
+ "utc": "2026-07-10T14:30:59.891249+00:00"
+}

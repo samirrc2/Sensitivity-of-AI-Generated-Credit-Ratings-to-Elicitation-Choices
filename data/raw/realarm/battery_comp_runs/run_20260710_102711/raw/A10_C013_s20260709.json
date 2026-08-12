@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided Q1 2026 financial data, the company exhibits an exceptionally strong balance sheet characterized by a massive asset base of $113.3 billion, a robust equity cushion of $51.9 billion, and substantial retained earnings of $60.6 billion. Its liquidity profile is highly conservative with a current ratio of 1.53 ($22.3B current assets vs $14.6B current liabilities), while profitability remains highly robust with an annualized revenue run-rate exceeding $44 billion and a strong 17% operating margin. This combination of immense scale, low leverage (total debt-to-assets implied well under control), and consistent profitability warrants a high-investment-grade rating.\n\nDECISION: AA",
+ "parsed_letter": "AA",
+ "parsed_band": "SAFE",
+ "in_tok": 289,
+ "out_tok": 159,
+ "usd": 0.001864,
+ "utc": "2026-07-10T14:41:13.082386+00:00"
+}

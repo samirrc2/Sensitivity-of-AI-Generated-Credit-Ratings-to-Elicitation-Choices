@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"High total liabilities to equity and negative retained earnings are offset by solid EBIT relative to revenue, suggesting non-investment grade but stable cash flow.\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 268,
+ "out_tok": 59,
+ "usd": 0.000933,
+ "utc": "2026-07-10T15:10:45.904486+00:00"
+}

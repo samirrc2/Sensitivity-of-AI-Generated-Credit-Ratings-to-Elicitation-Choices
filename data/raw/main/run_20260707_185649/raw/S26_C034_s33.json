@@ -1,0 +1,44 @@
+{
+ "spec_id": "S26",
+ "item_id": "C034",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 0.0,
+   "seed": 33,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-02-24. Act as a credit rating analyst.\n| Current ratio           | 0.53 |\n| Retained earnings       | -12,237M |\n| Current liabilities     | 6,106M |\n| Current assets          | 3,244M |\n| Shareholders' equity    | 12,807M |\n| Total liabilities       | 43,578M |\n| Total assets            | 58,573M |\n| EBIT / operating income | 1,307M |\n| Revenue                 | 3,198M |\nBased only on the above and knowledge predating 2026-02-24, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The reported metrics indicate a highly leveraged capital structure (total liabilities ~74% of assets) with negative working capital and a large accumulated deficit, all consistent with an issuer that has experienced material financial distress and carries a substantial risk of default. Positive (but narrow) operating income provides limited offset and does not support an investment-grade or upper-speculative-grade rating.\n\nDECISION: CCC\n\n(The rating is placed at CCC rather than B or CC because the balance-sheet and liquidity metrics are unambiguously weak while the firm is still generating positive EBIT and has not yet shown an imminent payment default.)",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 367,
+ "output_tokens": 115,
+ "cost_usd": 0.000746,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:33:20.885625+00:00",
+ "mode": "REAL"
+}

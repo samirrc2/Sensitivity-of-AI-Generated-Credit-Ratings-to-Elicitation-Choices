@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R028",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BBB\",\n  \"confidence\": 4,\n  \"rationale\": \"Moderate leverage (Total Debt/Equity around 1.63x) balanced by solid profitability (EBIT margin 8.7%, ROA 4.5%) and comfortable short-term liquidity (current ratio 1.28x).\"\n}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 272,
+ "out_tok": 82,
+ "usd": 0.001146,
+ "utc": "2026-07-10T14:21:43.728470+00:00"
+}

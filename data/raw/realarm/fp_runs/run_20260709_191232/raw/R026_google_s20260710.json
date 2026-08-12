@@ -1,0 +1,12 @@
+{
+ "item_id": "R026",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "ok": true,
+ "raw_response": "GUESS: Wayfair (W)",
+ "in_tok": 197,
+ "out_tok": 8,
+ "usd": 0.000367,
+ "utc": "2026-07-09T23:21:33.986619+00:00"
+}

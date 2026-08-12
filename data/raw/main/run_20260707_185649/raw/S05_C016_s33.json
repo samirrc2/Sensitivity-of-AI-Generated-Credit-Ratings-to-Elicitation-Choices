@@ -1,0 +1,45 @@
+{
+ "spec_id": "S05",
+ "item_id": "C016",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-04-16, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-04-16):\nFiscal period 2026 Q1 (filed 2026-04-16). Revenue 19,443M, gross margin 55%, operating income 3,213M (operating margin 17%), net income 2,338M, diluted EPS 1.7. Total assets 110,646M, total liabilities 89,110M, shareholders' equity 21,383M. Current assets 30,916M vs current liabilities 34,477M (current ratio 0.90), retained earnings 73,165M.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The issuer demonstrates very strong operational scale and profitability, with quarterly revenue of $19.4B and a solid operating margin of 17% generating $2.3B in net income. However, the balance sheet presents some leverage and liquidity constraints, highlighted by a high total liabilities-to-equity ratio of over 4.1x and a tight current ratio of 0.90 ($30.9B current assets vs. $34.5B current liabilities). Considering the massive asset base ($110.6B) and substantial retained earnings ($73.2B) alongside these liquidity risks, the issuer warrants a strong investment-grade rating.\n\nDECISION: A-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 299,
+ "output_tokens": 145,
+ "cost_usd": 0.001753,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:04:48.355724+00:00",
+ "mode": "REAL"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BBB-\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage (73% debt-to-assets) and low interest coverage (EBIT/Total Liabilities) are balanced by substantial equity, suggesting a low investment-grade rating.\"\n}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 274,
+ "out_tok": 69,
+ "usd": 0.001032,
+ "utc": "2026-07-10T15:08:07.628059+00:00"
+}

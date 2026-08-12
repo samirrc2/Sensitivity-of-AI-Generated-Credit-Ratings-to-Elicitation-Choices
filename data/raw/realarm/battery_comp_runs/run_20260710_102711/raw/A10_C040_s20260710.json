@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided Q3 2025 financial data, the issuer demonstrates strong profitability with a 27% operating margin and $2,334M in operating income, backed by a massive asset base of $192,293M (likely a major financial institution or capital-intensive enterprise). However, the company exhibits a highly leveraged balance sheet with a total-liabilities-to-equity ratio of approximately 2.7x and a weak liquidity profile characterized by a current ratio of 0.63 ($12,208M in current assets against $19,405M in current liabilities). This combination of robust operating earnings and significant asset backing, tempered by tight short-term liquidity and substantial leverage, aligns with a solid investment-grade profile in the BBB range.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 288,
+ "out_tok": 175,
+ "usd": 0.002007,
+ "utc": "2026-07-10T15:13:40.051742+00:00"
+}

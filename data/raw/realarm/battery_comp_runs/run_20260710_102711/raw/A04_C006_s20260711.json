@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C006",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A\", \"confidence\": 4, \"rationale\": \"Strong balance sheet with excellent equity cushion, low leverage (36% debt-to-assets), solid liquidity, and stable operating profitability.\"}\n```",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "in_tok": 277,
+ "out_tok": 51,
+ "usd": 0.000875,
+ "utc": "2026-07-10T14:32:58.449271+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R005",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits a solid financial profile characterized by a strong balance sheet, with low leverage (total liabilities to equity of approximately 0.74x) and a comfortable liquidity position (current ratio of 1.75). While the profitability metrics are moderate (operating margin of 8% and net income of 209M on 2,101M revenue), the substantial retained earnings of 5,941M reflect long-term stability and accumulated financial strength typical of an investment-grade credit. \n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 229,
+ "out_tok": 114,
+ "usd": 0.00137,
+ "utc": "2026-07-10T13:55:50.218664+00:00"
+}

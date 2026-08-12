@@ -1,0 +1,19 @@
+{
+ "spec_id": "A05",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"CCC+\",\"confidence\":3,\"rationale\":\"Negative shareholders\u2019 equity (-1,920M) with very weak liquidity (current ratio 0.27) and heavily negative retained earnings (\u221220,476M) indicate elevated credit stress.\"}",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "in_tok": 252,
+ "out_tok": 166,
+ "usd": 0.000258,
+ "utc": "2026-07-10T15:17:52.282959+00:00"
+}

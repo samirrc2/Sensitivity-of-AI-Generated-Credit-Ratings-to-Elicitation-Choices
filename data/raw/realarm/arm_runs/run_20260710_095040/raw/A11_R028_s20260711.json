@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R028",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows moderate leverage (total liabilities of 7,354M vs. equity of 4,503M) alongside acceptable liquidity (current ratio \u2248 1.28). Profitability is reasonable (EBIT 539M on revenue 6,178M; net income 500M), but operating earnings margin is only moderate, which limits resilience under stress. Overall, this supports a solid but not top-tier credit profile.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 239,
+ "out_tok": 261,
+ "usd": 0.000374,
+ "utc": "2026-07-10T14:22:26.544740+00:00"
+}

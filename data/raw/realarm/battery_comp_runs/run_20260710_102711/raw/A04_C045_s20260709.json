@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BBB-\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage and weak liquidity (current ratio 0.53) are balanced by substantial equity and positive operating income, indicating a marginal investment-grade profile.\"\n}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 279,
+ "out_tok": 64,
+ "usd": 0.000995,
+ "utc": "2026-07-10T15:19:11.066356+00:00"
+}

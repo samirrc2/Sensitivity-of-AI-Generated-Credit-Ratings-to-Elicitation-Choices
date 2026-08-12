@@ -1,0 +1,44 @@
+{
+ "spec_id": "S26",
+ "item_id": "D073",
+ "seed": 11,
+ "family": "directional",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "SELL",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 0.0,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-02-19. Act as a equity research analyst.\n| Return 3m            | +7.8% |\n| Return 1m            | +0.3% |\n| Return 1w            | +3.8% |\n| Range position (63d) | 86% |\n| 21d realized vol     | 19% |\n| Last close           | 156.51 |\nBased only on the above and knowledge predating 2026-02-19, give a 20-trading-day directional recommendation for the stock. Choose exactly one label from: BUY, HOLD, SELL.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The provided data show positive but decelerating momentum (strong 3m and 1w returns against a nearly flat 1m return) together with an elevated 63-day range position of 86 %. This combination implies the stock is extended near recent highs and vulnerable to mean-reversion over the next 20 trading days.\nDECISION: SELL",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 296,
+ "output_tokens": 69,
+ "cost_usd": 0.000543,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:34:02.163973+00:00",
+ "mode": "REAL"
+}

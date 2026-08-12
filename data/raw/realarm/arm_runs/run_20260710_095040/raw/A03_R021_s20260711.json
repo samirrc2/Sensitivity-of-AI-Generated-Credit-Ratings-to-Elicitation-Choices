@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R021",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows moderate leverage with shareholders\u2019 equity of 773M on total assets of 1,923M (about 40%), and liquidity is adequate with a current ratio of 526M / 351M \u2248 1.5. Earnings generation is positive (net income 90M; EBIT 152M) but margins are relatively modest (EBIT margin ~7%), which limits cushion versus a weaker earnings environment. Overall, the credit profile appears consistent with **mid\u2013investment grade** risk.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 229,
+ "out_tok": 227,
+ "usd": 0.00033,
+ "utc": "2026-07-10T14:13:42.784258+00:00"
+}

@@ -1,0 +1,45 @@
+{
+ "spec_id": "S01",
+ "item_id": "D074",
+ "seed": 11,
+ "family": "directional",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "SELL",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 11,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-05-21. Act as a equity research analyst.\n| Return 3m            | +12.6% |\n| Return 1m            | +5.3% |\n| Return 1w            | +2.7% |\n| Range position (63d) | 100% |\n| 21d realized vol     | 27% |\n| Last close           | 57.25 |\nBased only on the above and knowledge predating 2026-05-21, give a 20-trading-day directional recommendation for the stock. Choose exactly one label from: BUY, HOLD, SELL.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock has demonstrated strong recent momentum across 1-week, 1-month, and 3-month periods, with positive returns of +2.7%, +5.3%, and +12.6% respectively. The \"Range position (63d)\" at 100% indicates the current price is at its highest point over the past 63 trading days, suggesting robust upward trend and strong buying interest. While volatility is present (27% 21d realized vol), the sustained upward movement supports a continuation of the trend over a 20-trading-day horizon.\n\nDECISION: BUY",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 193,
+ "output_tokens": 131,
+ "cost_usd": 0.000385,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T22:57:34.848747+00:00",
+ "mode": "REAL"
+}

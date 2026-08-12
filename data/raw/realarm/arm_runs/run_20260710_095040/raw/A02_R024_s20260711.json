@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R024",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows solid profitability with revenue of over $4.07B, an operating margin of 14% ($552M), and positive net income of $384M. However, its balance sheet is highly leveraged with a high liabilities-to-equity ratio (liabilities of $4.39B against equity of $941M, or ~82% leverage) and weak short-term liquidity, as evidenced by a current ratio of 0.91 ($1,460M current assets vs $1,598M current liabilities). This combination of stable profitability but highly leveraged capital structure and tight liquidity is characteristic of a mid-to-lower investment-grade or strong speculative-grade issuer.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 241,
+ "out_tok": 161,
+ "usd": 0.001811,
+ "utc": "2026-07-10T14:17:04.113496+00:00"
+}

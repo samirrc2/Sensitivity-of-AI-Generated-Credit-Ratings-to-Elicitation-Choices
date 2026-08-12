@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows reasonable scale with revenue of 3,467M and is profitable (net income of 142M), but operates with thin margins (operating margin of 8%) and a highly leveraged balance sheet, as evidenced by total liabilities of 8,218M against shareholders' equity of 1,804M (debt-to-equity equivalent leverage is high). The current ratio of 1.32 is thin, and negative retained earnings (-748M) indicate historical losses or aggressive capital restructurings, which suggests speculative-grade characteristics. Given these moderate profitability metrics alongside high leverage and a weak accumulated deficit, the issuer represents a moderate credit risk consistent with a BB- rating.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 230,
+ "out_tok": 157,
+ "usd": 0.001758,
+ "utc": "2026-07-10T14:18:31.148036+00:00"
+}

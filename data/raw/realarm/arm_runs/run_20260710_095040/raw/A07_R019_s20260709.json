@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R019",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows significant weakening profitability with negative net income (-640M) and negative operating earnings (EBIT -459M). While liquidity is moderate (current ratio \u2248 1.78), the balance sheet is highly leveraged with very thin shareholders\u2019 equity (415M vs. 12,240M total assets) and substantial total liabilities (11,824M), indicating elevated default risk.  \n\nDECISION: B+",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 228,
+ "out_tok": 205,
+ "usd": 0.000302,
+ "utc": "2026-07-10T14:11:44.811386+00:00"
+}

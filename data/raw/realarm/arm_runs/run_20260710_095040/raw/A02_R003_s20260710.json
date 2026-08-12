@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R003",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits a solid operating profile with healthy profitability (operating margin of 22% and net income of $106M), but its balance sheet carries significant leverage, with total liabilities representing approximately 76% of total assets. Most notably, the company faces near-term liquidity pressure, as evidenced by a weak current ratio of 0.72 (current liabilities of $783M exceeding current assets of $564M). This combination of decent core profitability paired with high leverage and tight short-term liquidity is characteristic of a low-investment-grade or high-speculative-grade credit profile.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 134,
+ "usd": 0.001556,
+ "utc": "2026-07-10T13:53:07.219865+00:00"
+}

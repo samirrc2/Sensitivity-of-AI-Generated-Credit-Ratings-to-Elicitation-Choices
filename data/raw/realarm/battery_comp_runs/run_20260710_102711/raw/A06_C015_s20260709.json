@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits strong financial performance with substantial revenue of $19.1 billion, robust profitability (net income of $2.4 billion), a solid operating margin of 14%, and a healthy current ratio of 1.44. However, its capital structure is highly leveraged with total liabilities of $77.3 billion against shareholders' equity of $21.3 billion (assets-to-equity ratio of approximately 4.6x). This significant leverage profile, balanced by strong earnings and liquidity, supports a solid investment-grade rating in the BBB category.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 280,
+ "out_tok": 124,
+ "usd": 0.001536,
+ "utc": "2026-07-10T14:42:59.570795+00:00"
+}

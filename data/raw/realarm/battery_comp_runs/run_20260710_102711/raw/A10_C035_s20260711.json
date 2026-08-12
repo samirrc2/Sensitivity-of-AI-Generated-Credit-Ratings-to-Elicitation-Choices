@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's financial profile reveals a massive asset base of over $3.4 trillion, robust profitability (25% operating margin and $7.5 billion in net income), and a solid capital cushion with $303 billion in shareholders' equity. However, the company exhibits a highly pressured short-term liquidity position, characterized by a very low current ratio of 0.42 ($1,067B in current assets against $2,559B in current liabilities). This immense concentration of short-term liabilities relative to liquid assets is typical of large financial institutions or highly leveraged entities, which introduces refinancing risk and constrains the credit profile to the mid-to-lower investment-grade tier despite the sheer scale of the balance sheet.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 303,
+ "out_tok": 164,
+ "usd": 0.001931,
+ "utc": "2026-07-10T15:07:36.335102+00:00"
+}

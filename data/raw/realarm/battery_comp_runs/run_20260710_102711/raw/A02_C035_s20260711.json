@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This issuer exhibits massive scale with over $3.4 trillion in total assets, strong revenues ($49.7 billion), and robust profitability (25% operating margin, $7.5 billion net income), which are characteristics of a global systemically important financial institution (G-SIFI) or major investment/commercial bank. However, the balance sheet shows an extremely low current ratio of 0.42 ($1.07 trillion in current assets vs. $2.56 trillion in current liabilities) and high leverage, which is typical for banking institutions but represents significant liquidity and maturity transformation risk. Given the massive systemic importance and high earnings capacity offset by inherent financial sector leverage and liquidity risk, the credit profile is highly secure but not entirely risk-free.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 302,
+ "out_tok": 162,
+ "usd": 0.001911,
+ "utc": "2026-07-10T15:06:51.221588+00:00"
+}

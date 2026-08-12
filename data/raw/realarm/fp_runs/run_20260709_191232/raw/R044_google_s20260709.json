@@ -1,0 +1,12 @@
+{
+ "item_id": "R044",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "ok": true,
+ "raw_response": "GUESS: WYNDHAM HOTELS & RESORTS (WH)",
+ "in_tok": 189,
+ "out_tok": 14,
+ "usd": 0.00041,
+ "utc": "2026-07-09T23:27:39.744626+00:00"
+}

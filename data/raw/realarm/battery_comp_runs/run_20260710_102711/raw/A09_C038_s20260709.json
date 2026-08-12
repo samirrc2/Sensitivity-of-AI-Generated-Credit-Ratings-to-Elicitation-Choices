@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"B+\",\"confidence\":3,\"rationale\":\"Strong profitability but very weak liquidity (current ratio 0.63) and highly leveraged, small equity with negative retained earnings.\"}",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 263,
+ "out_tok": 163,
+ "usd": 0.000256,
+ "utc": "2026-07-10T15:10:49.895587+00:00"
+}

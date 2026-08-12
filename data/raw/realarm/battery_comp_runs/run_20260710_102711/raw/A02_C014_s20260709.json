@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows strong financial scale with $34.0 billion in revenue and solid capitalization, supported by total assets of $73.7 billion, shareholders' equity of $29.1 billion, and a healthy retained earnings base. While profitability margins are quite thin (6% gross margin and 4% operating margin, typical of low-margin distribution or retail sectors), the balance sheet remains stable with a reasonable current ratio of 1.30, moderate leverage (liabilities-to-equity of approximately 1.49x), and strong net income of $2.9 billion. This profile suggests a solid investment-grade credit risk with adequate capacity to meet financial commitments.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 285,
+ "out_tok": 147,
+ "usd": 0.00175,
+ "utc": "2026-07-10T14:41:33.444502+00:00"
+}

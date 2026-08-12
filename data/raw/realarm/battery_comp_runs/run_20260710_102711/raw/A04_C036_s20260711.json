@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BBB-\",\n  \"confidence\": 4,\n  \"rationale\": \"High equity and assets support investment-grade, but very low revenue/EBIT relative to liabilities and weak current ratio constrain the rating to BBB-.\"\n}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 274,
+ "out_tok": 62,
+ "usd": 0.000969,
+ "utc": "2026-07-10T15:08:09.824994+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits strong profitability with an operating margin of 41% and a net income of $734M, but its balance sheet carries significant risk, characterized by a low current ratio of 0.53 (current assets of $3,244M vs. current liabilities of $6,106M), high leverage (total liabilities of $43,578M on assets of $58,573M), and a deeply negative retained earnings balance of -$12,237M. These mixed factors\u2014high operating efficiency but a weak, highly leveraged liquidity profile\u2014align with a non-investment grade, speculative-grade profile.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 281,
+ "out_tok": 147,
+ "usd": 0.001744,
+ "utc": "2026-07-10T15:05:30.096508+00:00"
+}

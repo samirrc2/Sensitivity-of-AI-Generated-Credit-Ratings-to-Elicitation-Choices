@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer displays a massive asset base of $48.9 billion and substantial equity of $23.4 billion, reflecting a very strong capital structure and a highly leveraged but asset-rich balance sheet (likely a financial institution, utility, or real estate firm given the asset-to-revenue ratio). However, its liquidity is tight with a current ratio of 1.00, it carries a deep accumulated deficit (retained earnings of -$6.9 billion), and its gross margin is negative despite positive operating income. This combination of immense asset backing alongside historical profitability challenges and tight short-term liquidity suggests a solid investment-grade profile but with notable risk constraints.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 278,
+ "out_tok": 142,
+ "usd": 0.001695,
+ "utc": "2026-07-10T15:09:06.252794+00:00"
+}

@@ -1,0 +1,43 @@
+{
+ "spec_id": "S31",
+ "item_id": "C001",
+ "seed": 22,
+ "family": "credit_health",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 0.0,
+ "temperature_applied": false,
+ "effective_temperature": null,
+ "call_meta": {
+  "signature": "mct+seed+eff",
+  "temperature_applied": false,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "seed": 22,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2026-03-19; do not use later information.\nProvided information:\n| Current ratio           | 1.34 |\n| Retained earnings       | 22,804M |\n| Current liabilities     | 20,957M |\n| Current assets          | 28,007M |\n| Shareholders' equity    | 31,211M |\n| Total liabilities       | 34,289M |\n| Total assets            | 67,064M |\n| EBIT / operating income | 2,494M |\n| Revenue                 | 18,044M |\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The company shows solid liquidity with a current ratio of about 1.34, a modestly leveraged balance sheet (total liabilities ~1.10x equity), and a healthy operating margin (EBIT ~13.8% of revenue). While earnings quality and cash flow details aren\u2019t provided, the distribution suggests stable profitability and prudent leverage for a mid/high investment-grade profile. Overall, credit risk appears low to moderate, justifying an A- rating.\n\nDECISION: A-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 235,
+ "output_tokens": 361,
+ "cost_usd": 0.000498,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:38:51.744278+00:00",
+ "mode": "REAL"
+}

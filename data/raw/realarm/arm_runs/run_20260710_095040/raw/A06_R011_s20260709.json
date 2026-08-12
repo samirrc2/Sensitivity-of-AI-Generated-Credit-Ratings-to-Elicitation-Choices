@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R011",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits a solid balance sheet with a strong current ratio of 2.31, substantial retained earnings of 12,770M, and a reasonable equity-to-assets ratio of approximately 30.6%. However, profitability is currently under pressure, as evidenced by an operating loss of -287M (operating margin of -3%) and a net loss of -892M on revenues of 10,477M. Despite these current earnings headwinds, the company's robust liquidity and asset base mitigate immediate default risk, placing it in the investment-grade category but at the lower end due to the negative profitability.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 241,
+ "out_tok": 143,
+ "usd": 0.001649,
+ "utc": "2026-07-10T14:02:42.440174+00:00"
+}

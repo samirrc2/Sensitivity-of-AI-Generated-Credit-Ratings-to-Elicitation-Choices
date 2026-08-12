@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C010",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits an exceptionally strong financial profile, characterized by high profitability with an operating margin of 44% ($2.49B in operating income) and a very robust balance sheet where shareholders' equity ($29.83B) significantly exceeds total liabilities ($21.97B). A comfortable current ratio of 1.92 and substantial retained earnings of $29.77B indicate excellent liquidity and deep financial reserves, although the net income of $701M is somewhat lower than operating income, likely due to non-operating or one-time charges. These metrics reflect extremely low credit risk and a very strong capacity to meet financial commitments.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 274,
+ "out_tok": 144,
+ "usd": 0.001707,
+ "utc": "2026-07-10T14:37:42.298435+00:00"
+}

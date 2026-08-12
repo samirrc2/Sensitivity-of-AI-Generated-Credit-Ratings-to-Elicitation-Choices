@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates an exceptionally strong financial profile, characterized by massive scale (total assets of $143.7B, quarterly revenue of $22.4B), a highly conservative capital structure (equity of $84.1B against liabilities of $59.0B, representing a leverage ratio of under 42%), and excellent liquidity with a current ratio of 2.04. While the operating margin is relatively thin at 4%, the absolute profitability remains robust ($941M quarterly operating income) and is backed by a very large retained earnings base of $39.5B, indicating a long track record of profitable operations. These metrics align with an extremely strong capacity to meet financial commitments, typical of a high-grade investment-class issuer.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 283,
+ "out_tok": 165,
+ "usd": 0.001909,
+ "utc": "2026-07-10T14:30:32.376308+00:00"
+}

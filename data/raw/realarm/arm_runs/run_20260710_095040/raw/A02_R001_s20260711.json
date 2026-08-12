@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R001",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits solid financial health with robust revenues of $2.899B, a strong gross margin of 57%, and a healthy operating margin of 16% (generating $454M in operating income). Balance sheet risk is well-managed with a comfortable current ratio of 1.87 ($1,888M in current assets against $1,010M in current liabilities) and a solid equity base of $1,609M supporting $2,198M in total liabilities. While highly profitable and liquid, its moderate scale of operations and typical leverage profile align best with a strong investment-grade risk profile.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 245,
+ "out_tok": 145,
+ "usd": 0.001672,
+ "utc": "2026-07-10T13:50:52.412150+00:00"
+}

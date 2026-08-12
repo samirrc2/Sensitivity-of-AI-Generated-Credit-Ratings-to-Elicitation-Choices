@@ -1,0 +1,12 @@
+{
+ "item_id": "R037",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "ok": true,
+ "raw_response": "GUESS: Kellogg Company (now Kellanova, ticker: K)",
+ "in_tok": 197,
+ "out_tok": 14,
+ "usd": 0.000421,
+ "utc": "2026-07-09T23:25:19.883387+00:00"
+}

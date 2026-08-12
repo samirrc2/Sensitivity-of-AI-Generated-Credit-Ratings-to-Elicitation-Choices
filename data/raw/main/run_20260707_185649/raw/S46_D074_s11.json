@@ -1,0 +1,45 @@
+{
+ "spec_id": "S46",
+ "item_id": "D074",
+ "seed": 11,
+ "family": "directional",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "SELL",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 0.0,
+   "maxOutputTokens": 1024,
+   "seed": 11,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-05-21. Act as a equity research analyst.\nPrice action as of 2026-05-21: 1w +2.7%, 1m +5.3%, 3m +12.6%. Last close 57.25. 21d annualized realized volatility 27%. Position in trailing 63-day range: 100% (0%=low, 100%=high).\nBased only on the above and knowledge predating 2026-05-21, give a 20-trading-day directional recommendation for the stock. Choose exactly one label from: BUY, HOLD, SELL.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "```json\n{\"decision\": \"HOLD\", \"confidence\": 3, \"rationale\": \"Strong momentum and 100% range position suggest bullishness, but elevated 27% volatility warrants caution near short-term resistance.\"}\n```",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 204,
+ "output_tokens": 52,
+ "cost_usd": 0.000774,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-08T00:01:22.873272+00:00",
+ "mode": "REAL"
+}

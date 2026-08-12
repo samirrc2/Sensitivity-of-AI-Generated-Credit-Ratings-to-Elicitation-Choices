@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C028",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A\", \"confidence\": 4, \"rationale\": \"Strong balance sheet with $441B equity, low leverage, and solid operating income ($23.8B), warranting a high-grade investment rating.\"}\n```",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "in_tok": 281,
+ "out_tok": 57,
+ "usd": 0.000935,
+ "utc": "2026-07-10T14:58:22.544473+00:00"
+}

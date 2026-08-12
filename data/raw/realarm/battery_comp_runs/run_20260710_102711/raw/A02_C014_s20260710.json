@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits a very large scale of operations (Revenue of $34.0B and Total Assets of $73.7B) and a solid balance sheet, supported by a healthy equity base ($29.1B), positive retained earnings ($33.2B), and a comfortable current ratio of 1.30x. While profitability margins are relatively thin (gross margin of 6% and operating margin of 4%), the overall financial risk profile is low, bolstered by net income of $2.9B and a manageable liabilities-to-equity ratio, which aligns with a strong investment-grade profile.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 285,
+ "out_tok": 135,
+ "usd": 0.001642,
+ "utc": "2026-07-10T14:41:34.924813+00:00"
+}

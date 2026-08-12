@@ -1,0 +1,50 @@
+{
+ "_label": "POST-HOC ADDITION (T8, labelled). Frozen letter->Basel-III-ECRA-risk-weight map for the capital recast. Own hash in MANIFEST_CAPITAL.sha256; does NOT enter the sealed MANIFEST_INPUTS. No model calls; regulatory retrieval only, quote-verified.",
+ "verification": {
+  "status": "VERIFIED (quote-or-exclude satisfied)",
+  "source_document": "Basel Committee on Banking Supervision (BCBS), consolidated Basel Framework, CRE20 'Standardised approach: individual exposures'",
+  "paragraph": "CRE20.42 and its accompanying 'Risk weight table for corporate exposures' (External Credit Risk Assessment Approach, ECRA)",
+  "version": "In force as of 2023-01-01 (published 2020-11-26)",
+  "url": "https://www.bis.org/basel_framework/chapter/CRE/20.htm?inforce=20230101&published=20201126",
+  "retrieved_utc": "2026-07-07",
+  "quote_intro": "\"For corporate exposures of banks incorporated in jurisdictions that allow the use of external ratings for regulatory purposes, banks will assign 'base' risk weights according to [the] table\" (CRE20.42).",
+  "quote_table_rows": {
+   "External rating of counterparty": ["AAA to AA-", "A+ to A-", "BBB+ to BBB-", "BB+ to BB-", "Below BB-", "Unrated"],
+   "Base risk weight": ["20%", "50%", "75%", "100%", "150%", "100%"]
+  },
+  "verbatim_check": "The rendered CRE20 table returns exactly: AAA to AA- 20% | A+ to A- 50% | BBB+ to BBB- 75% | BB+ to BB- 100% | Below BB- 150% | Unrated 100%. This matches the expected ECRA shape; no memory-based values were used."
+ },
+ "us_implementation_note": "BIS ECRA is the load-bearing standard here. US implementation differs: Dodd-Frank Act section 939A prohibits US banking agencies from relying on external credit ratings, so the US standardized approach does NOT use this ratings-based ECRA table. Under the current US standardized approach most corporate exposures carry a flat 100% risk weight (the 2023 US 'Basel III endgame' proposal added a 65% weight for certain 'investment grade' corporates with publicly traded securities). We use the BIS ECRA table as primary because the elicitation produces letter ratings; the US flat-100% variant is noted for context and used only as a robustness sensitivity, not as the primary map.",
+ "scale_reference": "Maps the 21-grade elicitation scale in rating_scale.json (AAA..C) onto ECRA base risk weights.",
+ "letter_to_risk_weight": {
+  "AAA": 0.20, "AA+": 0.20, "AA": 0.20, "AA-": 0.20,
+  "A+": 0.50, "A": 0.50, "A-": 0.50,
+  "BBB+": 0.75, "BBB": 0.75, "BBB-": 0.75,
+  "BB+": 1.00, "BB": 1.00, "BB-": 1.00,
+  "B+": 1.50, "B": 1.50, "B-": 1.50,
+  "CCC+": 1.50, "CCC": 1.50, "CCC-": 1.50, "CC": 1.50, "C": 1.50
+ },
+ "risk_weight_buckets": [
+  {"ecra_row": "AAA to AA-", "risk_weight": 0.20, "letters": ["AAA", "AA+", "AA", "AA-"]},
+  {"ecra_row": "A+ to A-", "risk_weight": 0.50, "letters": ["A+", "A", "A-"]},
+  {"ecra_row": "BBB+ to BBB-", "risk_weight": 0.75, "letters": ["BBB+", "BBB", "BBB-"]},
+  {"ecra_row": "BB+ to BB-", "risk_weight": 1.00, "letters": ["BB+", "BB", "BB-"]},
+  {"ecra_row": "Below BB-", "risk_weight": 1.50, "letters": ["B+", "B", "B-", "CCC+", "CCC", "CCC-", "CC", "C"]}
+ ],
+ "unrated_risk_weight": 1.00,
+ "capital_function": {
+  "pillar": "Pillar 1 minimum only (no capital conservation buffer, no G-SIB/countercyclical/systemic buffers, no Pillar 2)",
+  "min_capital_ratio": 0.08,
+  "formula": "RWA_name = risk_weight(letter) * EAD_name ; min_capital_name = 0.08 * RWA_name",
+  "EAD_assumption": "Exposure-at-default = stated notional per name (equal-weight $1B base case); credit conversion factors and CRM not applied (on-balance-sheet drawn corporate exposure assumed)."
+ },
+ "ambiguity_flags": [
+  "COARSENING BELOW BB-: the ECRA table has a single 'Below BB-' row at 150%, so every elicitation grade from B+ through C (B+, B, B-, CCC+, CCC, CCC-, CC, C) collapses to the SAME 150% risk weight. The capital map is therefore COARSER than the 21-grade elicitation scale in the sub-BB- region. Any verdict that lands anywhere in distress produces an identical 150% weight -> capital dispersion mechanically saturates once a name reaches B+ or worse. This interacts directly with the market-pricing saturation finding and MUST be reported alongside the capital dispersion, not hidden.",
+  "IG/HY vs capital boundary mismatch: the ECRA 100% row is BB+ to BB- (already high-yield), while the 75% row ends at BBB-. The capital step across the IG/HY boundary (BBB- 75% -> BB+ 100%) is a 25pp risk-weight jump; the largest single-notch capital jump is BB- 100% -> B+ 150% (50pp).",
+  "No separate CCC/CC/C capital resolution exists in the standardized approach; distinctions the model draws among CCC+, CCC, CCC-, CC, C are invisible to Pillar 1 capital."
+ ],
+ "sources": [
+  "BCBS, Basel Framework CRE20 (Standardised approach: individual exposures), para 20.42 and the corporate ECRA risk weight table, in force 2023-01-01. https://www.bis.org/basel_framework/chapter/CRE/20.htm",
+  "Dodd-Frank Wall Street Reform and Consumer Protection Act (2010), section 939A (removal of references to credit ratings) — basis for the US non-ratings standardized approach (context note only)."
+ ]
+}

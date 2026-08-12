@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R004",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong liquidity (current ratio 2.19) and profitability, but constrained by negative retained earnings and moderate leverage (total debt-to-equity).\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 271,
+ "out_tok": 62,
+ "usd": 0.000964,
+ "utc": "2026-07-10T13:54:27.458706+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R013",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Negative retained earnings and shareholders\u2019 equity (total equity of -496M) indicate weak capitalization and significant balance-sheet stress, while net income is also slightly negative (-23M). Although EBIT is positive (74M) and liquidity is roughly balanced (current assets 580M vs. current liabilities 569M), the overall leverage and negative equity support a highly speculative rating.\n\nDECISION: CCC-",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "in_tok": 224,
+ "out_tok": 208,
+ "usd": 0.000305,
+ "utc": "2026-07-10T14:05:02.171215+00:00"
+}

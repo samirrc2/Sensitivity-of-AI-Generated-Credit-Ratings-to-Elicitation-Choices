@@ -1,0 +1,45 @@
+{
+ "spec_id": "S11",
+ "item_id": "C012",
+ "seed": 22,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 22,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-04-29, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-04-29):\nFiscal period 2026 Q3 (filed 2026-04-29). Revenue 82,886M, gross margin 68%, operating income 38,398M (operating margin 46%), net income 31,778M, diluted EPS 4.27. Total assets 694,228M, total liabilities 279,861M, shareholders' equity 414,367M. Current assets 175,329M vs current liabilities 136,661M (current ratio 1.28), retained earnings 302,526M.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "```json\n{\n  \"decision\": \"AAA\",\n  \"confidence\": 5,\n  \"rationale\": \"Exceptional profitability, massive equity cushion of over 414 billion, and highly robust liquid assets justify the highest possible credit rating.\"\n}\n```",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 316,
+ "output_tokens": 58,
+ "cost_usd": 0.000996,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:10:37.091480+00:00",
+ "mode": "REAL"
+}

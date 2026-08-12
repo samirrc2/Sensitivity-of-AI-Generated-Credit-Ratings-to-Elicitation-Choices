@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R029",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows very strong balance-sheet strength with equity of 3,342M against total liabilities of only 11M, indicating extremely low leverage. Profitability is also solid (EBIT/operating income 806M and net income 445M on 8,634M revenue), though liquidity appears only adequate with current assets of 2,929M versus current liabilities of 2,248M (current ratio ~1.3). Overall, this supports a high investment-grade rating.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 235,
+ "out_tok": 197,
+ "usd": 0.000293,
+ "utc": "2026-07-10T14:22:47.473398+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R021",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's financial profile reveals moderate leverage (Total Liabilities/Equity of 1.49x, Debt-to-Assets of 60%) and adequate liquidity with a current ratio of 1.50x. While the company is profitable with a net margin of 4.3% and an operating margin of 7%, the relatively small scale of operations (revenue of $2.08B) and modest profitability buffers place it in the investment-grade/speculative-grade boundary. These metrics are characteristic of a solid, albeit somewhat leveraged, mid-sized corporate issuer with limited cushion for severe operational downturns.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 236,
+ "out_tok": 139,
+ "usd": 0.001605,
+ "utc": "2026-07-10T14:14:21.030110+00:00"
+}

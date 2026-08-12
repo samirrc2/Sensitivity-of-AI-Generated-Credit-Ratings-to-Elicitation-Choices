@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R024",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's financial profile reveals solid profitability with a 14% operating margin and $384M in net income on $4,076M in revenue, reflecting a functional operating model. However, the balance sheet indicates moderate leverage (total liabilities make up 82.4% of total assets) and a weak liquidity position, highlighted by a current ratio of 0.91 (current liabilities exceed current assets by $138M). These mixed credit factors\u2014decent earning power balanced against constrained short-term liquidity and high leverage\u2014align the issuer with a solid speculative-grade rating.\n\nDECISION: BB",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 135,
+ "usd": 0.001578,
+ "utc": "2026-07-10T14:17:42.325834+00:00"
+}

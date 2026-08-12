@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows pronounced financial stress: a weak current ratio (0.62) and negative shareholders\u2019 equity (\u22122,646M) alongside total liabilities exceeding total assets. While operating performance appears relatively strong (EBIT of 3,230M vs revenue of 5,251M), the balance-sheet weakness and liquidity pressure drive the credit risk to a distressed level.  \n\nDECISION: CCC+",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "in_tok": 233,
+ "out_tok": 235,
+ "usd": 0.00034,
+ "utc": "2026-07-10T14:35:32.301143+00:00"
+}

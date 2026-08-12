@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R011",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits a large scale of operations (Revenue of $10.5B) and a solid capital structure with positive shareholders' equity ($5.7B), an acceptable debt-to-equity posture (assets of $18.7B vs. liabilities of $13.0B), and comfortable short-term liquidity (current ratio of 2.31). However, it is currently unprofitable, posting an operating loss of $287M and a net loss of $892M, which indicates short-to-medium-term credit stress and operational headwinds. These mixed factors\u2014strong asset coverage and scale balanced against significant current-year losses\u2014align the issuer with a speculative-grade but relatively stable profile.\n\nDECISION: BB",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 248,
+ "out_tok": 156,
+ "usd": 0.001776,
+ "utc": "2026-07-10T14:02:22.686871+00:00"
+}

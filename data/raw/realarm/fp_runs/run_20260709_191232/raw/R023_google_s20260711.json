@@ -1,0 +1,12 @@
+{
+ "item_id": "R023",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "ok": true,
+ "raw_response": "To find the specific company matching these unique balance sheet and income statement metrics:\n\n*   **Revenue:** ~$1.61 billion\n*   **Operating Income:** ~$326 million\n*   **Net Income:** ~$181 million\n*   **Total Assets:** ~$8.46 billion (a very high asset-to-revenue ratio, typical of capital-intensive real estate, infrastructure, gaming/hospitality, or utility companies)\n*   **Total Liabilities:** ~$5.57 billion\n*   **Shareholders' Equity:** ~$2.89 billion\n*   **Current Assets / Current Liabilities:** $504M / $697M (working capital deficit, very common in REITs or regulated utilities)\n*   **Retained Earnings:** ~$897 million\n\nThese financial figures perfectly match the FY 2023 financial results of **Wyndham Hotels & Resorts, Inc. (NYSE: WH)**. \n\nGUESS: Wyndham Hotels & Resorts (WH)",
+ "in_tok": 182,
+ "out_tok": 213,
+ "usd": 0.00219,
+ "utc": "2026-07-09T23:20:30.060699+00:00"
+}

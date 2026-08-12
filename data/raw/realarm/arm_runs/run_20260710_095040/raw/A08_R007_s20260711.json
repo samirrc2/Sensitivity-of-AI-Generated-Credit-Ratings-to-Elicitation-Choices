@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "R007",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A\", \"confidence\": 4, \"rationale\": \"Strong balance sheet with total assets over $10B, low leverage (total debt/equity around 1.04x), solid profitability, and excellent liquidity (current ratio above 3.3x).\"}\n```",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "in_tok": 265,
+ "out_tok": 66,
+ "usd": 0.000991,
+ "utc": "2026-07-10T13:58:26.906991+00:00"
+}

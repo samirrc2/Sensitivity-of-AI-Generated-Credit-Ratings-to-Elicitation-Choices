@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R012",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows solid operating profitability (EBIT margin ~13%) and strong near-term liquidity (current ratio ~2.35). Leverage is moderate with total liabilities at ~51% of total assets and liabilities slightly below shareholders\u2019 equity (~1.06x), but the capital structure is not conservative enough for an \u201cA\u201d category based on these limited metrics.  \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 237,
+ "out_tok": 243,
+ "usd": 0.000351,
+ "utc": "2026-07-10T14:04:21.541208+00:00"
+}

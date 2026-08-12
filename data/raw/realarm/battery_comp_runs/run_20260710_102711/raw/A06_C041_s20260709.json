@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates highly robust profitability with an operating margin of 32% and a significant quarterly net income of 2,438M, supported by a substantial asset base of 204.4B and shareholders' equity of 54.2B. However, the current ratio is relatively low at 0.55 (current assets of 12.7B versus current liabilities of 22.9B), and the leverage profile (total liabilities of 139.8B relative to equity) suggests a moderately leveraged capital structure. Based on these strong core earnings and asset scale balanced against liquidity and leverage considerations, the credit profile is consistent with a strong investment-grade rating.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 281,
+ "out_tok": 152,
+ "usd": 0.00179,
+ "utc": "2026-07-10T15:14:24.881328+00:00"
+}

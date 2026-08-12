@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits an exceptionally strong financial profile, characterized by high profitability (17% operating margin on $11.0B in Q1 revenue), a very robust balance sheet with $51.9B in shareholders' equity, substantial retained earnings of $60.6B, and a solid liquidity position (current ratio of 1.53). This financial strength, combined with a conservative asset-to-liability structure (total assets of $113.3B versus total liabilities of $61.3B), indicates an extremely low probability of default.\n\nDECISION: AA",
+ "parsed_letter": "AA",
+ "parsed_band": "SAFE",
+ "in_tok": 288,
+ "out_tok": 123,
+ "usd": 0.001539,
+ "utc": "2026-07-10T14:40:27.173465+00:00"
+}

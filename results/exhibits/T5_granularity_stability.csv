@@ -1,0 +1,9 @@
+granularity,n_cat,raw_agreement,chance_Pe,fleiss_kappa,gwet_ac1,flip_prob
+letter,21,0.1506,0.0744,0.082,0.109,0.8423
+notch,9,0.3316,0.1842,0.181,0.256,0.6628
+band,3,0.6439,0.4174,0.389,0.498,0.3531
+ig_hy,2,0.7296,0.5007,0.458,0.46,0.2682
+effective_resolution_raw90,coarser_than_ig_hy,,,,,
+effective_resolution_kappa0.6,coarser_than_ig_hy,,,,,
+scale_usage_letters,21,of 21,,,,
+scale_usage_entropy_bits,4.026,max 4.39,,,,

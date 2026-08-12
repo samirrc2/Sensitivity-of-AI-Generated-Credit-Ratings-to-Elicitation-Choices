@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's Q1 2026 financial profile reveals strong profitability with a 65% gross margin and a 23% operating margin, supported by a solid equity base of $31.8 billion. However, the company exhibits a highly pressured liquidity profile with a current ratio of just 0.53 ($6.6 billion in current assets against $12.6 billion in current liabilities), representing a significant short-term working capital deficit. This combination of strong operating performance but highly constrained short-term liquidity aligns with a solid investment-grade rating that is constrained from the highest tiers.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 284,
+ "out_tok": 135,
+ "usd": 0.001641,
+ "utc": "2026-07-10T15:19:45.375124+00:00"
+}

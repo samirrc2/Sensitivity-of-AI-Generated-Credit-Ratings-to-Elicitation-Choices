@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R001",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "To determine the credit rating, we evaluate the issuer's financial profile based on the provided metrics:\n1. **Profitability & Scale:** With $2.9B in revenue, a strong 57% gross margin, and a solid 16% operating margin ($454M EBIT), the company shows robust operating efficiency and scale typical of an investment-grade issuer.\n2. **Liquidity & Solvency:** A current ratio of 1.87 ($1,888M current assets vs. $1,010M current liabilities) indicates comfortable short-term liquidity, while a total debt-to-equity posture is moderate with total liabilities of $2.2B against $1.6B in equity (fully supported by $1.5B in retained earnings).\n3. **Credit Risk Profile:** While financially healthy, the company's mid-sized revenue base and leverage (total liabilities/equity of ~1.37x) constrain it from the highest rating tiers (AAA/AA), placing it firmly in the upper-medium investment grade. \n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 246,
+ "out_tok": 233,
+ "usd": 0.002466,
+ "utc": "2026-07-10T13:51:36.785381+00:00"
+}

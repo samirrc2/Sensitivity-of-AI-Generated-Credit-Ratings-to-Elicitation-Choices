@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"CCC\",\n  \"confidence\": 5,\n  \"rationale\": \"Severe liquidity crisis with current ratio of 0.34, massive leverage (91.8% debt-to-assets), and extremely weak EBIT interest coverage.\"\n}\n```",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 293,
+ "out_tok": 65,
+ "usd": 0.001024,
+ "utc": "2026-07-10T15:02:45.303019+00:00"
+}

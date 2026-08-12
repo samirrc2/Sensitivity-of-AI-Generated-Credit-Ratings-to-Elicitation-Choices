@@ -1,0 +1,12 @@
+{
+ "item_id": "R038",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "ok": true,
+ "raw_response": "GUESS: Rite Aid Corporation (or RAD)",
+ "in_tok": 185,
+ "out_tok": 10,
+ "usd": 0.000367,
+ "utc": "2026-07-09T23:25:32.458999+00:00"
+}

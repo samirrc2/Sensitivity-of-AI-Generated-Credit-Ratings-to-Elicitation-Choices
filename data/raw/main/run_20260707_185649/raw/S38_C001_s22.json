@@ -1,0 +1,43 @@
+{
+ "spec_id": "S38",
+ "item_id": "C001",
+ "seed": 22,
+ "family": "credit_health",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 0.0,
+ "temperature_applied": false,
+ "effective_temperature": null,
+ "call_meta": {
+  "signature": "mct+seed+eff",
+  "temperature_applied": false,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "seed": 22,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-03-19, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-03-19):\n| Current ratio           | 1.34 |\n| Retained earnings       | 22,804M |\n| Current liabilities     | 20,957M |\n| Current assets          | 28,007M |\n| Shareholders' equity    | 31,211M |\n| Total liabilities       | 34,289M |\n| Total assets            | 67,064M |\n| EBIT / operating income | 2,494M |\n| Revenue                 | 18,044M |\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The company shows adequate liquidity with a current ratio of 1.34 and a modestly leveraged balance sheet (total liabilities near but not exceeding equity). EBIT margin around 13.8% on revenue suggests solid operating profitability, but limited visibility on cash flow and interest coverage leaves some risk. Overall, credit quality appears investment-grade but not strong enough to warrant A or higher.\n\nDECISION: BBB",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 244,
+ "output_tokens": 408,
+ "cost_usd": 0.000559,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:49:33.740260+00:00",
+ "mode": "REAL"
+}

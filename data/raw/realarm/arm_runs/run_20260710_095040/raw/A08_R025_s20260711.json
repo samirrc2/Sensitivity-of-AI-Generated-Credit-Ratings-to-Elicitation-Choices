@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "R025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"High leverage (total debt-to-equity ratio over 4x) and negative retained earnings are balanced by positive EBIT and a solid current ratio.\"}\n```",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 263,
+ "out_tok": 54,
+ "usd": 0.00088,
+ "utc": "2026-07-10T14:18:41.650243+00:00"
+}

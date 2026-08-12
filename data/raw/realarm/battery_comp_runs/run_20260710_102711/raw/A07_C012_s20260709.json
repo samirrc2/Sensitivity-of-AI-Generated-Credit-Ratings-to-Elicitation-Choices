@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows strong profitability with EBIT of about 46% of revenue, and solid balance-sheet leverage with shareholders\u2019 equity covering the majority of total assets (~60%). Liquidity is only moderate (current ratio 1.28), so credit strength is good but not at the very highest end.  \nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "in_tok": 233,
+ "out_tok": 193,
+ "usd": 0.000288,
+ "utc": "2026-07-10T14:39:49.845040+00:00"
+}

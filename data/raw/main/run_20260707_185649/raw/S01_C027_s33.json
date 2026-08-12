@@ -1,0 +1,45 @@
+{
+ "spec_id": "S01",
+ "item_id": "C027",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-04-29. Act as a credit rating analyst.\n| Current ratio           | 1.18 |\n| Retained earnings       | 6,514M |\n| Current liabilities     | 4,538M |\n| Current assets          | 5,346M |\n| Shareholders' equity    | 14,298M |\n| Total liabilities       | 26,603M |\n| Total assets            | 40,898M |\n| EBIT / operating income | 577M |\n| Revenue                 | 2,444M |\nBased only on the above and knowledge predating 2026-04-29, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The company's current ratio is 1.18, which is somewhat weak but not immediately concerning. However, the debt-to-equity ratio is very high at 1.86 (26,603M / 14,298M), indicating a significant reliance on debt financing. This, coupled with the relatively low EBIT margin (577M / 2,444M = 23.6%), suggests a higher credit risk.\n\nDECISION: BB",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 278,
+ "output_tokens": 106,
+ "cost_usd": 0.000348,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T22:57:06.858646+00:00",
+ "mode": "REAL"
+}

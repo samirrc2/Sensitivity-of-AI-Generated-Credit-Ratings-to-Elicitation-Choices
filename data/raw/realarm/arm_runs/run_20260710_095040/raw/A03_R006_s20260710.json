@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R006",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows weak profitability with negative net income (-126M) and operating income/EBIT (-43M), indicating operational underperformance. Financial position is moderate\u2014liquidity is only slightly above break-even (current ratio ~1.21) and leverage appears manageable (total liabilities 6,030M vs. total assets 10,371M; equity 4,237M)\u2014but sustained losses constrain credit strength.  \nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 237,
+ "out_tok": 197,
+ "usd": 0.000294,
+ "utc": "2026-07-10T13:56:43.204940+00:00"
+}

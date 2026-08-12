@@ -1,0 +1,12 @@
+{
+ "item_id": "R030",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "ok": true,
+ "raw_response": "GUESS: Verisign (VRSN)",
+ "in_tok": 185,
+ "out_tok": 11,
+ "usd": 0.000376,
+ "utc": "2026-07-09T23:49:39.150804+00:00"
+}

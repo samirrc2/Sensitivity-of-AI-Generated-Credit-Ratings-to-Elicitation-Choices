@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 4, \"rationale\": \"High leverage (78% liabilities to assets) and low operating profitability (EBIT margin 13.9%, RoA 2.7%) indicate speculative-grade creditworthiness.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 273,
+ "out_tok": 61,
+ "usd": 0.000959,
+ "utc": "2026-07-10T14:43:13.591395+00:00"
+}

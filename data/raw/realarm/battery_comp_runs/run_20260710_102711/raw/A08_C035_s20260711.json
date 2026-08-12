@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"C\", \"confidence\": 4, \"rationale\": \"Extremely high leverage with total liabilities over 3T versus equity of 303B, very low current ratio (0.42), and minimal operating income.\"}\n```",
+ "parsed_letter": "C",
+ "parsed_band": "DISTRESS",
+ "in_tok": 288,
+ "out_tok": 58,
+ "usd": 0.000954,
+ "utc": "2026-07-10T15:07:25.094233+00:00"
+}

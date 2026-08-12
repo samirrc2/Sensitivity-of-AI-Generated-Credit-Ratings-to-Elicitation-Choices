@@ -1,0 +1,12 @@
+{
+ "item_id": "R037",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "ok": true,
+ "raw_response": "GUESS: CDW Corporation (ticker: CDW)",
+ "in_tok": 197,
+ "out_tok": 12,
+ "usd": 0.000403,
+ "utc": "2026-07-09T23:25:20.740165+00:00"
+}

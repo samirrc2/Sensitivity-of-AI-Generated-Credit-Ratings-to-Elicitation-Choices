@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R011",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows sustained operating underperformance with negative EBIT and net income, indicating weak profitability and credit pressure. However, liquidity appears solid (current ratio ~2.3) and the balance sheet retains meaningful equity (shareholders\u2019 equity exceeds current liabilities), which helps limit default risk despite leverage (total liabilities materially exceed equity).  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 237,
+ "out_tok": 235,
+ "usd": 0.000341,
+ "utc": "2026-07-10T14:02:29.568846+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates a substantial scale of operations with $24.5 billion in revenue and solid profitability, including an operating income of $2,575 million (11% operating margin) and positive net income of $1,791 million. However, its leverage profile is moderately high, with total liabilities of $56.8 billion against shareholders' equity of $16.2 billion (resulting in a total debt/equity or liabilities/equity ratio of approximately 3.5x), and its liquidity is somewhat tight but acceptable with a current ratio of 1.22. This financial profile indicates strong capacity to meet financial commitments but susceptibility to adverse economic conditions, aligning with a solid investment-grade rating.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 286,
+ "out_tok": 154,
+ "usd": 0.001815,
+ "utc": "2026-07-10T14:46:52.391696+00:00"
+}

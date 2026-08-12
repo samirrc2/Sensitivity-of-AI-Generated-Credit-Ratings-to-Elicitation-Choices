@@ -1,0 +1,19 @@
+{
+ "spec_id": "A05",
+ "item_id": "C003",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB+\",\"confidence\":2,\"rationale\":\"Profitability is solid (operating margin 18%, net margin ~11.5%) with moderate leverage and adequate liquidity (current ratio 1.32).\"}",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 256,
+ "out_tok": 158,
+ "usd": 0.000249,
+ "utc": "2026-07-10T14:29:43.735394+00:00"
+}

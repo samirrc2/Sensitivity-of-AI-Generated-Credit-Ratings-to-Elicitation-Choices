@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R021",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB+\", \"confidence\": 4, \"rationale\": \"Strong liquidity and profitability metrics are offset by high leverage (Total Debt/Equity ratio over 1.48x), placing the issuer at high-speculative grade.\"}\n```",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 263,
+ "out_tok": 57,
+ "usd": 0.000907,
+ "utc": "2026-07-10T14:14:35.653302+00:00"
+}

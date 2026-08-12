@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BBB-\",\n  \"confidence\": 4,\n  \"rationale\": \"Moderate leverage, positive operating income, but weak liquidity with a current ratio below 1.0 indicates investment-grade boundary.\"\n}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 270,
+ "out_tok": 57,
+ "usd": 0.000918,
+ "utc": "2026-07-10T15:17:02.405765+00:00"
+}

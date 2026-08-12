@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R031",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates moderate profitability with an operating income of 371M (20% margin), but its bottom-line net income is relatively thin at 67M, likely weighed down by significant interest or non-operating expenses. The capital structure is highly leveraged with total liabilities of 7,240M against equity of 2,866M (debt-to-equity ratio of ~2.5x), and it faces short-term liquidity pressure with a weak current ratio of 0.55 (current assets of 475M vs. current liabilities of 857M). These elevated leverage and liquidity risks offset the stable operating profitability, pointing to a non-investment grade profile in the BB category.\n\nDECISION: BB",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 232,
+ "out_tok": 159,
+ "usd": 0.001779,
+ "utc": "2026-07-10T14:25:59.539396+00:00"
+}

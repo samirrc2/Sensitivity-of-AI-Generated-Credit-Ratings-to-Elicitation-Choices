@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Moderate leverage, solid interest coverage, and decent profitability metrics support an investment-grade rating, balanced by moderate liquidity and asset turnover.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 281,
+ "out_tok": 49,
+ "usd": 0.000862,
+ "utc": "2026-07-10T14:28:15.800236+00:00"
+}

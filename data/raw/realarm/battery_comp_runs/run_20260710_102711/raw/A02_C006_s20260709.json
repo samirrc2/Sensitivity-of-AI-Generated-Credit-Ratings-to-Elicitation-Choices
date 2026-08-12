@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C006",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This issuer exhibits an exceptionally strong credit profile, characterized by a massive equity base ($51.07 billion) relative to total liabilities ($28.82 billion), robust profitability with a 19% operating margin generating $1.15 billion in quarterly operating income, and solid liquidity (current ratio of 1.52). The substantial retained earnings of $45.92 billion indicate a long history of highly profitable operations and conservative capital management. Consequently, the company represents an extremely low default risk, consistent with a high-grade investment rating.\n\nDECISION: AA",
+ "parsed_letter": "AA",
+ "parsed_band": "SAFE",
+ "in_tok": 282,
+ "out_tok": 120,
+ "usd": 0.001503,
+ "utc": "2026-07-10T14:32:44.246796+00:00"
+}

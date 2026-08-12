@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C010",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided fiscal year 2025 Q4 data, the company demonstrates an exceptionally strong financial profile, characterized by highly robust profitability (operating margin of 44%, gross margin of 78%), a very conservative capital structure with shareholders' equity of 29,833M representing nearly 58% of its 51,799M total assets, and excellent short-term liquidity supported by a current ratio of 1.92. Although net income is lower relative to operating income (suggesting potential one-off non-operating expenses, tax charges, or asset write-downs in this specific fiscal year), the fundamental credit metrics, substantial retained earnings of 29,765M, and massive asset cushion place this issuer in the highest tier of creditworthiness.\n\nDECISION: AA+",
+ "parsed_letter": "AA+",
+ "parsed_band": "SAFE",
+ "in_tok": 282,
+ "out_tok": 173,
+ "usd": 0.00198,
+ "utc": "2026-07-10T14:38:03.109195+00:00"
+}

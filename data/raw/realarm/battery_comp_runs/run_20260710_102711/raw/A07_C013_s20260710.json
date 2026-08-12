@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows solid operating profitability (EBIT margin ~17%) and acceptable short-term liquidity (current ratio 1.53). However, leverage is moderate (total liabilities ~54% of total assets), which limits cushion against downturns. Overall this aligns with a lower investment-grade profile.  \nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 233,
+ "out_tok": 177,
+ "usd": 0.000268,
+ "utc": "2026-07-10T14:40:58.700931+00:00"
+}

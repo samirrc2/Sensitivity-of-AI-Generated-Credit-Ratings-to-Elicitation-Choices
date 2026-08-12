@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits extremely weak credit metrics, characterized by negative shareholders' equity (-$1,920M), a massive retained earnings deficit (-$20,476M), and a highly distressed liquidity profile with a current ratio of only 0.27 (current assets of $1,254M versus current liabilities of $4,705M). Although the company remains operating-profitable, its highly leveraged balance sheet, negative net worth, and severe short-term refinancing risks place it deep into speculative-grade territory with substantial default risk.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 272,
+ "out_tok": 122,
+ "usd": 0.001506,
+ "utc": "2026-07-10T15:17:56.392265+00:00"
+}

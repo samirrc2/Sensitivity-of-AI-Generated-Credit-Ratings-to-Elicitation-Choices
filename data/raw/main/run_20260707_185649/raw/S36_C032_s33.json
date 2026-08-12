@@ -1,0 +1,44 @@
+{
+ "spec_id": "S36",
+ "item_id": "C032",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 33,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2026-04-23; do not use later information.\nProvided information:\n| Current ratio           | 0.35 |\n| Retained earnings       | 26,088M |\n| Current liabilities     | 159,640M |\n| Current assets          | 56,524M |\n| Shareholders' equity    | 33,995M |\n| Total liabilities       | 274,899M |\n| Total assets            | 308,894M |\n| EBIT / operating income | 6,598M |\n| Revenue                 | 20,880M |\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The provided metrics show acute liquidity stress (current ratio of 0.35) and extreme leverage (total liabilities/equity > 8\\times), only partially offset by a solid EBIT margin on modest revenue. These ratios map to issuers with substantial default risk but still-positive equity and earnings, placing the credit in the lower end of the CCC band.\nDECISION: CCC-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 356,
+ "output_tokens": 75,
+ "cost_usd": 0.000632,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:47:03.511848+00:00",
+ "mode": "REAL"
+}

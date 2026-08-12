@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R023",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B+\", \"confidence\": 4, \"rationale\": \"Strong liquidity and low leverage are offset by highly negative retained earnings and a modest EBIT-to-interest-like risk profile.\"}\n```",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 263,
+ "out_tok": 48,
+ "usd": 0.000826,
+ "utc": "2026-07-10T14:16:51.869940+00:00"
+}

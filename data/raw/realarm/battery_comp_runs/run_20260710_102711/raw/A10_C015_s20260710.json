@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits solid profitability with an operating margin of 14% and net income of $2,401M, supported by a healthy liquidity profile indicated by a current ratio of 1.44 ($52,485M in current assets against $36,558M in current liabilities) and a deep base of retained earnings ($65,448M). However, the balance sheet is highly leveraged with total liabilities of $77,267M relative to shareholders' equity of $21,318M (a debt-to-equity oriented leverage ratio of approximately 3.6x), which constrains the rating to the lower end of the investment-grade spectrum. Based on this moderate financial risk profile balanced by robust earnings, the issuer warrants a solid investment-grade rating.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 288,
+ "out_tok": 178,
+ "usd": 0.002034,
+ "utc": "2026-07-10T14:43:22.719096+00:00"
+}

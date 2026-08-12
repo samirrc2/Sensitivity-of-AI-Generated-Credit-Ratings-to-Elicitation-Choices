@@ -1,0 +1,12 @@
+{
+ "item_id": "R025",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "ok": true,
+ "raw_response": "GUESS: MGM Resorts International (MGM)",
+ "in_tok": 192,
+ "out_tok": 10,
+ "usd": 0.000378,
+ "utc": "2026-07-09T23:48:15.735172+00:00"
+}

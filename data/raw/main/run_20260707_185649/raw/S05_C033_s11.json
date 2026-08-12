@@ -1,0 +1,45 @@
+{
+ "spec_id": "S05",
+ "item_id": "C033",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 11,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-05-28, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-05-28):\nFiscal period 2026 Q1 (filed 2026-05-28). Revenue 23,078M, gross margin 33%, operating income 2,554M (operating margin 11%), net income 1,628M, diluted EPS 2.9. Total assets 54,941M, total liabilities 64,211M, shareholders' equity -9,270M. Current assets 22,162M vs current liabilities 20,274M (current ratio 1.09), retained earnings -9,884M.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "**Analysis:**\nThe issuer exhibits solid top-line performance and strong operational profitability, with Q1 2026 revenue of $23.1B, an operating margin of 11% ($2.55B), and positive net income of $1.63B. However, the balance sheet is highly leveraged and deeply stressed, characterized by negative shareholders' equity of -$9.27B (due to accumulated deficits reflected in -$9.88B of retained earnings) and total liabilities exceeding total assets, which severely limits financial flexibility and elevates credit risk despite a marginally adequate current ratio of 1.09. Based on this combination of robust operating profitability and a technically insolvent balance sheet structure, the issuer warrants a high-yield rating in the single-B category.\n\nDECISION: B-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 296,
+ "output_tokens": 169,
+ "cost_usd": 0.001965,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:04:58.444121+00:00",
+ "mode": "REAL"
+}

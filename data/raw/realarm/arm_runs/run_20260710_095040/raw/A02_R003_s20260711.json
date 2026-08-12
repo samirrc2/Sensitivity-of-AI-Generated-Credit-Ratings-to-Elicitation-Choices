@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R003",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits solid profitability with an operating margin of 22% (operating income of $263M on $1,207M in revenue) and positive net income of $106M. However, its financial profile carries significant risk, characterized by high leverage (liabilities-to-equity ratio of 3.18x) and a weak liquidity position as evidenced by a current ratio of 0.72 ($564M in current assets versus $783M in current liabilities). This combination of strong operating performance but highly leveraged capital structure and short-term liquidity pressure is consistent with a speculative-grade rating in the BB range.\n\nDECISION: BB",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 144,
+ "usd": 0.001646,
+ "utc": "2026-07-10T13:53:08.738279+00:00"
+}

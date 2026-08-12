@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R005",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits a strong balance sheet characterized by a solid equity base ($3,435M against $2,528M in total liabilities), robust liquidity (current ratio of 1.75), and substantial accumulated retained earnings ($5,941M), indicating a long history of profitable operations. However, the operating margin is relatively modest at 8% ($168M operating income on $2,101M revenue), which limits the rating to the lower end of the investment-grade spectrum. Given the low leverage and stable profitability, the company represents a moderate credit risk.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 236,
+ "out_tok": 131,
+ "usd": 0.001533,
+ "utc": "2026-07-10T13:55:28.623842+00:00"
+}

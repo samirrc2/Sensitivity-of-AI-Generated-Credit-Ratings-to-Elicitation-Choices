@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits massive scale with over $22.2 billion in quarterly revenue and a substantial asset base of $164.8 billion. However, profitability is extremely weak, with an operating margin of only 2%, a net loss of $4 million, and a very thin equity buffer of $5,987 million relative to a high liability burden of $158.8 million (resulting in a high leverage profile). The current ratio of 1.18 is modest, indicating tight liquidity, which when combined with thin margins and high leverage suggests a speculative-grade profile.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 276,
+ "out_tok": 128,
+ "usd": 0.001566,
+ "utc": "2026-07-10T14:46:09.159365+00:00"
+}

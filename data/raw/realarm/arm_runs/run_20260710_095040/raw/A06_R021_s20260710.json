@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R021",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows a moderate financial profile with solid revenues of $2,083M, a respectable gross margin of 37%, and positive profitability (net income of $90M). Its balance sheet is moderately leveraged with an equity-to-assets ratio of approximately 40% ($773M equity on $1,923M assets) and a comfortable liquidity position represented by a current ratio of 1.50. These metrics represent investment-grade characteristics with moderate credit risk, typical of a mid-tier investment-grade rating.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 228,
+ "out_tok": 121,
+ "usd": 0.001431,
+ "utc": "2026-07-10T14:13:56.188031+00:00"
+}

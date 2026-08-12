@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This issuer exhibits strong operating profitability with an operating margin of 41% ($1,307M on $3,198M in revenue) and a solid asset base of $58,573M. However, its capital structure is highly leveraged (total liabilities of $43,578M against equity of $12,807M), liquid liquidity is constrained with a current ratio of 0.53 ($3,244M in current assets vs $6,106M in current liabilities), and it has a massive accumulated deficit (retained earnings of -$12,237M). This combination of highly profitable business operations but a weak, highly leveraged balance sheet and short-term liquidity pressure is characteristic of a sub-investment grade borrower with moderate credit risk.\n\nDECISION: BB",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 281,
+ "out_tok": 178,
+ "usd": 0.002024,
+ "utc": "2026-07-10T15:05:32.358309+00:00"
+}

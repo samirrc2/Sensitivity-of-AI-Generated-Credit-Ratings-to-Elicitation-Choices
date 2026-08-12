@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R019",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer has persistently weak performance, with negative EBIT (-459M) and a large net loss (-640M) despite revenue of 11,006M, indicating operating stress. Balance sheet leverage is high (total liabilities 11,824M vs. total assets 12,240M; equity only 415M), which reduces loss-absorbing capacity; although liquidity appears adequate (current ratio \u2248 1.78), the combination of negative earnings and thin equity supports a speculative, highly stressed rating.\n\nDECISION: CCC-",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "in_tok": 235,
+ "out_tok": 300,
+ "usd": 0.000422,
+ "utc": "2026-07-10T14:11:24.970194+00:00"
+}

@@ -1,0 +1,45 @@
+{
+ "spec_id": "S01",
+ "item_id": "D088",
+ "seed": 11,
+ "family": "directional",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "SELL",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 11,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-04-30. Act as a equity research analyst.\n| Return 3m            | +8.5% |\n| Return 1m            | +0.2% |\n| Return 1w            | +3.0% |\n| Range position (63d) | 78% |\n| 21d realized vol     | 18% |\n| Last close           | 96.70 |\nBased only on the above and knowledge predating 2026-04-30, give a 20-trading-day directional recommendation for the stock. Choose exactly one label from: BUY, HOLD, SELL.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock has shown strong recent performance with a +8.5% return over 3 months and a healthy +3.0% return over 1 week, indicating positive momentum. The current price is near the top of its recent range (78% position over 63 days), suggesting strong demand and upward pressure. While the 1-month return is modest at +0.2%, the overall short-term trend is positive and the 21-day realized volatility is moderate, supporting continued upward movement.\n\nDECISION: BUY",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 191,
+ "output_tokens": 111,
+ "cost_usd": 0.000335,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T22:57:43.131555+00:00",
+ "mode": "REAL"
+}

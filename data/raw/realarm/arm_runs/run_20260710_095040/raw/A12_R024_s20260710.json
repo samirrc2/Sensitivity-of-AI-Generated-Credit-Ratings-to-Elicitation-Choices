@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "R024",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage (Total Debt/Equity over 4x) and tight liquidity are balanced by solid profitability (ROA over 7% and positive EBIT margin).\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 268,
+ "out_tok": 63,
+ "usd": 0.000969,
+ "utc": "2026-07-10T14:17:56.761843+00:00"
+}

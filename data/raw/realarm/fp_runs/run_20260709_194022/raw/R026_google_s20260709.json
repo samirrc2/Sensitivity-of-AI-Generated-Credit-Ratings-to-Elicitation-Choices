@@ -1,0 +1,12 @@
+{
+ "item_id": "R026",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "ok": true,
+ "raw_response": "GUESS: Carvana Co. (CVNA)",
+ "in_tok": 194,
+ "out_tok": 11,
+ "usd": 0.00039,
+ "utc": "2026-07-09T23:48:34.467446+00:00"
+}

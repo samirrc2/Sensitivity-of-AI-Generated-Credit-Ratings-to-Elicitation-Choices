@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Liquidity is only moderately supported (current ratio 1.18) while leverage is very high (total liabilities nearly equal to total assets, and equity is small at 5,987M). Profitability also appears weak with EBIT of 446M versus revenue of 22,217M, implying limited earnings capacity to absorb shocks. Overall, this profile fits a higher-risk credit tier with elevated leverage and thin operating earnings.  \nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 231,
+ "out_tok": 282,
+ "usd": 0.000399,
+ "utc": "2026-07-10T14:46:13.354676+00:00"
+}

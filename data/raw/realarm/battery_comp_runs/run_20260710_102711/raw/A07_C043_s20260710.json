@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Liquidity is slightly strained (current ratio 0.97, below 1), and leverage is relatively high (total liabilities of 44,490M versus equity of 15,501M). Profitability also looks thin (EBIT of 948M on revenue 25,270M, ~3.7%), which weakens debt-servicing capacity. Overall, these factors point to a speculative-grade but not severely distressed credit profile.  \nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 231,
+ "out_tok": 265,
+ "usd": 0.000377,
+ "utc": "2026-07-10T15:16:59.366938+00:00"
+}

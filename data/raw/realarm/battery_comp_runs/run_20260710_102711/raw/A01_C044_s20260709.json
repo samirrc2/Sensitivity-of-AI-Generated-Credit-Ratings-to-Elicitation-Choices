@@ -1,0 +1,19 @@
+{
+ "spec_id": "A01",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"B+\",\"confidence\":3,\"rationale\":\"Negative equity and retained earnings with very weak liquidity (current ratio 0.27) outweigh strong operating margins; high balance-sheet and refinancing risk.\"}",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 259,
+ "out_tok": 133,
+ "usd": 0.000218,
+ "utc": "2026-07-10T15:17:28.306362+00:00"
+}

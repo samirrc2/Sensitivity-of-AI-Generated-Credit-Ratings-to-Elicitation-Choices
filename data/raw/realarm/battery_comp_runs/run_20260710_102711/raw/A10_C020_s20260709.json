@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C020",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the issuer's financial profile reveals a massive balance sheet with total assets of \\$404.3 billion and equity of \\$104.5 billion, indicating a very large, systemic market participant. However, the company exhibits a constrained liquidity profile with a current ratio of 0.91 (current assets of \\$56.9 billion against current liabilities of \\$62.4 billion) and relatively low profitability relative to its asset base, as evidenced by a 14% operating margin on \\$36.4 billion in revenue and a low return on assets. These leverage and liquidity headwinds offset the company's massive scale, positioning it at the lower end of the investment-grade spectrum.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 291,
+ "out_tok": 153,
+ "usd": 0.001814,
+ "utc": "2026-07-10T14:48:36.083037+00:00"
+}

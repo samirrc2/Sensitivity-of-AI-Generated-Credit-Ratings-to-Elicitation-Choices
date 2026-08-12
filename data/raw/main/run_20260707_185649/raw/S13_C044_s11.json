@@ -1,0 +1,44 @@
+{
+ "spec_id": "S13",
+ "item_id": "C044",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "openai",
+ "version": "current",
+ "model": "gpt-5.4-nano",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-05-07. Act as a credit rating analyst.\nFiscal period 2026 Q1 (filed 2026-05-07). Revenue 1,010M, gross margin 74%, operating income 465M (operating margin 46%), net income 151M, diluted EPS 0.34. Total assets 31,391M, total liabilities 33,311M, shareholders' equity -1,920M. Current assets 1,254M vs current liabilities 4,705M (current ratio 0.27), retained earnings -20,476M.\nBased only on the above and knowledge predating 2026-05-07, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\"decision\":\"CCC-\",\"confidence\":4,\"rationale\":\"Negative equity (-1,920M), heavily indebted (liabilities>assets), very weak liquidity (current ratio 0.27) despite strong operating margin.\"}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 265,
+ "output_tokens": 110,
+ "cost_usd": 0.000191,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:12:31.457455+00:00",
+ "mode": "REAL"
+}

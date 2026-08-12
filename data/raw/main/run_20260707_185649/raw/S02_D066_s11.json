@@ -1,0 +1,45 @@
+{
+ "spec_id": "S02",
+ "item_id": "D066",
+ "seed": 11,
+ "family": "directional",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "2",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 11,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-04-02. Act as a equity research analyst.\nPrice action as of 2026-04-02: 1w +2.3%, 1m -8.2%, 3m +5.8%. Last close 244.71. 21d annualized realized volatility 21%. Position in trailing 63-day range: 51% (0%=low, 100%=high).\nHere are two worked examples:\n- Information: Price action as of 2026-03-19: 1w +4.1%, 1m -5.5%, 3m -1.3%. Last close 109.85. 21d annualized realized volatility 35%. Position in trailing 63-day range: 24% (0%=low, 100%=high).\n  Answer: BUY\n- Information: Price action as of 2026-04-02: 1w -4.8%, 1m -8.3%, 3m -0.8%. Last close 201.40. 21d annualized realized volatility 23%. Position in trailing 63-day range: 46% (0%=low, 100%=high).\n  Answer: SELL\n\nBased only on the above and knowledge predating 2026-04-02, give a 20-trading-day directional recommendation for the stock. Choose exactly one label from: BUY, HOLD, SELL.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock has shown weakness in the past month and is only in the middle of its recent trading range. While the short-term trend is positive, the medium-term momentum is negative, suggesting potential further declines or sideways movement. The volatility is moderate, but the lack of strong positive momentum argues against a buy.\n\nDECISION: HOLD",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 393,
+ "output_tokens": 68,
+ "cost_usd": 0.000288,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T22:58:23.909918+00:00",
+ "mode": "REAL"
+}

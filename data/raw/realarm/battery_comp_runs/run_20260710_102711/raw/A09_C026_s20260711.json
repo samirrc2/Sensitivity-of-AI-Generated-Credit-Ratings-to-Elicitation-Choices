@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":2,\"rationale\":\"Strong profitability (72% gross, 30% operating) but high leverage (liabilities ~81% of assets) and modest liquidity (current ratio 1.27).\"}",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 265,
+ "out_tok": 164,
+ "usd": 0.000258,
+ "utc": "2026-07-10T14:56:21.334770+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 4, \"rationale\": \"High leverage (Total Debt/Assets over 72%), weak liquidity (Current Ratio 0.53), and low asset turnover/operating profitability point to speculative-grade BB.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 280,
+ "out_tok": 60,
+ "usd": 0.00096,
+ "utc": "2026-07-10T15:19:56.624575+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows severe financial strain with a very weak liquidity position (current ratio 0.27) and negative retained earnings and shareholders\u2019 equity, indicating limited balance-sheet flexibility and elevated solvency risk. Although EBIT is positive (465M), the negative net worth and high leverage (total liabilities exceed total assets) point to a credit profile consistent with higher default risk.  \n\nDECISION: B+",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 238,
+ "out_tok": 213,
+ "usd": 0.000314,
+ "utc": "2026-07-10T15:17:38.375163+00:00"
+}

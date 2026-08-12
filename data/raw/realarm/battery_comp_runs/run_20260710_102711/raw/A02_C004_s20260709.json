@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong financial health with a large asset base of $143.7B, substantial shareholders' equity of $84.1B, and a solid current ratio of 2.04 reflecting excellent liquidity. However, its operating margin is relatively thin at 4.2% on $22.4B of revenue, and the leverage is moderate (total liabilities to equity of approximately 0.70x). These metrics indicate a highly stable, investment-grade profile with solid shock-absorption capacity, consistent with a strong upper-medium grade rating.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 283,
+ "out_tok": 124,
+ "usd": 0.00154,
+ "utc": "2026-07-10T14:30:30.631158+00:00"
+}

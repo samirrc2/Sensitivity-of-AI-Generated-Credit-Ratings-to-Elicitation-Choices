@@ -1,0 +1,19 @@
+{
+ "spec_id": "A01",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":3,\"rationale\":\"Strong profitability, but weak balance sheet: liabilities exceed assets, negative equity, and low current ratio (0.62) indicate elevated leverage/liquidity risk.\"}",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 263,
+ "out_tok": 138,
+ "usd": 0.000225,
+ "utc": "2026-07-10T14:35:01.312319+00:00"
+}

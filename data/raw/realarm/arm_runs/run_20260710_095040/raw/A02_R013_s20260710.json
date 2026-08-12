@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R013",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits severe financial distress, characterized by negative shareholders' equity (-$496M), a massive accumulated deficit (retained earnings of -$1,065M), and a net loss of -$23M despite $2.8B in revenue. Its capital structure is deeply insolvent with liabilities exceeding assets, and a weak current ratio of 1.02 indicates extremely tight liquidity and high default risk. Consequently, the issuer is rated in the deep speculative/default-imminent range.\n\nDECISION: CCC\n\n*(Note: CCC represents extremely high credit risk/substantial risk of default given the negative equity and ongoing losses.)*",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 235,
+ "out_tok": 132,
+ "usd": 0.00154,
+ "utc": "2026-07-10T14:04:38.477633+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C003",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows solid profitability (EBIT of 2,702M on revenue of 14,969M, ~18% margin) and a relatively balanced capital structure (equity 64,923M vs. total liabilities 57,549M), which supports credit strength. Liquidity is only moderate (current ratio 1.32), suggesting less buffer against short-term stress, so overall strength is not at the very top tier.  \n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 233,
+ "out_tok": 212,
+ "usd": 0.000312,
+ "utc": "2026-07-10T14:29:54.680161+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's fiscal year 2025 financial profile indicates strong creditworthiness, characterized by solid profitability (net income of 2,401M on revenue of 19,133M), substantial retained earnings of 65,448M supporting a shareholders' equity base of 21,318M, and adequate short-term liquidity with a current ratio of 1.44 (current assets of 52,485M vs. current liabilities of 36,558M). However, the leverage profile is moderately high, with total liabilities of 77,267M representing approximately 78% of the 98,585M total asset base. Given the robust operating income of 2,660M and significant scale, the issuer demonstrates a strong capacity to meet financial commitments but is subject to moderate leverage constraints, aligning with an upper-medium grade rating.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 288,
+ "out_tok": 209,
+ "usd": 0.002313,
+ "utc": "2026-07-10T14:43:20.986075+00:00"
+}

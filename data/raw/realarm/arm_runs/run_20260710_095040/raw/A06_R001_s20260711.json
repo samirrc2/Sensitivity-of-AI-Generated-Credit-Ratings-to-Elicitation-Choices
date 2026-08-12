@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R001",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits a solid financial profile with revenue of $2.899 billion, strong profitability (gross margin of 57%, operating margin of 16%, and net income of $350 million), and a healthy balance sheet supported by a current ratio of 1.87 and positive equity of $1.609 billion. However, the presence of $2.198 billion in total liabilities relative to $1.609 billion in equity represents moderate leverage, placing the issuer firmly in the investment-grade category but below the highest tiers. \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 238,
+ "out_tok": 126,
+ "usd": 0.001491,
+ "utc": "2026-07-10T13:51:13.117939+00:00"
+}

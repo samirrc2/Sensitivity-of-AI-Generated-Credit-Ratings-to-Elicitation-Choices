@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows **very weak liquidity** (current ratio **0.35**), indicating limited ability to cover near-term obligations. It also has **high leverage** (total liabilities **274,899M** vs equity **33,995M**), which increases financial risk, though profitability appears strong with **EBIT of 6,598M** on **revenue of 20,880M**.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 194,
+ "usd": 0.000291,
+ "utc": "2026-07-10T15:03:48.716798+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "R006",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"B-\",\"confidence\":3,\"rationale\":\"Negative operating and net income with thin liquidity (current ratio 1.21) but positive equity and manageable leverage support a below-investment grade view.\"}",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 231,
+ "out_tok": 147,
+ "usd": 0.00023,
+ "utc": "2026-07-10T13:57:21.753914+00:00"
+}

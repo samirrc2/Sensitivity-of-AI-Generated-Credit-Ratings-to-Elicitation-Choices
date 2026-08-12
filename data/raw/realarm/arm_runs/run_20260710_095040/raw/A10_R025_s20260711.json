@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's financial profile reveals significant credit risk: while it is currently profitable (operating margin of 8%, net income of $142M) and maintains adequate short-term liquidity (current ratio of 1.32x), its balance sheet is highly leveraged with a high debt-to-equity structure (total liabilities of $8,218M against equity of $1,804M) and a deeply negative retained earnings balance of -$748M, indicating a history of accumulated losses. This combination of high leverage, weak capital structure, but currently positive operating cash generation aligns with a highly speculative, non-investment grade profile.\n\nDECISION: B+",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 238,
+ "out_tok": 145,
+ "usd": 0.001662,
+ "utc": "2026-07-10T14:18:58.544100+00:00"
+}

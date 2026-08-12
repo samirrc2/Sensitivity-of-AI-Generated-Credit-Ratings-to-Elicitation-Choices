@@ -1,0 +1,12 @@
+{
+ "item_id": "R028",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "ok": true,
+ "raw_response": "GUESS: Coinbase",
+ "in_tok": 190,
+ "out_tok": 4,
+ "usd": 0.000321,
+ "utc": "2026-07-09T23:22:12.676363+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R031",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits strong operating profitability with an operating margin of 20% on $1.82B of revenue, but carries a highly leveraged and illiquid balance sheet, as evidenced by total liabilities of $7.24B (Debt-to-Equity of over 2.5x) and a weak current ratio of 0.55 ($475M current assets vs $857M current liabilities). The significant gap between operating income ($371M) and net income ($67M) suggests heavy interest expenses or non-operating losses, indicating high debt-servicing costs. These substantial refinancing and liquidity risks, tempered by solid operating cash generation potential, are characteristic of a non-investment grade, speculative-grade profile.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 239,
+ "out_tok": 163,
+ "usd": 0.001825,
+ "utc": "2026-07-10T14:25:35.851350+00:00"
+}

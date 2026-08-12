@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R006",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"High revenue and solid equity base, but recent operating losses (negative EBIT) and high leverage warrant a speculative-grade BB rating.\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 272,
+ "out_tok": 57,
+ "usd": 0.000921,
+ "utc": "2026-07-10T13:56:46.629897+00:00"
+}

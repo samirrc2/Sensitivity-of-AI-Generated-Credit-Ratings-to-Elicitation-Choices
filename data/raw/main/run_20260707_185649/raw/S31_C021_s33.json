@@ -1,0 +1,43 @@
+{
+ "spec_id": "S31",
+ "item_id": "C021",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 0.0,
+ "temperature_applied": false,
+ "effective_temperature": null,
+ "call_meta": {
+  "signature": "mct+seed+eff",
+  "temperature_applied": false,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "seed": 33,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2026-04-28; do not use later information.\nProvided information:\n| Current ratio           | 0.68 |\n| Retained earnings       | 24,804M |\n| Current liabilities     | 9,335M |\n| Current assets          | 6,320M |\n| Shareholders' equity    | 31,173M |\n| Total liabilities       | 24,587M |\n| Total assets            | 60,792M |\n| EBIT / operating income | 2,002M |\n| Revenue                 | 4,171M |\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The company shows liquidity stress with a current ratio of 0.68, indicating short-term funding risk, while total liabilities are moderate relative to assets (debt/asset around 0.40). EBIT margin is solid (~48% of revenue), suggesting operating profitability, but weak liquidity and reliance on ongoing funding keep credit risk elevated. Based on these factors, the issuer warrants a below-investment-grade rating with limited downside protection.\n\nDECISION: BB+",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 235,
+ "output_tokens": 548,
+ "cost_usd": 0.000732,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:39:04.979767+00:00",
+ "mode": "REAL"
+}

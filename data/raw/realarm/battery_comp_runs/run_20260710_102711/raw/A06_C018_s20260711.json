@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided Q1 2026 financial data, the issuer has a very large asset base ($164.8B) but operates on extremely thin margins (gross margin of 11% and operating margin of 2%), resulting in a net loss of $4M for the quarter. Additionally, the capital structure is highly leveraged with a very thin equity cushion (shareholders' equity of $5.99B against $158.8B in total liabilities, or a leverage ratio over 96%) and a modest current ratio of 1.18, indicating elevated financial risk typical of a non-investment grade or speculative-grade profile.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 276,
+ "out_tok": 146,
+ "usd": 0.001728,
+ "utc": "2026-07-10T14:46:10.817038+00:00"
+}

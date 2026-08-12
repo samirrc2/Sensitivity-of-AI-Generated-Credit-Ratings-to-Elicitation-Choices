@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R020",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates solid profitability with revenue of $2.98B, an operating margin of 18% ($537M), and net income of $293M. However, its balance sheet shows significant leverage with a total debt/liabilities-to-equity ratio of over 2.0x (liabilities of $8.58B vs. equity of $4.11B) and a weak liquidity profile characterized by a current ratio of 0.83 ($1.11B in current assets vs. $1.33B in current liabilities). These strong operating metrics balanced against elevated leverage and tight short-term liquidity align with a solid investment-grade rating in the BBB range.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 233,
+ "out_tok": 156,
+ "usd": 0.001753,
+ "utc": "2026-07-10T14:12:47.816488+00:00"
+}

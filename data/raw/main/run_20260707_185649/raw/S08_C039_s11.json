@@ -1,0 +1,44 @@
+{
+ "spec_id": "S08",
+ "item_id": "C039",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-02-25, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-02-25):\n| Current ratio           | 0.83 |\n| Retained earnings       | 165,288M |\n| Current liabilities     | 1,226,809M |\n| Current assets          | 1,018,577M |\n| Shareholders' equity    | 124,972M |\n| Total liabilities       | 1,684,348M |\n| Total assets            | 1,809,320M |\n| EBIT / operating income | 5,855M |\n| Revenue                 | 30,125M |\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"Very high leverage with thin liquidity; current ratio <1, sizable liabilities relative to assets; EBIT modest vs debt burden leading to speculative grade.\"}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 261,
+ "output_tokens": 759,
+ "cost_usd": 0.001001,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:08:23.318876+00:00",
+ "mode": "REAL"
+}

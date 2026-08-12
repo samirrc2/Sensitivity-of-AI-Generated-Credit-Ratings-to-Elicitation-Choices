@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"CCC-\",\"confidence\":3,\"rationale\":\"Negative equity and current ratio below 1 indicate high solvency/liquidity stress despite modest profitability (8% operating margin).\"}",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "in_tok": 261,
+ "out_tok": 136,
+ "usd": 0.000222,
+ "utc": "2026-07-10T15:16:02.860770+00:00"
+}

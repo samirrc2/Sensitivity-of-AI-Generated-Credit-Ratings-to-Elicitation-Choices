@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits massive scale with total assets of \\$192.3B and solid profitability (27% operating margin, 99% gross margin, and \\$1.42B quarterly net income). However, the capital structure is highly leveraged (total liabilities of \\$139.7B against \\$51.5B in equity) and the liquidity profile is weak, evidenced by a current ratio of 0.63 (\\$12.2B current assets vs. \\$19.4B current liabilities) and a relatively low retained earnings base of \\$4.7B relative to asset scale. Based on these strong systemic operations and high profitability paired with elevated leverage and tight short-term liquidity, the issuer warrants a strong investment-grade rating but below the top tiers.\n\nDECISION: A-",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "in_tok": 287,
+ "out_tok": 169,
+ "usd": 0.001951,
+ "utc": "2026-07-10T15:12:47.088065+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R005",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Strong balance sheet with assets doubling liabilities and positive net income, but moderate profitability ratios suggest a solid investment-grade rating.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 269,
+ "out_tok": 47,
+ "usd": 0.000826,
+ "utc": "2026-07-10T13:55:39.966867+00:00"
+}

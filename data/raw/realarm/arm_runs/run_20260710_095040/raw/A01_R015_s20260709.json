@@ -1,0 +1,19 @@
+{
+ "spec_id": "A01",
+ "item_id": "R015",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":3,\"rationale\":\"Operating losses (-42% margin) weaken credit, though liquidity is strong (current ratio 2.85) and leverage is moderate (liabilities/assets 0.59).\"}",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 232,
+ "out_tok": 179,
+ "usd": 0.00027,
+ "utc": "2026-07-10T14:06:46.729180+00:00"
+}

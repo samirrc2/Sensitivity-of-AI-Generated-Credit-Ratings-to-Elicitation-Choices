@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R010",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid profitability (net income margin ~19% based on 403M vs. 2,106M revenue), but leverage is high with liabilities of 17,381M against assets of 21,779M (liabilities/assets ~80%) and relatively thin capitalization (equity/assets ~15%). With limited balance-sheet cushion implied by these ratios, the credit profile aligns with the lower investment-grade boundary or speculative grade\u2014closer to the latter given the leverage.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 204,
+ "out_tok": 191,
+ "usd": 0.00028,
+ "utc": "2026-07-10T14:01:15.546942+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"High liquidity and equity cushion are offset by extremely low profitability (EBIT margin under 4.2% and ROA under 1%), indicating weak debt-servicing capacity.\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 280,
+ "out_tok": 67,
+ "usd": 0.001023,
+ "utc": "2026-07-10T14:31:23.667664+00:00"
+}

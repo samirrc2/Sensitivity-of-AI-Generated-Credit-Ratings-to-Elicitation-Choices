@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "R006",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB+\",\"confidence\":2,\"rationale\":\"Recent operating and net losses weaken credit quality; liquidity is adequate (current ratio 1.21) and leverage is moderate.\"}",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 231,
+ "out_tok": 158,
+ "usd": 0.000244,
+ "utc": "2026-07-10T13:57:16.767971+00:00"
+}

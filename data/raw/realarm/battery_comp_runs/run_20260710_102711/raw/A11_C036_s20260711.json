@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows weak near-term liquidity with a current ratio of 0.79 and current assets below current liabilities, indicating reliance on ongoing cash generation to meet short-term obligations. Balance sheet leverage is high (total liabilities ~58.0B vs equity ~21.2B), while profitability is supportive (EBIT ~749M on revenue ~3,915M), but not enough to fully offset the liquidity and leverage profile.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 240,
+ "out_tok": 244,
+ "usd": 0.000353,
+ "utc": "2026-07-10T15:08:53.757646+00:00"
+}

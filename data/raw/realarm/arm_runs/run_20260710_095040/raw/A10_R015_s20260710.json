@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R015",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's financial profile reveals a severe operational disconnect, characterized by a massive operating loss of -988M (operating margin of -42%) on revenue of 2,325M, though bottom-line net income is positive at 644M (likely due to one-off non-operating items or tax benefits). While the balance sheet currently shows a healthy liquidity position (current ratio of 2.85) and positive equity (2,427M), the core business is highly unprofitable and burning cash at an unsustainable rate, placing the issuer in a highly speculative category with substantial credit risk. Therefore, despite temporary short-term liquidity buffers, the severe operational deficits justify a high-yield rating in the single-B category.\n\nDECISION: B",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "in_tok": 244,
+ "out_tok": 165,
+ "usd": 0.001851,
+ "utc": "2026-07-10T14:07:35.289465+00:00"
+}

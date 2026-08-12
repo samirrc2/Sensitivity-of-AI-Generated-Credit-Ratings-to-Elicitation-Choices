@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R013",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "**Analysis:**\nThe company exhibits severe financial distress, characterized by a negative net worth (shareholders' equity of -$496M) driven by massive accumulated deficits (retained earnings of -$1,065M), meaning the firm is technically insolvent with liabilities exceeding assets. Profitability is extremely weak with a net loss of -$23M and razor-thin operating margins (3%), while liquidity is highly constrained with a current ratio of just 1.02. These factors indicate a highly speculative credit profile with a very high probability of default or restructuring in the near-to-medium term. \n\nDECISION: CCC",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 236,
+ "out_tok": 130,
+ "usd": 0.001524,
+ "utc": "2026-07-10T14:05:20.695589+00:00"
+}

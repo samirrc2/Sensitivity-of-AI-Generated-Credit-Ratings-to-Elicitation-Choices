@@ -1,0 +1,12 @@
+{
+ "item_id": "R008",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "ok": true,
+ "raw_response": "GUESS: HASBRO (HAS)",
+ "in_tok": 194,
+ "out_tok": 8,
+ "usd": 0.000363,
+ "utc": "2026-07-09T23:15:18.550987+00:00"
+}

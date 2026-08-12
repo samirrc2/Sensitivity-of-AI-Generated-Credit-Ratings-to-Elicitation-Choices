@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"CCC\",\n  \"confidence\": 5,\n  \"rationale\": \"Negative equity of $1.9B, massive accumulated losses, extremely poor current ratio of 0.27, and EBIT-to-debt ratio indicating high default risk.\"\n}\n```",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 274,
+ "out_tok": 67,
+ "usd": 0.001014,
+ "utc": "2026-07-10T15:17:44.076571+00:00"
+}

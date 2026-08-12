@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided Q1 2026 financial data, the issuer exhibits an exceptionally large balance sheet (over $2.2 trillion in total assets) and solid profitability ($5.85 billion in operating income), which is characteristic of a major global financial institution. However, the balance sheet shows a very low current ratio of 0.34 (current assets of $612B versus current liabilities of $1.775T) and a thin equity-to-assets leverage ratio of approximately 8.1%, indicating significant reliance on short-term funding and high leverage. While these leverage metrics are typical for systemic banking institutions, the substantial short-term funding mismatch and potential liquidity pressures in a stressed environment warrant a strong investment-grade rating but prevent it from reaching the highest AAA/AA tiers.\n\nDECISION: A-",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "in_tok": 299,
+ "out_tok": 174,
+ "usd": 0.002015,
+ "utc": "2026-07-10T15:02:33.227448+00:00"
+}

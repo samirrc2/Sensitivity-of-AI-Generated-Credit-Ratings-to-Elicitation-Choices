@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "**Analysis:**\nWhile the issuer demonstrates strong profitability with a high gross margin of 85% and an operating margin of 32%, its balance sheet exhibits severe near-term liquidity pressure and highly leveraged capital structure. The company's current ratio is critically low at 0.35 (current assets of $56.5B against current liabilities of $159.6B), and total equity of $34.0B is extremely small relative to total liabilities of $274.9B (debt/equity leverage is exceptionally high). This substantial working capital deficit and high leverage profile expose the issuer to significant refinancing risk, justifying a speculative-grade rating.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 291,
+ "out_tok": 146,
+ "usd": 0.001751,
+ "utc": "2026-07-10T15:03:46.390989+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Extremely weak liquidity (current ratio 0.42), high leverage (91% debt-to-assets), and very low profitability (EBIT margin 25%) signal high default risk.\"}\n```",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 296,
+ "out_tok": 65,
+ "usd": 0.001029,
+ "utc": "2026-07-10T15:07:47.277851+00:00"
+}

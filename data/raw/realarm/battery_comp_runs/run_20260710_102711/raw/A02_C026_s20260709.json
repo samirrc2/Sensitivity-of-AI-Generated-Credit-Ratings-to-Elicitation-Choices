@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates strong financial performance with substantial revenue ($12.22B in Q3), a high gross margin of 72%, robust profitability (30% operating margin), and positive retained earnings of $17.09B. However, its capital structure is highly leveraged with total liabilities of $78.29B against shareholders' equity of $18.55B (debt-to-equity ratio of over 4x), and it maintains a relatively tight short-term liquidity position represented by a current ratio of 1.27. This combination of strong operating profitability and high financial leverage aligns with a solid investment-grade rating in the BBB category.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 287,
+ "out_tok": 146,
+ "usd": 0.001744,
+ "utc": "2026-07-10T14:55:33.302666+00:00"
+}

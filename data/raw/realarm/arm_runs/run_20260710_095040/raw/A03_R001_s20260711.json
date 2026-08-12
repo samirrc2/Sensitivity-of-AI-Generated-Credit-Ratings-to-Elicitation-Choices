@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R001",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid profitability (net margin ~12% and EBIT margin ~16%) and good balance-sheet liquidity (current ratio ~1.87). Leverage appears moderate with total liabilities at ~58% of assets and sizable shareholders\u2019 equity (~42%), supporting resilience under normal conditions. Overall, this profile aligns best with a strong investment-grade rating, but not at the very top due to limited visibility on debt structure and coverage metrics beyond EBIT.\n\nDECISION: A-",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "in_tok": 237,
+ "out_tok": 238,
+ "usd": 0.000345,
+ "utc": "2026-07-10T13:50:59.502213+00:00"
+}

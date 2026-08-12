@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits severe financial distress, characterized by a deeply negative shareholders' equity of -$8,465M and accumulated losses (retained earnings of -$8,881M), which indicate a chronically insolvent balance sheet. Additionally, its short-term liquidity is strained with a current ratio below 1.0 (0.92) and total liabilities vastly exceeding total assets. While the company remains operationally profitable in the short term, the massive capital deficit and high leverage present a very high credit risk, typical of a highly speculative, vulnerable issuer.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 279,
+ "out_tok": 120,
+ "usd": 0.001499,
+ "utc": "2026-07-10T15:15:23.494079+00:00"
+}

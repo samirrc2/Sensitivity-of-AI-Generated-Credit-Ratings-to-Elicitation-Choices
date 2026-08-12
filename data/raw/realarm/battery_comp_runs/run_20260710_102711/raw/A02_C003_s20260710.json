@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C003",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates an exceptionally strong financial profile, characterized by massive total assets of $122.5 billion, substantial shareholders' equity of $64.9 billion (outweighing total liabilities of $57.5 billion), and robust quarterly profitability with $2.7 billion in operating income on an 18% operating margin. Retained earnings of $68.5 billion point to a long, highly successful operating history, while a current ratio of 1.32 indicates solid short-term liquidity. Given this immense scale, strong capitalization, and high profitability, the company exhibits extremely strong capacity to meet its financial obligations, warranting a high investment-grade rating.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 288,
+ "out_tok": 147,
+ "usd": 0.001755,
+ "utc": "2026-07-10T14:29:26.503713+00:00"
+}

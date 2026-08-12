@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "R001",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Strong balance sheet with assets of 3.8B, low leverage (58% liabilities/assets), and solid profitability with 12% net margin.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 264,
+ "out_tok": 56,
+ "usd": 0.0009,
+ "utc": "2026-07-10T13:51:22.893858+00:00"
+}

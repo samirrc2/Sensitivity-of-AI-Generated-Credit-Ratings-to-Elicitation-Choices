@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BBB\",\n  \"confidence\": 4,\n  \"rationale\": \"Moderate leverage, solid interest coverage, and positive EBIT/revenue support an investment-grade rating, offset by a tight current ratio.\"\n}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 281,
+ "out_tok": 57,
+ "usd": 0.000935,
+ "utc": "2026-07-10T14:47:45.804191+00:00"
+}

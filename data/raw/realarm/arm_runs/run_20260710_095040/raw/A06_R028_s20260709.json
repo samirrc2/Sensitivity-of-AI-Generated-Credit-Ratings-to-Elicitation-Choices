@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R028",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates solid financial performance with substantial revenue ($6.18B), positive profitability (operating margin of 9%, net income of $500M), and a stable capital structure with an equity-to-assets ratio of approximately 38%. However, its liquidity is somewhat tight with a current ratio of 1.28, and a moderate leverage profile (total liabilities of $7.35B against $4.50B in equity) places it firmly in the investment-grade category but below the top tiers. These metrics are highly characteristic of a solid, stable mid-investment grade credit.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 232,
+ "out_tok": 132,
+ "usd": 0.001536,
+ "utc": "2026-07-10T14:21:54.044761+00:00"
+}

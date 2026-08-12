@@ -1,0 +1,45 @@
+{
+ "spec_id": "S34",
+ "item_id": "C018",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 0.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-04-22. Act as a credit rating analyst.\n| Current ratio           | 1.18 |\n| Retained earnings       | 17,162M |\n| Current liabilities     | 105,547M |\n| Current assets          | 124,141M |\n| Shareholders' equity    | 5,987M |\n| Total liabilities       | 158,800M |\n| Total assets            | 164,787M |\n| EBIT / operating income | 446M |\n| Revenue                 | 22,217M |\nBased only on the above and knowledge predating 2026-04-22, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The company exhibits a concerningly low shareholders' equity relative to total assets and liabilities, indicating a highly leveraged capital structure. While the current ratio is above 1, the substantial retained earnings compared to the small shareholders' equity suggests a history of significant losses or share repurchases that have eroded equity, and the EBIT is very low relative to revenue and total assets, pointing to weak profitability and debt servicing capacity. These factors collectively suggest a high risk of default.\n\nDECISION: B-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 285,
+ "output_tokens": 98,
+ "cost_usd": 0.00033,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:45:01.802647+00:00",
+ "mode": "REAL"
+}

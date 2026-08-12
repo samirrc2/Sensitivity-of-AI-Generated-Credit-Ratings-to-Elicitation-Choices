@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer has a weak balance sheet with negative shareholders\u2019 equity (\u22122,646M) and total liabilities exceeding total assets (37,604M vs 35,008M), indicating significant financial stress. Liquidity is also strained with a current ratio of 0.62, suggesting limited ability to meet near-term obligations. Despite strong EBIT relative to revenue, the leverage/insolvency signals dominate the credit outlook.  \nDECISION: CC",
+ "parsed_letter": "CC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 233,
+ "out_tok": 212,
+ "usd": 0.000312,
+ "utc": "2026-07-10T14:35:36.808099+00:00"
+}

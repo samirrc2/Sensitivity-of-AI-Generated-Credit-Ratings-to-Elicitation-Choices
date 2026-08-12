@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "R011",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":3,\"rationale\":\"Operating and net losses indicate weak profitability; leverage is moderate (liabilities/assets ~70%). Liquidity is strong (current ratio 2.31).\"}",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 236,
+ "out_tok": 163,
+ "usd": 0.000251,
+ "utc": "2026-07-10T14:03:00.055607+00:00"
+}

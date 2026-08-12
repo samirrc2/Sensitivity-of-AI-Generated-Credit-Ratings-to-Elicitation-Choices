@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits solid profitability with an operating margin of 15.3% ($622M on $4,066M in revenue) and a strong equity base of $10,004M supported by substantial retained earnings ($13,060M). However, the company's liquidity profile is tight, characterized by a current ratio of 0.99 ($6,043M in current assets vs. $6,096M in current liabilities), and its leverage is moderate with total liabilities representing approximately 60% of total assets. These characteristics reflect an investment-grade profile with some moderate near-term refinancing or liquidity risk, consistent with a solid upper-medium grade.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 281,
+ "out_tok": 157,
+ "usd": 0.001834,
+ "utc": "2026-07-10T14:59:36.183288+00:00"
+}

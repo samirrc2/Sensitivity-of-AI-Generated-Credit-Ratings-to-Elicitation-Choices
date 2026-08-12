@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits massive scale with over $2.2 trillion in total assets and solid profitability, reflecting a highly robust market position typical of a major global financial institution. However, the extremely low current ratio of 0.34 and a highly leveraged capital structure (total liabilities of $2.03 trillion against equity of $178 billion) reflect the typical risk profile of a systemically important bank, warranting a highly secure investment-grade rating but not the absolute highest. \n\nDECISION: A-",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "in_tok": 298,
+ "out_tok": 105,
+ "usd": 0.001392,
+ "utc": "2026-07-10T15:01:42.136371+00:00"
+}

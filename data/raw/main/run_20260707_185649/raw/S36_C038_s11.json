@@ -1,0 +1,44 @@
+{
+ "spec_id": "S36",
+ "item_id": "C038",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2026-02-24; do not use later information.\nProvided information:\n| Current ratio           | 0.63 |\n| Retained earnings       | -5,086M |\n| Current liabilities     | 3,973M |\n| Current assets          | 2,495M |\n| Shareholders' equity    | 3,652M |\n| Total liabilities       | 52,835M |\n| Total assets            | 63,190M |\n| EBIT / operating income | 1,161M |\n| Revenue                 | 2,738M |\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The provided figures show extreme leverage (liabilities/assets \u2248 84 %), negative retained earnings of \u2013$5.1 bn, and a current ratio of only 0.63, all classic markers of material default risk. Positive EBIT exists but is insufficient to offset the balance-sheet weaknesses that place the firm well below B-rated territory.  \nDECISION: CCC",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 356,
+ "output_tokens": 71,
+ "cost_usd": 0.000623,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:47:10.207440+00:00",
+ "mode": "REAL"
+}

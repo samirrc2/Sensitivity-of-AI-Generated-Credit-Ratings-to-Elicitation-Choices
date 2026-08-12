@@ -1,0 +1,19 @@
+{
+ "spec_id": "A05",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"B\",\"confidence\":2,\"rationale\":\"Negative shareholders\u2019 equity (-9,270M) with liabilities exceeding assets; modest current ratio (1.09) despite positive but thin profitability.\"}",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "in_tok": 256,
+ "out_tok": 118,
+ "usd": 0.000199,
+ "utc": "2026-07-10T15:04:36.050959+00:00"
+}

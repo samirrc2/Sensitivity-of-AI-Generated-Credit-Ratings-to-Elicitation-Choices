@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company has a large revenue base ($11B) but suffers from poor profitability, posting negative operating (-$459M) and net (-$640M) income margins. Structurally, the balance sheet is highly leveraged with extremely thin equity cushion (shareholders' equity of $415M against $11.8B in total liabilities) resulting in a leverage ratio near 96%, though it maintains adequate short-term liquidity with a current ratio of 1.78. These characteristics of high leverage, substantial net losses, and weak solvency margins represent high credit risk, consistent with a highly speculative grade rating.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 245,
+ "out_tok": 138,
+ "usd": 0.00161,
+ "utc": "2026-07-10T14:11:16.883007+00:00"
+}

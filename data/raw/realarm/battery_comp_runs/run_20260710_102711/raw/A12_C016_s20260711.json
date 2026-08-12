@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C016",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 4, \"rationale\": \"High leverage (Debt/Equity ~4.2), weak current ratio (0.90), and modest operating profitability (EBIT/Assets ~2.9%) indicate sub-investment grade credit strength.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 282,
+ "out_tok": 65,
+ "usd": 0.001008,
+ "utc": "2026-07-10T14:44:36.071510+00:00"
+}

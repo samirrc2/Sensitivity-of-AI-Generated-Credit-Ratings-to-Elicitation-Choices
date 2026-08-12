@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R003",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows relatively high leverage (total liabilities 4,392M vs. shareholders\u2019 equity 1,381M) and weak near-term liquidity (current ratio \u2248 0.72), which heightens refinancing and working-capital risk. However, profitability is solid for the size (EBIT margin \u2248 21.8% and net margin \u2248 8.8%), supporting debt servicing capacity. Overall, credit quality appears speculative.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 259,
+ "usd": 0.00037,
+ "utc": "2026-07-10T13:54:04.244373+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates an exceptionally strong financial profile, characterized by massive scale (revenue of $82.9B in Q3 alone), elite profitability margins (operating margin of 46% and gross margin of 68%), and a very robust capital structure with $414.4B in shareholders' equity against $279.9B in total liabilities. Despite a moderate current ratio of 1.28, the company's immense earnings power, vast asset base of $694.2B, and massive retained earnings of $302.5B represent extremely low credit risk. These metrics are indicative of a premier, highly stable market leader with virtually unquestionable capacity to meet its financial obligations.\n\nDECISION: AAA",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "in_tok": 295,
+ "out_tok": 154,
+ "usd": 0.001829,
+ "utc": "2026-07-10T14:39:25.202520+00:00"
+}

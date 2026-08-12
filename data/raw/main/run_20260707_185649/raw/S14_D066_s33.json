@@ -1,0 +1,45 @@
+{
+ "spec_id": "S14",
+ "item_id": "D066",
+ "seed": 33,
+ "family": "directional",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Task: give a 20-trading-day directional recommendation for the stock.\nRespond with exactly one of: BUY, HOLD, SELL. Use only the figures provided and knowledge available on or before 2026-04-02; do not use later information.\nProvided information:\nPrice action as of 2026-04-02: 1w +2.3%, 1m -8.2%, 3m +5.8%. Last close 244.71. 21d annualized realized volatility 21%. Position in trailing 63-day range: 51% (0%=low, 100%=high).\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock has experienced a moderate pullback of -8.2% over the last month, but remains in positive territory over the 3-month horizon (+5.8%) and has recently stabilized with a +2.3% gain over the last week. Sitting at the exact midpoint (51%) of its 63-day trading range with a moderate annualized volatility of 21%, the price action suggests a period of consolidation rather than a strong directional breakout. Given the neutral short-term setup and lack of a strong catalyst to drive a sharp trend in either direction, a neutral stance is warranted for the next 20 trading days.\n\nDECISION: HOLD",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 180,
+ "output_tokens": 136,
+ "cost_usd": 0.001494,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:13:26.772398+00:00",
+ "mode": "REAL"
+}

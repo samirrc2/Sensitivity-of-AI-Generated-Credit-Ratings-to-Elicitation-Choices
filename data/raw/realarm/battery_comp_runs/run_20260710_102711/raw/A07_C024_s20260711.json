@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C024",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The firm shows moderate leverage (total liabilities/total assets \u2248 0.58) and operating profitability (EBIT/Revenue \u2248 9.3%), which supports debt service capacity. However, liquidity is slightly tight (current ratio = 0.94, below 1), which increases downside risk in stress periods. Overall, this profile aligns best with the lower end of investment grade.  \nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 231,
+ "out_tok": 252,
+ "usd": 0.000361,
+ "utc": "2026-07-10T14:53:43.321280+00:00"
+}

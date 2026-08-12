@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R010",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer has strong profitability (net income margin ~19% based on the provided figures), but its balance sheet is highly levered, with liabilities at ~80% of assets and liabilities roughly 5.2x shareholders\u2019 equity. This combination points to meaningful financial risk despite earnings support, consistent with a lower investment-grade / speculative boundary rating.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 204,
+ "out_tok": 222,
+ "usd": 0.000318,
+ "utc": "2026-07-10T14:01:20.458986+00:00"
+}

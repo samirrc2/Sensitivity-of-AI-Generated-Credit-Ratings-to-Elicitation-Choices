@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows weak liquidity (current ratio = 0.55) and relatively high leverage (total liabilities \u2248 68% of total assets), which increases refinancing and near-term risk. However, operating performance appears strong with EBIT of 2,527M on revenue of 7,966M (EBIT margin \u2248 32%), partially offsetting those balance-sheet pressures.  \nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 286,
+ "usd": 0.000404,
+ "utc": "2026-07-10T15:14:32.071657+00:00"
+}

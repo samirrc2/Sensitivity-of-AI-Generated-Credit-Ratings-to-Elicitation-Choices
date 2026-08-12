@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B-\", \"confidence\": 4, \"rationale\": \"High leverage (D/E ratio >26x), extremely thin interest coverage (EBIT/Total Liabilities <0.3%), and minimal equity buffer pose severe default risks.\"}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 282,
+ "out_tok": 60,
+ "usd": 0.000963,
+ "utc": "2026-07-10T14:46:43.492483+00:00"
+}

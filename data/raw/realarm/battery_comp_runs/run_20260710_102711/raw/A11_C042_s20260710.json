@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows weak financial structure with negative retained earnings and negative shareholders\u2019 equity, alongside liquidity below 1.0 (current ratio 0.92), indicating limited buffer to cover near-term obligations. While EBIT is positive (777M on 9,532M revenue), the balance sheet deterioration and high leverage signals elevated default risk consistent with a lower investment-grade boundary moving into speculative territory.  \n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 240,
+ "out_tok": 251,
+ "usd": 0.000362,
+ "utc": "2026-07-10T15:16:16.190032+00:00"
+}

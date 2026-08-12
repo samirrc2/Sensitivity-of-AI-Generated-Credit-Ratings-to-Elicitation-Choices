@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C016",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Strong balance sheet with high retained earnings and equity, but moderate leverage and a current ratio below 1.0 limit it to BBB.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 281,
+ "out_tok": 50,
+ "usd": 0.000872,
+ "utc": "2026-07-10T14:43:56.108785+00:00"
+}

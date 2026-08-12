@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates weak financial health, characterized by negative shareholders' equity (-$8,465M) due to substantial accumulated deficits (retained earnings of -$8,881M), resulting in a severely leveraged balance sheet where total liabilities ($39,015M) exceed total assets ($30,558M). Additionally, liquidity is constrained with a current ratio below 1.0 (0.92), though the company remains currently profitable with operating income of $777M on $9,532M in revenue. These factors indicate high credit risk and a highly leveraged capital structure, consistent with a speculative-grade rating in the single-B range.\n\nDECISION: B",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "in_tok": 272,
+ "out_tok": 149,
+ "usd": 0.001749,
+ "utc": "2026-07-10T15:15:48.662894+00:00"
+}

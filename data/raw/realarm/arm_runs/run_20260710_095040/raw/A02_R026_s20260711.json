@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R026",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This company exhibits a very large scale of operations with over $13 billion in revenue, but operates on relatively thin margins (5% operating margin) and carries a highly leveraged capital structure with an equity multiplier of over 5.3x (total liabilities of $13.8 billion against $3.1 billion in equity). Furthermore, its short-term liquidity is pressured, as evidenced by a current ratio of 0.89 (current liabilities exceed current assets). These credit metrics\u2014specifically the high leverage, weak liquidity, and low profitability despite large scale\u2014are characteristic of a non-investment grade issuer with moderate default risk.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 241,
+ "out_tok": 135,
+ "usd": 0.001576,
+ "utc": "2026-07-10T14:19:19.740041+00:00"
+}

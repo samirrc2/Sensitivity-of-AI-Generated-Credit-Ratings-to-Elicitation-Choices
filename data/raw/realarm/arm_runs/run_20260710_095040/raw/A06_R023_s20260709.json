@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R023",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates exceptionally strong liquidity with a current ratio of 3.83 and a highly robust capital structure, evidenced by total assets of 1,349M against total liabilities of only 290M (equity-to-assets ratio of 78.4%). While profitability is solid with a 14% operating margin, 94% gross margin, and significant net income of 337M (likely aided by non-operating items or tax benefits), the highly negative retained earnings of -1,564M indicate historical losses or significant restructurings, which caps the rating in the upper-medium investment grade. \n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 229,
+ "out_tok": 143,
+ "usd": 0.001631,
+ "utc": "2026-07-10T14:16:15.075349+00:00"
+}

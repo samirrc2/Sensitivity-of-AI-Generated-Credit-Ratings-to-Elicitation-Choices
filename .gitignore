@@ -1,0 +1,40 @@
+# macOS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# LaTeX build artifacts (keep .tex, .bib, .cls, .bst, compiled .pdf)
+*.aux
+*.log
+*.out
+*.blg
+*.bbl
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Secrets (never commit)
+*.env
+*.env.*
+keys.env.txt
+**/API Keys/
+*.pem
+
+# Disposable / bulky (regenerable; not needed to reproduce)
+cache/
+**/arm_runs/run_*/raw_probe*
+
+# stray mount folder (not part of the artifact)
+FRL/
+
+# staged for user deletion
+_to_del/

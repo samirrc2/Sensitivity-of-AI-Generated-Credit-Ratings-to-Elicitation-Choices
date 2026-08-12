@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C011",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"A\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong balance sheet with low leverage (equity/assets ~47%) and solid liquidity, but operating profitability (EBIT margin ~16.5%) limits a higher rating.\"\n}\n```",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "in_tok": 281,
+ "out_tok": 67,
+ "usd": 0.001025,
+ "utc": "2026-07-10T14:38:33.673121+00:00"
+}

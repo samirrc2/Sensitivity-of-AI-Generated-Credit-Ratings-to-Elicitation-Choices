@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits weak financial health, characterized by operating and net losses (operating income of -459M and net income of -640M) despite high revenues of 11,006M. While the short-term liquidity is acceptable with a current ratio of 1.78, the balance sheet is highly leveraged with total liabilities of 11,824M against shareholders' equity of only 415M, resulting in an extremely thin equity cushion. This combination of significant unprofitability and high leverage indicates substantial credit risk, consistent with a highly speculative grade.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 245,
+ "out_tok": 130,
+ "usd": 0.001537,
+ "utc": "2026-07-10T14:11:19.987669+00:00"
+}

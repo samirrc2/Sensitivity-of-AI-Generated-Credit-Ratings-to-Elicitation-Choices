@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R003",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows moderate profitability (EBIT margin ~22% and net margin ~9%), but leverage is high (total liabilities ~76% of total assets and liabilities-to-equity ~3.2) alongside weak liquidity (current ratio ~0.72). This combination suggests elevated balance-sheet risk and limited near-term cushion, supporting a sub-investment-grade rating.  \nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 224,
+ "out_tok": 245,
+ "usd": 0.000351,
+ "utc": "2026-07-10T13:53:39.511300+00:00"
+}

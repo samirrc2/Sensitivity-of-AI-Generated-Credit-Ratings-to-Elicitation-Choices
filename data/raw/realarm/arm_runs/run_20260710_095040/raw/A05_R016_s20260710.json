@@ -1,0 +1,19 @@
+{
+ "spec_id": "A05",
+ "item_id": "R016",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":2,\"rationale\":\"Negative operating and net income (-127M, -214M) indicate weak profitability, but strong liquidity (current ratio 3.19) limits downside.\"}",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 221,
+ "out_tok": 162,
+ "usd": 0.000247,
+ "utc": "2026-07-10T14:08:16.061428+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C021",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BBB-\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong solvency and equity cushion are offset by weak liquidity (current ratio 0.68) and a low asset turnover ratio of 0.07.\"\n}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 278,
+ "out_tok": 64,
+ "usd": 0.000993,
+ "utc": "2026-07-10T14:50:06.857661+00:00"
+}

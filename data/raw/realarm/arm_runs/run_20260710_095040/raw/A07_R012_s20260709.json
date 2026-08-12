@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R012",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Profitability is solid (EBIT margin ~13% and net margin ~11%), and liquidity is strong (current ratio ~2.35). However, leverage is moderate (total liabilities are ~51% of total assets and ~1.06x shareholders\u2019 equity), which limits the overall credit strength.  \nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 228,
+ "out_tok": 260,
+ "usd": 0.000371,
+ "utc": "2026-07-10T14:03:56.460170+00:00"
+}

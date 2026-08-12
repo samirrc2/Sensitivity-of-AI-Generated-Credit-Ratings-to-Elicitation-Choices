@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates exceptionally strong quarterly profitability with a 64% gross margin and $5.29B in net income, backed by a massive asset base of $2.2T. However, its balance sheet shows significant leverage with total liabilities of $2.03T and a highly constrained liquidity profile, evidenced by a current ratio of just 0.34 (current liabilities of $1.78T vastly exceeding current assets of $612B), which is typical of major global financial institutions but introduces substantial short-term refinancing risk. Balancing the immense scale, strong profitability, and systemic importance against the high leverage and tight liquidity warrants a solid investment-grade rating in the A-category.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 298,
+ "out_tok": 151,
+ "usd": 0.001806,
+ "utc": "2026-07-10T15:01:33.464340+00:00"
+}

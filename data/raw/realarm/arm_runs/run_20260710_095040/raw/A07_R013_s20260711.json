@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R013",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer has negative shareholders\u2019 equity and retained earnings (financial leverage with liabilities exceeding assets), alongside a net loss, indicating weak balance-sheet strength and ongoing earnings pressure. However, positive EBIT (74M) provides some operating support, preventing a \u201cdeep default\u201d rating like CCC.  \n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 224,
+ "out_tok": 164,
+ "usd": 0.00025,
+ "utc": "2026-07-10T14:05:05.996347+00:00"
+}

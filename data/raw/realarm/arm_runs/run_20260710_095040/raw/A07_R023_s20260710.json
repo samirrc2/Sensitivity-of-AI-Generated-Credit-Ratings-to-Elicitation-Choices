@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R023",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Strong liquidity (current assets/current liabilities \u2248 916/239 = 3.8) and low leverage (total liabilities/assets \u2248 290/1,349 = 0.22) support near-term credit resilience, alongside solid profitability (net income 337M; EBIT 90M on revenue 626M). However, large accumulated losses reflected in negative retained earnings (-1,564M) temper the rating despite positive shareholders\u2019 equity (1,058M).\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 222,
+ "out_tok": 254,
+ "usd": 0.000362,
+ "utc": "2026-07-10T14:16:23.055823+00:00"
+}

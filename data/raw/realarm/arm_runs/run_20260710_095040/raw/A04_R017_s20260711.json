@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R017",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Moderate leverage (equity/assets 35%), solid profitability, and positive net income support an investment-grade rating, offset by moderate size and EBIT/interest coverage limits.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 265,
+ "out_tok": 58,
+ "usd": 0.000919,
+ "utc": "2026-07-10T14:09:16.818915+00:00"
+}

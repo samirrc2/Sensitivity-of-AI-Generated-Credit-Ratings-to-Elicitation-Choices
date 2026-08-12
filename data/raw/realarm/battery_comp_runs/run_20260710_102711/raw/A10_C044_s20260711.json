@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the company exhibits severe credit risk, characterized by a highly distressed balance sheet with negative shareholders' equity (-1,920M), massive accumulated deficits (retained earnings of -20,476M), and an extremely weak current ratio of 0.27 (current liabilities of 4,705M dwarf current assets of 1,254M). Although the company is currently operating with strong gross (74%) and operating (46%) margins, the massive overhang of liabilities exceeding total assets by nearly $2 billion puts the issuer at imminent risk of insolvency or restructuring. This profile of highly vulnerable liquidity and negative net worth aligns with a deeply speculative, high-default-risk rating.\n\nDECISION: CCC-",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "in_tok": 280,
+ "out_tok": 160,
+ "usd": 0.00186,
+ "utc": "2026-07-10T15:18:31.384358+00:00"
+}

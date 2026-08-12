@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C028",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided Q1 2026 financial data, the issuer exhibits an exceptionally strong balance sheet with $916.6 billion in total assets, $441.9 billion in shareholders' equity, and a highly profitable profile featuring $30.3 billion in quarterly net income and a 52% gross margin. While the current ratio of 1.18 is slightly tight, the massive absolute scale of earnings, substantial retained earnings of $208.8 billion, and a conservative leverage profile (total liabilities to equity of approximately 1.07x) justify an elite investment-grade rating. This financial profile is characteristic of a highly dominant, mega-cap global enterprise with extremely low default risk.\n\nDECISION: AA+",
+ "parsed_letter": "AA+",
+ "parsed_band": "SAFE",
+ "in_tok": 297,
+ "out_tok": 158,
+ "usd": 0.001867,
+ "utc": "2026-07-10T14:58:30.762197+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A09",
+ "item_id": "R026",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":3,\"rationale\":\"Thin operating margin (5%), weak liquidity (current ratio 0.89), and high leverage (liabilities/assets ~81%) constrain credit quality.\"}",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 231,
+ "out_tok": 149,
+ "usd": 0.000232,
+ "utc": "2026-07-10T14:19:52.255686+00:00"
+}

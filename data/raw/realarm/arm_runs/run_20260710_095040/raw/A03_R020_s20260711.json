@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R020",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows moderate profitability (EBIT margin ~18% and net margin ~10%) and positive retained earnings, which supports operating performance. However, leverage is high (total liabilities are more than 2x shareholders\u2019 equity) and liquidity is weak (current ratio ~0.83), increasing financial flexibility risk during downturns. Overall, the risk profile aligns best with a **BB-** rating.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 237,
+ "out_tok": 197,
+ "usd": 0.000294,
+ "utc": "2026-07-10T14:12:37.316448+00:00"
+}

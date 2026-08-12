@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C010",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows strong capitalization (total liabilities are materially below shareholders\u2019 equity) and very strong operating profitability (EBIT is a large share of revenue). Liquidity is solid but not exceptional (current ratio 1.92), so risk is slightly higher than the strongest \u201cA\u201d tier.  \n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 233,
+ "out_tok": 185,
+ "usd": 0.000278,
+ "utc": "2026-07-10T14:37:46.344633+00:00"
+}

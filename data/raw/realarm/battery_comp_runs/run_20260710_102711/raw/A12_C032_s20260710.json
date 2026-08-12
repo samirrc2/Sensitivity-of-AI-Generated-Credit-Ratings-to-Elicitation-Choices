@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"CCC-\", \"confidence\": 4, \"rationale\": \"Severe liquidity crisis shown by a 0.35 current ratio, massive short-term debt, and critical insolvency risk with equity covering only 12% of liabilities.\"}\n```",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "in_tok": 284,
+ "out_tok": 59,
+ "usd": 0.000957,
+ "utc": "2026-07-10T15:04:01.947959+00:00"
+}

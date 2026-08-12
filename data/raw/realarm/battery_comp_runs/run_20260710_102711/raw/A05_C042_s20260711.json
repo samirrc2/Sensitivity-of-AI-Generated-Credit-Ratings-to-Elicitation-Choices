@@ -1,0 +1,19 @@
+{
+ "spec_id": "A05",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"CCC+\",\"confidence\":3,\"rationale\":\"Negative equity and retained earnings, liabilities exceed assets, and current ratio <1; profitability exists but leverage/liquidity signal high default risk.\"}",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "in_tok": 252,
+ "out_tok": 175,
+ "usd": 0.000269,
+ "utc": "2026-07-10T15:15:43.793716+00:00"
+}

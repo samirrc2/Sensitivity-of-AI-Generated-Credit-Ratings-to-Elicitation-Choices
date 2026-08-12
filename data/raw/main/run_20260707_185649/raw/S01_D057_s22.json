@@ -1,0 +1,45 @@
+{
+ "spec_id": "S01",
+ "item_id": "D057",
+ "seed": 22,
+ "family": "directional",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "BUY",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 22,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-05-14. Act as a equity research analyst.\n| Return 3m            | -3.3% |\n| Return 1m            | +0.9% |\n| Return 1w            | +2.2% |\n| Range position (63d) | 50% |\n| 21d realized vol     | 19% |\n| Last close           | 62.97 |\nBased only on the above and knowledge predating 2026-05-14, give a 20-trading-day directional recommendation for the stock. Choose exactly one label from: BUY, HOLD, SELL.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock has shown positive momentum over the last week and month, recovering from a recent dip as indicated by the 3-month return. The 50% range position suggests it's neither oversold nor overbought in the intermediate term, providing room for continued upside given the recent positive price action. The relatively low realized volatility also indicates a stable environment for potential further gains.\n\nDECISION: BUY",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 191,
+ "output_tokens": 82,
+ "cost_usd": 0.000262,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T22:57:24.723807+00:00",
+ "mode": "REAL"
+}

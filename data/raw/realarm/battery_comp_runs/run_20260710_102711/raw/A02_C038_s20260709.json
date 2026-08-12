@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates strong operating profitability with an operating margin of 42% and significant revenue of $2,738M. However, its balance sheet exhibits severe leverage with total liabilities of $52,835M against total assets of $63,190M (resulting in a thin equity cushion of $3,652M, weighed down by -$5,086M in retained earnings), alongside weak short-term liquidity indicated by a current ratio of 0.63. This profile of highly leveraged capital structure and liquidity pressure, despite strong operating metrics, is characteristic of a highly leveraged corporate issuer.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 280,
+ "out_tok": 138,
+ "usd": 0.001662,
+ "utc": "2026-07-10T15:10:10.575749+00:00"
+}

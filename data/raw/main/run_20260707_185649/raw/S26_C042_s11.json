@@ -1,0 +1,44 @@
+{
+ "spec_id": "S26",
+ "item_id": "C042",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 0.0,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-04-28. Act as a credit rating analyst.\n| Current ratio           | 0.92 |\n| Retained earnings       | -8,881M |\n| Current liabilities     | 11,449M |\n| Current assets          | 10,559M |\n| Shareholders' equity    | -8,465M |\n| Total liabilities       | 39,015M |\n| Total assets            | 30,558M |\n| EBIT / operating income | 777M |\n| Revenue                 | 9,532M |\nBased only on the above and knowledge predating 2026-04-28, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The reported balance sheet shows negative shareholders' equity and retained earnings, with total liabilities materially exceeding total assets; this indicates balance-sheet insolvency and places the issuer in the distressed category. Liquidity metrics are also weak (current ratio < 1), while the modest positive EBIT does not offset the structural insolvency signals. On the 21-grade scale these factors map to the lower end of the CCC band but not yet to default (CC/C).\nDECISION: CCC-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 365,
+ "output_tokens": 91,
+ "cost_usd": 0.000684,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:33:27.897773+00:00",
+ "mode": "REAL"
+}

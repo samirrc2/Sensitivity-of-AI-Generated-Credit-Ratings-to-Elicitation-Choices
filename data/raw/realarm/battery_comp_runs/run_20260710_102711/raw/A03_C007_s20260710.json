@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C007",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows strong operating profitability (EBIT of 7,096M on revenue of 23,993M, ~30% margin), which supports debt service. However, liquidity is only moderate (current ratio 1.07) and leverage is elevated (total liabilities of 113,539M versus equity of 79,277M), creating more downside risk under stress than an investment-grade profile.  \n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 240,
+ "out_tok": 290,
+ "usd": 0.00041,
+ "utc": "2026-07-10T14:33:56.645764+00:00"
+}

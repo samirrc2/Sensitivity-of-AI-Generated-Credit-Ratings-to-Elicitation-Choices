@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R022",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "With equity covering a large share of total assets (shareholders\u2019 equity of 5,450M vs. total assets of 12,786M) and EBIT of 1,310M providing some operating support, leverage is not excessive (total liabilities 7,336M). However, liquidity is only modest (current ratio \u2248 1.14) and profitability is weak (net income margin \u2248 2.7%), which limits credit resilience.  \nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 232,
+ "out_tok": 330,
+ "usd": 0.000459,
+ "utc": "2026-07-10T14:15:11.854889+00:00"
+}

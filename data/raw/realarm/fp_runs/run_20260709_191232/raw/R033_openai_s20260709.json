@@ -1,0 +1,12 @@
+{
+ "item_id": "R033",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "ok": true,
+ "raw_response": "GUESS: Harley-Davidson (HOG)",
+ "in_tok": 176,
+ "out_tok": 855,
+ "usd": 0.001104,
+ "utc": "2026-07-09T23:23:27.324404+00:00"
+}

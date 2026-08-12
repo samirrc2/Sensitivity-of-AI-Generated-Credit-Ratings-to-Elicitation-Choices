@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided Q1 2026 financial data, the company exhibits an exceptionally strong balance sheet with $143.7 billion in total assets, low leverage (total liabilities to equity ratio of approximately 0.70x), and robust liquidity reflected by a current ratio of 2.04. However, its profitability is relatively compressed, with a 21% gross margin and a modest 4.2% operating margin ($941M operating income on $22.4B revenue), which prevents it from achieving the highest prime ratings. This combination of an extremely solid, low-leverage balance sheet and stable but thin operating margins supports a strong investment-grade rating in the upper-medium grade.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "in_tok": 284,
+ "out_tok": 157,
+ "usd": 0.001839,
+ "utc": "2026-07-10T14:31:10.201916+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer\u2019s liquidity is weak (current ratio of 0.34), and leverage is very high (total liabilities of 2,025,439M versus total assets of 2,205,752M), which increases default risk. While profitability appears reasonable (EBIT of 5,851M on revenue of 31,795M), the balance-sheet pressure suggests a weaker credit profile consistent with the CCC area.  \n\nDECISION: CCC-",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "in_tok": 239,
+ "out_tok": 222,
+ "usd": 0.000325,
+ "utc": "2026-07-10T15:02:11.256104+00:00"
+}

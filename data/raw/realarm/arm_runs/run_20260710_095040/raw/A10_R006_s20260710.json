@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R006",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits a very large scale (Revenue of $19.5B and Assets of $10.4B) and a positive equity cushion with moderate leverage (Debt-to-Equity is reasonable with $4.2B in equity supporting $6.0B in liabilities), alongside acceptable short-term liquidity (current ratio of 1.21). However, profitability is highly pressured, as evidenced by near-breakeven operating performance (operating loss of -$43M) and a net loss of -$126M, indicating structural or cyclical headwinds. Given the combination of solid scale and balance sheet size but currently weak profitability, the issuer falls into the lower-medium investment grade/highest speculative grade spectrum. \n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 240,
+ "out_tok": 156,
+ "usd": 0.001764,
+ "utc": "2026-07-10T13:57:25.551487+00:00"
+}

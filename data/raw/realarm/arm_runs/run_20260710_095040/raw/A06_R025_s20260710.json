@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits moderately weak profitability with an operating margin of 8% and a history of accumulated losses, as evidenced by negative retained earnings of -748M. Leveraged balance sheet conditions are present, indicated by a high liabilities-to-assets ratio of approximately 82% (8,218M in liabilities against 10,022M in assets) and a modest current ratio of 1.32. These credit metrics represent a highly leveraged capital structure with moderate cash flow generation, consistent with a non-investment grade speculative rating.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 230,
+ "out_tok": 122,
+ "usd": 0.001443,
+ "utc": "2026-07-10T14:18:28.963279+00:00"
+}

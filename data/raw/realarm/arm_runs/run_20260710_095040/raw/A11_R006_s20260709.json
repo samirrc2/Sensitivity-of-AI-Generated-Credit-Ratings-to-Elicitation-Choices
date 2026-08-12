@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R006",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows moderate liquidity (current ratio \u2248 1.21) and reasonable capitalization (equity \u2248 41% of total assets), but profitability is negative with both net income (-126M) and operating income/EBIT (-43M), indicating operating weakness. Total leverage is moderate (liabilities \u2248 58% of assets), yet the lack of positive earnings keeps credit quality below investment grade.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 239,
+ "out_tok": 265,
+ "usd": 0.000379,
+ "utc": "2026-07-10T13:57:31.916844+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A01",
+ "item_id": "R025",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":3,\"rationale\":\"Moderate operating margin (8%) with high leverage (liabilities/assets ~82%) and negative retained earnings weaken credit quality, despite positive net income.\"}",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 227,
+ "out_tok": 156,
+ "usd": 0.00024,
+ "utc": "2026-07-10T14:18:03.725890+00:00"
+}

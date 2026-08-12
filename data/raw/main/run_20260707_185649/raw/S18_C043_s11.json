@@ -1,0 +1,43 @@
+{
+ "spec_id": "S18",
+ "item_id": "C043",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "openai",
+ "version": "current",
+ "model": "gpt-5.4-nano",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 0.0,
+ "temperature_applied": false,
+ "effective_temperature": null,
+ "call_meta": {
+  "signature": "mct+seed+eff",
+  "temperature_applied": false,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2025-11-26. Act as a credit rating analyst.\n| Current ratio           | 0.97 |\n| Retained earnings       | 8,777M |\n| Current liabilities     | 21,242M |\n| Current assets          | 20,702M |\n| Shareholders' equity    | 15,501M |\n| Total liabilities       | 44,490M |\n| Total assets            | 59,991M |\n| EBIT / operating income | 948M |\n| Revenue                 | 25,270M |\nBased only on the above and knowledge predating 2025-11-26, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":2,\"rationale\":\"Current ratio ~0.97 indicates tight liquidity. Leverage high (liabilities 74% of assets) and EBIT margin low (~3.7%).\"}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 253,
+ "output_tokens": 218,
+ "cost_usd": 0.000323,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:19:55.757493+00:00",
+ "mode": "REAL"
+}

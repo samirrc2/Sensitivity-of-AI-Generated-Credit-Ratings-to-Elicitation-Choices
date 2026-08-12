@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong profitability with a high operating margin of 42% ($1.16B in operating income on $2.74B in revenue), but its balance sheet exhibits significant structural risk. Specifically, it has a heavily leveraged capital structure with $52.8B in total liabilities against only $3.65B in equity, negative retained earnings of -$5.09B, and a weak liquidity position with a current ratio of 0.63 ($2.495B in current assets vs. $3.973B in current liabilities). This combination of strong operating cash generation potential but highly leveraged, high-risk balance sheet dynamics is characteristic of a highly speculative, non-investment grade credit.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 280,
+ "out_tok": 159,
+ "usd": 0.001851,
+ "utc": "2026-07-10T15:10:14.614980+00:00"
+}

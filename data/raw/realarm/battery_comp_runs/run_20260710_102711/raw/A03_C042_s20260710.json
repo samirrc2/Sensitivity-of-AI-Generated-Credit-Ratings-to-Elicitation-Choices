@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows a weak and deteriorating balance sheet, with negative shareholders\u2019 equity and retained earnings, and a current ratio below 1.0 (0.92), indicating limited near-term liquidity and elevated solvency risk. While operating income is positive (EBIT/operating income of 777M on revenue of 9,532M), leverage and the capital deficit are consistent with a speculative credit profile.  \nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 238,
+ "out_tok": 274,
+ "usd": 0.00039,
+ "utc": "2026-07-10T15:15:31.774260+00:00"
+}

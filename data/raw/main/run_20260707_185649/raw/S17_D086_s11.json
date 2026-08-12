@@ -1,0 +1,44 @@
+{
+ "spec_id": "S17",
+ "item_id": "D086",
+ "seed": 11,
+ "family": "directional",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "SELL",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Task: give a 20-trading-day directional recommendation for the stock.\nRespond with exactly one of: BUY, HOLD, SELL. Use only the figures provided and knowledge available on or before 2026-05-14; do not use later information.\nProvided information:\n| Return 3m            | +25.7% |\n| Return 1m            | +11.6% |\n| Return 1w            | +2.7% |\n| Range position (63d) | 83% |\n| 21d realized vol     | 41% |\n| Last close           | 248.82 |\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock has strong recent momentum but is currently near the upper end of its 63-day range (83%), with elevated realized volatility. This setup suggests a higher risk of near-term pullback rather than continued gains over the next 20 trading days.\n\nDECISION: SELL",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 161,
+ "output_tokens": 319,
+ "cost_usd": 0.000431,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:19:38.884087+00:00",
+ "mode": "REAL"
+}

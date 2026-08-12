@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R031",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid operating profitability (EBIT/operating income of 371M on 1,823M revenue) and positive retained earnings (730M), but it carries high leverage (total liabilities of 7,240M versus equity of 2,866M) and weak liquidity (current assets 475M vs current liabilities 857M; current ratio ~0.55). Net income margin is relatively modest (67M on 1,823M), leaving less cushion in a downside scenario.  \nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 231,
+ "out_tok": 254,
+ "usd": 0.000364,
+ "utc": "2026-07-10T14:25:45.379472+00:00"
+}

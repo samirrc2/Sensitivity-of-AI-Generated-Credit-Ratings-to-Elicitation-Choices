@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's Q3 2025 financial metrics reveals exceptionally strong profitability with a 62% operating margin and $3.23B in operating income, but a highly leveraged and distressed balance sheet characterized by negative shareholders' equity (-$2.646B) and a weak current ratio of 0.62 ($5.119B in current assets against $8.286B in current liabilities). While the massive retained earnings ($36.115B) suggest historic profitability, the negative equity implies aggressive capital return programs (such as share buybacks or debt-funded dividends) or recent restructuring, resulting in high short-term refinancing risk despite strong core business operations. Consequently, the issuer exhibits speculative-grade characteristics where capacity to meet financial commitments is vulnerable to deteriorating economic conditions, balancing superb operational performance against a highly leveraged capital structure.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 284,
+ "out_tok": 190,
+ "usd": 0.002136,
+ "utc": "2026-07-10T14:35:53.758588+00:00"
+}

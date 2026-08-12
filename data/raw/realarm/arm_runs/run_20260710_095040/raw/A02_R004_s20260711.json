@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R004",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "**Analysis:**\nThe company shows solid operating profitability with a 17% operating margin ($727M operating income on $4,165M revenue) and a comfortable liquidity profile reflected by a current ratio of 2.19x. However, the balance sheet exhibits high leverage with total liabilities representing roughly 67% of total assets, and a significant accumulated deficit (retained earnings of -$1,086M) which indicates past financial distress or aggressive recapitalizations, constraining the rating to the lower-tier investment grade or upper-tier speculative grade. Given the strong current cash generation and solid asset base balancing the leveraged capital structure, a borderline investment-grade rating is appropriate.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 245,
+ "out_tok": 151,
+ "usd": 0.001727,
+ "utc": "2026-07-10T13:54:18.159874+00:00"
+}

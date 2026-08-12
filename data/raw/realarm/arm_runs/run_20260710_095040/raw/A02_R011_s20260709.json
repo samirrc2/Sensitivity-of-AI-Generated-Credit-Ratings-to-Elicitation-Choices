@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R011",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows a strong balance sheet with a solid equity cushion ($5.7 billion in shareholders' equity out of $18.7 billion in assets), excellent liquidity (current ratio of 2.31), and a history of profitability reflected in highly positive retained earnings ($12.8 billion). However, the company experienced a significant net loss of $892 million and negative operating income of $287 million in the most recent fiscal year on $10.5 billion in revenue. While the temporary earnings pressure and negative margins drag down the rating from the high-investment-grade tier, the robust liquidity and capital structure prevent a speculative-grade rating, positioning the credit in the solid investment-grade category.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 248,
+ "out_tok": 154,
+ "usd": 0.001758,
+ "utc": "2026-07-10T14:02:20.981570+00:00"
+}

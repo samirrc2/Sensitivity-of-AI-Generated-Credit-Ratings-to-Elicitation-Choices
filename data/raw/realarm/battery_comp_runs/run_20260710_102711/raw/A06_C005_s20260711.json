@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer displays exceptionally strong financial performance, characterized by high profitability (48% operating margin and $5.58B in quarterly net income) and a solid liquidity profile with a current ratio of 1.55 on $62.1B of current assets. While its equity base ($23.8B) is modest relative to total assets ($114.9B), its immense cash-generation capacity and robust market position support an investment-grade rating in the AA category.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 281,
+ "out_tok": 108,
+ "usd": 0.001393,
+ "utc": "2026-07-10T14:31:58.304496+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage with total liabilities/equity over 3.6x and low EBIT interest coverage potential given EBIT of 2,660M on 77,267M total liabilities.\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 280,
+ "out_tok": 72,
+ "usd": 0.001068,
+ "utc": "2026-07-10T14:42:52.626460+00:00"
+}

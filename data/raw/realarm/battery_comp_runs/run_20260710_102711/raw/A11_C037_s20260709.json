@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Current ratio of ~1.00 indicates tight but not severely distressed liquidity, and despite negative retained earnings (cumulative losses), shareholders\u2019 equity remains strongly positive. Profitability is moderate with EBIT of 283 on revenue of 1,635 (~17% margin), but the negative retained earnings and liabilities nearly matching equity suggest credit strength is not robust.  \nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 240,
+ "out_tok": 192,
+ "usd": 0.000288,
+ "utc": "2026-07-10T15:09:55.717819+00:00"
+}

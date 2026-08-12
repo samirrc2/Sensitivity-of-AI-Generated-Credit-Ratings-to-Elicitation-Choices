@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided Q1 2026 financial data, the issuer exhibits an exceptionally strong balance sheet and robust credit profile. With total assets of $113,281M against total liabilities of $61,341M, a healthy equity cushion of $51,940M (backed by substantial retained earnings of $60,632M), a solid current ratio of 1.53, and highly profitable operations (17% operating margin on $11,005M in quarterly revenue), the company demonstrates very low default risk and high capacity to meet its financial obligations. \n\nDECISION: AA",
+ "parsed_letter": "AA",
+ "parsed_band": "SAFE",
+ "in_tok": 289,
+ "out_tok": 138,
+ "usd": 0.001675,
+ "utc": "2026-07-10T14:41:14.875523+00:00"
+}

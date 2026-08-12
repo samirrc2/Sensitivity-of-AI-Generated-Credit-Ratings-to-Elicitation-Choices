@@ -1,0 +1,45 @@
+{
+ "spec_id": "S14",
+ "item_id": "C026",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "WATCH",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 11,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2025-10-30; do not use later information.\nProvided information:\nFiscal period 2025 Q3 (filed 2025-10-30). Revenue 12,222M, gross margin 72%, operating income 3,639M (operating margin 30%), net income 2,201M, diluted EPS 1.08. Total assets 96,889M, total liabilities 78,289M, shareholders' equity 18,552M. Current assets 35,630M vs current liabilities 28,136M (current ratio 1.27), retained earnings 17,093M.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "Based on the provided Q3 2025 financial figures, the issuer demonstrates very strong performance with significant revenue of $12.22 billion, high profitability margins (72% gross and 30% operating), and substantial net income of $2.20 billion. Although the leverage is relatively high with total liabilities of $78.29 billion against $96.89 billion in total assets (debt-to-equity ratio of approximately 4.2), the company maintains solid short-term liquidity with a current ratio of 1.27 and robust retained earnings of $17.09 billion. This combination of strong profitability, high market scale, and manageable short-term liquidity, balanced against elevated leverage, aligns with a solid investment-grade credit rating.\n\nDECISION: A-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 286,
+ "output_tokens": 170,
+ "cost_usd": 0.001959,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:13:02.178986+00:00",
+ "mode": "REAL"
+}

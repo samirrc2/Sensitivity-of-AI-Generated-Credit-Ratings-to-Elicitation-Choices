@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Liquidity is moderate (current ratio 1.44), and operating profitability appears solid (EBIT of 2,660 on revenue of 19,133, ~14% margin). However, the balance sheet is highly leveraged with total liabilities (77,267) far exceeding equity (21,318), which weakens credit resilience and points toward a lower investment-grade/high-yield profile.  \n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 207,
+ "usd": 0.000307,
+ "utc": "2026-07-10T14:43:30.652303+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R002",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits very weak profitability, with an operating income of only $7M on $9,292M in revenue (a 0% operating margin) and a net loss of -$139M, indicating severe pressure on debt service capacity. While the balance sheet currently shows a positive net worth (equity of $2,520M) and adequate short-term liquidity (current ratio of 1.21), the extremely thin operating profitability and bottom-line losses place the issuer in highly speculative territory. Consequently, the company has high credit risk, justifying a rating in the single-B category.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 243,
+ "out_tok": 133,
+ "usd": 0.001562,
+ "utc": "2026-07-10T13:52:43.926312+00:00"
+}

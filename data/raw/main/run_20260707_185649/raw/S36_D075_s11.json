@@ -1,0 +1,44 @@
+{
+ "spec_id": "S36",
+ "item_id": "D075",
+ "seed": 11,
+ "family": "directional",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "SELL",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Task: give a 20-trading-day directional recommendation for the stock.\nRespond with exactly one of: BUY, HOLD, SELL. Use only the figures provided and knowledge available on or before 2026-04-30; do not use later information.\nProvided information:\n| Return 3m            | -7.0% |\n| Return 1m            | +7.6% |\n| Return 1w            | +0.1% |\n| Range position (63d) | 56% |\n| 21d realized vol     | 21% |\n| Last close           | 103.75 |\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock shows mixed signals over the available windows: negative longer-term momentum offset by a solid 1-month rebound, with price sitting near the midpoint of the 63-day range and only moderate realized volatility.  \nThese figures provide no compelling edge for a directional move over a roughly 1-month horizon.  \n\nDECISION: HOLD",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 285,
+ "output_tokens": 65,
+ "cost_usd": 0.000519,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:47:45.539380+00:00",
+ "mode": "REAL"
+}

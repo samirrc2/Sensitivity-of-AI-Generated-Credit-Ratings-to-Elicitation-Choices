@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's Q1 2026 financial profile reveals a very strong balance sheet characterized by low leverage (total debt-to-equity is highly conservative with total liabilities at 41% of assets) and robust liquidity (a current ratio of 2.04 on $69.7B of current assets). However, the company operates with relatively thin margins (operating margin of 4.2% and net margin of 2.2%), which indicates exposure to competitive industry pressures or high operating costs despite its massive scale ($22.4B quarterly revenue). This combination of an exceptionally strong, investment-grade balance sheet with moderate profitability profiles suggests a solid upper-medium grade rating.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 284,
+ "out_tok": 153,
+ "usd": 0.001803,
+ "utc": "2026-07-10T14:31:13.702240+00:00"
+}

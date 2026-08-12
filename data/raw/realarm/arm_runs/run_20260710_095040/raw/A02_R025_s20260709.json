@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows moderate profitability with an operating margin of 8% on $3.47B in revenue, alongside a highly leveraged balance sheet indicated by a total liabilities-to-equity ratio of approximately 4.56x and negative retained earnings of -$748M. While the short-term liquidity is acceptable with a current ratio of 1.32, the high debt burden, modest interest/debt service coverage implied by the operating income of $264M, and accumulated historical deficits place the issuer in the non-investment grade category, reflecting elevated credit risk.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 237,
+ "out_tok": 126,
+ "usd": 0.001489,
+ "utc": "2026-07-10T14:18:05.298369+00:00"
+}

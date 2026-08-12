@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C010",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits an exceptionally strong financial profile, characterized by highly robust profitability (44% operating margin on $5.64B in revenue) and a very conservative capital structure (shareholders' equity of $29.83B against total liabilities of $21.97B, and a solid current ratio of 1.92). Given its massive asset base ($51.80B) and significant retained earnings ($29.77B), the company possesses substantial financial flexibility and minimal default risk, typical of a high-quality investment-grade credit. However, the relatively lower net income ($701M) relative to operating income suggests non-operating expenses or tax adjustments that slightly temper an absolute top-tier rating.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 281,
+ "out_tok": 161,
+ "usd": 0.001871,
+ "utc": "2026-07-10T14:37:16.185782+00:00"
+}

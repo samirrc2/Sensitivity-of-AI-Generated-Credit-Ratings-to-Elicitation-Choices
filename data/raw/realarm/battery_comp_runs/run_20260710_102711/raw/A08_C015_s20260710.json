@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage with total liabilities/assets at 78% and thin EBIT margin of 14% warrant a BB rating despite decent current liquidity.\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 273,
+ "out_tok": 61,
+ "usd": 0.000959,
+ "utc": "2026-07-10T14:43:12.446577+00:00"
+}

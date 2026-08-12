@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows weak short-term liquidity with a current ratio of 0.83 and a highly leveraged balance sheet (total liabilities of ~1.68T vs. total assets of ~1.81T, leaving relatively low equity). However, operating profitability appears solid (EBIT of 5.855B on revenue of 30.125B, ~19% margin), which partially offsets balance-sheet pressure. Overall, credit quality seems consistent with a speculative-grade profile.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 250,
+ "out_tok": 247,
+ "usd": 0.000359,
+ "utc": "2026-07-10T15:12:31.752369+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates solid profitability with annual revenue of $10.5 billion, operating income of $979 million (9% margin), and substantial retained earnings of $36.4 billion reflecting a strong historical track record. However, the balance sheet exhibits significant short-term liquidity pressure, characterized by a current ratio of 0.59 (current assets of $12.95 billion versus current liabilities of $21.86 billion), and leverage is relatively high with total liabilities of $45.6 billion against shareholders' equity of $25.8 billion. This combination of strong market position and solid earnings profile paired with constrained short-term liquidity and moderate leverage is consistent with an investment-grade rating in the lower-medium grade.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 275,
+ "out_tok": 162,
+ "usd": 0.001871,
+ "utc": "2026-07-10T14:50:51.470592+00:00"
+}

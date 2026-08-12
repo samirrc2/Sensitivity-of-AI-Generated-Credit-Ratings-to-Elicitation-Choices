@@ -1,0 +1,45 @@
+{
+ "spec_id": "S14",
+ "item_id": "D089",
+ "seed": 33,
+ "family": "directional",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "SELL",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Task: give a 20-trading-day directional recommendation for the stock.\nRespond with exactly one of: BUY, HOLD, SELL. Use only the figures provided and knowledge available on or before 2026-05-21; do not use later information.\nProvided information:\nPrice action as of 2026-05-21: 1w -1.8%, 1m -10.0%, 3m -7.4%. Last close 607.38. 21d annualized realized volatility 36%. Position in trailing 63-day range: 50% (0%=low, 100%=high).\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock has experienced significant medium-term downward momentum, declining 10% over the last month and 7.4% over the last three months, while stabilizing recently to sit exactly at the midpoint of its 63-day trading range. High annualized realized volatility of 36% suggests continued price instability and a lack of a clear upward catalyst to reverse the broader negative trend over the next 20 trading days. Therefore, a cautious stance is warranted until a definitive trend emerges.\n\nDECISION: HOLD",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 181,
+ "output_tokens": 105,
+ "cost_usd": 0.001217,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:13:40.200233+00:00",
+ "mode": "REAL"
+}

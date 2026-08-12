@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows weak liquidity (current ratio **0.42**) and very high leverage, with **total liabilities of 3,107,151M** versus **shareholders\u2019 equity of 303,243M** (thin equity cushion). While profitability appears solid (EBIT/operating income **12,435M** on revenue **49,691M**, ~25% margin), the balance-sheet strength and refinancing risk implied by the leverage and liquidity profile point to a **below-investment-grade** credit profile.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 250,
+ "out_tok": 254,
+ "usd": 0.000367,
+ "utc": "2026-07-10T15:07:39.054898+00:00"
+}

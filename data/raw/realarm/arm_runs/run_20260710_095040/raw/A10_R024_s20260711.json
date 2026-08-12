@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R024",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An analysis of the company's financial profile reveals moderate profitability with a 14% operating margin and $384M in net income, but this is offset by a highly leveraged balance sheet (total liabilities of $4,392M against equity of $941M, representing a debt-to-equity-like leverage ratio of over 4.6x) and weak short-term liquidity, as evidenced by a current ratio of 0.91 ($1,460M current assets vs $1,598M current liabilities). These credit-negative factors, particularly the aggressive leverage and working capital deficit, position the issuer in the non-investment grade territory, yet its solid revenue base ($4,076M) and positive earnings keep default risk moderate in the near term. Therefore, the company is assigned a speculative-grade rating of BB-.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 189,
+ "usd": 0.002064,
+ "utc": "2026-07-10T14:17:47.552630+00:00"
+}

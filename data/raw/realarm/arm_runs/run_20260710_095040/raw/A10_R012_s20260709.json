@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R012",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the company exhibits a very strong credit profile, characterized by solid profitability (13% operating margin, 11% net margin), robust liquidity (current ratio of 2.35), and a highly conservative capital structure (total debt/liabilities are well-covered by equity, and retained earnings of 3,602M indicate a long history of cumulative profitability). While the balance sheet strength and profitability metrics are indicative of investment-grade quality, the absolute size of the firm (revenue of 3.6B and assets of 3.8B) limits its ability to achieve the highest AAA or AA bands, which are typically reserved for much larger, systemically diversified market leaders. Therefore, a solid upper-medium investment grade rating is highly justified.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 244,
+ "out_tok": 169,
+ "usd": 0.001887,
+ "utc": "2026-07-10T14:04:13.560724+00:00"
+}

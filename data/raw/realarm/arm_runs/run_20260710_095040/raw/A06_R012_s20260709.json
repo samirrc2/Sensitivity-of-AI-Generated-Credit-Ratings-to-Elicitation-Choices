@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "R012",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates strong financial health with solid profitability (13% operating margin, 39% gross margin, and $400M net income) and robust liquidity, as evidenced by a current ratio of 2.35. Leverage is moderate with total liabilities representing approximately 51% of total assets, and a highly positive retained earnings balance ($3,602M) indicates a long track record of profitable operations. These metrics reflect an investment-grade profile with a low risk of default, typical of an upper-medium grade credit.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 236,
+ "out_tok": 119,
+ "usd": 0.001425,
+ "utc": "2026-07-10T14:03:50.786879+00:00"
+}

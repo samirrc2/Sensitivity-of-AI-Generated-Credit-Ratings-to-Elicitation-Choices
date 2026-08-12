@@ -1,0 +1,43 @@
+{
+ "spec_id": "S31",
+ "item_id": "D073",
+ "seed": 22,
+ "family": "directional",
+ "provider": "openai",
+ "version": "prior",
+ "model": "gpt-5-nano-2025-08-07",
+ "benchmark_label": "SELL",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "openai",
+ "requested_temperature": 0.0,
+ "temperature_applied": false,
+ "effective_temperature": null,
+ "call_meta": {
+  "signature": "mct+seed+eff",
+  "temperature_applied": false,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "seed": 22,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Task: give a 20-trading-day directional recommendation for the stock.\nRespond with exactly one of: BUY, HOLD, SELL. Use only the figures provided and knowledge available on or before 2026-02-19; do not use later information.\nProvided information:\n| Return 3m            | +7.8% |\n| Return 1m            | +0.3% |\n| Return 1w            | +3.8% |\n| Range position (63d) | 86% |\n| 21d realized vol     | 19% |\n| Last close           | 156.51 |\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock shows solid medium-term momentum with a +7.8% 3-month return and a positive 1-week move, alongside a high 63-day range position indicating strength near the upper end of its range. With recent gains and a relatively contained volatility (21d vol ~19%), further upside could continue over the next 20 trading days, though be mindful of potential pullbacks if it encounters resistance. Overall, the setup supports a near-term buy thesis.\n\nDECISION: BUY",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 161,
+ "output_tokens": 363,
+ "cost_usd": 0.000486,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:39:30.478632+00:00",
+ "mode": "REAL"
+}

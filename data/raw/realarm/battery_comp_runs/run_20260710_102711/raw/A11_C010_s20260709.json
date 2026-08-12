@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C010",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows strong liquidity (current ratio of 1.92) and a solid capital structure, with equity of 29.8B versus total liabilities of 22.0B (healthy leverage). Profitability also appears strong based on EBIT of 2.49B on revenue of 5.64B, indicating solid earnings capacity to support credit quality. Overall, this points to an upper investment-grade profile, though limited data (e.g., interest coverage) prevents a higher tier.\n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "in_tok": 242,
+ "out_tok": 264,
+ "usd": 0.000378,
+ "utc": "2026-07-10T14:38:05.645805+00:00"
+}

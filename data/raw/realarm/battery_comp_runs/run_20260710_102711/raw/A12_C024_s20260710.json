@@ -1,0 +1,19 @@
+{
+ "spec_id": "A12",
+ "item_id": "C024",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"High leverage (Total Debt/Assets >57%), weak liquidity (Current Ratio 0.94), and very low EBIT margin (9.3%) place the issuer in speculative grade.\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 276,
+ "out_tok": 70,
+ "usd": 0.001044,
+ "utc": "2026-07-10T14:54:10.150442+00:00"
+}

@@ -1,0 +1,44 @@
+{
+ "spec_id": "S30",
+ "item_id": "C044",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 33,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2026-05-07, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2026-05-07):\nFiscal period 2026 Q1 (filed 2026-05-07). Revenue 1,010M, gross margin 74%, operating income 465M (operating margin 46%), net income 151M, diluted EPS 0.34. Total assets 31,391M, total liabilities 33,311M, shareholders' equity -1,920M. Current assets 1,254M vs current liabilities 4,705M (current ratio 0.27), retained earnings -20,476M.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The reported balance sheet shows balance-sheet insolvency (liabilities > assets), negative equity, massively negative retained earnings, and a current ratio of 0.27, all indicating severe financial distress and elevated default risk despite positive current-period operating results. These factors place the issuer deep in speculative-grade territory, consistent with CCC-range credits that are vulnerable to non-payment but not yet in payment default.\nDECISION: CCC-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 376,
+ "output_tokens": 82,
+ "cost_usd": 0.000675,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:38:00.761385+00:00",
+ "mode": "REAL"
+}

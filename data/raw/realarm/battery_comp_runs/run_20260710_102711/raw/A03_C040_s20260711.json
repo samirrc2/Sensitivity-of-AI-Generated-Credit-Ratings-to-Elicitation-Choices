@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows strong operating profitability (EBIT of 2,334M on 8,669M revenue, ~27% margin) and meaningful equity (51,462M) with positive retained earnings. However, liquidity is weak (current ratio 0.63) and leverage is high (total liabilities 139,666M vs. total assets 192,293M), which increases refinancing and cash-flow risk. Overall, this supports a lower investment-grade rating.  \nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 240,
+ "out_tok": 234,
+ "usd": 0.00034,
+ "utc": "2026-07-10T15:12:56.320311+00:00"
+}

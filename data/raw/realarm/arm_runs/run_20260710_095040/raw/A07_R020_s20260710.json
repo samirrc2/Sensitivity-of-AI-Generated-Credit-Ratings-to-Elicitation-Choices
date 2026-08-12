@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R020",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Liquidity is somewhat weak (current ratio \u2248 1,107 / 1,333 = 0.83), and leverage is moderate-to-high (total liabilities / equity \u2248 8,577 / 4,112 = 2.09). However, profitability is solid (EBIT margin \u2248 537 / 2,981 = 18%) with positive net income (293M), supporting resilience despite the weaker near-term coverage.  \n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 230,
+ "out_tok": 290,
+ "usd": 0.000409,
+ "utc": "2026-07-10T14:12:55.926296+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer displays a solid financial profile with a substantial revenue base of $24.48 billion and stable profitability, characterized by an 11% operating margin and $1.79 billion in net income. While the leverage profile is moderately high (total liabilities of $56.84 billion against shareholders' equity of $16.23 billion) and the liquidity position is relatively tight with a current ratio of 1.22, the strong earnings generation capacity and significant retained earnings support a solid investment-grade profile.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 279,
+ "out_tok": 115,
+ "usd": 0.001454,
+ "utc": "2026-07-10T14:47:15.638124+00:00"
+}

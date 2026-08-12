@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "C030",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates a highly robust balance sheet with total assets of $58.17 billion, a very conservative leverage profile (total liabilities of $27.40 billion representing less than 50% of assets), and an excellent liquidity position characterized by a current ratio of 2.29. While the company exhibits solid profitability with an operating margin of 14.4% and net income of $406 million, its overall return on assets is relatively low (~0.7%), which slightly limits the rating from reaching the highest prime categories. Based on these strong credit metrics, minimal default risk, and substantial equity cushion, the issuer warrants a high-quality investment-grade rating.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 280,
+ "out_tok": 149,
+ "usd": 0.001761,
+ "utc": "2026-07-10T15:00:02.447972+00:00"
+}

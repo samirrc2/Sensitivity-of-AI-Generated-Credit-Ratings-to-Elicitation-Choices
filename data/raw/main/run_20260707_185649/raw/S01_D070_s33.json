@@ -1,0 +1,45 @@
+{
+ "spec_id": "S01",
+ "item_id": "D070",
+ "seed": 33,
+ "family": "directional",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "SELL",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2026-04-02. Act as a equity research analyst.\n| Return 3m            | +28.8% |\n| Return 1m            | -6.3% |\n| Return 1w            | -0.7% |\n| Range position (63d) | 70% |\n| 21d realized vol     | 24% |\n| Last close           | 622.79 |\nBased only on the above and knowledge predating 2026-04-02, give a 20-trading-day directional recommendation for the stock. Choose exactly one label from: BUY, HOLD, SELL.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock has demonstrated strong performance over the last three months, suggesting positive momentum. However, more recent returns (1m and 1w) are negative, indicating a potential short-term pullback or profit-taking. Despite the recent dip, the \"Range position (63d)\" at 70% implies the stock is still trading near the upper end of its recent range, which could be seen as a sign of underlying strength or a signal that further upside might be limited in the near term. The realized volatility is moderate.\n\nDECISION: HOLD",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 193,
+ "output_tokens": 113,
+ "cost_usd": 0.00034,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T22:57:32.748104+00:00",
+ "mode": "REAL"
+}

@@ -1,0 +1,44 @@
+{
+ "spec_id": "S30",
+ "item_id": "C041",
+ "seed": 11,
+ "family": "credit_health",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 11,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a credit rating analyst. Using only the information below and general knowledge predating 2025-10-28, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nValid answers (choose exactly one): AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nCompany information (as of 2025-10-28):\nFiscal period 2025 Q3 (filed 2025-10-28). Revenue 7,966M, gross margin 66%, operating income 2,527M (operating margin 32%), net income 2,438M, diluted EPS 1.18. Total assets 204,354M, total liabilities 139,758M, shareholders' equity 54,181M. Current assets 12,671M vs current liabilities 22,911M (current ratio 0.55), retained earnings 34,747M.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "Strong profitability (32% op. margin, consistent positive net income) and positive equity base support an investment-grade rating, but high leverage (~72% liabilities/assets) plus the sub-1 current ratio signal material refinancing/liquidity risk that precludes an A or higher rating.\nDECISION: BBB+",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 380,
+ "output_tokens": 60,
+ "cost_usd": 0.000625,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:37:56.717774+00:00",
+ "mode": "REAL"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R022",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BBB+\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong balance sheet with equity-to-assets of 43%, adequate liquidity (current ratio 1.14), and solid EBIT interest coverage, suggesting investment grade.\"\n}\n```",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "in_tok": 274,
+ "out_tok": 66,
+ "usd": 0.001005,
+ "utc": "2026-07-10T14:14:54.765681+00:00"
+}

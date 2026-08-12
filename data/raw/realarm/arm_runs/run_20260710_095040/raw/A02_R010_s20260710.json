@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R010",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits solid profitability with a net income of 403M on 2,106M in revenue, along with a healthy accumulated retained earnings balance of 4,176M. However, its capital structure is highly leveraged, with total liabilities of 17,381M relative to shareholders' equity of 3,328M (resulting in a debt-to-equity or leverage ratio of over 5x and an equity-to-assets ratio of approximately 15%). This significant leverage, common among regulated financial institutions or highly geared utilities, balances its strong profitability and asset base to position it in the lower-tier investment grade spectrum.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 200,
+ "out_tok": 147,
+ "usd": 0.001623,
+ "utc": "2026-07-10T14:01:11.143952+00:00"
+}

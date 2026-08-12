@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Liquidity is weak with a current ratio of 0.63, indicating limited short-term coverage of current liabilities. However, profitability appears relatively strong with EBIT of 2,334M on revenue of 8,669M (~27% margin), partially offset by high leverage (total liabilities of 139,666M vs. assets of 192,293M). Overall credit quality looks more speculative than investment grade, leaning toward the lower \u201cBB\u201d category.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 233,
+ "out_tok": 229,
+ "usd": 0.000333,
+ "utc": "2026-07-10T15:13:19.223704+00:00"
+}

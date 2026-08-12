@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R016",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows substantial operating and net losses (EBIT/operating income of -127M and net income of -214M), indicating weak profitability and limited ability to self-fund. However, it has solid liquidity (current assets 1,131M vs. current liabilities 354M) and moderate leverage (total liabilities 1,114M vs. total assets 2,038M), which tempers near-term credit risk. Overall, the financial profile is more consistent with the speculative range.  \nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 231,
+ "out_tok": 215,
+ "usd": 0.000315,
+ "utc": "2026-07-10T14:08:05.576637+00:00"
+}

@@ -1,0 +1,45 @@
+{
+ "spec_id": "S14",
+ "item_id": "C004",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "current",
+ "model": "gemini-3.5-flash",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 1.0,
+   "maxOutputTokens": 1024,
+   "seed": 33,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2026-04-23; do not use later information.\nProvided information:\nFiscal period 2026 Q1 (filed 2026-04-23). Revenue 22,387M, gross margin 21%, operating income 941M (operating margin 4%), net income 491M, diluted EPS 0.13. Total assets 143,724M, total liabilities 58,979M, shareholders' equity 84,113M. Current assets 69,748M vs current liabilities 34,138M (current ratio 2.04), retained earnings 39,480M.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The issuer exhibits a very strong balance sheet with substantial equity of $84,113M, a low leverage profile (total liabilities to assets ratio of approximately 41%), and robust liquidity as indicated by a current ratio of 2.04. While the company generates high revenue ($22,387M) and remains consistently profitable, its operating and net profit margins are relatively thin at 4% and 2.2% respectively. These solid credit metrics, combined with high asset coverage and moderate profitability, support a high investment-grade rating.\n\nDECISION: A-",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 282,
+ "output_tokens": 122,
+ "cost_usd": 0.001521,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:12:49.248674+00:00",
+ "mode": "REAL"
+}

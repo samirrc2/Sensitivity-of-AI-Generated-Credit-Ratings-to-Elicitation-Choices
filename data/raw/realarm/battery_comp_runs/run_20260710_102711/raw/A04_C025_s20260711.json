@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"High leverage, extremely low profitability metrics (EBIT/Assets ~1.2%), and zero retained earnings suggest speculative-grade credit risk.\"}\n```",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 272,
+ "out_tok": 52,
+ "usd": 0.000876,
+ "utc": "2026-07-10T14:54:36.122748+00:00"
+}

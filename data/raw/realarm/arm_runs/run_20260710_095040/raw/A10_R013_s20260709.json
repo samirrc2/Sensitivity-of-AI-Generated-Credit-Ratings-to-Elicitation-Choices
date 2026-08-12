@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R013",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits severe financial distress, characterized by deeply negative shareholders' equity (-$496M) resulting from massive accumulated deficits (retained earnings of -$1,065M), meaning the company is technically insolvent. Furthermore, it operates on razor-thin profitability (6% gross margin, 3% operating margin) and is currently loss-making (-$23M net income), with a highly precarious liquidity position (current ratio of just 1.02). Given the negative equity, ongoing losses, and high risk of default or restructuring, the issuer falls deep into speculative-grade territory.\n\nDECISION: CCC",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 236,
+ "out_tok": 129,
+ "usd": 0.001515,
+ "utc": "2026-07-10T14:05:17.495193+00:00"
+}

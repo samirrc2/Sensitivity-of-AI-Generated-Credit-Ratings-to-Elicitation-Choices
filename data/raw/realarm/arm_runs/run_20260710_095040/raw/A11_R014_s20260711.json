@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R014",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows solid liquidity (current assets of 1,566M vs. current liabilities of 631M, ~2.5x) and healthy profitability (EBIT margin ~15.5%, net margin ~10.8%). Leverage appears manageable with total liabilities of 1,872M against shareholders\u2019 equity of 3,064M (~0.61x), suggesting good balance-sheet absorption capacity. Overall, based on the limited metrics provided, this supports an investment-grade but not top-tier credit profile.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 235,
+ "out_tok": 264,
+ "usd": 0.000377,
+ "utc": "2026-07-10T14:06:34.712699+00:00"
+}

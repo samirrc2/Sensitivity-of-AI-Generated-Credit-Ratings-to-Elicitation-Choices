@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates exceptionally strong liquidity with a current ratio of 12.41, highly robust profitability (89% gross margin and 44% operating margin), and substantial quarterly net income of 2,479M. However, the balance sheet exhibits significant leverage, with total liabilities of 444,085M against shareholders' equity of 49,234M (an equity-to-assets ratio of approximately 10%), which is characteristic of highly rated financial institutions or structured entities. Given the immense asset base of nearly 493B and strong earnings power offsetting the leveraged balance sheet, a high investment-grade rating is warranted.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "in_tok": 283,
+ "out_tok": 147,
+ "usd": 0.001747,
+ "utc": "2026-07-10T14:28:44.255630+00:00"
+}

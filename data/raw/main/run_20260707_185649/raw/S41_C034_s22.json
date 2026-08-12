@@ -1,0 +1,45 @@
+{
+ "spec_id": "S41",
+ "item_id": "C034",
+ "seed": 22,
+ "family": "credit_health",
+ "provider": "google",
+ "version": "prior",
+ "model": "gemini-2.5-flash",
+ "benchmark_label": "DISTRESS",
+ "axes": {
+  "A2_version": "prior",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P2",
+  "A5_format": "json",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "google",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "temperature_applied": true,
+  "gemini_no_thinking": true,
+  "request_params": {
+   "temperature": 0.0,
+   "maxOutputTokens": 1024,
+   "seed": 22,
+   "thinkingConfig": {
+    "thinkingBudget": 0
+   }
+  }
+ },
+ "prompt": "Task: assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify).\nRespond with exactly one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C. Use only the figures provided and knowledge available on or before 2026-02-24; do not use later information.\nProvided information:\nFiscal period 2025 Q4 (filed 2026-02-24). Revenue 3,198M, gross margin 47%, operating income 1,307M (operating margin 41%), net income 734M, diluted EPS 0.6. Total assets 58,573M, total liabilities 43,578M, shareholders' equity 12,807M. Current assets 3,244M vs current liabilities 6,106M (current ratio 0.53), retained earnings -12,237M.\nReturn ONLY this JSON object and nothing else: {{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}}",
+ "raw_response": "{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"Strong operating margins and net income, but very weak current ratio and negative retained earnings are concerns.\"}",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 289,
+ "output_tokens": 38,
+ "cost_usd": 0.000182,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:53:06.711334+00:00",
+ "mode": "REAL"
+}

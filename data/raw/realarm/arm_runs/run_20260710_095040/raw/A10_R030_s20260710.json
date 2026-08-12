@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R030",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "An evaluation of the company's financial profile reveals a robust operating profitability with a 20% operating margin and $436M in operating income. However, the balance sheet presents significant structural risks, characterized by high leverage (liabilities-to-assets of 66%) and a weak liquidity position, evidenced by a current ratio of 0.72 ($674M current assets against $932M current liabilities). These combined factors suggest moderate credit risk with adequate capacity to meet financial commitments, but heightened vulnerability to near-term liquidity squeezes.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 237,
+ "out_tok": 123,
+ "usd": 0.001463,
+ "utc": "2026-07-10T14:24:57.001718+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"High leverage with total liabilities to equity over 26x, low profitability (EBIT margin ~2%), and very weak solvency indicators.\"}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 274,
+ "out_tok": 52,
+ "usd": 0.000879,
+ "utc": "2026-07-10T14:46:21.978121+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the company exhibits an exceptionally strong balance sheet with $204,354M in total assets against $54,181M in shareholders' equity, alongside high profitability (32% operating margin and $2,438M net income). However, the company has a very low current ratio of 0.55 ($12,671M current assets vs. $22,911M current liabilities), indicating significant short-term liquidity pressures or a highly leveraged working capital structure typical of large, stable issuers with easy access to capital markets. Balancing the massive asset base and strong earnings power against this weak short-term liquidity profile justifies a strong investment-grade rating in the \"A\" category.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "in_tok": 289,
+ "out_tok": 165,
+ "usd": 0.001919,
+ "utc": "2026-07-10T15:15:03.329357+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"B-\",\n  \"confidence\": 4,\n  \"rationale\": \"Negative equity, total liabilities exceeding assets, and a low current ratio (0.62) indicate high leverage and insolvency risk, despite positive operating income.\"\n}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 276,
+ "out_tok": 63,
+ "usd": 0.000981,
+ "utc": "2026-07-10T14:35:16.832822+00:00"
+}

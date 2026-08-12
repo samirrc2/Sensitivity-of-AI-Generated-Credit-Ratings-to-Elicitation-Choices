@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial information, the issuer exhibits severe credit distress, characterized by deeply negative shareholders' equity (-$8,465M) and a massive accumulated deficit (retained earnings of -$8,881M), resulting in technical insolvency. Furthermore, a current ratio of 0.92 indicates tight short-term liquidity, and while the company is currently profitable (net income of $511M), its highly leveraged capital structure and negative net worth pose an extremely high risk of default. \n\nDECISION: CCC\n\n*(Note: While the company is currently generating positive operating income, the substantial negative equity and balance sheet insolvency place it firmly in the \"substantial credit risk / extremely speculative\" category, typically rated in the CCC range pending restructuring or recapitalization).*",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "in_tok": 280,
+ "out_tok": 160,
+ "usd": 0.00186,
+ "utc": "2026-07-10T15:16:10.021253+00:00"
+}

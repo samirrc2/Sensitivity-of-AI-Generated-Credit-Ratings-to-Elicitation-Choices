@@ -1,0 +1,19 @@
+{
+ "spec_id": "A02",
+ "item_id": "R002",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows massive scale with over $9.2 billion in revenue, but suffers from extremely weak profitability, razor-thin margins (7% gross, 0% operating), and a net loss of $139 million. While the company maintains a marginally acceptable short-term liquidity position (current ratio of 1.21) and a positive equity cushion ($2.52 billion), the high leverage (total liabilities of $7.476 billion against assets of $10.039 billion) combined with negative net earnings indicates substantial credit risk. These financial metrics align with a highly speculative, non-investment grade profile where debt service capacity is weak and vulnerable to ongoing operating losses.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "in_tok": 242,
+ "out_tok": 150,
+ "usd": 0.001713,
+ "utc": "2026-07-10T13:51:56.910461+00:00"
+}

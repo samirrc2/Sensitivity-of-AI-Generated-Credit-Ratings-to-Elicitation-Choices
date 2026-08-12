@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows very weak near-term liquidity (current ratio of 0.35) and high balance-sheet leverage (total liabilities of ~89% of total assets), which increases refinancing and short-term funding risk. While operating performance appears solid (EBIT/operating income of 6,598M on 20,880M revenue), the weak liquidity and leverage profile constrain the credit quality.  \n\nDECISION: B+",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "in_tok": 240,
+ "out_tok": 240,
+ "usd": 0.000348,
+ "utc": "2026-07-10T15:03:01.915275+00:00"
+}

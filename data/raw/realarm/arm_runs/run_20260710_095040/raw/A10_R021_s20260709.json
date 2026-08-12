@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R021",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260709,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the company is a mid-sized issuer (Revenue of $2.08B) with modest profitability (7% operating margin, 4.3% net margin) and leveraged but acceptable solvency metrics (Debt-to-Equity/Liabilities-to-Equity is elevated with Total Liabilities at $1.15B versus Equity of $773M, resulting in an equity-to-assets ratio of 40%). The liquidity profile is adequate but tight, characterized by a current ratio of 1.50 and current assets of $526M. These characteristics\u2014moderate scale, thin margins, and leveraged balance sheet with adequate short-term liquidity\u2014are consistent with a solid crossover or speculative-grade issuer, pointing to the upper end of the \"BB\" category where default risk is low but capacity to meet financial commitments is vulnerable to adverse economic conditions.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 236,
+ "out_tok": 192,
+ "usd": 0.002082,
+ "utc": "2026-07-10T14:14:16.064941+00:00"
+}

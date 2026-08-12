@@ -1,0 +1,44 @@
+{
+ "spec_id": "S30",
+ "item_id": "D080",
+ "seed": 22,
+ "family": "directional",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "SELL",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "1.0",
+  "A4_paraphrase": "P1",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L0"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 1.0,
+ "temperature_applied": true,
+ "effective_temperature": 1.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 1.0,
+   "seed": 22,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "You are a equity research analyst. Using only the information below and general knowledge predating 2026-02-05, give a 20-trading-day directional recommendation for the stock.\nValid answers (choose exactly one): BUY, HOLD, SELL.\nCompany information (as of 2026-02-05):\nPrice action as of 2026-02-05: 1w +3.7%, 1m +10.1%, 3m +29.3%. Last close 186.50. 21d annualized realized volatility 32%. Position in trailing 63-day range: 93% (0%=low, 100%=high).\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The stock has shown consistent upward momentum over 1w/1m/3m horizons but now sits at 93% of its trailing 63-day range, leaving little room for further near-term gains before a likely consolidation or mean-reversion pullback. Realized volatility of 32% is unremarkable and does not alter the stretched positioning on a 20-trading-day horizon.\n\nDECISION: SELL",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 294,
+ "output_tokens": 82,
+ "cost_usd": 0.000572,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:38:44.808836+00:00",
+ "mode": "REAL"
+}

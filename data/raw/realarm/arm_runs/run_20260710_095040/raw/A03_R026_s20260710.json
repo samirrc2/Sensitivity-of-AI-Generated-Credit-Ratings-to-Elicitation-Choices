@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "R026",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows modest profitability (net margin ~3.9%, EBIT margin ~5.4%) but relatively weak balance-sheet strength, with high leverage (total liabilities of 13,829M vs. shareholders\u2019 equity of 3,165M; equity ratio ~19%) and negative working capital (current liabilities exceed current assets). Liquidity and leverage risk are therefore material, limiting credit quality despite positive earnings.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "in_tok": 237,
+ "out_tok": 255,
+ "usd": 0.000366,
+ "utc": "2026-07-10T14:19:24.450429+00:00"
+}

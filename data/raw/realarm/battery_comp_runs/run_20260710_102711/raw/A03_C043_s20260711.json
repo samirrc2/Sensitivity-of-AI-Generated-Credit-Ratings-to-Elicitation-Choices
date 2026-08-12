@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows thin profitability (EBIT of 948M on 25,270M revenue, ~3.7%) and a pressured liquidity profile with a current ratio of 0.97 (current assets only slightly below current liabilities). While retained earnings and positive equity (15,501M) provide some support, leverage is substantial (total liabilities 44,490M vs. total assets 59,991M), indicating elevated credit risk.  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 238,
+ "out_tok": 201,
+ "usd": 0.000299,
+ "utc": "2026-07-10T15:16:39.758778+00:00"
+}

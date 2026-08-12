@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows solid operating profitability (EBIT of 749M on 3,915M revenue, ~19% margin) and substantial retained earnings, which supports long-run solvency. However, liquidity is weak with a current ratio of 0.79 (current liabilities exceed current assets), and overall leverage is high given total liabilities of 57,973M versus shareholders\u2019 equity of 21,181M. Overall, this profile is more consistent with a speculative-grade credit than investment grade.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "in_tok": 240,
+ "out_tok": 237,
+ "usd": 0.000344,
+ "utc": "2026-07-10T15:08:48.555618+00:00"
+}

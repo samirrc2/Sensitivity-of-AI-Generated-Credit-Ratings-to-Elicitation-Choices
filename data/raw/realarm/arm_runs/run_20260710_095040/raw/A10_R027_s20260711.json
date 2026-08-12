@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R027",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "**Rating Analysis:**\nThe company exhibits a solid balance sheet with low leverage (equity-to-assets ratio of 41%), a strong liquidity position (current ratio of 2.57), and a substantial accumulated profit base (retained earnings of 2,355M). However, its profitability is relatively weak, characterized by a low operating margin of 6% and thin net income of 32M relative to 3,801M in revenue, which suggests susceptibility to economic downturns or operational shocks. Consequently, while the balance sheet supports an investment-grade profile, the weak profitability constrains the rating to the lower end of the investment-grade spectrum.\n\nDECISION: BBB-",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "in_tok": 236,
+ "out_tok": 147,
+ "usd": 0.001677,
+ "utc": "2026-07-10T14:21:11.745174+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "R023",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong liquidity and low leverage are offset by highly negative retained earnings and modest operating profitability relative to total assets.\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 262,
+ "out_tok": 52,
+ "usd": 0.000861,
+ "utc": "2026-07-10T14:16:05.985212+00:00"
+}

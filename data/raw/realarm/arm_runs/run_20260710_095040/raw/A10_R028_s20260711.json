@@ -1,0 +1,19 @@
+{
+ "spec_id": "A10",
+ "item_id": "R028",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "To evaluate this issuer's creditworthiness, we analyze its key financial metrics:\n* **Profitability and Scale:** With revenues of $6.18B and an operating margin of 9% (operating income of $539M), the company shows solid scale and moderate profitability, though the margin is relatively thin for a highly-rated corporate issuer.\n* **Capital Structure and Leverage:** The company is moderately leveraged with a Debt-to-Equity equivalent (Total Liabilities / Shareholders' Equity) of 1.63x and an equity-to-assets ratio of 38%, indicating a reasonable but not conservative capital buffer. \n* **Liquidity:** The current ratio of 1.28x ($1,355M current assets vs. $1,057M current liabilities) indicates adequate short-term liquidity, though it leaves a relatively thin margin of safety for unexpected cash outflows.\n\nGiven these adequate liquidity levels, solid profitability, and moderate leverage, the company represents a stable, investment-grade risk but lacks the exceptional financial strength of the 'A' or 'AA' categories. \n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 240,
+ "out_tok": 238,
+ "usd": 0.002502,
+ "utc": "2026-07-10T14:22:19.911969+00:00"
+}

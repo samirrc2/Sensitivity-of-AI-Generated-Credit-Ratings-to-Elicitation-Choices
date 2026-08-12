@@ -1,0 +1,19 @@
+{
+ "spec_id": "A08",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\n  \"decision\": \"BB\",\n  \"confidence\": 3,\n  \"rationale\": \"High equity-to-assets ratio provides stability, but very low profitability (EBIT/revenue) and negative retained earnings limit the rating to BB.\"\n}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "in_tok": 267,
+ "out_tok": 61,
+ "usd": 0.00095,
+ "utc": "2026-07-10T15:09:41.647404+00:00"
+}

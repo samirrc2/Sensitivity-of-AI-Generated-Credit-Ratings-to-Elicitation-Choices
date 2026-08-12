@@ -1,0 +1,44 @@
+{
+ "spec_id": "S26",
+ "item_id": "C005",
+ "seed": 33,
+ "family": "credit_health",
+ "provider": "xai",
+ "version": "current",
+ "model": "grok-4.3",
+ "benchmark_label": "SAFE",
+ "axes": {
+  "A2_version": "current",
+  "A3_temperature": "0.0",
+  "A4_paraphrase": "P3",
+  "A5_format": "freetext",
+  "A6_fewshot": "0",
+  "A7_presentation": "L1"
+ },
+ "A1_provider": "xai",
+ "requested_temperature": 0.0,
+ "temperature_applied": true,
+ "effective_temperature": 0.0,
+ "call_meta": {
+  "signature": "mct+temp+seed+eff",
+  "temperature_applied": true,
+  "reasoning_effort": "low",
+  "request_params": {
+   "max_completion_tokens": 1024,
+   "temperature": 0.0,
+   "seed": 33,
+   "reasoning_effort": "low"
+  }
+ },
+ "prompt": "Consider the following company information, reported as of 2025-10-30. Act as a credit rating analyst.\n| Current ratio           | 1.55 |\n| Retained earnings       | 22,252M |\n| Current liabilities     | 40,141M |\n| Current assets          | 62,071M |\n| Shareholders' equity    | 23,793M |\n| Total liabilities       | 91,085M |\n| Total assets            | 114,935M |\n| EBIT / operating income | 8,386M |\n| Revenue                 | 17,601M |\nBased only on the above and knowledge predating 2025-10-30, assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify). Choose exactly one label from: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\nReason briefly in 1-3 sentences. Then, on a separate final line, output exactly:\nDECISION: <one label>",
+ "raw_response": "The reported current ratio of 1.55 provides moderate liquidity support, while the high operating margin (EBIT/revenue \u2248 48 %) indicates solid core profitability. However, these are more than offset by very high leverage (equity only \u2248 21 % of total assets, liabilities/equity \u2248 3.8\u00d7) and an implied Altman Z-score in the distress zone (< 1.2), pointing to an elevated probability of default.\nDECISION: BB-\n(The data are also consistent with a capital-intensive non-financial corporate; absent interest-coverage or cash-flow figures, a rating above BB is not justified.)",
+ "empty": false,
+ "ok": true,
+ "input_tokens": 367,
+ "output_tokens": 125,
+ "cost_usd": 0.000771,
+ "attempts": 1,
+ "error": null,
+ "timestamp_utc": "2026-07-07T23:32:50.034226+00:00",
+ "mode": "REAL"
+}

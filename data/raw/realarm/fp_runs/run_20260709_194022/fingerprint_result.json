@@ -1,0 +1,36 @@
+{
+ "utc": "2026-07-09T23:51:09.290384+00:00",
+ "n_items": 34,
+ "data_quality_empty_by_provider": {
+  "openai": {
+   "calls": 102,
+   "empty": 7,
+   "empty_pct": 6.9
+  },
+  "google": {
+   "calls": 102,
+   "empty": 0,
+   "empty_pct": 0.0
+  }
+ },
+ "calls_scored": 197,
+ "per_run_identification_rate": 0.0051,
+ "per_item_ever_identified": {
+  "n": 1,
+  "share": 0.0294,
+  "items": [
+   "R001"
+  ]
+ },
+ "per_item_twice_identified": {
+  "n": 0,
+  "share": 0.0,
+  "items": []
+ },
+ "gate_metric": "per_item_ever_identified.share (pre-registered)",
+ "gate_thresholds": "<5% GO | 5-15% RE-TEST | >15% NO-GO",
+ "GATE": "GO",
+ "spend_usd": 0.2945,
+ "run_id": "20260709_194022",
+ "run_dir": "fp_runs/run_20260709_194022"
+}

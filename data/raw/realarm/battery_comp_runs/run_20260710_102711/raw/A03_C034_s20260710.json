@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows weak near-term liquidity (current ratio 0.53) and significant accumulated losses (negative retained earnings of -12,237M), which pressure financial flexibility. However, it remains profitable with positive operating earnings (EBIT/operating income of 1,307M on revenue of 3,198M) and has positive total equity (12,807M), providing some balance sheet support despite high leverage (total liabilities of 43,578M vs. total assets of 58,573M).  \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 240,
+ "out_tok": 280,
+ "usd": 0.000398,
+ "utc": "2026-07-10T15:05:36.782894+00:00"
+}

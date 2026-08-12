@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C024",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows somewhat weak short-term liquidity (current ratio of 0.94), which increases refinancing and working-capital risk. However, leverage is not extreme given positive retained earnings and solid capitalization (shareholders\u2019 equity of 36,034M out of 86,783M total assets), and profitability appears adequate (EBIT of 467M on revenue of 5,013M). Overall, these factors point to a speculative-grade credit profile, closer to BB than B.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 238,
+ "out_tok": 227,
+ "usd": 0.000331,
+ "utc": "2026-07-10T14:53:03.926413+00:00"
+}

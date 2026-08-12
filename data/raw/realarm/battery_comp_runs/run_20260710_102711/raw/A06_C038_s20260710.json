@@ -1,0 +1,19 @@
+{
+ "spec_id": "A06",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260710,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits solid profitability with an operating margin of 42% and net income of 821M, but its balance sheet carries significant risk, characterized by a massive leverage profile (total assets of 63,190M against total liabilities of 52,835M, resulting in an equity cushion of only 3,652M) and a weak liquidity position (current ratio of 0.63). The negative retained earnings of -5,086M further highlight historical deficits or aggressive capital restructuring, which balances their strong operating performance down to a speculative-grade profile. Based on these highly leveraged metrics despite strong current earnings, the issuer is assigned a speculative-grade rating.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 273,
+ "out_tok": 155,
+ "usd": 0.001805,
+ "utc": "2026-07-10T15:10:35.966849+00:00"
+}

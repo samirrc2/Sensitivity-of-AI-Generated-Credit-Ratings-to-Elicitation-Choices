@@ -1,0 +1,19 @@
+{
+ "spec_id": "A11",
+ "item_id": "R004",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260709,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows adequate short-term liquidity (current ratio \u2248 2.2) and solid operating profitability (EBIT/operating income of 727M on 4,165M revenue). However, the materially negative retained earnings (-1,086M) indicate accumulated losses and weaker cushion, while leverage remains fairly high (total liabilities 3,366M vs. total assets 4,997M). Overall, this points to credit risk in the speculative, sub-investment grade area rather than a higher-quality profile.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "in_tok": 239,
+ "out_tok": 265,
+ "usd": 0.000379,
+ "utc": "2026-07-10T13:55:05.386091+00:00"
+}

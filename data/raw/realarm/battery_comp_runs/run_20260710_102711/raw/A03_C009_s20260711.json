@@ -1,0 +1,19 @@
+{
+ "spec_id": "A03",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows strong financial flexibility with a solid current ratio of 2.29 and a relatively moderate leverage profile (total liabilities of ~40% of total assets). Profitability also appears very strong, with EBIT of 3,688M versus revenue of 6,571M, and sizable shareholders\u2019 equity (33,867M) supporting the balance sheet.  \n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "in_tok": 240,
+ "out_tok": 234,
+ "usd": 0.00034,
+ "utc": "2026-07-10T14:36:22.045939+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "spec_id": "A04",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "seed": 20260711,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Strong balance sheet with high equity, but weak liquidity (current ratio 0.55) and moderate profitability relative to total assets.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 281,
+ "out_tok": 50,
+ "usd": 0.000872,
+ "utc": "2026-07-10T15:14:16.574627+00:00"
+}

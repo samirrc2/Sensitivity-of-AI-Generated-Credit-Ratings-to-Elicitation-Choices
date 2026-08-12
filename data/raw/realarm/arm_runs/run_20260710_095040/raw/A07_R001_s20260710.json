@@ -1,0 +1,19 @@
+{
+ "spec_id": "A07",
+ "item_id": "R001",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "seed": 20260710,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid profitability (net income margin ~12%) and reasonable leverage (total liabilities/assets ~58% and liabilities-to-equity ~1.37), alongside decent liquidity (current ratio ~1.87). However, without debt/interest coverage figures, the ability to withstand adverse conditions can\u2019t be confirmed at a higher-grade level.  \n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "in_tok": 230,
+ "out_tok": 270,
+ "usd": 0.000384,
+ "utc": "2026-07-10T13:51:17.627023+00:00"
+}
