@@ -319,6 +319,14 @@ specification is part of the result. A machine rating should be reported, govern
 specification curve attached.
 
 \section{Methods}
+\textbf{Design rationale.} We use a constructed battery as the primary identification environment
+because the estimand is elicitation stability, not performance on a naturally occurring issuer
+distribution. The battery holds firm fundamentals fixed, provides a pre-computable objective benchmark,
+and permits balanced coverage of credit-health strata while varying only the elicitation specification.
+Using real issuers alone would additionally risk contamination from model memorization; we therefore
+treat the decontaminated real-firm arm as a complementary external-validity test rather than the
+primary identification sample.
+
 \textbf{Battery and benchmark.} The battery is a fixed set of 90 firm-quarter profiles, each carrying a
 compact financial statement (revenue, EBIT, total assets and liabilities, equity, working-capital
 components, retained earnings). The 90 profiles comprise two equally sized task families: 45
