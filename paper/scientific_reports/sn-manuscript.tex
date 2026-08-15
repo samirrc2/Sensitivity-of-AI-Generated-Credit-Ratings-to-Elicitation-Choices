@@ -79,10 +79,7 @@ and answer presentation. The design comprises 12{,}960 planned elicitations acro
 over three repeated seeds. The financial profiles of the credit-health items are built on a pre-specified
 Altman Z$''$ accounting-based benchmark \cite{altman1968}. The benchmark provides a fixed, independently
 computable reference for credit health, whereas the elicitation specification varies. Our principal
-estimand is therefore not rating accuracy but \emph{stability across specifications}. The battery is thus
-designed as an identification device: it keeps the fundamentals fixed, provides balanced coverage across
-credit-health strata, and avoids confusing uncontrolled differences among naturally occurring issuers
-with elicitation effects.
+estimand is therefore not rating accuracy but \emph{stability across specifications}.
 
 The paper makes four contributions. First, we measure the sensitivity of machine-generated credit
 ratings to the specification and decompose the rating variation into variation across firm
@@ -102,16 +99,6 @@ all dollar values by an issuer-specific multiplicative factor that preserves fin
 a pre-registered fingerprinting gate to test whether the issuer remains identifiable from the financial
 information; identification drops from 22\% with unperturbed profiles to 2.9\% after decontamination.
 
-The conclusion across these analyses is robust: machine-generated credit ratings are materially sensitive
-to the elicitation specification. A single controllable design axis does not explain most of the
-variation, failure of deterministic execution does not fully eliminate instability, disagreement persists
-even after aggregation across providers, and the coarse investment-grade/high-yield distinction does not
-become fully specification-stable. The real-issuer analysis shows the same qualitative pattern under a
-decontamination procedure, with the smaller sample treated as complementary evidence rather than as a
-substitute for the controlled primary experiment. These findings imply that the elicitation specification
-must be treated as part of the model-risk environment rather than a trivial interface choice in
-AI-assisted credit assessment.
-
 \section{Related work}
 \subsection{Prompt sensitivity and non-determinism in large language models}
 Large language models are built on transformer-based foundation models, and their output depends not only
@@ -130,13 +117,6 @@ al.\ \cite{mizrahi2024multiprompt} demonstrate how single-prompt evaluation can 
 conclusions and argue for evaluation across multiple prompt formulations. In finance, Chon et
 al.\ \cite{chon2025variability} likewise find large variation in stock recommendations produced by LLMs
 depending on the prompting and model choice.
-
-The present work extends this literature from general output sensitivity to a high-stakes financial
-decision expressed on a structured rating scale. Rather than perturbing each prompt feature individually,
-we test a pre-registered multivariate grid of elicitation choices and assess whether the resulting credit
-assessment remains stable while holding firm fundamentals constant. We thus focus not only on whether
-large-language-model outputs vary, but on how much, where the variation originates, and whether it is
-decision-relevant.
 
 \subsection{Multiverse analysis and specification curves}
 Empirical results often depend on a set of reasonable analytical choices rather than a single, uniquely
@@ -404,14 +384,6 @@ mid-cap issuers from their financial numbers alone. This shows that anonymizing 
 guarantee that an LLM makes an independent credit assessment rather than relying on memorized issuer
 information.
 
-We therefore form a decontaminated real-firm portfolio of 31 U.S. business-to-business issuers with
-market capitalizations between \$2 billion and \$15 billion that report a current long-term agency rating
-in their latest Form 10-K. Rating provenance is preserved through a verbatim disclosure, a permanent SEC
-filing URL, and a document hash. For each issuer, all dollar-valued financial quantities are scaled by a
-single factor drawn from a log-uniform distribution over $[0.6,1.7]$. This transform preserves the
-financial ratios used by the accounting-based benchmark but breaks exact-figure lookup. Consumer-facing
-companies are also excluded so that they are not identified from highly distinctive business profiles.
-
 The pre-registered fingerprinting gate lowered the issuer-identification rate from 22\% to 2.9\%, below
 the pre-specified 5\% threshold. The decontaminated firms are then rated on a frozen 12-specification grid
 at three seeds, and the constructed battery is re-rated under exactly the same specification grid to
@@ -429,11 +401,6 @@ instability is still observed in decontaminated real issuers under the same elic
 real-firm point estimate is somewhat lower than the matched battery's, but the available sample is too
 small to determine whether that difference is a stable population difference. As a separate descriptive
 reference, machine-generated credit bands match the disclosed agency ratings about 54\% of the time.
-
-Overall, the real-firm analysis supports the external relevance of the main result without replacing the
-role of the constructed battery in controlled identification. It also illustrates why naive evaluation on
-anonymized real issuers is not necessarily reliable, since the models under study may have encountered
-those issuers during pretraining.
 
 \begin{table}[t]\centering
 \caption{Real-firm arm: 31 decontaminated business-to-business issuers, agency-rating benchmark.}
@@ -465,47 +432,6 @@ resolved by selecting a preferred prompt formulation, output format, temperature
 poor choice of elicitation parameter does not dominate the problem; instead, the same financial
 information can produce meaningfully different credit assessments under multiple reasonable
 specifications.
-
-The deterministic analysis distinguishes specification dependence from ordinary sampling noise.
-Restricting the experiment to the provider-setting combination where deterministic execution is verified
-removes repeated-call stochasticity but does not restore specification invariance. Credit-band accuracy
-is highly variable across deterministic prompt specifications, and the permutation test rejects the
-hypothesis that the observed specification spread is consistent with invariant ratings. Deterministic
-generation and stable credit assessment are therefore independent properties: removing sampling
-randomness does not guarantee that semantically similar elicitation choices lead to the same outcome.
-
-A further result concerns provider choice. The provider main effect is small, yet agreement within
-providers is much higher than agreement between providers. These findings do not contradict each other.
-They show that providers do not primarily differ in a simple global tendency to give systematically
-higher or lower ratings; instead, the differences depend on the firm being evaluated. Such
-issuer-specific disagreement cannot be removed by applying a constant vendor adjustment, so switching or
-pooling providers does not remove the underlying specification dependence.
-
-The instability also persists after substantial simplification of the rating scale. Exact letter-grade
-agreement is low, and even coarsening the assessment to notch categories, broad credit bands, and the
-binary investment-grade/high-yield classification does not yield specification-invariant judgments.
-Chance-corrected agreement is only $\kappa=0.46$, and 26.8\% of matched elicitation pairs disagree at the
-economically consequential IG/HY boundary. This is especially important because the discrepancy cannot be
-dismissed as minor movement between neighboring letter grades: the same financial profile can fall on
-opposite sides of a boundary widely used in investment mandates, market segmentation, and risk
-management.
-
-The economic translations illustrate the potential scale of the problem, though they are presented as
-post-hoc calculations rather than confirmatory evidence. A modal-call strategy implies 56.8\% turnover
-due to elicitation choices alone, and the specification-dependent ratings translate into spread and
-standardized-capital ranges that are economically large despite no change in the underlying portfolio.
-These exercises are not meant to suggest that LLM-generated ratings are currently used directly to
-determine regulatory capital; rather, they express the observed rating dispersion in units that make its
-potential decision relevance easier to assess. A model output unstable enough to move these downstream
-mappings should not be treated as a specification-independent measurement.
-
-The constructed battery is essential to identifying this effect. The main experiment is not intended to
-reproduce the natural cross-section of rated firms or to measure the absolute accuracy of LLM credit
-ratings; its aim is to determine whether the same credit assessment is produced given the same financial
-information but different reasonable elicitation choices. A controlled battery holds firm fundamentals
-fixed and varies the elicitation specification, and it provides a pre-specified accounting-based reference
-for constructing and stratifying the credit-health profiles. Variation in the ratings is therefore
-attributable to the elicitation process rather than to uncontrolled variation across firms.
 
 The real-issuer experiment complements, rather than substitutes for, this identification strategy.
 Crucially, it first demonstrates that direct evaluation on anonymized real firms is not automatically
@@ -590,18 +516,6 @@ total variation in machine-generated ratings, but substantial specification- and
 remains after controlling for the underlying financial information. No particular controllable elicitation
 choice explains much of this variation, and the instability persists even when the analysis is limited to
 verified deterministic execution.
-
-The resulting disagreement is not confined to fine distinctions between neighboring ratings. Even at the
-binary investment-grade/high-yield level, 26.8\% of matched elicitation pairs place the same credit
-profile on opposite sides of the boundary, while chance-corrected agreement is only $\kappa=0.46$. The
-effect is not removed by switching or pooling providers, and the observed dispersion is large enough to
-create material differences when measured in portfolio, spread, and standardized-capital terms.
-
-The controlled battery is designed to identify this instability by fixing firm fundamentals and varying
-only the elicitation specification. A complementary real-firm arm exhibits the same qualitative pattern
-after addressing a distinct problem in LLM evaluation: the ability to identify anonymized public issuers
-from their financial information. The decontamination procedure reduces issuer identification from 22\% to
-2.9\%, and the real-firm sample still shows substantial specification instability afterward.
 
 These results are not evidence that LLMs are accurate credit raters, and they do not imply that all
 current or future models will exhibit the same level of instability. For the systems studied here they
