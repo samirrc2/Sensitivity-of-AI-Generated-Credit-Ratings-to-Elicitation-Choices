@@ -1,7 +1,9 @@
 # Data availability
 
 All data required to reproduce every result are included in this repository and are released under
-MIT. No proprietary data and no live model access are needed to reproduce the paper.
+MIT. No proprietary data and no live model access are needed to reproduce the paper. The archived,
+citable reproducibility artifact is deposited on Zenodo:
+**DOI [10.5281/zenodo.21953935](https://doi.org/10.5281/zenodo.21953935)**.
 
 ## Frozen inputs (pre-registered)
 - `data/frozen/main/battery_90.json` — the 90-item firm-quarter battery (Altman Z″ benchmark bands).

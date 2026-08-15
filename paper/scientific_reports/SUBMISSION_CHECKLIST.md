@@ -36,4 +36,4 @@
   staying under the 4,500 cap) and add 1–2 figures (determinism subgrid; provider heatmap) from
   `results/exhibits/`.
 - Confirm ORCIDs and corresponding-author details in the submission system.
-- Deposit the reproducibility repository (Zenodo) and add the DOI to Data availability.
+- Deposited on Zenodo — DOI 10.5281/zenodo.21953935; added to Data availability, README, CITATION.cff, and the manuscript/cover letter.

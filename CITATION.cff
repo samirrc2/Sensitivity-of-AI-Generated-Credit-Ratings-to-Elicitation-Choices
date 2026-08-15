@@ -13,6 +13,11 @@ abstract: >
   distinguishable from the constructed battery; a formal TOST equivalence test is inconclusive
   at this sample size).
 type: software
+doi: "10.5281/zenodo.21953935"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21953935"
+    description: "Zenodo archive of the reproducibility artifact"
 authors:
   - family-names: "Chincholikar"
     given-names: "Samir"
