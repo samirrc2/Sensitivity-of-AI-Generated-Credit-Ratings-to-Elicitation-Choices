@@ -5,7 +5,7 @@ Reproducibility artifact for the *Scientific Reports* (Springer Nature) submissi
 **Authors:** Samir Chincholikar (Independent researcher, New York, USA) · Robin Chawla (Independent researcher, New York, USA, corresponding author)
 **ORCID:** [0009-0007-2779-3492](https://orcid.org/0009-0007-2779-3492) · [0009-0007-2807-3948](https://orcid.org/0009-0007-2807-3948)
 **Contact:** robin.chawla.cse14@iitbhu.ac.in · samir.chincholikar@gmail.com
-**Repository:** https://github.com/samirrc2/prompt-choice-credit-ratings
+**Repository:** https://github.com/samirrc2/Sensitivity-of-AI-Generated-Credit-Ratings-to-Elicitation-Choices
 **Zenodo DOI:** [10.5281/zenodo.21953935](https://doi.org/10.5281/zenodo.21953935)
 
 Every number, table, and figure regenerates from a **frozen response corpus** (90-item battery ×

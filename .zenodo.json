@@ -24,5 +24,5 @@
     "reproducibility",
     "investment grade"
   ],
-  "notes": "Code released under MIT (see LICENSE); data, analysis outputs and text under CC-BY-4.0. Corresponding author: Robin Chawla (robin.chawla.cse14@iitbhu.ac.in). Working copy: https://github.com/samirrc2/prompt-choice-credit-ratings. Insert related-publication DOI at deposit. Live-capture SDKs (openai, google-genai) are not required to reproduce results from the frozen data."
+  "notes": "Code released under MIT (see LICENSE); data, analysis outputs and text under CC-BY-4.0. Corresponding author: Robin Chawla (robin.chawla.cse14@iitbhu.ac.in). Working copy: https://github.com/samirrc2/Sensitivity-of-AI-Generated-Credit-Ratings-to-Elicitation-Choices. Insert related-publication DOI at deposit. Live-capture SDKs (openai, google-genai) are not required to reproduce results from the frozen data."
 }
