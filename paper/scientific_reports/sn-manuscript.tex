@@ -382,23 +382,41 @@ on the identical grid for a matched comparison on the WATCH stratum.
 analysis code, and manifest hashes are archived; every confirmatory result regenerates byte-for-byte
 from the raw corpus through a single offline entry point, with no model calls.
 
-\textbf{Use of generative AI.} Large language models are the object of study in this work; every model
-elicitation analyzed is recorded in the specification grid and frozen corpus described above. In
-preparing the manuscript, the authors additionally used a generative AI assistant for drafting, editing,
-and code-review support. The authors verified all content, analyses, and reported numbers, and take full
-responsibility for the work.
+\textbf{Use of generative AI.} Generative AI was used to assist with grammar correction and minor
+language edits of the authors' own text, and with software scaffolding, development, and coding of the
+analysis and reproducibility pipeline (Anthropic Claude), in all cases under the authors' direction.
+Separately, large language models are the object of study in this work---the credit-rating elicitations
+under analysis---as described above; every such elicitation is recorded in the specification grid and
+frozen corpus. The authors reviewed and verified all such output and take full responsibility for the
+content.
 
 \backmatter
 \bmhead{Data availability}
-The frozen item battery, specification grid, prompt templates, complete 12{,}960-response corpus,
-analysis code, manifest hashes, and the real-firm arm's frozen artifacts (anonymized perturbed battery,
-sealed crosswalk, rating provenance, model-output run panels) are available in the reproducibility
-repository; all confirmatory results reproduce offline and byte-for-byte. Provider API keys are required
-only to re-collect (not to reproduce) and are not distributed.
+All data and code required to reproduce the study are openly available in a deterministic, offline
+reproducibility capsule (CodeOcean DOI assigned at deposit; MIT license), mirrored in the source
+repository at \url{https://github.com/samirrc2/prompt-choice-credit-ratings}. Within the capsule, the
+\texttt{data/frozen/main/} directory contains the pre-registered 90-item firm battery
+(\texttt{battery\_90.json}; 45 credit-health $+$ 45 directional items), the specification grid
+(\texttt{grid\_definition.json}), the prompt paraphrases (\texttt{paraphrase\_templates.json}), the
+rating scale (\texttt{rating\_scale.json}), and the Basel capital map (\texttt{capital\_map.json});
+\texttt{data/raw/main/} holds the complete frozen corpus of 12{,}960 model responses;
+\texttt{data/panel/panel.parquet} is the analysis panel built once from that corpus; and
+\texttt{data/frozen/realarm/} with \texttt{data/raw/realarm/} contain the decontaminated real-firm arm
+(the anonymized perturbed battery \texttt{battery\_real45.json}, the sealed issuer crosswalk, the rating
+provenance \texttt{ratings\_provenance.csv} with a verbatim 10-K quotation, permanent SEC URL, and
+document hash per issuer, and the arm/comparator/fingerprint model-output panels). The analysis code is
+in \texttt{analysis/}, pre-computed outputs and figures in \texttt{results/}, and SHA-256 integrity
+manifests in \texttt{manifest/}. A single offline entry point, \texttt{reproduce.sh}, regenerates every
+reported number, table, and figure byte-for-byte, with no model calls and no API keys. Issuer identities
+in the real-firm arm are anonymized and the sealed crosswalk is withheld; the underlying SEC filings
+(Form 10-K and company-facts XBRL) are publicly available through the SEC EDGAR system, with permanent
+document URLs listed in \texttt{data/frozen/realarm/ratings\_provenance.csv}.
 
 \bmhead{Code availability}
-All collection, panel-construction, and analysis code is released under the MIT license; a single
-\texttt{reproduce.sh} regenerates every reported number, table, and figure from the frozen data.
+All collection, panel-construction, and analysis code is released under the MIT license in the same
+repository; a single \texttt{reproduce.sh} regenerates every reported number, table, and figure from the
+frozen data offline. Provider API keys are required only to re-collect the corpus (not to reproduce any
+result) and are not distributed.
 
 \bibliography{references}
 
