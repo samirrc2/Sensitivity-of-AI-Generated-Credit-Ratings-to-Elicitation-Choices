@@ -36,15 +36,7 @@ The manuscript is original, not under consideration elsewhere, and all authors a
 submission. We declare no competing interests. The corresponding author is Robin Chawla
 (robin.chawla.cse14@iitbhu.ac.in).
 
-**Suggested reviewers.** _[To be completed — please add 3–5 names with affiliations and emails,
-avoiding recent co-authors or anyone at the authors' institutions.]_
-
-1. Name, Affiliation, email — expertise: LLM evaluation / prompt sensitivity
-2. Name, Affiliation, email — expertise: quantitative credit risk / ratings
-3. Name, Affiliation, email — expertise: specification-curve / metascience
-
-**Referees to exclude.** _[Optional — list any individuals or groups you wish to exclude, or state
-"none."]_ None.
+**Referees to exclude.** None.
 
 **Prior discussions.** We have not had any prior discussions with a Scientific Reports Editorial
 Board Member about the work described in this manuscript.
