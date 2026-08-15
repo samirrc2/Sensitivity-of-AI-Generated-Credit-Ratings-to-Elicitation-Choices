@@ -360,6 +360,23 @@ by $\Delta\kappa$ with issuer-clustered bootstrap confidence intervals; specific
 label permutation test within the honored-determinism subgrid; and variance shares by a mixed-effects
 decomposition of the letter-rank with random effects for item, design axes, and their interactions.
 
+\textbf{Statistical analysis.} All analyses are pre-registered unless labelled post-hoc, and inference
+uses distribution-free resampling throughout, so no normality assumption is made. Uncertainty on every
+headline quantity (the per-comparison IG/HY flip rate, $n=45$ credit-health issuers; implied turnover,
+$n=45$ directional issuers; and $\Delta\kappa$) is a percentile bootstrap resampled over issuer clusters
+(2{,}000 replicates for the economic quantities, 1{,}000 for the specification-curve quantities), and we
+report the point estimate with its two-sided 95\% confidence interval. Specification-invariance is
+tested with a one-sided label permutation test on the between-specification spread of band accuracy in
+the honored-determinism subgrid (999 permutations; $p=(k{+}1)/(n{+}1)$), the direction being one-sided
+because only an excess of observed over permuted spread is evidence against invariance. Equivalence of
+the real-firm and battery WATCH flip-shares is assessed by two one-sided tests (TOST) against a
+pre-registered $\pm0.15$ margin ($n=16$ real and $15$ battery WATCH issuers). The significance threshold
+is $\alpha=0.05$ for all tests. Because a specification curve evaluates many analytic paths, we guard
+against selective reporting by pre-registering the estimand and reporting the full curve rather than a
+chosen subset; the permutation test is itself a joint (multiplicity-aware) test of the whole grid. We
+follow the convention of reserving ``significant'' for results accompanied by a $p$-value and use
+``substantial'' or ``considerable'' otherwise.
+
 \textbf{Economic translation (post-hoc).} Rating dispersion is priced by anchoring to the Cornaggia
 et al.\ rating-spread schedule and to a cached daily option-adjusted-spread series; portfolio turnover
 is the share of names whose modal call changes across specifications. Regulatory capital is computed by
@@ -424,6 +441,12 @@ result) and are not distributed.
 \textbf{S.C.:} Conceptualization, Methodology, Software, Formal analysis, Data curation, Writing --
 original draft, Writing -- review \& editing. \textbf{R.C.:} Conceptualization, Validation, Writing --
 review \& editing. All authors reviewed and approved the manuscript.
+
+\bmhead{Ethics declarations}
+This study did not involve human participants, human tissue, or animal subjects, and used no personally
+identifiable or sensitive personal data; ethical approval was therefore not required. The analysis uses
+only synthetic firm profiles, publicly available corporate financial disclosures (SEC filings), and the
+authors' own model elicitations.
 
 \bmhead{Additional Information}
 \noindent\textbf{Competing interests:} The authors declare no competing interests.\\
