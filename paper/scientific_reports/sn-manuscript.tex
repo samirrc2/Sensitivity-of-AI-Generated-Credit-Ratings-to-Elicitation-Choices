@@ -11,127 +11,243 @@
 \author[1]{\fnm{Samir} \sur{Chincholikar}}\email{samir.chincholikar@gmail.com}
 \author*[1]{\fnm{Robin} \sur{Chawla}}\email{robin.chawla.cse14@iitbhu.ac.in}
 \affil[1]{\orgname{Independent researcher}, \orgaddress{\city{New York}, \country{USA}}}
-\abstract{Large language models (LLMs) are increasingly prompted for credit assessments, yet it is
-unknown whether the model holds a stable latent view the prompt reads out, or the elicitation
-manufactures the rating. Using a pre-registered specification-curve design---a fixed 90-item battery
-with an objective Altman Z$''$ benchmark crossed with a factorial grid of elicitation choices
-(provider, model version, temperature, prompt paraphrase, output format, few-shot exemplars,
-presentation) across three model families (12{,}960 elicitations)---we measure how far a credit rating
-moves across defensible choices. The instability is not a single tunable knob: no axis explains more
-than $\sim$5\% of rating variance, while run-to-run variation explains about a quarter. It survives
-honored determinism (permutation $p=0.001$). The opinion holds no stable resolution---chance-corrected
-agreement peaks at only $\kappa=0.46$, even at the coarse investment-grade/high-yield split, across
-which 27\% of matched pairs disagree. Switching or pooling vendors does not eliminate it. Economically,
-the modal call turns over $\sim$57\% of positions, and a post-hoc capital recast swings the same \$45bn
-book's Pillar-1 capital \$2.0--4.2bn. Instability also appears in 31 anonymized, perturbed real issuers
-benchmarked to disclosed agency ratings under a decontamination gate. The elicitation specification is
-itself a model-risk parameter.}
+\abstract{LLMs are increasingly used to support credit assessments, but it is unclear whether
+elicitation choices merely reveal a stable credit view or shape the rating. We examine this with a
+pre-registered specification-curve design that holds fundamentals fixed while varying how the assessment
+is elicited. A fixed 90-item battery spans a balanced grid of provider, model version, temperature,
+prompt paraphrase, output format, few-shot exemplars, and presentation, with three seeds
+(12{,}960 elicitations, three model families); credit-health profiles use a pre-specified Altman Z$''$
+benchmark. Our estimand is stability, not accuracy. No controllable axis accounts for more than about
+5\% of rating variance, while run-to-run variation accounts for about a quarter. Instability persists
+even under deterministic execution (permutation $p=0.001$).
+Cross-specification agreement stays limited at every resolution: Fleiss' $\kappa$ reaches at most 0.46
+even for the investment-grade/high-yield split, over which 26.8\% of matched pairs disagree; switching or
+pooling providers does not remove it. Modal calls imply 56.8\% portfolio turnover, and a post-hoc recast
+swings the same \$45 billion book between \$2.0 and \$4.2 billion of Pillar-1 capital. A complementary arm
+of 31 anonymized, perturbed real issuers under a decontamination gate shows the same instability.
+Elicitation specification is a material source of model risk.}
 \keywords{large language models, credit ratings, specification-curve analysis, model risk, reproducibility, investment grade}
 \maketitle
 
 \section{Introduction}
-Ask a large language model whether a firm is investment grade; then vary a defensible elicitation
-choice over identical financials---reword the prompt, change the output format, switch the temperature,
-or query a different vendor's model---and for 27\% of matched pairs the verdict crosses the
-investment-grade/high-yield boundary---the single most consequential line in credit. That boundary
-gates index inclusion, ratings-based investment mandates, collateral eligibility, covenant triggers,
-and regulatory capital; a name that crosses it is a fallen angel, forced-sold by mandate-constrained
-holders. When the crossing is driven not by the firm's fundamentals but by how the rating was
-elicited---which model, which wording, which format---the model has stopped measuring credit and
-started manufacturing it.
+Large language models (LLMs) are increasingly used as an analytic tool in finance, including for
+financial-statement interpretation, risk assessment, investment recommendations, and credit analysis
+\cite{hens2025risk}. In such applications a user usually provides a set of financial information and asks
+the model to make a judgment such as a credit rating, risk category, or trading recommendation. Implicit
+in such use is the presumption that the model has a sufficiently stable underlying assessment, and that
+reasonable changes to the phrasing of the question simply reveal that assessment. If this assumption is
+correct, then choices such as prompt wording, output format, sampling temperature, or model provider are
+mostly procedural. If it does not hold, then these choices are embedded in the measurement process
+itself.
 
-A rapidly growing body of practice treats LLMs as credit, risk, and trading analysts
-\cite{hens2025risk}: desks prompt a model for a rating view, a buy/hold/sell call, or a directional
-signal, and act on the answer. The workflow rests on a tacit assumption of \emph{elicitation}---that
-the model holds a stable latent assessment of the firm and the prompt merely reads it out. If that
-holds, prompt wording, output format, and vendor choice are administrative details. If it fails, they
-are confounds, and every downstream credit decision inherits their variance. That LLM outputs are
-prompt-sensitive is documented in computer science \cite{atil2024nondeterminism,kaplan2020scaling} and, for
-LLM-driven stock recommendations, in finance \cite{chon2025variability}; what is not established is
-the magnitude of that sensitivity in the units a risk officer acts on, or whether its cause is fixable.
+This distinction is of particular importance for credit evaluation. Credit ratings are categorical
+decisions with economically important cut points. The investment-grade/high-yield split influences index
+eligibility, ratings-based investment mandates, treatment of collateral, covenant provisions, cost of
+financing, and regulatory capital. A model that reaches different assessments because the same financial
+information is presented via another, but defensible, elicitation specification can lead to materially
+different downstream decisions even when the underlying firm fundamentals are unchanged. In our
+experiments, around 27\% of matched elicitation pairs place the same credit profile on opposite sides of
+the investment-grade/high-yield boundary. The key question we ask is therefore not whether an LLM can
+produce a plausible credit rating, but whether the rating is sufficiently stable when reasonable
+elicitation choices change.
 
-This paper measures the assumption directly and prices it. Borrowing the specification-curve method
-from empirical social science \cite{simonsohn2020specification,steegen2016multiverse} and, in a
-management-annotation setting, Camuffo et al.\cite{camuffo2026variance}, we hold the credit question fixed and vary
-only defensible researcher choices, then observe how far the rating moves. Our contribution is fourfold.
-First, we quantify the sensitivity of machine credit ratings against an objective benchmark and
-separate a fixable cause (``pick better prompts'') from an unfixable one (``the noise floor is
-intrinsic''). Second, we translate the instability into the quantities a desk acts on---migration
-across the IG/HY line, portfolio turnover, implied credit spread, and regulatory capital. Third, we
-show the fragility survives the natural rebuttals: honored determinism, and vendor choice. Fourth, we
-answer the ``use real data'' objection with a decontaminated real-firm arm: we show that naive
-real-issuer evaluation is contaminated by model memorization, build a perturbed, screened, and
-fingerprint-gated sample of real rated issuers, and show that substantial specification instability is
-observed there too. We make no claim that LLMs rate credit \emph{accurately}; our estimand throughout is stability,
-which is what a risk manager needs before any accuracy claim can matter \cite{drinkall2025forecasting}.
+Prompt sensitivity and run-to-run variability in LLMs have been well documented in computer science
+\cite{atil2024nondeterminism,kaplan2020scaling}, and recent work has shown related variability in
+LLM-generated financial recommendations \cite{chon2025variability}. But three questions remain
+inadequately resolved for high-stakes credit applications. First, it is unclear how large this
+instability is in the units used by credit practitioners, rather than generic measures of textual
+variation. Second, the variation observed may be due to a small number of controllable design choices,
+in which case the instability could be mitigated through an appropriate choice of prompt or model
+configuration, or it may signal a broader noise floor that pervades the elicitation process. Third,
+evaluation using real firms poses a further challenge: general-purpose LLMs may recognize issuers from
+publicly available financial information, making it hard to distinguish independent credit assessment
+from memorized issuer knowledge.
+
+We address these questions using a pre-registered specification-curve design based on the
+multiverse-analysis literature \cite{simonsohn2020specification,steegen2016multiverse}.
+Specification-curve analysis considers a single defensible analytical pipeline as a member of a larger
+family of reasonable specifications and tests whether the substantive result depends on the particular
+choice. Related approaches have been used to study researcher degrees of freedom and annotation
+variability \cite{camuffo2026variance}. We extend this logic to machine elicitation, where the
+elicitation specification is varied systematically while the financial information and the underlying
+task are held fixed. The distribution of ratings obtained is a direct measure of the dependence of the
+machine-generated credit opinion on the way it is asked.
+
+In the main experiment, we fix the number of items to 90 and pre-register a grid of elicitation choices
+over model provider, model version, temperature, prompt paraphrase, output format, few-shot exemplars,
+and answer presentation. The design comprises 12{,}960 planned elicitations across three model families
+over three repeated seeds. The financial profiles of the credit-health items are built on a pre-specified
+Altman Z$''$ accounting-based benchmark \cite{altman1968}. The benchmark provides a fixed, independently
+computable reference for credit health, whereas the elicitation specification varies. Our principal
+estimand is therefore not rating accuracy but \emph{stability across specifications}. The battery is thus
+designed as an identification device: it keeps the fundamentals fixed, provides balanced coverage across
+credit-health strata, and avoids confusing uncontrolled differences among naturally occurring issuers
+with elicitation effects.
+
+The paper makes four contributions. First, we measure the sensitivity of machine-generated credit
+ratings to the specification and decompose the rating variation into variation across firm
+characteristics, variation due to the elicitation process, variation across providers, and residual
+run-to-run variation. This allows us to distinguish instability that could reasonably be addressed by
+improved specification choices from variation that remains as a more general noise floor. Second, we
+study the persistence of the instability under two natural remedies, deterministic execution and provider
+selection, and we measure agreement at different rating resolutions, from the full letter scale to the
+investment-grade/high-yield split, to determine whether a stable credit opinion emerges after coarsening
+the rating scale. Third, we convert the observed instability into economically interpretable quantities:
+rating-boundary migration, portfolio turnover, implied credit-spread variation, and an illustrative
+regulatory-capital recast. These analyses relate specification sensitivity to the kinds of decisions that
+credit ratings are generally used for. Fourth, we test the persistence of the results outside the
+constructed battery while explicitly addressing contamination from model memorization. We compile a set
+of 31 U.S. business-to-business issuers with disclosed agency ratings, anonymize the profiles, perturb
+all dollar values by an issuer-specific multiplicative factor that preserves financial ratios, and employ
+a pre-registered fingerprinting gate to test whether the issuer remains identifiable from the financial
+information; identification drops from 22\% with unperturbed profiles to 2.9\% after decontamination.
+
+The conclusion across these analyses is robust: machine-generated credit ratings are materially sensitive
+to the elicitation specification. A single controllable design axis does not explain most of the
+variation, failure of deterministic execution does not fully eliminate instability, disagreement persists
+even after aggregation across providers, and the coarse investment-grade/high-yield distinction does not
+become fully specification-stable. The real-issuer analysis shows the same qualitative pattern under a
+decontamination procedure, with the smaller sample treated as complementary evidence rather than as a
+substitute for the controlled primary experiment. These findings imply that the elicitation specification
+must be treated as part of the model-risk environment rather than a trivial interface choice in
+AI-assisted credit assessment.
 
 \section{Related work}
-\textbf{Prompt sensitivity and non-determinism of LLMs.} Modern LLMs are transformer-based foundation
-models \cite{vaswani2017attention,devlin2019bert,bommasani2021foundation}. A growing literature documents that their
-outputs vary with semantically irrelevant features of the prompt---paraphrase, format, option order,
-and sampling---even when the underlying task is fixed \cite{atil2024nondeterminism,sclar2024formatspread}.
-Mizrahi et al.\cite{mizrahi2024multiprompt} show single-prompt evaluation is fragile and call for multi-prompt
-reporting. In finance, Chon et al.\cite{chon2025variability} report multifaceted variability in LLM-driven stock
-recommendations. Our
-work differs in three ways: we use an objective benchmark rather than human labels, we cross a
-factorial grid of choices rather than perturbing one axis at a time, and we price the resulting
-dispersion in regulatory and market units.
+\subsection{Prompt sensitivity and non-determinism in large language models}
+Large language models are built on transformer-based foundation models, and their output depends not only
+on the information provided to them but also on how that information is elicited
+\cite{vaswani2017attention,devlin2019bert,bommasani2021foundation}. Prior work has demonstrated that
+semantically irrelevant or substantively minor changes to prompt construction---such as paraphrasing,
+answer format, ordering of options, and sampling configuration---can produce materially different outputs
+even when the underlying task is unchanged \cite{atil2024nondeterminism,sclar2024formatspread}.
+Non-determinism can also be observed in nominally deterministic response-producing settings
+\cite{atil2024nondeterminism}.
 
-\textbf{Specification-curve and multiverse analysis.} The idea that a single analytical pipeline is
-one of many defensible ones is the ``garden of forking paths'' \cite{gelman2013garden}; undisclosed
-analytic flexibility can present anything as significant \cite{simmons2011false}, and multiverse and
-specification-curve analysis report results across the defensible choices
+These results pose a significant measurement challenge for empirical applications of LLMs. If conclusions
+are sensitive to a single wording of a prompt, then an observed model response could be an artifact of
+the elicitation specification rather than a stable underlying assessment. Mizrahi et
+al.\ \cite{mizrahi2024multiprompt} demonstrate how single-prompt evaluation can produce fragile
+conclusions and argue for evaluation across multiple prompt formulations. In finance, Chon et
+al.\ \cite{chon2025variability} likewise find large variation in stock recommendations produced by LLMs
+depending on the prompting and model choice.
+
+The present work extends this literature from general output sensitivity to a high-stakes financial
+decision expressed on a structured rating scale. Rather than perturbing each prompt feature individually,
+we test a pre-registered multivariate grid of elicitation choices and assess whether the resulting credit
+assessment remains stable while holding firm fundamentals constant. We thus focus not only on whether
+large-language-model outputs vary, but on how much, where the variation originates, and whether it is
+decision-relevant.
+
+\subsection{Multiverse analysis and specification curves}
+Empirical results often depend on a set of reasonable analytical choices rather than a single, uniquely
+correct specification. The problem has been described as the ``garden of forking paths,'' in which
+several defensible decisions can lead to different reported results even in the absence of intentional
+specification search \cite{gelman2013garden,simmons2011false}. Multiverse analysis and
+specification-curve analysis tackle this problem by assessing the effect across a specified set of
+reasonable analytical specifications rather than a single chosen pipeline
 \cite{steegen2016multiverse,simonsohn2020specification}.
-Camuffo et al.\cite{camuffo2026variance} apply a related design to human management annotation. We import the method
-to machine elicitation, treating each prompt-and-model configuration as one specification and the LLM
-as the estimator under test.
 
-\textbf{LLMs in finance, credit, and supervision.} General-purpose \cite{brown2020gpt3,ouyang2022instruct,achiam2023gpt4}
-and finance-specialized \cite{wu2023bloomberggpt,xie2023pixiu} LLMs are now applied to
-financial-statement analysis \cite{kim2024fsa}, return prediction \cite{lopezlira2023chatgpt},
-central-bank communication \cite{hansen2024fedspeak}, risk profiling \cite{hens2025risk}, banking
-supervision \cite{garciallorente2026banking}, and credit-rating forecasting
-\cite{drinkall2025forecasting}, which finds that traditional methods still outperform generative
-models on accuracy. These studies target capability; we target the prior question of
-reproducibility, which conditions any capability claim.
+Specification-curve analysis is particularly useful when the emphasis is on how sensitive a result is to
+the choices made by the researcher. The approach examines the distribution of outcomes over the entire
+set of defensible specifications, rather than asking whether a given specification leads to a desired
+outcome. Similarly, Camuffo et al.\ \cite{camuffo2026variance} introduce a variance-aware approach for
+LLM-assisted management annotation, underlining the importance of accounting for the variability
+introduced by machine-generated annotations.
 
-\textbf{Rating economics and model risk.} Statistical default prediction from financial ratios is
-long-established \cite{altman1968,ohlson1980}; so are the information carried by fine rating
-distinctions and the disagreement among human raters \cite{cantorpacker1997,kligersarig2000,tang2009}.
-Rating migration across the IG/HY line has first-order pricing and capital consequences
-\cite{cornaggia2018}. Supervisory model-risk guidance requires that model outputs be validated and
-their uncertainty characterized \cite{srletter2011}; the Basel standardized approach maps external
-ratings to risk weights \cite{bcbs2019cre20}, and the Basel Committee has itself documented
-cross-bank dispersion in risk-weighted assets for identical portfolios \cite{bcbs2013rcap}. We connect
-these threads by showing that, for a machine rater, the specification is a first-order source of that
-dispersion.
+We extend this framework to LLM elicitation. We treat each combination of the model and the prompting
+choices as one specification, while holding the financial information provided to the model fixed. The
+estimator under consideration is the large language model, and the specification curve that arises
+measures the degree to which the inferred credit assessment varies solely due to reasonable choices in
+how that assessment is solicited.
+
+\subsection{Large language models for finance, credit, and supervision}
+LLMs are increasingly employed for financial tasks that were previously the preserve of specialist
+judgment, traditional statistical models, or structured quantitative systems. General-purpose
+\cite{brown2020gpt3,ouyang2022instruct,achiam2023gpt4} and finance-specific
+\cite{wu2023bloomberggpt,xie2023pixiu} language models have been evaluated for financial-statement
+analysis \cite{kim2024fsa}, return prediction \cite{lopezlira2023chatgpt}, analysis of central-bank
+communication \cite{hansen2024fedspeak}, risk profiling \cite{hens2025risk}, banking supervision
+\cite{garciallorente2026banking}, and credit-rating prediction \cite{drinkall2025forecasting}.
+
+Much of this literature evaluates \emph{capability}: whether an LLM can extract useful financial
+information, produce accurate forecasts, classify firms, or approximate expert judgments. For instance,
+recent work on credit-rating forecasting compares generative LLMs with established predictive approaches
+and finds that conventional methods can retain an accuracy advantage \cite{drinkall2025forecasting}.
+These studies concern whether the model performs the task well.
+
+Our question comes before that comparison. An LLM-generated credit assessment should be sufficiently
+reproducible under reasonable elicitation choices to be interpretable as a meaningful measurement. A
+model can appear accurate under one prompt and output a materially different rating under another equally
+defensible prompt. We therefore emphasize \emph{stability versus capability}: whether the credit opinion
+itself is unchanged when the information being evaluated is unchanged but the elicitation specification
+differs.
+
+\subsection{Credit ratings, economic consequences, and model risk}
+Quantitative credit-risk assessment has a long history. Altman's bankruptcy-prediction framework
+\cite{altman1968} and later probabilistic approaches such as Ohlson's model \cite{ohlson1980} showed that
+accounting information contains systematic signal about corporate financial distress. Credit ratings
+encode economically relevant differences across firms, and disagreement among human rating agencies has
+been studied as a meaningful feature of the credit-rating process itself
+\cite{cantorpacker1997,kligersarig2000,tang2009}.
+
+Rating stability matters because shifts in rating categories can influence financing terms and
+institutional choices. Differences in ratings are associated with differences in borrowing costs and
+market pricing \cite{kligersarig2000,tang2009,cornaggia2018}, and migration across the
+investment-grade/high-yield boundary can have particularly important implications for investment
+mandates, portfolio composition, and capital treatment. On the regulatory side, the Basel standardized
+approach maps external credit assessments into risk weights for capital calculations
+\cite{bcbs2019cre20}, and supervisory exercises have documented considerable dispersion in risk-weighted
+assets even for common portfolios \cite{bcbs2013rcap}.
+
+These concerns connect LLM elicitation to the broader literature on model risk. Under supervisory
+guidance, models must be validated, their limitations understood, and the uncertainty in their outputs
+appropriately characterized \cite{srletter2011}. If the elicitation specification for an LLM-generated
+credit rating changes the rating materially, then the specification itself becomes part of the model-risk
+environment. Our work ties these literatures together by directly measuring that instability and
+quantifying it not only through statistical disagreement but also through rating migration, portfolio
+turnover, spread implications, and regulatory-capital translations.
 
 \section{Results}
-Throughout, the grid crosses three providers at two snapshots each (a current and a prior version),
-except one prior-version xAI snapshot that returned empty and is retained as a documented dead cell,
-not imputed; cross-provider comparisons therefore rest on the two families at full snapshot coverage.
+The pre-registered design assesses the stability of ratings across three model providers, using current
+and prior model snapshots where available. One prior-version xAI snapshot returned empty responses for
+all assigned cells and is retained as a documented dead cell rather than imputed. Comparisons that require
+full snapshot coverage therefore use the OpenAI and Google model families, while analyses that do not
+require balanced historical coverage retain the available xAI observations.
 
-\subsection{The instability is a noise floor, not a knob}
-A mixed-effects decomposition of the credit letter-rank attributes variance to the item, to each
-design axis, to the provider$\times$item interaction, and to residual seed-level noise
-(Table~\ref{tab:var}). The firm dominates ($\sim$63\%), as it should. What matters for the practitioner
-is the rest: the researcher-choice axes are strikingly flat---no single axis exceeds five percent,
-answer presentation being largest at $\sim$5.0\%, while the provider a desk would most expect to matter
-contributes only $\sim$1.3\% as a main effect---yet residual seed-level run-to-run variation, the pure
-repeated-call draw, is the single largest non-item component at $\sim$25\%. The instability is not
-concentrated in a design choice a careful analyst could optimize; it is dominated by residual
-run-to-run variation. A ``better''
-prompt buys little, because the prompt is not where most of the movement lives: the specification
-curve of the credit rating (Fig.~\ref{fig:speccurve}) fans out across defensible choices while the
-fixed firm fundamentals do not (Table~\ref{tab:var}).
+\subsection{Sources of rating variation}
+We first consider the source of variation in the machine-generated credit rating. A mixed-effects
+decomposition of the full letter-rating rank attributes variance to the firm profile, individual
+elicitation-design axes, the provider-by-item interaction, and residual run-to-run variation.
+
+As expected, the firm profile explains most of the observed variance, about 63\%, indicating that the
+models are quite sensitive to differences in the underlying financial information. But the remaining
+variation is important because the financial information is constant within each item. The largest
+non-item component of variance ($\sim$25\% of the total) is residual seed-level variation. In contrast,
+no individual controllable elicitation choice explains more than about 5\% of rating variance. The
+largest measured design-axis contribution is answer presentation ($\sim$5.0\%), with the model-provider
+main effect contributing $\sim$1.3\%. The provider-by-item interaction accounts for about 2.2\%
+(Table~\ref{tab:var}).
+
+These results indicate that specification sensitivity is not concentrated in a single elicitation choice
+that could be avoided by simply selecting a preferred prompt, format, or provider. Instead, the observed
+instability is spread across the elicitation process, with the variation of repeated calls much larger
+than any single controllable axis.
+
+The same pattern appears in the specification curve (Fig.~\ref{fig:speccurve}). The three seeds are
+pooled, and each point is a pre-registered specification, ordered by benchmark-consistent credit-band
+accuracy against the frozen Altman Z$''$ reference. Even when the underlying firm profiles are identical,
+performance varies substantially across defensible specifications, with roughly half of the
+specifications falling on opposite sides of the pre-registered majority-accuracy threshold. The
+specification curve therefore demonstrates that conclusions drawn from a single elicitation configuration
+do not necessarily generalize to other plausible configurations.
 
 \begin{figure}[t]\centering
 \includegraphics[width=0.82\textwidth]{fig_spec_curve.png}
 \caption{Specification curve of the machine credit rating. Each point is one of the pre-registered
 specifications (three seeds pooled), ordered by majority-correct credit-band accuracy against the
 Altman Z$''$ benchmark. Accuracy ranges widely across specifications despite identical firm
-fundamentals, and roughly half reverse the pre-registered accuracy verdict (spec-curve flip share
-$\approx0.50$)---the multiverse the method is named for.}
+fundamentals, and roughly half reverse the pre-registered accuracy verdict (specification-curve flip
+share $\approx0.50$)---the multiverse the method is named for.}
 \label{fig:speccurve}
 \end{figure}
 
@@ -141,72 +257,125 @@ choice is small relative to run-to-run noise.}\label{tab:var}
 \begin{tabular}{lr}\toprule
 Component & Variance share \\\midrule
 Item (firm profile) & $\sim$63\% \\
-Residual seed (run-to-run noise) & $\sim$25\% \\
+Residual seed (run-to-run variation) & $\sim$25\% \\
 Answer presentation ($A_7$, largest design axis) & $\sim$5.0\% \\
 Provider $\times$ item interaction & $\sim$2.2\% \\
 Model provider ($A_1$, main effect) & $\sim$1.3\% \\\bottomrule
 \end{tabular}\end{table}
 
-\subsection{Determinism does not save you}
-The natural rebuttal is that the noise floor is an artifact---two of the three providers ignore
-temperature $=0$, so residual run-to-run variation might vanish under genuine determinism. We pre-registered
-the test. Restricting to the one provider$\times$setting whose metadata confirms honored determinism
-(Google at temperature 0), the fragility does not vanish: across deterministic prompt configurations,
-majority-correct credit-band accuracy still ranges 0.36--0.69, and 62.5\% of specifications flip the
-majority verdict, with a permutation test decisively rejecting specification-invariance (no permuted
-labeling exceeded the observed statistic; $p=(k{+}1)/(n{+}1)=0.001$ over 999 permutations). Determinism
-removes run-to-run jitter but leaves specification fragility intact---the flip share inside the
-deterministic subgrid is higher, not lower, than the pooled estimate.
+\subsection{Specification fragility under deterministic execution}
+One explanation of this residual variation is that some model providers do not fully honor a requested
+temperature of zero. If so, the observed instability might largely reflect stochastic sampling rather
+than sensitivity to the elicitation specification per se.
 
-\subsection{No vendor escape}
-The $\sim$1.3\% provider main effect sits beside a fact that seems to contradict it. Across the two
-families at full snapshot coverage (OpenAI and Google; xAI contributes its current snapshot only, its
-prior snapshot being a documented dead cell), on identical firms across seeds, within-vendor agreement
-exceeds cross-vendor agreement at every granularity: 73.7\% within versus 50.4\% across at the band
-level, 22.5\% versus 5.2\% at the letter level. Both hold, and together they close both exits. Provider
-is a negligible \emph{level} effect but enters through a large provider$\times$item interaction:
-vendors disagree, but idiosyncratically, name by name, not as a constant shift a desk could calibrate
-out---unlike the persistent, characterizable differences of opinion documented among human rating
-agencies \cite{cantorpacker1997}. Switching vendors does not reliably change the rating on a given
-name, and pooling vendors does not eliminate the observed specification instability.
+We therefore perform the pre-registered determinism test and restrict the analysis to the
+provider-setting combination for which the returned metadata confirm deterministic execution: Google at
+temperature 0. This subgrid removes repeated-call sampling variation but retains substantial
+specification dependence. In it, 62.5\% of specifications fall on opposite sides of the majority-accuracy
+threshold, and benchmark-consistent credit-band accuracy ranges from 0.36 to 0.69 across deterministic
+prompt configurations.
 
-\subsection{A rating that will not hold a notch---or the investment-grade line}
-Because the credit view is elicited at full letter resolution (AAA\ldots C) and coarsened
-deterministically, we can ask the sharpest form of the question: at what rating granularity does the
-opinion become reproducible across specifications? It never fully does. Raw cross-specification
-agreement rises with coarseness but never clears 80\%---16\% at the letter grade, 34\% at the notch,
-65\% at the three-way band, and 73\% even at the two-way IG/HY split (equivalently, the disagreement
-shares plotted in Fig.~\ref{fig:ighy}). Chance-corrected, Fleiss' $\kappa$
-tops out at 0.46 (IG/HY) and falls to 0.39, 0.18, and 0.08 at finer scales; no granularity reaches the
-$\kappa=0.6$ conventionally required for substantial agreement (Fig.~\ref{fig:kappa}). This is not a
-model hedging to one central grade: all 21 letter grades are used, with scale-usage entropy 4.03 of a
-possible 4.39 bits. The opinion is fully expressed and genuinely unstable, not compressed. The priced
-information that notch-level distinctions carry \cite{kligersarig2000,tang2009} therefore cannot be
-reliably delivered by a machine rater elicited this way.
+A one-sided label-permutation test rejects the null of specification invariance. Across 999 permutations,
+no permuted labeling produced a between-specification spread as large as the observed statistic, giving
+$p=(k{+}1)/(n{+}1)=0.001$. Deterministic execution thus removes run-to-run jitter but does not eliminate
+sensitivity to prompt and presentation choices; indeed, the specification-curve flip share within the
+deterministic subgrid is higher than the pooled estimate. The instability therefore cannot be ascribed
+solely to stochastic sampling.
 
-\subsection{What it costs: turnover, spreads, and capital}
-The stability question becomes a markets question at the boundary. We define the per-comparison flip
-rate as follows: for each firm profile we draw two of its elicitations uniformly at random from the full
-grid---so that the two draws may differ on any elicitation axis (provider, model version, temperature,
-prompt paraphrase, output format, few-shot exemplars, answer presentation) and on the random seed, with
-no axis held fixed---and record whether they fall on opposite sides of the IG/HY line; the reported rate
-is the mean of this per-firm flip probability (one minus the Gini--Simpson concentration of the firm's
-IG/HY labels). On this measure, 26.8\% (95\% CI 20.9--32.5\%) of matched elicitation pairs move a name
-across the IG/HY boundary. A desk
-mechanically following the modal call would incur 56.8\% (95\% CI 50.9--62.7\%) turnover attributable
-purely to elicitation choices; the effect remains economically large even at the lower bound of each interval.
-Anchored to the Cornaggia et al.\ rating-spread schedule (80--140 bps per 2--3 notches)
-\cite{cornaggia2018}, the within-name spread range has a median near 860 bps, inflated by CCC
-saturation; for non-saturating names the median range is $\sim$261 bps, never below $\sim$106 bps. And
-in regulatory-capital units---mapping each specification's ratings through the Basel standardized
-approach \cite{bcbs2019cre20} as a labeled post-hoc cut---the \emph{same} \$45bn equal-weight
-corporate book requires between \$2.0bn and \$4.2bn of Pillar-1 minimum capital depending only on how
-the rating was requested. As a calibration (not an identity), two randomly chosen specifications differ
-on average by \$0.65bn, or 20.5\% of the median---comparable to the $\sim$20\% relative dispersion the
-Basel RCAP exercise found across internal-model banks holding identical portfolios
-\cite{bcbs2013rcap}. The choice of \emph{how} to ask, not \emph{what} is asked, moves a name by
-hundreds of basis points and billions in capital across the most consequential boundary in credit
-(Table~\ref{tab:frag}).
+\subsection{Agreement within and between providers}
+The small provider main effect might suggest that provider choice does not matter much. Direct agreement
+comparisons reveal a more complex pattern.
+
+Within-provider agreement is always higher than cross-provider agreement in the two model families with
+full current-and-prior snapshot coverage. Within a single provider, 73.7\% of identical firm profiles
+agree at the three-way credit-band level, but only 50.4\% agree across providers. At the full
+letter-rating level, agreement across providers falls to 5.2\% from 22.5\% within providers.
+
+These findings are consistent with the variance decomposition. Providers respond differently to specific
+firm profiles, creating a provider-by-item interaction. The interaction does not appear to be a constant
+shift in the direction of ratings; a simple global adjustment does not allow one provider to be
+characterized as systematically more conservative or more generous than another. The disagreement is
+issuer-specific.
+
+This distinction is important operationally. Changing vendors does not provide a predictable correction
+to the rating of a specific firm, and aggregating outputs across vendors does not remove the underlying
+specification dependence. Vendor diversification therefore does not resolve the conceptual measurement
+problem or the need to characterize uncertainty across elicitation specifications.
+
+\subsection{Stability across rating resolutions}
+Credit ratings are inherently hierarchical. A model may not reproduce an exact letter grade yet still
+express a stable broader assessment. We therefore assess cross-specification agreement as we move from
+the full 21-grade letter-rating scale to notch categories, three broad credit bands, and the binary
+investment-grade/high-yield distinction.
+
+Agreement improves as the scale is coarsened but does not become fully stable. Raw cross-specification
+agreement is approximately 16\% at the letter level, 34\% at the notch level, 65\% for the three-way
+credit band, and 73\% for the investment-grade/high-yield split. Equivalently, matched elicitation pairs
+disagree in about 84\%, 66\%, 35\%, and 27\% of comparisons, respectively (Fig.~\ref{fig:ighy}).
+
+The same conclusion follows from chance-corrected agreement. Fleiss' $\kappa$ is 0.08 at the full letter
+scale, 0.18 at the notch level, 0.39 for the three-way band, and reaches a maximum of only 0.46 for the
+investment-grade/high-yield split (Fig.~\ref{fig:kappa}). No evaluated rating resolution meets the
+conventional threshold for substantial agreement ($\kappa=0.60$).
+
+The instability is not caused by the models collapsing to a narrow set of central ratings. All 21 letter
+grades are used across the experiment, and scale-usage entropy is 4.03 of a maximum 4.39 bits. The models
+therefore use the available rating scale extensively but do not reproduce the same assessment
+consistently across specifications.
+
+The most economically consequential result appears at the coarsest resolution. Even when all finer
+distinctions are dropped and only the investment-grade/high-yield classification is retained, 26.8\% of
+matched elicitation pairs place the same firm profile on opposite sides of the boundary. Coarsening
+reduces specification sensitivity but does not eliminate it.
+
+\begin{figure}[t]\centering
+\includegraphics[width=0.66\textwidth]{figure1_ighy.pdf}
+\caption{Share of matched elicitation pairs whose credit verdicts differ, by rating granularity, where
+the two elicitations of a firm may differ on any grid axis (provider, model version, temperature,
+paraphrase, format, few-shot, presentation) and seed. Even at the coarse investment-grade/high-yield
+split---the most consequential line in credit---27\% of matched pairs disagree.}\label{fig:ighy}
+\end{figure}
+\begin{figure}[t]\centering
+\includegraphics[width=0.62\textwidth]{figureA_kappa.pdf}
+\caption{Chance-corrected cross-specification agreement (Fleiss $\kappa$) by granularity; agreement
+never reaches the $\kappa=0.6$ substantial-agreement threshold, peaking at 0.46 on the IG/HY split.}
+\label{fig:kappa}
+\end{figure}
+
+\subsection{Economic implications of elicitation instability}
+Statistical disagreement is economically important when alternative specifications produce decisions on
+opposite sides of consequential credit boundaries. We translate the observed rating instability into
+three decision-relevant quantities: investment-grade/high-yield migration, portfolio turnover, and
+illustrative spread and capital implications.
+
+For each credit-health profile we draw two elicitations from its observed specification distribution,
+allowing the pair to differ on any elicitation axis and on seed. We then compute, for each firm, the
+probability that the two resulting ratings fall on opposite sides of the investment-grade/high-yield
+boundary, and average across profiles. This per-comparison flip probability is one minus the
+Gini--Simpson concentration of the firm's binary IG/HY outcomes.
+
+This yields an investment-grade/high-yield flip rate of 26.8\% (95\% CI 20.9--32.5\%): more than a
+quarter of matched ratings for the same underlying credit profile disagree on which side of the
+investment-grade boundary the firm sits.
+
+The implication for the directional task is similar. A strategy that mechanically follows the modal
+buy/hold/sell call across specifications would incur 56.8\% implied turnover (95\% CI 50.9--62.7\%) due
+solely to elicitation choices. With the financial inputs unchanged, this turnover reflects specification
+instability rather than new economic information.
+
+We also offer two post-hoc economic calibrations. Across all profiles, the median implied within-name
+spread range is about 860 basis points under the rating-spread schedule of Cornaggia et
+al.\ \cite{cornaggia2018}, inflated by names saturating in the CCC region; for non-saturating profiles
+the median range is about 261 basis points, and no profile falls below about 106 basis points. Mapping
+each specification's rating through the Basel standardized external-ratings risk-weight framework
+\cite{bcbs2019cre20} for a single hypothetical \$45 billion equal-weight corporate portfolio, the
+resulting Pillar-1 minimum-capital requirement---driven only by the elicitation specification---ranges
+from approximately \$2.0 billion to \$4.2 billion. Two randomly drawn specifications differ by about
+\$0.65 billion on average, or 20.5\% of the median computed capital requirement---comparable to the
+$\sim$20\% relative dispersion the Basel RCAP exercise found across internal-model banks holding
+identical portfolios \cite{bcbs2013rcap}. Although these spread and capital calculations are explicitly
+post-hoc calibrations rather than confirmatory tests, they indicate that the magnitude of
+specification-induced rating dispersion is economically non-trivial (Table~\ref{tab:frag}).
 
 \begin{table}[t]\centering
 \caption{Fragility in decision and economic units.}\label{tab:frag}
@@ -223,28 +392,48 @@ Implied spread range per name (non-saturating / median) & $\sim$261 / $\sim$860 
 Pillar-1 capital range, same \$45bn book (post-hoc cut) & \$2.0bn -- \$4.2bn \\\bottomrule
 \end{tabular}\end{table}
 
-\subsection{Real-firm robustness under a decontamination gate}
-A natural objection is that the instability reflects our constructed inputs. But evaluating LLMs on
-real issuers is itself contaminated: asked to name the company behind an anonymized financial profile,
-Gemini-Flash identifies 22\% of mid-cap issuers from the figures alone, with hits clustered and
-reasoning-traced. Naive real-firm evaluation can therefore conflate memorized issuer information with
-independent credit judgment. We nonetheless build a decontaminated arm: 31 US mid-cap (\$2--15B)
-business-to-business issuers whose latest 10-K discloses a current agency rating (extracted with a
-verbatim quotation, permanent SEC URL, and document hash). Each dollar figure is scaled by a per-issuer
-factor drawn log-uniform$[0.6,1.7]$---which preserves the financial-ratio structure used by the
-benchmark while disrupting exact-figure lookup---and consumer-facing firms are
-screened out. A pre-registered fingerprinting gate certifies decontamination at 2.9\% identification.
-Rating each firm across a frozen 12-specification grid at three seeds, and re-scoring the constructed
-battery on the identical grid, the real-arm WATCH flip-share is 0.226 (95\% CI 0.147--0.308), compared
-with 0.318 (95\% CI 0.223--0.406) in the matched battery. The estimated difference is $-0.091$
-(95\% CI $-0.213$ to $0.032$) (Table~\ref{tab:realarm}). Although the difference is not statistically
-distinguishable from zero, formal equivalence within the pre-registered $\pm0.15$ margin is not
-established (two-one-sided-tests $p=0.179$), reflecting limited power in the 16-real/15-battery WATCH
-samples. The real-firm arm therefore provides evidence that substantial specification instability
-persists in real issuers, while the data are insufficient to establish quantitative equivalence with
-the constructed battery; the somewhat lower point estimate is consistent with real WATCH names sitting
-farther from band thresholds, not with residual memorization. Model bands match the disclosed agency rating
-only 54\% of the time.
+\subsection{Robustness on decontaminated real issuers}
+The constructed battery provides the controlled context in which to identify elicitation instability, but
+a key external-validity concern is whether similar behavior appears for real firms. Direct evaluation on
+real issuers raises a further methodological problem: an LLM may recognize a company from publicly
+available financial figures even when the company name is removed.
+
+We test this possibility first, using real issuers as a robustness sample. When presented with anonymized
+but otherwise unchanged financial profiles, Gemini-Flash correctly identifies about 22\% of the selected
+mid-cap issuers from their financial numbers alone. This shows that anonymizing the issuer name does not
+guarantee that an LLM makes an independent credit assessment rather than relying on memorized issuer
+information.
+
+We therefore form a decontaminated real-firm portfolio of 31 U.S. business-to-business issuers with
+market capitalizations between \$2 billion and \$15 billion that report a current long-term agency rating
+in their latest Form 10-K. Rating provenance is preserved through a verbatim disclosure, a permanent SEC
+filing URL, and a document hash. For each issuer, all dollar-valued financial quantities are scaled by a
+single factor drawn from a log-uniform distribution over $[0.6,1.7]$. This transform preserves the
+financial ratios used by the accounting-based benchmark but breaks exact-figure lookup. Consumer-facing
+companies are also excluded so that they are not identified from highly distinctive business profiles.
+
+The pre-registered fingerprinting gate lowered the issuer-identification rate from 22\% to 2.9\%, below
+the pre-specified 5\% threshold. The decontaminated firms are then rated on a frozen 12-specification grid
+at three seeds, and the constructed battery is re-rated under exactly the same specification grid to
+provide a matched comparison.
+
+The real-firm WATCH-stratum flip share is 0.226 (95\% CI 0.147--0.308), relative to 0.318 (95\% CI
+0.223--0.406) for the matched constructed battery. The estimated difference is $-0.091$ (95\% CI $-0.213$
+to $0.032$; Table~\ref{tab:realarm}). The difference is not statistically distinguishable from zero;
+however, the pre-registered two-one-sided-tests (TOST) equivalence test at the $\pm0.15$ margin does not
+establish quantitative equivalence ($p=0.179$), consistent with limited power at 16 real and 15 battery
+WATCH observations.
+
+The appropriate conclusion is therefore narrower than numerical equivalence: noticeable specification
+instability is still observed in decontaminated real issuers under the same elicitation conditions. The
+real-firm point estimate is somewhat lower than the matched battery's, but the available sample is too
+small to determine whether that difference is a stable population difference. As a separate descriptive
+reference, machine-generated credit bands match the disclosed agency ratings about 54\% of the time.
+
+Overall, the real-firm analysis supports the external relevance of the main result without replacing the
+role of the constructed battery in controlled identification. It also illustrates why naive evaluation on
+anonymized real issuers is not necessarily reliable, since the models under study may have encountered
+those issuers during pretraining.
 
 \begin{table}[t]\centering
 \caption{Real-firm arm: 31 decontaminated business-to-business issuers, agency-rating benchmark.}
@@ -261,143 +450,305 @@ Interpretation & substantial instability persists; equivalence not established \
 Machine band vs.\ disclosed agency rating (descriptive) & 54\% \\\bottomrule
 \end{tabular}\end{table}
 
-\begin{figure}[t]\centering
-\includegraphics[width=0.66\textwidth]{figure1_ighy.pdf}
-\caption{Share of matched elicitation pairs whose credit verdicts differ, by rating granularity, where
-the two elicitations of a firm may differ on any grid axis (provider, model version, temperature,
-paraphrase, format, few-shot, presentation) and seed. Even at the coarse investment-grade/high-yield
-split---the most consequential line in credit---27\% of matched pairs disagree.}\label{fig:ighy}
-\end{figure}
-\begin{figure}[t]\centering
-\includegraphics[width=0.62\textwidth]{figureA_kappa.pdf}
-\caption{Chance-corrected cross-specification agreement (Fleiss $\kappa$) by granularity; agreement
-never reaches the $\kappa=0.6$ substantial-agreement threshold, peaking at 0.46 on the IG/HY split.}
-\label{fig:kappa}
-\end{figure}
-
 \section{Discussion}
-The message for AI-assisted credit is blunt: a single-prompt LLM rating should not be treated as a
-specification-invariant measurement, it is one draw from a distribution wide enough to reclassify a firm
-across the investment-grade line, to churn a portfolio, and to double a capital charge. The fragility is
-dominated by residual run-to-run variation rather than any single elicitation choice a desk could
-optimize; it survives honored determinism; it cannot be escaped by switching or pooling vendors; and the
-machine credit opinion holds no stable rating resolution, not even the coarse IG/HY split. Critically,
-the pattern is not an artifact of synthetic inputs: the qualitative finding of substantial specification
-instability extends to real issuers under a design that first \emph{demonstrates} the contamination
-of naive real-firm evaluation and then removes it. For a risk function, the practical implication is
-that the prompt specification is itself a model-risk parameter under any serious governance standard
-\cite{srletter2011}: a rating reported without its specification curve overstates what the model
-actually determines. The fingerprinting result is a contribution in its own right---to our knowledge
-the first direct evidence that anonymized real-firm LLM evaluation can be contaminated by memorization
-even without names in the prompt---and it argues for decontamination gates as standard practice in
-financial LLM benchmarking.
+We examine whether the credit rating produced by an LLM can be treated as a robust measure of a firm's
+financial health or whether it depends heavily on how that measure is elicited. The main finding of the
+pre-registered specification curve is that substantial instability remains even after controlling for the
+underlying financial information. As expected, firm characteristics explain most of the total variation
+in ratings, but the residual variation due to elicitation and repeated calls is large enough to change
+economically meaningful decisions.
+
+The variance decomposition clarifies the origin of this instability. No single controllable design choice
+explains more than $\sim$5\% of rating variance, whereas residual run-to-run variation accounts for about
+a quarter of the total. This distinction matters because it implies that the instability cannot be
+resolved by selecting a preferred prompt formulation, output format, temperature, or provider. A single
+poor choice of elicitation parameter does not dominate the problem; instead, the same financial
+information can produce meaningfully different credit assessments under multiple reasonable
+specifications.
+
+The deterministic analysis distinguishes specification dependence from ordinary sampling noise.
+Restricting the experiment to the provider-setting combination where deterministic execution is verified
+removes repeated-call stochasticity but does not restore specification invariance. Credit-band accuracy
+is highly variable across deterministic prompt specifications, and the permutation test rejects the
+hypothesis that the observed specification spread is consistent with invariant ratings. Deterministic
+generation and stable credit assessment are therefore independent properties: removing sampling
+randomness does not guarantee that semantically similar elicitation choices lead to the same outcome.
+
+A further result concerns provider choice. The provider main effect is small, yet agreement within
+providers is much higher than agreement between providers. These findings do not contradict each other.
+They show that providers do not primarily differ in a simple global tendency to give systematically
+higher or lower ratings; instead, the differences depend on the firm being evaluated. Such
+issuer-specific disagreement cannot be removed by applying a constant vendor adjustment, so switching or
+pooling providers does not remove the underlying specification dependence.
+
+The instability also persists after substantial simplification of the rating scale. Exact letter-grade
+agreement is low, and even coarsening the assessment to notch categories, broad credit bands, and the
+binary investment-grade/high-yield classification does not yield specification-invariant judgments.
+Chance-corrected agreement is only $\kappa=0.46$, and 26.8\% of matched elicitation pairs disagree at the
+economically consequential IG/HY boundary. This is especially important because the discrepancy cannot be
+dismissed as minor movement between neighboring letter grades: the same financial profile can fall on
+opposite sides of a boundary widely used in investment mandates, market segmentation, and risk
+management.
+
+The economic translations illustrate the potential scale of the problem, though they are presented as
+post-hoc calculations rather than confirmatory evidence. A modal-call strategy implies 56.8\% turnover
+due to elicitation choices alone, and the specification-dependent ratings translate into spread and
+standardized-capital ranges that are economically large despite no change in the underlying portfolio.
+These exercises are not meant to suggest that LLM-generated ratings are currently used directly to
+determine regulatory capital; rather, they express the observed rating dispersion in units that make its
+potential decision relevance easier to assess. A model output unstable enough to move these downstream
+mappings should not be treated as a specification-independent measurement.
+
+The constructed battery is essential to identifying this effect. The main experiment is not intended to
+reproduce the natural cross-section of rated firms or to measure the absolute accuracy of LLM credit
+ratings; its aim is to determine whether the same credit assessment is produced given the same financial
+information but different reasonable elicitation choices. A controlled battery holds firm fundamentals
+fixed and varies the elicitation specification, and it provides a pre-specified accounting-based reference
+for constructing and stratifying the credit-health profiles. Variation in the ratings is therefore
+attributable to the elicitation process rather than to uncontrolled variation across firms.
+
+The real-issuer experiment complements, rather than substitutes for, this identification strategy.
+Crucially, it first demonstrates that direct evaluation on anonymized real firms is not automatically
+clean: a model identifies around 22\% of the unperturbed issuers from financial information alone. After
+issuer-specific scaling and screening, the fingerprint rate falls to 2.9\%, and substantial
+specification instability is still observed in the real-firm arm under this decontamination gate. The
+real and constructed WATCH estimates are not shown to be quantitatively equivalent, and the sample is too
+small to support such a claim; nevertheless, the qualitative pattern is robust and suggests that the main
+finding is not confined to the controlled battery.
+
+The fingerprinting result also has implications beyond the credit-rating experiment at hand. Public
+companies' financial information is widely disseminated and may have been included in the training data
+of general-purpose LLMs. Removing company names does not necessarily remove issuer identity from an
+evaluation: if a model can infer the issuer from the precise financial numbers, then a judgment that
+appears to be based on the inputs may also draw on memorized information about that company. Perturbation
+combined with explicit identification testing is a practical way to mitigate this risk when evaluating
+LLMs on public financial entities.
+
+Taken together, the results suggest that a credit rating produced by an LLM should not be interpreted as a
+specification-invariant point estimate. Each response is a realization from a larger distribution induced
+by the elicitation procedure. This does not imply that LLMs cannot contribute to credit analysis, and the
+present study does not assess whether their ratings are more or less accurate than established
+credit-assessment methods. Rather, a prerequisite for reliable use is to characterize the uncertainty
+associated with reasonable elicitation choices before treating a point rating as a stable model output.
+
+This interpretation ties directly to model-risk management. Model outputs used in consequential financial
+decisions are generally expected to be validated and their uncertainty and limitations understood
+\cite{srletter2011}. Our results suggest that, for LLM-based credit assessment, the elicitation
+specification itself should be part of that uncertainty assessment. Reporting a single rating without
+evaluating its sensitivity to plausible specifications can convey a false sense of precision. Repeated
+elicitation, related stability diagnostics, or specification curves therefore provide a more informative
+representation of machine-generated credit opinions than a single prompted response.
 
 \subsection{Limitations}
-We make no capability claim: whether these models rate credit \emph{well} is a separate question we do
-not adjudicate \cite{drinkall2025forecasting}. The finding is bounded to the three model families and
-settings studied, and one prior-version model contributed no data (a documented dead cell). Flip-share
-point estimates, though at full power, remain sample statistics on a 90-item battery; the real-firm arm
-comprises 31 issuers, thinned to a business-to-business, mid-cap universe by the decontamination screen,
-so its strata are smaller than the constructed battery's. The capital and spread translations are
-labeled post-hoc calibrations, not pre-registered confirmatory tests. Within those bounds, the stability
-conclusion is robust.
+These findings have several limitations that bound their scope. First, the study considers three model
+families and the specific model snapshots and configurations included in the pre-registered design; the
+results should therefore be viewed as evidence of how the evaluated systems behave, not as a universal
+numerical estimate for all current or future LLMs. One earlier-version xAI snapshot returned no usable
+content and is retained as a documented dead cell rather than imputed.
+
+Second, the main identification sample is a fixed 90-item constructed battery, with 45 profiles in the
+credit-health task and 45 in the directional task. Repeated specification increases coverage of the
+elicitation space but not the number of independent underlying firm profiles, so the flip rates and
+variance estimates remain sample statistics for the battery considered.
+
+Third, the real-firm arm comprises 31 U.S. mid-cap business-to-business issuers selected under the
+decontamination design. This sample checks external validity but is much smaller than the controlled
+battery at the relevant strata; in particular, the WATCH-stratum comparison lacks the power to detect the
+pre-specified equivalence margin, and quantitative equivalence between the constructed and real-firm
+estimates is not established.
+
+Fourth, the study measures stability, not absolute credit-rating capability. The Altman Z$''$ mapping
+provides a pre-specified accounting-based benchmark for constructing and evaluating the controlled
+credit-health battery, while disclosed agency ratings provide an alternative descriptive reference;
+neither is treated as a unique ground-truth credit opinion. Whether generative models can produce more
+accurate credit assessments than established statistical, market-based, or agency methods is a separate
+research question.
+
+Finally, the spread and regulatory-capital translations are post-hoc calibrations that express observed
+rating dispersion in economically interpretable units. They are not pre-registered tests and are not
+intended as simulations of a real regulatory or institutional implementation. Within these bounds, the
+main stability finding is robust across the specification curve, the deterministic subgrid, the provider
+comparison, the rating-resolution analysis, and the decontaminated real-firm arm.
 
 \subsection{Future work}
-Natural extensions include larger and sector-stratified real-firm samples, retrieval-augmented and
-tool-using rating agents, human-in-the-loop workflows that report specification curves rather than point
-ratings, and decontamination gates applied to other high-stakes financial LLM tasks.
+The present design suggests several extensions. Larger and sector-stratified real-issuer samples would
+yield more precise estimates of how specification instability varies with firm characteristics and
+distance from rating boundaries. Similar designs could test retrieval-augmented or tool-using credit
+agents, where access to external information may reduce some forms of uncertainty while adding further
+specification choices. Human-in-the-loop workflows could also be explored to determine whether providing
+analysts with distributions of machine ratings or specification curves leads to more reliable decisions
+than a single model-generated assessment. More broadly, the decontamination procedure could be applied to
+other evaluations of financial LLMs involving publicly documented entities: explicitly testing whether an
+ostensibly anonymized case remains identifiable, in tasks such as risk assessment, valuation, investment
+recommendation, and supervisory analysis, may help separate independent reasoning from memorized entity
+knowledge.
 
 \section{Conclusion}
-Reproducibility in AI-assisted credit cannot be assumed from a single prompt. Across a pre-registered
-specification curve, although firm fundamentals explain most rating variation, substantial
-specification- and run-level instability remains: the machine credit rating crosses the investment-grade
-line for 27\% of matched elicitation pairs; it holds no stable resolution; and the instability survives
-determinism, vendor choice, and---under a decontamination gate---the move to real issuers. The
-specification is part of the result. A machine rating should be reported, governed, and priced with its
-specification curve attached.
+This study shows that reproducibility in AI-assisted credit assessment cannot be taken for granted from a
+single elicitation. Across a pre-registered specification curve, firm fundamentals explain most of the
+total variation in machine-generated ratings, but substantial specification- and run-level instability
+remains after controlling for the underlying financial information. No particular controllable elicitation
+choice explains much of this variation, and the instability persists even when the analysis is limited to
+verified deterministic execution.
+
+The resulting disagreement is not confined to fine distinctions between neighboring ratings. Even at the
+binary investment-grade/high-yield level, 26.8\% of matched elicitation pairs place the same credit
+profile on opposite sides of the boundary, while chance-corrected agreement is only $\kappa=0.46$. The
+effect is not removed by switching or pooling providers, and the observed dispersion is large enough to
+create material differences when measured in portfolio, spread, and standardized-capital terms.
+
+The controlled battery is designed to identify this instability by fixing firm fundamentals and varying
+only the elicitation specification. A complementary real-firm arm exhibits the same qualitative pattern
+after addressing a distinct problem in LLM evaluation: the ability to identify anonymized public issuers
+from their financial information. The decontamination procedure reduces issuer identification from 22\% to
+2.9\%, and the real-firm sample still shows substantial specification instability afterward.
+
+These results are not evidence that LLMs are accurate credit raters, and they do not imply that all
+current or future models will exhibit the same level of instability. For the systems studied here they
+make a more basic point: the elicitation procedure is part of the measurement. Unless stability with
+respect to reasonable elicitation choices has been demonstrated, a machine-generated credit rating should
+not be treated as a specification-independent point estimate. In AI-assisted credit analysis, the outcome
+includes the specification.
 
 \section{Methods}
-\textbf{Design rationale.} We use a constructed battery as the primary identification environment
-because the estimand is elicitation stability, not performance on a naturally occurring issuer
-distribution. The battery holds firm fundamentals fixed, provides a pre-computable objective benchmark,
-and permits balanced coverage of credit-health strata while varying only the elicitation specification.
-Using real issuers alone would additionally risk contamination from model memorization; we therefore
-treat the decontaminated real-firm arm as a complementary external-validity test rather than the
-primary identification sample.
+\subsection{Design, battery, and benchmark}
+The study is designed to measure \emph{elicitation stability}: whether an LLM produces a credit
+assessment that is consistent when the underlying financial information is held constant but reasonable
+choices in how the assessment is elicited vary. The aim is therefore not to estimate rating accuracy on a
+naturally occurring population of firms, but to isolate variation attributable to the elicitation
+process.
 
-\textbf{Battery and benchmark.} The battery is a fixed set of 90 firm-quarter profiles, each carrying a
-compact financial statement (revenue, EBIT, total assets and liabilities, equity, working-capital
-components, retained earnings). The 90 profiles comprise two equally sized task families: 45
-\emph{credit-health} items, on which the model returns a letter/band credit rating, and 45
-\emph{directional} items, on which it returns a buy/hold/sell call (used for the turnover translation in
-Section~3.5). The credit-rating results and the IG/HY flip rate are computed on the 45 credit-health
-items; the directional items enter only the portfolio-turnover measure. For the credit task, each item's
-benchmark band is the Altman Z$''$ bond-rating equivalent \cite{altman1968} of its profile (coefficients
-6.56/3.26/6.72/1.05; cutoffs 2.60/1.10), with the 45 credit-health items balanced 15/15/15 across the
-safe/watch/distress strata. The benchmark was frozen under a pre-registration hash before any model
-query; an independent post-hoc re-execution from the frozen facts reproduces all 45 credit-item bands.
+We use a constructed battery as the main identification environment because it allows firm fundamentals
+to be held fixed while the elicitation specification varies, permits balanced representation across
+credit-health conditions, and provides a benchmark that can be computed before any model is queried.
+Restricting the assessment to actual public companies would introduce a further source of uncertainty,
+because an LLM might identify an issuer from financial information it was exposed to during training. We
+therefore use the controlled battery for the main analysis and a separately decontaminated real-firm
+sample for a complementary external-validity test.
 
-\textbf{Specification grid.} Seven researcher-choice axes are crossed: provider (OpenAI, Google, xAI),
-model version (a current and a prior snapshot per provider), temperature (0 and 1.0), prompt paraphrase
-(three semantically equivalent templates), output format (JSON/free-text), few-shot exemplars (zero or
-two), and answer-option presentation (prose/original vs.\ table/reversed). A balance-constrained
-D-optimal fraction of 48 specifications was generated (main-effects model, effect-coded; seed frozen),
-with a post-hoc parsing-rule axis applied to stored text. Each specification is replicated across three
-seeds; the effective temperature returned in provider metadata is logged, because requested temperature
-$=0$ is not uniformly honored.
+The battery consists of 90 fixed firm-quarter profiles. Each profile is summarized in a compact financial
+statement, including revenue, EBIT, total assets and liabilities, equity, working-capital figures, and
+retained earnings. The profiles comprise two equally sized task families: 45 credit-health items, for
+which the model produces a credit rating, and 45 directional items, for which the model produces a
+buy/hold/sell call. All credit-rating agreement and investment-grade/high-yield analyses use the 45
+credit-health profiles; the directional profiles are used only for the portfolio-turnover translation.
 
-\textbf{Collection.} The full design is 90 items $\times$ 48 specifications $\times$ 3 seeds $=12{,}960$
-elicitations; 10{,}793 returned content. One prior-version xAI snapshot returned empty for all 2{,}160
-of its cells and is retained as a documented dead cell, not imputed. Each call is stored as an immutable
-JSON record; the raw corpus and every downstream stage are fixed by SHA-256 manifests. Collection is
-separated from analysis: the confirmatory analysis reads only the frozen response panel and never
-re-queries a model.
+For the credit-health task, each profile is associated with a pre-specified Altman Z$''$ accounting-based
+reference \cite{altman1968}, computed with coefficients 6.56, 3.26, 6.72, and 1.05 and cutoffs 2.60 and
+1.10. The resulting safe, watch, and distress strata each contain 15 observations, evenly distributed
+across the 45 credit-health profiles. The Altman mapping provides a deterministic accounting reference
+for constructing and stratifying the controlled battery and is not treated as a unique ground-truth
+agency rating, because our interest is stability across elicitation specifications rather than absolute
+rating accuracy. The benchmark and battery were frozen under a pre-registration hash before any model
+query, and an independent post-hoc re-execution from the frozen financial facts reproduces all 45
+benchmark classifications.
 
-\textbf{Parsing and statistics.} Stored completions are parsed under three rules (strict, lenient,
-tolerant) applied post-hoc; the letter grade is mapped to notch, three-way band, and IG/HY coarsenings.
-Agreement is measured by Fleiss' $\kappa$; the contrast between homogeneous and heterogeneous ensembles
-by $\Delta\kappa$ with issuer-clustered bootstrap confidence intervals; specification-invariance by a
-label permutation test within the honored-determinism subgrid; and variance shares by a mixed-effects
-decomposition of the letter-rank with random effects for item, design axes, and their interactions.
+\subsection{Specification grid and data collection}
+We manipulate seven researcher-controlled elicitation dimensions: model provider (OpenAI, Google, xAI),
+model version (a current and a prior snapshot per provider), temperature (0 or 1.0), prompt paraphrase
+(three semantically equivalent formulations), output format (JSON or free-text), few-shot exemplars (zero
+or two), and answer presentation (original prose versus a table with reversed option ordering). A
+balance-constrained D-optimal fractional design of 48 specifications was generated from an effect-coded
+main-effects model with the design seed frozen in advance. Each specification was evaluated over three
+seeds. Provider metadata were preserved as returned, including effective generation settings where
+available; the requested temperature of 0 was not uniformly honored by providers.
 
-\textbf{Statistical analysis.} All analyses are pre-registered unless labelled post-hoc, and inference
-uses distribution-free resampling throughout, so no normality assumption is made. Uncertainty on every
-headline quantity (the per-comparison IG/HY flip rate, $n=45$ credit-health issuers; implied turnover,
-$n=45$ directional issuers; and $\Delta\kappa$) is a percentile bootstrap resampled over issuer clusters
-(2{,}000 replicates for the economic quantities, 1{,}000 for the specification-curve quantities), and we
-report the point estimate with its two-sided 95\% confidence interval. Specification-invariance is
-tested with a one-sided label permutation test on the between-specification spread of band accuracy in
-the honored-determinism subgrid (999 permutations; $p=(k{+}1)/(n{+}1)$), the direction being one-sided
-because only an excess of observed over permuted spread is evidence against invariance. Equivalence of
-the real-firm and battery WATCH flip-shares is assessed by two one-sided tests (TOST) against a
-pre-registered $\pm0.15$ margin ($n=16$ real and $15$ battery WATCH issuers). The significance threshold
-is $\alpha=0.05$ for all tests. Because a specification curve evaluates many analytic paths, we guard
-against selective reporting by pre-registering the estimand and reporting the full curve rather than a
-chosen subset; the permutation test is itself a joint (multiplicity-aware) test of the whole grid. We
-follow the convention of reserving ``significant'' for results accompanied by a $p$-value and use
-``substantial'' or ``considerable'' otherwise.
+The complete intended experiment thus comprises $90\times48\times3=12{,}960$ elicitation cells, of which
+10{,}793 returned substantive content. One earlier-version xAI snapshot returned blank answers for all
+2{,}160 cells assigned to it; this block is retained as a documented dead cell and is not imputed.
+Comparisons requiring full current-and-prior snapshot coverage therefore use the two providers with full
+coverage. Each call is stored as an immutable JSON record containing the experimental specification, the
+returned content, and the available provider metadata. Data collection and analysis are separated: all
+confirmatory analyses run only on the frozen response corpus and do not re-query any model.
 
-\textbf{Economic translation (post-hoc).} Rating dispersion is priced by anchoring to the Cornaggia
-et al.\ rating-spread schedule and to a cached daily option-adjusted-spread series; portfolio turnover
-is the share of names whose modal call changes across specifications. Regulatory capital is computed by
-mapping each specification's ratings through the Basel CRE20 external-ratings risk-weight table
-(quote-verified) on a \$45bn equal-weight book; the RCAP comparison is a calibration, not an identity.
-These translations are labeled post-hoc extensions of the frozen analysis.
+\subsection{Outcome construction and statistical analysis}
+Stored model responses are parsed under three rules---strict, lenient, and tolerant---applied after
+collection. Credit ratings are first expressed on the full 21-grade letter scale and then deterministically
+aggregated into notch categories, three broad credit bands, and the binary investment-grade/high-yield
+classification. This permits examination of stability at increasingly coarse rating resolutions without
+additional model calls.
 
-\textbf{Real-firm arm.} We identify 31 US mid-cap (\$2--15B) business-to-business issuers whose most
-recent 10-K discloses a current long-term agency rating (S\&P primary, else Moody's/Fitch mapped),
-extracted with a verbatim quotation, permanent SEC URL, and document hash. To preclude memorization,
-every dollar figure is multiplied by a single per-issuer factor drawn log-uniform$[0.6,1.7]$, which
-preserves the financial-ratio structure used by the benchmark while disrupting exact-figure lookup;
-consumer-facing sectors are screened out. A pre-registered fingerprinting gate probes whether either
-model can name the issuer from the anonymized profile; the sample passes at 2.9\% identification
-($<5\%$ threshold). Each firm is rated across a frozen 12-specification grid (presentation $\times$
-provider $\times$ paraphrase $\times$ format) at three seeds, and the constructed battery is re-scored
-on the identical grid for a matched comparison on the WATCH stratum.
+Agreement across specifications is measured with Fleiss' $\kappa$. Within- and cross-provider agreement
+is computed on matched firm profiles and seeds, and the contrast between homogeneous and heterogeneous
+ensembles is summarized by $\Delta\kappa$ with profile-clustered bootstrap confidence intervals.
+Variation in the full letter-rating rank is decomposed with a mixed-effects model with effects for the
+underlying item, the elicitation-design dimensions, the provider-by-item interaction, and residual
+run-level variation.
 
-\textbf{Reproducibility.} The frozen battery, specification grid, response corpus (12{,}960 records),
-analysis code, and manifest hashes are archived; every confirmatory result regenerates byte-for-byte
-from the raw corpus through a single offline entry point, with no model calls.
+All analyses are pre-registered unless labelled post-hoc, and inference uses distribution-free resampling
+throughout, so no normality assumption is made. Uncertainty for the main quantities is estimated by
+percentile bootstrap resampling over the underlying firm profiles rather than over individual model calls,
+thereby preserving dependence among repeated elicitations of the same profile. The
+investment-grade/high-yield flip rate and the portfolio-turnover estimate use 2{,}000 bootstrap
+replicates, and specification-curve quantities use 1{,}000 replicates where applicable; point estimates
+are reported with two-sided 95\% confidence intervals. Specification invariance under deterministic
+execution is tested on the provider-setting combination whose metadata confirm that temperature was
+honored (Google at temperature 0): the observed between-specification spread in credit-band accuracy is
+compared with the distribution generated by 999 permutations in a one-sided label-permutation test,
+$p=(k{+}1)/(n{+}1)$, where $k$ is the number of permuted statistics at least as extreme as the observed
+statistic and $n=999$. The test is one-sided because only an observed spread larger than the permutation
+distribution constitutes evidence against specification invariance. For the real-firm robustness
+analysis, quantitative equivalence of the real-firm and constructed-battery WATCH-stratum flip shares is
+assessed with two one-sided tests (TOST) against a pre-registered margin of $\pm0.15$, based on 16
+real-firm and 15 constructed WATCH observations. The significance threshold is $\alpha=0.05$ for all
+formal tests. To mitigate the risk of selective reporting within the specification multiverse, we
+pre-registered the estimands and specification grid and report the entire specification curve rather than
+a selected subset. We reserve ``significant'' for results accompanied by a $p$-value and otherwise use
+``substantial'' or ``considerable.''
+
+For the binary IG/HY outcome, the per-comparison flip probability is computed separately for each
+credit-health profile from its observed distribution of ratings across the entire elicitation grid, so
+that two elicitations may differ on any specification dimension or seed. The resulting pair falls on
+opposite sides of the IG/HY boundary with probability equal to one minus the Gini--Simpson concentration
+of the profile's binary labels, and the reported flip rate is the average of this quantity over the 45
+credit-health profiles.
+
+\subsection{Economic translation}
+The economic translations are post-hoc calibrations that express the magnitude of rating instability in
+decision-relevant units; they are not confirmatory tests. Portfolio turnover is computed from the 45
+directional profiles as the share of positions whose modal buy/hold/sell decision changes across
+elicitation specifications. Rating dispersion is transformed into indicative credit-spread variation
+using the rating-spread schedule of Cornaggia et al.\ \cite{cornaggia2018} and a cached daily
+option-adjusted-spread series. For the regulatory-capital illustration, each specification's rating is
+mapped through the Basel CRE20 standardized external-ratings risk-weight schedule \cite{bcbs2019cre20} and
+applied to the same hypothetical \$45 billion equal-weight corporate portfolio, so that the capital range
+reflects only differences in the elicited rating. The comparison with the Basel Regulatory Consistency
+Assessment Programme \cite{bcbs2013rcap} is used only as a magnitude calibration, not as an identity
+between the two settings.
+
+\subsection{Real-firm arm}
+To test the persistence of specification instability outside the constructed battery, we assemble a
+complementary sample of 31 U.S. business-to-business issuers with market capitalizations between \$2
+billion and \$15 billion whose most recent Form 10-K discloses a current long-term agency credit rating.
+S\&P is the primary rating source; where S\&P ratings are unavailable, Moody's or Fitch ratings are
+mapped to a common scale. Each rating is preserved with a verbatim filing quotation, a permanent SEC
+document URL, and a document hash.
+
+Because these figures are publicly reported by real issuers, there is a risk of contamination if a model
+can identify a company. We therefore first perform a pre-registered fingerprinting test in which the
+models are asked to identify issuers from anonymized financial profiles; Gemini-Flash identifies about
+22\% of the selected issuers from the original figures, confirming that removing the company name does not
+guarantee independence from memorized issuer information. To reduce this risk, every dollar-denominated
+quantity for an issuer is multiplied by a single issuer-specific factor sampled from a log-uniform
+distribution over $[0.6,1.7]$. The same factor applies to all monetary amounts, so the credit-health
+analysis retains the financial-ratio structure while losing the ability to look up exact figures. We also
+exclude consumer-facing companies to reduce recognition from highly distinctive public profiles. The
+fingerprint-identification rate falls to 2.9\% after perturbation, below the pre-registered 5\%
+decontamination threshold.
+
+Each decontaminated issuer is then scored on a fixed 12-specification grid spanning presentation,
+provider, prompt paraphrase, and output format, at three seeds, and the constructed battery is re-scored
+under the same grid for a matched comparison on the WATCH stratum. This arm uses disclosed agency ratings
+as a descriptive real-world reference; the primary comparison is stability across specifications.
+
+\subsection{Reproducibility}
+The entire experimental pipeline is archived so that the reported results can be reproduced without
+further model calls. The frozen materials comprise the 90-item battery, the specification grid, the
+prompt templates, the rating scale, the full 12{,}960-record response corpus, the analysis panel, the
+real-firm arm, the analysis code, the generated outputs, and SHA-256 integrity manifests. The complete
+set of confirmatory tables, figures, and reported statistics regenerates from a single offline entry
+point. Provider API credentials are required only to collect new model responses and are not needed to
+reproduce any result reported in this study.
 
 \textbf{Use of generative AI.} Generative AI was used to assist with grammar correction and minor
 language edits of the authors' own text, and with software scaffolding, development, and coding of the
