@@ -14,20 +14,18 @@
 \abstract{Large language models (LLMs) are increasingly prompted for credit assessments, yet it is
 unknown whether the model holds a stable latent view the prompt reads out, or the elicitation
 manufactures the rating. Using a pre-registered specification-curve design---a fixed 90-item battery
-with an objective Altman Z$''$ benchmark, crossed with a factorial grid of elicitation choices
-(provider, model version, temperature, prompt paraphrase, output format, few-shot exemplars, and answer
-presentation) across three model families (12{,}960 elicitations, 10{,}793 returning content)---we
-measure how far a credit rating moves across defensible elicitation choices. The instability is not a
-single tunable knob: no design axis explains more than $\sim$5\% of the rating variance, while
-run-to-run variation explains about a quarter. It is not a temperature artifact: fragility survives
+with an objective Altman Z$''$ benchmark crossed with a factorial grid of elicitation choices
+(provider, model version, temperature, prompt paraphrase, output format, few-shot exemplars,
+presentation) across three model families (12{,}960 elicitations)---we measure how far a credit rating
+moves across defensible choices. The instability is not a single tunable knob: no axis explains more
+than $\sim$5\% of rating variance, while run-to-run variation explains about a quarter. It survives
 honored determinism (permutation $p=0.001$). The opinion holds no stable resolution---chance-corrected
 agreement peaks at only $\kappa=0.46$, even at the coarse investment-grade/high-yield split, across
-which 27\% of matched elicitation pairs disagree. Switching or pooling vendors does not eliminate the
-instability. Economically, the modal call turns over $\sim$57\% of positions across elicitation choices,
-and a post-hoc capital recast swings the same \$45bn book's Pillar-1 capital \$2.0--4.2bn. Substantial
-specification instability is also observed in 31 anonymized, perturbed real issuers benchmarked to
-disclosed agency ratings under a decontamination gate. The elicitation specification is itself a
-model-risk parameter.}
+which 27\% of matched pairs disagree. Switching or pooling vendors does not eliminate it. Economically,
+the modal call turns over $\sim$57\% of positions, and a post-hoc capital recast swings the same \$45bn
+book's Pillar-1 capital \$2.0--4.2bn. Instability also appears in 31 anonymized, perturbed real issuers
+benchmarked to disclosed agency ratings under a decontamination gate. The elicitation specification is
+itself a model-risk parameter.}
 \keywords{large language models, credit ratings, specification-curve analysis, model risk, reproducibility, investment grade}
 \maketitle
 
@@ -384,6 +382,12 @@ on the identical grid for a matched comparison on the WATCH stratum.
 analysis code, and manifest hashes are archived; every confirmatory result regenerates byte-for-byte
 from the raw corpus through a single offline entry point, with no model calls.
 
+\textbf{Use of generative AI.} Large language models are the object of study in this work; every model
+elicitation analyzed is recorded in the specification grid and frozen corpus described above. In
+preparing the manuscript, the authors additionally used a generative AI assistant for drafting, editing,
+and code-review support. The authors verified all content, analyses, and reported numbers, and take full
+responsibility for the work.
+
 \backmatter
 \bmhead{Data availability}
 The frozen item battery, specification grid, prompt templates, complete 12{,}960-response corpus,
@@ -396,15 +400,14 @@ only to re-collect (not to reproduce) and are not distributed.
 All collection, panel-construction, and analysis code is released under the MIT license; a single
 \texttt{reproduce.sh} regenerates every reported number, table, and figure from the frozen data.
 
+\bibliography{references}
+
 \bmhead{Author contributions}
 \textbf{S.C.:} Conceptualization, Methodology, Software, Formal analysis, Data curation, Writing --
 original draft, Writing -- review \& editing. \textbf{R.C.:} Conceptualization, Validation, Writing --
-review \& editing.
+review \& editing. All authors reviewed and approved the manuscript.
 
-\bmhead{Competing interests}
-The authors declare no competing interests.
-
-\bmhead{Funding}
-This research received no external funding.
-\bibliography{references}
+\bmhead{Additional Information}
+\noindent\textbf{Competing interests:} The authors declare no competing interests.\\
+\textbf{Funding:} This research received no external funding.
 \end{document}
