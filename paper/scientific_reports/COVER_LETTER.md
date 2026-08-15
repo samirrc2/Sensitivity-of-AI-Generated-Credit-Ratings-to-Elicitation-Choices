@@ -8,7 +8,7 @@ for consideration as an Article in *Scientific Reports*.
 Large language models are increasingly used as credit, risk, and trading analysts, on the tacit
 assumption that a model holds a stable latent assessment that the prompt merely reads out. We test
 that assumption directly with a **pre-registered specification-curve design**: a fixed 90-item
-firm-profile battery with an objective Altman Z″ benchmark, crossed with a factorial grid of
+firm-profile battery with an objective Altman Z'' benchmark, crossed with a factorial grid of
 defensible elicitation choices (provider, model version, temperature, prompt paraphrase, output
 format, few-shot exemplars, and answer presentation), replicated across seeds and three model
 families (12,960 elicitations). We find that although firm fundamentals explain most rating
