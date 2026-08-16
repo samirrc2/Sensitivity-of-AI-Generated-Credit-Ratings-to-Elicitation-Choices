@@ -1,4 +1,4 @@
-\documentclass[pdflatex,sn-nature]{sn-jnl}
+\documentclass[pdflatex,sn-nature,lineno]{sn-jnl}
 \usepackage{graphicx}
 \usepackage{multirow}
 \usepackage{amsmath,amssymb,amsfonts}
@@ -195,9 +195,10 @@ full snapshot coverage therefore use the OpenAI and Google model families, while
 require balanced historical coverage retain the available xAI observations.
 
 \subsection{Sources of rating variation}
-We first consider the source of variation in the machine-generated credit rating. A mixed-effects
-decomposition of the full letter-rating rank attributes variance to the firm profile, individual
-elicitation-design axes, the provider-by-item interaction, and residual run-to-run variation.
+We first consider the source of variation in the machine-generated credit rating. An
+analysis-of-variance decomposition of the full letter-rating rank (ordinary least squares with Type-II
+sums of squares) attributes variance to the firm profile, individual elicitation-design axes, the
+provider-by-item interaction, and residual run-to-run variation.
 
 As expected, the firm profile explains most of the observed variance, about 63\%, indicating that the
 models respond strongly to differences in the underlying financial information. But the remaining
@@ -232,8 +233,8 @@ share $\approx0.50$)---the multiverse the method is named for.}
 \end{figure}
 
 \begin{table}[t]\centering
-\caption{Variance shares of the machine credit letter-rank (mixed-effects). Every controllable design
-choice is small relative to run-to-run noise.}\label{tab:var}
+\caption{Variance shares of the machine credit letter-rank (OLS decomposition with Type-II ANOVA). Every
+controllable design choice is small relative to run-to-run noise.}\label{tab:var}
 \begin{tabular}{lr}\toprule
 Component & Variance share \\\midrule
 Item (firm profile) & $\sim$63\% \\
@@ -358,7 +359,8 @@ post-hoc calibrations rather than confirmatory tests, they indicate that the mag
 specification-induced rating dispersion is economically non-trivial (Table~\ref{tab:frag}).
 
 \begin{table}[t]\centering
-\caption{Fragility in decision and economic units.}\label{tab:frag}
+\caption{Fragility in decision and economic units. Parenthetical values are 95\% confidence intervals
+(issuer-clustered percentile bootstrap).}\label{tab:frag}
 \begin{tabular}{lr}\toprule
 Quantity & Result \\\midrule
 Specifications flipping majority credit \emph{band} verdict (pooled / determ.) & $\sim$50\% / 62.5\% \\
@@ -403,7 +405,8 @@ small to determine whether that difference is a stable population difference. As
 reference, machine-generated credit bands match the disclosed agency ratings about 54\% of the time.
 
 \begin{table}[t]\centering
-\caption{Real-firm arm: 31 decontaminated business-to-business issuers, agency-rating benchmark.}
+\caption{Real-firm arm: 31 decontaminated business-to-business issuers, agency-rating benchmark.
+Parenthetical values are 95\% confidence intervals (issuer-clustered percentile bootstrap).}
 \label{tab:realarm}
 \begin{tabular}{lr}\toprule
 Quantity & Result \\\midrule
@@ -465,8 +468,7 @@ evaluating its sensitivity to plausible specifications can convey a false sense 
 elicitation, related stability diagnostics, or specification curves therefore provide a more informative
 representation of machine-generated credit opinions than a single prompted response.
 
-\subsection{Limitations}
-These findings have several limitations that bound their scope. First, the study considers three model
+\noindent\textbf{Limitations.} These findings have several limitations that bound their scope. First, the study considers three model
 families and the specific model snapshots and configurations included in the pre-registered design; the
 results should therefore be viewed as evidence of how the evaluated systems behave, not as a universal
 numerical estimate for all current or future LLMs. One earlier-version xAI snapshot returned no usable
@@ -496,8 +498,7 @@ intended as simulations of a real regulatory or institutional implementation. Wi
 main stability finding is robust across the specification curve, the deterministic subgrid, the provider
 comparison, the rating-resolution analysis, and the decontaminated real-firm arm.
 
-\subsection{Future work}
-The present design suggests several extensions. Larger and sector-stratified real-issuer samples would
+\noindent\textbf{Future directions.} The present design suggests several extensions. Larger and sector-stratified real-issuer samples would
 yield more precise estimates of how specification instability varies with firm characteristics and
 distance from rating boundaries. Similar designs could test retrieval-augmented or tool-using credit
 agents, where access to external information may reduce some forms of uncertainty while adding further
@@ -509,8 +510,7 @@ ostensibly anonymized case remains identifiable, in tasks such as risk assessmen
 recommendation, and supervisory analysis, may help separate independent reasoning from memorized entity
 knowledge.
 
-\section{Conclusion}
-This study shows that reproducibility in AI-assisted credit assessment cannot be taken for granted from a
+Overall, reproducibility in AI-assisted credit assessment cannot be taken for granted from a
 single elicitation. Across a pre-registered specification curve, firm fundamentals explain most of the
 total variation in machine-generated ratings, but substantial specification- and run-level instability
 remains after controlling for the underlying financial information. No single controllable elicitation
@@ -585,9 +585,9 @@ additional model calls.
 Agreement across specifications is measured with Fleiss' $\kappa$. Within- and cross-provider agreement
 is computed on matched firm profiles and seeds, and the contrast between homogeneous and heterogeneous
 ensembles is summarized by $\Delta\kappa$ with profile-clustered bootstrap confidence intervals.
-Variation in the full letter-rating rank is decomposed with a mixed-effects model with effects for the
-underlying item, the elicitation-design dimensions, the provider-by-item interaction, and residual
-run-level variation.
+Variation in the full letter-rating rank is decomposed by ordinary least squares with Type-II analysis
+of variance, with terms for the underlying item, the elicitation-design dimensions, the
+provider-by-item interaction, and residual run-level variation.
 
 All analyses are pre-registered unless labelled post-hoc, and inference uses distribution-free resampling
 throughout, so no normality assumption is made. Uncertainty for the main quantities is estimated by
@@ -673,7 +673,7 @@ frozen corpus. The authors reviewed and verified all such output and take full r
 content.
 
 \backmatter
-\bmhead{Data availability}
+\bmhead{Data Availability}
 All data and code required to reproduce the study are openly available in a deterministic, offline
 reproducibility capsule archived on Zenodo (\url{https://doi.org/10.5281/zenodo.21953935}; MIT license),
 mirrored in the source repository at \url{https://github.com/samirrc2/Sensitivity-of-AI-Generated-Credit-Ratings-to-Elicitation-Choices}. Within the capsule, the
@@ -714,6 +714,6 @@ only synthetic firm profiles, publicly available corporate financial disclosures
 authors' own model elicitations.
 
 \bmhead{Additional Information}
-\noindent\textbf{Competing interests:} The authors declare no competing interests.\\
+\noindent\textbf{Competing interests:} S.C. and R.C. each declare no competing interests.\\
 \textbf{Funding:} This research received no external funding.
 \end{document}
